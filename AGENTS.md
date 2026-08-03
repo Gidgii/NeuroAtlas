@@ -8,7 +8,7 @@ Repository automation is implemented in `launcher.py`, `project_manager.py`, and
 
 ## Build, Test, and Development Commands
 
-- `python -m venv .venv` creates a local environment.
+- `python -m venv .venv` creates a local environment. 
 - `.venv\Scripts\pip install -e ".[dev]"` installs the CLI and development tools.
 - `python -m http.server 8080 --directory app` serves the PWA at `http://localhost:8080`; do not test service workers through `file://`.
 - `python launcher.py validate --no-update-state` checks repository structure and content without rewriting project state.
