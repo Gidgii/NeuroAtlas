@@ -195,3 +195,20 @@ v1.1.0 next 5
 ### Safety
 - Distinguished focal lesions, disconnection syndromes and distributed network dysfunction; qualified
   laterality and vascular inference; and rejected deterministic one-lesion-one-symptom mapping.
+
+## 2.13.0 — 2026-08-03
+
+### Added
+- Integrated Whole-Brain Explorer and Capstone as the 25th and final planned Interactive Anatomy structure.
+- A dedicated accessible whole-brain illustration, fourteen integrated domains, four comparison modes,
+  four clinical overlays, four-question quiz bank and spaced-review metadata.
+- Data-driven destination controls covering every previously completed Interactive Anatomy structure.
+
+### Changed
+- Advanced the application, Python package, curriculum and offline cache to version 2.13.0.
+- Marked the Interactive Anatomy roadmap complete after all 25 structures passed static validation.
+- Extended the canonical explorer with optional structure destinations that reuse existing application navigation.
+
+### Safety
+- Preserved distributed-network, pathway, laterality, vascular, developmental and clinical-context qualifications;
+  overlay convergence is explicitly framed as hypothesis support rather than diagnosis or causal proof.

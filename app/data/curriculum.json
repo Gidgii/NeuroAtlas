@@ -1,5 +1,5 @@
 {
-  "version": "2.12.0",
+  "version": "2.13.0",
   "levels": [
     {
       "id": 1,
@@ -8594,6 +8594,27 @@
         "options": ["Symptoms and lesions have many-to-many relationships shaped by pathways, networks and individual context", "Every symptom has one necessary cortical centre", "Laterality does not influence function", "Only lesion volume matters"],
         "answer": 0,
         "rationale": "A lesion can disturb several connected functions, while the same symptom can arise from different nodes, tracts or physiological mechanisms."
+      }
+    },
+    {
+      "id": "integrated-whole-brain-explorer-and-capstone",
+      "level": 29,
+      "order": 38,
+      "title": "Integrated Whole-Brain Explorer and Capstone",
+      "subtitle": "Integrate and navigate the complete Interactive Anatomy atlas from one whole-brain entry point",
+      "hero": "integrated-whole-brain-explorer-and-capstone.svg",
+      "simple": "The brain works as one connected system. Choose a domain, add an overlay and open any completed detailed anatomy structure.",
+      "psych": "Cognition, emotion and behaviour depend on cortical, subcortical, cerebellar and brainstem interactions linked by fibres, networks and vascular supply.",
+      "advanced": "Integrated localisation combines tissue compartment, laterality, tract course, network topology, vascular distribution, lesion mechanism and temporal context.",
+      "analogy": "A city map can layer neighbourhoods, rail lines, utilities, traffic zones and disruptions on one shared base.",
+      "care": "The capstone links clinical findings to plausible systems while preserving differential diagnosis, reserve, development and psychosocial context.",
+      "wrong": "Focal injury can disconnect pathways and alter remote nodes; distributed disease can cross structures, territories and networks.",
+      "pearl": "Ask where, which fibres, which networks, which mechanism and what evidence could disconfirm the hypothesis.",
+      "quiz": {
+        "question": "What is the best first step when using the integrated explorer for a new clinical pattern?",
+        "options": ["Orient to the whole-brain pattern and time course before narrowing by laterality, pathway, network and mechanism", "Choose the single region most associated with one symptom", "Assume the largest overlay is causal", "Ignore normal variation"],
+        "answer": 0,
+        "rationale": "Broad orientation prevents premature localisation and supports structured comparison of sites, pathways, networks and mechanisms."
       }
     }
   ]

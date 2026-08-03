@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Integrated whole-brain explorer and capstone</title>
+  <desc id="desc">Chalkboard-style bilateral brain with cortex, deep nuclei, ventricles, white-matter pathways, brainstem, cerebellum, vascular territories, functional networks and a lesion marker integrated into one labelled overview.</desc>
+  <rect width="1200" height="700" rx="28" fill="#071012"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M173 336C121 206 235 86 404 91c82 2 145 39 196 100 51-61 114-98 196-100 169-5 283 115 231 245-22 55-70 91-132 107-41 83-126 124-229 109l-66 81-66-81c-103 15-188-26-229-109-62-16-110-52-132-107Z" fill="#102326" stroke="#50f1d2" stroke-width="8"/>
+    <path d="M600 191v337M246 242c74-67 186-83 284-26M670 216c98-57 210-41 284 26M228 329c91-47 201-46 304 1M668 330c103-47 213-48 304-1" stroke="#8cf7e2" stroke-width="5" opacity=".75"/>
+    <ellipse cx="510" cy="345" rx="56" ry="38" fill="#ffd166" stroke="#ffe29a" stroke-width="5"/>
+    <ellipse cx="690" cy="345" rx="56" ry="38" fill="#ff79c6" stroke="#ffb1dc" stroke-width="5"/>
+    <path d="M557 332q43-48 86 0q-43 57-86 0Z" fill="#0b1618" stroke="#69a7ff" stroke-width="5"/>
+    <path d="M600 440v113c0 38 20 62 45 76" stroke="#ffd166" stroke-width="28"/>
+    <path d="M607 512c58-32 127-17 155 30 27 46-12 93-94 89-36-2-60-16-68-38" fill="#4b2760" stroke="#ff79c6" stroke-width="7"/>
+    <path d="M377 155C477 242 510 397 600 497M823 155C723 242 690 397 600 497M286 397c130-8 222 36 314 100M914 397c-130-8-222 36-314 100" stroke="#69a7ff" stroke-width="8" stroke-dasharray="18 13"/>
+    <path d="M250 181c78 29 120 72 149 129M950 181c-78 29-120 72-149 129" stroke="#ff6b6b" stroke-width="12" opacity=".85"/>
+    <path d="M337 442c25-105 106-186 209-216M863 442c-25-105-106-186-209-216" stroke="#ffd166" stroke-width="6" stroke-dasharray="10 12"/>
+    <circle cx="797" cy="285" r="30" fill="#ff6b6b" opacity=".82" stroke="#fff" stroke-width="4"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-weight="700" fill="#eaf7f5">
+    <text x="55" y="58" font-size="30">INTEGRATED WHOLE-BRAIN EXPLORER</text>
+    <text x="65" y="175" font-size="22" fill="#50f1d2">CORTEX</text><text x="450" y="405" font-size="20" fill="#ffd166">DEEP NUCLEI</text>
+    <text x="625" y="676" font-size="20" fill="#ffd166">BRAINSTEM + CEREBELLUM</text>
+    <text x="827" y="470" font-size="20" fill="#69a7ff">WHITE MATTER</text><text x="932" y="151" font-size="20" fill="#ff6b6b">VASCULAR</text>
+    <text x="61" y="520" font-size="20" fill="#ffd166">FUNCTIONAL NETWORK</text><text x="822" y="278" font-size="20" fill="#ff8c8c">LESION</text>
+    <text x="457" y="118" font-size="18">LEFT</text><text x="690" y="118" font-size="18">RIGHT</text>
+  </g>
+</svg>
