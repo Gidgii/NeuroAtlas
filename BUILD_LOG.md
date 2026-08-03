@@ -148,8 +148,9 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
   offline caching; retained `lesion-and-symptom-mapping` as the authorised next concept.
 - Extended the canonical explorer with safe optional comparison-mode buttons and accessible pressed state.
 - Ten repository validations, 266-file JSON parsing and JavaScript/Python syntax checks passed.
-- In-app browser checks passed for rendering, comparison selection, overlays, overview reset, bookmark,
-  quiz scoring, detail-metadata search and captured console errors. Offline-network reload, mobile viewport,
-  reduced-motion media emulation and reproducible committed browser automation were not run.
+- Manual in-app browser checks were reported for rendering, comparison selection, overlays, overview reset,
+  bookmark, quiz scoring, detail-metadata search and captured console errors. These reports are not independently
+  reproducible because no committed harness, execution transcript, screenshots or per-check artifacts are available.
+  Offline-network reload, mobile viewport and reduced-motion media emulation were not run.
 - Healthy Versus Pathology Comparison is the 23rd implemented structure. Interactive Anatomy remains in
   progress; Lesion and Symptom Mapping and the Integrated Whole-Brain Explorer and Capstone remain.

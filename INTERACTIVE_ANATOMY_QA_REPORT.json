@@ -3,7 +3,7 @@
   "build": "35 — Healthy Versus Pathology Comparison",
   "phase": "Interactive Anatomy Atlas",
   "generatedDate": "2026-08-03",
-  "status": "PASS — static validation and documented in-app browser checks passed",
+  "status": "PARTIAL — static validation passed; reported manual browser testing is not independently reproducible",
   "verifiedRegisteredStructures": 23,
   "canonicalSchemaVersion": "1.0.0",
   "structuresAdded": ["healthy-versus-pathology-comparison"],
@@ -21,11 +21,11 @@
     "checks": {"jsonValidity": "PASS", "uniqueCurriculumIds": "PASS", "uniqueLevelOrderPairs": "PASS", "fileIdAlignment": "PASS", "loaderRegistration": "PASS", "curriculumRegistration": "PASS", "navigationLinkage": "PASS", "assetPaths": "PASS", "serviceWorkerCoverage": "PASS", "serviceWorkerDuplicates": "PASS", "quizCoverageAndRationales": "PASS", "canonicalSchemaCompliance": "PASS", "searchMetadata": "PASS", "bookmarkCompatibility": "PASS", "progressTracking": "PASS", "spacedRepetition": "PASS", "accessibilityMetadata": "PASS", "reducedMotionSupport": "PASS", "javascriptSyntax": "PASS", "pythonSyntax": "PASS"}
   },
   "runtimeValidation": {
-    "status": "PASS — MANUAL IN-APP BROWSER",
+    "status": "REPORTED, NOT INDEPENDENTLY REPRODUCIBLE",
     "automatedBrowserTests": "NOT COMMITTED",
     "testedOrigin": "http://127.0.0.1:8081/",
-    "checks": ["Build 35 curriculum card and concept route", "six selectable comparison domains", "healthy/pathology toggle and pressed state", "four clinical overlays", "return to overview", "sequence control presence", "bookmark toggle", "quiz scoring and rationale", "detail searchTerms result", "console warning/error capture"],
-    "limitations": ["No committed repeatable browser harness is available.", "Offline-network reload, mobile viewport and reduced-motion media emulation were not run.", "Keyboard support was verified structurally through native buttons and accessibility metadata, but synthetic keyboard activation was not accepted as runtime evidence."]
+    "reportedChecks": ["Build 35 curriculum card and concept route", "six selectable comparison domains", "healthy/pathology toggle and pressed state", "four clinical overlays", "return to overview", "sequence control presence", "bookmark toggle", "quiz scoring and rationale", "detail searchTerms result", "console warning/error capture"],
+    "limitations": ["No committed repeatable browser harness, execution transcript, screenshots or per-check artifacts are available for independent reproduction.", "The reported manual checks are not recorded as runtime PASS evidence.", "Offline-network reload, mobile viewport and reduced-motion media emulation were not run.", "Keyboard support was verified structurally through native buttons and accessibility metadata, but synthetic keyboard activation was not accepted as runtime evidence."]
   },
   "defectsFound": [],
   "repairsCompleted": ["Added healthy-versus-pathology-comparison as canonical Interactive Anatomy structure 36.", "Added a structure-specific accessible SVG illustration.", "Registered curriculum, loader, navigation, search, quiz, review and offline-cache integration.", "Added optional comparison-mode controls with safe absence handling, keyboard-native buttons and accessible pressed state."],

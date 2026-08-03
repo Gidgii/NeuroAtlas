@@ -203,7 +203,7 @@
     ],
     "structuresMigrated": 0,
     "verifiedRegisteredStructures": 23,
-    "qa": "PASS — static validation and documented in-app browser checks passed"
+    "qa": "STATIC PASS — manual browser checks reported but not independently reproducible"
   },
   "neurofeedback": {
     "status": "complete",
@@ -340,7 +340,7 @@
       "ventricular-system-atlas"
     ],
     "nextStructure": "lesion-and-symptom-mapping",
-    "qaStatus": "PASS — 23 canonical registrations validated; Build 35 in-app browser checks passed",
+    "qaStatus": "STATIC PASS — 23 canonical registrations validated; Build 35 manual browser checks reported but not independently reproducible",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   }
 }
