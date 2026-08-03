@@ -122,3 +122,21 @@ def test_generic_explorer_has_safe_empty_and_optional_stage_guards():
     assert "if(!stage){finish();return}" in source
     assert "prefers-reduced-motion: reduce" in source
     assert "aria-live=\"polite\"" in source
+
+
+def test_build_35_comparison_is_complete_and_optional_runtime_is_safe():
+    record = detail("healthy-versus-pathology-comparison")
+    assert record["previousConcept"] == "brain-lateralisation-comparison"
+    assert record["nextConcept"] == "lesion-and-symptom-mapping"
+    assert len(record["quiz"]) >= 3
+    assert record["searchTerms"]
+    assert record["spacedRepetition"]["reviewPrompt"]
+    assert record["accessibility"]["reducedMotion"] is True
+    assert record["explorer"]["comparisonModes"] == [
+        {"id": "healthy", "label": "Healthy variation", "part": "variation"},
+        {"id": "pathology", "label": "Pathology patterns", "part": "structural"},
+    ]
+    source = (APP / "system-explorer.js").read_text(encoding="utf-8")
+    assert "details.explorer?.comparisonModes" in source
+    assert 'aria-label="Healthy and pathology comparison"' in source
+    assert "data-system-comparison" in source

@@ -137,3 +137,20 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
 - Brain Lateralisation is the 22nd implemented structure. Interactive Anatomy remains in progress;
   Healthy versus Pathology Comparison, Lesion and Symptom Mapping, and the Integrated Whole-Brain
   Explorer and Capstone remain on the roadmap.
+
+## Build 35 — Healthy Versus Pathology Comparison (v2.11.0) — 2026-08-03
+- Added `healthy-versus-pathology-comparison` as Level 29 structure 36 using canonical explorer schema 1.0.0.
+- Distinguished healthy variation, dysfunction, injury and disorder across structural, functional,
+  developmental, vascular and degenerative examples without treating imaging as diagnostic by itself.
+- Added a dedicated accessible whole-brain comparison SVG, six selectable comparison domains, optional
+  healthy/pathology toggle, four clinical overlays, four-question quiz bank and spaced-review metadata.
+- Integrated curriculum, loader, bidirectional navigation, search, bookmarks, progress, quiz, review and
+  offline caching; retained `lesion-and-symptom-mapping` as the authorised next concept.
+- Extended the canonical explorer with safe optional comparison-mode buttons and accessible pressed state.
+- Ten repository validations, 266-file JSON parsing and JavaScript/Python syntax checks passed.
+- Manual in-app browser checks were reported for rendering, comparison selection, overlays, overview reset,
+  bookmark, quiz scoring, detail-metadata search and captured console errors. These reports are not independently
+  reproducible because no committed harness, execution transcript, screenshots or per-check artifacts are available.
+  Offline-network reload, mobile viewport and reduced-motion media emulation were not run.
+- Healthy Versus Pathology Comparison is the 23rd implemented structure. Interactive Anatomy remains in
+  progress; Lesion and Symptom Mapping and the Integrated Whole-Brain Explorer and Capstone remain.

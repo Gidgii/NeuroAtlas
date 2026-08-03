@@ -25,7 +25,7 @@
   "altText": "Chalkboard-style paired cerebral hemispheres linked by the corpus callosum, with language, attention, prosody, motor and visual-field networks shown as overlapping rather than isolated systems.",
   "prerequisites": ["arterial-territories-stroke-comparison", "brain-lateralisation"],
   "previousConcept": "arterial-territories-stroke-comparison",
-  "nextConcept": null,
+  "nextConcept": "healthy-versus-pathology-comparison",
   "tags": [
     "interactive anatomy",
     "hemispheric lateralisation",
