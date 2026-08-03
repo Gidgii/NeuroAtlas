@@ -1,0 +1,185 @@
+{
+  "id": "visual-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Visual System.",
+    "Explain how the Visual System contributes to sensation, regulation or behaviour.",
+    "Connect Visual System function with clinically relevant symptoms.",
+    "Use lesion patterns and phenomenology cautiously rather than relying on one-to-one explanations."
+  ],
+  "anatomy": [
+    {
+      "id": "retina",
+      "label": "Retina",
+      "short": "Transduces light into neural signals",
+      "detail": "Photoreceptors and retinal circuits encode contrast, colour and timing.",
+      "clinical": "Retinal disease can mimic central visual dysfunction."
+    },
+    {
+      "id": "chiasm",
+      "label": "Optic chiasm",
+      "short": "Partial fibre crossing",
+      "detail": "Nasal retinal fibres cross to preserve contralateral hemifield mapping.",
+      "clinical": "Compression classically causes bitemporal field loss."
+    },
+    {
+      "id": "lgn",
+      "label": "Lateral geniculate nucleus",
+      "short": "Thalamic visual relay",
+      "detail": "Organises retinal input before cortex.",
+      "clinical": "Lesions can produce contralateral field deficits."
+    },
+    {
+      "id": "v1",
+      "label": "Primary visual cortex",
+      "short": "Early cortical feature map",
+      "detail": "Represents edges, orientation and retinotopic position.",
+      "clinical": "Occipital lesions can cause homonymous field loss."
+    },
+    {
+      "id": "streams",
+      "label": "Dorsal and ventral streams",
+      "short": "Where/how and what pathways",
+      "detail": "Dorsal circuits guide action; ventral circuits support recognition.",
+      "clinical": "Damage can cause optic ataxia or visual agnosia."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Visual System",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "retina",
+        "label": "Retina",
+        "description": "Photoreceptors and retinal circuits encode contrast, colour and timing."
+      },
+      {
+        "id": "chiasm",
+        "label": "Optic chiasm",
+        "description": "Nasal retinal fibres cross to preserve contralateral hemifield mapping."
+      },
+      {
+        "id": "lgn",
+        "label": "Lateral geniculate nucleus",
+        "description": "Organises retinal input before cortex."
+      },
+      {
+        "id": "v1",
+        "label": "Primary visual cortex",
+        "description": "Represents edges, orientation and retinotopic position."
+      },
+      {
+        "id": "streams",
+        "label": "Dorsal and ventral streams",
+        "description": "Dorsal circuits guide action; ventral circuits support recognition."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "visual-system-q1",
+      "question": "Which component is best described as: Transduces light into neural signals?",
+      "options": [
+        "Retina",
+        "Optic chiasm",
+        "Lateral geniculate nucleus",
+        "Primary visual cortex"
+      ],
+      "answer": 0,
+      "explanation": "Photoreceptors and retinal circuits encode contrast, colour and timing."
+    },
+    {
+      "id": "visual-system-q2",
+      "question": "Which component is best described as: Partial fibre crossing?",
+      "options": [
+        "Optic chiasm",
+        "Retina",
+        "Lateral geniculate nucleus",
+        "Primary visual cortex"
+      ],
+      "answer": 0,
+      "explanation": "Nasal retinal fibres cross to preserve contralateral hemifield mapping."
+    },
+    {
+      "id": "visual-system-q3",
+      "question": "Which component is best described as: Thalamic visual relay?",
+      "options": [
+        "Lateral geniculate nucleus",
+        "Retina",
+        "Optic chiasm",
+        "Primary visual cortex"
+      ],
+      "answer": 0,
+      "explanation": "Organises retinal input before cortex."
+    },
+    {
+      "id": "visual-system-q4",
+      "question": "Which component is best described as: Early cortical feature map?",
+      "options": [
+        "Primary visual cortex",
+        "Retina",
+        "Optic chiasm",
+        "Lateral geniculate nucleus"
+      ],
+      "answer": 0,
+      "explanation": "Represents edges, orientation and retinotopic position."
+    },
+    {
+      "id": "visual-system-q5",
+      "question": "Which component is best described as: Where/how and what pathways?",
+      "options": [
+        "Dorsal and ventral streams",
+        "Retina",
+        "Optic chiasm",
+        "Lateral geniculate nucleus"
+      ],
+      "answer": 0,
+      "explanation": "Dorsal circuits guide action; ventral circuits support recognition."
+    }
+  ],
+  "tags": [
+    "vision",
+    "retina",
+    "optic chiasm",
+    "LGN",
+    "visual cortex",
+    "dorsal stream",
+    "ventral stream",
+    "neglect"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Visual System.",
+      "Explain one clinically relevant function of the Visual System.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Kandel et al.",
+      "year": "2021",
+      "title": "Principles of Neural Science, 6th ed.",
+      "source": "McGraw-Hill",
+      "citation": "Kandel et al., 2021. Principles of Neural Science, 6th ed.. McGraw-Hill."
+    },
+    {
+      "authors": "Goodale & Milner",
+      "year": "1992",
+      "title": "Separate visual pathways for perception and action",
+      "source": "Trends in Neurosciences",
+      "citation": "Goodale & Milner, 1992. Separate visual pathways for perception and action. Trends in Neurosciences."
+    },
+    {
+      "authors": "Wandell et al.",
+      "year": "2007",
+      "title": "Visual field maps in human cortex",
+      "source": "Neuron",
+      "citation": "Wandell et al., 2007. Visual field maps in human cortex. Neuron."
+    }
+  ]
+}

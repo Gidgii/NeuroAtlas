@@ -1,0 +1,106 @@
+{
+  "id": "communication-disorders-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate language, speech and social communication disorders.",
+    "Describe distributed neural systems supporting communication.",
+    "Recognise overlap with autism, ADHD and learning disorders.",
+    "Identify urgent acquired-language red flags."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Presenting pattern",
+      "detail": "Define the functional difficulty, context, onset and time course before inferring mechanism."
+    },
+    {
+      "label": "Candidate systems",
+      "detail": "Map plausible cellular, circuit, cognitive and environmental contributors."
+    },
+    {
+      "label": "Differential test",
+      "detail": "Compare alternatives, comorbidity and medical red flags using converging evidence."
+    },
+    {
+      "label": "Clinical action",
+      "detail": "Select the explanation that best guides safe, proportionate assessment and intervention."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the clinical reasoning sequence, then retrieve the key distinction without looking back.",
+    "signalSteps": [
+      "Name the observed pattern precisely.",
+      "Identify the most plausible neural and cognitive systems.",
+      "Check developmental history, context and competing explanations.",
+      "Choose a formulation that guides action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Bilingualism and developmental language disorder are best understood as:",
+      "options": [
+        "Bilingualism does not cause the disorder; difficulty should be evident relative to exposure across languages",
+        "Any second language causes delay",
+        "Only English testing is needed",
+        "Bilingual children cannot be assessed"
+      ],
+      "answer": 0,
+      "explanation": "Language disorder is not caused by bilingualism and must be judged against appropriate exposure in each language."
+    },
+    {
+      "question": "Childhood apraxia of speech primarily concerns:",
+      "options": [
+        "Planning and programming speech movements",
+        "Understanding all language",
+        "Hearing loss alone",
+        "Intentional refusal to speak"
+      ],
+      "answer": 0,
+      "explanation": "Apraxia affects the planning/programming of speech sequences rather than willingness to communicate."
+    },
+    {
+      "question": "Which presentation is most urgent?",
+      "options": [
+        "Sudden new aphasia with facial weakness",
+        "Longstanding grammatical difficulty",
+        "Stable articulation errors",
+        "Slow vocabulary growth"
+      ],
+      "answer": 0,
+      "explanation": "Abrupt focal language change can indicate stroke or another acute neurological event."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "A child who cannot formulate language efficiently may look inattentive, oppositional or socially awkward when the primary bottleneck is communication."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Network development is shaped by genetic liability, auditory-linguistic exposure, motor planning and social interaction. There is no single “language centre” or diagnostic scan. Profiles are often uneven and overlap with ADHD, autism, dyslexia, hearing impairment and intellectual disability. Bilingualism does not cause language disorder; impairment should be evident across the child’s languages relative to exposure."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "New aphasia, facial weakness, dysarthria or abrupt speech change requires urgent neurological assessment. Persistent communication difficulty should not be attributed to bilingualism without evidence across languages."
+    }
+  ],
+  "tags": [
+    "developmental language disorder",
+    "speech sound disorder",
+    "childhood apraxia",
+    "social communication",
+    "language networks"
+  ],
+  "references": [
+    {
+      "citation": "Bishop DVM, et al. Phase 2 of CATALISE: terminology. J Child Psychol Psychiatry. 2017;58:1068–1080.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1111/jcpp.12721"
+    },
+    {
+      "citation": "Fedorenko E, Thompson-Schill SL. Reworking the language network. Trends Cogn Sci. 2014;18:120–126.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/j.tics.2013.12.006"
+    }
+  ]
+}

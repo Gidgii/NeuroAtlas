@@ -1,0 +1,156 @@
+{
+  "id": "neuronal-migration",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the developmental sequence underlying neuronal migration.",
+    "Identify the principal cells, structures and signals involved in neuronal migration.",
+    "Connect neuronal migration to later cognition and behaviour.",
+    "Interpret clinical findings without treating development as deterministic."
+  ],
+  "anatomy": [
+    {
+      "id": "ventricular-zone",
+      "label": "Ventricular zone",
+      "short": "Major proliferative birthplace",
+      "detail": "Many cortical projection neurons are generated near the ventricular surface.",
+      "clinical": "Abnormal proliferation or departure can affect both cell number and placement."
+    },
+    {
+      "id": "radial-glia",
+      "label": "Radial glia",
+      "short": "Scaffold and progenitor population",
+      "detail": "Radial glial fibres span the developing wall and guide migrating neurons.",
+      "clinical": "Radial glia are active developmental organisers, not merely support cells."
+    },
+    {
+      "id": "radial",
+      "label": "Radial migration",
+      "short": "Outward movement toward the cortical plate",
+      "detail": "Projection neurons travel outward, pause and settle into emerging layers.",
+      "clinical": "Errors can create ectopic neurons or abnormal cortical thickness."
+    },
+    {
+      "id": "tangential",
+      "label": "Tangential migration",
+      "short": "Long-range movement across the developing forebrain",
+      "detail": "Many interneurons migrate from ventral origins into the cortex.",
+      "clinical": "Excitatory–inhibitory balance depends partly on successful interneuron migration."
+    },
+    {
+      "id": "cortical-plate",
+      "label": "Cortical plate",
+      "short": "Destination where layers assemble",
+      "detail": "Neurons stop migrating and mature within layer-specific networks.",
+      "clinical": "Final laminar position shapes inputs, outputs and developmental vulnerability."
+    }
+  ],
+  "interaction": {
+    "title": "Neuronal Migration sequence",
+    "instruction": "Select a component, then run the sequence to follow development over time.",
+    "ariaLabel": "Interactive neuronal migration model",
+    "stages": [
+      {
+        "label": "Generate",
+        "text": "Progenitors produce immature neurons."
+      },
+      {
+        "label": "Attach",
+        "text": "Migrating cells engage guidance scaffolds and cues."
+      },
+      {
+        "label": "Travel",
+        "text": "Neurons move radially or tangentially."
+      },
+      {
+        "label": "Settle",
+        "text": "Cells stop in layer- and region-appropriate positions."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Radial glia are important because they:",
+      "options": [
+        "Act as progenitors and migration scaffolds",
+        "Form adult skull bone",
+        "Carry hormones in blood",
+        "Generate cerebrospinal fluid only"
+      ],
+      "answer": 0,
+      "explanation": "Radial glia both produce cells and guide migration."
+    },
+    {
+      "question": "Many cortical projection neurons migrate in an:",
+      "options": [
+        "Inside-out sequence",
+        "Outside-in sequence only",
+        "Unpatterned random sequence",
+        "Adult-onset sequence"
+      ],
+      "answer": 0,
+      "explanation": "Earlier-born neurons settle deeper; later-born neurons migrate past them to more superficial layers."
+    },
+    {
+      "question": "Many cortical interneurons reach the cortex through:",
+      "options": [
+        "Tangential migration",
+        "Ventricular pumping",
+        "Saltatory conduction",
+        "Axonal pruning"
+      ],
+      "answer": 0,
+      "explanation": "Interneurons commonly migrate tangentially from ventral progenitor regions."
+    },
+    {
+      "question": "Neuronal heterotopia means:",
+      "options": [
+        "Neurons are located where they should not be",
+        "All neurons are absent",
+        "Myelin is excessive",
+        "The skull closes too early"
+      ],
+      "answer": 0,
+      "explanation": "Heterotopia is ectopic neuronal placement due to disrupted migration."
+    },
+    {
+      "question": "Why is neuronal position clinically important?",
+      "options": [
+        "Layer and region determine connectivity opportunities",
+        "All neurons function identically anywhere",
+        "Position matters only for blood supply",
+        "Migration ends after adulthood"
+      ],
+      "answer": 0,
+      "explanation": "Location constrains which inputs and outputs a neuron can form."
+    }
+  ],
+  "tags": [
+    "neuronal migration",
+    "radial glia",
+    "cortical layers",
+    "interneurons",
+    "heterotopia",
+    "lissencephaly"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "Radial glia are important because they:",
+      "Many cortical projection neurons migrate in an:",
+      "Many cortical interneurons reach the cortex through:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Stiles J, Jernigan TL. The basics of brain development. Neuropsychology Review. 2010;20:327–348.",
+      "url": "https://doi.org/10.1007/s11065-010-9148-4"
+    },
+    {
+      "type": "Review",
+      "citation": "Silbereis JC et al. The cellular and molecular landscapes of the developing human central nervous system. Neuron. 2016;89:248–268.",
+      "url": "https://doi.org/10.1016/j.neuron.2015.12.008"
+    }
+  ]
+}

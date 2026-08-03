@@ -1,0 +1,269 @@
+{
+  "id": "neurotransmitter-pathways-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 32,
+  "level": 29,
+  "title": "Neurotransmitter Pathways Atlas",
+  "subtitle": "Trace major monoaminergic, cholinergic and amino-acid signalling systems",
+  "pronunciation": "NYUR-oh-trans-mit-er PATH-ways",
+  "hero": "neurotransmitter-pathways-atlas.svg",
+  "altText": "Interactive chalkboard-style anatomical map of Neurotransmitter Pathways Atlas with selectable regions and pathways.",
+  "prerequisites": [
+    "major-white-matter-pathways-atlas"
+  ],
+  "previousConcept": "major-white-matter-pathways-atlas",
+  "nextConcept": "functional-network-overlay-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "arousal",
+    "attention",
+    "mood regulation",
+    "reward learning"
+  ],
+  "searchTerms": [
+    "Neurotransmitter Pathways Atlas",
+    "NYUR-oh-trans-mit-er PATH-ways",
+    "locus coeruleus",
+    "dorsal and median raphe",
+    "ventral tegmental area",
+    "substantia nigra pars compacta",
+    "basal forebrain cholinergic nuclei",
+    "tuberomammillary nucleus",
+    "cortical glutamate systems",
+    "GABA interneuron networks",
+    "noradrenergic projections",
+    "serotonergic projections",
+    "mesocorticolimbic dopamine",
+    "nigrostriatal dopamine",
+    "cholinergic projections",
+    "histaminergic projections",
+    "arousal",
+    "attention",
+    "mood regulation",
+    "reward learning",
+    "movement",
+    "memory",
+    "sleep-wake regulation"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the Neurotransmitter Pathways Atlas.",
+    "Trace key inputs, outputs and connections in the Neurotransmitter Pathways Atlas.",
+    "Interpret lesion patterns cautiously using distributed-network and clinical context."
+  ],
+  "sections": {
+    "explainSimply": "Trace major monoaminergic, cholinergic and amino-acid signalling systems.",
+    "explainLikePsychologist": "Neurotransmitters modulate distributed circuits. Terms such as “chemical imbalance” are clinically misleading when used as simple explanations for complex mental disorders.",
+    "advancedClinicalDetail": "Location: Small brainstem, midbrain, hypothalamic and basal-forebrain nuclei project broadly, while glutamate and GABA operate throughout local and long-range circuits. Major subdivisions include locus coeruleus, dorsal and median raphe, ventral tegmental area, substantia nigra pars compacta, basal forebrain cholinergic nuclei, tuberomammillary nucleus, cortical glutamate systems, GABA interneuron networks. Inputs include prefrontal cortex, hypothalamus, brainstem sensory systems, limbic structures; outputs include cerebral cortex, hippocampus, striatum, thalamus, spinal and autonomic systems.",
+    "thinkOfItLike": "A dynamic transport and control map: the meaning of any node depends on the routes entering, leaving and bypassing it.",
+    "whyPsychologistsCare": "Neurotransmitters modulate distributed circuits. Terms such as “chemical imbalance” are clinically misleading when used as simple explanations for complex mental disorders.",
+    "whenItGoesWrong": "Focal or degenerative disruption may alter arousal, movement, memory, autonomic regulation or affect, but behavioural effects emerge from receptor distribution and network state rather than transmitter level alone.",
+    "clinicalPearl": "A neurotransmitter is not an emotion: it changes the gain and plasticity of circuits that generate behaviour in context.",
+    "practicalExample": "Select a region, trace its incoming and outgoing pathways, then compare healthy and lesion overlays before forming a clinical hypothesis.",
+    "limitationsCautions": "Pathway maps simplify co-transmission, receptor diversity, volume transmission and feedback. Medication effects cannot be inferred from a single pathway diagram."
+  },
+  "anatomy": {
+    "position": "Small brainstem, midbrain, hypothalamic and basal-forebrain nuclei project broadly, while glutamate and GABA operate throughout local and long-range circuits.",
+    "spatialRelationships": "Interpreted relative to connected cortical, subcortical and vascular structures; boundaries and laterality must be checked in the selected view.",
+    "regions": [
+      "locus coeruleus",
+      "dorsal and median raphe",
+      "ventral tegmental area",
+      "substantia nigra pars compacta",
+      "basal forebrain cholinergic nuclei",
+      "tuberomammillary nucleus",
+      "cortical glutamate systems",
+      "GABA interneuron networks"
+    ],
+    "inputs": [
+      "prefrontal cortex",
+      "hypothalamus",
+      "brainstem sensory systems",
+      "limbic structures"
+    ],
+    "outputs": [
+      "cerebral cortex",
+      "hippocampus",
+      "striatum",
+      "thalamus",
+      "spinal and autonomic systems"
+    ],
+    "connections": [
+      "noradrenergic projections",
+      "serotonergic projections",
+      "mesocorticolimbic dopamine",
+      "nigrostriatal dopamine",
+      "cholinergic projections",
+      "histaminergic projections"
+    ],
+    "functions": [
+      "arousal",
+      "attention",
+      "mood regulation",
+      "reward learning",
+      "movement",
+      "memory",
+      "sleep-wake regulation"
+    ],
+    "bloodSupply": "Source nuclei are supplied by small penetrating branches from posterior circulation, anterior circulation and hypothalamic vessels; vulnerability depends on lesion location and systemic factors.",
+    "lesionEffects": "Focal or degenerative disruption may alter arousal, movement, memory, autonomic regulation or affect, but behavioural effects emerge from receptor distribution and network state rather than transmitter level alone.",
+    "clinicalSignificance": "Neurotransmitters modulate distributed circuits. Terms such as “chemical imbalance” are clinically misleading when used as simple explanations for complex mental disorders."
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Tap to select",
+      "targets": [
+        "locus coeruleus",
+        "dorsal and median raphe",
+        "ventral tegmental area",
+        "substantia nigra pars compacta",
+        "basal forebrain cholinergic nuclei",
+        "tuberomammillary nucleus",
+        "cortical glutamate systems",
+        "GABA interneuron networks"
+      ]
+    },
+    {
+      "type": "view",
+      "label": "Change anatomical view",
+      "targets": [
+        "lateral",
+        "medial",
+        "axial",
+        "coronal"
+      ]
+    },
+    {
+      "type": "zoom-pan",
+      "label": "Zoom and pan",
+      "targets": [
+        "atlas canvas"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Show or hide layers",
+      "targets": [
+        "surrounding anatomy",
+        "connections",
+        "blood supply",
+        "function overlay"
+      ]
+    },
+    {
+      "type": "trace-inputs",
+      "label": "Trace inputs",
+      "targets": [
+        "prefrontal cortex",
+        "hypothalamus",
+        "brainstem sensory systems",
+        "limbic structures"
+      ]
+    },
+    {
+      "type": "trace-outputs",
+      "label": "Trace outputs",
+      "targets": [
+        "cerebral cortex",
+        "hippocampus",
+        "striatum",
+        "thalamus",
+        "spinal and autonomic systems"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and pathology",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to whole-brain overview",
+      "targets": [
+        "whole brain"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "neurotransmitter-pathways-atlas-q1",
+      "question": "Which nucleus is the major source of cortical noradrenergic projections?",
+      "options": [
+        "Locus coeruleus",
+        "Caudate nucleus",
+        "Mammillary body",
+        "Red nucleus"
+      ],
+      "answer": 0,
+      "rationale": "The locus coeruleus provides widespread noradrenergic innervation to cortex and many subcortical regions."
+    },
+    {
+      "id": "neurotransmitter-pathways-atlas-q2",
+      "question": "The mesocorticolimbic dopamine system arises primarily from the:",
+      "options": [
+        "Ventral tegmental area",
+        "Medulla",
+        "Pineal gland",
+        "Dorsal horn"
+      ],
+      "answer": 0,
+      "rationale": "VTA dopamine neurons project to limbic and prefrontal targets involved in salience, learning and motivation."
+    },
+    {
+      "id": "neurotransmitter-pathways-atlas-q3",
+      "question": "Why is the phrase “one neurotransmitter causes one disorder” unsafe?",
+      "options": [
+        "Transmitters act through many receptors across distributed, state-dependent networks",
+        "Each transmitter has only one receptor",
+        "Neurotransmitters do not affect the brain",
+        "Diagnosis is determined by blood level alone"
+      ],
+      "answer": 0,
+      "rationale": "The same transmitter can have different effects depending on receptor subtype, region, timing and circuit state."
+    }
+  ],
+  "relatedConcepts": [
+    "major-white-matter-pathways-atlas",
+    "functional-network-overlay-atlas",
+    "cerebral-vasculature-atlas",
+    "deep-nuclei-atlas",
+    "thalamus-atlas",
+    "cerebral-lobes-atlas"
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Kandel ER et al. Principles of Neural Science.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Sketch the major nodes and pathways of the Neurotransmitter Pathways Atlas and explain one qualified lesion pattern."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive Neurotransmitter Pathways Atlas with selectable anatomy, pathway tracing, overlays and lesion comparisons.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

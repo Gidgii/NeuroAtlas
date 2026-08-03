@@ -1,0 +1,226 @@
+{
+  "id": "neuroimmunology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify major cellular and signalling components of neuroimmunity.",
+    "Explain adaptive and maladaptive immune effects on neural function.",
+    "Differentiate mechanism from diagnosis.",
+    "Recognise red flags for medical escalation."
+  ],
+  "anatomy": [
+    {
+      "id": "microglia",
+      "label": "Microglia",
+      "short": "Survey and respond within CNS tissue",
+      "detail": "Microglia clear debris and regulate synapses.",
+      "clinical": "Persistent activation may alter plasticity and network function."
+    },
+    {
+      "id": "astrocytes",
+      "label": "Astrocytes",
+      "short": "Coordinate metabolic and inflammatory responses",
+      "detail": "Astrocytes regulate barrier, transmitter and cytokine environments.",
+      "clinical": "Reactive states can be protective or disruptive."
+    },
+    {
+      "id": "barrier",
+      "label": "Blood–brain barrier",
+      "short": "Control immune access and signalling",
+      "detail": "Endothelium and perivascular cells regulate trafficking.",
+      "clinical": "Barrier dysfunction can amplify central exposure to peripheral signals."
+    },
+    {
+      "id": "cytokines",
+      "label": "Cytokines",
+      "short": "Coordinate cell-to-cell immune communication",
+      "detail": "Cytokines alter neural excitability, metabolism and behaviour.",
+      "clinical": "Excess or prolonged signalling can contribute to sickness behaviour."
+    },
+    {
+      "id": "peripheral",
+      "label": "Peripheral–central routes",
+      "short": "Link body immune state to brain",
+      "detail": "Vagal, humoral and cellular routes communicate systemic conditions.",
+      "clinical": "Medical illness can alter cognition and mood without primary psychiatric causation."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Neuroimmunology",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Neuroimmunology model",
+    "stages": [
+      {
+        "label": "Detect",
+        "text": "Pattern-recognition systems identify threat or injury."
+      },
+      {
+        "label": "Signal",
+        "text": "Cytokines and chemokines coordinate local and systemic responses."
+      },
+      {
+        "label": "Contain",
+        "text": "Barrier and immune mechanisms limit spread and clear debris."
+      },
+      {
+        "label": "Repair",
+        "text": "Glia support remodelling and restoration."
+      },
+      {
+        "label": "Resolve",
+        "text": "Active resolution returns tissue toward homeostasis."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "neuroimmunology-q1",
+      "question": "Microglia are best described as:",
+      "options": [
+        "Resident immune-surveillance cells of the CNS",
+        "Peripheral motor neurons",
+        "Endocrine glands",
+        "Myelin-forming cells in the PNS"
+      ],
+      "answer": 0,
+      "explanation": "Microglia are CNS-resident immune cells with surveillance, pruning and repair roles."
+    },
+    {
+      "id": "neuroimmunology-q2",
+      "question": "Neuroinflammation is:",
+      "options": [
+        "A mechanism that can be adaptive or maladaptive",
+        "A diagnosis by itself",
+        "Always visible on routine imaging",
+        "Always caused by infection"
+      ],
+      "answer": 0,
+      "explanation": "Its meaning depends on timing, context, intensity and cause."
+    },
+    {
+      "id": "neuroimmunology-q3",
+      "question": "Cytokines can influence:",
+      "options": [
+        "Neural excitability, metabolism and behaviour",
+        "Only skin colour",
+        "Only bone growth",
+        "Nothing inside the CNS"
+      ],
+      "answer": 0,
+      "explanation": "Immune signalling can alter neural and behavioural states."
+    },
+    {
+      "id": "neuroimmunology-q4",
+      "question": "An acute psychiatric presentation with seizures and autonomic instability should raise concern for:",
+      "options": [
+        "Possible autoimmune encephalitis or other medical cause",
+        "A personality trait only",
+        "Normal stress",
+        "Simple preference"
+      ],
+      "answer": 0,
+      "explanation": "Neurological and autonomic red flags warrant urgent medical assessment."
+    },
+    {
+      "id": "neuroimmunology-q5",
+      "question": "The most accurate clinical stance is:",
+      "options": [
+        "Integrate immune mechanisms with broader differential diagnosis",
+        "Attribute all fatigue to inflammation",
+        "Ignore physical illness in formulation",
+        "Use cytokines as direct psychological labels"
+      ],
+      "answer": 0,
+      "explanation": "Neuroimmune findings are important but nonspecific."
+    }
+  ],
+  "tags": [
+    "accompany",
+    "activated",
+    "activating",
+    "activation",
+    "acute",
+    "also",
+    "alter",
+    "anhedonia",
+    "astrocytes",
+    "autoimmune",
+    "automatically",
+    "barrier",
+    "behaviour",
+    "blood",
+    "brain",
+    "causes",
+    "cells",
+    "central",
+    "change",
+    "chronic",
+    "clinical",
+    "cognitive",
+    "complement",
+    "constantly",
+    "context-dependent",
+    "contextual",
+    "contribute",
+    "couple",
+    "cytokine",
+    "cytokines",
+    "detect",
+    "diagnosis",
+    "disease",
+    "dynamics",
+    "dysfunction",
+    "effects",
+    "encephalitis",
+    "endothelial",
+    "energy",
+    "equivalent",
+    "every",
+    "evidence",
+    "exchange",
+    "fatigue",
+    "function",
+    "harmful",
+    "humoral",
+    "immune",
+    "infection",
+    "inflammasome",
+    "inflammation",
+    "inflammatory",
+    "influence",
+    "information",
+    "injury",
+    "integrate",
+    "mechanism",
+    "medical",
+    "microglia",
+    "misdirected"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Microglia are best described as:",
+      "Neuroinflammation is:",
+      "Neuroinflammation is a mechanism, not a diagnosis—and “activated” immune cells are not automatically harmful."
+    ]
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Dantzer R et al. From inflammation to sickness and depression. Nat Rev Neurosci. 2008;9:46–56."
+    },
+    {
+      "type": "Reference",
+      "citation": "Salter MW, Stevens B. Microglia emerge as central players in brain disease. Nat Med. 2017;23:1018–1027."
+    },
+    {
+      "type": "Reference",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas diagram of neuroimmunology with labelled system components.",
+    "interactionSummary": "A keyboard-accessible five-stage sequence explains the system from input through integration."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "mechanisms-change-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 36,
+  "level": 28,
+  "title": "Mechanisms of Change",
+  "subtitle": "A plural account of how EMDR may help",
+  "hero": "mechanisms-change-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating mechanisms of change across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "eight-phases-emdr"
+  ],
+  "previousConcept": "eight-phases-emdr",
+  "nextConcept": "clinical-indications-emdr",
+  "tags": [
+    "mechanisms",
+    "change",
+    "trauma",
+    "emdr",
+    "mixed, multi-mechanism evidence"
+  ],
+  "searchTerms": [
+    "mechanisms",
+    "change",
+    "trauma",
+    "emdr",
+    "mixed, multi-mechanism evidence",
+    "plural",
+    "account",
+    "help"
+  ],
+  "learningObjectives": [
+    "Explain mechanisms of change in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in mechanisms of change.",
+    "Identify one limitation or safety implication relevant to mechanisms of change."
+  ],
+  "sections": {
+    "explainSimply": "EMDR may work through several overlapping processes rather than one special mechanism.",
+    "explainLikePsychologist": "Exposure, dual attention, working-memory taxation, expectancy violation, reappraisal, therapeutic alliance and memory updating may all contribute.",
+    "advancedClinicalDetail": "Dismantling studies support a role for eye movements in reducing memory vividness, but comparative treatment efficacy does not establish a unique mechanism.",
+    "thinkOfItLike": "Think of mechanisms of change as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need mechanisms of change to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Avoid mechanism monoculture.",
+    "clinicalPearl": "Clinical pearl: use mechanisms of change to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses mechanisms of change to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Avoid mechanism monoculture. Evidence classification: mixed, multi-mechanism evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "EMDR may work through several overlapping processes rather than one special mechanism."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Exposure, dual attention, working-memory taxation, expectancy violation, reappraisal, therapeutic alliance and memory updating may all contribute."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Avoid mechanism monoculture."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "EMDR may work through several overlapping processes rather than one special mechanism.",
+      "Exposure, dual attention, working-memory taxation, expectancy violation, reappraisal, therapeutic alliance and memory updating may all contribute.",
+      "Avoid mechanism monoculture."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "mechanisms-change-emdr-q1",
+      "question": "What is the most accurate core statement about Mechanisms of Change?",
+      "options": [
+        "EMDR may work through several overlapping processes rather than one special mechanism.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "EMDR may work through several overlapping processes rather than one special mechanism."
+    },
+    {
+      "id": "mechanisms-change-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Exposure, dual attention, working-memory taxation, expectancy violation, reappraisal, therapeutic alliance and memory updating may all contribute.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Exposure, dual attention, working-memory taxation, expectancy violation, reappraisal, therapeutic alliance and memory updating may all contribute."
+    },
+    {
+      "id": "mechanisms-change-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Avoid mechanism monoculture.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Avoid mechanism monoculture."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "EMDR may work through several overlapping processes rather than one special mechanism."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Avoid mechanism monoculture."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "mixed, multi-mechanism evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

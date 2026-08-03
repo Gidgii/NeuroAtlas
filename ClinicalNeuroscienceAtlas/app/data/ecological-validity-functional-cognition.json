@@ -1,0 +1,122 @@
+{
+  "id": "ecological-validity-functional-cognition",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Ecological Validity and Functional Cognition.",
+    "Apply Ecological Validity and Functional Cognition to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Define the activity",
+      "detail": "Specify the real-world task and required decisions."
+    },
+    {
+      "label": "Map demands",
+      "detail": "Identify cognitive, sensory, emotional and environmental loads."
+    },
+    {
+      "label": "Gather converging evidence",
+      "detail": "Combine tests, observation, collateral and direct functional assessment."
+    },
+    {
+      "label": "Design supports",
+      "detail": "Change both person strategy and environment where possible."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Define the activity",
+        "detail": "Specify the real-world task and required decisions."
+      },
+      {
+        "label": "Map demands",
+        "detail": "Identify cognitive, sensory, emotional and environmental loads."
+      },
+      {
+        "label": "Gather converging evidence",
+        "detail": "Combine tests, observation, collateral and direct functional assessment."
+      },
+      {
+        "label": "Design supports",
+        "detail": "Change both person strategy and environment where possible."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Ecological Validity and Functional Cognition"
+  },
+  "quizBank": [
+    {
+      "question": "Why can a person perform well on executive tests but struggle at home?",
+      "options": [
+        "Home never requires executive function",
+        "Tests provide structure and cues that daily life may not",
+        "Collateral report is always wrong",
+        "Scores measure motivation only"
+      ],
+      "answer": 1,
+      "explanation": "Tests provide structure and cues that daily life may not is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Ecological Validity and Functional Cognition?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "A structured clinic may conceal executive difficulty that appears when the person must organise themselves."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Define the activity → Map demands → Gather converging evidence → Design supports"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Do not infer legal capacity, driving safety or independent living from one cognitive score without domain-specific functional evidence."
+    }
+  ],
+  "tags": [
+    "ecological validity and functional cognition",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Chaytor N, Schmitter-Edgecombe M. The ecological validity of neuropsychological tests. Neuropsychology Review. 2003;13:181–197.",
+      "url": "https://doi.org/10.1023/B:NERV.0000009483.91468.fb"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "neurodegenerative-disorders",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate syndrome, functional severity and underlying disease process.",
+    "Recognise characteristic but overlapping profiles of major neurodegenerative disorders.",
+    "Identify reversible or acute contributors to cognitive decline.",
+    "Explain why network pattern and time course matter more than a single test score."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability interacts with development and prior learning."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external conditions recruit the relevant neural systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter salience, prediction, control and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Prominent fluctuations, visual hallucinations and parkinsonism raise concern for:",
+      "options": [
+        "Lewy body disease",
+        "Isolated specific phobia",
+        "Peripheral neuropathy only",
+        "Uncomplicated normal ageing"
+      ],
+      "answer": 0,
+      "explanation": "This cluster is characteristic of Lewy body spectrum disorders, though formal assessment is required."
+    },
+    {
+      "question": "Early progressive change in behaviour, empathy or language may suggest:",
+      "options": [
+        "Frontotemporal degeneration",
+        "Pure cerebellar injury",
+        "Migraine aura only",
+        "Acute intoxication lasting years"
+      ],
+      "answer": 0,
+      "explanation": "Frontotemporal syndromes often present with behavioural or language change before severe episodic-memory loss."
+    },
+    {
+      "question": "A psychologist evaluating decline should first clarify:",
+      "options": [
+        "Time course, functional change, baseline and possible reversible contributors",
+        "Only the total screening score",
+        "The patient’s handedness",
+        "One favourite memory"
+      ],
+      "answer": 0,
+      "explanation": "Longitudinal change and function are central to interpretation."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Protein misfolding, impaired proteostasis, mitochondrial dysfunction, neuroinflammation, synaptic failure and selective cellular vulnerability interact differently across diseases. Amyloid-β and tau are central to Alzheimer pathophysiology; α-synuclein to Parkinson/Lewy body disorders; tau or TDP-43 to many frontotemporal degenerations. Biomarkers support diagnosis but must be interpreted within phenotype and stage."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "“Dementia” describes functional impact, not one disease. Diagnose the syndrome, consider the cause, and always establish time course."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Progressive memory loss, visuospatial errors, fluctuations, hallucinations, parkinsonism, disinhibition, language decline or loss of daily function may signal disease-specific syndromes. Sudden decline is not typical degeneration and requires urgent evaluation for delirium, stroke or other acute causes."
+    }
+  ],
+  "tags": [
+    "neurodegenerative disorders",
+    "neurodegenerative disorders",
+    "clinical neuroscience",
+    "differential diagnosis",
+    "network neuroscience",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "Jack CR Jr, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease. Alzheimer’s & Dementia. 2018;14(4):535–562.",
+      "type": "Framework",
+      "url": "https://doi.org/10.1016/j.jalz.2018.02.018"
+    },
+    {
+      "citation": "McKeith IG, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report. Neurology. 2017;89(1):88–100.",
+      "type": "Consensus",
+      "url": "https://doi.org/10.1212/WNL.0000000000004058"
+    },
+    {
+      "citation": "Rascovsky K, et al. Sensitivity of revised diagnostic criteria for behavioural variant frontotemporal dementia. Brain. 2011;134(9):2456–2477.",
+      "type": "Diagnostic validation",
+      "url": "https://doi.org/10.1093/brain/awr179"
+    }
+  ]
+}

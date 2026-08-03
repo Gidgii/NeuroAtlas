@@ -1,0 +1,106 @@
+{
+  "id": "learning-disorders-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate reading, writing and mathematics learning systems.",
+    "Explain why brain imaging cannot diagnose a learning disorder in an individual.",
+    "Identify common comorbidities and differential considerations.",
+    "Link assessment findings to targeted educational support."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Presenting pattern",
+      "detail": "Define the functional difficulty, context, onset and time course before inferring mechanism."
+    },
+    {
+      "label": "Candidate systems",
+      "detail": "Map plausible cellular, circuit, cognitive and environmental contributors."
+    },
+    {
+      "label": "Differential test",
+      "detail": "Compare alternatives, comorbidity and medical red flags using converging evidence."
+    },
+    {
+      "label": "Clinical action",
+      "detail": "Select the explanation that best guides safe, proportionate assessment and intervention."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the clinical reasoning sequence, then retrieve the key distinction without looking back.",
+    "signalSteps": [
+      "Name the observed pattern precisely.",
+      "Identify the most plausible neural and cognitive systems.",
+      "Check developmental history, context and competing explanations.",
+      "Choose a formulation that guides action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best reflects current evidence about dyslexia?",
+      "options": [
+        "It involves inefficient development of reading-related networks and is not a marker of low intelligence",
+        "It is caused by poor motivation",
+        "It can be diagnosed from a single brain scan",
+        "It always resolves without intervention"
+      ],
+      "answer": 0,
+      "explanation": "Dyslexia reflects persistent difficulty in reading processes despite adequate opportunity and is unrelated to low intelligence."
+    },
+    {
+      "question": "A clinically useful assessment should primarily determine:",
+      "options": [
+        "Which component skills are impaired and what support changes performance",
+        "Whether the child tried hard enough",
+        "Whether one IQ score explains everything",
+        "Whether imaging appears normal"
+      ],
+      "answer": 0,
+      "explanation": "Assessment is most useful when it identifies the specific learning bottleneck and intervention implications."
+    },
+    {
+      "question": "Which finding warrants broader investigation?",
+      "options": [
+        "Sudden loss of previously established academic skills",
+        "Slow but stable decoding development",
+        "A family history of dyslexia",
+        "Improvement with explicit instruction"
+      ],
+      "answer": 0,
+      "explanation": "Abrupt regression suggests an acquired or medical process rather than a typical developmental learning disorder."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "A discrepancy between IQ and achievement is not required; the clinically important issue is persistent skill difficulty despite appropriate instruction."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Neuroimaging findings are group-level and heterogeneous rather than diagnostic biomarkers. Learning emerges through experience-dependent tuning of cortical systems that were not evolutionarily specialised for literacy or formal mathematics. Risk reflects polygenic liability, language exposure, instructional history and network efficiency. Intervention can alter activation patterns, but normalisation is neither necessary nor sufficient for functional improvement."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Do not infer laziness, low intelligence or poor parenting from slow academic progress. Sudden loss of established skills, seizures, neurological signs or broad regression require medical investigation."
+    }
+  ],
+  "tags": [
+    "specific learning disorder",
+    "dyslexia",
+    "dyscalculia",
+    "written expression",
+    "neurodevelopment"
+  ],
+  "references": [
+    {
+      "citation": "Peterson RL, Pennington BF. Developmental dyslexia. Lancet. 2012;379:1997–2007.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S0140-6736(12)60198-6"
+    },
+    {
+      "citation": "Butterworth B, Varma S, Laurillard D. Dyscalculia: from brain to education. Science. 2011;332:1049–1053.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1126/science.1201536"
+    }
+  ]
+}

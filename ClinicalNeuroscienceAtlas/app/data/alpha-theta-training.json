@@ -1,0 +1,164 @@
+{
+  "id": "alpha-theta-training",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 23,
+  "level": 25,
+  "title": "Alpha–Theta Training",
+  "subtitle": "State-based training often used with eyes closed",
+  "hero": "alpha-theta-training.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating alpha–theta training within a neurofeedback closed loop.",
+  "prerequisites": [
+    "smr-training"
+  ],
+  "nextConcept": "scp-neurofeedback",
+  "previousConcept": "smr-training",
+  "tags": [
+    "alpha",
+    "theta",
+    "training",
+    "neurofeedback",
+    "methods",
+    "insufficient to mixed evidence"
+  ],
+  "searchTerms": [
+    "alpha",
+    "theta",
+    "training",
+    "neurofeedback",
+    "methods",
+    "insufficient to mixed evidence",
+    "state",
+    "based",
+    "often",
+    "used",
+    "with",
+    "eyes",
+    "closed"
+  ],
+  "learningObjectives": [
+    "Explain alpha–theta training without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in alpha–theta training.",
+    "Identify one safety or validity limitation relevant to alpha–theta training."
+  ],
+  "sections": {
+    "explainSimply": "Alpha–theta protocols usually provide feedback while the person rests deeply and tracks changing slower rhythms.",
+    "explainLikePsychologist": "They are sometimes used for trauma, substance use or performance, but procedures and theoretical models vary substantially.",
+    "advancedClinicalDetail": "Screen for dissociation, destabilisation, psychosis risk, seizure history and tolerance of reduced external orientation. Evidence remains limited and protocol-dependent.",
+    "thinkOfItLike": "Choosing a camera lens: every method emphasises some information and introduces its own distortions.",
+    "whyPsychologistsCare": "Psychologists need to understand alpha–theta training to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Deep relaxation is not universally safe or therapeutic.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using alpha–theta training predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Deep relaxation is not universally safe or therapeutic. Evidence classification: insufficient to mixed evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Screen for dissociation, destabilisation, psychosis risk, seizure history and tolerance of reduced external orientation. Evidence remains limited and protocol-dependent."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Alpha–theta protocols usually provide feedback while the person rests deeply and tracks changing slower rhythms."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Alpha–theta protocols usually provide feedback while the person rests deeply and tracks changing slower rhythms.",
+      "They are sometimes used for trauma, substance use or performance, but procedures and theoretical models vary substantially.",
+      "Deep relaxation is not universally safe or therapeutic."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Alpha–Theta Training?",
+      "options": [
+        "Alpha–theta protocols usually provide feedback while the person rests deeply and tracks changing slower rhythms.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Alpha–theta protocols usually provide feedback while the person rests deeply and tracks changing slower rhythms."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Alpha–Theta Training?",
+      "options": [
+        "Deep relaxation is not universally safe or therapeutic.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Deep relaxation is not universally safe or therapeutic."
+    },
+    {
+      "question": "How should the evidence for Alpha–Theta Training be communicated?",
+      "options": [
+        "As insufficient to mixed evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: insufficient to mixed evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Alpha–theta protocols usually provide feedback while the person rests deeply and tracks changing slower rhythms."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Deep relaxation is not universally safe or therapeutic."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "insufficient to mixed evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

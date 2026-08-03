@@ -1,0 +1,159 @@
+{
+  "id": "adhd-neurofeedback",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 32,
+  "level": 27,
+  "title": "ADHD Applications",
+  "subtitle": "Evidence is protocol-, comparator- and outcome-dependent",
+  "hero": "adhd-neurofeedback.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating adhd applications within a neurofeedback closed loop.",
+  "prerequisites": [
+    "ilf-neurofeedback"
+  ],
+  "nextConcept": "anxiety-neurofeedback",
+  "previousConcept": "ilf-neurofeedback",
+  "tags": [
+    "adhd",
+    "applications",
+    "neurofeedback",
+    "mixed"
+  ],
+  "searchTerms": [
+    "adhd",
+    "applications",
+    "neurofeedback",
+    "mixed",
+    "evidence",
+    "protocol",
+    "comparator",
+    "and",
+    "outcome",
+    "dependent"
+  ],
+  "learningObjectives": [
+    "Explain adhd applications without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in adhd applications.",
+    "Identify one safety or validity limitation relevant to adhd applications."
+  ],
+  "sections": {
+    "explainSimply": "Neurofeedback has been studied as a training approach for ADHD symptoms, especially attention and self-regulation.",
+    "explainLikePsychologist": "Earlier meta-analyses reported benefits, but rigorous blinded outcomes and recent syntheses have produced less favourable conclusions at group level.",
+    "advancedClinicalDetail": "Discuss evidence uncertainty, standard treatments, burden, cost and the difference between proximal ratings and blinded outcomes. Do not replace indicated care without shared decision-making.",
+    "thinkOfItLike": "Testing a treatment hypothesis: improvement must be meaningful, measured and compared with plausible alternatives.",
+    "whyPsychologistsCare": "Psychologists need to understand adhd applications to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "A child improving during a long treatment course does not prove neurofeedback caused the change.",
+    "clinicalPearl": "Measure benefit and harm with the same seriousness.",
+    "practicalExample": "A clinician using adhd applications predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "A child improving during a long treatment course does not prove neurofeedback caused the change. Evidence classification: mixed; recent high-quality synthesis does not show meaningful group-level benefit."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Discuss evidence uncertainty, standard treatments, burden, cost and the difference between proximal ratings and blinded outcomes. Do not replace indicated care without shared decision-making."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Neurofeedback has been studied as a training approach for ADHD symptoms, especially attention and self-regulation."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Neurofeedback has been studied as a training approach for ADHD symptoms, especially attention and self-regulation.",
+      "Earlier meta-analyses reported benefits, but rigorous blinded outcomes and recent syntheses have produced less favourable conclusions at group level.",
+      "A child improving during a long treatment course does not prove neurofeedback caused the change."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of ADHD Applications?",
+      "options": [
+        "Neurofeedback has been studied as a training approach for ADHD symptoms, especially attention and self-regulation.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Neurofeedback has been studied as a training approach for ADHD symptoms, especially attention and self-regulation."
+    },
+    {
+      "question": "Which limitation matters most when interpreting ADHD Applications?",
+      "options": [
+        "A child improving during a long treatment course does not prove neurofeedback caused the change.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "A child improving during a long treatment course does not prove neurofeedback caused the change."
+    },
+    {
+      "question": "How should the evidence for ADHD Applications be communicated?",
+      "options": [
+        "As mixed; recent high-quality synthesis does not show meaningful group-level benefit, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: mixed; recent high-quality synthesis does not show meaningful group-level benefit."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Neurofeedback has been studied as a training approach for ADHD symptoms, especially attention and self-regulation."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "A child improving during a long treatment course does not prove neurofeedback caused the change."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "mixed; recent high-quality synthesis does not show meaningful group-level benefit"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

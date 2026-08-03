@@ -1,0 +1,161 @@
+{
+  "id": "theta-training",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 20,
+  "level": 25,
+  "title": "Theta Training",
+  "subtitle": "Training slower rhythms with careful state control",
+  "hero": "theta-training.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating theta training within a neurofeedback closed loop.",
+  "prerequisites": [
+    "alpha-training"
+  ],
+  "nextConcept": "beta-training",
+  "previousConcept": "alpha-training",
+  "tags": [
+    "theta",
+    "training",
+    "neurofeedback",
+    "methods",
+    "theoretical and task-dependent"
+  ],
+  "searchTerms": [
+    "theta",
+    "training",
+    "neurofeedback",
+    "methods",
+    "theoretical and task-dependent",
+    "slower",
+    "rhythms",
+    "with",
+    "careful",
+    "state",
+    "control"
+  ],
+  "learningObjectives": [
+    "Explain theta training without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in theta training.",
+    "Identify one safety or validity limitation relevant to theta training."
+  ],
+  "sections": {
+    "explainSimply": "Theta-range activity is often linked with drowsiness, memory operations and internal attention depending on location and task.",
+    "explainLikePsychologist": "A theta target has different meanings in frontal-midline task activity, posterior drowsiness and artifact-contaminated scalp EEG.",
+    "advancedClinicalDetail": "Protocols should define frequency, site, reference and behavioural state. Broad claims that theta is simply “creativity” or “pathology” are misleading.",
+    "thinkOfItLike": "Choosing a camera lens: every method emphasises some information and introduces its own distortions.",
+    "whyPsychologistsCare": "Psychologists need to understand theta training to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Rewarding drowsiness can be mistaken for cognitive training.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using theta training predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Rewarding drowsiness can be mistaken for cognitive training. Evidence classification: theoretical and task-dependent; mixed clinical evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Protocols should define frequency, site, reference and behavioural state. Broad claims that theta is simply “creativity” or “pathology” are misleading."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Theta-range activity is often linked with drowsiness, memory operations and internal attention depending on location and task."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Theta-range activity is often linked with drowsiness, memory operations and internal attention depending on location and task.",
+      "A theta target has different meanings in frontal-midline task activity, posterior drowsiness and artifact-contaminated scalp EEG.",
+      "Rewarding drowsiness can be mistaken for cognitive training."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Theta Training?",
+      "options": [
+        "Theta-range activity is often linked with drowsiness, memory operations and internal attention depending on location and task.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Theta-range activity is often linked with drowsiness, memory operations and internal attention depending on location and task."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Theta Training?",
+      "options": [
+        "Rewarding drowsiness can be mistaken for cognitive training.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Rewarding drowsiness can be mistaken for cognitive training."
+    },
+    {
+      "question": "How should the evidence for Theta Training be communicated?",
+      "options": [
+        "As theoretical and task-dependent; mixed clinical evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: theoretical and task-dependent; mixed clinical evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Theta-range activity is often linked with drowsiness, memory operations and internal attention depending on location and task."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Rewarding drowsiness can be mistaken for cognitive training."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "theoretical and task-dependent; mixed clinical evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

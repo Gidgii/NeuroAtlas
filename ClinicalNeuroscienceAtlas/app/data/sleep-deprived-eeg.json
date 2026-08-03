@@ -1,0 +1,138 @@
+{
+  "id": "sleep-deprived-eeg",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Sleep-Deprived EEG.",
+    "Apply Sleep-Deprived EEG to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Sleep deprivation may increase diagnostic yield through both sleep capture and altered cortical excitability."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "It also changes background rhythms and cognitive state. The degree of deprivation, actual sleep obtained and medications should be documented."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Sleep stages can reveal abnormalities absent during wakefulness."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Comparing a sleep-deprived qEEG with a well-rested baseline as if state were identical is invalid."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Sleep-Deprived EEG",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Sleep deprivation may increase diagnostic yield through both sleep capture and altered cortical excitability."
+      },
+      {
+        "label": "Analyse",
+        "detail": "It also changes background rhythms and cognitive state. The degree of deprivation, actual sleep obtained and medications should be documented."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Sleep stages can reveal abnormalities absent during wakefulness."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Comparing a sleep-deprived qEEG with a well-rested baseline as if state were identical is invalid."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Sleep-Deprived EEG"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Sleep-Deprived EEG?",
+      "options": [
+        "Sleep deprivation may increase diagnostic yield through both sleep capture and altered cortical excitability.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Sleep deprivation may increase diagnostic yield through both sleep capture and altered cortical excitability."
+    },
+    {
+      "question": "What is the safest clinical principle for Sleep-Deprived EEG?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Sleep-Deprived EEG?",
+      "options": [
+        "Comparing a sleep-deprived qEEG with a well-rested baseline as if state were identical is invalid.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Comparing a sleep-deprived qEEG with a well-rested baseline as if state were identical is invalid."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "It also changes background rhythms and cognitive state. The degree of deprivation, actual sleep obtained and medications should be documented."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Sleep stages can reveal abnormalities absent during wakefulness."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Comparing a sleep-deprived qEEG with a well-rested baseline as if state were identical is invalid."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Sleep deprivation is an activation procedure, not a neutral recording condition."
+    }
+  ],
+  "tags": [
+    "sleep-deprived eeg",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "increasing",
+    "chance",
+    "sleep",
+    "epileptiform"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

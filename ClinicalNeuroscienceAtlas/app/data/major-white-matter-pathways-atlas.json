@@ -1,0 +1,270 @@
+{
+  "id": "major-white-matter-pathways-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 31,
+  "level": 29,
+  "title": "Major White-Matter Pathways Atlas",
+  "subtitle": "Explore projection, association, commissural and limbic fibre systems",
+  "pronunciation": "white MAT-er PATH-ways",
+  "hero": "major-white-matter-pathways-atlas.svg",
+  "altText": "Interactive chalkboard-style anatomical map of Major White-Matter Pathways Atlas with selectable regions and pathways.",
+  "prerequisites": [
+    "basal-ganglia-circuit-explorer"
+  ],
+  "previousConcept": "basal-ganglia-circuit-explorer",
+  "nextConcept": "neurotransmitter-pathways-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "interregional communication",
+    "sensorimotor transmission",
+    "language integration",
+    "attention"
+  ],
+  "searchTerms": [
+    "Major White-Matter Pathways Atlas",
+    "white MAT-er PATH-ways",
+    "corpus callosum",
+    "internal capsule",
+    "corona radiata",
+    "superior longitudinal fasciculus",
+    "arcuate fasciculus",
+    "inferior fronto-occipital fasciculus",
+    "uncinate fasciculus",
+    "cingulum bundle",
+    "fornix",
+    "optic radiations",
+    "corticospinal tract",
+    "commissural fibres",
+    "association fibres",
+    "projection fibres",
+    "limbic pathways",
+    "interregional communication",
+    "sensorimotor transmission",
+    "language integration",
+    "attention",
+    "memory",
+    "visual processing"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the Major White-Matter Pathways Atlas.",
+    "Trace key inputs, outputs and connections in the Major White-Matter Pathways Atlas.",
+    "Interpret lesion patterns cautiously using distributed-network and clinical context."
+  ],
+  "sections": {
+    "explainSimply": "Explore projection, association, commissural and limbic fibre systems.",
+    "explainLikePsychologist": "White-matter integrity constrains processing speed, executive coordination and network synchronisation, but imaging associations are probabilistic and influenced by age, vascular health and methodology.",
+    "advancedClinicalDetail": "Location: Distributed myelinated fibre bundles connecting cortical, subcortical, brainstem and spinal regions across both hemispheres. Major subdivisions include corpus callosum, internal capsule, corona radiata, superior longitudinal fasciculus, arcuate fasciculus, inferior fronto-occipital fasciculus, uncinate fasciculus, cingulum bundle, fornix, optic radiations, corticospinal tract. Inputs include cortical neurons, thalamic nuclei, hippocampal formation, brainstem nuclei; outputs include contralateral cortex, ipsilateral cortical targets, subcortical nuclei, brainstem and spinal cord.",
+    "thinkOfItLike": "A dynamic transport and control map: the meaning of any node depends on the routes entering, leaving and bypassing it.",
+    "whyPsychologistsCare": "White-matter integrity constrains processing speed, executive coordination and network synchronisation, but imaging associations are probabilistic and influenced by age, vascular health and methodology.",
+    "whenItGoesWrong": "Disconnection may produce weakness, sensory loss, aphasia, neglect, visual-field deficits, amnesia or slowed processing depending on tract and network. Diffuse disease often causes broad inefficiency rather than a single focal syndrome.",
+    "clinicalPearl": "When grey matter looks intact but function is not, ask whether the pathway between nodes has failed.",
+    "practicalExample": "Select a region, trace its incoming and outgoing pathways, then compare healthy and lesion overlays before forming a clinical hypothesis.",
+    "limitationsCautions": "Named fasciculi overlap and tractography does not directly show axons or direction of information flow. Individual anatomy is variable and lesion-symptom mapping requires clinical correlation."
+  },
+  "anatomy": {
+    "position": "Distributed myelinated fibre bundles connecting cortical, subcortical, brainstem and spinal regions across both hemispheres.",
+    "spatialRelationships": "Interpreted relative to connected cortical, subcortical and vascular structures; boundaries and laterality must be checked in the selected view.",
+    "regions": [
+      "corpus callosum",
+      "internal capsule",
+      "corona radiata",
+      "superior longitudinal fasciculus",
+      "arcuate fasciculus",
+      "inferior fronto-occipital fasciculus",
+      "uncinate fasciculus",
+      "cingulum bundle",
+      "fornix",
+      "optic radiations",
+      "corticospinal tract"
+    ],
+    "inputs": [
+      "cortical neurons",
+      "thalamic nuclei",
+      "hippocampal formation",
+      "brainstem nuclei"
+    ],
+    "outputs": [
+      "contralateral cortex",
+      "ipsilateral cortical targets",
+      "subcortical nuclei",
+      "brainstem and spinal cord"
+    ],
+    "connections": [
+      "commissural fibres",
+      "association fibres",
+      "projection fibres",
+      "limbic pathways"
+    ],
+    "functions": [
+      "interregional communication",
+      "sensorimotor transmission",
+      "language integration",
+      "attention",
+      "memory",
+      "visual processing"
+    ],
+    "bloodSupply": "Supplied by multiple cortical and deep perforating arterial territories; watershed zones and small-vessel disease can selectively affect long tracts.",
+    "lesionEffects": "Disconnection may produce weakness, sensory loss, aphasia, neglect, visual-field deficits, amnesia or slowed processing depending on tract and network. Diffuse disease often causes broad inefficiency rather than a single focal syndrome.",
+    "clinicalSignificance": "White-matter integrity constrains processing speed, executive coordination and network synchronisation, but imaging associations are probabilistic and influenced by age, vascular health and methodology."
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Tap to select",
+      "targets": [
+        "corpus callosum",
+        "internal capsule",
+        "corona radiata",
+        "superior longitudinal fasciculus",
+        "arcuate fasciculus",
+        "inferior fronto-occipital fasciculus",
+        "uncinate fasciculus",
+        "cingulum bundle",
+        "fornix",
+        "optic radiations",
+        "corticospinal tract"
+      ]
+    },
+    {
+      "type": "view",
+      "label": "Change anatomical view",
+      "targets": [
+        "lateral",
+        "medial",
+        "axial",
+        "coronal"
+      ]
+    },
+    {
+      "type": "zoom-pan",
+      "label": "Zoom and pan",
+      "targets": [
+        "atlas canvas"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Show or hide layers",
+      "targets": [
+        "surrounding anatomy",
+        "connections",
+        "blood supply",
+        "function overlay"
+      ]
+    },
+    {
+      "type": "trace-inputs",
+      "label": "Trace inputs",
+      "targets": [
+        "cortical neurons",
+        "thalamic nuclei",
+        "hippocampal formation",
+        "brainstem nuclei"
+      ]
+    },
+    {
+      "type": "trace-outputs",
+      "label": "Trace outputs",
+      "targets": [
+        "contralateral cortex",
+        "ipsilateral cortical targets",
+        "subcortical nuclei",
+        "brainstem and spinal cord"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and pathology",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to whole-brain overview",
+      "targets": [
+        "whole brain"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "major-white-matter-pathways-atlas-q1",
+      "question": "Which fibre class connects the two cerebral hemispheres?",
+      "options": [
+        "Commissural fibres",
+        "Projection fibres only",
+        "Peripheral nerves",
+        "Spinothalamic fibres"
+      ],
+      "answer": 0,
+      "rationale": "Commissural pathways, especially the corpus callosum, connect homologous and heterologous regions across hemispheres."
+    },
+    {
+      "id": "major-white-matter-pathways-atlas-q2",
+      "question": "A small lesion in the posterior limb of the internal capsule may cause dense weakness because:",
+      "options": [
+        "Many descending motor fibres are tightly packed there",
+        "It contains the hippocampus",
+        "It is outside the brain",
+        "It controls hormones directly"
+      ],
+      "answer": 0,
+      "rationale": "Compact organisation means a small lesion can affect many corticospinal fibres."
+    },
+    {
+      "id": "major-white-matter-pathways-atlas-q3",
+      "question": "What is a key limitation of diffusion tractography?",
+      "options": [
+        "It infers fibre orientation from water diffusion and can misrepresent crossing fibres",
+        "It directly records action potentials",
+        "It proves causation",
+        "It identifies neurotransmitter release"
+      ],
+      "answer": 0,
+      "rationale": "Tractography is an indirect reconstruction and is vulnerable to crossing-fibre and modelling limitations."
+    }
+  ],
+  "relatedConcepts": [
+    "basal-ganglia-circuit-explorer",
+    "neurotransmitter-pathways-atlas",
+    "cerebral-vasculature-atlas",
+    "deep-nuclei-atlas",
+    "thalamus-atlas",
+    "cerebral-lobes-atlas"
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Kandel ER et al. Principles of Neural Science.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Sketch the major nodes and pathways of the Major White-Matter Pathways Atlas and explain one qualified lesion pattern."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive Major White-Matter Pathways Atlas with selectable anatomy, pathway tracing, overlays and lesion comparisons.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

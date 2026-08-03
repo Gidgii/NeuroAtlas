@@ -1,0 +1,162 @@
+{
+  "id": "closed-loop-systems",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 6,
+  "level": 24,
+  "title": "Closed-Loop Systems",
+  "subtitle": "Measure, process, feed back, adapt",
+  "hero": "closed-loop-systems.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating closed-loop systems within a neurofeedback closed loop.",
+  "prerequisites": [
+    "eeg-versus-neurofeedback"
+  ],
+  "nextConcept": "feedback-modalities",
+  "previousConcept": "eeg-versus-neurofeedback",
+  "tags": [
+    "closed",
+    "loop",
+    "systems",
+    "neurofeedback",
+    "foundations",
+    "established engineering principle"
+  ],
+  "searchTerms": [
+    "closed",
+    "loop",
+    "systems",
+    "neurofeedback",
+    "foundations",
+    "established engineering principle",
+    "measure",
+    "process",
+    "feed",
+    "back",
+    "adapt"
+  ],
+  "learningObjectives": [
+    "Explain closed-loop systems without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in closed-loop systems.",
+    "Identify one safety or validity limitation relevant to closed-loop systems."
+  ],
+  "sections": {
+    "explainSimply": "A closed loop measures a signal, decides whether it meets a rule and changes feedback immediately.",
+    "explainLikePsychologist": "The loop includes sensor quality, signal processing, feature extraction, threshold logic, feedback latency and learner response. Failure in any link changes what is actually being trained.",
+    "advancedClinicalDetail": "Latency, filtering and window length determine temporal precision. Systems should document algorithms sufficiently for replication and safety review.",
+    "thinkOfItLike": "A driving instructor who gives immediate dashboard feedback while the learner practises a controllable skill.",
+    "whyPsychologistsCare": "Psychologists need to understand closed-loop systems to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "A sophisticated display cannot compensate for a contaminated signal.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using closed-loop systems predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "A sophisticated display cannot compensate for a contaminated signal. Evidence classification: established engineering principle."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Latency, filtering and window length determine temporal precision. Systems should document algorithms sufficiently for replication and safety review."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "A closed loop measures a signal, decides whether it meets a rule and changes feedback immediately."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "A closed loop measures a signal, decides whether it meets a rule and changes feedback immediately.",
+      "The loop includes sensor quality, signal processing, feature extraction, threshold logic, feedback latency and learner response. Failure in any link changes what is actually being trained.",
+      "A sophisticated display cannot compensate for a contaminated signal."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Closed-Loop Systems?",
+      "options": [
+        "A closed loop measures a signal, decides whether it meets a rule and changes feedback immediately.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "A closed loop measures a signal, decides whether it meets a rule and changes feedback immediately."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Closed-Loop Systems?",
+      "options": [
+        "A sophisticated display cannot compensate for a contaminated signal.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "A sophisticated display cannot compensate for a contaminated signal."
+    },
+    {
+      "question": "How should the evidence for Closed-Loop Systems be communicated?",
+      "options": [
+        "As established engineering principle, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: established engineering principle."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "A closed loop measures a signal, decides whether it meets a rule and changes feedback immediately."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "A sophisticated display cannot compensate for a contaminated signal."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "established engineering principle"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

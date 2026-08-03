@@ -1,0 +1,164 @@
+{
+  "id": "neurotransmitters",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate fast transmitters from neuromodulators.",
+    "Explain why receptor subtype determines effect.",
+    "Summarise major roles of glutamate, GABA, dopamine, serotonin, noradrenaline and acetylcholine.",
+    "Avoid simplistic one-transmitter explanations of psychological disorders."
+  ],
+  "anatomy": [
+    {
+      "id": "glutamate",
+      "label": "Glutamate",
+      "short": "Principal fast excitatory transmitter",
+      "detail": "Glutamate activates AMPA, NMDA and metabotropic receptors across cortical and subcortical circuits.",
+      "clinical": "Excessive glutamatergic activation can contribute to excitotoxicity, while NMDA-dependent signalling supports plasticity."
+    },
+    {
+      "id": "gaba",
+      "label": "GABA",
+      "short": "Principal fast inhibitory transmitter",
+      "detail": "GABA-A receptors usually increase chloride conductance; GABA-B receptors act through slower G-protein mechanisms.",
+      "clinical": "Reduced inhibitory control can increase network instability and seizure susceptibility."
+    },
+    {
+      "id": "dopamine",
+      "label": "Dopamine",
+      "short": "Salience, learning and action selection",
+      "detail": "Dopamine modulates prediction error, motivation, movement and working-memory gating through several receptor families and pathways.",
+      "clinical": "Effects differ markedly across nigrostriatal, mesolimbic, mesocortical and tuberoinfundibular pathways."
+    },
+    {
+      "id": "serotonin",
+      "label": "Serotonin",
+      "short": "State and behavioural flexibility",
+      "detail": "Serotonin acts through many receptor subtypes to influence mood, sleep, appetite, pain and behavioural adaptation.",
+      "clinical": "SSRIs change transporter function quickly, but therapeutic adaptation usually unfolds over weeks."
+    },
+    {
+      "id": "noradrenaline",
+      "label": "Noradrenaline",
+      "short": "Arousal and gain control",
+      "detail": "Locus-coeruleus projections modulate vigilance, signal-to-noise ratio and responses to uncertainty.",
+      "clinical": "Both insufficient and excessive arousal can impair executive performance."
+    },
+    {
+      "id": "acetylcholine",
+      "label": "Acetylcholine",
+      "short": "Attention, learning and autonomic control",
+      "detail": "Basal forebrain acetylcholine supports attention and cortical plasticity; other cholinergic systems regulate motor and autonomic function.",
+      "clinical": "Cholinergic loss is prominent in Alzheimer disease, while anticholinergic burden can impair cognition."
+    }
+  ],
+  "interaction": {
+    "title": "Neurotransmitters sequence",
+    "instruction": "Select a component, then run the sequence to see how the system changes over time.",
+    "ariaLabel": "Interactive neurotransmitters sequence",
+    "stages": [
+      {
+        "label": "Synthesise",
+        "text": "Enzymes produce transmitter or load it into vesicles."
+      },
+      {
+        "label": "Release",
+        "text": "Activity-dependent calcium entry triggers exocytosis."
+      },
+      {
+        "label": "Interpret",
+        "text": "Receptor subtype and circuit location determine the effect."
+      },
+      {
+        "label": "Adapt",
+        "text": "Reuptake, metabolism and receptor regulation shape future signalling."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Why can the same neurotransmitter have different effects?",
+      "options": [
+        "Different receptor subtypes and circuits interpret it differently",
+        "Its molecules change colour in each brain region",
+        "Transmitters have no receptors",
+        "Only glia determine all effects"
+      ],
+      "answer": 0,
+      "explanation": "Receptor coupling and circuit context determine functional effect."
+    },
+    {
+      "question": "Which pair dominates fast cortical excitation and inhibition?",
+      "options": [
+        "Glutamate and GABA",
+        "Dopamine and melatonin",
+        "Serotonin and cortisol",
+        "Acetylcholine and insulin"
+      ],
+      "answer": 0,
+      "explanation": "Glutamate and GABA are the principal fast excitatory and inhibitory transmitters."
+    },
+    {
+      "question": "Dopamine is best understood as:",
+      "options": [
+        "A context-dependent modulator of learning, salience and action",
+        "The single chemical cause of pleasure",
+        "An exclusively inhibitory transmitter",
+        "A hormone that never acts in brain"
+      ],
+      "answer": 0,
+      "explanation": "Dopamine has pathway- and receptor-specific roles beyond pleasure."
+    },
+    {
+      "question": "Why do SSRI clinical effects usually lag behind transporter blockade?",
+      "options": [
+        "Downstream network and receptor adaptations take time",
+        "SSRIs do not affect transporters",
+        "Serotonin must physically grow new neurons first",
+        "The blood–brain barrier opens only after weeks"
+      ],
+      "answer": 0,
+      "explanation": "Immediate transporter effects lead to slower adaptive changes across systems."
+    },
+    {
+      "question": "High anticholinergic burden may particularly impair:",
+      "options": [
+        "Attention and memory",
+        "Bone length",
+        "Hair colour",
+        "Blood type"
+      ],
+      "answer": 0,
+      "explanation": "Acetylcholine supports attention and memory, especially in basal forebrain systems."
+    }
+  ],
+  "tags": [
+    "neurotransmitter",
+    "glutamate",
+    "gaba",
+    "dopamine",
+    "serotonin",
+    "noradrenaline",
+    "acetylcholine",
+    "receptor"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "Why can the same neurotransmitter have different effects?",
+      "Which pair dominates fast cortical excitation and inhibition?",
+      "Dopamine is best understood as:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Kandel ER, et al. Principles of Neural Science, 6th ed. McGraw Hill. 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Tritsch NX, Sabatini BL. Dopaminergic modulation of synaptic transmission. Neuron. 2012.",
+      "url": "https://doi.org/10.1016/j.neuron.2012.09.023"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "central-executive-network-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 13,
+  "level": 28,
+  "title": "Central Executive Network",
+  "subtitle": "Holding goals during emotionally demanding tasks",
+  "hero": "central-executive-network-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating central executive network across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "default-mode-network-trauma"
+  ],
+  "previousConcept": "default-mode-network-trauma",
+  "nextConcept": "memory-encoding-trauma",
+  "tags": [
+    "central",
+    "executive",
+    "network",
+    "trauma",
+    "emdr",
+    "established cognitive role; mixed disorder specificity"
+  ],
+  "searchTerms": [
+    "central",
+    "executive",
+    "network",
+    "trauma",
+    "emdr",
+    "established cognitive role; mixed disorder specificity",
+    "holding",
+    "goals",
+    "during",
+    "emotionally",
+    "demanding",
+    "tasks"
+  ],
+  "learningObjectives": [
+    "Explain central executive network in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in central executive network.",
+    "Identify one limitation or safety implication relevant to central executive network."
+  ],
+  "sections": {
+    "explainSimply": "Executive networks support working memory, planning and goal-directed control.",
+    "explainLikePsychologist": "Trauma symptoms can consume working-memory capacity, especially during cue exposure or sleep deprivation.",
+    "advancedClinicalDetail": "Frontoparietal control interacts dynamically with salience and default-mode systems; deficits may reflect state, avoidance, depression or medication effects.",
+    "thinkOfItLike": "Think of central executive network as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need central executive network to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Poor performance is not proof of structural impairment.",
+    "clinicalPearl": "Clinical pearl: use central executive network to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses central executive network to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Poor performance is not proof of structural impairment. Evidence classification: established cognitive role; mixed disorder specificity."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Executive networks support working memory, planning and goal-directed control."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Trauma symptoms can consume working-memory capacity, especially during cue exposure or sleep deprivation."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Poor performance is not proof of structural impairment."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Executive networks support working memory, planning and goal-directed control.",
+      "Trauma symptoms can consume working-memory capacity, especially during cue exposure or sleep deprivation.",
+      "Poor performance is not proof of structural impairment."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "central-executive-network-trauma-q1",
+      "question": "What is the most accurate core statement about Central Executive Network?",
+      "options": [
+        "Executive networks support working memory, planning and goal-directed control.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Executive networks support working memory, planning and goal-directed control."
+    },
+    {
+      "id": "central-executive-network-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Trauma symptoms can consume working-memory capacity, especially during cue exposure or sleep deprivation.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma symptoms can consume working-memory capacity, especially during cue exposure or sleep deprivation."
+    },
+    {
+      "id": "central-executive-network-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Poor performance is not proof of structural impairment.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Poor performance is not proof of structural impairment."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Executive networks support working memory, planning and goal-directed control."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Poor performance is not proof of structural impairment."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established cognitive role; mixed disorder specificity"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

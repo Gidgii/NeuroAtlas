@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080c0d">
+  <meta name="description" content="Clinical neuroscience, designed for psychology in practice.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Clinical Neuroscience Atlas</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <button id="homeButton" class="brand" aria-label="Clinical Neuroscience Atlas home">
+        <span class="brand-mark" aria-hidden="true">⌁</span>
+        <span><strong>Clinical Neuroscience</strong><small>ATLAS</small></span>
+      </button>
+      <div class="top-actions">
+        <button id="searchButton" class="icon-button" aria-label="Search concepts">⌕</button>
+        <button id="bookmarkButton" class="icon-button" aria-label="View bookmarks">♡</button>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1"></main>
+
+    <nav class="bottom-nav" aria-label="Primary navigation">
+      <button data-route="home" class="nav-item active"><span>⌂</span>Home</button>
+      <button data-route="learn" class="nav-item"><span>◉</span>Learn</button>
+      <button data-route="review" class="nav-item"><span>↻</span>Review <b id="reviewBadge" hidden>0</b></button>
+      <button data-route="progress" class="nav-item"><span>◔</span>Progress</button>
+    </nav>
+  </div>
+
+  <dialog id="searchDialog" class="search-dialog">
+    <form method="dialog" class="dialog-head"><h2>Search the Atlas</h2><button aria-label="Close search">×</button></form>
+    <label class="search-field"><span>⌕</span><input id="searchInput" type="search" autocomplete="off" placeholder="Neuron, membrane, memory…"></label>
+    <div id="searchResults" class="search-results"></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

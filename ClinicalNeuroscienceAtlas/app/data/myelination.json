@@ -1,0 +1,156 @@
+{
+  "id": "myelination",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the developmental sequence underlying developmental myelination.",
+    "Identify the principal cells, structures and signals involved in developmental myelination.",
+    "Connect developmental myelination to later cognition and behaviour.",
+    "Interpret clinical findings without treating development as deterministic."
+  ],
+  "anatomy": [
+    {
+      "id": "opc",
+      "label": "Oligodendrocyte precursor",
+      "short": "Proliferative cell capable of becoming myelinating glia",
+      "detail": "OPCs remain abundant and responsive across development.",
+      "clinical": "Their proliferation and differentiation are sensitive to injury and activity."
+    },
+    {
+      "id": "differentiation",
+      "label": "Differentiation",
+      "short": "OPCs mature into oligodendrocytes",
+      "detail": "Maturing cells extend processes and select axons for wrapping.",
+      "clinical": "Failure of differentiation can limit repair even when precursors are present."
+    },
+    {
+      "id": "internode",
+      "label": "Internode",
+      "short": "Myelin segment between nodes",
+      "detail": "Each sheath forms a discrete internode around one axon segment.",
+      "clinical": "Internode geometry influences conduction velocity and timing."
+    },
+    {
+      "id": "node",
+      "label": "Node of Ranvier",
+      "short": "Gap supporting action-potential regeneration",
+      "detail": "Voltage-gated sodium channels cluster at nodes between sheaths.",
+      "clinical": "Disrupted nodal organisation can impair conduction without complete axon loss."
+    },
+    {
+      "id": "white-matter",
+      "label": "White-matter tract",
+      "short": "Bundles supporting long-range communication",
+      "detail": "Increasing myelination changes diffusion, timing and network efficiency.",
+      "clinical": "White-matter measures reflect multiple tissue properties and are not direct readouts of one psychological function."
+    }
+  ],
+  "interaction": {
+    "title": "Developmental Myelination sequence",
+    "instruction": "Select a component, then run the sequence to follow development over time.",
+    "ariaLabel": "Interactive developmental myelination model",
+    "stages": [
+      {
+        "label": "Recruit",
+        "text": "OPCs proliferate and respond to developmental signals."
+      },
+      {
+        "label": "Differentiate",
+        "text": "Selected precursors mature into oligodendrocytes."
+      },
+      {
+        "label": "Wrap",
+        "text": "Processes spiral around axons to form internodes."
+      },
+      {
+        "label": "Tune",
+        "text": "Sheaths and nodes mature to support precise conduction timing."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "The primary myelinating cell of the CNS is the:",
+      "options": [
+        "Oligodendrocyte",
+        "Astrocyte",
+        "Microglial cell",
+        "Ependymal cell"
+      ],
+      "answer": 0,
+      "explanation": "Oligodendrocytes form CNS myelin."
+    },
+    {
+      "question": "Developmental myelination:",
+      "options": [
+        "Continues through childhood and beyond",
+        "Ends before birth",
+        "Occurs only after injury",
+        "Is identical in all regions"
+      ],
+      "answer": 0,
+      "explanation": "Different pathways myelinate on different schedules, many extending into adulthood."
+    },
+    {
+      "question": "Nodes of Ranvier are important because they:",
+      "options": [
+        "Support action-potential regeneration between internodes",
+        "Produce neurotransmitter vesicles",
+        "Generate cortical layers",
+        "Close the neural tube"
+      ],
+      "answer": 0,
+      "explanation": "Nodes concentrate ion channels needed for saltatory conduction."
+    },
+    {
+      "question": "Why can myelination affect cognition?",
+      "options": [
+        "It alters timing and reliability across distributed networks",
+        "It determines personality directly",
+        "It creates new chromosomes",
+        "It prevents all neural plasticity"
+      ],
+      "answer": 0,
+      "explanation": "Precise long-range timing supports coordinated cognitive processing."
+    },
+    {
+      "question": "Which interpretation is most accurate?",
+      "options": [
+        "White-matter imaging measures are biologically informative but not psychologically specific",
+        "One diffusion value diagnoses ADHD",
+        "More myelin is always better",
+        "Myelin has no metabolic role"
+      ],
+      "answer": 0,
+      "explanation": "White-matter measures reflect several tissue properties and require cautious interpretation."
+    }
+  ],
+  "tags": [
+    "myelination",
+    "white matter",
+    "oligodendrocytes",
+    "nodes of Ranvier",
+    "processing speed",
+    "brain development"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "The primary myelinating cell of the CNS is the:",
+      "Developmental myelination:",
+      "Nodes of Ranvier are important because they:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Stiles J, Jernigan TL. The basics of brain development. Neuropsychology Review. 2010;20:327–348.",
+      "url": "https://doi.org/10.1007/s11065-010-9148-4"
+    },
+    {
+      "type": "Review",
+      "citation": "Silbereis JC et al. The cellular and molecular landscapes of the developing human central nervous system. Neuron. 2016;89:248–268.",
+      "url": "https://doi.org/10.1016/j.neuron.2015.12.008"
+    }
+  ]
+}

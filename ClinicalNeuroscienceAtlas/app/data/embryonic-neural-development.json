@@ -1,0 +1,149 @@
+{
+  "id": "embryonic-neural-development",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the developmental sequence underlying embryonic neural development.",
+    "Identify the principal cells, structures and signals involved in embryonic neural development.",
+    "Connect embryonic neural development to later cognition and behaviour.",
+    "Interpret clinical findings without treating development as deterministic."
+  ],
+  "anatomy": [
+    {
+      "id": "neural-plate",
+      "label": "Neural plate",
+      "short": "Specialised ectoderm committed toward nervous tissue",
+      "detail": "Neural induction converts a region of surface ectoderm into a thickened neural plate.",
+      "clinical": "Failure at this earliest stage can affect broad portions of the nervous system."
+    },
+    {
+      "id": "organiser",
+      "label": "Organising signals",
+      "short": "Molecular gradients assign positional identity",
+      "detail": "Signals from the notochord, floor plate and surrounding tissues pattern the developing neural tissue.",
+      "clinical": "The same morphogen can produce different cell fates at different concentrations and times."
+    },
+    {
+      "id": "progenitors",
+      "label": "Neural progenitors",
+      "short": "Self-renewing cells that generate neural lineages",
+      "detail": "Progenitors proliferate, then produce neurons and glia in tightly regulated sequences.",
+      "clinical": "Altered proliferation can change cortical size, lamination and later network capacity."
+    },
+    {
+      "id": "regionalisation",
+      "label": "Regionalisation",
+      "short": "Early tissue acquires future brain-region identity",
+      "detail": "The anterior neural tube is subdivided into forebrain, midbrain and hindbrain territories.",
+      "clinical": "Regional identity is established long before mature anatomy is recognisable."
+    }
+  ],
+  "interaction": {
+    "title": "Embryonic Neural Development sequence",
+    "instruction": "Select a component, then run the sequence to follow development over time.",
+    "ariaLabel": "Interactive embryonic neural development model",
+    "stages": [
+      {
+        "label": "Induce",
+        "text": "Surface ectoderm is instructed to adopt neural fate."
+      },
+      {
+        "label": "Pattern",
+        "text": "Morphogen gradients establish axes and positional identity."
+      },
+      {
+        "label": "Expand",
+        "text": "Progenitor cells proliferate within germinal zones."
+      },
+      {
+        "label": "Differentiate",
+        "text": "Cells begin neuron- and glia-specific developmental programs."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Neural induction most directly refers to:",
+      "options": [
+        "Ectoderm adopting a neural fate",
+        "Axons forming myelin",
+        "Synapses being pruned",
+        "The cortex producing EEG"
+      ],
+      "answer": 0,
+      "explanation": "Neural induction is the early commitment of ectodermal cells toward nervous-system tissue."
+    },
+    {
+      "question": "Morphogen gradients are important because they:",
+      "options": [
+        "Assign positional identity in developing tissue",
+        "Carry adult memories",
+        "Create action potentials",
+        "Replace gene expression"
+      ],
+      "answer": 0,
+      "explanation": "Concentration and timing of morphogens help specify which cell types and regions develop."
+    },
+    {
+      "question": "Neural progenitors primarily:",
+      "options": [
+        "Self-renew and generate neural lineages",
+        "Conduct saltatory impulses",
+        "Release hormones into blood",
+        "Form the skull"
+      ],
+      "answer": 0,
+      "explanation": "Progenitors divide and later generate neurons and glia."
+    },
+    {
+      "question": "Why can early developmental insults have broad effects?",
+      "options": [
+        "They occur before many regions and lineages have separated",
+        "The brain is already fully mature",
+        "Only motor neurons exist",
+        "Myelin blocks recovery"
+      ],
+      "answer": 0,
+      "explanation": "Early processes contribute to many later structures, so disruption may propagate widely."
+    },
+    {
+      "question": "Which statement best reflects modern developmental neuroscience?",
+      "options": [
+        "Genes, signals, activity and environment interact",
+        "A fixed blueprint unfolds without feedback",
+        "Experience begins only after birth",
+        "All regions mature at the same rate"
+      ],
+      "answer": 0,
+      "explanation": "Development is an interactive, staged process rather than a rigid linear script."
+    }
+  ],
+  "tags": [
+    "brain development",
+    "embryology",
+    "neural induction",
+    "morphogens",
+    "progenitor cells",
+    "neurodevelopment"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "Neural induction most directly refers to:",
+      "Morphogen gradients are important because they:",
+      "Neural progenitors primarily:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Stiles J, Jernigan TL. The basics of brain development. Neuropsychology Review. 2010;20:327–348.",
+      "url": "https://doi.org/10.1007/s11065-010-9148-4"
+    },
+    {
+      "type": "Review",
+      "citation": "Silbereis JC et al. The cellular and molecular landscapes of the developing human central nervous system. Neuron. 2016;89:248–268.",
+      "url": "https://doi.org/10.1016/j.neuron.2015.12.008"
+    }
+  ]
+}

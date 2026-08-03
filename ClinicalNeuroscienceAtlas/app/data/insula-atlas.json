@@ -1,0 +1,201 @@
+{
+  "id": "insula-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 25,
+  "level": 29,
+  "title": "Insula Atlas",
+  "subtitle": "Map interoception, salience, taste and autonomic integration",
+  "pronunciation": "IN-syuh-luh",
+  "hero": "insula-atlas.svg",
+  "altText": "Chalkboard-style anatomical atlas illustration highlighting the insula atlas and its major connections.",
+  "prerequisites": [
+    "cerebral-lobes-atlas"
+  ],
+  "previousConcept": "hypothalamus-atlas",
+  "nextConcept": "insula-operculum-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "insula atlas",
+    "clinical psychology",
+    "brain atlas",
+    "salience network",
+    "interoception",
+    "autonomic regulation",
+    "gustation"
+  ],
+  "searchTerms": [
+    "Insula Atlas",
+    "IN-syuh-luh",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance",
+    "posterior insula",
+    "mid-insula",
+    "anterior insula",
+    "operculum"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the insula atlas.",
+    "Trace key connections and functional relationships of the insula atlas.",
+    "Relate lesions or network disruption to plausible clinical presentations."
+  ],
+  "sections": {
+    "explainSimply": "The insula is folded deep inside the lateral sulcus and helps integrate body signals with emotion, attention and action.",
+    "explainLikePsychologist": "The insula supports interoception, salience detection and switching between internally and externally focused networks.",
+    "advancedClinicalDetail": "The insular cortex contains posterior-to-anterior gradients from primary interoceptive and somatosensory representations toward multimodal, affective and cognitive integration. It connects with thalamus, amygdala, cingulate, orbitofrontal cortex, striatum and brainstem autonomic centres.",
+    "thinkOfItLike": "A concealed control room that combines body telemetry with context before signalling what deserves attention.",
+    "whyPsychologistsCare": "Insular dysfunction can contribute to altered interoception, disgust processing, craving, pain, panic and salience attribution, but symptoms reflect network-level dysfunction rather than a single-region diagnosis.",
+    "whenItGoesWrong": "Damage or dysregulation can disrupt salience network, interoception, autonomic regulation; presentations depend on laterality, extent and connected networks.",
+    "clinicalPearl": "Do not equate strong bodily awareness or anxiety with an “overactive insula”; infer mechanisms cautiously.",
+    "practicalExample": "A clinician uses the insula atlas map to test whether a patient’s pattern is anatomically coherent while considering broader network and medical explanations.",
+    "limitationsCautions": "Atlas localisation supports hypothesis generation, not diagnosis. Individual anatomy, distributed processing, compensation and comorbidity limit one-to-one structure–symptom claims."
+  },
+  "anatomy": {
+    "position": "Integrated within deep or medial cortical-brainstem relationships shown in the atlas.",
+    "regions": [
+      "posterior insula",
+      "mid-insula",
+      "anterior insula",
+      "operculum"
+    ],
+    "inputs": [
+      "thalamus",
+      "amygdala",
+      "anterior cingulate"
+    ],
+    "outputs": [
+      "orbitofrontal cortex",
+      "brainstem"
+    ],
+    "connections": [
+      "thalamus",
+      "amygdala",
+      "anterior cingulate",
+      "orbitofrontal cortex",
+      "brainstem"
+    ],
+    "functions": [
+      "salience network",
+      "interoception",
+      "autonomic regulation",
+      "gustation"
+    ]
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "posterior insula",
+        "mid-insula",
+        "anterior insula",
+        "operculum"
+      ]
+    },
+    {
+      "type": "trace",
+      "label": "Trace connections",
+      "targets": [
+        "thalamus",
+        "amygdala",
+        "anterior cingulate",
+        "orbitofrontal cortex",
+        "brainstem"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "salience network",
+        "interoception",
+        "autonomic regulation",
+        "gustation"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best describes the insula atlas?",
+      "options": [
+        "The insula supports interoception, salience detection and switching between internally and externally focused networks.",
+        "It acts independently of the rest of the brain.",
+        "It has one fixed psychological function.",
+        "It can diagnose psychiatric disorders from anatomy alone."
+      ],
+      "answer": 0,
+      "rationale": "The structure participates in distributed networks and should be interpreted in context."
+    },
+    {
+      "question": "What is the safest clinical inference from this atlas?",
+      "options": [
+        "A lesion pattern can guide hypotheses but requires clinical and medical correlation.",
+        "One symptom proves one structure is damaged.",
+        "Normal imaging excludes network dysfunction.",
+        "Laterality is never relevant."
+      ],
+      "answer": 0,
+      "rationale": "Neuroanatomy constrains hypotheses but does not replace assessment."
+    },
+    {
+      "question": "Why are connections important?",
+      "options": [
+        "Symptoms can reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Connections are irrelevant to cognition.",
+        "All pathways are identical across people."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive systems depend on pathways linking regions."
+    }
+  ],
+  "references": [
+    {
+      "title": "Clinical Neuroanatomy",
+      "source": "Blumenfeld, Neuroanatomy Through Clinical Cases",
+      "type": "textbook"
+    },
+    {
+      "title": "Principles of Neural Science",
+      "source": "Kandel et al.",
+      "type": "textbook"
+    },
+    {
+      "title": "Human brain network anatomy",
+      "source": "Peer-reviewed systems neuroscience literature",
+      "type": "review"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "easyIntervalDays": 7,
+    "hardIntervalDays": 1,
+    "tags": [
+      "anatomy",
+      "insula-atlas"
+    ]
+  },
+  "accessibility": {
+    "altText": "Anatomical illustration of Insula Atlas.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The insula is folded deep inside the lateral sulcus and helps integrate body signals with emotion, attention and action.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

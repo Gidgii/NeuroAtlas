@@ -1,0 +1,177 @@
+{
+  "id": "hpa-axis-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 4,
+  "level": 28,
+  "title": "The HPA Axis in Trauma",
+  "subtitle": "Cortisol regulation under acute and prolonged threat",
+  "hero": "hpa-axis-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating the hpa axis in trauma across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "chronic-stress-trauma"
+  ],
+  "previousConcept": "chronic-stress-trauma",
+  "nextConcept": "sympathetic-activation-trauma",
+  "tags": [
+    "the",
+    "hpa",
+    "axis",
+    "trauma",
+    "trauma",
+    "emdr",
+    "established physiology; mixed disorder-specific patterns"
+  ],
+  "searchTerms": [
+    "the",
+    "hpa",
+    "axis",
+    "trauma",
+    "emdr",
+    "established physiology; mixed disorder-specific patterns",
+    "cortisol",
+    "regulation",
+    "under",
+    "acute",
+    "prolonged",
+    "threat"
+  ],
+  "learningObjectives": [
+    "Explain the hpa axis in trauma in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in the hpa axis in trauma.",
+    "Identify one limitation or safety implication relevant to the hpa axis in trauma."
+  ],
+  "sections": {
+    "explainSimply": "The HPA axis coordinates a slower hormonal stress response and helps mobilise energy.",
+    "explainLikePsychologist": "Trauma-related disorders may show altered cortisol timing, reactivity or feedback, but direction and magnitude vary across samples, sex, development and chronicity.",
+    "advancedClinicalDetail": "CRH, ACTH and cortisol operate through feedback loops involving hypothalamus, pituitary, adrenal cortex, hippocampus and prefrontal regions.",
+    "thinkOfItLike": "Think of the hpa axis in trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need the hpa axis in trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Single cortisol measurements do not diagnose PTSD or treatment need.",
+    "clinicalPearl": "Clinical pearl: use the hpa axis in trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses the hpa axis in trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Single cortisol measurements do not diagnose PTSD or treatment need. Evidence classification: established physiology; mixed disorder-specific patterns."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "The HPA axis coordinates a slower hormonal stress response and helps mobilise energy."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Trauma-related disorders may show altered cortisol timing, reactivity or feedback, but direction and magnitude vary across samples, sex, development and chronicity."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Single cortisol measurements do not diagnose PTSD or treatment need."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "The HPA axis coordinates a slower hormonal stress response and helps mobilise energy.",
+      "Trauma-related disorders may show altered cortisol timing, reactivity or feedback, but direction and magnitude vary across samples, sex, development and chronicity.",
+      "Single cortisol measurements do not diagnose PTSD or treatment need."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "hpa-axis-trauma-q1",
+      "question": "What is the most accurate core statement about The HPA Axis in Trauma?",
+      "options": [
+        "The HPA axis coordinates a slower hormonal stress response and helps mobilise energy.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The HPA axis coordinates a slower hormonal stress response and helps mobilise energy."
+    },
+    {
+      "id": "hpa-axis-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Trauma-related disorders may show altered cortisol timing, reactivity or feedback, but direction and magnitude vary across samples, sex, development and chronicity.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma-related disorders may show altered cortisol timing, reactivity or feedback, but direction and magnitude vary across samples, sex, development and chronicity."
+    },
+    {
+      "id": "hpa-axis-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Single cortisol measurements do not diagnose PTSD or treatment need.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Single cortisol measurements do not diagnose PTSD or treatment need."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The HPA axis coordinates a slower hormonal stress response and helps mobilise energy."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Single cortisol measurements do not diagnose PTSD or treatment need."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established physiology; mixed disorder-specific patterns"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

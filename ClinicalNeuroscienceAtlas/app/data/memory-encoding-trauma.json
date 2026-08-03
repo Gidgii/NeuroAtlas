@@ -1,0 +1,176 @@
+{
+  "id": "memory-encoding-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 14,
+  "level": 28,
+  "title": "Memory Encoding During Trauma",
+  "subtitle": "Why high arousal changes what is recorded",
+  "hero": "memory-encoding-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating memory encoding during trauma across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "central-executive-network-trauma"
+  ],
+  "previousConcept": "central-executive-network-trauma",
+  "nextConcept": "memory-consolidation-trauma",
+  "tags": [
+    "memory",
+    "encoding",
+    "during",
+    "trauma",
+    "trauma",
+    "emdr",
+    "established memory principles"
+  ],
+  "searchTerms": [
+    "memory",
+    "encoding",
+    "during",
+    "trauma",
+    "emdr",
+    "established memory principles",
+    "high",
+    "arousal",
+    "changes",
+    "what",
+    "recorded"
+  ],
+  "learningObjectives": [
+    "Explain memory encoding during trauma in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in memory encoding during trauma.",
+    "Identify one limitation or safety implication relevant to memory encoding during trauma."
+  ],
+  "sections": {
+    "explainSimply": "Trauma can strengthen memory for central threat details while weakening context or peripheral detail.",
+    "explainLikePsychologist": "Arousal, attention, dissociation and meaning shape what is encoded; “photographic trauma memory” is not the norm.",
+    "advancedClinicalDetail": "Noradrenergic and glucocorticoid effects depend on timing and dose, producing nonlinear effects on consolidation and retrieval.",
+    "thinkOfItLike": "Think of memory encoding during trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need memory encoding during trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Fragmented recall does not prove an event occurred, and coherent recall does not disprove trauma.",
+    "clinicalPearl": "Clinical pearl: use memory encoding during trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses memory encoding during trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Fragmented recall does not prove an event occurred, and coherent recall does not disprove trauma. Evidence classification: established memory principles."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Trauma can strengthen memory for central threat details while weakening context or peripheral detail."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Arousal, attention, dissociation and meaning shape what is encoded; “photographic trauma memory” is not the norm."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Fragmented recall does not prove an event occurred, and coherent recall does not disprove trauma."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Trauma can strengthen memory for central threat details while weakening context or peripheral detail.",
+      "Arousal, attention, dissociation and meaning shape what is encoded; “photographic trauma memory” is not the norm.",
+      "Fragmented recall does not prove an event occurred, and coherent recall does not disprove trauma."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "memory-encoding-trauma-q1",
+      "question": "What is the most accurate core statement about Memory Encoding During Trauma?",
+      "options": [
+        "Trauma can strengthen memory for central threat details while weakening context or peripheral detail.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma can strengthen memory for central threat details while weakening context or peripheral detail."
+    },
+    {
+      "id": "memory-encoding-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Arousal, attention, dissociation and meaning shape what is encoded; “photographic trauma memory” is not the norm.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Arousal, attention, dissociation and meaning shape what is encoded; “photographic trauma memory” is not the norm."
+    },
+    {
+      "id": "memory-encoding-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Fragmented recall does not prove an event occurred, and coherent recall does not disprove trauma.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Fragmented recall does not prove an event occurred, and coherent recall does not disprove trauma."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Trauma can strengthen memory for central threat details while weakening context or peripheral detail."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Fragmented recall does not prove an event occurred, and coherent recall does not disprove trauma."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established memory principles"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

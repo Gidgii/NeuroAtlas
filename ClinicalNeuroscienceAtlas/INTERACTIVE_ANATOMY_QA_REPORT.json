@@ -1,0 +1,41 @@
+{
+  "reportVersion": "2.9.0",
+  "phase": "Interactive Anatomy Atlas",
+  "generatedDate": "2026-08-02",
+  "status": "PASS",
+  "verifiedRegisteredStructures": 21,
+  "structuresAdded": [
+    "basal-ganglia-circuit-explorer",
+    "major-white-matter-pathways-atlas",
+    "neurotransmitter-pathways-atlas",
+    "functional-network-overlay-atlas",
+    "arterial-territories-stroke-comparison"
+  ],
+  "checks": {
+    "jsonValidity": "PASS",
+    "uniqueTargetIds": "PASS",
+    "fileIdAlignment": "PASS",
+    "loaderRegistration": "PASS",
+    "curriculumRegistration": "PASS",
+    "navigationLinkage": "PASS",
+    "assetPaths": "PASS",
+    "serviceWorkerCoverage": "PASS",
+    "searchMetadata": "PASS",
+    "bookmarkCompatibility": "PASS",
+    "progressTracking": "PASS",
+    "quizCoverageAndRationales": "PASS",
+    "spacedRepetitionMetadata": "PASS",
+    "accessibilityMetadata": "PASS",
+    "reducedMotionSupport": "PASS",
+    "offlineAvailability": "PASS",
+    "javascriptSyntax": "PASS",
+    "zipIntegrity": "PASS"
+  },
+  "defectsFound": [],
+  "repairsCompleted": [],
+  "nextUnfinishedStructure": "brain-lateralisation-comparison",
+  "notes": [
+    "Interaction controls are rendered through the existing generic atlas explorer using each structure\u2019s registered interaction metadata.",
+    "Lesion and behavioural descriptions explicitly qualify localisation and distributed-network interpretation."
+  ]
+}

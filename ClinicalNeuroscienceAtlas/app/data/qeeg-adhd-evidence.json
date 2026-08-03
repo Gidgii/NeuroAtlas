@@ -1,0 +1,138 @@
+{
+  "id": "qeeg-adhd-evidence",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of QEEG and ADHD.",
+    "Apply QEEG and ADHD to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Group-level EEG differences have been reported in ADHD, but individuals are heterogeneous and patterns overlap with typical development and other conditions."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Theta/beta ratio has limited diagnostic specificity and varies with age, state, method and sample. Clinical diagnosis remains behavioural and developmental."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "QEEG may generate research hypotheses but should not override comprehensive assessment."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Marketing a single ratio as an objective ADHD test misrepresents evidence."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace QEEG and ADHD",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Group-level EEG differences have been reported in ADHD, but individuals are heterogeneous and patterns overlap with typical development and other conditions."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Theta/beta ratio has limited diagnostic specificity and varies with age, state, method and sample. Clinical diagnosis remains behavioural and developmental."
+      },
+      {
+        "label": "Integrate",
+        "detail": "QEEG may generate research hypotheses but should not override comprehensive assessment."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Marketing a single ratio as an objective ADHD test misrepresents evidence."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for QEEG and ADHD"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures QEEG and ADHD?",
+      "options": [
+        "Group-level EEG differences have been reported in ADHD, but individuals are heterogeneous and patterns overlap with typical development and other conditions.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Group-level EEG differences have been reported in ADHD, but individuals are heterogeneous and patterns overlap with typical development and other conditions."
+    },
+    {
+      "question": "What is the safest clinical principle for QEEG and ADHD?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in QEEG and ADHD?",
+      "options": [
+        "Marketing a single ratio as an objective ADHD test misrepresents evidence.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Marketing a single ratio as an objective ADHD test misrepresents evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Theta/beta ratio has limited diagnostic specificity and varies with age, state, method and sample. Clinical diagnosis remains behavioural and developmental."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "QEEG may generate research hypotheses but should not override comprehensive assessment."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Marketing a single ratio as an objective ADHD test misrepresents evidence."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Heterogeneity defeats one-map diagnoses."
+    }
+  ],
+  "tags": [
+    "qeeg and adhd",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "evidence",
+    "heterogeneous",
+    "insufficient",
+    "stand"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

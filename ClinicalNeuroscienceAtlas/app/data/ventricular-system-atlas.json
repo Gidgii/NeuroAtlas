@@ -1,0 +1,195 @@
+{
+  "id": "ventricular-system-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 20,
+  "level": 29,
+  "title": "Ventricular System Atlas",
+  "subtitle": "Trace CSF flow through ventricles, foramina and subarachnoid spaces",
+  "pronunciation": "ven-TRIK-yuh-lar SIS-tem",
+  "hero": "ventricular-system-atlas.svg",
+  "altText": "Chalkboard-style interactive anatomical illustration for Ventricular System Atlas, showing labelled structures and pathway relationships.",
+  "prerequisites": [
+    "limbic-system-atlas"
+  ],
+  "previousConcept": "limbic-system-atlas",
+  "nextConcept": "cranial-nerves-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "ventricular system atlas",
+    "clinical localisation",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Ventricular System Atlas",
+    "ven-TRIK-yuh-lar SIS-tem",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Identify the major components of ventricular system.",
+    "Trace clinically relevant inputs, outputs and connections.",
+    "Relate focal dysfunction to plausible neurological and behavioural signs."
+  ],
+  "sections": {
+    "explainSimply": "Ventricular System is a set of connected structures that can be explored layer by layer to understand where it sits and what it does.",
+    "explainLikePsychologist": "This atlas links the anatomy of ventricular system to behaviour, cognition, neurological signs and clinically meaningful patterns without reducing complex functions to one structure.",
+    "advancedClinicalDetail": "The ventricular system should be interpreted through spatial relationships, laterality, vascular supply, pathway continuity and distributed network effects. Focal damage can create both local signs and disconnection syndromes.",
+    "thinkOfItLike": "Think of it as a layered transit map: structures are stations, tracts are routes, and symptoms depend on which junctions or connections are interrupted.",
+    "whyPsychologistsCare": "Recognising plausible neuroanatomical patterns supports better referral, formulation and interpretation of cognitive or behavioural change.",
+    "whenItGoesWrong": "Over-localising a symptom to one structure, or treating an atlas view as diagnostic evidence, can produce false certainty.",
+    "clinicalPearl": "Their shape follows the expanding cerebral hemispheres.",
+    "practicalExample": "A clinician can select a structure in the Ventricular System Atlas and trace its inputs and outputs before comparing the predicted pattern with examination, imaging and functional assessment.",
+    "limitationsCautions": "This atlas supports learning and clinical reasoning; it does not replace neurological examination, imaging or specialist interpretation."
+  },
+  "anatomy": [
+    {
+      "id": "lateral-ventricles",
+      "label": "Lateral ventricles",
+      "pronunciation": "Lateral ventricles",
+      "function": "Paired C-shaped chambers within cerebral hemispheres",
+      "inputs": "Choroid plexus and CSF from ventricular lining",
+      "outputs": "Interventricular foramina to third ventricle",
+      "connections": "Choroid plexus and CSF from ventricular lining; projects to Interventricular foramina to third ventricle.",
+      "associatedDisorders": "Hydrocephalus, intraventricular haemorrhage",
+      "clinicalSignificance": "Their shape follows the expanding cerebral hemispheres."
+    },
+    {
+      "id": "third-ventricle",
+      "label": "Third ventricle",
+      "pronunciation": "Third ventricle",
+      "function": "Midline chamber between thalami",
+      "inputs": "Lateral ventricles via foramina of Monro",
+      "outputs": "Cerebral aqueduct",
+      "connections": "Lateral ventricles via foramina of Monro; projects to Cerebral aqueduct.",
+      "associatedDisorders": "Obstructive hydrocephalus, hypothalamic/thalamic compression",
+      "clinicalSignificance": "A narrow midline chamber tightly related to diencephalic structures."
+    },
+    {
+      "id": "cerebral-aqueduct",
+      "label": "Cerebral aqueduct",
+      "pronunciation": "Cerebral aqueduct",
+      "function": "Narrow conduit through midbrain",
+      "inputs": "Third ventricle",
+      "outputs": "Fourth ventricle",
+      "connections": "Third ventricle; projects to Fourth ventricle.",
+      "associatedDisorders": "Aqueductal stenosis",
+      "clinicalSignificance": "Its small calibre makes it a common bottleneck for CSF flow."
+    },
+    {
+      "id": "fourth-ventricle",
+      "label": "Fourth ventricle",
+      "pronunciation": "Fourth ventricle",
+      "function": "Diamond-shaped chamber between pons/medulla and cerebellum",
+      "inputs": "Cerebral aqueduct",
+      "outputs": "Median and lateral apertures",
+      "connections": "Cerebral aqueduct; projects to Median and lateral apertures.",
+      "associatedDisorders": "Posterior fossa mass effect, hydrocephalus",
+      "clinicalSignificance": "It opens CSF into the subarachnoid space."
+    },
+    {
+      "id": "choroid-plexus",
+      "label": "Choroid plexus",
+      "pronunciation": "Choroid plexus",
+      "function": "Produces most cerebrospinal fluid",
+      "inputs": "Fenestrated capillaries and epithelial transport",
+      "outputs": "Ventricular CSF",
+      "connections": "Fenestrated capillaries and epithelial transport; projects to Ventricular CSF.",
+      "associatedDisorders": "Choroid plexus tumour, altered CSF dynamics",
+      "clinicalSignificance": "CSF production is active and regulated, not passive filtration."
+    }
+  ],
+  "interactions": {
+    "tap": true,
+    "zoom": true,
+    "pan": true,
+    "rotate": "simulated multi-view",
+    "layers": [
+      "overview",
+      "structures",
+      "connections",
+      "clinical overlay"
+    ],
+    "traceInputs": true,
+    "traceOutputs": true,
+    "compareLaterality": true,
+    "showFunctions": true,
+    "showLesions": true,
+    "returnToOverview": true
+  },
+  "quiz": [
+    {
+      "id": "ventricular-system-atlas-q1",
+      "question": "What is the safest way to use the Ventricular System Atlas?",
+      "options": [
+        "As a spatial and network guide alongside clinical evidence",
+        "As a stand-alone diagnostic test",
+        "To assume one symptom has one location",
+        "To ignore laterality"
+      ],
+      "answer": 0,
+      "rationale": "As a spatial and network guide alongside clinical evidence"
+    },
+    {
+      "id": "ventricular-system-atlas-q2",
+      "question": "Which principle best improves lesion interpretation?",
+      "options": [
+        "Consider location, pathways, laterality and network effects",
+        "Use only the structure name",
+        "Ignore white-matter connections",
+        "Assume all people have identical anatomy"
+      ],
+      "answer": 0,
+      "rationale": "Consider location, pathways, laterality and network effects"
+    },
+    {
+      "id": "ventricular-system-atlas-q3",
+      "question": "What does selecting a structure reveal?",
+      "options": [
+        "Function, inputs, outputs, connections and clinical relevance",
+        "A definitive psychiatric diagnosis",
+        "A guaranteed prognosis",
+        "Only its colour"
+      ],
+      "answer": 0,
+      "rationale": "Function, inputs, outputs, connections and clinical relevance"
+    }
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Sinauer/Oxford University Press.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S, ed. Gray’s Anatomy. 42nd ed. Elsevier.",
+      "type": "anatomy reference"
+    },
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. 10th ed. Wolters Kluwer.",
+      "type": "atlas"
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true,
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewTags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "accessibility": {
+    "altText": "Interactive Ventricular System Atlas diagram",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "Ventricular System is a set of connected structures that can be explored layer by layer to understand where it sits and what it does.",
+    "reducedMotionFallback": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

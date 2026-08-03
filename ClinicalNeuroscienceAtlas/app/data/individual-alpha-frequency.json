@@ -1,0 +1,138 @@
+{
+  "id": "individual-alpha-frequency",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Individual Alpha Frequency.",
+    "Apply Individual Alpha Frequency to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "The alpha peak varies with age, state and individual physiology. Fixed bands can misclassify neighbouring activity."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Estimating individual alpha frequency may improve band definitions, but requires a clear peak and reliable condition."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Useful in research and longitudinal analysis when acquisition is consistent."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Forcing an alpha peak estimate from noisy or absent peaks creates false precision."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Individual Alpha Frequency",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "The alpha peak varies with age, state and individual physiology. Fixed bands can misclassify neighbouring activity."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Estimating individual alpha frequency may improve band definitions, but requires a clear peak and reliable condition."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Useful in research and longitudinal analysis when acquisition is consistent."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Forcing an alpha peak estimate from noisy or absent peaks creates false precision."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Individual Alpha Frequency"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Individual Alpha Frequency?",
+      "options": [
+        "The alpha peak varies with age, state and individual physiology. Fixed bands can misclassify neighbouring activity.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "The alpha peak varies with age, state and individual physiology. Fixed bands can misclassify neighbouring activity."
+    },
+    {
+      "question": "What is the safest clinical principle for Individual Alpha Frequency?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Individual Alpha Frequency?",
+      "options": [
+        "Forcing an alpha peak estimate from noisy or absent peaks creates false precision.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Forcing an alpha peak estimate from noisy or absent peaks creates false precision."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Estimating individual alpha frequency may improve band definitions, but requires a clear peak and reliable condition."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Useful in research and longitudinal analysis when acquisition is consistent."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Forcing an alpha peak estimate from noisy or absent peaks creates false precision."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Personalisation is valuable only when the signal supports it."
+    }
+  ],
+  "tags": [
+    "individual alpha frequency",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "personalising",
+    "spectral",
+    "interpretation",
+    "around"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

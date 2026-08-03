@@ -1,0 +1,160 @@
+{
+  "id": "treatment-planning-neurofeedback",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 18,
+  "level": 25,
+  "title": "Treatment Planning",
+  "subtitle": "Define outcomes before training starts",
+  "hero": "treatment-planning-neurofeedback.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating treatment planning within a neurofeedback closed loop.",
+  "prerequisites": [
+    "protocol-selection"
+  ],
+  "nextConcept": "alpha-training",
+  "previousConcept": "protocol-selection",
+  "tags": [
+    "treatment",
+    "planning",
+    "neurofeedback",
+    "protocol",
+    "established clinical practice"
+  ],
+  "searchTerms": [
+    "treatment",
+    "planning",
+    "neurofeedback",
+    "protocol",
+    "established clinical practice",
+    "define",
+    "outcomes",
+    "before",
+    "training",
+    "starts"
+  ],
+  "learningObjectives": [
+    "Explain treatment planning without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in treatment planning.",
+    "Identify one safety or validity limitation relevant to treatment planning."
+  ],
+  "sections": {
+    "explainSimply": "Treatment planning states what change would matter in daily life and how it will be measured.",
+    "explainLikePsychologist": "Use baseline symptom and functional measures, concurrent-treatment documentation, expected dose, review intervals and stopping rules.",
+    "advancedClinicalDetail": "Plans should distinguish proximal outcomes (signal learning), intermediate outcomes (task performance) and distal outcomes (function and wellbeing).",
+    "thinkOfItLike": "A rehabilitation plan: define the target, dose, measurement and stopping rule before changing the exercise.",
+    "whyPsychologistsCare": "Psychologists need to understand treatment planning to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Without predefined outcomes, normal fluctuation can be mistaken for success.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using treatment planning predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Without predefined outcomes, normal fluctuation can be mistaken for success. Evidence classification: established clinical practice."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Plans should distinguish proximal outcomes (signal learning), intermediate outcomes (task performance) and distal outcomes (function and wellbeing)."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Treatment planning states what change would matter in daily life and how it will be measured."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Treatment planning states what change would matter in daily life and how it will be measured.",
+      "Use baseline symptom and functional measures, concurrent-treatment documentation, expected dose, review intervals and stopping rules.",
+      "Without predefined outcomes, normal fluctuation can be mistaken for success."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Treatment Planning?",
+      "options": [
+        "Treatment planning states what change would matter in daily life and how it will be measured.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Treatment planning states what change would matter in daily life and how it will be measured."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Treatment Planning?",
+      "options": [
+        "Without predefined outcomes, normal fluctuation can be mistaken for success.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Without predefined outcomes, normal fluctuation can be mistaken for success."
+    },
+    {
+      "question": "How should the evidence for Treatment Planning be communicated?",
+      "options": [
+        "As established clinical practice, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: established clinical practice."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Treatment planning states what change would matter in daily life and how it will be measured."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Without predefined outcomes, normal fluctuation can be mistaken for success."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "established clinical practice"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "neural-tube-formation",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the developmental sequence underlying neural tube formation.",
+    "Identify the principal cells, structures and signals involved in neural tube formation.",
+    "Connect neural tube formation to later cognition and behaviour.",
+    "Interpret clinical findings without treating development as deterministic."
+  ],
+  "anatomy": [
+    {
+      "id": "plate",
+      "label": "Neural plate",
+      "short": "Flat neural tissue before folding",
+      "detail": "The neural plate thickens and lengthens along the embryo.",
+      "clinical": "Its geometry sets the starting conditions for closure."
+    },
+    {
+      "id": "hinge",
+      "label": "Hinge points",
+      "short": "Regions that bend the neural plate",
+      "detail": "Median and dorsolateral hinge points help elevate and converge the folds.",
+      "clinical": "Disrupted cell-shape change can impair closure even when cell numbers are normal."
+    },
+    {
+      "id": "folds",
+      "label": "Neural folds",
+      "short": "Raised edges that approach one another",
+      "detail": "The folds elevate and fuse along the dorsal midline.",
+      "clinical": "Closure is a moving process, not a single simultaneous event."
+    },
+    {
+      "id": "crest",
+      "label": "Neural crest",
+      "short": "Migratory cells leaving the closing tube",
+      "detail": "Neural crest cells generate much of the peripheral nervous system and other tissues.",
+      "clinical": "Neural crest disorders can affect multiple organ systems."
+    },
+    {
+      "id": "lumen",
+      "label": "Neural tube lumen",
+      "short": "Future ventricular and central-canal space",
+      "detail": "The enclosed cavity later contributes to the ventricular system and spinal central canal.",
+      "clinical": "Abnormal fluid dynamics can later interact with ventricular development."
+    }
+  ],
+  "interaction": {
+    "title": "Neural Tube Formation sequence",
+    "instruction": "Select a component, then run the sequence to follow development over time.",
+    "ariaLabel": "Interactive neural tube formation model",
+    "stages": [
+      {
+        "label": "Flatten",
+        "text": "A specialised neural plate forms."
+      },
+      {
+        "label": "Bend",
+        "text": "Hinge points lift the neural folds."
+      },
+      {
+        "label": "Fuse",
+        "text": "Opposing folds meet and close."
+      },
+      {
+        "label": "Separate",
+        "text": "Neural crest cells migrate away from the tube."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "The neural tube later forms the:",
+      "options": [
+        "Brain and spinal cord",
+        "Skull and vertebrae only",
+        "Peripheral muscles",
+        "Placenta"
+      ],
+      "answer": 0,
+      "explanation": "The central nervous system develops from the neural tube."
+    },
+    {
+      "question": "Neural crest cells contribute importantly to the:",
+      "options": [
+        "Peripheral nervous system",
+        "Cerebral ventricles only",
+        "Cortical EEG rhythm",
+        "Corpus callosum exclusively"
+      ],
+      "answer": 0,
+      "explanation": "Neural crest derivatives include much of the peripheral nervous system."
+    },
+    {
+      "question": "Why is folic acid recommended before conception?",
+      "options": [
+        "Neural-tube closure occurs very early",
+        "It accelerates adult myelination",
+        "It prevents all genetic disorders",
+        "It replaces prenatal care"
+      ],
+      "answer": 0,
+      "explanation": "Closure occurs in the first weeks, often before pregnancy is recognised."
+    },
+    {
+      "question": "Spina bifida reflects failed closure primarily in the:",
+      "options": [
+        "Caudal neural tube",
+        "Optic cup",
+        "Forebrain commissures",
+        "Cerebellar cortex"
+      ],
+      "answer": 0,
+      "explanation": "Spina bifida involves incomplete closure in the spinal region."
+    },
+    {
+      "question": "Neurulation requires:",
+      "options": [
+        "Coordinated cell-shape change and tissue folding",
+        "Only synaptic transmission",
+        "Adult-like cortical networks",
+        "No gene regulation"
+      ],
+      "answer": 0,
+      "explanation": "Mechanical and molecular processes jointly drive folding and fusion."
+    }
+  ],
+  "tags": [
+    "neurulation",
+    "neural tube",
+    "folate",
+    "neural crest",
+    "spina bifida",
+    "development"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "The neural tube later forms the:",
+      "Neural crest cells contribute importantly to the:",
+      "Why is folic acid recommended before conception?"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Stiles J, Jernigan TL. The basics of brain development. Neuropsychology Review. 2010;20:327–348.",
+      "url": "https://doi.org/10.1007/s11065-010-9148-4"
+    },
+    {
+      "type": "Review",
+      "citation": "Silbereis JC et al. The cellular and molecular landscapes of the developing human central nervous system. Neuron. 2016;89:248–268.",
+      "url": "https://doi.org/10.1016/j.neuron.2015.12.008"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "artifact-rejection-principles",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Artifact Rejection Principles.",
+    "Apply Artifact Rejection Principles to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Artifact handling combines prevention, visual review, transparent criteria and conservative correction."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Rejecting too little biases metrics; rejecting too much creates selective samples. Automated methods require validation and audit trails."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Reliable qEEG depends more on segment validity than on colourful output."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "A pristine five-second segment may be less representative than a slightly imperfect but valid longer sample."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Artifact Rejection Principles",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Artifact handling combines prevention, visual review, transparent criteria and conservative correction."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Rejecting too little biases metrics; rejecting too much creates selective samples. Automated methods require validation and audit trails."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Reliable qEEG depends more on segment validity than on colourful output."
+      },
+      {
+        "label": "Check limits",
+        "detail": "A pristine five-second segment may be less representative than a slightly imperfect but valid longer sample."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Artifact Rejection Principles"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Artifact Rejection Principles?",
+      "options": [
+        "Artifact handling combines prevention, visual review, transparent criteria and conservative correction.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Artifact handling combines prevention, visual review, transparent criteria and conservative correction."
+    },
+    {
+      "question": "What is the safest clinical principle for Artifact Rejection Principles?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Artifact Rejection Principles?",
+      "options": [
+        "A pristine five-second segment may be less representative than a slightly imperfect but valid longer sample.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "A pristine five-second segment may be less representative than a slightly imperfect but valid longer sample."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Rejecting too little biases metrics; rejecting too much creates selective samples. Automated methods require validation and audit trails."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Reliable qEEG depends more on segment validity than on colourful output."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "A pristine five-second segment may be less representative than a slightly imperfect but valid longer sample."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Clean enough to trust, not so much that you invent a new brain."
+    }
+  ],
+  "tags": [
+    "artifact rejection principles",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "preserving",
+    "brain",
+    "signal",
+    "while"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "bilateral-stimulation-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 31,
+  "level": 28,
+  "title": "Bilateral Stimulation",
+  "subtitle": "Alternating visual, auditory or tactile input during EMDR",
+  "hero": "bilateral-stimulation-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating bilateral stimulation across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "neurobiology-emdr"
+  ],
+  "previousConcept": "neurobiology-emdr",
+  "nextConcept": "working-memory-theory-emdr",
+  "tags": [
+    "bilateral",
+    "stimulation",
+    "trauma",
+    "emdr",
+    "moderate evidence for working-memory effects; mechanism incomplete"
+  ],
+  "searchTerms": [
+    "bilateral",
+    "stimulation",
+    "trauma",
+    "emdr",
+    "moderate evidence for working-memory effects; mechanism incomplete",
+    "alternating",
+    "visual",
+    "auditory",
+    "tactile",
+    "input",
+    "during"
+  ],
+  "learningObjectives": [
+    "Explain bilateral stimulation in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in bilateral stimulation.",
+    "Identify one limitation or safety implication relevant to bilateral stimulation."
+  ],
+  "sections": {
+    "explainSimply": "Bilateral stimulation alternates attention from side to side while the person briefly attends to a memory.",
+    "explainLikePsychologist": "Eye movements may reduce vividness and emotionality through working-memory competition, but effects vary and are one component of the protocol.",
+    "advancedClinicalDetail": "Bilateral stimulation is not known to “move memory between hemispheres” or directly synchronise the brain in a therapeutic pattern.",
+    "thinkOfItLike": "Think of bilateral stimulation as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need bilateral stimulation to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not use unsupported hemispheric-integration claims.",
+    "clinicalPearl": "Clinical pearl: use bilateral stimulation to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses bilateral stimulation to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not use unsupported hemispheric-integration claims. Evidence classification: moderate evidence for working-memory effects; mechanism incomplete."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Bilateral stimulation alternates attention from side to side while the person briefly attends to a memory."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Eye movements may reduce vividness and emotionality through working-memory competition, but effects vary and are one component of the protocol."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not use unsupported hemispheric-integration claims."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Bilateral stimulation alternates attention from side to side while the person briefly attends to a memory.",
+      "Eye movements may reduce vividness and emotionality through working-memory competition, but effects vary and are one component of the protocol.",
+      "Do not use unsupported hemispheric-integration claims."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "bilateral-stimulation-emdr-q1",
+      "question": "What is the most accurate core statement about Bilateral Stimulation?",
+      "options": [
+        "Bilateral stimulation alternates attention from side to side while the person briefly attends to a memory.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Bilateral stimulation alternates attention from side to side while the person briefly attends to a memory."
+    },
+    {
+      "id": "bilateral-stimulation-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Eye movements may reduce vividness and emotionality through working-memory competition, but effects vary and are one component of the protocol.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Eye movements may reduce vividness and emotionality through working-memory competition, but effects vary and are one component of the protocol."
+    },
+    {
+      "id": "bilateral-stimulation-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not use unsupported hemispheric-integration claims.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not use unsupported hemispheric-integration claims."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Bilateral stimulation alternates attention from side to side while the person briefly attends to a memory."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not use unsupported hemispheric-integration claims."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "moderate evidence for working-memory effects; mechanism incomplete"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

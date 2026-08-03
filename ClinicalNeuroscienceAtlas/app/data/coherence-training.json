@@ -1,0 +1,162 @@
+{
+  "id": "coherence-training",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 26,
+  "level": 26,
+  "title": "Coherence Training",
+  "subtitle": "A frequency-specific correlation target with interpretive limits",
+  "hero": "coherence-training.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating coherence training within a neurofeedback closed loop.",
+  "prerequisites": [
+    "connectivity-training"
+  ],
+  "nextConcept": "phase-training",
+  "previousConcept": "connectivity-training",
+  "tags": [
+    "coherence",
+    "training",
+    "neurofeedback",
+    "methods",
+    "emerging"
+  ],
+  "searchTerms": [
+    "coherence",
+    "training",
+    "neurofeedback",
+    "methods",
+    "emerging",
+    "frequency",
+    "specific",
+    "correlation",
+    "target",
+    "with",
+    "interpretive",
+    "limits"
+  ],
+  "learningObjectives": [
+    "Explain coherence training without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in coherence training.",
+    "Identify one safety or validity limitation relevant to coherence training."
+  ],
+  "sections": {
+    "explainSimply": "Coherence estimates consistency of phase relationships across time within a frequency band.",
+    "explainLikePsychologist": "Scalp coherence is influenced by distance, reference, volume conduction, data length and artifact. Higher or lower is not inherently healthier.",
+    "advancedClinicalDetail": "Training coherence assumes the metric is stable, specific and functionally meaningful for the individual—assumptions not routinely established clinically.",
+    "thinkOfItLike": "Choosing a camera lens: every method emphasises some information and introduces its own distortions.",
+    "whyPsychologistsCare": "Psychologists need to understand coherence training to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Do not label every deviation as under- or overconnected pathology.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using coherence training predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Do not label every deviation as under- or overconnected pathology. Evidence classification: emerging; insufficient disorder-specific evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Training coherence assumes the metric is stable, specific and functionally meaningful for the individual—assumptions not routinely established clinically."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Coherence estimates consistency of phase relationships across time within a frequency band."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Coherence estimates consistency of phase relationships across time within a frequency band.",
+      "Scalp coherence is influenced by distance, reference, volume conduction, data length and artifact. Higher or lower is not inherently healthier.",
+      "Do not label every deviation as under- or overconnected pathology."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Coherence Training?",
+      "options": [
+        "Coherence estimates consistency of phase relationships across time within a frequency band.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Coherence estimates consistency of phase relationships across time within a frequency band."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Coherence Training?",
+      "options": [
+        "Do not label every deviation as under- or overconnected pathology.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Do not label every deviation as under- or overconnected pathology."
+    },
+    {
+      "question": "How should the evidence for Coherence Training be communicated?",
+      "options": [
+        "As emerging; insufficient disorder-specific evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: emerging; insufficient disorder-specific evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Coherence estimates consistency of phase relationships across time within a frequency band."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Do not label every deviation as under- or overconnected pathology."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "emerging; insufficient disorder-specific evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

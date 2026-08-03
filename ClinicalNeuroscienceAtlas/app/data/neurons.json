@@ -1,0 +1,124 @@
+{
+  "id": "neurons",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the dendrites, soma, axon hillock, axon, myelin, nodes of Ranvier and presynaptic terminals.",
+    "Explain how a neuron transforms distributed synaptic input into an all-or-none axonal output.",
+    "Distinguish neuronal signalling from the broader activity of neural networks.",
+    "Apply neuronal principles to psychological learning, medication effects and clinical symptoms without reducing complex behaviour to a single cell."
+  ],
+  "anatomy": [
+    {
+      "id": "dendrites",
+      "label": "Dendrites",
+      "short": "Input branches",
+      "detail": "Dendrites receive thousands of excitatory, inhibitory and modulatory synaptic inputs. Their branching geometry and receptor distribution shape how strongly each input influences the soma.",
+      "clinical": "Changes in dendritic spines are one cellular correlate of learning, stress exposure and synaptic plasticity."
+    },
+    {
+      "id": "soma",
+      "label": "Soma",
+      "short": "Metabolic and integrative centre",
+      "detail": "The soma contains the nucleus and most organelles. It maintains the neuron and integrates currents arriving from dendrites before they reach the axon hillock.",
+      "clinical": "Neurons have high energy demands; hypoxia, mitochondrial dysfunction and excitotoxicity can rapidly compromise their function."
+    },
+    {
+      "id": "hillock",
+      "label": "Axon hillock",
+      "short": "Decision zone",
+      "detail": "The axon initial segment contains a high density of voltage-gated sodium channels. When summed membrane depolarisation reaches threshold, an action potential begins.",
+      "clinical": "The firing threshold is dynamic and is shaped by recent activity, neuromodulators and inhibitory control."
+    },
+    {
+      "id": "axon",
+      "label": "Axon",
+      "short": "Long-distance output cable",
+      "detail": "The axon conducts action potentials away from the soma. Axonal diameter, myelination and ion-channel distribution influence conduction speed.",
+      "clinical": "Diffuse axonal injury can disrupt cognition and arousal even when conventional structural imaging appears relatively subtle."
+    },
+    {
+      "id": "myelin",
+      "label": "Myelin",
+      "short": "Insulating sheath",
+      "detail": "Myelin limits current leakage and enables rapid saltatory conduction between nodes of Ranvier. In the central nervous system it is produced by oligodendrocytes.",
+      "clinical": "Demyelination slows or blocks transmission and can produce sensory, motor and cognitive symptoms depending on the affected pathways."
+    },
+    {
+      "id": "nodes",
+      "label": "Nodes of Ranvier",
+      "short": "Signal regeneration points",
+      "detail": "Nodes are short unmyelinated axonal segments rich in voltage-gated channels. The action potential is actively regenerated at each node.",
+      "clinical": "Saltatory conduction is not a literal leap through empty space; local current spreads under myelin and triggers the next node."
+    },
+    {
+      "id": "terminals",
+      "label": "Presynaptic terminals",
+      "short": "Chemical output sites",
+      "detail": "When an action potential reaches a terminal, calcium entry triggers synaptic vesicle fusion and neurotransmitter release into the synaptic cleft.",
+      "clinical": "Many medications and toxins alter release, receptor binding or transmitter clearance rather than changing neuronal anatomy."
+    }
+  ],
+  "interaction": {
+    "instruction": "Select a structure, then run the signal to follow information from dendritic input to synaptic output.",
+    "signalSteps": [
+      "Synaptic inputs change the dendritic membrane potential.",
+      "Currents spread toward the soma and axon hillock.",
+      "Threshold at the initial segment triggers an action potential.",
+      "The action potential propagates along the axon and is regenerated at nodes.",
+      "Calcium entry at the terminal initiates neurotransmitter release."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Which neuronal region usually has the highest density of voltage-gated sodium channels for initiating an action potential?",
+      "options": ["Axon initial segment", "Dendritic spine", "Nucleus", "Synaptic cleft"],
+      "answer": 0,
+      "explanation": "The axon initial segment, adjacent to the hillock, is specialised for action-potential initiation."
+    },
+    {
+      "question": "What best describes dendrites?",
+      "options": ["Primary receivers of synaptic input", "The main source of myelin", "Fluid-filled brain cavities", "Sites of neurotransmitter breakdown only"],
+      "answer": 0,
+      "explanation": "Dendrites are specialised to receive and shape synaptic inputs from other cells."
+    },
+    {
+      "question": "Why does myelin increase conduction speed?",
+      "options": ["It reduces current leakage and supports saltatory conduction", "It makes neurotransmitters move faster through blood", "It increases the size of the nucleus", "It removes the need for ion channels"],
+      "answer": 0,
+      "explanation": "Myelin electrically insulates axonal segments, allowing current to spread efficiently to the next node of Ranvier."
+    },
+    {
+      "question": "Which event directly triggers neurotransmitter release from a presynaptic terminal?",
+      "options": ["Calcium influx", "Potassium entering the nucleus", "Myelin wrapping the dendrite", "Glucose leaving the synaptic cleft"],
+      "answer": 0,
+      "explanation": "Action-potential arrival opens voltage-gated calcium channels; calcium then triggers vesicle fusion."
+    }
+  ],
+  "reviewPrompts": [
+    {"prompt": "Trace information flow through a typical neuron.", "answer": "Dendrites → soma → axon hillock/initial segment → axon → presynaptic terminals."},
+    {"prompt": "Why is a neuron more than a passive wire?", "answer": "It integrates inputs, changes excitability, modifies synaptic strength and participates differently depending on network state and experience."},
+    {"prompt": "What is the clinical danger of treating one neurotransmitter or neuron as the explanation for behaviour?", "answer": "Psychological functions emerge from interacting circuits, physiology, learning and context; single-cell explanations are usually reductionistic."}
+  ],
+  "tags": ["neuron", "neuronal anatomy", "dendrite", "soma", "axon", "axon hillock", "initial segment", "myelin", "node of Ranvier", "synapse", "action potential", "plasticity", "excitation", "inhibition"],
+  "references": [
+    {
+      "citation": "Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021.",
+      "type": "Foundational textbook"
+    },
+    {
+      "citation": "Purves D, Augustine GJ, Fitzpatrick D, et al. Neuroscience. 6th ed. Oxford University Press; 2018.",
+      "type": "Foundational textbook"
+    },
+    {
+      "citation": "Hodgkin AL, Huxley AF. A quantitative description of membrane current and its application to conduction and excitation in nerve. Journal of Physiology. 1952;117(4):500–544.",
+      "url": "https://doi.org/10.1113/jphysiol.1952.sp004764",
+      "type": "Primary research"
+    },
+    {
+      "citation": "Lüscher C, Malenka RC. NMDA receptor-dependent long-term potentiation and long-term depression. Cold Spring Harbor Perspectives in Biology. 2012;4(6):a005710.",
+      "url": "https://doi.org/10.1101/cshperspect.a005710",
+      "type": "Peer-reviewed review"
+    }
+  ]
+}

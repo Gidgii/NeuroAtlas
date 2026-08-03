@@ -1,0 +1,173 @@
+{
+  "id": "neurobiology-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 30,
+  "level": 28,
+  "title": "Neurobiology of EMDR",
+  "subtitle": "Established clinical efficacy with unsettled mechanisms",
+  "hero": "neurobiology-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating neurobiology of emdr across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "intergenerational-trauma"
+  ],
+  "previousConcept": "intergenerational-trauma",
+  "nextConcept": "bilateral-stimulation-emdr",
+  "tags": [
+    "neurobiology",
+    "emdr",
+    "trauma",
+    "emdr",
+    "established efficacy for PTSD; mechanisms mixed"
+  ],
+  "searchTerms": [
+    "neurobiology",
+    "emdr",
+    "trauma",
+    "established efficacy for PTSD; mechanisms mixed",
+    "established",
+    "clinical",
+    "efficacy",
+    "with",
+    "unsettled",
+    "mechanisms"
+  ],
+  "learningObjectives": [
+    "Explain neurobiology of emdr in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in neurobiology of emdr.",
+    "Identify one limitation or safety implication relevant to neurobiology of emdr."
+  ],
+  "sections": {
+    "explainSimply": "EMDR is a structured psychotherapy that uses trauma recall with bilateral stimulation within a broader eight-phase protocol.",
+    "explainLikePsychologist": "Clinical efficacy for PTSD is supported by guidelines, while proposed mechanisms include working-memory taxation, orienting responses, extinction and memory updating.",
+    "advancedClinicalDetail": "Neuroimaging studies report changes after treatment, but small samples and non-specific therapy effects limit causal conclusions.",
+    "thinkOfItLike": "Think of neurobiology of emdr as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need neurobiology of emdr to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not present one neural mechanism as proven.",
+    "clinicalPearl": "Clinical pearl: use neurobiology of emdr to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses neurobiology of emdr to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not present one neural mechanism as proven. Evidence classification: established efficacy for PTSD; mechanisms mixed."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "EMDR is a structured psychotherapy that uses trauma recall with bilateral stimulation within a broader eight-phase protocol."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Clinical efficacy for PTSD is supported by guidelines, while proposed mechanisms include working-memory taxation, orienting responses, extinction and memory updating."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not present one neural mechanism as proven."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "EMDR is a structured psychotherapy that uses trauma recall with bilateral stimulation within a broader eight-phase protocol.",
+      "Clinical efficacy for PTSD is supported by guidelines, while proposed mechanisms include working-memory taxation, orienting responses, extinction and memory updating.",
+      "Do not present one neural mechanism as proven."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "neurobiology-emdr-q1",
+      "question": "What is the most accurate core statement about Neurobiology of EMDR?",
+      "options": [
+        "EMDR is a structured psychotherapy that uses trauma recall with bilateral stimulation within a broader eight-phase protocol.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "EMDR is a structured psychotherapy that uses trauma recall with bilateral stimulation within a broader eight-phase protocol."
+    },
+    {
+      "id": "neurobiology-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Clinical efficacy for PTSD is supported by guidelines, while proposed mechanisms include working-memory taxation, orienting responses, extinction and memory updating.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Clinical efficacy for PTSD is supported by guidelines, while proposed mechanisms include working-memory taxation, orienting responses, extinction and memory updating."
+    },
+    {
+      "id": "neurobiology-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not present one neural mechanism as proven.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not present one neural mechanism as proven."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "EMDR is a structured psychotherapy that uses trauma recall with bilateral stimulation within a broader eight-phase protocol."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not present one neural mechanism as proven."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established efficacy for PTSD; mechanisms mixed"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

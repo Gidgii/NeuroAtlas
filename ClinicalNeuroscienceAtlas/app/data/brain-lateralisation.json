@@ -1,0 +1,226 @@
+{
+  "id": "brain-lateralisation",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Describe common hemispheric asymmetries without using myths.",
+    "Explain the corpus callosum’s coordinating role.",
+    "Relate lateralisation to aphasia and spatial neglect.",
+    "Recognise individual variability in functional organisation."
+  ],
+  "anatomy": [
+    {
+      "id": "left",
+      "label": "Left hemisphere networks",
+      "short": "Often weight language sequencing",
+      "detail": "Perisylvian and dorsal pathways commonly dominate speech-language operations.",
+      "clinical": "Left lesions may produce aphasia or apraxia of speech."
+    },
+    {
+      "id": "right",
+      "label": "Right hemisphere networks",
+      "short": "Often weight spatial and prosodic context",
+      "detail": "Right frontoparietal systems support broad attention and discourse context.",
+      "clinical": "Right lesions may produce neglect or aprosodia."
+    },
+    {
+      "id": "callosum",
+      "label": "Corpus callosum",
+      "short": "Coordinate complementary processing",
+      "detail": "Millions of fibres permit rapid interhemispheric transfer.",
+      "clinical": "Disconnection may reveal normally hidden specialisation."
+    },
+    {
+      "id": "development",
+      "label": "Developmental plasticity",
+      "short": "Shape individual organisation",
+      "detail": "Lateralisation emerges through genes, experience and maturation.",
+      "clinical": "Early injury can prompt reorganisation, though not without cost."
+    },
+    {
+      "id": "variation",
+      "label": "Individual variation",
+      "short": "Limit one-size-fits-all inference",
+      "detail": "Handedness and language dominance are related imperfectly.",
+      "clinical": "Clinical localisation should use actual behaviour and assessment."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Brain Lateralisation",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Brain Lateralisation model",
+    "stages": [
+      {
+        "label": "Receive",
+        "text": "Both hemispheres sample overlapping information."
+      },
+      {
+        "label": "Weight",
+        "text": "Each network emphasises features it processes efficiently."
+      },
+      {
+        "label": "Exchange",
+        "text": "Callosal pathways transfer complementary information."
+      },
+      {
+        "label": "Integrate",
+        "text": "Distributed systems build a coherent response."
+      },
+      {
+        "label": "Adapt",
+        "text": "Experience and injury can shift functional weighting over time."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "brain-lateralisation-q1",
+      "question": "The best summary of hemispheric lateralisation is:",
+      "options": [
+        "Relative specialisation within an integrated system",
+        "Two independent personalities",
+        "Left equals logic and right equals creativity",
+        "Only the dominant hemisphere matters"
+      ],
+      "answer": 0,
+      "explanation": "Lateralisation concerns probabilistic functional weighting within connected networks."
+    },
+    {
+      "id": "brain-lateralisation-q2",
+      "question": "Right frontoparietal injury commonly risks:",
+      "options": [
+        "Spatial neglect",
+        "Global aphasia only",
+        "Loss of smell only",
+        "Peripheral paralysis only"
+      ],
+      "answer": 0,
+      "explanation": "Right attention networks are important for broad spatial awareness."
+    },
+    {
+      "id": "brain-lateralisation-q3",
+      "question": "The corpus callosum primarily:",
+      "options": [
+        "Transfers and coordinates information between hemispheres",
+        "Produces cerebrospinal fluid",
+        "Controls endocrine release",
+        "Generates action potentials in muscle"
+      ],
+      "answer": 0,
+      "explanation": "It is the major interhemispheric white-matter pathway."
+    },
+    {
+      "id": "brain-lateralisation-q4",
+      "question": "Language dominance is:",
+      "options": [
+        "Commonly left-sided but individually variable",
+        "Always right-sided in left-handers",
+        "Determined by personality",
+        "Identical in all people"
+      ],
+      "answer": 0,
+      "explanation": "Population tendencies do not eliminate individual variation."
+    },
+    {
+      "id": "brain-lateralisation-q5",
+      "question": "A clinically sound use of lateralisation is to:",
+      "options": [
+        "Frame probabilistic hypotheses and test them behaviourally",
+        "Infer personality from handedness",
+        "Diagnose from preferences",
+        "Ignore network connectivity"
+      ],
+      "answer": 0,
+      "explanation": "Lateralisation guides hypotheses but does not replace assessment."
+    }
+  ],
+  "tags": [
+    "across",
+    "aphasia",
+    "aprosodia",
+    "asymmetry",
+    "attention",
+    "brain",
+    "brains",
+    "broad",
+    "callosal",
+    "callosum",
+    "cognitive",
+    "commonly",
+    "complementary",
+    "connected",
+    "connectivity",
+    "contextual",
+    "contribute",
+    "coordination",
+    "corpus",
+    "creative",
+    "cytoarchitecture",
+    "deeply",
+    "demands",
+    "demonstrate",
+    "development",
+    "diagnosis",
+    "differences",
+    "disruption",
+    "distort",
+    "duplicate",
+    "either",
+    "emphasis",
+    "findings",
+    "formulation",
+    "from",
+    "frontoparietal",
+    "handedness",
+    "hemispheres",
+    "hemispheric",
+    "impair",
+    "impaired",
+    "individual",
+    "inferring",
+    "injury",
+    "integration",
+    "interhemispheric",
+    "justify",
+    "labels",
+    "language",
+    "lateralisation",
+    "lateralised",
+    "left",
+    "left-brain",
+    "left-lateralised",
+    "logical",
+    "most",
+    "neglect",
+    "network",
+    "often",
+    "oversimplified"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "The best summary of hemispheric lateralisation is:",
+      "Right frontoparietal injury commonly risks:",
+      "Use lateralisation as a probability statement, not a personality test."
+    ]
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Gazzaniga MS, Ivry RB, Mangun GR. Cognitive Neuroscience: The Biology of the Mind. 6th ed. Norton; 2024."
+    },
+    {
+      "type": "Reference",
+      "citation": "Corballis MC. Left Brain, Right Brain: Facts and Fantasies. PLoS Biol. 2014;12:e1001767."
+    },
+    {
+      "type": "Reference",
+      "citation": "Toga AW, Thompson PM. Mapping brain asymmetry. Nat Rev Neurosci. 2003;4:37–48."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas diagram of brain lateralisation with labelled system components.",
+    "interactionSummary": "A keyboard-accessible five-stage sequence explains the system from input through integration."
+  }
+}

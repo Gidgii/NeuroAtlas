@@ -1,0 +1,158 @@
+{
+  "id": "eeg-versus-neurofeedback",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 5,
+  "level": 24,
+  "title": "EEG Versus Neurofeedback",
+  "subtitle": "Measurement is not training",
+  "hero": "eeg-versus-neurofeedback.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating eeg versus neurofeedback within a neurofeedback closed loop.",
+  "prerequisites": [
+    "reinforcement-schedules"
+  ],
+  "nextConcept": "closed-loop-systems",
+  "previousConcept": "reinforcement-schedules",
+  "tags": [
+    "eeg",
+    "versus",
+    "neurofeedback",
+    "foundations",
+    "established distinction"
+  ],
+  "searchTerms": [
+    "eeg",
+    "versus",
+    "neurofeedback",
+    "foundations",
+    "established distinction",
+    "measurement",
+    "not",
+    "training"
+  ],
+  "learningObjectives": [
+    "Explain eeg versus neurofeedback without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in eeg versus neurofeedback.",
+    "Identify one safety or validity limitation relevant to eeg versus neurofeedback."
+  ],
+  "sections": {
+    "explainSimply": "EEG records electrical activity. Neurofeedback uses a selected signal feature to create a closed learning loop.",
+    "explainLikePsychologist": "A diagnostic or descriptive EEG answers a measurement question; neurofeedback adds real-time processing, a target rule and feedback intended to shape self-regulation.",
+    "advancedClinicalDetail": "Clinical EEG interpretation, QEEG analysis and neurofeedback protocol design require overlapping but non-identical competencies. A QEEG deviation does not automatically define a treatment target.",
+    "thinkOfItLike": "A driving instructor who gives immediate dashboard feedback while the learner practises a controllable skill.",
+    "whyPsychologistsCare": "Psychologists need to understand eeg versus neurofeedback to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Do not convert a colour map directly into a protocol.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using eeg versus neurofeedback predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Do not convert a colour map directly into a protocol. Evidence classification: established distinction."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Clinical EEG interpretation, QEEG analysis and neurofeedback protocol design require overlapping but non-identical competencies. A QEEG deviation does not automatically define a treatment target."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "EEG records electrical activity. Neurofeedback uses a selected signal feature to create a closed learning loop."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "EEG records electrical activity. Neurofeedback uses a selected signal feature to create a closed learning loop.",
+      "A diagnostic or descriptive EEG answers a measurement question; neurofeedback adds real-time processing, a target rule and feedback intended to shape self-regulation.",
+      "Do not convert a colour map directly into a protocol."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of EEG Versus Neurofeedback?",
+      "options": [
+        "EEG records electrical activity. Neurofeedback uses a selected signal feature to create a closed learning loop.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "EEG records electrical activity. Neurofeedback uses a selected signal feature to create a closed learning loop."
+    },
+    {
+      "question": "Which limitation matters most when interpreting EEG Versus Neurofeedback?",
+      "options": [
+        "Do not convert a colour map directly into a protocol.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Do not convert a colour map directly into a protocol."
+    },
+    {
+      "question": "How should the evidence for EEG Versus Neurofeedback be communicated?",
+      "options": [
+        "As established distinction, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: established distinction."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "EEG records electrical activity. Neurofeedback uses a selected signal feature to create a closed learning loop."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Do not convert a colour map directly into a protocol."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "established distinction"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

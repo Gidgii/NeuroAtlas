@@ -1,0 +1,157 @@
+{
+  "id": "neuroplasticity",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate synaptic, structural, intrinsic and network plasticity.",
+    "Explain LTP, LTD and homeostatic plasticity at a conceptual level.",
+    "Apply plasticity principles to psychotherapy and rehabilitation.",
+    "Recognise how plasticity can maintain both adaptive and maladaptive patterns."
+  ],
+  "anatomy": [
+    {
+      "id": "ltp",
+      "label": "Long-term potentiation",
+      "short": "Durable increase in synaptic efficacy",
+      "detail": "Repeated coordinated activity can strengthen synaptic responses through NMDA-dependent calcium signalling, AMPA-receptor trafficking and downstream molecular change.",
+      "clinical": "LTP is one mechanism relevant to learning, but it is not a complete explanation of memory."
+    },
+    {
+      "id": "ltd",
+      "label": "Long-term depression",
+      "short": "Durable reduction in synaptic efficacy",
+      "detail": "Different activity patterns can reduce synaptic strength, supporting refinement, forgetting and flexible updating.",
+      "clinical": "Weakening old predictions may be as important as strengthening new ones in therapy."
+    },
+    {
+      "id": "structural",
+      "label": "Structural plasticity",
+      "short": "Physical remodelling of connections",
+      "detail": "Dendritic spines, axonal boutons and myelin can change with experience over hours to months.",
+      "clinical": "Structural change is constrained by age, health, stress, sleep and repeated practice."
+    },
+    {
+      "id": "homeostatic",
+      "label": "Homeostatic plasticity",
+      "short": "Stability across changing input",
+      "detail": "Cells adjust excitability and receptor expression to prevent activity from drifting too high or too low.",
+      "clinical": "Homeostatic compensation can blunt treatment effects or stabilise networks after perturbation."
+    },
+    {
+      "id": "systems",
+      "label": "Systems consolidation",
+      "short": "Memory reorganised across networks",
+      "detail": "Over time, memories become represented through changing interactions among hippocampal and cortical systems.",
+      "clinical": "Sleep and repeated retrieval support consolidation and integration."
+    }
+  ],
+  "interaction": {
+    "title": "Neuroplasticity sequence",
+    "instruction": "Select a component, then run the sequence to see how the system changes over time.",
+    "ariaLabel": "Interactive neuroplasticity sequence",
+    "stages": [
+      {
+        "label": "Engage",
+        "text": "Experience activates a pattern of synapses and networks."
+      },
+      {
+        "label": "Tag",
+        "text": "Salient or repeated activity triggers molecular plasticity signals."
+      },
+      {
+        "label": "Remodel",
+        "text": "Receptors, synapses, excitability and structure change."
+      },
+      {
+        "label": "Consolidate",
+        "text": "Sleep, retrieval and repetition stabilise useful network patterns."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is long-term potentiation?",
+      "options": [
+        "A durable increase in synaptic efficacy after particular activity patterns",
+        "Permanent firing of every neuron",
+        "Loss of all inhibitory transmission",
+        "Immediate growth of an entire brain region"
+      ],
+      "answer": 0,
+      "explanation": "LTP is a sustained strengthening of synaptic transmission."
+    },
+    {
+      "question": "Plasticity can be maladaptive because it may:",
+      "options": [
+        "Strengthen avoidance, addiction, sensitisation or chronic pain patterns",
+        "Only improve memory",
+        "Prevent all habits from forming",
+        "Eliminate stress responses instantly"
+      ],
+      "answer": 0,
+      "explanation": "Experience-dependent learning can stabilise harmful as well as helpful patterns."
+    },
+    {
+      "question": "Homeostatic plasticity primarily helps neural systems:",
+      "options": [
+        "Maintain activity within a workable range",
+        "Maximise excitation at all times",
+        "Stop changing permanently",
+        "Produce cerebrospinal fluid"
+      ],
+      "answer": 0,
+      "explanation": "Homeostatic mechanisms counter prolonged shifts in activity."
+    },
+    {
+      "question": "Which factor supports consolidation of new learning?",
+      "options": [
+        "Repeated retrieval and sleep",
+        "One exposure regardless of salience",
+        "Avoiding all feedback",
+        "Keeping every synapse equally strong"
+      ],
+      "answer": 0,
+      "explanation": "Retrieval and sleep support stabilisation and integration."
+    },
+    {
+      "question": "A clinically realistic view of plasticity is that change is:",
+      "options": [
+        "Possible but constrained by biology, context and repetition",
+        "Unlimited and immediate",
+        "Impossible after childhood",
+        "Driven only by conscious intention"
+      ],
+      "answer": 0,
+      "explanation": "Plasticity remains possible across life but is not unconstrained."
+    }
+  ],
+  "tags": [
+    "neuroplasticity",
+    "learning",
+    "ltp",
+    "ltd",
+    "memory consolidation",
+    "therapy",
+    "homeostatic plasticity"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "What is long-term potentiation?",
+      "Plasticity can be maladaptive because it may:",
+      "Homeostatic plasticity primarily helps neural systems:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Citri A, Malenka RC. Synaptic plasticity: multiple forms, functions, and mechanisms. Neuropsychopharmacology. 2008.",
+      "url": "https://doi.org/10.1038/sj.npp.1301559"
+    },
+    {
+      "type": "Review",
+      "citation": "Turrigiano G. Homeostatic synaptic plasticity. Cold Spring Harbor Perspectives in Biology. 2012.",
+      "url": "https://doi.org/10.1101/cshperspect.a005736"
+    }
+  ]
+}

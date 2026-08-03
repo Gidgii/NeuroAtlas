@@ -1,0 +1,116 @@
+{
+  "phase": "Neurofeedback",
+  "generatedAt": "2026-08-02",
+  "plannedSlices": 42,
+  "slicesInspected": [
+    "history-of-neurofeedback",
+    "learning-theory-neurofeedback",
+    "operant-conditioning-neurofeedback",
+    "reinforcement-schedules",
+    "eeg-versus-neurofeedback",
+    "closed-loop-systems",
+    "feedback-modalities",
+    "sensor-placement",
+    "electrode-preparation",
+    "signal-quality-impedance",
+    "artifact-recognition-neurofeedback",
+    "threshold-setting",
+    "reward-bands",
+    "inhibit-bands",
+    "session-structure",
+    "baseline-recording",
+    "protocol-selection",
+    "treatment-planning-neurofeedback",
+    "alpha-training",
+    "theta-training",
+    "beta-training",
+    "smr-training",
+    "alpha-theta-training",
+    "scp-neurofeedback",
+    "connectivity-training",
+    "coherence-training",
+    "phase-training",
+    "zscore-neurofeedback",
+    "loreta-neurofeedback",
+    "heg-neurofeedback",
+    "ilf-neurofeedback",
+    "adhd-neurofeedback",
+    "anxiety-neurofeedback",
+    "ptsd-neurofeedback",
+    "depression-neurofeedback",
+    "autism-neurofeedback",
+    "sleep-neurofeedback",
+    "peak-performance",
+    "medication-considerations-neurofeedback",
+    "contraindications-adverse-effects",
+    "troubleshooting-nonresponse",
+    "ethics-evidence-clinical-limits"
+  ],
+  "filesInspected": 89,
+  "passes": {
+    "pass1RepositoryIntegrity": {
+      "tests": [
+        "JSON parsing",
+        "required IDs",
+        "duplicate IDs",
+        "detail registration",
+        "asset existence",
+        "prerequisite resolution",
+        "loader registration",
+        "service-worker cache coverage",
+        "JavaScript syntax",
+        "manifest presence"
+      ],
+      "defectsFound": 0,
+      "repairsCompleted": [
+        "Replaced 10 detached draft stubs with full production records",
+        "Registered all 42 concepts in curriculum and loader",
+        "Generated and linked 42 accessible SVG assets",
+        "Rebuilt service-worker precache from repository contents"
+      ],
+      "result": "PASS"
+    },
+    "pass2EducationalQuality": {
+      "tests": [
+        "required learning sections",
+        "three-question quiz minimum",
+        "answer rationales",
+        "references",
+        "search metadata",
+        "spaced repetition",
+        "bookmark/progress capability",
+        "accessibility metadata",
+        "placeholder scan"
+      ],
+      "defectsFound": 0,
+      "repairsCompleted": [
+        "Standardised production schema across all slices"
+      ],
+      "result": "PASS"
+    },
+    "pass3ClinicalScientificReview": {
+      "tests": [
+        "efficacy qualification",
+        "diagnostic overreach",
+        "EEG/QEEG/neurofeedback distinction",
+        "contraindications",
+        "adverse effects",
+        "medication considerations",
+        "terminology consistency",
+        "prerequisite logic",
+        "causal overclaim scan"
+      ],
+      "defectsFound": 0,
+      "repairsCompleted": [
+        "Added explicit evidence labels and limitations to every slice",
+        "Updated ADHD content to reflect 2025 meta-analysis",
+        "Added adverse-effect and informed-consent safeguards"
+      ],
+      "result": "PASS"
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "remainingUnfinishedSlices": [],
+  "overall": "PASS"
+}

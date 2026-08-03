@@ -1,0 +1,157 @@
+{
+  "id": "attention-networks",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Distinguish alerting, orienting and executive aspects of attention.",
+    "Compare dorsal and ventral attention systems.",
+    "Explain reorienting without reducing attention to one spotlight.",
+    "Use mechanism-focused language when formulating inattention."
+  ],
+  "anatomy": [
+    {
+      "id": "dan",
+      "label": "Dorsal attention network",
+      "short": "Goal-directed selection",
+      "detail": "Intraparietal and frontal eye-field regions bias sensory processing toward current goals.",
+      "clinical": "Weak top-down selection may look like distractibility or poor task persistence."
+    },
+    {
+      "id": "van",
+      "label": "Ventral attention network",
+      "short": "Interrupts and reorients",
+      "detail": "Right-lateralised temporoparietal and ventral frontal regions respond to unexpected, relevant events.",
+      "clinical": "Disruption can contribute to spatial neglect and impaired reorienting."
+    },
+    {
+      "id": "alerting",
+      "label": "Alerting systems",
+      "short": "Maintains readiness",
+      "detail": "Brainstem, thalamic and cortical systems regulate tonic and phasic readiness.",
+      "clinical": "Low arousal and poor sleep can mimic or worsen attentional disorder."
+    },
+    {
+      "id": "orienting",
+      "label": "Orienting systems",
+      "short": "Moves selection toward a target",
+      "detail": "Orienting can be overt through eye movements or covert without moving the eyes.",
+      "clinical": "Biases may be spatial, sensory or conceptual."
+    },
+    {
+      "id": "executive-attention",
+      "label": "Executive attention",
+      "short": "Resolves competition",
+      "detail": "Control systems help sustain a goal when distractors or competing responses are strong.",
+      "clinical": "Anxiety, reward and working-memory load can alter this function."
+    }
+  ],
+  "interaction": {
+    "title": "Attention Networks sequence",
+    "instruction": "Select a component, then run the sequence to follow information flow across the network.",
+    "ariaLabel": "Interactive attention networks model",
+    "stages": [
+      {
+        "label": "Alert",
+        "text": "Establish sufficient readiness to process information."
+      },
+      {
+        "label": "Select",
+        "text": "Bias processing toward the current goal."
+      },
+      {
+        "label": "Interrupt",
+        "text": "Detect a relevant event outside the current focus."
+      },
+      {
+        "label": "Reorient",
+        "text": "Shift attention and update the active priority."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "The dorsal attention network primarily supports:",
+      "options": [
+        "Goal-directed selection",
+        "Only fear responses",
+        "Autobiographical memory",
+        "Hormone release"
+      ],
+      "answer": 0,
+      "explanation": "The dorsal system supports top-down orienting and selection."
+    },
+    {
+      "question": "The ventral attention network is especially involved in:",
+      "options": [
+        "Reorienting to unexpected relevant events",
+        "Maintaining sodium gradients",
+        "Generating language syntax alone",
+        "Long-term myelination"
+      ],
+      "answer": 0,
+      "explanation": "It helps interrupt and redirect attention."
+    },
+    {
+      "question": "Alerting differs from orienting because alerting concerns:",
+      "options": [
+        "Readiness, whereas orienting selects a target",
+        "Memory, whereas orienting controls emotion",
+        "Vision only, whereas orienting controls hearing",
+        "Movement only, whereas orienting controls sleep"
+      ],
+      "answer": 0,
+      "explanation": "Alerting establishes readiness; orienting allocates selection."
+    },
+    {
+      "question": "Spatial neglect is best understood as:",
+      "options": [
+        "A distributed attention-network disorder, often after right hemisphere injury",
+        "An eye disease only",
+        "A lack of motivation",
+        "A memory disorder with no attentional component"
+      ],
+      "answer": 0,
+      "explanation": "Neglect reflects disrupted attention networks rather than simple blindness."
+    },
+    {
+      "question": "Clinically, “inattention” should prompt questions about:",
+      "options": [
+        "Arousal, selection, disengagement, reward and overload",
+        "Only moral effort",
+        "Only intelligence",
+        "Only visual acuity"
+      ],
+      "answer": 0,
+      "explanation": "Several mechanisms can produce the same behavioural label."
+    }
+  ],
+  "tags": [
+    "attention networks",
+    "functional connectivity",
+    "large-scale networks",
+    "clinical neuroscience",
+    "dorsal attention network",
+    "ventral attention network",
+    "alerting systems"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "The dorsal attention network primarily supports:",
+      "The ventral attention network is especially involved in:",
+      "Alerting differs from orienting because alerting concerns:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Corbetta M, Shulman GL. Control of goal-directed and stimulus-driven attention in the brain. Nature Reviews Neuroscience. 2002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11994752/"
+    },
+    {
+      "type": "Review",
+      "citation": "Petersen SE, Posner MI. The attention system of the human brain: 20 years after. Annual Review of Neuroscience. 2012.",
+      "url": "https://doi.org/10.1146/annurev-neuro-062111-150525"
+    }
+  ]
+}

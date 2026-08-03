@@ -1,0 +1,171 @@
+{
+  "id": "amygdala-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 8,
+  "level": 28,
+  "title": "Amygdala in Trauma",
+  "subtitle": "Detecting significance and learning threat",
+  "hero": "amygdala-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating amygdala in trauma across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "polyvagal-theory"
+  ],
+  "previousConcept": "polyvagal-theory",
+  "nextConcept": "hippocampus-trauma",
+  "tags": [
+    "amygdala",
+    "trauma",
+    "trauma",
+    "emdr",
+    "established role; heterogeneous clinical findings"
+  ],
+  "searchTerms": [
+    "amygdala",
+    "trauma",
+    "emdr",
+    "established role; heterogeneous clinical findings",
+    "detecting",
+    "significance",
+    "learning",
+    "threat"
+  ],
+  "learningObjectives": [
+    "Explain amygdala in trauma in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in amygdala in trauma.",
+    "Identify one limitation or safety implication relevant to amygdala in trauma."
+  ],
+  "sections": {
+    "explainSimply": "The amygdala helps the brain learn which cues predict danger or importance.",
+    "explainLikePsychologist": "It contributes to threat learning, salience, autonomic preparation and memory modulation; it is not a simple “fear centre.”",
+    "advancedClinicalDetail": "Trauma studies often report altered amygdala reactivity and connectivity, but results vary and overlap with other conditions and normal variation.",
+    "thinkOfItLike": "Think of amygdala in trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need amygdala in trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "An “overactive amygdala” is a metaphor, not an individual diagnosis.",
+    "clinicalPearl": "Clinical pearl: use amygdala in trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses amygdala in trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "An “overactive amygdala” is a metaphor, not an individual diagnosis. Evidence classification: established role; heterogeneous clinical findings."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "The amygdala helps the brain learn which cues predict danger or importance."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "It contributes to threat learning, salience, autonomic preparation and memory modulation; it is not a simple “fear centre.”"
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "An “overactive amygdala” is a metaphor, not an individual diagnosis."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "The amygdala helps the brain learn which cues predict danger or importance.",
+      "It contributes to threat learning, salience, autonomic preparation and memory modulation; it is not a simple “fear centre.”",
+      "An “overactive amygdala” is a metaphor, not an individual diagnosis."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "amygdala-trauma-q1",
+      "question": "What is the most accurate core statement about Amygdala in Trauma?",
+      "options": [
+        "The amygdala helps the brain learn which cues predict danger or importance.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The amygdala helps the brain learn which cues predict danger or importance."
+    },
+    {
+      "id": "amygdala-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "It contributes to threat learning, salience, autonomic preparation and memory modulation; it is not a simple “fear centre.”",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "It contributes to threat learning, salience, autonomic preparation and memory modulation; it is not a simple “fear centre.”"
+    },
+    {
+      "id": "amygdala-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "An “overactive amygdala” is a metaphor, not an individual diagnosis.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "An “overactive amygdala” is a metaphor, not an individual diagnosis."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The amygdala helps the brain learn which cues predict danger or importance."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "An “overactive amygdala” is a metaphor, not an individual diagnosis."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established role; heterogeneous clinical findings"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

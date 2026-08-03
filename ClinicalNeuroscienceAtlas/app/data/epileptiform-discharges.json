@@ -1,0 +1,138 @@
+{
+  "id": "epileptiform-discharges",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Interictal Epileptiform Discharges.",
+    "Apply Interictal Epileptiform Discharges to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Epileptiform discharges have characteristic morphology, field and disruption of background, but benign transients can mimic them."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Specificity depends on expert visual interpretation. Absence does not exclude epilepsy, and presence must be integrated with clinical history."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Supports epilepsy classification and treatment decisions when interpreted by trained clinicians."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Automated spike detection produces false positives if accepted uncritically."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Interictal Epileptiform Discharges",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Epileptiform discharges have characteristic morphology, field and disruption of background, but benign transients can mimic them."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Specificity depends on expert visual interpretation. Absence does not exclude epilepsy, and presence must be integrated with clinical history."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Supports epilepsy classification and treatment decisions when interpreted by trained clinicians."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Automated spike detection produces false positives if accepted uncritically."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Interictal Epileptiform Discharges"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Interictal Epileptiform Discharges?",
+      "options": [
+        "Epileptiform discharges have characteristic morphology, field and disruption of background, but benign transients can mimic them.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Epileptiform discharges have characteristic morphology, field and disruption of background, but benign transients can mimic them."
+    },
+    {
+      "question": "What is the safest clinical principle for Interictal Epileptiform Discharges?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Interictal Epileptiform Discharges?",
+      "options": [
+        "Automated spike detection produces false positives if accepted uncritically.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Automated spike detection produces false positives if accepted uncritically."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Specificity depends on expert visual interpretation. Absence does not exclude epilepsy, and presence must be integrated with clinical history."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Supports epilepsy classification and treatment decisions when interpreted by trained clinicians."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Automated spike detection produces false positives if accepted uncritically."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Epilepsy is a clinical diagnosis informed—not replaced—by EEG."
+    }
+  ],
+  "tags": [
+    "interictal epileptiform discharges",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "spikes",
+    "sharp",
+    "waves",
+    "indicate"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

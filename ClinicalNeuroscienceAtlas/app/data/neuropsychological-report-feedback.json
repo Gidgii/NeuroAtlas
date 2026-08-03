@@ -1,0 +1,122 @@
+{
+  "id": "neuropsychological-report-feedback",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Report Writing and Feedback.",
+    "Apply Report Writing and Feedback to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Answer the question",
+      "detail": "State the referral issue and concise conclusion."
+    },
+    {
+      "label": "Explain the formulation",
+      "detail": "Connect history, behaviour, tests and function."
+    },
+    {
+      "label": "Name uncertainty",
+      "detail": "Describe limitations and alternatives."
+    },
+    {
+      "label": "Prioritise action",
+      "detail": "Offer feasible recommendations with responsible owners and review points."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Answer the question",
+        "detail": "State the referral issue and concise conclusion."
+      },
+      {
+        "label": "Explain the formulation",
+        "detail": "Connect history, behaviour, tests and function."
+      },
+      {
+        "label": "Name uncertainty",
+        "detail": "Describe limitations and alternatives."
+      },
+      {
+        "label": "Prioritise action",
+        "detail": "Offer feasible recommendations with responsible owners and review points."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Report Writing and Feedback"
+  },
+  "quizBank": [
+    {
+      "question": "Which feature most improves a recommendation?",
+      "options": [
+        "More technical jargon",
+        "A specific action linked to the identified mechanism",
+        "A longer test table",
+        "Avoiding uncertainty"
+      ],
+      "answer": 1,
+      "explanation": "A specific action linked to the identified mechanism is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Report Writing and Feedback?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "The best recommendation is specific enough that someone knows what to do on Monday morning."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Answer the question → Explain the formulation → Name uncertainty → Prioritise action"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Avoid diagnostic claims beyond the evidence, copying generic recommendations and disclosing sensitive information without appropriate consent and governance."
+    }
+  ],
+  "tags": [
+    "report writing and feedback",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Postal KS, Armstrong K. Feedback That Sticks: The Art of Effectively Communicating Neuropsychological Assessment Results. Oxford University Press; 2013.",
+      "url": "https://global.oup.com/academic/product/feedback-that-sticks-9780199765690"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

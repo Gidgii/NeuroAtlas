@@ -1,0 +1,175 @@
+{
+  "id": "polyvagal-theory",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 7,
+  "level": 28,
+  "title": "Polyvagal Theory",
+  "subtitle": "A clinically influential model with contested neuroanatomical claims",
+  "hero": "polyvagal-theory.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating polyvagal theory across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "parasympathetic-regulation-trauma"
+  ],
+  "previousConcept": "parasympathetic-regulation-trauma",
+  "nextConcept": "amygdala-trauma",
+  "tags": [
+    "polyvagal",
+    "theory",
+    "trauma",
+    "emdr",
+    "mixed and contested theoretical model"
+  ],
+  "searchTerms": [
+    "polyvagal",
+    "theory",
+    "trauma",
+    "emdr",
+    "mixed and contested theoretical model",
+    "clinically",
+    "influential",
+    "model",
+    "with",
+    "contested",
+    "neuroanatomical",
+    "claims"
+  ],
+  "learningObjectives": [
+    "Explain polyvagal theory in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in polyvagal theory.",
+    "Identify one limitation or safety implication relevant to polyvagal theory."
+  ],
+  "sections": {
+    "explainSimply": "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states.",
+    "explainLikePsychologist": "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact.",
+    "advancedClinicalDetail": "Use it as a heuristic alongside established autonomic science, learning theory and contextual formulation rather than as a standalone biological explanation.",
+    "thinkOfItLike": "Think of polyvagal theory as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need polyvagal theory to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not diagnose “vagal states” or treat the theory as proven anatomy.",
+    "clinicalPearl": "Clinical pearl: use polyvagal theory to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses polyvagal theory to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not diagnose “vagal states” or treat the theory as proven anatomy. Evidence classification: mixed and contested theoretical model."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not diagnose “vagal states” or treat the theory as proven anatomy."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states.",
+      "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact.",
+      "Do not diagnose “vagal states” or treat the theory as proven anatomy."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "polyvagal-theory-q1",
+      "question": "What is the most accurate core statement about Polyvagal Theory?",
+      "options": [
+        "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states."
+    },
+    {
+      "id": "polyvagal-theory-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact."
+    },
+    {
+      "id": "polyvagal-theory-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not diagnose “vagal states” or treat the theory as proven anatomy.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not diagnose “vagal states” or treat the theory as proven anatomy."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not diagnose “vagal states” or treat the theory as proven anatomy."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "mixed and contested theoretical model"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

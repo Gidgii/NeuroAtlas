@@ -1,0 +1,179 @@
+{
+  "id": "corpus-callosum",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Corpus Callosum.",
+    "Explain how the Corpus Callosum contributes to distributed brain function.",
+    "Connect Corpus Callosum physiology with clinically relevant symptoms and conditions.",
+    "Interpret structural or functional findings cautiously and in context."
+  ],
+  "anatomy": [
+    {
+      "id": "rostrum",
+      "label": "Rostrum",
+      "short": "Inferior frontal connector",
+      "detail": "Links orbitofrontal regions.",
+      "clinical": "Supports integration of affective and decision signals."
+    },
+    {
+      "id": "genu",
+      "label": "Genu",
+      "short": "Prefrontal bridge",
+      "detail": "Connects anterior frontal cortices.",
+      "clinical": "Relevant to executive and social-cognitive integration."
+    },
+    {
+      "id": "body",
+      "label": "Body",
+      "short": "Sensorimotor and association fibres",
+      "detail": "Carries fibres between frontal, parietal and motor regions.",
+      "clinical": "Damage can impair bimanual coordination."
+    },
+    {
+      "id": "isthmus",
+      "label": "Isthmus",
+      "short": "Posterior association connector",
+      "detail": "Links parietal and temporal association areas.",
+      "clinical": "Supports multimodal integration."
+    },
+    {
+      "id": "splenium",
+      "label": "Splenium",
+      "short": "Visual and posterior bridge",
+      "detail": "Connects occipital and posterior temporal cortices.",
+      "clinical": "Damage can produce alexia without agraphia in specific lesion patterns."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Corpus Callosum",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "rostrum",
+        "label": "Rostrum",
+        "description": "Links orbitofrontal regions."
+      },
+      {
+        "id": "genu",
+        "label": "Genu",
+        "description": "Connects anterior frontal cortices."
+      },
+      {
+        "id": "body",
+        "label": "Body",
+        "description": "Carries fibres between frontal, parietal and motor regions."
+      },
+      {
+        "id": "isthmus",
+        "label": "Isthmus",
+        "description": "Links parietal and temporal association areas."
+      },
+      {
+        "id": "splenium",
+        "label": "Splenium",
+        "description": "Connects occipital and posterior temporal cortices."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "corpus-callosum-q1",
+      "question": "Which component is best described as: Inferior frontal connector?",
+      "options": [
+        "Rostrum",
+        "Genu",
+        "Body",
+        "Isthmus"
+      ],
+      "answer": 0,
+      "explanation": "Links orbitofrontal regions."
+    },
+    {
+      "id": "corpus-callosum-q2",
+      "question": "Which component is best described as: Prefrontal bridge?",
+      "options": [
+        "Genu",
+        "Rostrum",
+        "Body",
+        "Isthmus"
+      ],
+      "answer": 0,
+      "explanation": "Connects anterior frontal cortices."
+    },
+    {
+      "id": "corpus-callosum-q3",
+      "question": "Which component is best described as: Sensorimotor and association fibres?",
+      "options": [
+        "Body",
+        "Rostrum",
+        "Genu",
+        "Isthmus"
+      ],
+      "answer": 0,
+      "explanation": "Carries fibres between frontal, parietal and motor regions."
+    },
+    {
+      "id": "corpus-callosum-q4",
+      "question": "Which component is best described as: Posterior association connector?",
+      "options": [
+        "Isthmus",
+        "Rostrum",
+        "Genu",
+        "Body"
+      ],
+      "answer": 0,
+      "explanation": "Links parietal and temporal association areas."
+    },
+    {
+      "id": "corpus-callosum-q5",
+      "question": "Which component is best described as: Visual and posterior bridge?",
+      "options": [
+        "Splenium",
+        "Rostrum",
+        "Genu",
+        "Body"
+      ],
+      "answer": 0,
+      "explanation": "Connects occipital and posterior temporal cortices."
+    }
+  ],
+  "tags": [
+    "white matter",
+    "interhemispheric",
+    "connectivity",
+    "myelin",
+    "disconnection"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Corpus Callosum.",
+      "Explain one clinically relevant function of the Corpus Callosum.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Gazzaniga, 2000",
+      "year": "2000",
+      "title": "Cerebral specialization and interhemispheric communication",
+      "source": "Brain"
+    },
+    {
+      "authors": "Paul et al., 2007",
+      "year": "2007",
+      "title": "Agenesis of the corpus callosum: genetic, developmental and functional aspects",
+      "source": "Nature Reviews Neuroscience"
+    },
+    {
+      "authors": "Hofer & Frahm, 2006",
+      "year": "2006",
+      "title": "Topography of the human corpus callosum revisited",
+      "source": "NeuroImage"
+    }
+  ]
+}

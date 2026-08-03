@@ -1,0 +1,177 @@
+{
+  "id": "default-mode-network-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 12,
+  "level": 28,
+  "title": "Default Mode Network Changes",
+  "subtitle": "Self, autobiographical memory and internal narrative",
+  "hero": "default-mode-network-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating default mode network changes across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "salience-network-trauma"
+  ],
+  "previousConcept": "salience-network-trauma",
+  "nextConcept": "central-executive-network-trauma",
+  "tags": [
+    "default",
+    "mode",
+    "network",
+    "changes",
+    "trauma",
+    "emdr",
+    "mixed network evidence"
+  ],
+  "searchTerms": [
+    "default",
+    "mode",
+    "network",
+    "changes",
+    "trauma",
+    "emdr",
+    "mixed network evidence",
+    "self",
+    "autobiographical",
+    "memory",
+    "internal",
+    "narrative"
+  ],
+  "learningObjectives": [
+    "Explain default mode network changes in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in default mode network changes.",
+    "Identify one limitation or safety implication relevant to default mode network changes."
+  ],
+  "sections": {
+    "explainSimply": "The default mode network supports self-related thought and autobiographical processing.",
+    "explainLikePsychologist": "Trauma-related intrusions, shame and altered self-continuity may involve disrupted coordination within and between default-mode, salience and executive networks.",
+    "advancedClinicalDetail": "Resting-state results vary with analysis method, state, medication and comorbidity; mechanism claims remain inferential.",
+    "thinkOfItLike": "Think of default mode network changes as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need default mode network changes to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Resting connectivity does not reveal a person’s private memories.",
+    "clinicalPearl": "Clinical pearl: use default mode network changes to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses default mode network changes to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Resting connectivity does not reveal a person’s private memories. Evidence classification: mixed network evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "The default mode network supports self-related thought and autobiographical processing."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Trauma-related intrusions, shame and altered self-continuity may involve disrupted coordination within and between default-mode, salience and executive networks."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Resting connectivity does not reveal a person’s private memories."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "The default mode network supports self-related thought and autobiographical processing.",
+      "Trauma-related intrusions, shame and altered self-continuity may involve disrupted coordination within and between default-mode, salience and executive networks.",
+      "Resting connectivity does not reveal a person’s private memories."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "default-mode-network-trauma-q1",
+      "question": "What is the most accurate core statement about Default Mode Network Changes?",
+      "options": [
+        "The default mode network supports self-related thought and autobiographical processing.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The default mode network supports self-related thought and autobiographical processing."
+    },
+    {
+      "id": "default-mode-network-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Trauma-related intrusions, shame and altered self-continuity may involve disrupted coordination within and between default-mode, salience and executive networks.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma-related intrusions, shame and altered self-continuity may involve disrupted coordination within and between default-mode, salience and executive networks."
+    },
+    {
+      "id": "default-mode-network-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Resting connectivity does not reveal a person’s private memories.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Resting connectivity does not reveal a person’s private memories."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The default mode network supports self-related thought and autobiographical processing."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Resting connectivity does not reveal a person’s private memories."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "mixed network evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "language-assessment",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate core language domains and related speech disorders.",
+    "Describe dorsal and ventral language pathways.",
+    "Interpret language performance in multilingual and cultural context.",
+    "Recognise acute aphasia as a medical emergency."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Input analysis",
+      "detail": "Auditory and visual systems decode speech sounds and written symbols."
+    },
+    {
+      "label": "Semantic access",
+      "detail": "Distributed temporal systems connect forms with concepts and knowledge."
+    },
+    {
+      "label": "Message construction",
+      "detail": "Frontal and temporal systems organise words and grammar."
+    },
+    {
+      "label": "Motor output",
+      "detail": "Premotor, motor and speech networks programme articulation or writing."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Input analysis",
+        "detail": "Auditory and visual systems decode speech sounds and written symbols."
+      },
+      {
+        "label": "Semantic access",
+        "detail": "Distributed temporal systems connect forms with concepts and knowledge."
+      },
+      {
+        "label": "Message construction",
+        "detail": "Frontal and temporal systems organise words and grammar."
+      },
+      {
+        "label": "Motor output",
+        "detail": "Premotor, motor and speech networks programme articulation or writing."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Language Assessment"
+  },
+  "quizBank": [
+    {
+      "question": "Sudden aphasia should be treated as:",
+      "options": [
+        "A personality issue",
+        "A stroke emergency until assessed",
+        "Normal ageing",
+        "Evidence of low intelligence"
+      ],
+      "answer": 1,
+      "explanation": "Acute language change is a time-critical neurological red flag."
+    },
+    {
+      "question": "The dorsal language stream is especially associated with:",
+      "options": [
+        "Sound-to-articulation mapping",
+        "Vision only",
+        "Autonomic control",
+        "Taste"
+      ],
+      "answer": 0,
+      "explanation": "Dorsal pathways support phonological processing, repetition and articulation mapping."
+    },
+    {
+      "question": "What must be considered in multilingual assessment?",
+      "options": [
+        "Only the current test language",
+        "Language history, proficiency, education and cultural exposure",
+        "No norms are needed",
+        "Translation removes all bias"
+      ],
+      "answer": 1,
+      "explanation": "Language experience changes performance and the validity of available norms."
+    }
+  ],
+  "reviewPrompts": [
+    "Explain Language Assessment in plain language.",
+    "Name one clinical interpretation pitfall in Language Assessment.",
+    "Identify a red flag relevant to Language Assessment."
+  ],
+  "tags": [
+    "language assessment",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "Hickok G, Poeppel D. The cortical organization of speech processing. Nature Reviews Neuroscience. 2007.",
+      "url": "https://doi.org/10.1038/nrn2113"
+    },
+    {
+      "citation": "Spreen O, Risser AH. Assessment of Aphasia. Oxford University Press. 2003.",
+      "url": "https://global.oup.com/academic/product/assessment-of-aphasia-9780195140750"
+    }
+  ]
+}

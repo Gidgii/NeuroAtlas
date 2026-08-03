@@ -1,0 +1,173 @@
+{
+  "id": "window-of-tolerance",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 23,
+  "level": 28,
+  "title": "Window of Tolerance",
+  "subtitle": "A practical arousal metaphor for workable engagement",
+  "hero": "window-of-tolerance.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating window of tolerance across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "emotional-processing-trauma"
+  ],
+  "previousConcept": "emotional-processing-trauma",
+  "nextConcept": "affect-regulation-trauma",
+  "tags": [
+    "window",
+    "tolerance",
+    "trauma",
+    "emdr",
+    "clinical heuristic; not a biological construct"
+  ],
+  "searchTerms": [
+    "window",
+    "tolerance",
+    "trauma",
+    "emdr",
+    "clinical heuristic; not a biological construct",
+    "practical",
+    "arousal",
+    "metaphor",
+    "workable",
+    "engagement"
+  ],
+  "learningObjectives": [
+    "Explain window of tolerance in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in window of tolerance.",
+    "Identify one limitation or safety implication relevant to window of tolerance."
+  ],
+  "sections": {
+    "explainSimply": "The window of tolerance describes a zone where a person can remain engaged without becoming overwhelmed or shut down.",
+    "explainLikePsychologist": "It is useful for pacing and shared language, but it is not a measurable neural boundary.",
+    "advancedClinicalDetail": "Arousal capacity varies by task, relationship, sleep, pain and context; treatment should expand flexibility rather than enforce one “correct” state.",
+    "thinkOfItLike": "Think of window of tolerance as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need window of tolerance to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not use the concept to avoid all difficult emotion.",
+    "clinicalPearl": "Clinical pearl: use window of tolerance to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses window of tolerance to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not use the concept to avoid all difficult emotion. Evidence classification: clinical heuristic; not a biological construct."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "The window of tolerance describes a zone where a person can remain engaged without becoming overwhelmed or shut down."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "It is useful for pacing and shared language, but it is not a measurable neural boundary."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not use the concept to avoid all difficult emotion."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "The window of tolerance describes a zone where a person can remain engaged without becoming overwhelmed or shut down.",
+      "It is useful for pacing and shared language, but it is not a measurable neural boundary.",
+      "Do not use the concept to avoid all difficult emotion."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "window-of-tolerance-q1",
+      "question": "What is the most accurate core statement about Window of Tolerance?",
+      "options": [
+        "The window of tolerance describes a zone where a person can remain engaged without becoming overwhelmed or shut down.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The window of tolerance describes a zone where a person can remain engaged without becoming overwhelmed or shut down."
+    },
+    {
+      "id": "window-of-tolerance-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "It is useful for pacing and shared language, but it is not a measurable neural boundary.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "It is useful for pacing and shared language, but it is not a measurable neural boundary."
+    },
+    {
+      "id": "window-of-tolerance-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not use the concept to avoid all difficult emotion.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not use the concept to avoid all difficult emotion."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The window of tolerance describes a zone where a person can remain engaged without becoming overwhelmed or shut down."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not use the concept to avoid all difficult emotion."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "clinical heuristic; not a biological construct"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

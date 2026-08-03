@@ -1,0 +1,266 @@
+{
+  "id": "basal-ganglia-circuit-explorer",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 30,
+  "level": 29,
+  "title": "Basal Ganglia Circuit Explorer",
+  "subtitle": "Trace direct, indirect and hyperdirect loops through cortex, striatum, pallidum, subthalamic nucleus and thalamus",
+  "pronunciation": "BAY-sul GANG-glee-uh",
+  "hero": "basal-ganglia-circuit-explorer.svg",
+  "altText": "Interactive chalkboard-style anatomical map of Basal Ganglia Circuit Explorer with selectable regions and pathways.",
+  "prerequisites": [
+    "pituitary-and-sella-atlas"
+  ],
+  "previousConcept": "pituitary-and-sella-atlas",
+  "nextConcept": "major-white-matter-pathways-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "action selection",
+    "movement scaling",
+    "habit learning",
+    "reward prediction"
+  ],
+  "searchTerms": [
+    "Basal Ganglia Circuit Explorer",
+    "BAY-sul GANG-glee-uh",
+    "caudate nucleus",
+    "putamen",
+    "nucleus accumbens",
+    "globus pallidus external",
+    "globus pallidus internal",
+    "subthalamic nucleus",
+    "substantia nigra pars compacta",
+    "substantia nigra pars reticulata",
+    "motor thalamus",
+    "corticostriatal pathway",
+    "direct pathway",
+    "indirect pathway",
+    "hyperdirect pathway",
+    "nigrostriatal pathway",
+    "thalamo-cortical loop",
+    "action selection",
+    "movement scaling",
+    "habit learning",
+    "reward prediction",
+    "motivational vigour",
+    "cognitive control"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the Basal Ganglia Circuit Explorer.",
+    "Trace key inputs, outputs and connections in the Basal Ganglia Circuit Explorer.",
+    "Interpret lesion patterns cautiously using distributed-network and clinical context."
+  ],
+  "sections": {
+    "explainSimply": "Trace direct, indirect and hyperdirect loops through cortex, striatum, pallidum, subthalamic nucleus and thalamus.",
+    "explainLikePsychologist": "Frontostriatal loops influence motivation, reinforcement learning, response inhibition and cognitive flexibility; abnormalities are transdiagnostic rather than disorder-specific.",
+    "advancedClinicalDetail": "Location: Deep bilateral nuclei surrounding the internal capsule, linked with frontal cortex, thalamus and midbrain. Major subdivisions include caudate nucleus, putamen, nucleus accumbens, globus pallidus external, globus pallidus internal, subthalamic nucleus, substantia nigra pars compacta, substantia nigra pars reticulata, motor thalamus. Inputs include frontal cortex, sensorimotor cortex, limbic cortex, substantia nigra pars compacta; outputs include motor thalamus, brainstem motor regions, frontal cortex via thalamus.",
+    "thinkOfItLike": "A dynamic transport and control map: the meaning of any node depends on the routes entering, leaving and bypassing it.",
+    "whyPsychologistsCare": "Frontostriatal loops influence motivation, reinforcement learning, response inhibition and cognitive flexibility; abnormalities are transdiagnostic rather than disorder-specific.",
+    "whenItGoesWrong": "Disruption may contribute to hypokinetic or hyperkinetic movement, impaired initiation, altered habit learning, impulsivity or apathy. Clinical expression depends on circuit, laterality, cause and network compensation.",
+    "clinicalPearl": "Do not reduce the basal ganglia to “movement centres”: specify the motor, associative or limbic loop and the direction of circuit imbalance.",
+    "practicalExample": "Select a region, trace its incoming and outgoing pathways, then compare healthy and lesion overlays before forming a clinical hypothesis.",
+    "limitationsCautions": "Circuit diagrams are simplified. Neurotransmitters, receptor subtypes, oscillatory state and disease stage can reverse or modify net effects. Anatomy cannot diagnose a psychiatric disorder."
+  },
+  "anatomy": {
+    "position": "Deep bilateral nuclei surrounding the internal capsule, linked with frontal cortex, thalamus and midbrain.",
+    "spatialRelationships": "Interpreted relative to connected cortical, subcortical and vascular structures; boundaries and laterality must be checked in the selected view.",
+    "regions": [
+      "caudate nucleus",
+      "putamen",
+      "nucleus accumbens",
+      "globus pallidus external",
+      "globus pallidus internal",
+      "subthalamic nucleus",
+      "substantia nigra pars compacta",
+      "substantia nigra pars reticulata",
+      "motor thalamus"
+    ],
+    "inputs": [
+      "frontal cortex",
+      "sensorimotor cortex",
+      "limbic cortex",
+      "substantia nigra pars compacta"
+    ],
+    "outputs": [
+      "motor thalamus",
+      "brainstem motor regions",
+      "frontal cortex via thalamus"
+    ],
+    "connections": [
+      "corticostriatal pathway",
+      "direct pathway",
+      "indirect pathway",
+      "hyperdirect pathway",
+      "nigrostriatal pathway",
+      "thalamo-cortical loop"
+    ],
+    "functions": [
+      "action selection",
+      "movement scaling",
+      "habit learning",
+      "reward prediction",
+      "motivational vigour",
+      "cognitive control"
+    ],
+    "bloodSupply": "Primarily perforating branches of the middle and anterior cerebral arteries, including lenticulostriate and recurrent artery of Heubner territories; vascular anatomy varies.",
+    "lesionEffects": "Disruption may contribute to hypokinetic or hyperkinetic movement, impaired initiation, altered habit learning, impulsivity or apathy. Clinical expression depends on circuit, laterality, cause and network compensation.",
+    "clinicalSignificance": "Frontostriatal loops influence motivation, reinforcement learning, response inhibition and cognitive flexibility; abnormalities are transdiagnostic rather than disorder-specific."
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Tap to select",
+      "targets": [
+        "caudate nucleus",
+        "putamen",
+        "nucleus accumbens",
+        "globus pallidus external",
+        "globus pallidus internal",
+        "subthalamic nucleus",
+        "substantia nigra pars compacta",
+        "substantia nigra pars reticulata",
+        "motor thalamus"
+      ]
+    },
+    {
+      "type": "view",
+      "label": "Change anatomical view",
+      "targets": [
+        "lateral",
+        "medial",
+        "axial",
+        "coronal"
+      ]
+    },
+    {
+      "type": "zoom-pan",
+      "label": "Zoom and pan",
+      "targets": [
+        "atlas canvas"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Show or hide layers",
+      "targets": [
+        "surrounding anatomy",
+        "connections",
+        "blood supply",
+        "function overlay"
+      ]
+    },
+    {
+      "type": "trace-inputs",
+      "label": "Trace inputs",
+      "targets": [
+        "frontal cortex",
+        "sensorimotor cortex",
+        "limbic cortex",
+        "substantia nigra pars compacta"
+      ]
+    },
+    {
+      "type": "trace-outputs",
+      "label": "Trace outputs",
+      "targets": [
+        "motor thalamus",
+        "brainstem motor regions",
+        "frontal cortex via thalamus"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and pathology",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to whole-brain overview",
+      "targets": [
+        "whole brain"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "basal-ganglia-circuit-explorer-q1",
+      "question": "Which pathway provides a rapid cortical route to increase inhibitory basal-ganglia output?",
+      "options": [
+        "Hyperdirect pathway",
+        "Direct pathway",
+        "Dorsal column pathway",
+        "Medial forebrain bundle"
+      ],
+      "answer": 0,
+      "rationale": "The hyperdirect pathway projects from cortex to subthalamic nucleus, rapidly increasing GPi/SNr output and suppressing competing actions."
+    },
+    {
+      "id": "basal-ganglia-circuit-explorer-q2",
+      "question": "Dopamine from substantia nigra pars compacta generally has what net effect on movement-related striatal circuitry?",
+      "options": [
+        "Facilitates selected actions through D1 and D2 receptor effects",
+        "Silences all striatal neurons",
+        "Activates only the cerebellum",
+        "Has no effect on action selection"
+      ],
+      "answer": 0,
+      "rationale": "Dopamine tends to facilitate selected actions by exciting D1 direct-pathway neurons and reducing D2 indirect-pathway influence, although real circuitry is more complex."
+    },
+    {
+      "id": "basal-ganglia-circuit-explorer-q3",
+      "question": "What is the safest interpretation of apathy in relation to basal-ganglia circuits?",
+      "options": [
+        "It may reflect frontostriatal network dysfunction but is nonspecific",
+        "It proves caudate damage",
+        "It excludes depression",
+        "It identifies lesion laterality exactly"
+      ],
+      "answer": 0,
+      "rationale": "Apathy can arise from several frontal-subcortical, medical and psychiatric processes and requires broader assessment."
+    }
+  ],
+  "relatedConcepts": [
+    "pituitary-and-sella-atlas",
+    "major-white-matter-pathways-atlas",
+    "cerebral-vasculature-atlas",
+    "deep-nuclei-atlas",
+    "thalamus-atlas",
+    "cerebral-lobes-atlas"
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Kandel ER et al. Principles of Neural Science.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Sketch the major nodes and pathways of the Basal Ganglia Circuit Explorer and explain one qualified lesion pattern."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive Basal Ganglia Circuit Explorer with selectable anatomy, pathway tracing, overlays and lesion comparisons.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

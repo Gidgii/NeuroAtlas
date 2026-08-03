@@ -1,0 +1,138 @@
+{
+  "id": "photic-stimulation",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Intermittent Photic Stimulation.",
+    "Apply Intermittent Photic Stimulation to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Flashing light across frequencies can produce a normal posterior driving response or a photoparoxysmal response in susceptible individuals."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Protocol, distance, eye condition and stop rules matter. Photic driving is not the same as epileptiform photosensitivity."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Correct distinction prevents both missed photosensitivity and false epilepsy labelling."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Continuing stimulation after a generalised photoparoxysmal response may be unsafe."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Intermittent Photic Stimulation",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Flashing light across frequencies can produce a normal posterior driving response or a photoparoxysmal response in susceptible individuals."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Protocol, distance, eye condition and stop rules matter. Photic driving is not the same as epileptiform photosensitivity."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Correct distinction prevents both missed photosensitivity and false epilepsy labelling."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Continuing stimulation after a generalised photoparoxysmal response may be unsafe."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Intermittent Photic Stimulation"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Intermittent Photic Stimulation?",
+      "options": [
+        "Flashing light across frequencies can produce a normal posterior driving response or a photoparoxysmal response in susceptible individuals.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Flashing light across frequencies can produce a normal posterior driving response or a photoparoxysmal response in susceptible individuals."
+    },
+    {
+      "question": "What is the safest clinical principle for Intermittent Photic Stimulation?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Intermittent Photic Stimulation?",
+      "options": [
+        "Continuing stimulation after a generalised photoparoxysmal response may be unsafe.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Continuing stimulation after a generalised photoparoxysmal response may be unsafe."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Protocol, distance, eye condition and stop rules matter. Photic driving is not the same as epileptiform photosensitivity."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Correct distinction prevents both missed photosensitivity and false epilepsy labelling."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Continuing stimulation after a generalised photoparoxysmal response may be unsafe."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Know the difference between entrainment and epileptiform activation."
+    }
+  ],
+  "tags": [
+    "intermittent photic stimulation",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "testing",
+    "visual",
+    "system",
+    "reactivity"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

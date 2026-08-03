@@ -1,0 +1,303 @@
+{
+  "id": "cerebral-vasculature-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 18,
+  "level": 29,
+  "title": "Cerebral Vasculature Atlas",
+  "subtitle": "Trace arterial territories, venous drainage, perforators and watershed zones",
+  "pronunciation": "seh-REE-brul VAS-kyuh-luh-chur",
+  "hero": "cerebral-vasculature-atlas.svg",
+  "altText": "Inferior and lateral brain views showing the Circle of Willis, anterior, middle and posterior cerebral arteries, perforators, watershed zones and venous drainage.",
+  "prerequisites": [
+    "meninges-atlas"
+  ],
+  "previousConcept": "meninges-atlas",
+  "nextConcept": "limbic-system-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "cerebral vasculature atlas",
+    "clinical localisation",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Cerebral Vasculature Atlas",
+    "seh-REE-brul VAS-kyuh-luh-chur",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Trace the internal carotid and vertebrobasilar circulations through the Circle of Willis.",
+    "Map ACA, MCA and PCA territories to characteristic neurobehavioural syndromes.",
+    "Recognise perforator, watershed and venous patterns that do not follow simple cortical territories."
+  ],
+  "sections": {
+    "explainSimply": "The brain receives blood through two paired arterial systems that join at its base and branch across the surface and deep structures.",
+    "explainLikePsychologist": "Vascular territory often predicts the pattern and timing of cognitive, language, emotional and behavioural change, but collateral flow and individual anatomy create variability.",
+    "advancedClinicalDetail": "Anterior circulation derives primarily from internal carotid arteries; posterior circulation from vertebral arteries joining the basilar artery. The Circle of Willis permits collateral redistribution. Cortical branches, deep perforators and border zones produce distinct lesion patterns.",
+    "thinkOfItLike": "It is a city water network: major mains, ring connections, neighbourhood branches and tiny deep supply pipes each fail in different ways.",
+    "whyPsychologistsCare": "Sudden focal cognitive or behavioural change is a neurological emergency. Aphasia, neglect, amnesia or disinhibition may be the presenting sign of stroke.",
+    "whenItGoesWrong": "Assuming stroke always presents with obvious weakness may miss posterior, right-hemisphere or strategically located infarcts.",
+    "clinicalPearl": "Territory maps are probabilistic: variant anatomy and collateral circulation can substantially alter the clinical picture.",
+    "practicalExample": "A dominant-hemisphere superior-division MCA infarct may produce nonfluent aphasia with relatively preserved comprehension.",
+    "limitationsCautions": "This atlas cannot determine an individual vascular lesion; acute symptoms require emergency stroke assessment and imaging."
+  },
+  "anatomy": [
+    {
+      "id": "circle-of-willis",
+      "label": "Circle of Willis",
+      "pronunciation": "WILL-iss",
+      "function": "Provides an arterial collateral ring at the brain base",
+      "inputs": "Internal carotid and vertebrobasilar systems",
+      "outputs": "ACA, MCA and PCA circulations",
+      "connections": "Anterior and posterior communicating arteries",
+      "associatedDisorders": "Aneurysm, variable collateral capacity",
+      "clinicalSignificance": "Anatomical completeness varies; collateral competence cannot be assumed."
+    },
+    {
+      "id": "aca",
+      "label": "Anterior cerebral artery",
+      "pronunciation": "an-TEER-ee-or seh-REE-brul",
+      "function": "Supplies medial frontal and parietal cortex",
+      "inputs": "Internal carotid artery",
+      "outputs": "Pericallosal and callosomarginal branches",
+      "connections": "Corpus callosum and medial motor regions",
+      "associatedDisorders": "Abulia, leg-predominant weakness, disconnection",
+      "clinicalSignificance": "Medial frontal injury may look psychiatric or motivational."
+    },
+    {
+      "id": "mca",
+      "label": "Middle cerebral artery",
+      "pronunciation": "MID-ul seh-REE-brul",
+      "function": "Supplies much of lateral cerebral cortex and deep lenticulostriate territories",
+      "inputs": "Internal carotid artery",
+      "outputs": "Superior, inferior and deep perforating divisions",
+      "connections": "Language, attention, motor and sensory networks",
+      "associatedDisorders": "Aphasia, neglect, hemiparesis",
+      "clinicalSignificance": "MCA syndromes vary markedly by hemisphere and division."
+    },
+    {
+      "id": "pca",
+      "label": "Posterior cerebral artery",
+      "pronunciation": "pos-TEER-ee-or seh-REE-brul",
+      "function": "Supplies occipital, inferomedial temporal and thalamic regions",
+      "inputs": "Basilar apex or fetal-origin internal carotid",
+      "outputs": "Calcarine, temporal and perforating branches",
+      "connections": "Visual cortex, hippocampal and thalamic systems",
+      "associatedDisorders": "Visual field loss, alexia, memory disturbance",
+      "clinicalSignificance": "Posterior lesions can produce profound cognitive symptoms with little motor weakness."
+    },
+    {
+      "id": "watershed-zones",
+      "label": "Watershed zones",
+      "pronunciation": "WAW-ter-shed",
+      "function": "Border regions vulnerable to systemic hypoperfusion",
+      "inputs": "Distal ACA, MCA and PCA branches",
+      "outputs": "Cortical and subcortical border-zone tissue",
+      "connections": "High-order association cortex",
+      "associatedDisorders": "Global hypoxic-ischaemic and border-zone infarction",
+      "clinicalSignificance": "Proximal limb weakness or higher cognitive deficits may follow hypotension."
+    },
+    {
+      "id": "deep-perforators",
+      "label": "Deep perforators",
+      "pronunciation": "PER-for-ay-tors",
+      "function": "Supply internal capsule, basal ganglia, thalamus and brainstem",
+      "inputs": "MCA, ACA, PCA and basilar branches",
+      "outputs": "End-arterial deep territories",
+      "connections": "Compact motor, sensory and arousal pathways",
+      "associatedDisorders": "Lacunar infarcts and strategic thalamic syndromes",
+      "clinicalSignificance": "Small lesions can cause dense deficits because deep pathways are tightly packed."
+    }
+  ],
+  "mechanismMap": [
+    {
+      "label": "Circle of Willis",
+      "detail": "Provides an arterial collateral ring at the brain base"
+    },
+    {
+      "label": "Anterior cerebral artery",
+      "detail": "Supplies medial frontal and parietal cortex"
+    },
+    {
+      "label": "Middle cerebral artery",
+      "detail": "Supplies much of lateral cerebral cortex and deep lenticulostriate territories"
+    },
+    {
+      "label": "Posterior cerebral artery",
+      "detail": "Supplies occipital, inferomedial temporal and thalamic regions"
+    },
+    {
+      "label": "Watershed zones",
+      "detail": "Border regions vulnerable to systemic hypoperfusion"
+    },
+    {
+      "label": "Deep perforators",
+      "detail": "Supply internal capsule, basal ganglia, thalamus and brainstem"
+    }
+  ],
+  "interaction": {
+    "type": "anatomy-explorer",
+    "instruction": "Select each labelled structure to reveal function, inputs, outputs, connections and clinical significance.",
+    "signalSteps": [
+      "Circle of Willis: Provides an arterial collateral ring at the brain base",
+      "Anterior cerebral artery: Supplies medial frontal and parietal cortex",
+      "Middle cerebral artery: Supplies much of lateral cerebral cortex and deep lenticulostriate territories",
+      "Posterior cerebral artery: Supplies occipital, inferomedial temporal and thalamic regions",
+      "Watershed zones: Border regions vulnerable to systemic hypoperfusion",
+      "Deep perforators: Supply internal capsule, basal ganglia, thalamus and brainstem"
+    ],
+    "accessibilityLabel": "Interactive anatomy sequence for Cerebral Vasculature Atlas"
+  },
+  "quizBank": [
+    {
+      "id": "cerebral-vasculature-atlas-q1",
+      "question": "Which statement best captures a safe clinical principle for Cerebral Vasculature Atlas?",
+      "options": [
+        "Territory maps are probabilistic: variant anatomy and collateral circulation can substantially alter the clinical picture.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Individual variation is clinically irrelevant"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Territory maps are probabilistic: variant anatomy and collateral circulation can substantially alter the clinical picture.",
+      "explanation": "Territory maps are probabilistic: variant anatomy and collateral circulation can substantially alter the clinical picture."
+    },
+    {
+      "id": "cerebral-vasculature-atlas-q2",
+      "question": "What is the safest interpretation principle for Cerebral Vasculature Atlas?",
+      "options": [
+        "Use structure, networks, examination and context together",
+        "Infer diagnosis from one image",
+        "Ignore white-matter and vascular connections",
+        "Assume all people have identical organisation"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Anatomical findings require integration with networks, clinical examination and individual context.",
+      "explanation": "Anatomical findings require integration with networks, clinical examination and individual context."
+    },
+    {
+      "id": "cerebral-vasculature-atlas-q3",
+      "question": "Which feature is explicitly mapped in Cerebral Vasculature Atlas?",
+      "options": [
+        "Circle of Willis",
+        "Only a decorative title",
+        "No clinical links",
+        "No pathway information"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Circle of Willis is one of the mapped structures in this slice.",
+      "explanation": "Circle of Willis is one of the mapped structures in this slice."
+    }
+  ],
+  "reviewPrompts": [
+    "Name the major structures in Cerebral Vasculature Atlas.",
+    "Trace one input-output relationship in Cerebral Vasculature Atlas.",
+    "Give one clinical caution relevant to Cerebral Vasculature Atlas."
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easyIntervalDays": 14,
+    "tags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "responsive": true,
+    "reducedMotion": true
+  },
+  "references": [
+    {
+      "citation": "Tatu L, Moulin T, Bogousslavsky J, Duvernoy H. Arterial territories of the human brain. Neurology. 1998.",
+      "url": "https://doi.org/10.1212/WNL.50.6.1699",
+      "type": "Reference"
+    },
+    {
+      "citation": "Caplan LR. Caplan’s Stroke: A Clinical Approach. 5th ed. Cambridge University Press; 2016.",
+      "url": "https://www.cambridge.org/core/books/caplans-stroke/34E1CB91D71036786F9BFDFF0F59682D",
+      "type": "Reference"
+    }
+  ],
+  "evidenceLabel": "Established anatomy; clinical associations vary by lesion extent, network effects and individual context.",
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "Cerebral Vasculature Atlas"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "functions"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy",
+        "lesion"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best captures a safe clinical principle for Cerebral Vasculature Atlas?",
+      "options": [
+        "Territory maps are probabilistic: variant anatomy and collateral circulation can substantially alter the clinical picture.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Individual variation is clinically irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Territory maps are probabilistic: variant anatomy and collateral circulation can substantially alter the clinical picture."
+    },
+    {
+      "question": "Why do connections matter clinically?",
+      "options": [
+        "Symptoms may reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Pathways do not affect cognition.",
+        "All people have identical pathways."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive functions depend on connected pathways."
+    },
+    {
+      "question": "What should an atlas not be used for?",
+      "options": [
+        "Making a diagnosis from one structure alone.",
+        "Learning spatial relationships.",
+        "Generating lesion hypotheses.",
+        "Understanding vascular territories."
+      ],
+      "answer": 0,
+      "rationale": "An atlas is an educational and hypothesis-support tool, not a standalone diagnostic instrument."
+    }
+  ],
+  "accessibility": {
+    "altText": "Inferior and lateral brain views showing the Circle of Willis, anterior, middle and posterior cerebral arteries, perforators, watershed zones and venous drainage.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The brain receives blood through two paired arterial systems that join at its base and branch across the surface and deep structures.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

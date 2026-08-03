@@ -1,0 +1,217 @@
+{
+  "id": "deep-nuclei-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 22,
+  "level": 29,
+  "title": "Deep Nuclei Atlas",
+  "subtitle": "Explore thalamic, striatal, pallidal, subthalamic and claustral systems",
+  "pronunciation": "deep NOO-klee-eye",
+  "hero": "deep-nuclei-atlas.svg",
+  "altText": "Chalkboard-style interactive anatomical illustration for Deep Nuclei Atlas, showing labelled structures and pathway relationships.",
+  "prerequisites": [
+    "cranial-nerves-atlas"
+  ],
+  "previousConcept": "cranial-nerves-atlas",
+  "nextConcept": "thalamus-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "deep nuclei atlas",
+    "clinical localisation",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Deep Nuclei Atlas",
+    "deep NOO-klee-eye",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Identify the major components of deep nuclei.",
+    "Trace clinically relevant inputs, outputs and connections.",
+    "Relate focal dysfunction to plausible neurological and behavioural signs."
+  ],
+  "sections": {
+    "explainSimply": "Deep Nuclei is a set of connected structures that can be explored layer by layer to understand where it sits and what it does.",
+    "explainLikePsychologist": "This atlas links the anatomy of deep nuclei to behaviour, cognition, neurological signs and clinically meaningful patterns without reducing complex functions to one structure.",
+    "advancedClinicalDetail": "The deep nuclei should be interpreted through spatial relationships, laterality, vascular supply, pathway continuity and distributed network effects. Focal damage can create both local signs and disconnection syndromes.",
+    "thinkOfItLike": "Think of it as a layered transit map: structures are stations, tracts are routes, and symptoms depend on which junctions or connections are interrupted.",
+    "whyPsychologistsCare": "Recognising plausible neuroanatomical patterns supports better referral, formulation and interpretation of cognitive or behavioural change.",
+    "whenItGoesWrong": "Over-localising a symptom to one structure, or treating an atlas view as diagnostic evidence, can produce false certainty.",
+    "clinicalPearl": "Its head, body and tail curve with the lateral ventricle.",
+    "practicalExample": "A clinician can select a structure in the Deep Nuclei Atlas and trace its inputs and outputs before comparing the predicted pattern with examination, imaging and functional assessment.",
+    "limitationsCautions": "This atlas supports learning and clinical reasoning; it does not replace neurological examination, imaging or specialist interpretation."
+  },
+  "anatomy": [
+    {
+      "id": "caudate",
+      "label": "Caudate nucleus",
+      "pronunciation": "Caudate nucleus",
+      "function": "Action selection, learning and cognitive loops",
+      "inputs": "Cortex and substantia nigra",
+      "outputs": "Globus pallidus and substantia nigra",
+      "connections": "Cortex and substantia nigra; projects to Globus pallidus and substantia nigra.",
+      "associatedDisorders": "Huntington disease, obsessive-compulsive circuitry",
+      "clinicalSignificance": "Its head, body and tail curve with the lateral ventricle."
+    },
+    {
+      "id": "putamen",
+      "label": "Putamen",
+      "pronunciation": "Putamen",
+      "function": "Motor and habit-related striatal processing",
+      "inputs": "Motor and somatosensory cortex",
+      "outputs": "Globus pallidus and substantia nigra",
+      "connections": "Motor and somatosensory cortex; projects to Globus pallidus and substantia nigra.",
+      "associatedDisorders": "Parkinsonism, dystonia",
+      "clinicalSignificance": "The putamen is the lateral part of the dorsal striatum."
+    },
+    {
+      "id": "globus-pallidus",
+      "label": "Globus pallidus",
+      "pronunciation": "Globus pallidus",
+      "function": "Major inhibitory output and relay of basal-ganglia loops",
+      "inputs": "Striatum and subthalamic nucleus",
+      "outputs": "Thalamus and brainstem",
+      "connections": "Striatum and subthalamic nucleus; projects to Thalamus and brainstem.",
+      "associatedDisorders": "Movement disorders",
+      "clinicalSignificance": "Internal and external segments have different roles in direct and indirect pathways."
+    },
+    {
+      "id": "subthalamic-nucleus",
+      "label": "Subthalamic nucleus",
+      "pronunciation": "Subthalamic nucleus",
+      "function": "Excitatory control of pallidal output",
+      "inputs": "Cortex and external pallidum",
+      "outputs": "Internal pallidum and substantia nigra",
+      "connections": "Cortex and external pallidum; projects to Internal pallidum and substantia nigra.",
+      "associatedDisorders": "Hemiballismus, Parkinson therapy target",
+      "clinicalSignificance": "A small lesion can cause dramatic contralateral flinging movements."
+    },
+    {
+      "id": "substantia-nigra",
+      "label": "Substantia nigra",
+      "pronunciation": "Substantia nigra",
+      "function": "Dopamine modulation and basal-ganglia output",
+      "inputs": "Striatum and subthalamic nucleus",
+      "outputs": "Striatum, thalamus and brainstem",
+      "connections": "Striatum and subthalamic nucleus; projects to Striatum, thalamus and brainstem.",
+      "associatedDisorders": "Parkinson disease",
+      "clinicalSignificance": "Pars compacta and pars reticulata serve distinct modulatory and output functions."
+    },
+    {
+      "id": "thalamic-nuclei",
+      "label": "Thalamic nuclei",
+      "pronunciation": "Thalamic nuclei",
+      "function": "Relay and regulate sensory, motor and associative information",
+      "inputs": "Cortex, basal ganglia, cerebellum and sensory pathways",
+      "outputs": "Cerebral cortex",
+      "connections": "Cortex, basal ganglia, cerebellum and sensory pathways; projects to Cerebral cortex.",
+      "associatedDisorders": "Arousal, sensory and cognitive syndromes",
+      "clinicalSignificance": "The thalamus is a family of nuclei, not a single relay station."
+    },
+    {
+      "id": "claustrum",
+      "label": "Claustrum",
+      "pronunciation": "Claustrum",
+      "function": "Widespread cortical integration; function remains uncertain",
+      "inputs": "Broad cortical input",
+      "outputs": "Broad cortical output",
+      "connections": "Broad cortical input; projects to Broad cortical output.",
+      "associatedDisorders": "Evidence remains emerging",
+      "clinicalSignificance": "Its extensive connectivity is established, but strong claims about consciousness remain speculative."
+    }
+  ],
+  "interactions": {
+    "tap": true,
+    "zoom": true,
+    "pan": true,
+    "rotate": "simulated multi-view",
+    "layers": [
+      "overview",
+      "structures",
+      "connections",
+      "clinical overlay"
+    ],
+    "traceInputs": true,
+    "traceOutputs": true,
+    "compareLaterality": true,
+    "showFunctions": true,
+    "showLesions": true,
+    "returnToOverview": true
+  },
+  "quiz": [
+    {
+      "id": "deep-nuclei-atlas-q1",
+      "question": "What is the safest way to use the Deep Nuclei Atlas?",
+      "options": [
+        "As a spatial and network guide alongside clinical evidence",
+        "As a stand-alone diagnostic test",
+        "To assume one symptom has one location",
+        "To ignore laterality"
+      ],
+      "answer": 0,
+      "rationale": "As a spatial and network guide alongside clinical evidence"
+    },
+    {
+      "id": "deep-nuclei-atlas-q2",
+      "question": "Which principle best improves lesion interpretation?",
+      "options": [
+        "Consider location, pathways, laterality and network effects",
+        "Use only the structure name",
+        "Ignore white-matter connections",
+        "Assume all people have identical anatomy"
+      ],
+      "answer": 0,
+      "rationale": "Consider location, pathways, laterality and network effects"
+    },
+    {
+      "id": "deep-nuclei-atlas-q3",
+      "question": "What does selecting a structure reveal?",
+      "options": [
+        "Function, inputs, outputs, connections and clinical relevance",
+        "A definitive psychiatric diagnosis",
+        "A guaranteed prognosis",
+        "Only its colour"
+      ],
+      "answer": 0,
+      "rationale": "Function, inputs, outputs, connections and clinical relevance"
+    }
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Sinauer/Oxford University Press.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S, ed. Gray’s Anatomy. 42nd ed. Elsevier.",
+      "type": "anatomy reference"
+    },
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. 10th ed. Wolters Kluwer.",
+      "type": "atlas"
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true,
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewTags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "accessibility": {
+    "altText": "Interactive Deep Nuclei Atlas diagram",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "Deep Nuclei is a set of connected structures that can be explored layer by layer to understand where it sits and what it does.",
+    "reducedMotionFallback": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

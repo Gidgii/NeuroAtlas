@@ -1,0 +1,173 @@
+{
+  "id": "emotional-processing-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 22,
+  "level": 28,
+  "title": "Emotional Processing",
+  "subtitle": "Learning to approach, name and integrate affect",
+  "hero": "emotional-processing-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating emotional processing across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "structural-dissociation"
+  ],
+  "previousConcept": "structural-dissociation",
+  "nextConcept": "window-of-tolerance",
+  "tags": [
+    "emotional",
+    "processing",
+    "trauma",
+    "emdr",
+    "established clinical principles; mechanism plural"
+  ],
+  "searchTerms": [
+    "emotional",
+    "processing",
+    "trauma",
+    "emdr",
+    "established clinical principles; mechanism plural",
+    "learning",
+    "approach",
+    "name",
+    "integrate",
+    "affect"
+  ],
+  "learningObjectives": [
+    "Explain emotional processing in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in emotional processing.",
+    "Identify one limitation or safety implication relevant to emotional processing."
+  ],
+  "sections": {
+    "explainSimply": "Emotional processing involves noticing, tolerating and making meaning of emotion without being overwhelmed or avoidant.",
+    "explainLikePsychologist": "Therapeutic change may include reduced avoidance, improved differentiation, new appraisals and increased capacity to stay present.",
+    "advancedClinicalDetail": "No single biomarker indexes “processed trauma”; behavioural and functional outcomes remain primary.",
+    "thinkOfItLike": "Think of emotional processing as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need emotional processing to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Intense emotion is not automatically productive processing.",
+    "clinicalPearl": "Clinical pearl: use emotional processing to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses emotional processing to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Intense emotion is not automatically productive processing. Evidence classification: established clinical principles; mechanism plural."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Emotional processing involves noticing, tolerating and making meaning of emotion without being overwhelmed or avoidant."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Therapeutic change may include reduced avoidance, improved differentiation, new appraisals and increased capacity to stay present."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Intense emotion is not automatically productive processing."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Emotional processing involves noticing, tolerating and making meaning of emotion without being overwhelmed or avoidant.",
+      "Therapeutic change may include reduced avoidance, improved differentiation, new appraisals and increased capacity to stay present.",
+      "Intense emotion is not automatically productive processing."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "emotional-processing-trauma-q1",
+      "question": "What is the most accurate core statement about Emotional Processing?",
+      "options": [
+        "Emotional processing involves noticing, tolerating and making meaning of emotion without being overwhelmed or avoidant.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Emotional processing involves noticing, tolerating and making meaning of emotion without being overwhelmed or avoidant."
+    },
+    {
+      "id": "emotional-processing-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Therapeutic change may include reduced avoidance, improved differentiation, new appraisals and increased capacity to stay present.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Therapeutic change may include reduced avoidance, improved differentiation, new appraisals and increased capacity to stay present."
+    },
+    {
+      "id": "emotional-processing-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Intense emotion is not automatically productive processing.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Intense emotion is not automatically productive processing."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Emotional processing involves noticing, tolerating and making meaning of emotion without being overwhelmed or avoidant."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Intense emotion is not automatically productive processing."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established clinical principles; mechanism plural"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "reinforcement-schedules",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 4,
+  "level": 24,
+  "title": "Reinforcement Schedules",
+  "subtitle": "Why reward density and timing matter",
+  "hero": "reinforcement-schedules.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating reinforcement schedules within a neurofeedback closed loop.",
+  "prerequisites": [
+    "operant-conditioning-neurofeedback"
+  ],
+  "nextConcept": "eeg-versus-neurofeedback",
+  "previousConcept": "operant-conditioning-neurofeedback",
+  "tags": [
+    "reinforcement",
+    "schedules",
+    "neurofeedback",
+    "foundations",
+    "established behavioural principle"
+  ],
+  "searchTerms": [
+    "reinforcement",
+    "schedules",
+    "neurofeedback",
+    "foundations",
+    "established behavioural principle",
+    "why",
+    "reward",
+    "density",
+    "and",
+    "timing",
+    "matter"
+  ],
+  "learningObjectives": [
+    "Explain reinforcement schedules without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in reinforcement schedules.",
+    "Identify one safety or validity limitation relevant to reinforcement schedules."
+  ],
+  "sections": {
+    "explainSimply": "Rewards that are too rare frustrate learning; rewards that are too frequent provide little information.",
+    "explainLikePsychologist": "Thresholds are commonly adjusted to maintain engagement while preserving contingency. Fixed, adaptive and percentile-based rules each alter the learning environment.",
+    "advancedClinicalDetail": "Schedule design should be prespecified where possible. Automatic thresholding may stabilise reward rate but can obscure whether the underlying signal changed.",
+    "thinkOfItLike": "A driving instructor who gives immediate dashboard feedback while the learner practises a controllable skill.",
+    "whyPsychologistsCare": "Psychologists need to understand reinforcement schedules to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Do not confuse a stable reward rate with successful training.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using reinforcement schedules predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Do not confuse a stable reward rate with successful training. Evidence classification: established behavioural principle; implementation-dependent."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Schedule design should be prespecified where possible. Automatic thresholding may stabilise reward rate but can obscure whether the underlying signal changed."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Rewards that are too rare frustrate learning; rewards that are too frequent provide little information."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Rewards that are too rare frustrate learning; rewards that are too frequent provide little information.",
+      "Thresholds are commonly adjusted to maintain engagement while preserving contingency. Fixed, adaptive and percentile-based rules each alter the learning environment.",
+      "Do not confuse a stable reward rate with successful training."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Reinforcement Schedules?",
+      "options": [
+        "Rewards that are too rare frustrate learning; rewards that are too frequent provide little information.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Rewards that are too rare frustrate learning; rewards that are too frequent provide little information."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Reinforcement Schedules?",
+      "options": [
+        "Do not confuse a stable reward rate with successful training.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Do not confuse a stable reward rate with successful training."
+    },
+    {
+      "question": "How should the evidence for Reinforcement Schedules be communicated?",
+      "options": [
+        "As established behavioural principle; implementation-dependent, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: established behavioural principle; implementation-dependent."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Rewards that are too rare frustrate learning; rewards that are too frequent provide little information."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Do not confuse a stable reward rate with successful training."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "established behavioural principle; implementation-dependent"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

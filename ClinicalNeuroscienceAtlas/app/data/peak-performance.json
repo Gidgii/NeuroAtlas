@@ -1,0 +1,160 @@
+{
+  "id": "peak-performance",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 38,
+  "level": 27,
+  "title": "Peak Performance",
+  "subtitle": "Optimising skills without inventing deficits",
+  "hero": "peak-performance.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating peak performance within a neurofeedback closed loop.",
+  "prerequisites": [
+    "sleep-neurofeedback"
+  ],
+  "nextConcept": "medication-considerations-neurofeedback",
+  "previousConcept": "sleep-neurofeedback",
+  "tags": [
+    "peak",
+    "performance",
+    "neurofeedback",
+    "applications",
+    "mixed and domain-specific evidence"
+  ],
+  "searchTerms": [
+    "peak",
+    "performance",
+    "neurofeedback",
+    "applications",
+    "mixed and domain-specific evidence",
+    "optimising",
+    "skills",
+    "without",
+    "inventing",
+    "deficits"
+  ],
+  "learningObjectives": [
+    "Explain peak performance without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in peak performance.",
+    "Identify one safety or validity limitation relevant to peak performance."
+  ],
+  "sections": {
+    "explainSimply": "Healthy performers may use neurofeedback to practise attention, calm or state control.",
+    "explainLikePsychologist": "Performance outcomes are sensitive to expectancy, coaching, task familiarity and publication bias. Improvements should transfer to meaningful performance metrics.",
+    "advancedClinicalDetail": "Ethical practice avoids disease language, guarantees and opaque proprietary claims. Controlled evidence varies by sport and protocol.",
+    "thinkOfItLike": "Testing a treatment hypothesis: improvement must be meaningful, measured and compared with plausible alternatives.",
+    "whyPsychologistsCare": "Psychologists need to understand peak performance to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "A better training score may not transfer to the stage, field or exam.",
+    "clinicalPearl": "Measure benefit and harm with the same seriousness.",
+    "practicalExample": "A clinician using peak performance predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "A better training score may not transfer to the stage, field or exam. Evidence classification: mixed and domain-specific evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Ethical practice avoids disease language, guarantees and opaque proprietary claims. Controlled evidence varies by sport and protocol."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Healthy performers may use neurofeedback to practise attention, calm or state control."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Healthy performers may use neurofeedback to practise attention, calm or state control.",
+      "Performance outcomes are sensitive to expectancy, coaching, task familiarity and publication bias. Improvements should transfer to meaningful performance metrics.",
+      "A better training score may not transfer to the stage, field or exam."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Peak Performance?",
+      "options": [
+        "Healthy performers may use neurofeedback to practise attention, calm or state control.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Healthy performers may use neurofeedback to practise attention, calm or state control."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Peak Performance?",
+      "options": [
+        "A better training score may not transfer to the stage, field or exam.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "A better training score may not transfer to the stage, field or exam."
+    },
+    {
+      "question": "How should the evidence for Peak Performance be communicated?",
+      "options": [
+        "As mixed and domain-specific evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: mixed and domain-specific evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Healthy performers may use neurofeedback to practise attention, calm or state control."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "A better training score may not transfer to the stage, field or exam."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "mixed and domain-specific evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

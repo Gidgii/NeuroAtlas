@@ -1,0 +1,109 @@
+{
+  "id": "neuropsychological-case-formulation",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Integrate multiple data sources around a referral question.",
+    "Compare competing causal and mechanistic hypotheses.",
+    "State uncertainty and limitations explicitly.",
+    "Translate formulation into practical recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Define the question",
+      "detail": "Clarify what decision the assessment must inform."
+    },
+    {
+      "label": "Map evidence",
+      "detail": "Integrate history, observation, tests, collateral data and function."
+    },
+    {
+      "label": "Compare hypotheses",
+      "detail": "Seek converging, contradictory and missing evidence."
+    },
+    {
+      "label": "Generate action",
+      "detail": "Link the best-supported account to proportionate recommendations."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Define the question",
+        "detail": "Clarify what decision the assessment must inform."
+      },
+      {
+        "label": "Map evidence",
+        "detail": "Integrate history, observation, tests, collateral data and function."
+      },
+      {
+        "label": "Compare hypotheses",
+        "detail": "Seek converging, contradictory and missing evidence."
+      },
+      {
+        "label": "Generate action",
+        "detail": "Link the best-supported account to proportionate recommendations."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Neuropsychological Case Formulation"
+  },
+  "quizBank": [
+    {
+      "question": "What distinguishes formulation from score summary?",
+      "options": [
+        "It lists more percentiles",
+        "It explains how evidence answers the referral question",
+        "It avoids uncertainty",
+        "It uses only test data"
+      ],
+      "answer": 1,
+      "explanation": "Formulation integrates evidence into a testable explanatory account."
+    },
+    {
+      "question": "A strong formulation should:",
+      "options": [
+        "Present one explanation as certain",
+        "Compare plausible alternatives and state limitations",
+        "Ignore preserved abilities",
+        "Diagnose from one low score"
+      ],
+      "answer": 1,
+      "explanation": "Explicit alternatives and uncertainty reduce overclaiming."
+    },
+    {
+      "question": "Why include preserved abilities?",
+      "options": [
+        "They are irrelevant",
+        "They constrain hypotheses and guide compensatory planning",
+        "They invalidate impairment",
+        "They replace collateral data"
+      ],
+      "answer": 1,
+      "explanation": "Strengths help test the explanatory model and identify usable supports."
+    }
+  ],
+  "reviewPrompts": [
+    "Explain Neuropsychological Case Formulation in plain language.",
+    "Name one clinical interpretation pitfall in Neuropsychological Case Formulation.",
+    "Identify a red flag relevant to Neuropsychological Case Formulation."
+  ],
+  "tags": [
+    "neuropsychological case formulation",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "Hebben N, Milberg W. Essentials of Neuropsychological Assessment. Wiley. 2009.",
+      "url": "https://www.wiley.com/en-us/Essentials+of+Neuropsychological+Assessment%2C+2nd+Edition-p-9780470437476"
+    },
+    {
+      "citation": "Lezak MD et al. Neuropsychological Assessment. Oxford University Press. 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

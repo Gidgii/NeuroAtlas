@@ -1,0 +1,171 @@
+{
+  "id": "prediction-error-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 19,
+  "level": 28,
+  "title": "Prediction Error",
+  "subtitle": "The gap between expectation and outcome",
+  "hero": "prediction-error-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating prediction error across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "fear-extinction-trauma"
+  ],
+  "previousConcept": "fear-extinction-trauma",
+  "nextConcept": "dissociation-mechanisms",
+  "tags": [
+    "prediction",
+    "error",
+    "trauma",
+    "emdr",
+    "established learning signal; broader theory mixed"
+  ],
+  "searchTerms": [
+    "prediction",
+    "error",
+    "trauma",
+    "emdr",
+    "established learning signal; broader theory mixed",
+    "between",
+    "expectation",
+    "outcome"
+  ],
+  "learningObjectives": [
+    "Explain prediction error in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in prediction error.",
+    "Identify one limitation or safety implication relevant to prediction error."
+  ],
+  "sections": {
+    "explainSimply": "Prediction error occurs when reality differs from what the brain expected.",
+    "explainLikePsychologist": "Corrective experiences are most informative when a feared prediction is clearly specified and then disconfirmed.",
+    "advancedClinicalDetail": "Predictive-processing accounts are influential but broad; clinical claims should be tied to observable expectations and outcomes.",
+    "thinkOfItLike": "Think of prediction error as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need prediction error to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Surprise alone is not therapeutic; safety, meaning and integration matter.",
+    "clinicalPearl": "Clinical pearl: use prediction error to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses prediction error to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Surprise alone is not therapeutic; safety, meaning and integration matter. Evidence classification: established learning signal; broader theory mixed."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Prediction error occurs when reality differs from what the brain expected."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Corrective experiences are most informative when a feared prediction is clearly specified and then disconfirmed."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Surprise alone is not therapeutic; safety, meaning and integration matter."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Prediction error occurs when reality differs from what the brain expected.",
+      "Corrective experiences are most informative when a feared prediction is clearly specified and then disconfirmed.",
+      "Surprise alone is not therapeutic; safety, meaning and integration matter."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "prediction-error-trauma-q1",
+      "question": "What is the most accurate core statement about Prediction Error?",
+      "options": [
+        "Prediction error occurs when reality differs from what the brain expected.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Prediction error occurs when reality differs from what the brain expected."
+    },
+    {
+      "id": "prediction-error-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Corrective experiences are most informative when a feared prediction is clearly specified and then disconfirmed.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Corrective experiences are most informative when a feared prediction is clearly specified and then disconfirmed."
+    },
+    {
+      "id": "prediction-error-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Surprise alone is not therapeutic; safety, meaning and integration matter.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Surprise alone is not therapeutic; safety, meaning and integration matter."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Prediction error occurs when reality differs from what the brain expected."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Surprise alone is not therapeutic; safety, meaning and integration matter."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established learning signal; broader theory mixed"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

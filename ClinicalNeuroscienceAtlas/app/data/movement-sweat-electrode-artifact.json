@@ -1,0 +1,137 @@
+{
+  "id": "movement-sweat-electrode-artifact",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Movement Sweat and Electrode Artifact.",
+    "Apply Movement Sweat and Electrode Artifact to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Sweat causes slow baseline drift; loose electrodes create pops, steps and intermittent noise; movement can affect many channels simultaneously."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Artifacts may be nonstationary and survive automated rejection. Video and technician notes are essential context."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Prevents false delta excess, false spikes and unreliable normative comparisons."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Automated cleaning cannot rescue long segments of poor contact and movement."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Movement Sweat and Electrode Artifact",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Sweat causes slow baseline drift; loose electrodes create pops, steps and intermittent noise; movement can affect many channels simultaneously."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Artifacts may be nonstationary and survive automated rejection. Video and technician notes are essential context."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Prevents false delta excess, false spikes and unreliable normative comparisons."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Automated cleaning cannot rescue long segments of poor contact and movement."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Movement Sweat and Electrode Artifact"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Movement Sweat and Electrode Artifact?",
+      "options": [
+        "Sweat causes slow baseline drift; loose electrodes create pops, steps and intermittent noise; movement can affect many channels simultaneously.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Sweat causes slow baseline drift; loose electrodes create pops, steps and intermittent noise; movement can affect many channels simultaneously."
+    },
+    {
+      "question": "What is the safest clinical principle for Movement Sweat and Electrode Artifact?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Movement Sweat and Electrode Artifact?",
+      "options": [
+        "Automated cleaning cannot rescue long segments of poor contact and movement.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Automated cleaning cannot rescue long segments of poor contact and movement."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Artifacts may be nonstationary and survive automated rejection. Video and technician notes are essential context."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Prevents false delta excess, false spikes and unreliable normative comparisons."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Automated cleaning cannot rescue long segments of poor contact and movement."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Record quality is created during acquisition, not manufactured afterward."
+    }
+  ],
+  "tags": [
+    "movement sweat and electrode artifact",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "drift",
+    "cable",
+    "motion"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

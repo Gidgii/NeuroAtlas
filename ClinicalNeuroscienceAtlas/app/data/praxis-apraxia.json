@@ -1,0 +1,122 @@
+{
+  "id": "praxis-apraxia",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Praxis and Apraxia.",
+    "Apply Praxis and Apraxia to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Action concept",
+      "detail": "The goal and tool knowledge are activated."
+    },
+    {
+      "label": "Motor programme",
+      "detail": "A learned movement representation is selected."
+    },
+    {
+      "label": "Translation",
+      "detail": "Parietofrontal networks map the plan onto the body."
+    },
+    {
+      "label": "Execution check",
+      "detail": "Sensory feedback updates the action."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Action concept",
+        "detail": "The goal and tool knowledge are activated."
+      },
+      {
+        "label": "Motor programme",
+        "detail": "A learned movement representation is selected."
+      },
+      {
+        "label": "Translation",
+        "detail": "Parietofrontal networks map the plan onto the body."
+      },
+      {
+        "label": "Execution check",
+        "detail": "Sensory feedback updates the action."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Praxis and Apraxia"
+  },
+  "quizBank": [
+    {
+      "question": "What must be excluded before concluding a gesture error reflects apraxia?",
+      "options": [
+        "Only low mood",
+        "Weakness, comprehension and sensory limitations",
+        "Age alone",
+        "Hand preference only"
+      ],
+      "answer": 1,
+      "explanation": "Weakness, comprehension and sensory limitations is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Praxis and Apraxia?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Before diagnosing apraxia, prove that the person understood the command and had adequate strength, sensation and coordination."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Action concept → Motor programme → Translation → Execution check"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Sudden apraxia may signal stroke; progressive apraxia can occur in neurodegenerative syndromes and requires neurological assessment."
+    }
+  ],
+  "tags": [
+    "praxis and apraxia",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Goldenberg G. Apraxia and the parietal lobes. Neuropsychologia. 2009;47:1449–1459.",
+      "url": "https://doi.org/10.1016/j.neuropsychologia.2008.07.014"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

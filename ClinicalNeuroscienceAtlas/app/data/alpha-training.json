@@ -1,0 +1,162 @@
+{
+  "id": "alpha-training",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 19,
+  "level": 25,
+  "title": "Alpha Training",
+  "subtitle": "Training rhythmic activity commonly associated with relaxed wakefulness",
+  "hero": "alpha-training.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating alpha training within a neurofeedback closed loop.",
+  "prerequisites": [
+    "treatment-planning-neurofeedback"
+  ],
+  "nextConcept": "theta-training",
+  "previousConcept": "treatment-planning-neurofeedback",
+  "tags": [
+    "alpha",
+    "training",
+    "neurofeedback",
+    "methods",
+    "promising for some outcomes"
+  ],
+  "searchTerms": [
+    "alpha",
+    "training",
+    "neurofeedback",
+    "methods",
+    "promising for some outcomes",
+    "rhythmic",
+    "activity",
+    "commonly",
+    "associated",
+    "with",
+    "relaxed",
+    "wakefulness"
+  ],
+  "learningObjectives": [
+    "Explain alpha training without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in alpha training.",
+    "Identify one safety or validity limitation relevant to alpha training."
+  ],
+  "sections": {
+    "explainSimply": "Alpha training usually targets activity around 8–12 Hz, often in posterior regions or individualised around peak alpha frequency.",
+    "explainLikePsychologist": "Alpha changes with eyes, arousal, age and task. Training may focus on amplitude, asymmetry or individual peak features, but protocols are not interchangeable.",
+    "advancedClinicalDetail": "Evidence is heterogeneous across relaxation, cognition and clinical applications. Demonstrating voluntary modulation does not establish disorder-specific efficacy.",
+    "thinkOfItLike": "Choosing a camera lens: every method emphasises some information and introduces its own distortions.",
+    "whyPsychologistsCare": "Psychologists need to understand alpha training to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Excess drowsiness or disengagement may look like successful alpha increase.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using alpha training predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Excess drowsiness or disengagement may look like successful alpha increase. Evidence classification: promising for some outcomes; mixed clinical evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Evidence is heterogeneous across relaxation, cognition and clinical applications. Demonstrating voluntary modulation does not establish disorder-specific efficacy."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Alpha training usually targets activity around 8–12 Hz, often in posterior regions or individualised around peak alpha frequency."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Alpha training usually targets activity around 8–12 Hz, often in posterior regions or individualised around peak alpha frequency.",
+      "Alpha changes with eyes, arousal, age and task. Training may focus on amplitude, asymmetry or individual peak features, but protocols are not interchangeable.",
+      "Excess drowsiness or disengagement may look like successful alpha increase."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Alpha Training?",
+      "options": [
+        "Alpha training usually targets activity around 8–12 Hz, often in posterior regions or individualised around peak alpha frequency.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Alpha training usually targets activity around 8–12 Hz, often in posterior regions or individualised around peak alpha frequency."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Alpha Training?",
+      "options": [
+        "Excess drowsiness or disengagement may look like successful alpha increase.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Excess drowsiness or disengagement may look like successful alpha increase."
+    },
+    {
+      "question": "How should the evidence for Alpha Training be communicated?",
+      "options": [
+        "As promising for some outcomes; mixed clinical evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: promising for some outcomes; mixed clinical evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Alpha training usually targets activity around 8–12 Hz, often in posterior regions or individualised around peak alpha frequency."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Excess drowsiness or disengagement may look like successful alpha increase."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "promising for some outcomes; mixed clinical evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

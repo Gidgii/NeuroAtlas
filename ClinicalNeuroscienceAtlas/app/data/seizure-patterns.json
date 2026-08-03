@@ -1,0 +1,138 @@
+{
+  "id": "seizure-patterns",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Electrographic Seizure Patterns.",
+    "Apply Electrographic Seizure Patterns to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Electrographic seizures typically show evolution in frequency, morphology, amplitude or spatial distribution."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Rhythmic artifact and benign patterns can imitate seizures. Critical-care criteria use standardised terminology and clinical correlation."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Recognising evolution helps separate ictal activity from rhythmic artifact."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Calling any rhythmic activity a seizure leads to harmful overtreatment."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Electrographic Seizure Patterns",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Electrographic seizures typically show evolution in frequency, morphology, amplitude or spatial distribution."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Rhythmic artifact and benign patterns can imitate seizures. Critical-care criteria use standardised terminology and clinical correlation."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Recognising evolution helps separate ictal activity from rhythmic artifact."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Calling any rhythmic activity a seizure leads to harmful overtreatment."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Electrographic Seizure Patterns"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Electrographic Seizure Patterns?",
+      "options": [
+        "Electrographic seizures typically show evolution in frequency, morphology, amplitude or spatial distribution.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Electrographic seizures typically show evolution in frequency, morphology, amplitude or spatial distribution."
+    },
+    {
+      "question": "What is the safest clinical principle for Electrographic Seizure Patterns?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Electrographic Seizure Patterns?",
+      "options": [
+        "Calling any rhythmic activity a seizure leads to harmful overtreatment.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Calling any rhythmic activity a seizure leads to harmful overtreatment."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Rhythmic artifact and benign patterns can imitate seizures. Critical-care criteria use standardised terminology and clinical correlation."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Recognising evolution helps separate ictal activity from rhythmic artifact."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Calling any rhythmic activity a seizure leads to harmful overtreatment."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Evolution and context are stronger than rhythm alone."
+    }
+  ],
+  "tags": [
+    "electrographic seizure patterns",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "evolving",
+    "rhythmic",
+    "activity",
+    "plausible"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

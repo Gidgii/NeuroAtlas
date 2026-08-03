@@ -1,0 +1,173 @@
+{
+  "id": "structural-dissociation",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 21,
+  "level": 28,
+  "title": "Structural Dissociation",
+  "subtitle": "A clinical model of divided action systems",
+  "hero": "structural-dissociation.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating structural dissociation across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "dissociation-mechanisms"
+  ],
+  "previousConcept": "dissociation-mechanisms",
+  "nextConcept": "emotional-processing-trauma",
+  "tags": [
+    "structural",
+    "dissociation",
+    "trauma",
+    "emdr",
+    "theoretical model; practitioner use"
+  ],
+  "searchTerms": [
+    "structural",
+    "dissociation",
+    "trauma",
+    "emdr",
+    "theoretical model; practitioner use",
+    "clinical",
+    "model",
+    "divided",
+    "action",
+    "systems"
+  ],
+  "learningObjectives": [
+    "Explain structural dissociation in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in structural dissociation.",
+    "Identify one limitation or safety implication relevant to structural dissociation."
+  ],
+  "sections": {
+    "explainSimply": "Structural dissociation conceptualises trauma-related divisions between everyday functioning and defensive action systems.",
+    "explainLikePsychologist": "It may aid formulation in complex presentations, but it is a theoretical clinical model rather than an established anatomical partition.",
+    "advancedClinicalDetail": "Use carefully alongside differential diagnosis, cultural formulation and assessment of memory, identity, psychosis and neurological causes.",
+    "thinkOfItLike": "Think of structural dissociation as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need structural dissociation to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not reify parts as literal brain structures or suggest identities.",
+    "clinicalPearl": "Clinical pearl: use structural dissociation to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses structural dissociation to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not reify parts as literal brain structures or suggest identities. Evidence classification: theoretical model; practitioner use."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Structural dissociation conceptualises trauma-related divisions between everyday functioning and defensive action systems."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "It may aid formulation in complex presentations, but it is a theoretical clinical model rather than an established anatomical partition."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not reify parts as literal brain structures or suggest identities."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Structural dissociation conceptualises trauma-related divisions between everyday functioning and defensive action systems.",
+      "It may aid formulation in complex presentations, but it is a theoretical clinical model rather than an established anatomical partition.",
+      "Do not reify parts as literal brain structures or suggest identities."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "structural-dissociation-q1",
+      "question": "What is the most accurate core statement about Structural Dissociation?",
+      "options": [
+        "Structural dissociation conceptualises trauma-related divisions between everyday functioning and defensive action systems.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Structural dissociation conceptualises trauma-related divisions between everyday functioning and defensive action systems."
+    },
+    {
+      "id": "structural-dissociation-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "It may aid formulation in complex presentations, but it is a theoretical clinical model rather than an established anatomical partition.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "It may aid formulation in complex presentations, but it is a theoretical clinical model rather than an established anatomical partition."
+    },
+    {
+      "id": "structural-dissociation-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not reify parts as literal brain structures or suggest identities.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not reify parts as literal brain structures or suggest identities."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Structural dissociation conceptualises trauma-related divisions between everyday functioning and defensive action systems."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not reify parts as literal brain structures or suggest identities."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "theoretical model; practitioner use"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

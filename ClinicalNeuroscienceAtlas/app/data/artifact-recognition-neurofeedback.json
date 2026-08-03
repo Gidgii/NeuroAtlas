@@ -1,0 +1,164 @@
+{
+  "id": "artifact-recognition-neurofeedback",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 11,
+  "level": 24,
+  "title": "Artifact Recognition",
+  "subtitle": "Eyes, muscles, movement and environment can win the game",
+  "hero": "artifact-recognition-neurofeedback.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating artifact recognition within a neurofeedback closed loop.",
+  "prerequisites": [
+    "signal-quality-impedance"
+  ],
+  "nextConcept": "threshold-setting",
+  "previousConcept": "signal-quality-impedance",
+  "tags": [
+    "artifact",
+    "recognition",
+    "neurofeedback",
+    "acquisition",
+    "established signal-quality requirement"
+  ],
+  "searchTerms": [
+    "artifact",
+    "recognition",
+    "neurofeedback",
+    "acquisition",
+    "established signal-quality requirement",
+    "eyes",
+    "muscles",
+    "movement",
+    "and",
+    "environment",
+    "can",
+    "win",
+    "the",
+    "game"
+  ],
+  "learningObjectives": [
+    "Explain artifact recognition without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in artifact recognition.",
+    "Identify one safety or validity limitation relevant to artifact recognition."
+  ],
+  "sections": {
+    "explainSimply": "Blinking, jaw tension, movement, sweat and electrical noise can look like changes in EEG.",
+    "explainLikePsychologist": "Artifacts may be systematically rewarded if they move the trained metric in the desired direction. Clinicians need live raw-signal monitoring and behavioural observation.",
+    "advancedClinicalDetail": "Artifact handling includes prevention, channel monitoring, rejection rules and post-session review. Overcorrection can also remove genuine neural activity.",
+    "thinkOfItLike": "Trying to tune a faint radio station: contact, interference and antenna placement determine what reaches the speaker.",
+    "whyPsychologistsCare": "Psychologists need to understand artifact recognition to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "If the learner can raise the score by clenching, the protocol is training clenching.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using artifact recognition predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "If the learner can raise the score by clenching, the protocol is training clenching. Evidence classification: established signal-quality requirement."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Artifact handling includes prevention, channel monitoring, rejection rules and post-session review. Overcorrection can also remove genuine neural activity."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Blinking, jaw tension, movement, sweat and electrical noise can look like changes in EEG."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Blinking, jaw tension, movement, sweat and electrical noise can look like changes in EEG.",
+      "Artifacts may be systematically rewarded if they move the trained metric in the desired direction. Clinicians need live raw-signal monitoring and behavioural observation.",
+      "If the learner can raise the score by clenching, the protocol is training clenching."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Artifact Recognition?",
+      "options": [
+        "Blinking, jaw tension, movement, sweat and electrical noise can look like changes in EEG.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Blinking, jaw tension, movement, sweat and electrical noise can look like changes in EEG."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Artifact Recognition?",
+      "options": [
+        "If the learner can raise the score by clenching, the protocol is training clenching.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "If the learner can raise the score by clenching, the protocol is training clenching."
+    },
+    {
+      "question": "How should the evidence for Artifact Recognition be communicated?",
+      "options": [
+        "As established signal-quality requirement, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: established signal-quality requirement."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Blinking, jaw tension, movement, sweat and electrical noise can look like changes in EEG."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "If the learner can raise the score by clenching, the protocol is training clenching."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "established signal-quality requirement"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "synaptogenesis",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the developmental sequence underlying synaptogenesis.",
+    "Identify the principal cells, structures and signals involved in synaptogenesis.",
+    "Connect synaptogenesis to later cognition and behaviour.",
+    "Interpret clinical findings without treating development as deterministic."
+  ],
+  "anatomy": [
+    {
+      "id": "growth-cone",
+      "label": "Growth cone",
+      "short": "Motile tip steering the axon",
+      "detail": "Growth cones sample attractive and repulsive cues as axons navigate.",
+      "clinical": "Guidance errors can disconnect otherwise healthy regions."
+    },
+    {
+      "id": "adhesion",
+      "label": "Synaptic adhesion",
+      "short": "Molecules align pre- and postsynaptic partners",
+      "detail": "Cell-adhesion systems stabilise contact and recruit synaptic machinery.",
+      "clinical": "Many risk genes influence synaptic organisation rather than a single transmitter."
+    },
+    {
+      "id": "presynaptic",
+      "label": "Presynaptic terminal",
+      "short": "Release machinery assembles",
+      "detail": "Vesicles, active zones and calcium channels organise at the sending side.",
+      "clinical": "Release probability matures with activity and molecular signalling."
+    },
+    {
+      "id": "postsynaptic",
+      "label": "Postsynaptic density",
+      "short": "Receptors and scaffolds concentrate",
+      "detail": "The receiving membrane accumulates receptors and signalling complexes.",
+      "clinical": "Receptor composition changes the strength and meaning of input."
+    },
+    {
+      "id": "pruning",
+      "label": "Pruning and stabilisation",
+      "short": "Connections compete and refine",
+      "detail": "Frequently co-active pathways are more likely to stabilise; less useful contacts may weaken or disappear.",
+      "clinical": "Microglia, complement signalling and neural activity all participate in refinement."
+    }
+  ],
+  "interaction": {
+    "title": "Synaptogenesis sequence",
+    "instruction": "Select a component, then run the sequence to follow development over time.",
+    "ariaLabel": "Interactive synaptogenesis model",
+    "stages": [
+      {
+        "label": "Navigate",
+        "text": "Axons and dendrites reach potential partners."
+      },
+      {
+        "label": "Contact",
+        "text": "Adhesion systems stabilise an initial junction."
+      },
+      {
+        "label": "Mature",
+        "text": "Release sites and receptor fields become functional."
+      },
+      {
+        "label": "Refine",
+        "text": "Activity strengthens, weakens or removes connections."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Synaptogenesis refers to:",
+      "options": [
+        "Formation and maturation of synaptic contacts",
+        "Closure of the neural tube",
+        "Production of cerebrospinal fluid",
+        "Only adult memory retrieval"
+      ],
+      "answer": 0,
+      "explanation": "Synaptogenesis builds functional junctions between cells."
+    },
+    {
+      "question": "A growth cone primarily:",
+      "options": [
+        "Guides an extending axon",
+        "Produces myelin",
+        "Stores long-term memories",
+        "Generates hormones"
+      ],
+      "answer": 0,
+      "explanation": "Growth cones detect cues that steer axons toward or away from targets."
+    },
+    {
+      "question": "Synaptic pruning is best understood as:",
+      "options": [
+        "Selective refinement of connections",
+        "Global brain deterioration",
+        "Loss of every weak memory",
+        "A process limited to old age"
+      ],
+      "answer": 0,
+      "explanation": "Pruning helps optimise developing circuits by removing or weakening selected contacts."
+    },
+    {
+      "question": "Activity can influence synaptic development by:",
+      "options": [
+        "Stabilising useful co-active connections",
+        "Changing skull shape only",
+        "Stopping all gene expression",
+        "Eliminating all inhibition"
+      ],
+      "answer": 0,
+      "explanation": "Patterns of activity help determine which synapses mature and persist."
+    },
+    {
+      "question": "Which statement is most accurate clinically?",
+      "options": [
+        "Synaptic-development findings are often shared across diagnoses",
+        "One synaptic marker diagnoses autism",
+        "Pruning is always harmful",
+        "All synapses mature before birth"
+      ],
+      "answer": 0,
+      "explanation": "Synaptic mechanisms are important but rarely specific enough to diagnose a condition alone."
+    }
+  ],
+  "tags": [
+    "synaptogenesis",
+    "growth cones",
+    "synaptic pruning",
+    "sensitive periods",
+    "developmental plasticity",
+    "connectivity"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "Synaptogenesis refers to:",
+      "A growth cone primarily:",
+      "Synaptic pruning is best understood as:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Stiles J, Jernigan TL. The basics of brain development. Neuropsychology Review. 2010;20:327–348.",
+      "url": "https://doi.org/10.1007/s11065-010-9148-4"
+    },
+    {
+      "type": "Review",
+      "citation": "Silbereis JC et al. The cellular and molecular landscapes of the developing human central nervous system. Neuron. 2016;89:248–268.",
+      "url": "https://doi.org/10.1016/j.neuron.2015.12.008"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "complex-ptsd-neuroscience",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 27,
+  "level": 28,
+  "title": "Complex PTSD",
+  "subtitle": "PTSD plus persistent disturbances in self-organisation",
+  "hero": "complex-ptsd-neuroscience.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating complex ptsd across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "developmental-trauma"
+  ],
+  "previousConcept": "developmental-trauma",
+  "nextConcept": "moral-injury",
+  "tags": [
+    "complex",
+    "ptsd",
+    "trauma",
+    "emdr",
+    "established diagnostic construct; biomarkers insufficient"
+  ],
+  "searchTerms": [
+    "complex",
+    "ptsd",
+    "trauma",
+    "emdr",
+    "established diagnostic construct; biomarkers insufficient",
+    "plus",
+    "persistent",
+    "disturbances",
+    "self",
+    "organisation"
+  ],
+  "learningObjectives": [
+    "Explain complex ptsd in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in complex ptsd.",
+    "Identify one limitation or safety implication relevant to complex ptsd."
+  ],
+  "sections": {
+    "explainSimply": "Complex PTSD includes core PTSD symptoms alongside affect dysregulation, negative self-concept and relational disturbance.",
+    "explainLikePsychologist": "Its neuroscience overlaps with PTSD, depression and dissociation; there is no validated biomarker that distinguishes it clinically.",
+    "advancedClinicalDetail": "ICD-11 supports the diagnosis, while DSM frameworks organise these features differently. Assessment remains phenomenological and contextual.",
+    "thinkOfItLike": "Think of complex ptsd as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need complex ptsd to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not claim scans can separate PTSD from complex PTSD.",
+    "clinicalPearl": "Clinical pearl: use complex ptsd to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses complex ptsd to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not claim scans can separate PTSD from complex PTSD. Evidence classification: established diagnostic construct; biomarkers insufficient."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Complex PTSD includes core PTSD symptoms alongside affect dysregulation, negative self-concept and relational disturbance."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Its neuroscience overlaps with PTSD, depression and dissociation; there is no validated biomarker that distinguishes it clinically."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not claim scans can separate PTSD from complex PTSD."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Complex PTSD includes core PTSD symptoms alongside affect dysregulation, negative self-concept and relational disturbance.",
+      "Its neuroscience overlaps with PTSD, depression and dissociation; there is no validated biomarker that distinguishes it clinically.",
+      "Do not claim scans can separate PTSD from complex PTSD."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "complex-ptsd-neuroscience-q1",
+      "question": "What is the most accurate core statement about Complex PTSD?",
+      "options": [
+        "Complex PTSD includes core PTSD symptoms alongside affect dysregulation, negative self-concept and relational disturbance.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Complex PTSD includes core PTSD symptoms alongside affect dysregulation, negative self-concept and relational disturbance."
+    },
+    {
+      "id": "complex-ptsd-neuroscience-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Its neuroscience overlaps with PTSD, depression and dissociation; there is no validated biomarker that distinguishes it clinically.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Its neuroscience overlaps with PTSD, depression and dissociation; there is no validated biomarker that distinguishes it clinically."
+    },
+    {
+      "id": "complex-ptsd-neuroscience-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not claim scans can separate PTSD from complex PTSD.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not claim scans can separate PTSD from complex PTSD."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Complex PTSD includes core PTSD symptoms alongside affect dysregulation, negative self-concept and relational disturbance."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not claim scans can separate PTSD from complex PTSD."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established diagnostic construct; biomarkers insufficient"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

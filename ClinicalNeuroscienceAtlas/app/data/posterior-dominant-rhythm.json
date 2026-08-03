@@ -1,0 +1,138 @@
+{
+  "id": "posterior-dominant-rhythm",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Posterior Dominant Rhythm.",
+    "Apply Posterior Dominant Rhythm to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "The posterior dominant rhythm is best seen over posterior regions with eyes closed and attenuates with eye opening or attention."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Frequency changes with development and can slow with drowsiness, medication or diffuse cerebral dysfunction."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "PDR frequency and reactivity help assess vigilance and diffuse dysfunction."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Calling all posterior alpha “relaxation” ignores age, task and pathology."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Posterior Dominant Rhythm",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "The posterior dominant rhythm is best seen over posterior regions with eyes closed and attenuates with eye opening or attention."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Frequency changes with development and can slow with drowsiness, medication or diffuse cerebral dysfunction."
+      },
+      {
+        "label": "Integrate",
+        "detail": "PDR frequency and reactivity help assess vigilance and diffuse dysfunction."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Calling all posterior alpha “relaxation” ignores age, task and pathology."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Posterior Dominant Rhythm"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Posterior Dominant Rhythm?",
+      "options": [
+        "The posterior dominant rhythm is best seen over posterior regions with eyes closed and attenuates with eye opening or attention.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "The posterior dominant rhythm is best seen over posterior regions with eyes closed and attenuates with eye opening or attention."
+    },
+    {
+      "question": "What is the safest clinical principle for Posterior Dominant Rhythm?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Posterior Dominant Rhythm?",
+      "options": [
+        "Calling all posterior alpha “relaxation” ignores age, task and pathology.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Calling all posterior alpha “relaxation” ignores age, task and pathology."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Frequency changes with development and can slow with drowsiness, medication or diffuse cerebral dysfunction."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "PDR frequency and reactivity help assess vigilance and diffuse dysfunction."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Calling all posterior alpha “relaxation” ignores age, task and pathology."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "A rhythm is clinically meaningful only with location, state and reactivity."
+    }
+  ],
+  "tags": [
+    "posterior dominant rhythm",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "reactive",
+    "occipital",
+    "rhythm",
+    "relaxed"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

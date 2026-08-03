@@ -1,0 +1,162 @@
+{
+  "id": "protocol-selection",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 17,
+  "level": 25,
+  "title": "Protocol Selection",
+  "subtitle": "Choose targets from goals, evidence, safety and measurable hypotheses",
+  "hero": "protocol-selection.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating protocol selection within a neurofeedback closed loop.",
+  "prerequisites": [
+    "baseline-recording"
+  ],
+  "nextConcept": "treatment-planning-neurofeedback",
+  "previousConcept": "baseline-recording",
+  "tags": [
+    "protocol",
+    "selection",
+    "neurofeedback",
+    "clinical reasoning"
+  ],
+  "searchTerms": [
+    "protocol",
+    "selection",
+    "neurofeedback",
+    "clinical reasoning",
+    "choose",
+    "targets",
+    "from",
+    "goals",
+    "evidence",
+    "safety",
+    "and",
+    "measurable",
+    "hypotheses"
+  ],
+  "learningObjectives": [
+    "Explain protocol selection without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in protocol selection.",
+    "Identify one safety or validity limitation relevant to protocol selection."
+  ],
+  "sections": {
+    "explainSimply": "A protocol specifies what signal is trained, where, how and toward what functional goal.",
+    "explainLikePsychologist": "Selection should integrate referral goals, symptom formulation, raw EEG quality, medical risk, evidence, feasibility and patient preference.",
+    "advancedClinicalDetail": "QEEG can contribute hypotheses, but map normalisation is not itself a validated outcome. Use a testable rationale and predefined review points.",
+    "thinkOfItLike": "A rehabilitation plan: define the target, dose, measurement and stopping rule before changing the exercise.",
+    "whyPsychologistsCare": "Psychologists need to understand protocol selection to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Protocol shopping after every difficult session prevents interpretable learning.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using protocol selection predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Protocol shopping after every difficult session prevents interpretable learning. Evidence classification: clinical reasoning; evidence varies by protocol."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "QEEG can contribute hypotheses, but map normalisation is not itself a validated outcome. Use a testable rationale and predefined review points."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "A protocol specifies what signal is trained, where, how and toward what functional goal."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "A protocol specifies what signal is trained, where, how and toward what functional goal.",
+      "Selection should integrate referral goals, symptom formulation, raw EEG quality, medical risk, evidence, feasibility and patient preference.",
+      "Protocol shopping after every difficult session prevents interpretable learning."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Protocol Selection?",
+      "options": [
+        "A protocol specifies what signal is trained, where, how and toward what functional goal.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "A protocol specifies what signal is trained, where, how and toward what functional goal."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Protocol Selection?",
+      "options": [
+        "Protocol shopping after every difficult session prevents interpretable learning.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Protocol shopping after every difficult session prevents interpretable learning."
+    },
+    {
+      "question": "How should the evidence for Protocol Selection be communicated?",
+      "options": [
+        "As clinical reasoning; evidence varies by protocol, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: clinical reasoning; evidence varies by protocol."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "A protocol specifies what signal is trained, where, how and toward what functional goal."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Protocol shopping after every difficult session prevents interpretable learning."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "clinical reasoning; evidence varies by protocol"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "reticular-activating-system-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 28,
+  "level": 29,
+  "title": "Reticular Activating System Atlas",
+  "subtitle": "Map ascending arousal pathways from brainstem to thalamus and cortex",
+  "pronunciation": "reh-TIK-yuh-lar AK-tih-vay-ting SIS-tum",
+  "hero": "reticular-activating-system-atlas.svg",
+  "altText": "Chalkboard-style anatomical atlas illustration highlighting the reticular activating system atlas and its major connections.",
+  "prerequisites": [
+    "cerebral-lobes-atlas"
+  ],
+  "previousConcept": "cingulate-cortex-atlas",
+  "nextConcept": "pituitary-and-sella-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "reticular activating system atlas",
+    "clinical psychology",
+    "brain atlas",
+    "arousal",
+    "sleep-wake regulation",
+    "attention readiness",
+    "autonomic state"
+  ],
+  "searchTerms": [
+    "Reticular Activating System Atlas",
+    "reh-TIK-yuh-lar AK-tih-vay-ting SIS-tum",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance",
+    "reticular formation",
+    "locus coeruleus",
+    "raphe nuclei",
+    "pedunculopontine nucleus",
+    "tuberomammillary nucleus",
+    "basal forebrain"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the reticular activating system atlas.",
+    "Trace key connections and functional relationships of the reticular activating system atlas.",
+    "Relate lesions or network disruption to plausible clinical presentations."
+  ],
+  "sections": {
+    "explainSimply": "The reticular activating system helps keep the brain awake, alert and responsive.",
+    "explainLikePsychologist": "Arousal depends on distributed brainstem, hypothalamic, basal forebrain, thalamic and cortical systems rather than one switch.",
+    "advancedClinicalDetail": "Ascending neuromodulatory nuclei include noradrenergic locus coeruleus, serotonergic raphe, cholinergic pedunculopontine and laterodorsal tegmental nuclei, dopaminergic midbrain systems and histaminergic tuberomammillary pathways. These converge through thalamic and extrathalamic routes to regulate cortical state.",
+    "thinkOfItLike": "A building-wide power and alertness network with several backup generators, not a single light switch.",
+    "whyPsychologistsCare": "Damage can produce reduced consciousness, fluctuating attention, sleep-wake disruption or impaired state regulation; diffuse metabolic and pharmacological effects can mimic focal disruption.",
+    "whenItGoesWrong": "Damage or dysregulation can disrupt arousal, sleep-wake regulation, attention readiness; presentations depend on laterality, extent and connected networks.",
+    "clinicalPearl": "Always separate arousal level from cognitive content: a person cannot demonstrate cognition reliably when state regulation is unstable.",
+    "practicalExample": "A clinician uses the reticular activating system atlas map to test whether a patient’s pattern is anatomically coherent while considering broader network and medical explanations.",
+    "limitationsCautions": "Atlas localisation supports hypothesis generation, not diagnosis. Individual anatomy, distributed processing, compensation and comorbidity limit one-to-one structure–symptom claims."
+  },
+  "anatomy": {
+    "position": "Integrated within deep or medial cortical-brainstem relationships shown in the atlas.",
+    "regions": [
+      "reticular formation",
+      "locus coeruleus",
+      "raphe nuclei",
+      "pedunculopontine nucleus",
+      "tuberomammillary nucleus",
+      "basal forebrain"
+    ],
+    "inputs": [
+      "thalamus",
+      "hypothalamus",
+      "basal forebrain"
+    ],
+    "outputs": [
+      "cortex",
+      "spinal cord"
+    ],
+    "connections": [
+      "thalamus",
+      "hypothalamus",
+      "basal forebrain",
+      "cortex",
+      "spinal cord"
+    ],
+    "functions": [
+      "arousal",
+      "sleep-wake regulation",
+      "attention readiness",
+      "autonomic state"
+    ]
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "reticular formation",
+        "locus coeruleus",
+        "raphe nuclei",
+        "pedunculopontine nucleus",
+        "tuberomammillary nucleus",
+        "basal forebrain"
+      ]
+    },
+    {
+      "type": "trace",
+      "label": "Trace connections",
+      "targets": [
+        "thalamus",
+        "hypothalamus",
+        "basal forebrain",
+        "cortex",
+        "spinal cord"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "arousal",
+        "sleep-wake regulation",
+        "attention readiness",
+        "autonomic state"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best describes the reticular activating system atlas?",
+      "options": [
+        "Arousal depends on distributed brainstem, hypothalamic, basal forebrain, thalamic and cortical systems rather than one switch.",
+        "It acts independently of the rest of the brain.",
+        "It has one fixed psychological function.",
+        "It can diagnose psychiatric disorders from anatomy alone."
+      ],
+      "answer": 0,
+      "rationale": "The structure participates in distributed networks and should be interpreted in context."
+    },
+    {
+      "question": "What is the safest clinical inference from this atlas?",
+      "options": [
+        "A lesion pattern can guide hypotheses but requires clinical and medical correlation.",
+        "One symptom proves one structure is damaged.",
+        "Normal imaging excludes network dysfunction.",
+        "Laterality is never relevant."
+      ],
+      "answer": 0,
+      "rationale": "Neuroanatomy constrains hypotheses but does not replace assessment."
+    },
+    {
+      "question": "Why are connections important?",
+      "options": [
+        "Symptoms can reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Connections are irrelevant to cognition.",
+        "All pathways are identical across people."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive systems depend on pathways linking regions."
+    }
+  ],
+  "references": [
+    {
+      "title": "Clinical Neuroanatomy",
+      "source": "Blumenfeld, Neuroanatomy Through Clinical Cases",
+      "type": "textbook"
+    },
+    {
+      "title": "Principles of Neural Science",
+      "source": "Kandel et al.",
+      "type": "textbook"
+    },
+    {
+      "title": "Human brain network anatomy",
+      "source": "Peer-reviewed systems neuroscience literature",
+      "type": "review"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "easyIntervalDays": 7,
+    "hardIntervalDays": 1,
+    "tags": [
+      "anatomy",
+      "reticular-activating-system-atlas"
+    ]
+  },
+  "accessibility": {
+    "altText": "Anatomical illustration of Reticular Activating System Atlas.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The reticular activating system helps keep the brain awake, alert and responsive.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

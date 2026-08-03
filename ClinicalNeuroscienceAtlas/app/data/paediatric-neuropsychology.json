@@ -1,0 +1,122 @@
+{
+  "id": "paediatric-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Paediatric Neuropsychology.",
+    "Apply Paediatric Neuropsychology to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Developmental baseline",
+      "detail": "Map milestones, learning history and prior functioning."
+    },
+    {
+      "label": "Current profile",
+      "detail": "Assess strengths, weaknesses and adaptive consequences."
+    },
+    {
+      "label": "Context integration",
+      "detail": "Include school, family, culture, language and opportunity."
+    },
+    {
+      "label": "Prospective plan",
+      "detail": "Recommend support and identify when reassessment is warranted."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Developmental baseline",
+        "detail": "Map milestones, learning history and prior functioning."
+      },
+      {
+        "label": "Current profile",
+        "detail": "Assess strengths, weaknesses and adaptive consequences."
+      },
+      {
+        "label": "Context integration",
+        "detail": "Include school, family, culture, language and opportunity."
+      },
+      {
+        "label": "Prospective plan",
+        "detail": "Recommend support and identify when reassessment is warranted."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Paediatric Neuropsychology"
+  },
+  "quizBank": [
+    {
+      "question": "Why can effects of early brain injury emerge later?",
+      "options": [
+        "Brain injury always resolves",
+        "Later developmental demands expose vulnerable systems",
+        "Norms become invalid at adolescence",
+        "Children cannot be assessed"
+      ],
+      "answer": 1,
+      "explanation": "Later developmental demands expose vulnerable systems is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Paediatric Neuropsychology?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "A normal score today does not guarantee that a vulnerable system will meet tomorrow’s developmental demands."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Developmental baseline → Current profile → Context integration → Prospective plan"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Regression, seizures, acute behavioural change or loss of previously acquired skills requires medical and developmental investigation."
+    }
+  ],
+  "tags": [
+    "paediatric neuropsychology",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Anderson V et al. Developmental neuropsychology: a clinical approach. Psychology Press; 2001.",
+      "url": "https://doi.org/10.4324/9780203764534"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

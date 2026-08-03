@@ -1,0 +1,109 @@
+{
+  "id": "executive-assessment",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Distinguish major executive processes.",
+    "Explain why executive tests are not process-pure.",
+    "Use qualitative errors and ecological data in interpretation.",
+    "Recognise acquired executive change as a potential red flag."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Goal representation",
+      "detail": "Maintain the intended outcome and relevant rules."
+    },
+    {
+      "label": "Control selection",
+      "detail": "Inhibit habitual responses and choose task-relevant actions."
+    },
+    {
+      "label": "Monitoring",
+      "detail": "Detect conflict, errors and declining performance."
+    },
+    {
+      "label": "Adaptation",
+      "detail": "Shift strategy when feedback shows the current approach is ineffective."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Goal representation",
+        "detail": "Maintain the intended outcome and relevant rules."
+      },
+      {
+        "label": "Control selection",
+        "detail": "Inhibit habitual responses and choose task-relevant actions."
+      },
+      {
+        "label": "Monitoring",
+        "detail": "Detect conflict, errors and declining performance."
+      },
+      {
+        "label": "Adaptation",
+        "detail": "Shift strategy when feedback shows the current approach is ineffective."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Executive Function Assessment"
+  },
+  "quizBank": [
+    {
+      "question": "Why should executive tests be interpreted as a battery rather than one score?",
+      "options": [
+        "Executive function is a single skill",
+        "Each task mixes executive and non-executive demands",
+        "Norms are unnecessary",
+        "Only rating scales matter"
+      ],
+      "answer": 1,
+      "explanation": "Executive tasks combine control processes with speed, language, memory, perception and motor demands."
+    },
+    {
+      "question": "Which observation is qualitatively informative?",
+      "options": [
+        "Pencil colour",
+        "Perseverating despite feedback",
+        "Room temperature alone",
+        "Test title"
+      ],
+      "answer": 1,
+      "explanation": "Failure to shift after feedback can reveal monitoring or flexibility problems."
+    },
+    {
+      "question": "Why can structured testing underestimate disability?",
+      "options": [
+        "Structure reduces ambiguity and externalises goals",
+        "Testing always causes fatigue",
+        "Executive problems only occur at home",
+        "Norms inflate scores"
+      ],
+      "answer": 0,
+      "explanation": "External structure can compensate for initiation, planning and monitoring demands present in everyday life."
+    }
+  ],
+  "reviewPrompts": [
+    "Explain Executive Function Assessment in plain language.",
+    "Name one clinical interpretation pitfall in Executive Function Assessment.",
+    "Identify a red flag relevant to Executive Function Assessment."
+  ],
+  "tags": [
+    "executive assessment",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "Miyake A et al. The unity and diversity of executive functions. Cognitive Psychology. 2000.",
+      "url": "https://doi.org/10.1006/cogp.1999.0734"
+    },
+    {
+      "citation": "Suchy Y. Executive functioning: overview, assessment, and research issues. Journal of Clinical and Experimental Neuropsychology. 2009.",
+      "url": "https://doi.org/10.1080/13803390802049294"
+    }
+  ]
+}

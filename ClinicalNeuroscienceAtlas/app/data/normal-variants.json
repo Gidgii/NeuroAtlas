@@ -1,0 +1,138 @@
+{
+  "id": "normal-variants",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Normal EEG Variants.",
+    "Apply Normal EEG Variants to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Wicket waves, small sharp spikes, rhythmic mid-temporal theta, lambda waves and other variants can mimic epileptiform discharges."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Recognition depends on morphology, distribution, state and lack of aftergoing slow wave or background disruption."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Prevents false epilepsy diagnosis and unnecessary medication."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "A single sharply contoured waveform is not automatically a spike."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Normal EEG Variants",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Wicket waves, small sharp spikes, rhythmic mid-temporal theta, lambda waves and other variants can mimic epileptiform discharges."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Recognition depends on morphology, distribution, state and lack of aftergoing slow wave or background disruption."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Prevents false epilepsy diagnosis and unnecessary medication."
+      },
+      {
+        "label": "Check limits",
+        "detail": "A single sharply contoured waveform is not automatically a spike."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Normal EEG Variants"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Normal EEG Variants?",
+      "options": [
+        "Wicket waves, small sharp spikes, rhythmic mid-temporal theta, lambda waves and other variants can mimic epileptiform discharges.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Wicket waves, small sharp spikes, rhythmic mid-temporal theta, lambda waves and other variants can mimic epileptiform discharges."
+    },
+    {
+      "question": "What is the safest clinical principle for Normal EEG Variants?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Normal EEG Variants?",
+      "options": [
+        "A single sharply contoured waveform is not automatically a spike.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "A single sharply contoured waveform is not automatically a spike."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Recognition depends on morphology, distribution, state and lack of aftergoing slow wave or background disruption."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Prevents false epilepsy diagnosis and unnecessary medication."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "A single sharply contoured waveform is not automatically a spike."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Normal variants are a major test of interpretive humility."
+    }
+  ],
+  "tags": [
+    "normal eeg variants",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "benign",
+    "patterns",
+    "resemble",
+    "abnormal"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

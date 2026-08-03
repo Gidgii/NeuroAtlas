@@ -1,0 +1,174 @@
+{
+  "id": "dissociation-mechanisms",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 20,
+  "level": 28,
+  "title": "Dissociation Mechanisms",
+  "subtitle": "Disrupted integration of awareness, memory, identity or perception",
+  "hero": "dissociation-mechanisms.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating dissociation mechanisms across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "prediction-error-trauma"
+  ],
+  "previousConcept": "prediction-error-trauma",
+  "nextConcept": "structural-dissociation",
+  "tags": [
+    "dissociation",
+    "mechanisms",
+    "trauma",
+    "emdr",
+    "mixed neurobiological evidence"
+  ],
+  "searchTerms": [
+    "dissociation",
+    "mechanisms",
+    "trauma",
+    "emdr",
+    "mixed neurobiological evidence",
+    "disrupted",
+    "integration",
+    "awareness",
+    "memory",
+    "identity",
+    "perception"
+  ],
+  "learningObjectives": [
+    "Explain dissociation mechanisms in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in dissociation mechanisms.",
+    "Identify one limitation or safety implication relevant to dissociation mechanisms."
+  ],
+  "sections": {
+    "explainSimply": "Dissociation can involve detachment, altered awareness, memory discontinuity or compartmentalised responding.",
+    "explainLikePsychologist": "Mechanisms likely vary across depersonalisation, derealisation, amnesia and identity disturbance rather than reflecting one neural state.",
+    "advancedClinicalDetail": "Studies implicate altered frontolimbic, salience and sensory integration, but findings are heterogeneous and strongly state-dependent.",
+    "thinkOfItLike": "Think of dissociation mechanisms as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need dissociation mechanisms to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not infer dissociation from a scan or reduced arousal alone.",
+    "clinicalPearl": "Clinical pearl: use dissociation mechanisms to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses dissociation mechanisms to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not infer dissociation from a scan or reduced arousal alone. Evidence classification: mixed neurobiological evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Dissociation can involve detachment, altered awareness, memory discontinuity or compartmentalised responding."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Mechanisms likely vary across depersonalisation, derealisation, amnesia and identity disturbance rather than reflecting one neural state."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not infer dissociation from a scan or reduced arousal alone."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Dissociation can involve detachment, altered awareness, memory discontinuity or compartmentalised responding.",
+      "Mechanisms likely vary across depersonalisation, derealisation, amnesia and identity disturbance rather than reflecting one neural state.",
+      "Do not infer dissociation from a scan or reduced arousal alone."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "dissociation-mechanisms-q1",
+      "question": "What is the most accurate core statement about Dissociation Mechanisms?",
+      "options": [
+        "Dissociation can involve detachment, altered awareness, memory discontinuity or compartmentalised responding.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Dissociation can involve detachment, altered awareness, memory discontinuity or compartmentalised responding."
+    },
+    {
+      "id": "dissociation-mechanisms-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Mechanisms likely vary across depersonalisation, derealisation, amnesia and identity disturbance rather than reflecting one neural state.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Mechanisms likely vary across depersonalisation, derealisation, amnesia and identity disturbance rather than reflecting one neural state."
+    },
+    {
+      "id": "dissociation-mechanisms-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not infer dissociation from a scan or reduced arousal alone.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not infer dissociation from a scan or reduced arousal alone."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Dissociation can involve detachment, altered awareness, memory discontinuity or compartmentalised responding."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not infer dissociation from a scan or reduced arousal alone."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "mixed neurobiological evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

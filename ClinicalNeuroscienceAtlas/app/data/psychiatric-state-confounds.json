@@ -1,0 +1,122 @@
+{
+  "id": "psychiatric-state-confounds",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Psychiatric and State Effects on Cognition.",
+    "Apply Psychiatric and State Effects on Cognition to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Characterise timing",
+      "detail": "Compare cognitive and emotional symptom onset and fluctuation."
+    },
+    {
+      "label": "Map mechanisms",
+      "detail": "Consider sleep, pain, arousal, medication and rumination."
+    },
+    {
+      "label": "Seek convergence",
+      "detail": "Compare subjective complaint, objective profile and function."
+    },
+    {
+      "label": "Reassess change",
+      "detail": "When possible, evaluate cognition after modifiable state factors improve."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Characterise timing",
+        "detail": "Compare cognitive and emotional symptom onset and fluctuation."
+      },
+      {
+        "label": "Map mechanisms",
+        "detail": "Consider sleep, pain, arousal, medication and rumination."
+      },
+      {
+        "label": "Seek convergence",
+        "detail": "Compare subjective complaint, objective profile and function."
+      },
+      {
+        "label": "Reassess change",
+        "detail": "When possible, evaluate cognition after modifiable state factors improve."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Psychiatric and State Effects on Cognition"
+  },
+  "quizBank": [
+    {
+      "question": "Which interpretation is most defensible?",
+      "options": [
+        "Depression explains every low score",
+        "Neurological disease excludes state effects",
+        "Mood and neurological factors may both influence performance",
+        "Subjective complaints are meaningless"
+      ],
+      "answer": 2,
+      "explanation": "Mood and neurological factors may both influence performance is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Psychiatric and State Effects on Cognition?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "“Functional” and “organic” are not opposites; symptoms can arise from interacting brain, body and context mechanisms."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Characterise timing → Map mechanisms → Seek convergence → Reassess change"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Acute confusion, focal signs, seizures or rapid progression should never be attributed to anxiety or depression without medical assessment."
+    }
+  ],
+  "tags": [
+    "psychiatric and state effects on cognition",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "McDermott LM, Ebmeier KP. A meta-analysis of depression severity and cognitive function. Journal of Affective Disorders. 2009;119:1–8.",
+      "url": "https://doi.org/10.1016/j.jad.2009.04.022"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

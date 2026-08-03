@@ -1,0 +1,173 @@
+{
+  "id": "troubleshooting-nonresponse",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 41,
+  "level": 27,
+  "title": "Troubleshooting and Nonresponse",
+  "subtitle": "Check measurement, learning, formulation and outcome selection",
+  "hero": "troubleshooting-nonresponse.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating troubleshooting and nonresponse within a neurofeedback closed loop.",
+  "prerequisites": [
+    "contraindications-adverse-effects"
+  ],
+  "nextConcept": "ethics-evidence-clinical-limits",
+  "previousConcept": "contraindications-adverse-effects",
+  "tags": [
+    "troubleshooting",
+    "and",
+    "nonresponse",
+    "neurofeedback",
+    "safety",
+    "clinical reasoning"
+  ],
+  "searchTerms": [
+    "troubleshooting",
+    "and",
+    "nonresponse",
+    "neurofeedback",
+    "safety",
+    "clinical reasoning",
+    "check",
+    "measurement",
+    "learning",
+    "formulation",
+    "outcome",
+    "selection"
+  ],
+  "learningObjectives": [
+    "Explain troubleshooting and nonresponse without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in troubleshooting and nonresponse.",
+    "Identify one safety or validity limitation relevant to troubleshooting and nonresponse."
+  ],
+  "sections": {
+    "explainSimply": "When progress stalls, first verify the signal, contingency and goal rather than endlessly changing frequencies.",
+    "explainLikePsychologist": "Nonresponse may reflect artifact, poor reward contingency, fatigue, mismatched target, unrealistic outcomes, comorbidity or a treatment that simply is not effective for this person.",
+    "advancedClinicalDetail": "Use predefined review points and stopping rules. Avoid post-hoc explanations that make every result appear to support the protocol.",
+    "thinkOfItLike": "A medication review: benefit, burden, adverse effects and alternatives must remain visible throughout care.",
+    "whyPsychologistsCare": "Psychologists need to understand troubleshooting and nonresponse to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "More sessions are not automatically the answer.",
+    "clinicalPearl": "Measure benefit and harm with the same seriousness.",
+    "practicalExample": "A clinician using troubleshooting and nonresponse predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "More sessions are not automatically the answer. Evidence classification: clinical reasoning; no universal algorithm."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Use predefined review points and stopping rules. Avoid post-hoc explanations that make every result appear to support the protocol."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "When progress stalls, first verify the signal, contingency and goal rather than endlessly changing frequencies."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "When progress stalls, first verify the signal, contingency and goal rather than endlessly changing frequencies.",
+      "Nonresponse may reflect artifact, poor reward contingency, fatigue, mismatched target, unrealistic outcomes, comorbidity or a treatment that simply is not effective for this person.",
+      "More sessions are not automatically the answer."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Troubleshooting and Nonresponse?",
+      "options": [
+        "When progress stalls, first verify the signal, contingency and goal rather than endlessly changing frequencies.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "When progress stalls, first verify the signal, contingency and goal rather than endlessly changing frequencies."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Troubleshooting and Nonresponse?",
+      "options": [
+        "More sessions are not automatically the answer.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "More sessions are not automatically the answer."
+    },
+    {
+      "question": "How should the evidence for Troubleshooting and Nonresponse be communicated?",
+      "options": [
+        "As clinical reasoning; no universal algorithm, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: clinical reasoning; no universal algorithm."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "When progress stalls, first verify the signal, contingency and goal rather than endlessly changing frequencies."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "More sessions are not automatically the answer."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "clinical reasoning; no universal algorithm"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    },
+    {
+      "citation": "Rogel A, et al. Transient adverse side effects during neurofeedback training: a randomized, sham-controlled, double blind study. Appl Psychophysiol Biofeedback. 2015.",
+      "type": "Controlled safety study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26008757/"
+    },
+    {
+      "citation": "Hammond DC. The need for individualization in neurofeedback: heterogeneity in QEEG patterns associated with diagnoses and symptoms. Appl Psychophysiol Biofeedback. 2010.",
+      "type": "Clinical review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19760143/"
+    }
+  ]
+}

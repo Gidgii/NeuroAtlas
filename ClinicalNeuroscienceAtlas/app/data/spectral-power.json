@@ -1,0 +1,138 @@
+{
+  "id": "spectral-power",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Absolute and Relative Power.",
+    "Apply Absolute and Relative Power to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Absolute power quantifies signal energy; relative power expresses a band as a proportion of total power."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Relative measures are compositional: an increase can occur because another band decreased. Units, log transforms and frequency boundaries must be reported."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Power metrics can summarise state and group differences when artifact and condition are controlled."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Interpreting relative power as independent biological quantity creates misleading conclusions."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Absolute and Relative Power",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Absolute power quantifies signal energy; relative power expresses a band as a proportion of total power."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Relative measures are compositional: an increase can occur because another band decreased. Units, log transforms and frequency boundaries must be reported."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Power metrics can summarise state and group differences when artifact and condition are controlled."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Interpreting relative power as independent biological quantity creates misleading conclusions."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Absolute and Relative Power"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Absolute and Relative Power?",
+      "options": [
+        "Absolute power quantifies signal energy; relative power expresses a band as a proportion of total power.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Absolute power quantifies signal energy; relative power expresses a band as a proportion of total power."
+    },
+    {
+      "question": "What is the safest clinical principle for Absolute and Relative Power?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Absolute and Relative Power?",
+      "options": [
+        "Interpreting relative power as independent biological quantity creates misleading conclusions.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Interpreting relative power as independent biological quantity creates misleading conclusions."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Relative measures are compositional: an increase can occur because another band decreased. Units, log transforms and frequency boundaries must be reported."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Power metrics can summarise state and group differences when artifact and condition are controlled."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Interpreting relative power as independent biological quantity creates misleading conclusions."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Always ask whether the numerator changed, the denominator changed, or both."
+    }
+  ],
+  "tags": [
+    "absolute and relative power",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "measuring",
+    "energy",
+    "within",
+    "frequency"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

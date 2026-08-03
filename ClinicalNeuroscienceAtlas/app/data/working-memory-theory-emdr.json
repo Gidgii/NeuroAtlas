@@ -1,0 +1,175 @@
+{
+  "id": "working-memory-theory-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 32,
+  "level": 28,
+  "title": "Working Memory Theory",
+  "subtitle": "Why dual attention may reduce vividness and distress",
+  "hero": "working-memory-theory-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating working memory theory across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "bilateral-stimulation-emdr"
+  ],
+  "previousConcept": "bilateral-stimulation-emdr",
+  "nextConcept": "orienting-response-emdr",
+  "tags": [
+    "working",
+    "memory",
+    "theory",
+    "trauma",
+    "emdr",
+    "promising mechanism with experimental support"
+  ],
+  "searchTerms": [
+    "working",
+    "memory",
+    "theory",
+    "trauma",
+    "emdr",
+    "promising mechanism with experimental support",
+    "dual",
+    "attention",
+    "reduce",
+    "vividness",
+    "distress"
+  ],
+  "learningObjectives": [
+    "Explain working memory theory in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in working memory theory.",
+    "Identify one limitation or safety implication relevant to working memory theory."
+  ],
+  "sections": {
+    "explainSimply": "Holding a distressing image in mind while doing another demanding task can tax limited working-memory resources.",
+    "explainLikePsychologist": "Competition may make the recalled image temporarily less vivid and emotional, enabling new appraisal or updating.",
+    "advancedClinicalDetail": "Laboratory effects are reproducible for eye movements and other taxing tasks, but they do not alone explain all clinical outcomes of EMDR.",
+    "thinkOfItLike": "Think of working memory theory as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need working memory theory to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Reducing vividness is not the same as resolving meaning or risk.",
+    "clinicalPearl": "Clinical pearl: use working memory theory to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses working memory theory to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Reducing vividness is not the same as resolving meaning or risk. Evidence classification: promising mechanism with experimental support."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Holding a distressing image in mind while doing another demanding task can tax limited working-memory resources."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Competition may make the recalled image temporarily less vivid and emotional, enabling new appraisal or updating."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Reducing vividness is not the same as resolving meaning or risk."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Holding a distressing image in mind while doing another demanding task can tax limited working-memory resources.",
+      "Competition may make the recalled image temporarily less vivid and emotional, enabling new appraisal or updating.",
+      "Reducing vividness is not the same as resolving meaning or risk."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "working-memory-theory-emdr-q1",
+      "question": "What is the most accurate core statement about Working Memory Theory?",
+      "options": [
+        "Holding a distressing image in mind while doing another demanding task can tax limited working-memory resources.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Holding a distressing image in mind while doing another demanding task can tax limited working-memory resources."
+    },
+    {
+      "id": "working-memory-theory-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Competition may make the recalled image temporarily less vivid and emotional, enabling new appraisal or updating.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Competition may make the recalled image temporarily less vivid and emotional, enabling new appraisal or updating."
+    },
+    {
+      "id": "working-memory-theory-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Reducing vividness is not the same as resolving meaning or risk.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Reducing vividness is not the same as resolving meaning or risk."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Holding a distressing image in mind while doing another demanding task can tax limited working-memory resources."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Reducing vividness is not the same as resolving meaning or risk."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "promising mechanism with experimental support"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

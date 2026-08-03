@@ -1,0 +1,106 @@
+{
+  "id": "working-memory-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Distinguish storage from manipulation.",
+    "Explain frontoparietal contributions.",
+    "Identify state factors that reduce working memory.",
+    "Select practical load-reduction strategies."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core function",
+      "detail": "Working memory is the brain’s mental workbench. It lets you hold a small amount of information in mind while doing something with it."
+    },
+    {
+      "label": "Neural systems",
+      "detail": "Working memory depends on dynamic frontoparietal coordination rather than a single storage site. Prefrontal systems support goal maintenance and interference control, while posterior regions represent domain-specific content. Capacity reflects both representational fidelity and the ability to protect task-relevant information from interference."
+    },
+    {
+      "label": "Assessment pattern",
+      "detail": "Working memory includes temporary maintenance and active manipulation. Verbal and visuospatial stores interact with attentional control and long-term knowledge. Performance is limited and vulnerable to distraction, stress, fatigue and excessive task complexity."
+    },
+    {
+      "label": "Clinical translation",
+      "detail": "Working-memory weaknesses affect multistep instructions, mental arithmetic, reading comprehension and self-regulation. External supports reduce load and often improve real-world functioning more than repeated “brain training.”"
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the functional sequence, then retrieve the clinical distinction without looking back.",
+    "signalSteps": [
+      "Working memory is the brain’s mental workbench. It lets you hold a small amount of information in mind while doing something with it.",
+      "Working memory includes temporary maintenance and active manipulation. Verbal and visuospatial stores interact with attentional control and long-term knowledge. Performance is limited and vulnerable to distraction, stress, fatigue and excessive task complexity.",
+      "Working-memory weaknesses affect multistep instructions, mental arithmetic, reading comprehension and self-regulation. External supports reduce load and often improve real-world functioning more than repeated “brain training.”",
+      "Reduce the load before concluding the person lacks the ability."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Working memory is best described as:",
+      "options": [
+        "Temporary maintenance and manipulation of information",
+        "Permanent storage of life events",
+        "Rapid visual scanning only",
+        "Automatic motor learning"
+      ],
+      "answer": 0,
+      "explanation": "Working memory keeps information active and available for current goals."
+    },
+    {
+      "question": "Which intervention most directly reduces working-memory load?",
+      "options": [
+        "Breaking instructions into short externalised steps",
+        "Increasing time pressure",
+        "Adding background noise",
+        "Removing visual cues"
+      ],
+      "answer": 0,
+      "explanation": "Chunking and externalising information reduce demands on active maintenance."
+    },
+    {
+      "question": "Stress can impair working memory because it:",
+      "options": [
+        "Competes for attentional control and increases interference",
+        "Permanently erases stored knowledge",
+        "Only affects motor speed",
+        "Always improves prefrontal function"
+      ],
+      "answer": 0,
+      "explanation": "Stress-related thoughts and arousal consume control resources and increase interference."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Reduce the load before concluding the person lacks the ability."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Working memory depends on dynamic frontoparietal coordination rather than a single storage site. Prefrontal systems support goal maintenance and interference control, while posterior regions represent domain-specific content. Capacity reflects both representational fidelity and the ability to protect task-relevant information from interference."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Severe new working-memory impairment with confusion, language change or neurological signs requires medical assessment. Anxiety, sleep loss and pain can also produce temporary reductions."
+    }
+  ],
+  "tags": [
+    "working memory",
+    "executive function",
+    "frontoparietal",
+    "cognitive load",
+    "neuropsychology"
+  ],
+  "references": [
+    {
+      "citation": "Baddeley A. Working memory: looking back and looking forward. Nat Rev Neurosci. 2003;4:829–839.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1038/nrn1201"
+    },
+    {
+      "citation": "D’Esposito M, Postle BR. The cognitive neuroscience of working memory. Annu Rev Psychol. 2015;66:115–142.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1146/annurev-psych-010814-015031"
+    }
+  ]
+}

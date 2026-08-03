@@ -1,0 +1,122 @@
+{
+  "id": "hemispatial-neglect",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Hemispatial Neglect.",
+    "Apply Hemispatial Neglect to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Sensory input",
+      "detail": "Both sides may reach early sensory systems."
+    },
+    {
+      "label": "Attention weighting",
+      "detail": "One side receives inadequate priority."
+    },
+    {
+      "label": "Exploration bias",
+      "detail": "Eyes and actions orient toward the ipsilesional side."
+    },
+    {
+      "label": "Functional impact",
+      "detail": "Objects, body parts or text on the neglected side are missed."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Sensory input",
+        "detail": "Both sides may reach early sensory systems."
+      },
+      {
+        "label": "Attention weighting",
+        "detail": "One side receives inadequate priority."
+      },
+      {
+        "label": "Exploration bias",
+        "detail": "Eyes and actions orient toward the ipsilesional side."
+      },
+      {
+        "label": "Functional impact",
+        "detail": "Objects, body parts or text on the neglected side are missed."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Hemispatial Neglect"
+  },
+  "quizBank": [
+    {
+      "question": "Which finding best differentiates neglect from primary visual loss?",
+      "options": [
+        "Omission that changes with cueing and attentional task",
+        "Reduced acuity in both eyes",
+        "Weakness of one hand",
+        "Hearing loss"
+      ],
+      "answer": 0,
+      "explanation": "Omission that changes with cueing and attentional task is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Hemispatial Neglect?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "A normal visual field does not rule out neglect, and a field cut does not fully explain spatial inattention."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Sensory input → Attention weighting → Exploration bias → Functional impact"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "New neglect is a focal neurological emergency and should trigger urgent stroke assessment."
+    }
+  ],
+  "tags": [
+    "hemispatial neglect",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Corbetta M, Shulman GL. Spatial neglect and attention networks. Annual Review of Neuroscience. 2011;34:569–599.",
+      "url": "https://doi.org/10.1146/annurev-neuro-061010-113731"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": "limbic-system-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 19,
+  "level": 29,
+  "title": "Limbic System Atlas",
+  "subtitle": "Explore memory, salience, motivation and emotion across connected circuits",
+  "pronunciation": "LIM-bik SIS-tem",
+  "hero": "limbic-system-atlas.svg",
+  "altText": "Medial brain and circuit diagram showing hippocampus, amygdala, cingulate cortex, fornix, mammillary bodies, hypothalamus and ventral striatum.",
+  "prerequisites": [
+    "cerebral-vasculature-atlas"
+  ],
+  "previousConcept": "cerebral-vasculature-atlas",
+  "nextConcept": "ventricular-system-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "limbic system atlas",
+    "clinical localisation",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Limbic System Atlas",
+    "LIM-bik SIS-tem",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Identify major limbic structures without treating the limbic system as a single emotion centre.",
+    "Trace hippocampal, amygdala, cingulate and hypothalamic connections.",
+    "Relate circuit disruption to memory, salience, motivation, autonomic response and psychopathology."
+  ],
+  "sections": {
+    "explainSimply": "The limbic system is a group of connected regions that help link memory, emotion, motivation, body state and action.",
+    "explainLikePsychologist": "Limbic functions emerge from distributed loops involving cortex, subcortex, hypothalamus and brainstem; no single “emotional brain” explains complex behaviour.",
+    "advancedClinicalDetail": "Classical Papez circuitry overlaps with broader corticolimbic networks including amygdala, hippocampal formation, cingulate cortex, orbitomedial prefrontal cortex, ventral striatum, septal area and hypothalamus. These systems integrate context, salience, reinforcement and autonomic output.",
+    "thinkOfItLike": "It is a meaning-and-priority network that tags experiences, links them to memory and body state, and biases what the person does next.",
+    "whyPsychologistsCare": "Trauma, epilepsy, neurodegeneration and focal lesions may alter memory, threat appraisal, motivation or autonomic regulation through different limbic circuits.",
+    "whenItGoesWrong": "Calling the amygdala the “fear centre” or the limbic system the “emotional brain” oversimplifies distributed, context-sensitive networks.",
+    "clinicalPearl": "Emotion and memory are not separate modules; they continually shape one another through recurrent corticolimbic loops.",
+    "practicalExample": "Bilateral hippocampal injury may profoundly impair new episodic learning while leaving immediate attention and procedural learning relatively intact.",
+    "limitationsCautions": "Psychiatric symptoms cannot be localised to one limbic structure; interpretation requires network, developmental and contextual formulation."
+  },
+  "anatomy": [
+    {
+      "id": "hippocampal-formation",
+      "label": "Hippocampal formation",
+      "pronunciation": "hip-oh-KAM-pul",
+      "function": "Supports episodic encoding, context and spatial representation",
+      "inputs": "Entorhinal cortex and multimodal association input",
+      "outputs": "Fornix, entorhinal and cortical feedback",
+      "connections": "Amygdala, cingulate, thalamic and prefrontal systems",
+      "associatedDisorders": "Amnesia, temporal-lobe epilepsy, neurodegeneration",
+      "clinicalSignificance": "Bilateral dysfunction particularly affects new declarative learning."
+    },
+    {
+      "id": "amygdala-complex",
+      "label": "Amygdala complex",
+      "pronunciation": "uh-MIG-duh-luh",
+      "function": "Assigns salience and coordinates learned threat and value signals",
+      "inputs": "Sensory, hippocampal and prefrontal input",
+      "outputs": "Hypothalamic, brainstem, striatal and cortical targets",
+      "connections": "Hippocampus, vmPFC, insula and salience network",
+      "associatedDisorders": "Altered threat learning, temporal-lobe seizures",
+      "clinicalSignificance": "It modulates salience and learning rather than generating one universal emotion."
+    },
+    {
+      "id": "cingulate-cortex",
+      "label": "Cingulate cortex",
+      "pronunciation": "SIN-gyuh-lut",
+      "function": "Integrates motivation, conflict, pain and internal state",
+      "inputs": "Prefrontal, thalamic, limbic and interoceptive input",
+      "outputs": "Motor, autonomic and cortical control systems",
+      "connections": "Papez circuit, salience and default-mode networks",
+      "associatedDisorders": "Apathy, pain dysregulation, attentional disturbance",
+      "clinicalSignificance": "Anterior and posterior subdivisions have distinct network roles."
+    },
+    {
+      "id": "fornix-mammillary",
+      "label": "Fornix–mammillary pathway",
+      "pronunciation": "FOR-niks MAM-ih-lair-ee",
+      "function": "Carries hippocampal output through diencephalic memory circuitry",
+      "inputs": "Hippocampal formation",
+      "outputs": "Mammillary bodies and septal regions",
+      "connections": "Anterior thalamus and cingulate cortex",
+      "associatedDisorders": "Diencephalic amnesia, disconnection",
+      "clinicalSignificance": "Damage can impair recollection even when cortical memory regions remain structurally intact."
+    },
+    {
+      "id": "ventral-striatum",
+      "label": "Ventral striatum",
+      "pronunciation": "VEN-trul stry-AY-tum",
+      "function": "Integrates reward, motivation and action selection",
+      "inputs": "Prefrontal, hippocampal, amygdala and dopaminergic input",
+      "outputs": "Pallidal and thalamic loops",
+      "connections": "Mesolimbic and frontostriatal circuits",
+      "associatedDisorders": "Addiction, anhedonia, compulsive behaviour",
+      "clinicalSignificance": "Reward-related activation reflects learning and motivational value, not simple pleasure."
+    },
+    {
+      "id": "hypothalamus",
+      "label": "Hypothalamus",
+      "pronunciation": "high-poh-THAL-uh-mus",
+      "function": "Coordinates endocrine, autonomic and homeostatic responses",
+      "inputs": "Limbic, visceral and circadian signals",
+      "outputs": "Pituitary, brainstem and autonomic pathways",
+      "connections": "Amygdala, hippocampus and prefrontal regulation",
+      "associatedDisorders": "Stress dysregulation, sleep and appetite disturbance",
+      "clinicalSignificance": "Links subjective state with bodily regulation and action readiness."
+    }
+  ],
+  "mechanismMap": [
+    {
+      "label": "Hippocampal formation",
+      "detail": "Supports episodic encoding, context and spatial representation"
+    },
+    {
+      "label": "Amygdala complex",
+      "detail": "Assigns salience and coordinates learned threat and value signals"
+    },
+    {
+      "label": "Cingulate cortex",
+      "detail": "Integrates motivation, conflict, pain and internal state"
+    },
+    {
+      "label": "Fornix–mammillary pathway",
+      "detail": "Carries hippocampal output through diencephalic memory circuitry"
+    },
+    {
+      "label": "Ventral striatum",
+      "detail": "Integrates reward, motivation and action selection"
+    },
+    {
+      "label": "Hypothalamus",
+      "detail": "Coordinates endocrine, autonomic and homeostatic responses"
+    }
+  ],
+  "interaction": {
+    "type": "anatomy-explorer",
+    "instruction": "Select each labelled structure to reveal function, inputs, outputs, connections and clinical significance.",
+    "signalSteps": [
+      "Hippocampal formation: Supports episodic encoding, context and spatial representation",
+      "Amygdala complex: Assigns salience and coordinates learned threat and value signals",
+      "Cingulate cortex: Integrates motivation, conflict, pain and internal state",
+      "Fornix–mammillary pathway: Carries hippocampal output through diencephalic memory circuitry",
+      "Ventral striatum: Integrates reward, motivation and action selection",
+      "Hypothalamus: Coordinates endocrine, autonomic and homeostatic responses"
+    ],
+    "accessibilityLabel": "Interactive anatomy sequence for Limbic System Atlas"
+  },
+  "quizBank": [
+    {
+      "id": "limbic-system-atlas-q1",
+      "question": "Which statement best captures a safe clinical principle for Limbic System Atlas?",
+      "options": [
+        "Emotion and memory are not separate modules; they continually shape one another through recurrent corticolimbic loops.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Individual variation is clinically irrelevant"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Emotion and memory are not separate modules; they continually shape one another through recurrent corticolimbic loops.",
+      "explanation": "Emotion and memory are not separate modules; they continually shape one another through recurrent corticolimbic loops."
+    },
+    {
+      "id": "limbic-system-atlas-q2",
+      "question": "What is the safest interpretation principle for Limbic System Atlas?",
+      "options": [
+        "Use structure, networks, examination and context together",
+        "Infer diagnosis from one image",
+        "Ignore white-matter and vascular connections",
+        "Assume all people have identical organisation"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Anatomical findings require integration with networks, clinical examination and individual context.",
+      "explanation": "Anatomical findings require integration with networks, clinical examination and individual context."
+    },
+    {
+      "id": "limbic-system-atlas-q3",
+      "question": "Which feature is explicitly mapped in Limbic System Atlas?",
+      "options": [
+        "Hippocampal formation",
+        "Only a decorative title",
+        "No clinical links",
+        "No pathway information"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Hippocampal formation is one of the mapped structures in this slice.",
+      "explanation": "Hippocampal formation is one of the mapped structures in this slice."
+    }
+  ],
+  "reviewPrompts": [
+    "Name the major structures in Limbic System Atlas.",
+    "Trace one input-output relationship in Limbic System Atlas.",
+    "Give one clinical caution relevant to Limbic System Atlas."
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easyIntervalDays": 14,
+    "tags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "responsive": true,
+    "reducedMotion": true
+  },
+  "references": [
+    {
+      "citation": "Pessoa L. A Network Model of the Emotional Brain. Trends Cogn Sci. 2017.",
+      "url": "https://doi.org/10.1016/j.tics.2017.03.002",
+      "type": "Reference"
+    },
+    {
+      "citation": "Catani M, Dell’Acqua F, Thiebaut de Schotten M. A revised limbic system model for memory, emotion and behaviour. Neurosci Biobehav Rev. 2013.",
+      "url": "https://doi.org/10.1016/j.neubiorev.2013.07.001",
+      "type": "Reference"
+    }
+  ],
+  "evidenceLabel": "Established anatomy; clinical associations vary by lesion extent, network effects and individual context.",
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "Limbic System Atlas"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "functions"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy",
+        "lesion"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best captures a safe clinical principle for Limbic System Atlas?",
+      "options": [
+        "Emotion and memory are not separate modules; they continually shape one another through recurrent corticolimbic loops.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Individual variation is clinically irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Emotion and memory are not separate modules; they continually shape one another through recurrent corticolimbic loops."
+    },
+    {
+      "question": "Why do connections matter clinically?",
+      "options": [
+        "Symptoms may reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Pathways do not affect cognition.",
+        "All people have identical pathways."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive functions depend on connected pathways."
+    },
+    {
+      "question": "What should an atlas not be used for?",
+      "options": [
+        "Making a diagnosis from one structure alone.",
+        "Learning spatial relationships.",
+        "Generating lesion hypotheses.",
+        "Understanding vascular territories."
+      ],
+      "answer": 0,
+      "rationale": "An atlas is an educational and hypothesis-support tool, not a standalone diagnostic instrument."
+    }
+  ],
+  "accessibility": {
+    "altText": "Medial brain and circuit diagram showing hippocampus, amygdala, cingulate cortex, fornix, mammillary bodies, hypothalamus and ventral striatum.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The limbic system is a group of connected regions that help link memory, emotion, motivation, body state and action.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

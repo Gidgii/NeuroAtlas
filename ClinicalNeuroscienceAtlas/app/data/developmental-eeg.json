@@ -1,0 +1,138 @@
+{
+  "id": "developmental-eeg",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Developmental EEG.",
+    "Apply Developmental EEG to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Background frequency, sleep architecture and normal variants evolve with brain maturation."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Paediatric EEG requires age-specific expectations; patterns normal in infancy may be abnormal in an adult and vice versa."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Essential for paediatric seizure assessment and developmental interpretation."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Adult normative databases applied to children produce systematic false deviations."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Developmental EEG",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Background frequency, sleep architecture and normal variants evolve with brain maturation."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Paediatric EEG requires age-specific expectations; patterns normal in infancy may be abnormal in an adult and vice versa."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Essential for paediatric seizure assessment and developmental interpretation."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Adult normative databases applied to children produce systematic false deviations."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Developmental EEG"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Developmental EEG?",
+      "options": [
+        "Background frequency, sleep architecture and normal variants evolve with brain maturation.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Background frequency, sleep architecture and normal variants evolve with brain maturation."
+    },
+    {
+      "question": "What is the safest clinical principle for Developmental EEG?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Developmental EEG?",
+      "options": [
+        "Adult normative databases applied to children produce systematic false deviations.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Adult normative databases applied to children produce systematic false deviations."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Paediatric EEG requires age-specific expectations; patterns normal in infancy may be abnormal in an adult and vice versa."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Essential for paediatric seizure assessment and developmental interpretation."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Adult normative databases applied to children produce systematic false deviations."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Development is not noise—it is the reference frame."
+    }
+  ],
+  "tags": [
+    "developmental eeg",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "normal",
+    "changes",
+    "across",
+    "infancy"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

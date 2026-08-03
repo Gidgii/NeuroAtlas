@@ -1,0 +1,187 @@
+{
+  "id": "hypothalamus-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 24,
+  "level": 29,
+  "title": "Hypothalamus Atlas",
+  "subtitle": "Explore homeostatic nuclei coordinating endocrine, autonomic, circadian and motivated behaviour",
+  "pronunciation": "high-poh-THAL-uh-muss",
+  "hero": "hypothalamus-atlas.svg",
+  "altText": "Clinically labelled chalkboard-style anatomical illustration of the hypothalamus atlas, showing major subdivisions, connections and nearby landmarks.",
+  "prerequisites": [
+    "thalamus-atlas"
+  ],
+  "previousConcept": "thalamus-atlas",
+  "nextConcept": null,
+  "tags": [
+    "interactive anatomy",
+    "hypothalamus",
+    "homeostasis",
+    "HPA axis",
+    "autonomic nervous system",
+    "circadian rhythms",
+    "pituitary",
+    "motivated behaviour"
+  ],
+  "searchTerms": [
+    "hypothalamic nuclei",
+    "suprachiasmatic nucleus",
+    "paraventricular nucleus",
+    "supraoptic nucleus",
+    "lateral hypothalamus",
+    "ventromedial nucleus",
+    "mammillary bodies",
+    "pituitary control"
+  ],
+  "learningObjectives": [
+    "Locate the hypothalamus relative to the thalamus, third ventricle, optic chiasm and pituitary stalk.",
+    "Differentiate major hypothalamic nuclear zones and their homeostatic functions.",
+    "Relate hypothalamic pathways to endocrine, autonomic, circadian and behavioural presentations."
+  ],
+  "sections": {
+    "explainSimply": "The hypothalamus is a small control region beneath the thalamus. It monitors the body and coordinates temperature, thirst, hunger, hormones, sleep timing, stress responses and autonomic activity.",
+    "explainLikePsychologist": "The hypothalamus translates internal bodily signals and context into endocrine, autonomic and motivated responses. It links interoception, emotion and behaviour through connections with the pituitary, brainstem, limbic system and cortex.",
+    "advancedClinicalDetail": "The hypothalamus forms the floor and inferolateral walls of the third ventricle. Its preoptic, anterior, tuberal and posterior regions contain nuclei with overlapping functions. The suprachiasmatic nucleus entrains circadian rhythms; paraventricular and supraoptic nuclei regulate neuroendocrine output; arcuate, lateral and ventromedial regions contribute to energy balance; mammillary bodies participate in memory circuitry; descending projections coordinate autonomic and defensive responses. Functional boundaries are networked rather than one-nucleus/one-function.",
+    "thinkOfItLike": "Think of it as the building-management system for the body: sensors report temperature, fuel, water and time, and the hypothalamus adjusts hormones, autonomic systems and behaviour to restore balance.",
+    "whyPsychologistsCare": "Sleep, appetite, stress reactivity, sexual behaviour, fatigue and autonomic symptoms can all involve hypothalamic systems. Understanding the circuitry improves biopsychosocial formulation without reducing symptoms to a single brain centre.",
+    "whenItGoesWrong": "Lesions or dysfunction can disturb endocrine axes, circadian timing, temperature regulation, appetite, thirst, autonomic control and memory. Similar symptoms are common in non-hypothalamic conditions, so localisation requires medical assessment.",
+    "clinicalPearl": "The hypothalamus is tiny but strategically placed: a small lesion can affect several endocrine, autonomic and behavioural systems at once.",
+    "clinicalExample": "A suprasellar mass affecting the hypothalamic-pituitary region may present with sleep-wake disruption, endocrine change, altered appetite and reduced initiative rather than a single neat syndrome.",
+    "limitationsCautions": "Many human functional assignments derive from converging animal, lesion, imaging and stimulation studies. Poly-symptomatic presentations are expected because nuclei are small and densely interconnected.",
+    "practicalExample": "Use the hypothalamus atlas map to test whether a clinical pattern is anatomically coherent while considering network and medical alternatives."
+  },
+  "anatomy": {
+    "position": "Inferior to the thalamus, surrounding the lower third ventricle, posterior to the optic chiasm and continuous with the pituitary stalk.",
+    "substructures": [
+      "Preoptic area",
+      "Suprachiasmatic nucleus",
+      "Paraventricular nucleus",
+      "Supraoptic nucleus",
+      "Arcuate nucleus",
+      "Ventromedial nucleus",
+      "Dorsomedial nucleus",
+      "Lateral hypothalamic area",
+      "Posterior nucleus",
+      "Mammillary bodies"
+    ],
+    "inputs": [
+      "Retina via retinohypothalamic tract",
+      "Limbic structures",
+      "Brainstem visceral pathways",
+      "Circulating hormones and nutrients",
+      "Circumventricular organs"
+    ],
+    "outputs": [
+      "Pituitary gland",
+      "Autonomic brainstem and spinal centres",
+      "Thalamus and cortex",
+      "Limbic system",
+      "Wake-promoting systems"
+    ],
+    "bloodSupply": [
+      "Perforators from anterior cerebral and anterior communicating arteries",
+      "Posterior communicating artery branches",
+      "Posterior cerebral artery perforators"
+    ],
+    "lesionPatterns": [
+      "Endocrine dysregulation",
+      "Diabetes insipidus",
+      "Circadian disruption",
+      "Temperature instability",
+      "Appetite and weight change",
+      "Autonomic disturbance",
+      "Memory impairment involving mammillary circuits"
+    ]
+  },
+  "interactions": [
+    {
+      "id": "hyp-zones",
+      "label": "Reveal nuclear zones",
+      "description": "Toggle preoptic, anterior, tuberal and posterior hypothalamic regions."
+    },
+    {
+      "id": "hyp-homeostasis",
+      "label": "Trace homeostatic loops",
+      "description": "Follow endocrine, autonomic, circadian, temperature and energy-balance pathways."
+    },
+    {
+      "id": "hyp-pituitary",
+      "label": "Show pituitary connections",
+      "description": "Compare magnocellular release with hypophysiotropic portal signalling."
+    },
+    {
+      "id": "hyp-lesions",
+      "label": "Map lesion effects",
+      "description": "Overlay representative syndromes while preserving network-level cautions."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "hyp-q1",
+      "question": "Which hypothalamic nucleus is the principal circadian pacemaker?",
+      "options": [
+        "Suprachiasmatic nucleus",
+        "Ventral lateral thalamus",
+        "Caudate nucleus",
+        "Red nucleus"
+      ],
+      "answer": 0,
+      "rationale": "The suprachiasmatic nucleus receives retinal timing information and coordinates circadian rhythms."
+    },
+    {
+      "id": "hyp-q2",
+      "question": "Which statement best describes hypothalamic organisation?",
+      "options": [
+        "Small interconnected nuclei coordinate overlapping homeostatic functions",
+        "Each nucleus controls exactly one behaviour",
+        "It functions independently of the pituitary and brainstem",
+        "It is primarily a sensory relay to cortex"
+      ],
+      "answer": 0,
+      "rationale": "Hypothalamic functions are distributed across densely connected nuclei and downstream systems."
+    },
+    {
+      "id": "hyp-q3",
+      "question": "Damage involving supraoptic or paraventricular neurosecretory pathways may directly impair release of which hormone?",
+      "options": [
+        "Vasopressin",
+        "Dopamine from substantia nigra",
+        "Melatonin from pineal gland",
+        "Cortisol from adrenal cortex directly"
+      ],
+      "answer": 0,
+      "rationale": "Magnocellular neurons in supraoptic and paraventricular nuclei produce vasopressin and oxytocin for posterior pituitary release."
+    }
+  ],
+  "references": [
+    {
+      "citation": "Nolte, J. The Human Brain: An Introduction to Its Functional Anatomy.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Blumenfeld, H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring, S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Identify the major subdivisions and clinical relationships of the hypothalamus atlas."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive Hypothalamus Atlas atlas with labelled regions, pathway relationships and clinical notes.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

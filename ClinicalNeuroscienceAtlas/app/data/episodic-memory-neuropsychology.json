@@ -1,0 +1,105 @@
+{
+  "id": "episodic-memory-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate encoding, storage and retrieval.",
+    "Interpret learning curves and recognition data.",
+    "Relate memory profiles to neural systems.",
+    "Identify progressive or acute red flags."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core function",
+      "detail": "Episodic memory helps you remember events and information from a particular time and place. Learning, storing and retrieving are separate steps."
+    },
+    {
+      "label": "Neural systems",
+      "detail": "The medial temporal system supports relational binding and consolidation, while prefrontal systems organise encoding and strategic retrieval. A rapid-forgetting pattern despite adequate learning may suggest storage dysfunction; improvement with cues may indicate retrieval inefficiency. These patterns are probabilistic and must be interpreted with base rates, effort and context."
+    },
+    {
+      "label": "Assessment pattern",
+      "detail": "Neuropsychological interpretation distinguishes encoding, consolidation, storage and retrieval. Learning slope, delayed retention, recognition, intrusion errors and cueing effects help identify where the process breaks down. Attention and executive organisation strongly affect initial learning."
+    },
+    {
+      "label": "Clinical translation",
+      "detail": "Different memory profiles imply different supports. Encoding problems benefit from simplification and repetition; retrieval problems benefit from cueing and structure; storage problems require stronger external compensation and medical investigation."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the functional sequence, then retrieve the clinical distinction without looking back.",
+    "signalSteps": [
+      "Episodic memory helps you remember events and information from a particular time and place. Learning, storing and retrieving are separate steps.",
+      "Neuropsychological interpretation distinguishes encoding, consolidation, storage and retrieval. Learning slope, delayed retention, recognition, intrusion errors and cueing effects help identify where the process breaks down. Attention and executive organisation strongly affect initial learning.",
+      "Different memory profiles imply different supports. Encoding problems benefit from simplification and repetition; retrieval problems benefit from cueing and structure; storage problems require stronger external compensation and medical investigation.",
+      "Do not call every low delayed-recall score “memory loss”—first ask whether the information was learned adequately."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Poor free recall that improves markedly with recognition most suggests:",
+      "options": [
+        "Retrieval inefficiency",
+        "Complete storage failure",
+        "Normal vision",
+        "Motor slowing"
+      ],
+      "answer": 0,
+      "explanation": "Recognition support can reveal information that was stored but difficult to retrieve spontaneously."
+    },
+    {
+      "question": "Rapid forgetting after adequate initial learning raises concern about:",
+      "options": [
+        "Consolidation or storage dysfunction",
+        "Only low motivation",
+        "Visual scanning speed",
+        "Response inhibition"
+      ],
+      "answer": 0,
+      "explanation": "Loss of information over delay despite successful learning can indicate impaired consolidation."
+    },
+    {
+      "question": "Before interpreting delayed recall, the clinician should first examine:",
+      "options": [
+        "Initial acquisition and learning",
+        "Hand dominance only",
+        "Personality style only",
+        "The test title"
+      ],
+      "answer": 0,
+      "explanation": "Delayed performance cannot be interpreted accurately without knowing how much was learned initially."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Do not call every low delayed-recall score “memory loss”—first ask whether the information was learned adequately."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "The medial temporal system supports relational binding and consolidation, while prefrontal systems organise encoding and strategic retrieval. A rapid-forgetting pattern despite adequate learning may suggest storage dysfunction; improvement with cues may indicate retrieval inefficiency. These patterns are probabilistic and must be interpreted with base rates, effort and context."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Rapidly progressive memory loss, disorientation, seizures or acute confusion requires medical assessment. Depression and anxiety may reduce efficiency without producing a classic amnestic syndrome."
+    }
+  ],
+  "tags": [
+    "episodic memory",
+    "encoding",
+    "consolidation",
+    "retrieval",
+    "medial temporal lobe"
+  ],
+  "references": [
+    {
+      "citation": "Squire LR, Wixted JT. The cognitive neuroscience of human memory since H.M. Annu Rev Neurosci. 2011;34:259–288.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1146/annurev-neuro-061010-113720"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "type": "Primary or authoritative source"
+    }
+  ]
+}

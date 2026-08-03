@@ -1,0 +1,173 @@
+{
+  "id": "memory-reconsolidation-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 16,
+  "level": 28,
+  "title": "Memory Reconsolidation",
+  "subtitle": "Updating a reactivated memory under specific conditions",
+  "hero": "memory-reconsolidation-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating memory reconsolidation across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "memory-consolidation-trauma"
+  ],
+  "previousConcept": "memory-consolidation-trauma",
+  "nextConcept": "fear-conditioning-trauma",
+  "tags": [
+    "memory",
+    "reconsolidation",
+    "trauma",
+    "emdr",
+    "promising mechanism; clinical uncertainty"
+  ],
+  "searchTerms": [
+    "memory",
+    "reconsolidation",
+    "trauma",
+    "emdr",
+    "promising mechanism; clinical uncertainty",
+    "updating",
+    "reactivated",
+    "under",
+    "specific",
+    "conditions"
+  ],
+  "learningObjectives": [
+    "Explain memory reconsolidation in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in memory reconsolidation.",
+    "Identify one limitation or safety implication relevant to memory reconsolidation."
+  ],
+  "sections": {
+    "explainSimply": "When a memory is reactivated, it may become temporarily modifiable before restabilising.",
+    "explainLikePsychologist": "Clinical change may involve new learning and altered emotional meaning, but not every retrieval event opens a reconsolidation window.",
+    "advancedClinicalDetail": "Prediction error, retrieval conditions and timing matter in laboratory paradigms; translation to psychotherapy is promising but mechanistically uncertain.",
+    "thinkOfItLike": "Think of memory reconsolidation as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need memory reconsolidation to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not label all successful therapy “reconsolidation.”",
+    "clinicalPearl": "Clinical pearl: use memory reconsolidation to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses memory reconsolidation to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not label all successful therapy “reconsolidation.” Evidence classification: promising mechanism; clinical uncertainty."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "When a memory is reactivated, it may become temporarily modifiable before restabilising."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Clinical change may involve new learning and altered emotional meaning, but not every retrieval event opens a reconsolidation window."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not label all successful therapy “reconsolidation.”"
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "When a memory is reactivated, it may become temporarily modifiable before restabilising.",
+      "Clinical change may involve new learning and altered emotional meaning, but not every retrieval event opens a reconsolidation window.",
+      "Do not label all successful therapy “reconsolidation.”"
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "memory-reconsolidation-trauma-q1",
+      "question": "What is the most accurate core statement about Memory Reconsolidation?",
+      "options": [
+        "When a memory is reactivated, it may become temporarily modifiable before restabilising.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "When a memory is reactivated, it may become temporarily modifiable before restabilising."
+    },
+    {
+      "id": "memory-reconsolidation-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Clinical change may involve new learning and altered emotional meaning, but not every retrieval event opens a reconsolidation window.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Clinical change may involve new learning and altered emotional meaning, but not every retrieval event opens a reconsolidation window."
+    },
+    {
+      "id": "memory-reconsolidation-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not label all successful therapy “reconsolidation.”",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not label all successful therapy “reconsolidation.”"
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "When a memory is reactivated, it may become temporarily modifiable before restabilising."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not label all successful therapy “reconsolidation.”"
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "promising mechanism; clinical uncertainty"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

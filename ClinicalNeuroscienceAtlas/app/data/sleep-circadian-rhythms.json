@@ -1,0 +1,201 @@
+{
+  "id": "sleep-circadian-rhythms",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the two-process model of sleep timing.",
+    "Identify major circadian and sleep-wake control structures.",
+    "Differentiate NREM and REM functions.",
+    "Recognise how sleep disruption affects psychological assessment."
+  ],
+  "anatomy": [
+    {
+      "id": "scn",
+      "label": "Suprachiasmatic nucleus",
+      "short": "Set circadian phase",
+      "detail": "Uses retinal light input to synchronise daily rhythms.",
+      "clinical": "Misalignment can produce delayed or irregular sleep timing."
+    },
+    {
+      "id": "vlpo",
+      "label": "Ventrolateral preoptic area",
+      "short": "Promote sleep",
+      "detail": "Inhibits arousal systems to permit stable sleep.",
+      "clinical": "Reduced sleep drive or competing arousal can fragment sleep."
+    },
+    {
+      "id": "orexin",
+      "label": "Orexin system",
+      "short": "Stabilise wakefulness",
+      "detail": "Lateral hypothalamic orexin neurons prevent abrupt state switching.",
+      "clinical": "Loss of orexin is central to narcolepsy type 1."
+    },
+    {
+      "id": "brainstem",
+      "label": "Ascending arousal system",
+      "short": "Maintain cortical activation",
+      "detail": "Cholinergic and monoaminergic nuclei support wake and REM transitions.",
+      "clinical": "Medication and neurological disease can disrupt state control."
+    },
+    {
+      "id": "thalamocortical",
+      "label": "Thalamocortical loops",
+      "short": "Generate spindles and slow waves",
+      "detail": "Coordinate oscillatory NREM activity and sensory gating.",
+      "clinical": "Fragmentation may reduce restorative and memory-related processes."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Sleep & Circadian Rhythms",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Sleep & Circadian Rhythms model",
+    "stages": [
+      {
+        "label": "Light cue",
+        "text": "Retinal input adjusts the circadian clock."
+      },
+      {
+        "label": "Sleep pressure",
+        "text": "Homeostatic pressure accumulates during wake."
+      },
+      {
+        "label": "State switch",
+        "text": "Sleep-promoting systems inhibit arousal."
+      },
+      {
+        "label": "Cycle",
+        "text": "NREM and REM stages alternate through the night."
+      },
+      {
+        "label": "Reset",
+        "text": "Morning light and activity reinforce the next circadian cycle."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "sleep-circadian-rhythms-q1",
+      "question": "Sleep timing is governed mainly by interaction between:",
+      "options": [
+        "Circadian phase and homeostatic pressure",
+        "Vision and hearing",
+        "Language and memory",
+        "Motor and sensory cortex"
+      ],
+      "answer": 0,
+      "explanation": "The two-process model combines circadian timing with accumulated sleep pressure."
+    },
+    {
+      "id": "sleep-circadian-rhythms-q2",
+      "question": "The suprachiasmatic nucleus primarily:",
+      "options": [
+        "Coordinates circadian rhythms",
+        "Produces speech",
+        "Controls voluntary movement",
+        "Stores episodic memory"
+      ],
+      "answer": 0,
+      "explanation": "The SCN is the central circadian pacemaker."
+    },
+    {
+      "id": "sleep-circadian-rhythms-q3",
+      "question": "Orexin helps:",
+      "options": [
+        "Stabilise wakefulness",
+        "Create retinal images",
+        "Produce CSF",
+        "Encode smell"
+      ],
+      "answer": 0,
+      "explanation": "Orexin prevents unstable transitions between sleep and wake."
+    },
+    {
+      "id": "sleep-circadian-rhythms-q4",
+      "question": "Sleep spindles occur mainly during:",
+      "options": [
+        "NREM sleep",
+        "Wakefulness only",
+        "REM only",
+        "Anaesthesia only"
+      ],
+      "answer": 0,
+      "explanation": "Spindles are characteristic thalamocortical NREM oscillations."
+    },
+    {
+      "id": "sleep-circadian-rhythms-q5",
+      "question": "A client who cannot sleep at 10 pm but sleeps normally from 2 am to 10 am may have:",
+      "options": [
+        "Circadian delay",
+        "No sleep ability",
+        "A language disorder",
+        "Primary amnesia"
+      ],
+      "answer": 0,
+      "explanation": "Normal sleep at a delayed biological time suggests circadian misalignment rather than global inability to sleep."
+    }
+  ],
+  "tags": [
+    "accumulates",
+    "across",
+    "activation",
+    "Adenosine-related",
+    "architecture",
+    "arousal",
+    "ascending",
+    "Assessment",
+    "atonia",
+    "behavioural",
+    "between",
+    "biological",
+    "brainstem",
+    "breathing",
+    "changes",
+    "Circadian",
+    "circadian",
+    "consider",
+    "coordinates",
+    "Coordinating",
+    "cortical",
+    "daily",
+    "desynchronisation",
+    "distributed",
+    "duration",
+    "dysregulation",
+    "emotional",
+    "endocrine",
+    "entrain",
+    "generate",
+    "homeostatic",
+    "hypothalamic",
+    "illness",
+    "inattention",
+    "inhibit"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Sleep timing is governed mainly by interaction between:",
+      "The suprachiasmatic nucleus primarily:",
+      "Ask when the person can sleep, not only whether they can sleep. Circadian misalignment and insomnia require different formulations."
+    ]
+  },
+  "references": [
+    {
+      "type": "Framework",
+      "citation": "Borbély AA. A two process model of sleep regulation. Human Neurobiology. 1982."
+    },
+    {
+      "type": "Review",
+      "citation": "Saper CB, Fuller PM. Wake-sleep circuitry: an overview. Current Opinion in Neurobiology. 2017."
+    },
+    {
+      "type": "Consensus",
+      "citation": "American Academy of Sleep Medicine. International Classification of Sleep Disorders, 3rd ed., text revision. 2023."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas illustration of sleep & circadian rhythms showing key network components.",
+    "interactionSummary": "A keyboard-accessible sequence explains the system from input through adaptation."
+  }
+}

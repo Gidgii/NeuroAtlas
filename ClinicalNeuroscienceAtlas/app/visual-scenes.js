@@ -1,0 +1,68 @@
+const scenes = {
+  cell: {title:'A living cell at work', caption:'Energy production, protein synthesis and membrane transport operate continuously.', kind:'cell', labels:['Nucleus','Mitochondria','Membrane']},
+  membrane: {title:'Selective membrane traffic', caption:'Channels and pumps preserve the ion gradients that make signalling possible.', kind:'membrane', labels:['Na⁺','K⁺','ATP pump']},
+  electricity: {title:'An action potential in motion', caption:'Depolarisation travels along the axon as channels open in sequence.', kind:'axon', labels:['Resting','Threshold','Repolarising']},
+  chemistry: {title:'A synapse releasing transmitter', caption:'Calcium entry triggers vesicles to release chemical messengers across the synaptic cleft.', kind:'synapse', labels:['Vesicle','Cleft','Receptor']},
+  'brain-overview': {title:'Networks coordinating in real time', caption:'Cortical and subcortical regions exchange information rather than working as isolated centres.', kind:'brain', labels:['Cortex','Thalamus','Cerebellum']},
+  lobes: {title:'Information crossing lobe boundaries', caption:'Specialised regions cooperate through dense white-matter pathways.', kind:'lobes', labels:['Frontal','Parietal','Temporal','Occipital']},
+  subcortex: {title:'Subcortical routing and regulation', caption:'Thalamic, striatal and limbic circuits shape salience, action and memory.', kind:'subcortex', labels:['Thalamus','Striatum','Hippocampus']},
+  'brainstem-cerebellum': {title:'Timing, balance and arousal', caption:'Brainstem and cerebellar systems continuously regulate state, posture and prediction.', kind:'hindbrain', labels:['Brainstem','Cerebellum','Spinal cord']},
+  neurons: {title:'A neuron receiving and sending', caption:'Dendritic inputs are integrated at the soma before an axonal signal is propagated.', kind:'neuron', labels:['Dendrite','Soma','Axon']},
+  astrocytes: {title:'Astrocytes stabilising the synapse', caption:'Astrocytic processes buffer ions, recycle glutamate and support local energy demand.', kind:'astrocyte', labels:['Synapse','Astrocyte','Capillary']},
+  microglia: {title:'Microglial surveillance', caption:'Microglial processes sample the local environment and converge on signs of injury.', kind:'microglia', labels:['Survey','Signal','Phagocytose']},
+  'functional-networks': {title:'Networks reconfiguring', caption:'Distributed nodes increase and decrease coupling as goals and state change.', kind:'brain', labels:['Nodes','Hubs','Dynamic coupling']},
+  'default-mode-network': {title:'Internal simulation network', caption:'Posterior and medial regions coordinate memory, self-related thought and future simulation.', kind:'brain', labels:['mPFC','PCC','Angular gyrus']},
+  'salience-network': {title:'Detect, prioritise, recruit', caption:'Insular and cingulate systems flag relevance and recruit the systems needed next.', kind:'subcortex', labels:['Anterior insula','dACC','Switching']},
+  'frontoparietal-control-network': {title:'Adaptive control in action', caption:'Lateral frontal and parietal nodes flexibly couple with other systems to maintain goals.', kind:'lobes', labels:['Goal','Monitor','Adjust']},
+  'attention-networks': {title:'Select and reorient', caption:'Goal-directed and stimulus-driven systems coordinate where processing is allocated.', kind:'brain', labels:['Dorsal','Ventral','Reorient']},
+
+  'motor-system': {title:'From intention to movement', caption:'Planning, selection, descending command and error correction operate as one recurrent control loop.', kind:'lobes', labels:['Plan','Select','Correct']},
+  'autonomic-nervous-system': {title:'State regulation in motion', caption:'Visceral sensing and central autonomic networks continuously adjust organ function to current demand.', kind:'subcortex', labels:['Sense','Mobilise','Restore']},
+  'memory-systems': {title:'Encoding to retrieval', caption:'Attention, hippocampal binding, cortical storage and executive retrieval cooperate across time.', kind:'brain', labels:['Encode','Consolidate','Retrieve']},
+  'language-networks': {title:'Sound, meaning and expression', caption:'Dorsal and ventral pathways transform language forms into meaning and coordinated output.', kind:'lobes', labels:['Analyse','Meaning','Express']},
+  'executive-function': {title:'Goal-directed control', caption:'Control networks maintain goals, gate information, monitor conflict and adapt behaviour.', kind:'brain', labels:['Goal','Monitor','Adapt']},
+  'emotion-regulation-networks': {title:'Emotion Regulation Networks in motion', caption:'Salience and limbic systems register a meaningful change. Memory systems compare the present cue with past experience.', kind:'brain', labels:["Detect", "Contextualise", "Appraise"]},
+  'reward-system': {title:'Reward System in motion', caption:'The brain estimates likely value before acting. Effort is allocated toward a selected option.', kind:'brain', labels:["Predict", "Act", "Outcome"]},
+  'sleep-circadian-rhythms': {title:'Sleep & Circadian Rhythms in motion', caption:'Retinal input adjusts the circadian clock. Homeostatic pressure accumulates during wake.', kind:'brain', labels:["Light cue", "Sleep pressure", "State switch"]},
+  'pain-processing': {title:'Pain Processing in motion', caption:'Peripheral receptors encode potential threat. Spinal pathways relay and transform signals.', kind:'brain', labels:["Detect", "Transmit", "Interpret"]},
+  'brain-health-ageing': {title:'Brain Health & Ageing in motion', caption:'Support vascular, metabolic, sensory and sleep health. Use learning, movement and social connection to sustain plasticity.', kind:'brain', labels:["Maintain", "Engage", "Monitor"]},
+  'personality-disorders-neuroscience': {title:'Personality Disorders: Network and Developmental Neuroscience in motion', caption:'Personality is the brain’s long-term way of predicting people, regulating emotion and choosing how to respond.', kind:'brain', labels:['Detect','Integrate','Respond']},
+  'sleep-disorders-neuroscience': {title:'Sleep Disorders Neuroscience in motion', caption:'Sleep is controlled by a body clock, growing sleep pressure and brain systems that switch between waking and sleep.', kind:'hindbrain', labels:['Detect','Integrate','Respond']},
+  'substance-use-neuroscience': {title:'Substance Use and Addiction Neuroscience in motion', caption:'Addictive substances can strongly teach the brain that a drug and its cues matter.', kind:'subcortex', labels:['Detect','Integrate','Respond']},
+  'neurodegenerative-disorders': {title:'Neurodegenerative Disorders in motion', caption:'Neurodegenerative disorders gradually damage particular brain cells and networks.', kind:'brain', labels:['Detect','Integrate','Respond']},
+  'epilepsy-neuroscience': {title:'Epilepsy Neuroscience in motion', caption:'A seizure is a temporary burst of abnormal, overly synchronised brain activity.', kind:'axon', labels:['Detect','Integrate','Respond']},
+  oligodendrocytes: {title:'Saltatory conduction', caption:'Myelin allows the electrical signal to jump rapidly between nodes of Ranvier.', kind:'myelin', labels:['Myelin','Node','Axon']},
+  'pituitary-and-sella-atlas': {title:'Hypothalamic–pituitary signalling', caption:'Portal vessels and neurosecretory axons link hypothalamic state signals with endocrine output while nearby visual and cranial-nerve structures remain clinically relevant.', kind:'subcortex', labels:['Hypothalamus','Pituitary','Feedback']},
+  'traumatic-brain-injury': {title:'Traumatic Brain Injury Neuroscience', caption:'Mechanical forces, network disruption and recovery across time.', kind:'subcortex', labels:['Pattern','Mechanism','Clinical action']},
+  'migraine-neuroscience': {title:'Migraine Neuroscience', caption:'A sensory-processing and trigeminovascular brain disorder.', kind:'subcortex', labels:['Pattern','Mechanism','Clinical action']},
+  'eating-disorders-neuroscience': {title:'Eating Disorders Neuroscience', caption:'Interoception, reward, habit and threat in disorders of eating and body image.', kind:'subcortex', labels:['Pattern','Mechanism','Clinical action']},
+  'tic-tourette-neuroscience': {title:'Tic and Tourette Neuroscience', caption:'Urges, inhibition and habit-like motor-vocal output.', kind:'subcortex', labels:['Pattern','Mechanism','Clinical action']},
+  'intellectual-developmental-disability': {title:'Intellectual Developmental Disability Neuroscience', caption:'Developmental differences in reasoning, learning and adaptive functioning.', kind:'subcortex', labels:['Pattern','Mechanism','Clinical action']},
+
+};
+
+const dots = (count, cls='pulse-dot') => Array.from({length:count},(_,i)=>`<circle class="${cls} d${i%6}" cx="${110+i*82}" cy="230" r="8"/>`).join('');
+
+function artwork(kind){
+  if(kind==='cell') return `<ellipse class="tissue" cx="400" cy="230" rx="250" ry="155"/><circle class="nucleus" cx="380" cy="225" r="66"/><path class="organelle" d="M210 180c35-38 86 5 51 43s-86-5-51-43Zm330 70c34-38 84 4 50 42s-84-4-50-42Z"/>${dots(7,'transport-dot')}`;
+  if(kind==='membrane') return `<path class="membrane-line" d="M80 180 Q150 145 220 180 T360 180 T500 180 T640 180 T780 180 M80 280 Q150 245 220 280 T360 280 T500 280 T640 280 T780 280"/><g class="channel"><rect x="330" y="145" width="70" height="170" rx="25"/><path d="M365 165v130"/></g><g class="pump"><rect x="545" y="145" width="86" height="170" rx="32"/><path d="m565 235 22-35 22 35-22 35Z"/></g>${dots(8,'ion-dot')}`;
+  if(kind==='axon') return `<path class="axon-line" d="M90 230c90-105 170 105 260 0s170 105 260 0 140-40 190 0"/>${dots(8,'signal-dot')}<path class="baseline" d="M90 360h690"/><path class="trace" d="M100 340h120l45-10 30-170 35 180h450"/>`;
+  if(kind==='synapse') return `<path class="terminal" d="M80 110h230c80 0 105 50 105 120s-25 120-105 120H80Z"/><path class="dendrite" d="M800 115H585c-80 0-105 50-105 115s25 115 105 115h215Z"/><g class="vesicles">${[160,225,290,350].map((x,i)=>`<circle class="vesicle v${i}" cx="${x}" cy="${165+(i%2)*105}" r="24"/>`).join('')}</g>${[535,580,625,670,715].map((x,i)=>`<path class="receptor r${i}" d="M${x} 205v55m-14-55 14 18 14-18"/>`).join('')}${dots(7,'transmitter-dot')}`;
+  if(kind==='brain'||kind==='lobes') return `<path class="brain-shape" d="M165 255c-45-115 40-205 135-190 50-65 155-45 185 15 100-30 184 45 170 135 55 55 20 155-55 170-45 70-155 70-205 20-80 45-180-10-175-90-30-10-45-30-55-60Z"/><path class="network n1" d="M255 145 390 110l125 75 65 100-170 65-145-60Z"/><path class="network n2" d="m265 290 125-180 20 240 170-65"/>${[255,390,515,580,410,265].map((x,i)=>`<circle class="node node${i}" cx="${x}" cy="${[145,110,185,285,350,290][i]}" r="14"/>`).join('')}`;
+  if(kind==='subcortex') return `<path class="brain-outline" d="M135 265c-25-130 85-220 205-185 90-65 230-15 245 95 90 35 105 165 15 215-90 65-230 25-280-35-110 15-190-25-185-90Z"/><ellipse class="thalamus" cx="400" cy="230" rx="70" ry="46"/><path class="hippocampus" d="M360 300c70 70 170 50 190-25-35 42-95 45-135 5Z"/><path class="striatum" d="M330 165c55-40 145-38 190 10-60-18-120-5-175 35Z"/>${dots(7,'circuit-dot')}`;
+  if(kind==='hindbrain') return `<path class="brainstem" d="M350 90c85 10 115 70 85 145-20 55-5 95 28 150l-75 70c-55-80-70-150-40-215-45-45-35-125 2-150Z"/><path class="cerebellum" d="M450 170c145-65 250 25 225 130-25 110-180 110-245 25 50-10 70-55 20-155Z"/>${[0,1,2,3,4].map(i=>`<path class="cerebellar-line l${i}" d="M${485+i*18} ${215+i*12}q90-35 150 20"/>`).join('')}<path class="spinal" d="M410 410v85"/><circle class="state-pulse" cx="402" cy="160" r="16"/>`;
+  if(kind==='neuron') return `<g class="neuron-body"><circle cx="320" cy="235" r="72"/><circle class="nucleus" cx="320" cy="235" r="25"/><path d="M265 190 135 105m125 105L105 235m160 35L145 390m235-155 245 5"/></g>${[625,675,725,775].map((x,i)=>`<circle class="signal-dot d${i}" cx="${x}" cy="240" r="9"/>`).join('')}<path class="branches" d="M135 105 90 70m45 35 10-60M105 235 45 205m60 30-55 45m95 110-45 45m45-45 15 65"/>`;
+  if(kind==='astrocyte') return `<path class="capillary" d="M80 390c150-70 250 65 390-5s220 25 330-45"/><g class="astro"><circle cx="400" cy="240" r="48"/><path d="M400 195 310 95m70 105-160 0m140 55-145 110m195-75 15 115m25-150 155-100m-120 125 175 75"/></g><path class="synapse-mini" d="M130 130h120m100 0h120"/>${dots(7,'resource-dot')}`;
+  if(kind==='microglia') return `<g class="microglia"><circle cx="400" cy="230" r="45"/><path d="M380 195 270 90m100 120-170-10m165 45-145 110m200-75 35 130m0-160 155-115m-125 140 170 80"/></g><circle class="injury" cx="660" cy="335" r="28"/>${[0,1,2,3,4,5].map(i=>`<circle class="survey-dot s${i}" cx="${270+i*66}" cy="${90+(i%3)*120}" r="7"/>`).join('')}`;
+  return `<path class="axon-core" d="M70 230h740"/>${[120,265,410,555,700].map((x,i)=>`<rect class="myelin m${i}" x="${x}" y="185" width="105" height="90" rx="42"/>`).join('')}${[240,385,530,675].map((x,i)=>`<circle class="node-pulse n${i}" cx="${x}" cy="230" r="10"/>`).join('')}`;
+}
+
+export function renderVisualScene(id){
+  const s=scenes[id];
+  if(!s) return '';
+  return `<section class="visual-demo" data-visual-demo aria-labelledby="visual-title-${id}">
+    <div class="visual-demo-head"><div><div class="eyebrow">Live concept model</div><h2 id="visual-title-${id}">${s.title}</h2></div><button class="visual-close" data-close-visual aria-label="Close animation">×</button></div>
+    <div class="visual-stage scene-${s.kind}"><svg viewBox="0 0 880 520" role="img" aria-label="Animated demonstration: ${s.title}">${artwork(s.kind)}</svg><div class="scanline" aria-hidden="true"></div></div>
+    <p>${s.caption}</p><div class="visual-labels">${s.labels.map(x=>`<span>${x}</span>`).join('')}</div>
+  </section>`;
+}

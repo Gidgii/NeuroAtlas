@@ -1,0 +1,176 @@
+{
+  "id": "clinical-integration-limitations-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 40,
+  "level": 28,
+  "title": "Clinical Integration and Limitations",
+  "subtitle": "Formulation, consent, outcomes and humility",
+  "hero": "clinical-integration-limitations-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating clinical integration and limitations across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "current-evidence-emdr"
+  ],
+  "previousConcept": "current-evidence-emdr",
+  "nextConcept": null,
+  "tags": [
+    "clinical",
+    "integration",
+    "and",
+    "limitations",
+    "trauma",
+    "emdr",
+    "established clinical governance principles"
+  ],
+  "searchTerms": [
+    "clinical",
+    "integration",
+    "and",
+    "limitations",
+    "trauma",
+    "emdr",
+    "established clinical governance principles",
+    "formulation",
+    "consent",
+    "outcomes",
+    "humility"
+  ],
+  "learningObjectives": [
+    "Explain clinical integration and limitations in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in clinical integration and limitations.",
+    "Identify one limitation or safety implication relevant to clinical integration and limitations."
+  ],
+  "sections": {
+    "explainSimply": "EMDR should be integrated into a broader assessment and treatment plan rather than treated as a universal technique.",
+    "explainLikePsychologist": "Use shared decision-making, validated outcomes, risk monitoring, cultural formulation and coordination with other care.",
+    "advancedClinicalDetail": "Clinical improvement should be judged by symptoms, functioning and goals—not by presumed neural “processing” or dramatic session experiences.",
+    "thinkOfItLike": "Think of clinical integration and limitations as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need clinical integration and limitations to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "A compelling narrative is not a substitute for outcome data.",
+    "clinicalPearl": "Clinical pearl: use clinical integration and limitations to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses clinical integration and limitations to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "A compelling narrative is not a substitute for outcome data. Evidence classification: established clinical governance principles."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "EMDR should be integrated into a broader assessment and treatment plan rather than treated as a universal technique."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Use shared decision-making, validated outcomes, risk monitoring, cultural formulation and coordination with other care."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "A compelling narrative is not a substitute for outcome data."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "EMDR should be integrated into a broader assessment and treatment plan rather than treated as a universal technique.",
+      "Use shared decision-making, validated outcomes, risk monitoring, cultural formulation and coordination with other care.",
+      "A compelling narrative is not a substitute for outcome data."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "clinical-integration-limitations-emdr-q1",
+      "question": "What is the most accurate core statement about Clinical Integration and Limitations?",
+      "options": [
+        "EMDR should be integrated into a broader assessment and treatment plan rather than treated as a universal technique.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "EMDR should be integrated into a broader assessment and treatment plan rather than treated as a universal technique."
+    },
+    {
+      "id": "clinical-integration-limitations-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Use shared decision-making, validated outcomes, risk monitoring, cultural formulation and coordination with other care.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Use shared decision-making, validated outcomes, risk monitoring, cultural formulation and coordination with other care."
+    },
+    {
+      "id": "clinical-integration-limitations-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "A compelling narrative is not a substitute for outcome data.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "A compelling narrative is not a substitute for outcome data."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "EMDR should be integrated into a broader assessment and treatment plan rather than treated as a universal technique."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "A compelling narrative is not a substitute for outcome data."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established clinical governance principles"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

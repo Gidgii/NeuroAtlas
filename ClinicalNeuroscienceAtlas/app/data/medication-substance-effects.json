@@ -1,0 +1,138 @@
+{
+  "id": "medication-substance-effects",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Medication and Substance Effects.",
+    "Apply Medication and Substance Effects to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Sedatives, stimulants, antidepressants, antipsychotics, anticonvulsants, caffeine, alcohol and withdrawal states can alter spectral and epileptiform features."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Dose, timing, adherence and recent changes should be documented. Medication effects can interact with sleep and diagnosis."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Prevents misattribution of pharmacological effects to disorder or intervention."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Ignoring medication timing invalidates longitudinal comparison."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Medication and Substance Effects",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Sedatives, stimulants, antidepressants, antipsychotics, anticonvulsants, caffeine, alcohol and withdrawal states can alter spectral and epileptiform features."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Dose, timing, adherence and recent changes should be documented. Medication effects can interact with sleep and diagnosis."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Prevents misattribution of pharmacological effects to disorder or intervention."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Ignoring medication timing invalidates longitudinal comparison."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Medication and Substance Effects"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Medication and Substance Effects?",
+      "options": [
+        "Sedatives, stimulants, antidepressants, antipsychotics, anticonvulsants, caffeine, alcohol and withdrawal states can alter spectral and epileptiform features.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Sedatives, stimulants, antidepressants, antipsychotics, anticonvulsants, caffeine, alcohol and withdrawal states can alter spectral and epileptiform features."
+    },
+    {
+      "question": "What is the safest clinical principle for Medication and Substance Effects?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Medication and Substance Effects?",
+      "options": [
+        "Ignoring medication timing invalidates longitudinal comparison.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Ignoring medication timing invalidates longitudinal comparison."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Dose, timing, adherence and recent changes should be documented. Medication effects can interact with sleep and diagnosis."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Prevents misattribution of pharmacological effects to disorder or intervention."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Ignoring medication timing invalidates longitudinal comparison."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "The brain recorded is the brain under its current pharmacological conditions."
+    }
+  ],
+  "tags": [
+    "medication and substance effects",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "drugs",
+    "alter",
+    "rhythms",
+    "mimic"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

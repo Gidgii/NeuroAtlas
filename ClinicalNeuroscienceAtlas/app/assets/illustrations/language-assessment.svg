@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+<title id="title">Language Assessment</title><desc id="desc">A clinical neuroscience pathway showing four linked processes for Language Assessment.</desc>
+<defs><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="chalk" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 24L24 0" stroke="#ffffff" stroke-opacity=".025"/></pattern></defs>
+<rect width="900" height="560" rx="30" fill="#0b1014"/><rect width="900" height="560" rx="30" fill="url(#chalk)"/>
+<g fill="none" stroke="#ffd166" stroke-width="6" stroke-linecap="round" filter="url(#glow)">
+<path d="M150 280 C240 130 340 130 420 280 S600 430 750 280" opacity=".8"/>
+<circle cx="150" cy="280" r="62"/><circle cx="350" cy="190" r="62"/><circle cx="550" cy="370" r="62"/><circle cx="750" cy="280" r="62"/>
+</g>
+<g fill="#f6fbff" font-family="system-ui, sans-serif" text-anchor="middle"><text x="450" y="62" font-size="34" font-weight="700">Language Assessment</text>
+<text x="150" y="276" font-size="17" font-weight="700">Input analysis</text><text x="350" y="186" font-size="17" font-weight="700">Semantic access</text><text x="550" y="366" font-size="17" font-weight="700">Message construction</text><text x="750" y="276" font-size="17" font-weight="700">Motor output</text>
+<text x="450" y="515" font-size="20" fill="#b7c7d4">Evidence → interpretation → action</text></g>
+</svg>

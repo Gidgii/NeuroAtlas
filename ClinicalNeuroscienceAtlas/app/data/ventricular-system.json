@@ -1,0 +1,179 @@
+{
+  "id": "ventricular-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Ventricular System.",
+    "Explain how the Ventricular System contributes to distributed brain function.",
+    "Connect Ventricular System physiology with clinically relevant symptoms and conditions.",
+    "Interpret structural or functional findings cautiously and in context."
+  ],
+  "anatomy": [
+    {
+      "id": "lateral",
+      "label": "Lateral ventricles",
+      "short": "Paired cerebral chambers",
+      "detail": "C-shaped spaces within each hemisphere containing choroid plexus.",
+      "clinical": "Enlarge with hydrocephalus or cerebral volume loss."
+    },
+    {
+      "id": "third",
+      "label": "Third ventricle",
+      "short": "Midline diencephalic chamber",
+      "detail": "Narrow cavity between the thalami.",
+      "clinical": "Can be compressed or enlarged by nearby pathology."
+    },
+    {
+      "id": "aqueduct",
+      "label": "Cerebral aqueduct",
+      "short": "Narrow midbrain channel",
+      "detail": "Connects third and fourth ventricles.",
+      "clinical": "A common site of obstructive hydrocephalus."
+    },
+    {
+      "id": "fourth",
+      "label": "Fourth ventricle",
+      "short": "Hindbrain chamber",
+      "detail": "Lies between brainstem and cerebellum.",
+      "clinical": "Outflow obstruction raises upstream pressure."
+    },
+    {
+      "id": "choroid",
+      "label": "Choroid plexus",
+      "short": "CSF-producing tissue",
+      "detail": "Specialised epithelium filters plasma and actively secretes CSF.",
+      "clinical": "Inflammation or tumour can alter CSF production or composition."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Ventricular System",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "lateral",
+        "label": "Lateral ventricles",
+        "description": "C-shaped spaces within each hemisphere containing choroid plexus."
+      },
+      {
+        "id": "third",
+        "label": "Third ventricle",
+        "description": "Narrow cavity between the thalami."
+      },
+      {
+        "id": "aqueduct",
+        "label": "Cerebral aqueduct",
+        "description": "Connects third and fourth ventricles."
+      },
+      {
+        "id": "fourth",
+        "label": "Fourth ventricle",
+        "description": "Lies between brainstem and cerebellum."
+      },
+      {
+        "id": "choroid",
+        "label": "Choroid plexus",
+        "description": "Specialised epithelium filters plasma and actively secretes CSF."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "ventricular-system-q1",
+      "question": "Which component is best described as: Paired cerebral chambers?",
+      "options": [
+        "Lateral ventricles",
+        "Third ventricle",
+        "Cerebral aqueduct",
+        "Fourth ventricle"
+      ],
+      "answer": 0,
+      "explanation": "C-shaped spaces within each hemisphere containing choroid plexus."
+    },
+    {
+      "id": "ventricular-system-q2",
+      "question": "Which component is best described as: Midline diencephalic chamber?",
+      "options": [
+        "Third ventricle",
+        "Lateral ventricles",
+        "Cerebral aqueduct",
+        "Fourth ventricle"
+      ],
+      "answer": 0,
+      "explanation": "Narrow cavity between the thalami."
+    },
+    {
+      "id": "ventricular-system-q3",
+      "question": "Which component is best described as: Narrow midbrain channel?",
+      "options": [
+        "Cerebral aqueduct",
+        "Lateral ventricles",
+        "Third ventricle",
+        "Fourth ventricle"
+      ],
+      "answer": 0,
+      "explanation": "Connects third and fourth ventricles."
+    },
+    {
+      "id": "ventricular-system-q4",
+      "question": "Which component is best described as: Hindbrain chamber?",
+      "options": [
+        "Fourth ventricle",
+        "Lateral ventricles",
+        "Third ventricle",
+        "Cerebral aqueduct"
+      ],
+      "answer": 0,
+      "explanation": "Lies between brainstem and cerebellum."
+    },
+    {
+      "id": "ventricular-system-q5",
+      "question": "Which component is best described as: CSF-producing tissue?",
+      "options": [
+        "Choroid plexus",
+        "Lateral ventricles",
+        "Third ventricle",
+        "Cerebral aqueduct"
+      ],
+      "answer": 0,
+      "explanation": "Specialised epithelium filters plasma and actively secretes CSF."
+    }
+  ],
+  "tags": [
+    "CSF",
+    "hydrocephalus",
+    "ventricles",
+    "intracranial pressure",
+    "choroid plexus"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Ventricular System.",
+      "Explain one clinically relevant function of the Ventricular System.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Sakka et al., 2011",
+      "year": "2011",
+      "title": "Anatomy and physiology of cerebrospinal fluid",
+      "source": "European Annals of Otorhinolaryngology"
+    },
+    {
+      "authors": "Iliff et al., 2012",
+      "year": "2012",
+      "title": "A paravascular pathway facilitates CSF flow through brain parenchyma",
+      "source": "Science Translational Medicine"
+    },
+    {
+      "authors": "Bothwell et al., 2019",
+      "year": "2019",
+      "title": "Cerebrospinal fluid dynamics and intracranial pressure",
+      "source": "Journal of Neurology"
+    }
+  ]
+}

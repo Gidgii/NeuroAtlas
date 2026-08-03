@@ -1,0 +1,173 @@
+{
+  "id": "prefrontal-cortex-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 10,
+  "level": 28,
+  "title": "Prefrontal Cortex in Trauma",
+  "subtitle": "Appraisal, inhibition and flexible control",
+  "hero": "prefrontal-cortex-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating prefrontal cortex in trauma across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "hippocampus-trauma"
+  ],
+  "previousConcept": "hippocampus-trauma",
+  "nextConcept": "salience-network-trauma",
+  "tags": [
+    "prefrontal",
+    "cortex",
+    "trauma",
+    "trauma",
+    "emdr",
+    "established network role"
+  ],
+  "searchTerms": [
+    "prefrontal",
+    "cortex",
+    "trauma",
+    "emdr",
+    "established network role",
+    "appraisal",
+    "inhibition",
+    "flexible",
+    "control"
+  ],
+  "learningObjectives": [
+    "Explain prefrontal cortex in trauma in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in prefrontal cortex in trauma.",
+    "Identify one limitation or safety implication relevant to prefrontal cortex in trauma."
+  ],
+  "sections": {
+    "explainSimply": "Prefrontal systems help evaluate context, inhibit habitual responses and choose actions.",
+    "explainLikePsychologist": "Under high arousal, top-down control may become less efficient, especially when cues resemble prior threat.",
+    "advancedClinicalDetail": "Medial and lateral prefrontal regions interact with amygdala, hippocampus and salience networks; simple “offline cortex” explanations overstate the evidence.",
+    "thinkOfItLike": "Think of prefrontal cortex in trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need prefrontal cortex in trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Reduced control during threat is state-dependent, not evidence of permanent loss.",
+    "clinicalPearl": "Clinical pearl: use prefrontal cortex in trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses prefrontal cortex in trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Reduced control during threat is state-dependent, not evidence of permanent loss. Evidence classification: established network role."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Prefrontal systems help evaluate context, inhibit habitual responses and choose actions."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Under high arousal, top-down control may become less efficient, especially when cues resemble prior threat."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Reduced control during threat is state-dependent, not evidence of permanent loss."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Prefrontal systems help evaluate context, inhibit habitual responses and choose actions.",
+      "Under high arousal, top-down control may become less efficient, especially when cues resemble prior threat.",
+      "Reduced control during threat is state-dependent, not evidence of permanent loss."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "prefrontal-cortex-trauma-q1",
+      "question": "What is the most accurate core statement about Prefrontal Cortex in Trauma?",
+      "options": [
+        "Prefrontal systems help evaluate context, inhibit habitual responses and choose actions.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Prefrontal systems help evaluate context, inhibit habitual responses and choose actions."
+    },
+    {
+      "id": "prefrontal-cortex-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Under high arousal, top-down control may become less efficient, especially when cues resemble prior threat.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Under high arousal, top-down control may become less efficient, especially when cues resemble prior threat."
+    },
+    {
+      "id": "prefrontal-cortex-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Reduced control during threat is state-dependent, not evidence of permanent loss.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Reduced control during threat is state-dependent, not evidence of permanent loss."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Prefrontal systems help evaluate context, inhibit habitual responses and choose actions."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Reduced control during threat is state-dependent, not evidence of permanent loss."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established network role"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "executive-function",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate inhibition, updating, shifting, planning and monitoring.",
+    "Identify major cortical and subcortical control systems.",
+    "Explain why executive performance varies across contexts.",
+    "Translate executive mechanisms into practical environmental supports."
+  ],
+  "anatomy": [
+    {
+      "id": "dlpfc",
+      "label": "Lateral prefrontal cortex",
+      "short": "Maintain rules and organise behaviour",
+      "detail": "Lateral PFC sustains goals and relational structure across delays.",
+      "clinical": "Dysfunction may produce distractibility, poor planning and reduced cognitive flexibility."
+    },
+    {
+      "id": "parietal",
+      "label": "Posterior parietal cortex",
+      "short": "Represent priorities and task-relevant information",
+      "detail": "Parietal systems allocate attention and maintain action-relevant representations.",
+      "clinical": "Disruption can impair working memory, selection and goal-directed attention."
+    },
+    {
+      "id": "dacc",
+      "label": "Dorsal anterior cingulate",
+      "short": "Monitor conflict, effort and outcomes",
+      "detail": "dACC signals when control demands or errors require adjustment.",
+      "clinical": "Altered monitoring can contribute to perseveration or inefficient overcontrol."
+    },
+    {
+      "id": "basal",
+      "label": "Basal-ganglia gating",
+      "short": "Update working memory and action policies",
+      "detail": "Corticostriatal loops regulate when representations and actions are opened or suppressed.",
+      "clinical": "Dopaminergic imbalance can alter effort, flexibility and response vigour."
+    },
+    {
+      "id": "network",
+      "label": "Control-network coordination",
+      "short": "Couple flexibly with task-relevant systems",
+      "detail": "Frontoparietal and cingulo-opercular networks adapt connectivity to current goals.",
+      "clinical": "Poor coordination may appear as inconsistency rather than global impairment."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Executive Function",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Executive Function model",
+    "stages": [
+      {
+        "label": "Goal",
+        "text": "Represent the desired outcome and task rules."
+      },
+      {
+        "label": "Prioritise",
+        "text": "Allocate attention and working-memory capacity."
+      },
+      {
+        "label": "Gate",
+        "text": "Permit useful information or actions while suppressing competitors."
+      },
+      {
+        "label": "Monitor",
+        "text": "Compare performance with the goal and detect conflict or error."
+      },
+      {
+        "label": "Adapt",
+        "text": "Shift strategy, effort or environment when the current plan is ineffective."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "executive-function-q1",
+      "question": "Executive function is best understood as:",
+      "options": [
+        "A family of interacting control processes",
+        "A single ability located in one frontal spot",
+        "General intelligence only",
+        "Motor speed only"
+      ],
+      "answer": 0,
+      "explanation": "Executive control includes separable but interacting processes distributed across networks."
+    },
+    {
+      "id": "executive-function-q2",
+      "question": "Dorsal anterior cingulate cortex contributes strongly to:",
+      "options": [
+        "Conflict and performance monitoring",
+        "Primary hearing",
+        "Hormone synthesis",
+        "Visual transduction"
+      ],
+      "answer": 0,
+      "explanation": "dACC tracks conflict, errors, effort and the need for control adjustment."
+    },
+    {
+      "id": "executive-function-q3",
+      "question": "Basal-ganglia gating helps regulate:",
+      "options": [
+        "What enters working memory and which actions are selected",
+        "CSF absorption",
+        "Retinal colour coding",
+        "Peripheral touch receptors"
+      ],
+      "answer": 0,
+      "explanation": "Corticostriatal loops regulate updating and action selection."
+    },
+    {
+      "id": "executive-function-q4",
+      "question": "Which factor can reduce executive performance without permanent frontal damage?",
+      "options": [
+        "Sleep deprivation",
+        "Having a corpus callosum",
+        "Normal vision",
+        "Myelination alone"
+      ],
+      "answer": 0,
+      "explanation": "Fatigue and sleep loss can substantially impair attention, inhibition and working memory."
+    },
+    {
+      "id": "executive-function-q5",
+      "question": "The most accurate clinical statement is:",
+      "options": [
+        "Executive performance depends strongly on context and scaffolding",
+        "Normal testing rules out daily impairment",
+        "Impulsivity always means ADHD",
+        "Executive dysfunction is purely motivational"
+      ],
+      "answer": 0,
+      "explanation": "Structured testing may reduce real-world demands; context and supports materially affect performance."
+    }
+  ],
+  "tags": [
+    "executive function",
+    "inhibition",
+    "working memory",
+    "cognitive flexibility",
+    "prefrontal cortex",
+    "dACC",
+    "ADHD"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the major components of the Executive Function.",
+      "Explain one clinically relevant function of the Executive Function.",
+      "Identify one common oversimplification to avoid."
+    ]
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Miyake A et al. The unity and diversity of executive functions. Cogn Psychol. 2000;41:49–100."
+    },
+    {
+      "type": "Review",
+      "citation": "Diamond A. Executive functions. Annu Rev Psychol. 2013;64:135–168."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "signal-quality-impedance",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 10,
+  "level": 24,
+  "title": "Signal Quality and Impedance",
+  "subtitle": "Check the measurement before training the person",
+  "hero": "signal-quality-impedance.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating signal quality and impedance within a neurofeedback closed loop.",
+  "prerequisites": [
+    "electrode-preparation"
+  ],
+  "nextConcept": "artifact-recognition-neurofeedback",
+  "previousConcept": "electrode-preparation",
+  "tags": [
+    "signal",
+    "quality",
+    "and",
+    "impedance",
+    "neurofeedback",
+    "acquisition",
+    "established acquisition principle"
+  ],
+  "searchTerms": [
+    "signal",
+    "quality",
+    "and",
+    "impedance",
+    "neurofeedback",
+    "acquisition",
+    "established acquisition principle",
+    "check",
+    "the",
+    "measurement",
+    "before",
+    "training",
+    "person"
+  ],
+  "learningObjectives": [
+    "Explain signal quality and impedance without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in signal quality and impedance.",
+    "Identify one safety or validity limitation relevant to signal quality and impedance."
+  ],
+  "sections": {
+    "explainSimply": "Impedance describes how well the electrode contact conducts changing electrical signals.",
+    "explainLikePsychologist": "Low and balanced impedances reduce susceptibility to noise, although acceptable ranges depend on amplifier design. Live signal inspection remains essential.",
+    "advancedClinicalDetail": "High-input-impedance amplifiers tolerate higher absolute impedance, but large asymmetry can increase common-mode contamination. Quantitative thresholds should follow manufacturer and laboratory standards.",
+    "thinkOfItLike": "Trying to tune a faint radio station: contact, interference and antenna placement determine what reaches the speaker.",
+    "whyPsychologistsCare": "Psychologists need to understand signal quality and impedance to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "A green impedance indicator does not prove the waveform is artifact-free.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using signal quality and impedance predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "A green impedance indicator does not prove the waveform is artifact-free. Evidence classification: established acquisition principle."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "High-input-impedance amplifiers tolerate higher absolute impedance, but large asymmetry can increase common-mode contamination. Quantitative thresholds should follow manufacturer and laboratory standards."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Impedance describes how well the electrode contact conducts changing electrical signals."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Impedance describes how well the electrode contact conducts changing electrical signals.",
+      "Low and balanced impedances reduce susceptibility to noise, although acceptable ranges depend on amplifier design. Live signal inspection remains essential.",
+      "A green impedance indicator does not prove the waveform is artifact-free."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Signal Quality and Impedance?",
+      "options": [
+        "Impedance describes how well the electrode contact conducts changing electrical signals.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Impedance describes how well the electrode contact conducts changing electrical signals."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Signal Quality and Impedance?",
+      "options": [
+        "A green impedance indicator does not prove the waveform is artifact-free.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "A green impedance indicator does not prove the waveform is artifact-free."
+    },
+    {
+      "question": "How should the evidence for Signal Quality and Impedance be communicated?",
+      "options": [
+        "As established acquisition principle, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: established acquisition principle."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Impedance describes how well the electrode contact conducts changing electrical signals."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "A green impedance indicator does not prove the waveform is artifact-free."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "established acquisition principle"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

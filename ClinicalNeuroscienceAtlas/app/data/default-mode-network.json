@@ -1,0 +1,157 @@
+{
+  "id": "default-mode-network",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify major DMN nodes and subsystems.",
+    "Explain the DMN beyond the misleading idea of “rest”.",
+    "Relate DMN processes to memory, self and social cognition.",
+    "Interpret clinical associations without treating them as biomarkers."
+  ],
+  "anatomy": [
+    {
+      "id": "mpfc",
+      "label": "Medial prefrontal cortex",
+      "short": "Self-referential and valuation processes",
+      "detail": "Medial prefrontal regions contribute to self-related evaluation, social inference and value integration.",
+      "clinical": "Altered self-appraisal and rumination may recruit these processes."
+    },
+    {
+      "id": "pcc",
+      "label": "Posterior cingulate / precuneus",
+      "short": "Core integrative hub",
+      "detail": "Posterior midline regions participate in autobiographical, contextual and internally directed processing.",
+      "clinical": "They are commonly examined in depression, dementia and disorders of consciousness."
+    },
+    {
+      "id": "angular",
+      "label": "Angular gyrus",
+      "short": "Semantic and episodic integration",
+      "detail": "Angular regions help integrate multimodal meaning and memory-related information.",
+      "clinical": "Damage can disrupt complex semantic and attentional operations."
+    },
+    {
+      "id": "mtl",
+      "label": "Medial temporal subsystem",
+      "short": "Memory construction",
+      "detail": "Hippocampal and parahippocampal interactions support scene construction and episodic simulation.",
+      "clinical": "Trauma and memory disorders can alter the content and accessibility of internal simulation."
+    },
+    {
+      "id": "dmn-subsystems",
+      "label": "DMN subsystems",
+      "short": "Partly specialised internal systems",
+      "detail": "The DMN contains interacting subsystems rather than one uniform circuit.",
+      "clinical": "Different symptoms may involve different nodes or coupling patterns."
+    }
+  ],
+  "interaction": {
+    "title": "Default Mode Network sequence",
+    "instruction": "Select a component, then run the sequence to follow information flow across the network.",
+    "ariaLabel": "Interactive default mode network model",
+    "stages": [
+      {
+        "label": "Disengage",
+        "text": "External task demand falls or attention turns inward."
+      },
+      {
+        "label": "Retrieve",
+        "text": "Autobiographical and semantic information becomes available."
+      },
+      {
+        "label": "Simulate",
+        "text": "The brain constructs a self-, social- or future-oriented model."
+      },
+      {
+        "label": "Integrate",
+        "text": "Internal models are compared with goals and current context."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "The DMN is most accurately described as:",
+      "options": [
+        "A distributed system supporting several internally oriented processes",
+        "A brain-off switch",
+        "A single structure in the frontal lobe",
+        "A network active only during sleep"
+      ],
+      "answer": 0,
+      "explanation": "The DMN supports multiple internally oriented functions."
+    },
+    {
+      "question": "A commonly described DMN core node is the:",
+      "options": [
+        "Posterior cingulate cortex",
+        "Primary motor cortex",
+        "Medulla",
+        "Superior colliculus"
+      ],
+      "answer": 0,
+      "explanation": "Posterior cingulate/precuneus is a key DMN hub."
+    },
+    {
+      "question": "Task-related DMN suppression means:",
+      "options": [
+        "Relative reduction during some externally demanding tasks",
+        "The network is damaged",
+        "The person has no inner speech",
+        "All DMN neurons stop firing"
+      ],
+      "answer": 0,
+      "explanation": "Suppression is relative and task dependent."
+    },
+    {
+      "question": "The DMN may support:",
+      "options": [
+        "Autobiographical memory and future simulation",
+        "Only visual edge detection",
+        "Spinal reflexes",
+        "Cerebrospinal fluid production"
+      ],
+      "answer": 0,
+      "explanation": "Memory-based internal simulation is a central DMN function."
+    },
+    {
+      "question": "Clinical DMN findings are best treated as:",
+      "options": [
+        "Group-level associations requiring contextual interpretation",
+        "A stand-alone diagnostic test",
+        "Proof of rumination in one person",
+        "Evidence that therapy cannot work"
+      ],
+      "answer": 0,
+      "explanation": "DMN findings are heterogeneous and not diagnostic at the individual level."
+    }
+  ],
+  "tags": [
+    "default mode network",
+    "functional connectivity",
+    "large-scale networks",
+    "clinical neuroscience",
+    "medial prefrontal cortex",
+    "posterior cingulate / precuneus",
+    "angular gyrus"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "The DMN is most accurately described as:",
+      "A commonly described DMN core node is the:",
+      "Task-related DMN suppression means:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Foundational paper",
+      "citation": "Raichle ME et al. A default mode of brain function. PNAS. 2001.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11209064/"
+    },
+    {
+      "type": "Review",
+      "citation": "Raichle ME. The brain’s default mode network. Annual Review of Neuroscience. 2015.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25938726/"
+    }
+  ]
+}

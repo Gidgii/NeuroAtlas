@@ -1,0 +1,138 @@
+{
+  "id": "multiple-comparisons",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Multiple Comparisons.",
+    "Apply Multiple Comparisons to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "QEEG may test many electrodes, bands and metrics simultaneously, increasing chance findings."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Correction procedures, preregistered hypotheses and replication reduce false discovery. Clinical reports should distinguish exploratory from confirmatory analyses."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Protects clinicians and clients from impressive but unreliable maps."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Cherry-picking the most extreme map after seeing all results is circular reasoning."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Multiple Comparisons",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "QEEG may test many electrodes, bands and metrics simultaneously, increasing chance findings."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Correction procedures, preregistered hypotheses and replication reduce false discovery. Clinical reports should distinguish exploratory from confirmatory analyses."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Protects clinicians and clients from impressive but unreliable maps."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Cherry-picking the most extreme map after seeing all results is circular reasoning."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Multiple Comparisons"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Multiple Comparisons?",
+      "options": [
+        "QEEG may test many electrodes, bands and metrics simultaneously, increasing chance findings.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "QEEG may test many electrodes, bands and metrics simultaneously, increasing chance findings."
+    },
+    {
+      "question": "What is the safest clinical principle for Multiple Comparisons?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Multiple Comparisons?",
+      "options": [
+        "Cherry-picking the most extreme map after seeing all results is circular reasoning.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Cherry-picking the most extreme map after seeing all results is circular reasoning."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Correction procedures, preregistered hypotheses and replication reduce false discovery. Clinical reports should distinguish exploratory from confirmatory analyses."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Protects clinicians and clients from impressive but unreliable maps."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Cherry-picking the most extreme map after seeing all results is circular reasoning."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "The more you look, the stricter your evidence must become."
+    }
+  ],
+  "tags": [
+    "multiple comparisons",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "controlling",
+    "false",
+    "positives",
+    "dimensional"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

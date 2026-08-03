@@ -1,0 +1,226 @@
+{
+  "id": "consciousness-arousal",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate arousal from conscious awareness.",
+    "Identify major ascending arousal and thalamocortical systems.",
+    "Explain why motor output may underestimate awareness.",
+    "Recognise clinical causes of altered consciousness."
+  ],
+  "anatomy": [
+    {
+      "id": "brainstem",
+      "label": "Ascending brainstem systems",
+      "short": "Stabilise wakefulness",
+      "detail": "Reticular and monoaminergic nuclei broadcast state-setting signals.",
+      "clinical": "Damage can cause profound drowsiness or coma."
+    },
+    {
+      "id": "hypothalamus",
+      "label": "Hypothalamus",
+      "short": "Coordinate sleep–wake state",
+      "detail": "Orexin and histamine systems stabilise wakefulness.",
+      "clinical": "Orexin loss is central to narcolepsy type 1."
+    },
+    {
+      "id": "thalamus",
+      "label": "Thalamus",
+      "short": "Gate and coordinate cortical access",
+      "detail": "Intralaminar and relay nuclei support widespread cortical activation.",
+      "clinical": "Bilateral injury may severely impair responsiveness."
+    },
+    {
+      "id": "cortex",
+      "label": "Association cortex",
+      "short": "Construct conscious content",
+      "detail": "Posterior and frontoparietal systems integrate perception and goals.",
+      "clinical": "Focal dysfunction can selectively disturb awareness."
+    },
+    {
+      "id": "network",
+      "label": "Global network integration",
+      "short": "Bind distributed information",
+      "detail": "Effective connectivity changes with state and task.",
+      "clinical": "Disconnection may preserve islands of processing without reliable report."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Consciousness & Arousal",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Consciousness & Arousal model",
+    "stages": [
+      {
+        "label": "Activate",
+        "text": "Brainstem and hypothalamic systems raise cortical readiness."
+      },
+      {
+        "label": "Gate",
+        "text": "Thalamic circuits regulate access and synchrony."
+      },
+      {
+        "label": "Integrate",
+        "text": "Distributed cortex combines sensory, memory and internal-state information."
+      },
+      {
+        "label": "Select",
+        "text": "Attention and goals prioritise content."
+      },
+      {
+        "label": "Respond",
+        "text": "Language and motor systems translate awareness into observable behaviour."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "consciousness-arousal-q1",
+      "question": "Consciousness is best separated into:",
+      "options": [
+        "Arousal and awareness",
+        "Memory and intelligence",
+        "Vision and hearing",
+        "Speech and movement"
+      ],
+      "answer": 0,
+      "explanation": "Arousal and awareness can dissociate clinically."
+    },
+    {
+      "id": "consciousness-arousal-q2",
+      "question": "The ascending arousal system is centred mainly in:",
+      "options": [
+        "Brainstem, hypothalamus and basal forebrain",
+        "Occipital cortex only",
+        "Cerebellar cortex only",
+        "Primary motor cortex"
+      ],
+      "answer": 0,
+      "explanation": "Distributed subcortical systems stabilise wakefulness."
+    },
+    {
+      "id": "consciousness-arousal-q3",
+      "question": "Why can awareness be underestimated?",
+      "options": [
+        "Motor or language output may be impaired",
+        "Awareness always produces speech",
+        "EEG directly reads thoughts",
+        "Arousal guarantees comprehension"
+      ],
+      "answer": 0,
+      "explanation": "A person may be aware but unable to communicate reliably."
+    },
+    {
+      "id": "consciousness-arousal-q4",
+      "question": "Bilateral thalamic injury may cause:",
+      "options": [
+        "Severe impairment of arousal and awareness",
+        "Isolated colour blindness",
+        "Peripheral neuropathy only",
+        "Enhanced wakefulness"
+      ],
+      "answer": 0,
+      "explanation": "The thalamus contributes to widespread cortical activation and integration."
+    },
+    {
+      "id": "consciousness-arousal-q5",
+      "question": "The most accurate model is:",
+      "options": [
+        "Consciousness is a distributed systems property",
+        "One cortical spot creates all consciousness",
+        "Wakefulness and awareness are identical",
+        "Consciousness is independent of physiology"
+      ],
+      "answer": 0,
+      "explanation": "No single region alone explains conscious state and content."
+    }
+  ],
+  "tags": [
+    "access",
+    "across",
+    "activity",
+    "alone",
+    "anatomical",
+    "arousal",
+    "ascending",
+    "assessment",
+    "association",
+    "attention",
+    "awake",
+    "aware",
+    "awareness",
+    "basal-forebrain",
+    "behavioural",
+    "being",
+    "bilateral",
+    "brain",
+    "brainstem",
+    "careful",
+    "centre",
+    "cholinergic",
+    "communication",
+    "conscious",
+    "consciousness",
+    "content",
+    "contribute",
+    "control",
+    "coordinated",
+    "cortical",
+    "corticocortical",
+    "damage",
+    "delirium",
+    "depends",
+    "depression",
+    "deprivation",
+    "differentiated",
+    "diffuse",
+    "disorders",
+    "disrupt",
+    "dissociation",
+    "distributed",
+    "disturbance",
+    "dopaminergic",
+    "drugs",
+    "dynamic",
+    "engagement",
+    "enough",
+    "especially",
+    "frontoparietal",
+    "goal-directed",
+    "having",
+    "histaminergic",
+    "hypothalamic",
+    "impaired",
+    "ingredients",
+    "injury",
+    "integration",
+    "lesions",
+    "linked"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Consciousness is best separated into:",
+      "The ascending arousal system is centred mainly in:",
+      "Never treat “awake” and “aware” as synonyms. Separate arousal, awareness, attention, communication and motor output."
+    ]
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    },
+    {
+      "type": "Reference",
+      "citation": "Edlow BL et al. Early detection of consciousness in patients with acute severe traumatic brain injury. Brain. 2017;140:2399–2414."
+    },
+    {
+      "type": "Reference",
+      "citation": "Saper CB, Fuller PM. Wake–sleep circuitry: an overview. Curr Opin Neurobiol. 2017;44:186–192."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas diagram of consciousness & arousal with labelled system components.",
+    "interactionSummary": "A keyboard-accessible five-stage sequence explains the system from input through integration."
+  }
+}

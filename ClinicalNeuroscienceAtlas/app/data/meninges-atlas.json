@@ -1,0 +1,287 @@
+{
+  "id": "meninges-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 17,
+  "level": 29,
+  "title": "Meninges Atlas",
+  "subtitle": "Explore protective layers, dural reflections, venous sinuses and CSF spaces",
+  "pronunciation": "meh-NIN-jeez",
+  "hero": "meninges-atlas.svg",
+  "altText": "Layered sagittal brain illustration showing dura mater, arachnoid mater, pia mater, subarachnoid space, dural reflections and venous sinuses.",
+  "prerequisites": [
+    "brainstem-atlas"
+  ],
+  "previousConcept": "brainstem-atlas",
+  "nextConcept": "cerebral-vasculature-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "meninges atlas",
+    "clinical localisation",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Meninges Atlas",
+    "meh-NIN-jeez",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Identify dura, arachnoid, pia and the clinically relevant meningeal spaces.",
+    "Relate dural reflections and venous sinuses to intracranial compartmentalisation and drainage.",
+    "Differentiate epidural, subdural and subarachnoid pathology by anatomy and mechanism."
+  ],
+  "sections": {
+    "explainSimply": "The meninges are three protective coverings wrapped around the brain and spinal cord. Their layers create spaces for blood vessels and cerebrospinal fluid.",
+    "explainLikePsychologist": "Meningeal anatomy matters because haemorrhage, infection, pressure shifts and pain-sensitive structures can alter cognition, behaviour and consciousness even when brain tissue is initially intact.",
+    "advancedClinicalDetail": "The pachymeninx is dura mater; the leptomeninges are arachnoid and pia. Dural border cells permit subdural separation, while the subarachnoid space contains CSF, arteries and bridging veins. Dural folds partition the cranial cavity and house venous sinuses.",
+    "thinkOfItLike": "Think of three nested protective sleeves: a tough outer shell, a web-like middle membrane and a delicate inner film that follows every contour.",
+    "whyPsychologistsCare": "Headache, altered consciousness and focal deficits may arise from meningeal haemorrhage, inflammation or pressure effects; localisation requires attention to layer and compartment.",
+    "whenItGoesWrong": "Treating all extra-axial bleeding as equivalent obscures different vessels, time courses and emergency risks.",
+    "clinicalPearl": "The “subdural space” is usually a potential space created by tissue separation, not a pre-existing open cavity.",
+    "practicalExample": "An older adult with falls and gradually worsening confusion may have a chronic subdural haematoma from torn bridging veins.",
+    "limitationsCautions": "This atlas supports anatomical learning only; suspected meningitis or intracranial haemorrhage requires urgent medical assessment."
+  },
+  "anatomy": [
+    {
+      "id": "dura-mater",
+      "label": "Dura mater",
+      "pronunciation": "DOOR-uh MAY-ter",
+      "function": "Tough outer meningeal layer and pain-sensitive cranial covering",
+      "inputs": "Periosteal attachment and meningeal vascular innervation",
+      "outputs": "Dural folds and venous sinus walls",
+      "connections": "Dural venous sinuses and cranial periosteum",
+      "associatedDisorders": "Epidural haematoma, pachymeningitis",
+      "clinicalSignificance": "Helps distinguish arterial epidural bleeding and dural pain sources."
+    },
+    {
+      "id": "arachnoid-mater",
+      "label": "Arachnoid mater",
+      "pronunciation": "uh-RAK-noyd MAY-ter",
+      "function": "Barrier membrane enclosing the CSF-filled subarachnoid space",
+      "inputs": "Interfaces with dura and arachnoid trabeculae",
+      "outputs": "Arachnoid granulations into venous sinuses",
+      "connections": "CSF pathways and pia via trabeculae",
+      "associatedDisorders": "Subarachnoid haemorrhage, arachnoid cyst",
+      "clinicalSignificance": "Its barrier and granulations are central to CSF containment and resorption."
+    },
+    {
+      "id": "pia-mater",
+      "label": "Pia mater",
+      "pronunciation": "PIE-uh MAY-ter",
+      "function": "Delicate vascular membrane closely investing brain surface",
+      "inputs": "Cortical surface and penetrating vessels",
+      "outputs": "Perivascular sleeves along small vessels",
+      "connections": "Glia limitans and superficial vasculature",
+      "associatedDisorders": "Leptomeningitis, meningeal spread",
+      "clinicalSignificance": "Inflammation can track along vessels and cortical surfaces."
+    },
+    {
+      "id": "subarachnoid-space",
+      "label": "Subarachnoid space",
+      "pronunciation": "sub-uh-RAK-noyd",
+      "function": "Contains CSF, major arteries, veins and cisterns",
+      "inputs": "CSF from ventricular outlets",
+      "outputs": "CSF toward arachnoid granulations",
+      "connections": "Basal cisterns, cortical sulci and spinal space",
+      "associatedDisorders": "Subarachnoid haemorrhage, meningitis",
+      "clinicalSignificance": "Blood or infection in this space can distribute widely and irritate meninges."
+    },
+    {
+      "id": "dural-sinuses",
+      "label": "Dural venous sinuses",
+      "pronunciation": "DOOR-ul VEE-nus SIGH-nus-es",
+      "function": "Drain cerebral veins and receive CSF",
+      "inputs": "Bridging veins and arachnoid granulations",
+      "outputs": "Internal jugular venous system",
+      "connections": "Falx, tentorium and skull base channels",
+      "associatedDisorders": "Venous sinus thrombosis",
+      "clinicalSignificance": "Venous outflow obstruction may cause headache, seizures and raised intracranial pressure."
+    }
+  ],
+  "mechanismMap": [
+    {
+      "label": "Dura mater",
+      "detail": "Tough outer meningeal layer and pain-sensitive cranial covering"
+    },
+    {
+      "label": "Arachnoid mater",
+      "detail": "Barrier membrane enclosing the CSF-filled subarachnoid space"
+    },
+    {
+      "label": "Pia mater",
+      "detail": "Delicate vascular membrane closely investing brain surface"
+    },
+    {
+      "label": "Subarachnoid space",
+      "detail": "Contains CSF, major arteries, veins and cisterns"
+    },
+    {
+      "label": "Dural venous sinuses",
+      "detail": "Drain cerebral veins and receive CSF"
+    }
+  ],
+  "interaction": {
+    "type": "anatomy-explorer",
+    "instruction": "Select each labelled structure to reveal function, inputs, outputs, connections and clinical significance.",
+    "signalSteps": [
+      "Dura mater: Tough outer meningeal layer and pain-sensitive cranial covering",
+      "Arachnoid mater: Barrier membrane enclosing the CSF-filled subarachnoid space",
+      "Pia mater: Delicate vascular membrane closely investing brain surface",
+      "Subarachnoid space: Contains CSF, major arteries, veins and cisterns",
+      "Dural venous sinuses: Drain cerebral veins and receive CSF"
+    ],
+    "accessibilityLabel": "Interactive anatomy sequence for Meninges Atlas"
+  },
+  "quizBank": [
+    {
+      "id": "meninges-atlas-q1",
+      "question": "Which statement best captures a safe clinical principle for Meninges Atlas?",
+      "options": [
+        "The “subdural space” is usually a potential space created by tissue separation, not a pre-existing open cavity.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Individual variation is clinically irrelevant"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "The “subdural space” is usually a potential space created by tissue separation, not a pre-existing open cavity.",
+      "explanation": "The “subdural space” is usually a potential space created by tissue separation, not a pre-existing open cavity."
+    },
+    {
+      "id": "meninges-atlas-q2",
+      "question": "What is the safest interpretation principle for Meninges Atlas?",
+      "options": [
+        "Use structure, networks, examination and context together",
+        "Infer diagnosis from one image",
+        "Ignore white-matter and vascular connections",
+        "Assume all people have identical organisation"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Anatomical findings require integration with networks, clinical examination and individual context.",
+      "explanation": "Anatomical findings require integration with networks, clinical examination and individual context."
+    },
+    {
+      "id": "meninges-atlas-q3",
+      "question": "Which feature is explicitly mapped in Meninges Atlas?",
+      "options": [
+        "Dura mater",
+        "Only a decorative title",
+        "No clinical links",
+        "No pathway information"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Dura mater is one of the mapped structures in this slice.",
+      "explanation": "Dura mater is one of the mapped structures in this slice."
+    }
+  ],
+  "reviewPrompts": [
+    "Name the major structures in Meninges Atlas.",
+    "Trace one input-output relationship in Meninges Atlas.",
+    "Give one clinical caution relevant to Meninges Atlas."
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easyIntervalDays": 14,
+    "tags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "responsive": true,
+    "reducedMotion": true
+  },
+  "references": [
+    {
+      "citation": "Standring S, ed. Gray’s Anatomy. 42nd ed. Elsevier; 2020.",
+      "url": "https://www.elsevier.com/books/grays-anatomy/standring/978-0-7020-7705-0",
+      "type": "Reference"
+    },
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. 10th ed. Wolters Kluwer; 2019.",
+      "url": "https://shop.lww.com/Neuroanatomy/p/9781975103294",
+      "type": "Reference"
+    }
+  ],
+  "evidenceLabel": "Established anatomy; clinical associations vary by lesion extent, network effects and individual context.",
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "Meninges Atlas"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "functions"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy",
+        "lesion"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best captures a safe clinical principle for Meninges Atlas?",
+      "options": [
+        "The “subdural space” is usually a potential space created by tissue separation, not a pre-existing open cavity.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Individual variation is clinically irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "The “subdural space” is usually a potential space created by tissue separation, not a pre-existing open cavity."
+    },
+    {
+      "question": "Why do connections matter clinically?",
+      "options": [
+        "Symptoms may reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Pathways do not affect cognition.",
+        "All people have identical pathways."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive functions depend on connected pathways."
+    },
+    {
+      "question": "What should an atlas not be used for?",
+      "options": [
+        "Making a diagnosis from one structure alone.",
+        "Learning spatial relationships.",
+        "Generating lesion hypotheses.",
+        "Understanding vascular territories."
+      ],
+      "answer": 0,
+      "rationale": "An atlas is an educational and hypothesis-support tool, not a standalone diagnostic instrument."
+    }
+  ],
+  "accessibility": {
+    "altText": "Layered sagittal brain illustration showing dura mater, arachnoid mater, pia mater, subarachnoid space, dural reflections and venous sinuses.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The meninges are three protective coverings wrapped around the brain and spinal cord. Their layers create spaces for blood vessels and cerebrospinal fluid.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

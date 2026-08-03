@@ -1,0 +1,111 @@
+{
+  "id": "tic-tourette-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the premonitory urge–tic–relief cycle.",
+    "Describe cortico-striatal contributions to tics.",
+    "Differentiate tics from compulsions and stereotypies.",
+    "Explain why suppression is not proof of voluntariness."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability, development and prior learning shape baseline risk."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external demands recruit the relevant systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter prediction, salience, control, sensation and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "A premonitory urge is:",
+      "options": [
+        "An uncomfortable sensation that may precede a tic",
+        "Proof the tic is deliberate",
+        "A type of seizure discharge",
+        "Always absent in Tourette syndrome"
+      ],
+      "answer": 0,
+      "explanation": "Many people experience an urge or tension relieved briefly by the tic."
+    },
+    {
+      "question": "The most relevant circuit model involves:",
+      "options": [
+        "Cortico-striato-thalamo-cortical loops",
+        "Only the occipital cortex",
+        "Only the spinal cord",
+        "The ventricles"
+      ],
+      "answer": 0,
+      "explanation": "Action selection and inhibition loops are central to current models."
+    },
+    {
+      "question": "Evidence-based behavioural treatment for tics includes:",
+      "options": [
+        "CBIT with awareness and competing responses",
+        "Punishment for every tic",
+        "Continuous forced suppression",
+        "Avoiding all activity"
+      ],
+      "answer": 0,
+      "explanation": "CBIT targets tic management without moralising or coercive suppression."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Models emphasise altered basal-ganglia inhibition, sensorimotor prediction, habit learning and heightened salience of premonitory urges. Dopaminergic modulation is relevant but insufficient as a complete explanation. Voluntary control and involuntary generation coexist: a person may consciously release a tic to relieve an involuntary urge. Comorbid ADHD, OCD and anxiety often contribute more impairment than tic frequency alone."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "Suppressibility does not make a tic voluntary in the ordinary sense; effortful control can coexist with involuntary urge generation."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Sudden explosive onset of complex tic-like behaviour, especially with marked social modelling or atypical phenomenology, requires careful differential assessment. New neurological signs or medication-related onset need medical review."
+    }
+  ],
+  "tags": [
+    "tics",
+    "Tourette syndrome",
+    "premonitory urge",
+    "basal ganglia",
+    "CBIT"
+  ],
+  "references": [
+    {
+      "citation": "Pringsheim T, et al. Canadian guidelines for the evidence-based treatment of tic disorders. Can J Psychiatry. 2012;57:133–143.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1177/070674371205700302"
+    },
+    {
+      "citation": "Martino D, Leckman JF. Tourette Syndrome. Oxford University Press; 2013.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1093/med/9780199796267.001.0001"
+    },
+    {
+      "citation": "McGuire JF, et al. A meta-analysis of behavior therapy for Tourette syndrome. J Psychiatr Res. 2014;50:106–112.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/j.jpsychires.2013.12.009"
+    }
+  ]
+}

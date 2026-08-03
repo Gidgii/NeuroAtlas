@@ -1,0 +1,122 @@
+{
+  "id": "semantic-memory-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Semantic Memory Assessment.",
+    "Apply Semantic Memory Assessment to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Concept activation",
+      "detail": "A stimulus activates linked features and meanings."
+    },
+    {
+      "label": "Hub integration",
+      "detail": "Anterior temporal systems integrate features into a coherent concept."
+    },
+    {
+      "label": "Lexical access",
+      "detail": "Language systems retrieve the word or label."
+    },
+    {
+      "label": "Context check",
+      "detail": "Executive systems select the meaning that fits the situation."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Concept activation",
+        "detail": "A stimulus activates linked features and meanings."
+      },
+      {
+        "label": "Hub integration",
+        "detail": "Anterior temporal systems integrate features into a coherent concept."
+      },
+      {
+        "label": "Lexical access",
+        "detail": "Language systems retrieve the word or label."
+      },
+      {
+        "label": "Context check",
+        "detail": "Executive systems select the meaning that fits the situation."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Semantic Memory Assessment"
+  },
+  "quizBank": [
+    {
+      "question": "Which pattern most strongly suggests degraded semantic knowledge?",
+      "options": [
+        "Naming improves fully with phonemic cues",
+        "The same concept is poorly understood across words and pictures",
+        "Recall is low only after distraction",
+        "Performance improves with repetition"
+      ],
+      "answer": 1,
+      "explanation": "The same concept is poorly understood across words and pictures is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Semantic Memory Assessment?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "A naming error is not automatically a semantic-memory failure—inspect comprehension, cueing and consistency across modalities."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Concept activation → Hub integration → Lexical access → Context check"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Progressive loss of word meaning, object knowledge or person recognition warrants neurological assessment, especially when everyday function is changing."
+    }
+  ],
+  "tags": [
+    "semantic memory assessment",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Lambon Ralph MA et al. The neural and computational bases of semantic cognition. Nature Reviews Neuroscience. 2017;18:42–55.",
+      "url": "https://doi.org/10.1038/nrn.2016.150"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

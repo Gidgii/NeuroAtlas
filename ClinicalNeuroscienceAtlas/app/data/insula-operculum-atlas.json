@@ -1,0 +1,201 @@
+{
+  "id": "insula-operculum-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 26,
+  "level": 29,
+  "title": "Insula & Operculum Atlas",
+  "subtitle": "Explore the buried insula and overlying frontal, parietal and temporal opercula",
+  "pronunciation": "IN-syuh-luh and oh-PER-kyuh-lum",
+  "hero": "insula-operculum-atlas.svg",
+  "altText": "Chalkboard-style anatomical atlas illustration highlighting the insula & operculum atlas and its major connections.",
+  "prerequisites": [
+    "cerebral-lobes-atlas"
+  ],
+  "previousConcept": "insula-atlas",
+  "nextConcept": "cingulate-cortex-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "insula operculum atlas",
+    "clinical psychology",
+    "brain atlas",
+    "speech motor planning",
+    "gustation",
+    "interoception",
+    "somatosensation"
+  ],
+  "searchTerms": [
+    "Insula & Operculum Atlas",
+    "IN-syuh-luh and oh-PER-kyuh-lum",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance",
+    "frontal operculum",
+    "parietal operculum",
+    "temporal operculum",
+    "short gyri",
+    "long gyri"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the insula & operculum atlas.",
+    "Trace key connections and functional relationships of the insula & operculum atlas.",
+    "Relate lesions or network disruption to plausible clinical presentations."
+  ],
+  "sections": {
+    "explainSimply": "The insula sits beneath cortical lids called opercula, which must be conceptually opened to see the buried cortex.",
+    "explainLikePsychologist": "The insula-operculum complex integrates interoception, taste, somatosensation, speech-motor coordination and salience.",
+    "advancedClinicalDetail": "The frontal, parietal and temporal opercula border the lateral sulcus and cover the insula. Their close spatial relationship explains why vascular lesions or epilepsy can produce mixed language, somatosensory, gustatory and autonomic symptoms.",
+    "thinkOfItLike": "A theatre stage hidden behind three curtains; opening each curtain reveals a different part of the same system.",
+    "whyPsychologistsCare": "This anatomy clarifies why lateral perisylvian lesions can create blended cognitive, sensory and motor presentations.",
+    "whenItGoesWrong": "Damage or dysregulation can disrupt speech motor planning, gustation, interoception; presentations depend on laterality, extent and connected networks.",
+    "clinicalPearl": "When symptoms cross taste, speech, face sensation and autonomic state, think regionally rather than forcing a single-lobe explanation.",
+    "practicalExample": "A clinician uses the insula & operculum atlas map to test whether a patient’s pattern is anatomically coherent while considering broader network and medical explanations.",
+    "limitationsCautions": "Atlas localisation supports hypothesis generation, not diagnosis. Individual anatomy, distributed processing, compensation and comorbidity limit one-to-one structure–symptom claims."
+  },
+  "anatomy": {
+    "position": "Integrated within deep or medial cortical-brainstem relationships shown in the atlas.",
+    "regions": [
+      "frontal operculum",
+      "parietal operculum",
+      "temporal operculum",
+      "short gyri",
+      "long gyri"
+    ],
+    "inputs": [
+      "insula",
+      "inferior frontal gyrus",
+      "postcentral cortex"
+    ],
+    "outputs": [
+      "superior temporal cortex"
+    ],
+    "connections": [
+      "insula",
+      "inferior frontal gyrus",
+      "postcentral cortex",
+      "superior temporal cortex"
+    ],
+    "functions": [
+      "speech motor planning",
+      "gustation",
+      "interoception",
+      "somatosensation"
+    ]
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "frontal operculum",
+        "parietal operculum",
+        "temporal operculum",
+        "short gyri",
+        "long gyri"
+      ]
+    },
+    {
+      "type": "trace",
+      "label": "Trace connections",
+      "targets": [
+        "insula",
+        "inferior frontal gyrus",
+        "postcentral cortex",
+        "superior temporal cortex"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "speech motor planning",
+        "gustation",
+        "interoception",
+        "somatosensation"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best describes the insula & operculum atlas?",
+      "options": [
+        "The insula-operculum complex integrates interoception, taste, somatosensation, speech-motor coordination and salience.",
+        "It acts independently of the rest of the brain.",
+        "It has one fixed psychological function.",
+        "It can diagnose psychiatric disorders from anatomy alone."
+      ],
+      "answer": 0,
+      "rationale": "The structure participates in distributed networks and should be interpreted in context."
+    },
+    {
+      "question": "What is the safest clinical inference from this atlas?",
+      "options": [
+        "A lesion pattern can guide hypotheses but requires clinical and medical correlation.",
+        "One symptom proves one structure is damaged.",
+        "Normal imaging excludes network dysfunction.",
+        "Laterality is never relevant."
+      ],
+      "answer": 0,
+      "rationale": "Neuroanatomy constrains hypotheses but does not replace assessment."
+    },
+    {
+      "question": "Why are connections important?",
+      "options": [
+        "Symptoms can reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Connections are irrelevant to cognition.",
+        "All pathways are identical across people."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive systems depend on pathways linking regions."
+    }
+  ],
+  "references": [
+    {
+      "title": "Clinical Neuroanatomy",
+      "source": "Blumenfeld, Neuroanatomy Through Clinical Cases",
+      "type": "textbook"
+    },
+    {
+      "title": "Principles of Neural Science",
+      "source": "Kandel et al.",
+      "type": "textbook"
+    },
+    {
+      "title": "Human brain network anatomy",
+      "source": "Peer-reviewed systems neuroscience literature",
+      "type": "review"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "easyIntervalDays": 7,
+    "hardIntervalDays": 1,
+    "tags": [
+      "anatomy",
+      "insula-operculum-atlas"
+    ]
+  },
+  "accessibility": {
+    "altText": "Anatomical illustration of Insula & Operculum Atlas.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The insula sits beneath cortical lids called opercula, which must be conceptually opened to see the buried cortex.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

@@ -1,0 +1,138 @@
+{
+  "id": "fourier-transform",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Fourier Transform.",
+    "Apply Fourier Transform to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "The Fourier transform decomposes a time-domain waveform into sinusoidal frequency components."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "It assumes stationarity within the analysed window and loses exact temporal localisation. Windowing and epoch length affect frequency resolution and spectral leakage."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Underpins spectral power analysis and helps clinicians understand what band metrics actually represent."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "A spectrum cannot show when a transient occurred within the epoch."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Fourier Transform",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "The Fourier transform decomposes a time-domain waveform into sinusoidal frequency components."
+      },
+      {
+        "label": "Analyse",
+        "detail": "It assumes stationarity within the analysed window and loses exact temporal localisation. Windowing and epoch length affect frequency resolution and spectral leakage."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Underpins spectral power analysis and helps clinicians understand what band metrics actually represent."
+      },
+      {
+        "label": "Check limits",
+        "detail": "A spectrum cannot show when a transient occurred within the epoch."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Fourier Transform"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Fourier Transform?",
+      "options": [
+        "The Fourier transform decomposes a time-domain waveform into sinusoidal frequency components.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "The Fourier transform decomposes a time-domain waveform into sinusoidal frequency components."
+    },
+    {
+      "question": "What is the safest clinical principle for Fourier Transform?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Fourier Transform?",
+      "options": [
+        "A spectrum cannot show when a transient occurred within the epoch.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "A spectrum cannot show when a transient occurred within the epoch."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "It assumes stationarity within the analysed window and loses exact temporal localisation. Windowing and epoch length affect frequency resolution and spectral leakage."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Underpins spectral power analysis and helps clinicians understand what band metrics actually represent."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "A spectrum cannot show when a transient occurred within the epoch."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Frequency decomposition is a mathematical lens, not a direct list of brain modules."
+    }
+  ],
+  "tags": [
+    "fourier transform",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "representing",
+    "signal",
+    "component",
+    "frequencies"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

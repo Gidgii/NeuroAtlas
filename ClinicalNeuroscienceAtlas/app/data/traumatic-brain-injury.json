@@ -1,0 +1,111 @@
+{
+  "id": "traumatic-brain-injury",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate primary from secondary brain injury.",
+    "Explain why mild TBI symptoms can persist without a visible lesion.",
+    "Identify urgent neurological red flags.",
+    "Describe psychologically informed rehabilitation principles."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability, development and prior learning shape baseline risk."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external demands recruit the relevant systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter prediction, salience, control, sensation and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Diffuse axonal injury primarily involves:",
+      "options": [
+        "Stretching and disruption of long white-matter axons",
+        "Only skull fracture",
+        "A single neurotransmitter deficiency",
+        "Voluntary symptom production"
+      ],
+      "answer": 0,
+      "explanation": "Rotational and acceleration forces can disrupt axons across distributed pathways."
+    },
+    {
+      "question": "After uncomplicated mild TBI, best-practice recovery usually includes:",
+      "options": [
+        "Brief relative rest followed by graded return to activity",
+        "Weeks of complete sensory isolation for everyone",
+        "Avoiding all movement until every symptom disappears",
+        "Routine structural imaging as the sole guide"
+      ],
+      "answer": 0,
+      "explanation": "Prolonged strict rest may worsen deconditioning and symptom focus; graded activity is generally preferred."
+    },
+    {
+      "question": "Which feature requires urgent medical assessment?",
+      "options": [
+        "Worsening confusion and repeated vomiting",
+        "Mild fatigue after screen use",
+        "Transient frustration",
+        "Needing a short rest break"
+      ],
+      "answer": 0,
+      "explanation": "Neurological deterioration after head injury may indicate intracranial complication."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Primary injury includes focal contusion, haemorrhage, axonal stretch and vascular disruption. Secondary cascades involve excitotoxicity, ionic imbalance, mitochondrial dysfunction, neuroinflammation and altered cerebral metabolism. Diffuse axonal injury preferentially affects long white-matter pathways and can produce disconnection without a large focal lesion. Persistent symptoms after mild TBI are multifactorial and may be maintained by sleep disturbance, pain, vestibular dysfunction, threat appraisal, mood and deconditioning."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "Symptoms after mild TBI are real, but persistent difficulty is rarely explained by one damaged brain region. Recovery is biological, cognitive and contextual."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Red flags include deteriorating consciousness, repeated vomiting, seizure, focal weakness, worsening severe headache, unequal pupils or new confusion. Repeated injuries can increase risk and warrant careful return-to-play or work decisions."
+    }
+  ],
+  "tags": [
+    "traumatic brain injury",
+    "concussion",
+    "diffuse axonal injury",
+    "neuropsychology",
+    "clinical neuroscience"
+  ],
+  "references": [
+    {
+      "citation": "Maas AIR, et al. Traumatic brain injury: integrated approaches to improve prevention, clinical care, and research. Lancet Neurol. 2017;16:987–1048.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S1474-4422(17)30371-X"
+    },
+    {
+      "citation": "McCrory P, et al. Consensus statement on concussion in sport. Br J Sports Med. 2017;51:838–847.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1136/bjsports-2017-097699"
+    },
+    {
+      "citation": "Silverberg ND, Iverson GL. Etiology of the post-concussion syndrome. NeuroRehabilitation. 2011;29:317–329.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.3233/NRE-2011-0703"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "functional-network-overlay-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 33,
+  "level": 29,
+  "title": "Functional Network Overlay Atlas",
+  "subtitle": "Overlay default-mode, salience, executive, dorsal-attention and sensorimotor systems",
+  "pronunciation": "FUNK-shun-ul NET-work OH-ver-lay",
+  "hero": "functional-network-overlay-atlas.svg",
+  "altText": "Interactive chalkboard-style anatomical map of Functional Network Overlay Atlas with selectable regions and pathways.",
+  "prerequisites": [
+    "neurotransmitter-pathways-atlas"
+  ],
+  "previousConcept": "neurotransmitter-pathways-atlas",
+  "nextConcept": "arterial-territories-stroke-comparison",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "internally directed cognition",
+    "salience detection",
+    "cognitive control",
+    "orienting"
+  ],
+  "searchTerms": [
+    "Functional Network Overlay Atlas",
+    "FUNK-shun-ul NET-work OH-ver-lay",
+    "default mode network",
+    "salience network",
+    "frontoparietal control network",
+    "dorsal attention network",
+    "ventral attention network",
+    "sensorimotor network",
+    "visual network",
+    "limbic network",
+    "network hubs",
+    "connector hubs",
+    "within-network edges",
+    "between-network coupling",
+    "thalamocortical loops",
+    "internally directed cognition",
+    "salience detection",
+    "cognitive control",
+    "orienting",
+    "action preparation",
+    "perception"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the Functional Network Overlay Atlas.",
+    "Trace key inputs, outputs and connections in the Functional Network Overlay Atlas.",
+    "Interpret lesion patterns cautiously using distributed-network and clinical context."
+  ],
+  "sections": {
+    "explainSimply": "Overlay default-mode, salience, executive, dorsal-attention and sensorimotor systems.",
+    "explainLikePsychologist": "Network models fit transdiagnostic formulation better than single-region explanations, but resting-state correlations are not direct measures of thoughts or diagnoses.",
+    "advancedClinicalDetail": "Location: Large-scale networks span noncontiguous cortical and subcortical nodes, often overlapping within hub regions. Major subdivisions include default mode network, salience network, frontoparietal control network, dorsal attention network, ventral attention network, sensorimotor network, visual network, limbic network. Inputs include sensory systems, interoceptive signals, memory systems, task goals, reward and threat signals; outputs include motor systems, autonomic systems, memory updating, attention allocation, goal-directed behaviour.",
+    "thinkOfItLike": "A dynamic transport and control map: the meaning of any node depends on the routes entering, leaving and bypassing it.",
+    "whyPsychologistsCare": "Network models fit transdiagnostic formulation better than single-region explanations, but resting-state correlations are not direct measures of thoughts or diagnoses.",
+    "whenItGoesWrong": "Damage or dysconnectivity may disturb attention, self-related thought, executive control, awareness or behaviour. Similar symptoms can arise from different nodes, and one lesion can affect several networks.",
+    "clinicalPearl": "Ask which network should dominate for the task, which network should disengage, and whether switching between them is efficient.",
+    "practicalExample": "Select a region, trace its incoming and outgoing pathways, then compare healthy and lesion overlays before forming a clinical hypothesis.",
+    "limitationsCautions": "Network boundaries depend on analytic method, task, arousal and individual variability. Functional connectivity is statistical dependence, not proof of direct anatomical connection or causal influence."
+  },
+  "anatomy": {
+    "position": "Large-scale networks span noncontiguous cortical and subcortical nodes, often overlapping within hub regions.",
+    "spatialRelationships": "Interpreted relative to connected cortical, subcortical and vascular structures; boundaries and laterality must be checked in the selected view.",
+    "regions": [
+      "default mode network",
+      "salience network",
+      "frontoparietal control network",
+      "dorsal attention network",
+      "ventral attention network",
+      "sensorimotor network",
+      "visual network",
+      "limbic network"
+    ],
+    "inputs": [
+      "sensory systems",
+      "interoceptive signals",
+      "memory systems",
+      "task goals",
+      "reward and threat signals"
+    ],
+    "outputs": [
+      "motor systems",
+      "autonomic systems",
+      "memory updating",
+      "attention allocation",
+      "goal-directed behaviour"
+    ],
+    "connections": [
+      "network hubs",
+      "connector hubs",
+      "within-network edges",
+      "between-network coupling",
+      "thalamocortical loops"
+    ],
+    "functions": [
+      "internally directed cognition",
+      "salience detection",
+      "cognitive control",
+      "orienting",
+      "action preparation",
+      "perception"
+    ],
+    "bloodSupply": "Network nodes cross multiple arterial territories, so vascular lesions may fragment a network at one or several points.",
+    "lesionEffects": "Damage or dysconnectivity may disturb attention, self-related thought, executive control, awareness or behaviour. Similar symptoms can arise from different nodes, and one lesion can affect several networks.",
+    "clinicalSignificance": "Network models fit transdiagnostic formulation better than single-region explanations, but resting-state correlations are not direct measures of thoughts or diagnoses."
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Tap to select",
+      "targets": [
+        "default mode network",
+        "salience network",
+        "frontoparietal control network",
+        "dorsal attention network",
+        "ventral attention network",
+        "sensorimotor network",
+        "visual network",
+        "limbic network"
+      ]
+    },
+    {
+      "type": "view",
+      "label": "Change anatomical view",
+      "targets": [
+        "lateral",
+        "medial",
+        "axial",
+        "coronal"
+      ]
+    },
+    {
+      "type": "zoom-pan",
+      "label": "Zoom and pan",
+      "targets": [
+        "atlas canvas"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Show or hide layers",
+      "targets": [
+        "surrounding anatomy",
+        "connections",
+        "blood supply",
+        "function overlay"
+      ]
+    },
+    {
+      "type": "trace-inputs",
+      "label": "Trace inputs",
+      "targets": [
+        "sensory systems",
+        "interoceptive signals",
+        "memory systems",
+        "task goals",
+        "reward and threat signals"
+      ]
+    },
+    {
+      "type": "trace-outputs",
+      "label": "Trace outputs",
+      "targets": [
+        "motor systems",
+        "autonomic systems",
+        "memory updating",
+        "attention allocation",
+        "goal-directed behaviour"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and pathology",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to whole-brain overview",
+      "targets": [
+        "whole brain"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "functional-network-overlay-atlas-q1",
+      "question": "Which network is most associated with detecting behaviourally relevant internal and external events and coordinating switching?",
+      "options": [
+        "Salience network",
+        "Primary visual network",
+        "Corticospinal tract",
+        "Dorsal column system"
+      ],
+      "answer": 0,
+      "rationale": "The salience network, particularly anterior insula and dorsal anterior cingulate regions, is implicated in relevance detection and network switching."
+    },
+    {
+      "id": "functional-network-overlay-atlas-q2",
+      "question": "Functional connectivity means:",
+      "options": [
+        "Statistical dependence between signals over time",
+        "A proven monosynaptic axon",
+        "A psychiatric diagnosis",
+        "Identical activation in everyone"
+      ],
+      "answer": 0,
+      "rationale": "Functional connectivity is correlational and does not by itself establish direct structural connection or causality."
+    },
+    {
+      "id": "functional-network-overlay-atlas-q3",
+      "question": "Why can one focal lesion affect several cognitive domains?",
+      "options": [
+        "Hub regions and shared pathways participate in multiple networks",
+        "Each region performs exactly one function",
+        "Networks never overlap",
+        "Blood supply is irrelevant"
+      ],
+      "answer": 0,
+      "rationale": "Connector hubs and overlapping systems allow focal damage to propagate effects across multiple networks."
+    }
+  ],
+  "relatedConcepts": [
+    "neurotransmitter-pathways-atlas",
+    "arterial-territories-stroke-comparison",
+    "cerebral-vasculature-atlas",
+    "deep-nuclei-atlas",
+    "thalamus-atlas",
+    "cerebral-lobes-atlas"
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Kandel ER et al. Principles of Neural Science.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Sketch the major nodes and pathways of the Functional Network Overlay Atlas and explain one qualified lesion pattern."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive Functional Network Overlay Atlas with selectable anatomy, pathway tracing, overlays and lesion comparisons.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

@@ -1,0 +1,106 @@
+{
+  "id": "processing-speed-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Define processing speed without equating it with intelligence.",
+    "Identify non-cognitive contributors to slow scores.",
+    "Explain the speed–accuracy trade-off.",
+    "Translate findings into practical accommodations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core function",
+      "detail": "Processing speed is how quickly the brain can take in simple information, make a small decision and respond accurately. It is not the same as intelligence or rushing."
+    },
+    {
+      "label": "Neural systems",
+      "detail": "Speeded performance depends on distributed network integrity, myelination, white-matter connectivity, sensory encoding, motor output and strategic trade-offs between speed and accuracy. Processing speed is often a foundational constraint: when basic operations consume more time, working memory and executive resources become overloaded during complex tasks."
+    },
+    {
+      "label": "Assessment pattern",
+      "detail": "Processing-speed measures sample visual scanning, graphomotor output, decision speed and sustained efficiency. Slow scores can reflect motor limitations, visual difficulty, fatigue, depression, medication effects, cautious style or broader white-matter inefficiency."
+    },
+    {
+      "label": "Clinical translation",
+      "detail": "Psychologists should interpret speed scores alongside accuracy, motor demands, visual load and untimed reasoning. Slow speed can create real functional impairment even when reasoning is strong."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the functional sequence, then retrieve the clinical distinction without looking back.",
+    "signalSteps": [
+      "Processing speed is how quickly the brain can take in simple information, make a small decision and respond accurately. It is not the same as intelligence or rushing.",
+      "Processing-speed measures sample visual scanning, graphomotor output, decision speed and sustained efficiency. Slow scores can reflect motor limitations, visual difficulty, fatigue, depression, medication effects, cautious style or broader white-matter inefficiency.",
+      "Psychologists should interpret speed scores alongside accuracy, motor demands, visual load and untimed reasoning. Slow speed can create real functional impairment even when reasoning is strong.",
+      "Slow processing speed often changes how much a person can do in time—not what they can understand."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Processing-speed tests usually measure:",
+      "options": [
+        "Efficiency on simple, speeded tasks",
+        "Overall intelligence directly",
+        "Long-term memory storage",
+        "Personality"
+      ],
+      "answer": 0,
+      "explanation": "They assess how efficiently simple operations are completed under time pressure."
+    },
+    {
+      "question": "A slow score with high untimed reasoning most likely means:",
+      "options": [
+        "Time pressure constrains performance more than conceptual ability",
+        "The person cannot understand complex ideas",
+        "The result proves brain injury",
+        "The score is meaningless"
+      ],
+      "answer": 0,
+      "explanation": "Strong untimed reasoning suggests preserved understanding despite reduced speed."
+    },
+    {
+      "question": "Which factor can artificially depress a paper-and-pencil speed score?",
+      "options": [
+        "Motor impairment",
+        "Vocabulary knowledge",
+        "Remote memory",
+        "Moral reasoning"
+      ],
+      "answer": 0,
+      "explanation": "Motor output is part of many speeded tasks and can lower performance independently of cognition."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Slow processing speed often changes how much a person can do in time—not what they can understand."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Speeded performance depends on distributed network integrity, myelination, white-matter connectivity, sensory encoding, motor output and strategic trade-offs between speed and accuracy. Processing speed is often a foundational constraint: when basic operations consume more time, working memory and executive resources become overloaded during complex tasks."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Sudden slowing, new motor changes or broad cognitive decline requires medical assessment. Longstanding slow speed may reflect neurodevelopmental variation rather than acquired disease."
+    }
+  ],
+  "tags": [
+    "processing speed",
+    "white matter",
+    "cognitive efficiency",
+    "timed tasks",
+    "neuropsychology"
+  ],
+  "references": [
+    {
+      "citation": "Salthouse TA. The processing-speed theory of adult age differences in cognition. Psychol Rev. 1996;103:403–428.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1037/0033-295X.103.3.403"
+    },
+    {
+      "citation": "Fry AF, Hale S. Processing speed, working memory, and fluid intelligence. Psychol Sci. 1996;7:237–241.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1111/j.1467-9280.1996.tb00366.x"
+    }
+  ]
+}

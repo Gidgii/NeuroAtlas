@@ -1,0 +1,112 @@
+{
+  "id": "epilepsy-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain seizures as transient pathological network activity.",
+    "Differentiate focal and generalised onset conceptually.",
+    "Describe the limits of routine EEG in diagnosis.",
+    "Use respectful differential reasoning for epileptic and functional seizures."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability interacts with development and prior learning."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external conditions recruit the relevant neural systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter salience, prediction, control and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "A focal seizure begins:",
+      "options": [
+        "Within networks limited to one hemisphere at onset",
+        "Simultaneously in every neuron",
+        "Only in the spinal cord",
+        "Only during sleep"
+      ],
+      "answer": 0,
+      "explanation": "Focal onset refers to initial activity within networks of one hemisphere."
+    },
+    {
+      "question": "Which is a medical emergency?",
+      "options": [
+        "A seizure lasting five minutes or repeated seizures without recovery",
+        "A brief familiar aura with an established plan and full recovery",
+        "Feeling tired after poor sleep",
+        "Remembering a prior seizure"
+      ],
+      "answer": 0,
+      "explanation": "Prolonged or serial seizures may represent status epilepticus and need emergency care."
+    },
+    {
+      "question": "Functional seizures are best described as:",
+      "options": [
+        "Real episodes not caused by epileptic electrical discharges",
+        "Deliberate imitation by definition",
+        "Always excluded by one normal EEG",
+        "A form of malingering"
+      ],
+      "answer": 0,
+      "explanation": "Functional seizures are genuine involuntary events requiring positive diagnosis and appropriate care."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Epileptogenesis reflects altered excitation–inhibition balance, ion-channel function, synaptic organisation, gliosis and network connectivity. Seizure initiation and spread depend on local circuitry and large-scale propagation pathways. Interictal discharges can disrupt processing transiently. EEG supports classification but a normal routine EEG does not exclude epilepsy, and incidental abnormalities do not establish diagnosis without clinical correlation."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "Epilepsy is a network disorder, not simply “too much electricity.” Do not diagnose seizure type from appearance alone, and do not equate functional seizures with faking."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Prolonged seizures, repeated seizures without recovery, injury, pregnancy or first seizure require urgent medical evaluation. Sudden unexplained death in epilepsy is uncommon but clinically important; adherence, nocturnal supervision discussions and seizure control matter."
+    }
+  ],
+  "tags": [
+    "epilepsy neuroscience",
+    "epilepsy neuroscience",
+    "clinical neuroscience",
+    "differential diagnosis",
+    "network neuroscience",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "Fisher RS, et al. ILAE official report: a practical clinical definition of epilepsy. Epilepsia. 2014;55(4):475–482.",
+      "type": "Consensus definition",
+      "url": "https://doi.org/10.1111/epi.12550"
+    },
+    {
+      "citation": "Fisher RS, et al. Operational classification of seizure types by the ILAE. Epilepsia. 2017;58(4):522–530.",
+      "type": "Classification",
+      "url": "https://doi.org/10.1111/epi.13670"
+    },
+    {
+      "citation": "Devinsky O, et al. Epilepsy. Nature Reviews Disease Primers. 2018;4:18024.",
+      "type": "Review",
+      "url": "https://doi.org/10.1038/nrdp.2018.24"
+    }
+  ]
+}

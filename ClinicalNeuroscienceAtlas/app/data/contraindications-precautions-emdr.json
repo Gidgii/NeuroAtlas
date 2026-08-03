@@ -1,0 +1,175 @@
+{
+  "id": "contraindications-precautions-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 38,
+  "level": 28,
+  "title": "Contraindications and Precautions",
+  "subtitle": "Screening, pacing and safety before trauma processing",
+  "hero": "contraindications-precautions-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating contraindications and precautions across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "clinical-indications-emdr"
+  ],
+  "previousConcept": "clinical-indications-emdr",
+  "nextConcept": "current-evidence-emdr",
+  "tags": [
+    "contraindications",
+    "and",
+    "precautions",
+    "trauma",
+    "emdr",
+    "clinical consensus; limited trial evidence"
+  ],
+  "searchTerms": [
+    "contraindications",
+    "and",
+    "precautions",
+    "trauma",
+    "emdr",
+    "clinical consensus; limited trial evidence",
+    "screening",
+    "pacing",
+    "safety",
+    "before",
+    "processing"
+  ],
+  "learningObjectives": [
+    "Explain contraindications and precautions in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in contraindications and precautions.",
+    "Identify one limitation or safety implication relevant to contraindications and precautions."
+  ],
+  "sections": {
+    "explainSimply": "EMDR has few absolute contraindications, but some presentations require delay, modification or additional support.",
+    "explainLikePsychologist": "Acute risk, severe instability, psychosis, mania, intoxication, uncontrolled medical illness, marked dissociation and inadequate safety require careful assessment.",
+    "advancedClinicalDetail": "Precautions should be individualised; blanket exclusion can be harmful, but proceeding without capacity, consent or containment can also cause harm.",
+    "thinkOfItLike": "Think of contraindications and precautions as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need contraindications and precautions to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "“Stabilisation” should not become indefinite avoidance, nor should readiness be assumed.",
+    "clinicalPearl": "Clinical pearl: use contraindications and precautions to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses contraindications and precautions to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "“Stabilisation” should not become indefinite avoidance, nor should readiness be assumed. Evidence classification: clinical consensus; limited trial evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "EMDR has few absolute contraindications, but some presentations require delay, modification or additional support."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Acute risk, severe instability, psychosis, mania, intoxication, uncontrolled medical illness, marked dissociation and inadequate safety require careful assessment."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "“Stabilisation” should not become indefinite avoidance, nor should readiness be assumed."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "EMDR has few absolute contraindications, but some presentations require delay, modification or additional support.",
+      "Acute risk, severe instability, psychosis, mania, intoxication, uncontrolled medical illness, marked dissociation and inadequate safety require careful assessment.",
+      "“Stabilisation” should not become indefinite avoidance, nor should readiness be assumed."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "contraindications-precautions-emdr-q1",
+      "question": "What is the most accurate core statement about Contraindications and Precautions?",
+      "options": [
+        "EMDR has few absolute contraindications, but some presentations require delay, modification or additional support.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "EMDR has few absolute contraindications, but some presentations require delay, modification or additional support."
+    },
+    {
+      "id": "contraindications-precautions-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Acute risk, severe instability, psychosis, mania, intoxication, uncontrolled medical illness, marked dissociation and inadequate safety require careful assessment.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Acute risk, severe instability, psychosis, mania, intoxication, uncontrolled medical illness, marked dissociation and inadequate safety require careful assessment."
+    },
+    {
+      "id": "contraindications-precautions-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "“Stabilisation” should not become indefinite avoidance, nor should readiness be assumed.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "“Stabilisation” should not become indefinite avoidance, nor should readiness be assumed."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "EMDR has few absolute contraindications, but some presentations require delay, modification or additional support."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "“Stabilisation” should not become indefinite avoidance, nor should readiness be assumed."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "clinical consensus; limited trial evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

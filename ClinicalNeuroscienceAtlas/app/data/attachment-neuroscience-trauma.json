@@ -1,0 +1,173 @@
+{
+  "id": "attachment-neuroscience-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 25,
+  "level": 28,
+  "title": "Attachment Neuroscience",
+  "subtitle": "How relationships shape threat and regulation learning",
+  "hero": "attachment-neuroscience-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating attachment neuroscience across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "affect-regulation-trauma"
+  ],
+  "previousConcept": "affect-regulation-trauma",
+  "nextConcept": "developmental-trauma",
+  "tags": [
+    "attachment",
+    "neuroscience",
+    "trauma",
+    "emdr",
+    "established developmental influence; non-deterministic"
+  ],
+  "searchTerms": [
+    "attachment",
+    "neuroscience",
+    "trauma",
+    "emdr",
+    "established developmental influence; non-deterministic",
+    "relationships",
+    "shape",
+    "threat",
+    "regulation",
+    "learning"
+  ],
+  "learningObjectives": [
+    "Explain attachment neuroscience in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in attachment neuroscience.",
+    "Identify one limitation or safety implication relevant to attachment neuroscience."
+  ],
+  "sections": {
+    "explainSimply": "Attachment experiences influence expectations about safety, support and emotional communication.",
+    "explainLikePsychologist": "Relational regulation can alter attention, appraisal and autonomic state, but attachment classifications are not fixed brain types.",
+    "advancedClinicalDetail": "Evidence links caregiving environments with stress and social-learning systems, yet deterministic claims exceed current data.",
+    "thinkOfItLike": "Think of attachment neuroscience as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need attachment neuroscience to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Avoid assigning a neural destiny from attachment style.",
+    "clinicalPearl": "Clinical pearl: use attachment neuroscience to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses attachment neuroscience to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Avoid assigning a neural destiny from attachment style. Evidence classification: established developmental influence; non-deterministic."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Attachment experiences influence expectations about safety, support and emotional communication."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Relational regulation can alter attention, appraisal and autonomic state, but attachment classifications are not fixed brain types."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Avoid assigning a neural destiny from attachment style."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Attachment experiences influence expectations about safety, support and emotional communication.",
+      "Relational regulation can alter attention, appraisal and autonomic state, but attachment classifications are not fixed brain types.",
+      "Avoid assigning a neural destiny from attachment style."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "attachment-neuroscience-trauma-q1",
+      "question": "What is the most accurate core statement about Attachment Neuroscience?",
+      "options": [
+        "Attachment experiences influence expectations about safety, support and emotional communication.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Attachment experiences influence expectations about safety, support and emotional communication."
+    },
+    {
+      "id": "attachment-neuroscience-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Relational regulation can alter attention, appraisal and autonomic state, but attachment classifications are not fixed brain types.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Relational regulation can alter attention, appraisal and autonomic state, but attachment classifications are not fixed brain types."
+    },
+    {
+      "id": "attachment-neuroscience-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Avoid assigning a neural destiny from attachment style.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Avoid assigning a neural destiny from attachment style."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Attachment experiences influence expectations about safety, support and emotional communication."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Avoid assigning a neural destiny from attachment style."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established developmental influence; non-deterministic"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

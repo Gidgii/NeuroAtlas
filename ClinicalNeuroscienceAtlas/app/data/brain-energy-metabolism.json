@@ -1,0 +1,226 @@
+{
+  "id": "brain-energy-metabolism",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain why neural signalling is metabolically expensive.",
+    "Describe neurovascular coupling and glial metabolic support.",
+    "Identify consequences of oxygen or glucose interruption.",
+    "Avoid simplistic interpretations of fatigue and cognition."
+  ],
+  "anatomy": [
+    {
+      "id": "vessels",
+      "label": "Cerebral microvasculature",
+      "short": "Deliver oxygen and glucose",
+      "detail": "Capillary flow adjusts with local neural demand.",
+      "clinical": "Impaired coupling can reduce network efficiency."
+    },
+    {
+      "id": "astrocytes",
+      "label": "Astrocytic endfeet",
+      "short": "Coordinate vessels and neural metabolism",
+      "detail": "Astrocytes sense activity and distribute substrates.",
+      "clinical": "Dysfunction may impair homeostatic support."
+    },
+    {
+      "id": "mitochondria",
+      "label": "Mitochondria",
+      "short": "Generate ATP",
+      "detail": "Oxidative phosphorylation powers pumps and synaptic processes.",
+      "clinical": "Failure produces fatigue, seizures or neurodegeneration."
+    },
+    {
+      "id": "pumps",
+      "label": "Ion pumps",
+      "short": "Consume most signalling energy",
+      "detail": "Na+/K+-ATPase restores gradients after activity.",
+      "clinical": "Energy interruption rapidly causes depolarisation."
+    },
+    {
+      "id": "waste",
+      "label": "Metabolic clearance",
+      "short": "Remove carbon dioxide and metabolites",
+      "detail": "Blood flow and glial systems support clearance.",
+      "clinical": "Accumulation can disturb cellular function."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Brain Energy Metabolism",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Brain Energy Metabolism model",
+    "stages": [
+      {
+        "label": "Demand",
+        "text": "Neural activity increases local energy requirements."
+      },
+      {
+        "label": "Signal",
+        "text": "Cells and vessels communicate metabolic need."
+      },
+      {
+        "label": "Deliver",
+        "text": "Blood flow supplies oxygen and glucose."
+      },
+      {
+        "label": "Convert",
+        "text": "Mitochondria and glycolytic pathways generate ATP."
+      },
+      {
+        "label": "Restore",
+        "text": "Pumps reset ion gradients and clearance removes by-products."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "brain-energy-metabolism-q1",
+      "question": "Most neural ATP is used substantially for:",
+      "options": [
+        "Maintaining and restoring ion gradients",
+        "Growing hair",
+        "Producing cerebrospinal fluid only",
+        "Storing long-term glucose"
+      ],
+      "answer": 0,
+      "explanation": "Ion pumping and synaptic signalling dominate the energy budget."
+    },
+    {
+      "id": "brain-energy-metabolism-q2",
+      "question": "Neurovascular coupling means:",
+      "options": [
+        "Local activity changes local blood flow",
+        "All brain regions receive fixed flow",
+        "Blood flow creates thoughts directly",
+        "Only muscles use oxygen"
+      ],
+      "answer": 0,
+      "explanation": "Active tissue recruits increased perfusion and substrate delivery."
+    },
+    {
+      "id": "brain-energy-metabolism-q3",
+      "question": "Why is hypoglycaemia dangerous to the brain?",
+      "options": [
+        "The brain has limited fuel reserves",
+        "Glucose never enters neurons",
+        "It only affects the liver",
+        "It improves inhibitory control"
+      ],
+      "answer": 0,
+      "explanation": "Continuous substrate delivery is needed for neural function."
+    },
+    {
+      "id": "brain-energy-metabolism-q4",
+      "question": "Astrocytes contribute by:",
+      "options": [
+        "Coordinating metabolic support and vascular responses",
+        "Replacing all neurons",
+        "Generating speech",
+        "Forming peripheral nerves"
+      ],
+      "answer": 0,
+      "explanation": "Astrocytes link synaptic activity, substrates and local vessels."
+    },
+    {
+      "id": "brain-energy-metabolism-q5",
+      "question": "A sound clinical inference is:",
+      "options": [
+        "Cognitive fatigue has multiple possible mechanisms",
+        "Fatigue proves mitochondrial disease",
+        "One diet explains all cognition",
+        "Blood flow is irrelevant to function"
+      ],
+      "answer": 0,
+      "explanation": "Symptoms require differential assessment rather than single-cause assumptions."
+    }
+  ],
+  "tags": [
+    "according",
+    "activity",
+    "alone",
+    "arise",
+    "astrocytes",
+    "blood",
+    "body",
+    "brain",
+    "burden",
+    "cause",
+    "cell",
+    "cerebral",
+    "chronic",
+    "cognition",
+    "communicate",
+    "compared",
+    "computation",
+    "concentration",
+    "consciousness",
+    "continuous",
+    "contribute",
+    "coordinate",
+    "cost",
+    "couples",
+    "coupling",
+    "delivery",
+    "demand",
+    "disease",
+    "dynamically",
+    "dysfunction",
+    "efficiency",
+    "endocrine",
+    "energetic",
+    "energy",
+    "expensive",
+    "factors",
+    "failure",
+    "fatigue",
+    "flow",
+    "from",
+    "fuel",
+    "functional",
+    "glucose",
+    "glycolysis",
+    "gradients",
+    "gradually",
+    "handling",
+    "high-yield",
+    "hypoglycaemia",
+    "hypoxia",
+    "identify",
+    "impair",
+    "lactate",
+    "links",
+    "little",
+    "local",
+    "maintain",
+    "matter",
+    "mechanism",
+    "medication"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Most neural ATP is used substantially for:",
+      "Neurovascular coupling means:",
+      "The brain stores little fuel. Continuous supply and precise regulation matter more than simple “brain energy” slogans."
+    ]
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Magistretti PJ, Allaman I. A cellular perspective on brain energy metabolism and functional imaging. Neuron. 2015;86:883–901."
+    },
+    {
+      "type": "Reference",
+      "citation": "Attwell D, Laughlin SB. An energy budget for signaling in the grey matter of the brain. J Cereb Blood Flow Metab. 2001;21:1133–1145."
+    },
+    {
+      "type": "Reference",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas diagram of brain energy metabolism with labelled system components.",
+    "interactionSummary": "A keyboard-accessible five-stage sequence explains the system from input through integration."
+  }
+}

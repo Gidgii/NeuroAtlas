@@ -1,0 +1,182 @@
+{
+  "id": "microglia",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the soma, motile processes, phagocytic machinery, purinergic receptors and complement-related signalling used by microglia.",
+    "Explain how microglia survey tissue, respond to damage signals and clear debris while preserving viable neural tissue.",
+    "Describe microglial roles in development, synaptic remodelling and homeostasis without reducing them to a simple resting-versus-activated model.",
+    "Apply microglial principles cautiously to neurodevelopmental, neurodegenerative and psychiatric research without treating inflammation as a universal explanation."
+  ],
+  "anatomy": [
+    {
+      "id": "soma",
+      "label": "Microglial soma",
+      "short": "Mobile control centre",
+      "detail": "The soma contains the nucleus and organelles that coordinate sensing, movement, cytokine production and phagocytosis. In healthy tissue, the soma is relatively small while its processes extend widely through the local environment.",
+      "clinical": "Microglia can alter gene expression and morphology rapidly. A change in shape is informative, but it does not by itself reveal whether the response is protective, reparative or harmful."
+    },
+    {
+      "id": "processes",
+      "label": "Surveying processes",
+      "short": "Constant local surveillance",
+      "detail": "Fine processes continuously extend and retract to sample the surrounding extracellular space, contact synapses and detect local changes. The cell body may remain stationary while the processes are highly dynamic.",
+      "clinical": "The older label 'resting microglia' is misleading. Homeostatic microglia are active sentinels even when there is no overt injury."
+    },
+    {
+      "id": "signals",
+      "label": "Damage-signal receptors",
+      "short": "Detects distress cues",
+      "detail": "Microglia respond to extracellular ATP, altered lipids, complement fragments and other danger-associated signals through receptor systems including purinergic receptors. These cues guide process movement and local response intensity.",
+      "clinical": "Microglial responses are context-dependent. The same signalling pathway may support repair in one setting and contribute to tissue injury in another."
+    },
+    {
+      "id": "phagocytosis",
+      "label": "Phagocytic compartment",
+      "short": "Engulfs tagged material",
+      "detail": "Microglia can engulf apoptotic cells, damaged myelin, pathogens and selected synaptic elements. Internalised material is processed through phagosomes and lysosomes.",
+      "clinical": "Effective clearance can limit secondary injury. Excessive or poorly targeted engulfment may remove viable synapses or prolong dysfunction."
+    },
+    {
+      "id": "complement",
+      "label": "Complement tagging",
+      "short": "Marks selected targets",
+      "detail": "Complement proteins can label cellular material or synaptic elements for removal. During development, complement-related signalling helps refine circuits by supporting activity-dependent synaptic elimination.",
+      "clinical": "Complement-mediated pruning is well established in developmental animal models, but translating this directly into a diagnosis for an individual patient would be an overreach."
+    },
+    {
+      "id": "synapse",
+      "label": "Synaptic contact",
+      "short": "Monitors and remodels circuits",
+      "detail": "Microglial processes contact synaptic structures and can influence synapse formation, maintenance and elimination. Their contribution varies across developmental stage, brain region and physiological context.",
+      "clinical": "Microglia contribute to plasticity, but behaviour still emerges from distributed cellular, circuit, endocrine and environmental systems."
+    },
+    {
+      "id": "cytokines",
+      "label": "Signalling molecules",
+      "short": "Coordinates local responses",
+      "detail": "Microglia release cytokines, chemokines, trophic factors and reactive molecules that influence neurons, astrocytes, vascular cells and other immune cells. The effect depends on dose, timing, combination and tissue state.",
+      "clinical": "Inflammation is not synonymous with damage. Short, proportionate immune signalling can be adaptive; persistent dysregulation can become maladaptive."
+    }
+  ],
+  "interaction": {
+    "instruction": "Select a microglial system, then run the surveillance cycle to follow tissue sensing, target recognition, engulfment and resolution.",
+    "surveillanceSteps": [
+      "Motile processes continuously sample the local neural environment.",
+      "A distressed synapse or damaged cell releases signals such as extracellular ATP.",
+      "Microglial processes orient toward the signal and assess the target.",
+      "Tagged debris is engulfed into a phagosome and broken down through lysosomal pathways.",
+      "The response resolves, tissue surveillance resumes and local signalling is recalibrated."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Why is the phrase 'resting microglia' potentially misleading?",
+      "options": [
+        "Their processes remain highly active in healthy tissue",
+        "They generate continuous action potentials",
+        "They are absent from healthy brains",
+        "They only exist during infection"
+      ],
+      "answer": 0,
+      "explanation": "Homeostatic microglia continuously survey the local environment with motile processes even without overt pathology."
+    },
+    {
+      "question": "Which function is most directly associated with microglial phagocytosis?",
+      "options": [
+        "Engulfing and degrading tagged debris",
+        "Producing central nervous system myelin",
+        "Maintaining the sodium-potassium gradient in neurons",
+        "Synthesising cerebrospinal fluid"
+      ],
+      "answer": 0,
+      "explanation": "Phagocytosis allows microglia to internalise and degrade apoptotic cells, damaged material and selected synaptic elements."
+    },
+    {
+      "question": "What role can complement signalling play in neural development?",
+      "options": [
+        "Helping tag selected synapses for elimination",
+        "Generating neuronal action potentials",
+        "Directly forming the blood-brain barrier",
+        "Replacing oligodendrocyte myelin"
+      ],
+      "answer": 0,
+      "explanation": "Complement-related pathways can mark synaptic material and support activity-dependent pruning during development."
+    },
+    {
+      "question": "Which statement about microglial activation states is most accurate?",
+      "options": [
+        "They exist along diverse, context-dependent functional states",
+        "Every response fits neatly into one harmful activated state",
+        "Morphology alone identifies the exact function",
+        "Activated microglia are always pathological"
+      ],
+      "answer": 0,
+      "explanation": "Modern microglial biology emphasises diverse, context-sensitive states rather than a single binary resting-versus-activated model."
+    },
+    {
+      "question": "What is the safest clinical interpretation of neuroinflammation research?",
+      "options": [
+        "Inflammation may matter, but source, timing and evidence must be specified",
+        "Any fatigue proves microglial disease",
+        "All psychiatric symptoms are caused by cytokines",
+        "Microglia can be inferred directly from a routine symptom checklist"
+      ],
+      "answer": 0,
+      "explanation": "Neuroimmune findings require careful interpretation. Inflammation is a process, not a stand-alone explanation for every symptom."
+    }
+  ],
+  "tags": [
+    "microglia",
+    "neuroimmune",
+    "resident immune cells",
+    "tissue surveillance",
+    "phagocytosis",
+    "lysosome",
+    "purinergic signalling",
+    "ATP",
+    "complement",
+    "C1q",
+    "C3",
+    "synaptic pruning",
+    "neuroinflammation",
+    "cytokines",
+    "homeostasis",
+    "development",
+    "debris clearance",
+    "neurodegeneration"
+  ],
+  "spacedRepetition": {
+    "conceptKey": "microglia",
+    "minimumReviewItems": 5,
+    "reviewPrompts": [
+      "Why are homeostatic microglia not accurately described as inactive?",
+      "Trace the sequence from tissue damage signal to phagocytic clearance.",
+      "Explain one role of complement in developmental synaptic pruning.",
+      "Why can morphology not determine whether a microglial response is helpful or harmful?",
+      "State one reason clinicians should avoid using inflammation as a universal explanation."
+    ]
+  },
+  "references": [
+    {
+      "type": "Major review",
+      "citation": "Prinz M, Jung S, Priller J. Microglia Biology: One Century of Evolving Concepts. Cell. 2019;179(2):292–311.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Microglia+Biology%3A+One+Century+of+Evolving+Concepts"
+    },
+    {
+      "type": "Synaptic pruning study",
+      "citation": "Schafer DP, et al. Microglia Sculpt Postnatal Neural Circuits in an Activity and Complement-Dependent Manner. Neuron. 2012;74(4):691–705.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22632727/"
+    },
+    {
+      "type": "Developmental pruning study",
+      "citation": "Paolicelli RC, et al. Synaptic Pruning by Microglia Is Necessary for Normal Brain Development. Science. 2011;333(6048):1456–1458.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21778362/"
+    },
+    {
+      "type": "Nomenclature consensus",
+      "citation": "Paolicelli RC, et al. Microglia States and Nomenclature: A Field at Its Crossroads. Neuron. 2022;110(21):3458–3483.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36327895/"
+    }
+  ]
+}

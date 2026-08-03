@@ -1,0 +1,111 @@
+{
+  "id": "eating-disorders-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain how starvation affects cognition and neural function.",
+    "Describe interoceptive, reward and habit mechanisms.",
+    "Avoid simplistic “control” explanations.",
+    "Recognise medical red flags across body sizes."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability, development and prior learning shape baseline risk."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external demands recruit the relevant systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter prediction, salience, control, sensation and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "A major interpretive problem in eating-disorder neuroimaging is that:",
+      "options": [
+        "Starvation itself changes brain and behaviour",
+        "The brain is unaffected by nutrition",
+        "Only body weight matters",
+        "All disorders share one neural signature"
+      ],
+      "answer": 0,
+      "explanation": "State effects of malnutrition can resemble or amplify trait-related differences."
+    },
+    {
+      "question": "Eating disorders can be medically severe:",
+      "options": [
+        "At any body size",
+        "Only below one BMI cut-off",
+        "Only when purging occurs",
+        "Only in adulthood"
+      ],
+      "answer": 0,
+      "explanation": "Instability and rapid change can occur across body sizes."
+    },
+    {
+      "question": "Which mechanism can maintain restriction?",
+      "options": [
+        "Short-term anxiety reduction reinforcing avoidance",
+        "Perfect appetite awareness",
+        "Absence of learning",
+        "Guaranteed loss of all reward sensitivity"
+      ],
+      "answer": 0,
+      "explanation": "Negative reinforcement can make restrictive behaviour more entrenched."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Findings implicate insular, striatal, frontoparietal and limbic circuitry, but there is no diagnostic neural signature. Restriction may become negatively reinforcing by reducing anxiety; repeated behaviours become habitual; prediction errors around food and body cues may be distorted. Energy deficiency changes dopamine, serotonin, endocrine function and network efficiency. Weight restoration can reverse some abnormalities, while trait vulnerabilities may remain."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "The starving brain cannot be interpreted as if it were metabolically neutral; state effects and trait vulnerability must be separated."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Bradycardia, syncope, electrolyte disturbance, dehydration, haematemesis, severe weakness, acute food refusal or escalating suicidality require urgent medical review. Refeeding syndrome is a medical emergency risk in severely malnourished patients."
+    }
+  ],
+  "tags": [
+    "eating disorders",
+    "anorexia nervosa",
+    "bulimia nervosa",
+    "binge eating",
+    "interoception"
+  ],
+  "references": [
+    {
+      "citation": "Treasure J, Duarte TA, Schmidt U. Eating disorders. Lancet. 2020;395:899–911.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S0140-6736(20)30059-3"
+    },
+    {
+      "citation": "Kaye WH, Wierenga CE, Bailer UF, Simmons AN, Bischoff-Grethe A. Nothing tastes as good as skinny feels. Trends Neurosci. 2013;36:110–120.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/j.tins.2013.01.003"
+    },
+    {
+      "citation": "Frank GKW. Advances from neuroimaging studies in eating disorders. CNS Spectr. 2015;20:391–400.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1017/S1092852915000012"
+    }
+  ]
+}

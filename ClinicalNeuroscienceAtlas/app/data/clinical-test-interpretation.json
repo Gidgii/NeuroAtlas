@@ -1,0 +1,107 @@
+{
+  "id": "clinical-test-interpretation",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Use reliability and confidence intervals when interpreting scores.",
+    "Distinguish statistical rarity from clinical significance.",
+    "Apply base-rate and validity reasoning to cognitive profiles.",
+    "Communicate limitations without becoming vague or evasive."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Measurement",
+      "detail": "Identify what the task samples and its sources of error."
+    },
+    {
+      "label": "Comparison",
+      "detail": "Choose appropriate norms and estimate expected performance."
+    },
+    {
+      "label": "Pattern analysis",
+      "detail": "Evaluate convergence, discrepancies, errors and behaviour."
+    },
+    {
+      "label": "Clinical inference",
+      "detail": "Integrate probability, function and alternative explanations."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Measurement",
+        "detail": "Identify what the task samples and its sources of error."
+      },
+      {
+        "label": "Comparison",
+        "detail": "Choose appropriate norms and estimate expected performance."
+      },
+      {
+        "label": "Pattern analysis",
+        "detail": "Evaluate convergence, discrepancies, errors and behaviour."
+      },
+      {
+        "label": "Clinical inference",
+        "detail": "Integrate probability, function and alternative explanations."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Clinical Test Interpretation"
+  },
+  "quizBank": [
+    {
+      "question": "A statistically rare score difference is automatically clinically significant.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "Rarity is one consideration; reliability, base rates, history and functional impact determine clinical meaning."
+    },
+    {
+      "question": "Why use a confidence interval?",
+      "options": [
+        "To hide uncertainty",
+        "To represent plausible range around an observed score",
+        "To eliminate measurement error",
+        "To replace norms"
+      ],
+      "answer": 1,
+      "explanation": "Confidence intervals communicate the imprecision inherent in measurement."
+    },
+    {
+      "question": "What is the safest response to invalid test data?",
+      "options": [
+        "Diagnose from the lowest score",
+        "State that interpretation is limited and seek better evidence",
+        "Average all scores",
+        "Ignore behaviour"
+      ],
+      "answer": 1,
+      "explanation": "Invalid data cannot support confident cognitive conclusions."
+    }
+  ],
+  "reviewPrompts": [
+    "Explain Clinical Test Interpretation in plain language.",
+    "Name one clinical interpretation pitfall in Clinical Test Interpretation.",
+    "Identify a red flag relevant to Clinical Test Interpretation."
+  ],
+  "tags": [
+    "clinical test interpretation",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Brooks BL, Sherman EMS, Strauss E. Test review and base-rate considerations in neuropsychological assessment. Psychological Assessment. 2009.",
+      "url": "https://doi.org/10.1037/a0015377"
+    }
+  ]
+}

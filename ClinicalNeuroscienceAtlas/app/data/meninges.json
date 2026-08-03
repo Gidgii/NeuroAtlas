@@ -1,0 +1,184 @@
+{
+  "id": "meninges",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Meninges.",
+    "Explain how the Meninges contributes to sensation, regulation or behaviour.",
+    "Connect Meninges function with clinically relevant symptoms.",
+    "Use lesion patterns and phenomenology cautiously rather than relying on one-to-one explanations."
+  ],
+  "anatomy": [
+    {
+      "id": "dura",
+      "label": "Dura mater",
+      "short": "Tough outer layer",
+      "detail": "Dense connective tissue stabilises the cranial contents and forms venous sinuses.",
+      "clinical": "Dural irritation can generate pain; tears may cause CSF leak."
+    },
+    {
+      "id": "arachnoid",
+      "label": "Arachnoid mater",
+      "short": "Web-like middle layer",
+      "detail": "Bridges over sulci and encloses the CSF-filled subarachnoid space.",
+      "clinical": "Blood in this space produces subarachnoid haemorrhage."
+    },
+    {
+      "id": "subarachnoid",
+      "label": "Subarachnoid space",
+      "short": "CSF and major vessels",
+      "detail": "Provides buoyancy and a route for cerebral arteries.",
+      "clinical": "Infection or haemorrhage here can irritate the meninges."
+    },
+    {
+      "id": "pia",
+      "label": "Pia mater",
+      "short": "Delicate inner layer",
+      "detail": "Closely follows gyri, sulci and the spinal cord surface.",
+      "clinical": "Inflammation often involves pia and arachnoid together."
+    },
+    {
+      "id": "sinuses",
+      "label": "Dural venous sinuses",
+      "short": "Venous drainage channels",
+      "detail": "Receive cerebral venous blood and CSF resorption.",
+      "clinical": "Thrombosis can cause headache, seizures and focal deficits."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Meninges",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "dura",
+        "label": "Dura mater",
+        "description": "Dense connective tissue stabilises the cranial contents and forms venous sinuses."
+      },
+      {
+        "id": "arachnoid",
+        "label": "Arachnoid mater",
+        "description": "Bridges over sulci and encloses the CSF-filled subarachnoid space."
+      },
+      {
+        "id": "subarachnoid",
+        "label": "Subarachnoid space",
+        "description": "Provides buoyancy and a route for cerebral arteries."
+      },
+      {
+        "id": "pia",
+        "label": "Pia mater",
+        "description": "Closely follows gyri, sulci and the spinal cord surface."
+      },
+      {
+        "id": "sinuses",
+        "label": "Dural venous sinuses",
+        "description": "Receive cerebral venous blood and CSF resorption."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "meninges-q1",
+      "question": "Which component is best described as: Tough outer layer?",
+      "options": [
+        "Dura mater",
+        "Arachnoid mater",
+        "Subarachnoid space",
+        "Pia mater"
+      ],
+      "answer": 0,
+      "explanation": "Dense connective tissue stabilises the cranial contents and forms venous sinuses."
+    },
+    {
+      "id": "meninges-q2",
+      "question": "Which component is best described as: Web-like middle layer?",
+      "options": [
+        "Arachnoid mater",
+        "Dura mater",
+        "Subarachnoid space",
+        "Pia mater"
+      ],
+      "answer": 0,
+      "explanation": "Bridges over sulci and encloses the CSF-filled subarachnoid space."
+    },
+    {
+      "id": "meninges-q3",
+      "question": "Which component is best described as: CSF and major vessels?",
+      "options": [
+        "Subarachnoid space",
+        "Dura mater",
+        "Arachnoid mater",
+        "Pia mater"
+      ],
+      "answer": 0,
+      "explanation": "Provides buoyancy and a route for cerebral arteries."
+    },
+    {
+      "id": "meninges-q4",
+      "question": "Which component is best described as: Delicate inner layer?",
+      "options": [
+        "Pia mater",
+        "Dura mater",
+        "Arachnoid mater",
+        "Subarachnoid space"
+      ],
+      "answer": 0,
+      "explanation": "Closely follows gyri, sulci and the spinal cord surface."
+    },
+    {
+      "id": "meninges-q5",
+      "question": "Which component is best described as: Venous drainage channels?",
+      "options": [
+        "Dural venous sinuses",
+        "Dura mater",
+        "Arachnoid mater",
+        "Subarachnoid space"
+      ],
+      "answer": 0,
+      "explanation": "Receive cerebral venous blood and CSF resorption."
+    }
+  ],
+  "tags": [
+    "dura",
+    "arachnoid",
+    "pia",
+    "subarachnoid space",
+    "CSF",
+    "meningitis",
+    "subdural haematoma"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Meninges.",
+      "Explain one clinically relevant function of the Meninges.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Haines",
+      "year": "2018",
+      "title": "Neuroanatomy: An Atlas of Structures, Sections, and Systems",
+      "source": "Wolters Kluwer",
+      "citation": "Haines, 2018. Neuroanatomy: An Atlas of Structures, Sections, and Systems. Wolters Kluwer."
+    },
+    {
+      "authors": "Standring",
+      "year": "2021",
+      "title": "Gray’s Anatomy, 42nd ed.",
+      "source": "Elsevier",
+      "citation": "Standring, 2021. Gray’s Anatomy, 42nd ed.. Elsevier."
+    },
+    {
+      "authors": "Sakka et al.",
+      "year": "2011",
+      "title": "Anatomy and physiology of cerebrospinal fluid",
+      "source": "European Annals of Otorhinolaryngology",
+      "citation": "Sakka et al., 2011. Anatomy and physiology of cerebrospinal fluid. European Annals of Otorhinolaryngology."
+    }
+  ]
+}

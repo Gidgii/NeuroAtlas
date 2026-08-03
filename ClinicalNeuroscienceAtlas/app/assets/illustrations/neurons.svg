@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Multipolar neuron anatomy</title><desc id="desc">A premium anatomical illustration showing a multipolar neuron with branching dendrites, soma, nucleus, axon hillock, myelinated axon, nodes of Ranvier and synaptic terminals.</desc>
+  <defs>
+    <radialGradient id="bg" cx="42%" cy="48%" r="70%"><stop stop-color="#172628"/><stop offset="1" stop-color="#070b0c"/></radialGradient>
+    <radialGradient id="soma" cx="35%" cy="30%"><stop stop-color="#ad78d1"/><stop offset=".62" stop-color="#684589"/><stop offset="1" stop-color="#2b233f"/></radialGradient>
+    <linearGradient id="axon" x1="0" x2="1"><stop stop-color="#50f1d2"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+    <linearGradient id="myelin" x1="0" x2="1"><stop stop-color="#294c70"/><stop offset=".5" stop-color="#5caef4"/><stop offset="1" stop-color="#24466a"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+  <g opacity=".22" stroke="#50f1d2" stroke-width="2"><path d="M90 110h1020M90 690h1020"/><path d="M100 160q500 350 1000 0M100 640q500-350 1000 0" fill="none"/></g>
+  <g fill="none" stroke="#c8a7ff" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path stroke-width="20" d="M335 390C235 345 210 245 115 195M275 335C190 330 145 270 65 275M280 435C185 470 150 570 55 605M365 295C320 190 355 125 300 55M360 500C325 610 360 670 305 748"/>
+    <path stroke-width="11" d="M115 195 55 125m60 70 15-95m145 235-90-70m90 70-130 20M55 605l100-10M55 605l60 75M300 55l-70 60m75 633-50-78"/>
+  </g>
+  <path d="M274 402c0-114 83-196 190-196 124 0 211 79 211 193 0 124-94 208-217 208-106 0-184-87-184-205Z" fill="url(#soma)" stroke="#c8a7ff" stroke-width="14"/>
+  <circle cx="468" cy="405" r="75" fill="#171d35" stroke="#ffd166" stroke-width="10"/>
+  <circle cx="446" cy="385" r="17" fill="#ffd166" opacity=".85"/>
+  <g fill="none" stroke="#50f1d2" stroke-width="9" stroke-linecap="round"><path d="M350 345q45-38 78 5t-67 46"/><path d="M510 505q52-35 83 12t-73 43"/><path d="M370 478q35-30 62 0"/></g>
+  <path d="M640 360c68 2 107 16 165 45-54 34-106 49-174 47Z" fill="#ff9f43" stroke="#ffd166" stroke-width="10"/>
+  <path d="M780 407C925 407 1010 400 1130 400" fill="none" stroke="url(#axon)" stroke-width="22" stroke-linecap="round"/>
+  <g fill="url(#myelin)" stroke="#8bc7ff" stroke-width="8"><rect x="805" y="350" width="110" height="105" rx="50"/><rect x="950" y="350" width="110" height="105" rx="50"/></g>
+  <g fill="#ffd166" stroke="#ff9f43" stroke-width="6"><circle cx="932" cy="404" r="15"/><circle cx="1077" cy="404" r="15"/></g>
+  <g fill="none" stroke="#ff4db8" stroke-width="14" stroke-linecap="round"><path d="M1125 400c40 0 35-80 70-80M1125 400c45 0 40 75 70 75M1125 400h75"/></g>
+  <g fill="#6c3f91" stroke="#ff9f43" stroke-width="7"><circle cx="1190" cy="320" r="25"/><circle cx="1195" cy="400" r="25"/><circle cx="1190" cy="475" r="25"/></g>
+  <g font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#e8f3f1">
+    <text x="80" y="735" font-size="34">DENDRITES</text><text x="405" y="700" font-size="34">SOMA</text><text x="690" y="300" font-size="28">AXON HILLOCK</text><text x="870" y="525" font-size="28">MYELIN + NODES</text>
+  </g>
+</svg>

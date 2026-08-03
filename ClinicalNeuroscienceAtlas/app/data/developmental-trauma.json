@@ -1,0 +1,174 @@
+{
+  "id": "developmental-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 26,
+  "level": 28,
+  "title": "Developmental Trauma",
+  "subtitle": "Threat during periods of rapid brain and relational development",
+  "hero": "developmental-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating developmental trauma across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "attachment-neuroscience-trauma"
+  ],
+  "previousConcept": "attachment-neuroscience-trauma",
+  "nextConcept": "complex-ptsd-neuroscience",
+  "tags": [
+    "developmental",
+    "trauma",
+    "trauma",
+    "emdr",
+    "strong risk evidence; heterogeneous outcomes"
+  ],
+  "searchTerms": [
+    "developmental",
+    "trauma",
+    "emdr",
+    "strong risk evidence; heterogeneous outcomes",
+    "threat",
+    "during",
+    "periods",
+    "rapid",
+    "brain",
+    "relational",
+    "development"
+  ],
+  "learningObjectives": [
+    "Explain developmental trauma in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in developmental trauma.",
+    "Identify one limitation or safety implication relevant to developmental trauma."
+  ],
+  "sections": {
+    "explainSimply": "Chronic adversity in childhood can affect learning, regulation, health and relationships.",
+    "explainLikePsychologist": "Effects depend on timing, severity, caregiving, genetics, resources and later repair; outcomes are diverse rather than inevitable.",
+    "advancedClinicalDetail": "Research supports dose-related population risks, but “developmental trauma disorder” is not universally recognised as a formal diagnosis.",
+    "thinkOfItLike": "Think of developmental trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need developmental trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not use neuroscience to imply irreversible damage.",
+    "clinicalPearl": "Clinical pearl: use developmental trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses developmental trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not use neuroscience to imply irreversible damage. Evidence classification: strong risk evidence; heterogeneous outcomes."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Chronic adversity in childhood can affect learning, regulation, health and relationships."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Effects depend on timing, severity, caregiving, genetics, resources and later repair; outcomes are diverse rather than inevitable."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not use neuroscience to imply irreversible damage."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Chronic adversity in childhood can affect learning, regulation, health and relationships.",
+      "Effects depend on timing, severity, caregiving, genetics, resources and later repair; outcomes are diverse rather than inevitable.",
+      "Do not use neuroscience to imply irreversible damage."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "developmental-trauma-q1",
+      "question": "What is the most accurate core statement about Developmental Trauma?",
+      "options": [
+        "Chronic adversity in childhood can affect learning, regulation, health and relationships.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Chronic adversity in childhood can affect learning, regulation, health and relationships."
+    },
+    {
+      "id": "developmental-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Effects depend on timing, severity, caregiving, genetics, resources and later repair; outcomes are diverse rather than inevitable.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Effects depend on timing, severity, caregiving, genetics, resources and later repair; outcomes are diverse rather than inevitable."
+    },
+    {
+      "id": "developmental-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not use neuroscience to imply irreversible damage.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not use neuroscience to imply irreversible damage."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Chronic adversity in childhood can affect learning, regulation, health and relationships."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not use neuroscience to imply irreversible damage."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "strong risk evidence; heterogeneous outcomes"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

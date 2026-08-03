@@ -1,0 +1,173 @@
+{
+  "id": "memory-consolidation-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 15,
+  "level": 28,
+  "title": "Memory Consolidation",
+  "subtitle": "Stabilising experiences across time and sleep",
+  "hero": "memory-consolidation-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating memory consolidation across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "memory-encoding-trauma"
+  ],
+  "previousConcept": "memory-encoding-trauma",
+  "nextConcept": "memory-reconsolidation-trauma",
+  "tags": [
+    "memory",
+    "consolidation",
+    "trauma",
+    "emdr",
+    "established principle; evolving models"
+  ],
+  "searchTerms": [
+    "memory",
+    "consolidation",
+    "trauma",
+    "emdr",
+    "established principle; evolving models",
+    "stabilising",
+    "experiences",
+    "across",
+    "time",
+    "sleep"
+  ],
+  "learningObjectives": [
+    "Explain memory consolidation in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in memory consolidation.",
+    "Identify one limitation or safety implication relevant to memory consolidation."
+  ],
+  "sections": {
+    "explainSimply": "After an event, memories continue to change as they are stabilised and integrated.",
+    "explainLikePsychologist": "Sleep, rehearsal, emotion and later information influence consolidation, so memory is reconstructive rather than a fixed recording.",
+    "advancedClinicalDetail": "Systems consolidation redistributes dependence across hippocampal–cortical networks over time, although models remain under debate.",
+    "thinkOfItLike": "Think of memory consolidation as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need memory consolidation to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Treatment should not promise to erase a memory.",
+    "clinicalPearl": "Clinical pearl: use memory consolidation to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses memory consolidation to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Treatment should not promise to erase a memory. Evidence classification: established principle; evolving models."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "After an event, memories continue to change as they are stabilised and integrated."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Sleep, rehearsal, emotion and later information influence consolidation, so memory is reconstructive rather than a fixed recording."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Treatment should not promise to erase a memory."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "After an event, memories continue to change as they are stabilised and integrated.",
+      "Sleep, rehearsal, emotion and later information influence consolidation, so memory is reconstructive rather than a fixed recording.",
+      "Treatment should not promise to erase a memory."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "memory-consolidation-trauma-q1",
+      "question": "What is the most accurate core statement about Memory Consolidation?",
+      "options": [
+        "After an event, memories continue to change as they are stabilised and integrated.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "After an event, memories continue to change as they are stabilised and integrated."
+    },
+    {
+      "id": "memory-consolidation-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Sleep, rehearsal, emotion and later information influence consolidation, so memory is reconstructive rather than a fixed recording.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Sleep, rehearsal, emotion and later information influence consolidation, so memory is reconstructive rather than a fixed recording."
+    },
+    {
+      "id": "memory-consolidation-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Treatment should not promise to erase a memory.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Treatment should not promise to erase a memory."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "After an event, memories continue to change as they are stabilised and integrated."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Treatment should not promise to erase a memory."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established principle; evolving models"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "visuospatial-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate visual perception from spatial processing.",
+    "Explain dorsal and ventral stream roles.",
+    "Use qualitative errors in interpretation.",
+    "Recognise neglect and acute visual-spatial red flags."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core function",
+      "detail": "Visuospatial skills help you understand shapes, distance, direction and how pieces fit together. They are different from eyesight itself."
+    },
+    {
+      "label": "Neural systems",
+      "detail": "Right-lateralised parietal and occipitoparietal networks are prominent in spatial attention and construction, but performance is distributed and task-dependent. Errors may reflect neglect, simultanagnosia, apraxia, executive disorganisation, motor limitations or primary visual impairment. Qualitative error analysis is essential."
+    },
+    {
+      "label": "Assessment pattern",
+      "detail": "Visuospatial performance draws on visual perception, spatial attention, construction, mental rotation and integration of parts into wholes. Dorsal-stream systems emphasise spatial action and location; ventral-stream systems emphasise object identity."
+    },
+    {
+      "label": "Clinical translation",
+      "detail": "Psychologists must distinguish perceptual, attentional, motor and executive causes of poor construction. The same low score can arise from very different mechanisms and require different supports."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the functional sequence, then retrieve the clinical distinction without looking back.",
+    "signalSteps": [
+      "Visuospatial skills help you understand shapes, distance, direction and how pieces fit together. They are different from eyesight itself.",
+      "Visuospatial performance draws on visual perception, spatial attention, construction, mental rotation and integration of parts into wholes. Dorsal-stream systems emphasise spatial action and location; ventral-stream systems emphasise object identity.",
+      "Psychologists must distinguish perceptual, attentional, motor and executive causes of poor construction. The same low score can arise from very different mechanisms and require different supports.",
+      "The drawing is not just a score—its error pattern is often the most clinically informative part."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "The dorsal visual stream is most associated with:",
+      "options": [
+        "Spatial location and visually guided action",
+        "Word meaning",
+        "Autobiographical memory",
+        "Taste perception"
+      ],
+      "answer": 0,
+      "explanation": "The dorsal stream supports “where/how” processing."
+    },
+    {
+      "question": "A disorganised copy can reflect:",
+      "options": [
+        "Spatial, executive or motor difficulties",
+        "Only poor vision",
+        "Only low intelligence",
+        "Only weak memory"
+      ],
+      "answer": 0,
+      "explanation": "Construction integrates multiple systems, so error analysis is needed."
+    },
+    {
+      "question": "Ignoring stimuli on one side of space is called:",
+      "options": [
+        "Spatial neglect",
+        "Aphasia",
+        "Apraxia of speech",
+        "Anosmia"
+      ],
+      "answer": 0,
+      "explanation": "Spatial neglect is an attentional disorder, commonly following right-hemisphere injury."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "The drawing is not just a score—its error pattern is often the most clinically informative part."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Right-lateralised parietal and occipitoparietal networks are prominent in spatial attention and construction, but performance is distributed and task-dependent. Errors may reflect neglect, simultanagnosia, apraxia, executive disorganisation, motor limitations or primary visual impairment. Qualitative error analysis is essential."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "New visual-field loss, spatial neglect, severe disorientation or constructional decline after acute onset requires neurological assessment."
+    }
+  ],
+  "tags": [
+    "visuospatial",
+    "visual perception",
+    "spatial attention",
+    "parietal lobe",
+    "construction"
+  ],
+  "references": [
+    {
+      "citation": "Goodale MA, Milner AD. Separate visual pathways for perception and action. Trends Neurosci. 1992;15:20–25.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/0166-2236(92)90344-8"
+    },
+    {
+      "citation": "Corbetta M, Shulman GL. Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci. 2002;3:201–215.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1038/nrn755"
+    }
+  ]
+}

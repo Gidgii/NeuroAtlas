@@ -1,0 +1,105 @@
+{
+  "id": "clinical-neuroanatomy-review",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Apply a structured localisation sequence.",
+    "Distinguish focal, tract, network and diffuse patterns.",
+    "Identify limits of neuropsychological localisation.",
+    "Recognise urgent neurological red flags."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Presenting pattern",
+      "detail": "Define the functional difficulty, context, onset and time course before inferring mechanism."
+    },
+    {
+      "label": "Candidate systems",
+      "detail": "Map plausible cellular, circuit, cognitive and environmental contributors."
+    },
+    {
+      "label": "Differential test",
+      "detail": "Compare alternatives, comorbidity and medical red flags using converging evidence."
+    },
+    {
+      "label": "Clinical action",
+      "detail": "Select the explanation that best guides safe, proportionate assessment and intervention."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the clinical reasoning sequence, then retrieve the key distinction without looking back.",
+    "signalSteps": [
+      "Name the observed pattern precisely.",
+      "Identify the most plausible neural and cognitive systems.",
+      "Check developmental history, context and competing explanations.",
+      "Choose a formulation that guides action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "The most reliable basis for localisation is:",
+      "options": [
+        "A coherent pattern across symptoms, time course and examination",
+        "One isolated low score",
+        "A diagnosis label alone",
+        "Patient age only"
+      ],
+      "answer": 0,
+      "explanation": "Localisation is strongest when multiple converging findings form an anatomically plausible syndrome."
+    },
+    {
+      "question": "Diaschisis refers to:",
+      "options": [
+        "Reduced function in a connected region remote from the primary lesion",
+        "A skull fracture",
+        "Voluntary symptom production",
+        "Normal ageing"
+      ],
+      "answer": 0,
+      "explanation": "A focal lesion can suppress function in structurally intact but connected regions."
+    },
+    {
+      "question": "Which presentation is an emergency?",
+      "options": [
+        "Sudden unilateral weakness and language loss",
+        "Longstanding mild distractibility",
+        "Stable developmental dyslexia",
+        "Occasional word-finding under stress"
+      ],
+      "answer": 0,
+      "explanation": "Acute focal neurological deficits suggest stroke until proven otherwise."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "The strongest localisation comes from a coherent pattern across functions, time course and examination—not from one low test score."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "High-value reasoning moves from syndrome to anatomical hypothesis, then tests vascular territory, tract, network and differential diagnosis. Double dissociations support functional architecture, but real patients show distributed and overlapping deficits. Cognitive findings must be interpreted alongside effort, fatigue, language, mood, pain, medications, premorbid ability and ecological validity."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Acute focal deficit, thunderclap headache, new seizure, rapidly progressive cognitive change or fluctuating consciousness requires urgent medical assessment. Do not overlocalise nonspecific symptoms."
+    }
+  ],
+  "tags": [
+    "clinical neuroanatomy",
+    "localisation",
+    "lesion",
+    "white matter",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021.",
+      "type": "Primary or authoritative source"
+    },
+    {
+      "citation": "Catani M, ffytche DH. The rises and falls of disconnection syndromes. Brain. 2005;128:2224–2239.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1093/brain/awh622"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "cranial-nerves",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Cranial Nerves.",
+    "Explain how the Cranial Nerves contributes to sensation, regulation or behaviour.",
+    "Connect Cranial Nerves function with clinically relevant symptoms.",
+    "Use lesion patterns and phenomenology cautiously rather than relying on one-to-one explanations."
+  ],
+  "anatomy": [
+    {
+      "id": "sensory",
+      "label": "Sensory nerves I, II, VIII",
+      "short": "Smell, vision and hearing/balance",
+      "detail": "Carry special sensory information into the brain.",
+      "clinical": "Loss patterns can indicate peripheral, brainstem or cortical pathology."
+    },
+    {
+      "id": "eye",
+      "label": "Eye-movement nerves III, IV, VI",
+      "short": "Coordinate gaze and pupils",
+      "detail": "Drive extraocular muscles and pupillary responses.",
+      "clinical": "Diplopia and anisocoria can signal urgent neurological disease."
+    },
+    {
+      "id": "trigeminal",
+      "label": "Trigeminal nerve V",
+      "short": "Facial sensation and mastication",
+      "detail": "Carries facial somatosensation and powers chewing muscles.",
+      "clinical": "Neuralgia or sensory loss has strong localising value."
+    },
+    {
+      "id": "facial",
+      "label": "Facial nerve VII",
+      "short": "Expression and taste",
+      "detail": "Controls facial expression, taste anteriorly and lacrimal/salivary functions.",
+      "clinical": "Upper versus lower facial weakness helps localise lesions."
+    },
+    {
+      "id": "bulbar",
+      "label": "Bulbar nerves IX–XII",
+      "short": "Voice, swallowing and tongue",
+      "detail": "Coordinate pharyngeal, laryngeal and tongue function.",
+      "clinical": "Dysphagia or dysarthria may indicate medullary or peripheral disease."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Cranial Nerves",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "sensory",
+        "label": "Sensory nerves I, II, VIII",
+        "description": "Carry special sensory information into the brain."
+      },
+      {
+        "id": "eye",
+        "label": "Eye-movement nerves III, IV, VI",
+        "description": "Drive extraocular muscles and pupillary responses."
+      },
+      {
+        "id": "trigeminal",
+        "label": "Trigeminal nerve V",
+        "description": "Carries facial somatosensation and powers chewing muscles."
+      },
+      {
+        "id": "facial",
+        "label": "Facial nerve VII",
+        "description": "Controls facial expression, taste anteriorly and lacrimal/salivary functions."
+      },
+      {
+        "id": "bulbar",
+        "label": "Bulbar nerves IX–XII",
+        "description": "Coordinate pharyngeal, laryngeal and tongue function."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "cranial-nerves-q1",
+      "question": "Which component is best described as: Smell, vision and hearing/balance?",
+      "options": [
+        "Sensory nerves I, II, VIII",
+        "Eye-movement nerves III, IV, VI",
+        "Trigeminal nerve V",
+        "Facial nerve VII"
+      ],
+      "answer": 0,
+      "explanation": "Carry special sensory information into the brain."
+    },
+    {
+      "id": "cranial-nerves-q2",
+      "question": "Which component is best described as: Coordinate gaze and pupils?",
+      "options": [
+        "Eye-movement nerves III, IV, VI",
+        "Sensory nerves I, II, VIII",
+        "Trigeminal nerve V",
+        "Facial nerve VII"
+      ],
+      "answer": 0,
+      "explanation": "Drive extraocular muscles and pupillary responses."
+    },
+    {
+      "id": "cranial-nerves-q3",
+      "question": "Which component is best described as: Facial sensation and mastication?",
+      "options": [
+        "Trigeminal nerve V",
+        "Sensory nerves I, II, VIII",
+        "Eye-movement nerves III, IV, VI",
+        "Facial nerve VII"
+      ],
+      "answer": 0,
+      "explanation": "Carries facial somatosensation and powers chewing muscles."
+    },
+    {
+      "id": "cranial-nerves-q4",
+      "question": "Which component is best described as: Expression and taste?",
+      "options": [
+        "Facial nerve VII",
+        "Sensory nerves I, II, VIII",
+        "Eye-movement nerves III, IV, VI",
+        "Trigeminal nerve V"
+      ],
+      "answer": 0,
+      "explanation": "Controls facial expression, taste anteriorly and lacrimal/salivary functions."
+    },
+    {
+      "id": "cranial-nerves-q5",
+      "question": "Which component is best described as: Voice, swallowing and tongue?",
+      "options": [
+        "Bulbar nerves IX–XII",
+        "Sensory nerves I, II, VIII",
+        "Eye-movement nerves III, IV, VI",
+        "Trigeminal nerve V"
+      ],
+      "answer": 0,
+      "explanation": "Coordinate pharyngeal, laryngeal and tongue function."
+    }
+  ],
+  "tags": [
+    "cranial nerves",
+    "brainstem",
+    "vision",
+    "hearing",
+    "facial weakness",
+    "swallowing",
+    "neurological examination"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Cranial Nerves.",
+      "Explain one clinically relevant function of the Cranial Nerves.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Brazis et al.",
+      "year": "2011",
+      "title": "Localization in Clinical Neurology",
+      "source": "Lippincott Williams & Wilkins",
+      "citation": "Brazis et al., 2011. Localization in Clinical Neurology. Lippincott Williams & Wilkins."
+    },
+    {
+      "authors": "Haines",
+      "year": "2018",
+      "title": "Neuroanatomy: An Atlas of Structures, Sections, and Systems",
+      "source": "Wolters Kluwer",
+      "citation": "Haines, 2018. Neuroanatomy: An Atlas of Structures, Sections, and Systems. Wolters Kluwer."
+    },
+    {
+      "authors": "Mumenthaler et al.",
+      "year": "2017",
+      "title": "Fundamentals of Neurology",
+      "source": "Thieme",
+      "citation": "Mumenthaler et al., 2017. Fundamentals of Neurology. Thieme."
+    }
+  ]
+}

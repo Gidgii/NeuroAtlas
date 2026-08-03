@@ -1,0 +1,182 @@
+{
+  "id": "oligodendrocytes",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the oligodendrocyte soma, branching processes, compact myelin, internodes, paranodes and nodes of Ranvier.",
+    "Explain how myelin changes membrane capacitance and resistance to support rapid saltatory conduction.",
+    "Describe how oligodendrocytes provide metabolic support to axons in addition to electrical insulation.",
+    "Relate demyelination, remyelination and white-matter disruption to processing speed, fatigue and distributed cognitive function without over-localising symptoms."
+  ],
+  "anatomy": [
+    {
+      "id": "soma",
+      "label": "Oligodendrocyte soma",
+      "short": "Myelin-producing control centre",
+      "detail": "The soma contains the nucleus and biosynthetic machinery that produces the large quantities of lipid and protein required for myelin. Mature oligodendrocytes extend several processes from one compact cell body.",
+      "clinical": "Because myelin production is metabolically demanding, oligodendrocytes are vulnerable to oxidative stress, inflammation and disrupted energy supply."
+    },
+    {
+      "id": "processes",
+      "label": "Myelinating processes",
+      "short": "One cell, several axon segments",
+      "detail": "Branching processes contact multiple axons and form separate myelin internodes. Unlike a peripheral Schwann cell, one oligodendrocyte can myelinate portions of several central nervous system axons.",
+      "clinical": "Damage to one oligodendrocyte can therefore affect conduction across more than one axonal segment or pathway."
+    },
+    {
+      "id": "myelin",
+      "label": "Compact myelin",
+      "short": "Layered membrane insulation",
+      "detail": "Myelin is formed when oligodendrocyte membrane wraps repeatedly around an axon and compacts into a multilamellar sheath. It raises membrane resistance and lowers capacitance across the internode.",
+      "clinical": "Myelin is not simply plastic coating. It is living membrane that must be maintained and coordinated with the axon it surrounds."
+    },
+    {
+      "id": "internode",
+      "label": "Internode",
+      "short": "Insulated conduction segment",
+      "detail": "An internode is the myelinated length between two nodes of Ranvier. Internode length and sheath thickness influence conduction speed and timing across a pathway.",
+      "clinical": "Distributed cognition depends on signals arriving within useful temporal windows; altered white-matter timing can disrupt coordination even when cortical regions remain structurally intact."
+    },
+    {
+      "id": "node",
+      "label": "Node of Ranvier",
+      "short": "Action-potential regeneration point",
+      "detail": "Nodes are short unmyelinated gaps enriched in voltage-gated sodium channels. Depolarising current travels rapidly beneath myelin, while the full action potential is regenerated at successive nodes.",
+      "clinical": "Demyelination exposes axonal membrane and redistributes current, slowing conduction or producing conduction block."
+    },
+    {
+      "id": "paranode",
+      "label": "Paranodal junction",
+      "short": "Seals and organises the node",
+      "detail": "Paranodal loops anchor the myelin sheath beside each node and help segregate nodal sodium channels from juxtaparanodal potassium channels. This molecular organisation preserves efficient saltatory conduction.",
+      "clinical": "Disruption of paranodal proteins can impair conduction even before gross myelin loss is obvious."
+    },
+    {
+      "id": "metabolic",
+      "label": "Axonal metabolic support",
+      "short": "Fuel support for long axons",
+      "detail": "Oligodendrocytes transfer metabolic substrates, including lactate-related energy support, to axons. This is especially important for long, active axons with limited access to extracellular nutrients beneath compact myelin.",
+      "clinical": "Axonal degeneration in white-matter disease can reflect loss of trophic and metabolic support as well as loss of insulation."
+    }
+  ],
+  "interaction": {
+    "instruction": "Select a myelin structure, then run the conduction sequence to compare continuous and saltatory signal propagation.",
+    "conductionSteps": [
+      "An action potential reaches the first node of Ranvier and opens concentrated sodium channels.",
+      "Positive current spreads rapidly beneath the high-resistance, low-capacitance myelin internode.",
+      "The next node reaches threshold and regenerates the action potential at full amplitude.",
+      "Successive nodes repeat the process, preserving speed and reliability over distance.",
+      "The oligodendrocyte continues maintaining myelin and supplying metabolic support to the axon."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Why does myelin increase conduction speed?",
+      "options": [
+        "It increases membrane resistance and decreases capacitance across internodes",
+        "It releases neurotransmitter along the entire axon",
+        "It removes all sodium channels from the axon",
+        "It converts electrical signals into hormones"
+      ],
+      "answer": 0,
+      "explanation": "Myelin limits current leak and reduces the charge needed to change membrane voltage, allowing depolarising current to spread rapidly between nodes."
+    },
+    {
+      "question": "What is distinctive about a central nervous system oligodendrocyte?",
+      "options": [
+        "One cell can myelinate segments of several axons",
+        "It myelinates only one complete peripheral axon",
+        "It functions only during childhood",
+        "It generates action potentials for nearby neurons"
+      ],
+      "answer": 0,
+      "explanation": "A single oligodendrocyte extends multiple processes and forms separate internodes on several central nervous system axons."
+    },
+    {
+      "question": "Where is an action potential regenerated during saltatory conduction?",
+      "options": [
+        "At nodes of Ranvier",
+        "Inside compact myelin",
+        "Only at the axon hillock",
+        "Within the oligodendrocyte nucleus"
+      ],
+      "answer": 0,
+      "explanation": "Voltage-gated sodium channels are densely concentrated at nodes of Ranvier, where the action potential is regenerated."
+    },
+    {
+      "question": "Which statement best describes oligodendrocyte support of axons?",
+      "options": [
+        "They provide both myelin and metabolic support",
+        "They provide insulation but no biological support",
+        "They remove every damaged synapse",
+        "They form the blood-brain barrier alone"
+      ],
+      "answer": 0,
+      "explanation": "Oligodendrocytes support axons electrically through myelin and metabolically through trophic and energy-related support."
+    },
+    {
+      "question": "Why can white-matter disruption affect cognition broadly?",
+      "options": [
+        "It can disturb timing and coordination across distributed networks",
+        "White matter stores all semantic memories",
+        "It selectively suppresses one emotion centre",
+        "It affects cognition only when the frontal lobe is destroyed"
+      ],
+      "answer": 0,
+      "explanation": "Many cognitive operations depend on precisely timed communication across distant regions, making conduction efficiency clinically important."
+    }
+  ],
+  "tags": [
+    "oligodendrocytes",
+    "oligodendroglia",
+    "myelin",
+    "white matter",
+    "saltatory conduction",
+    "node of Ranvier",
+    "internode",
+    "paranode",
+    "axon",
+    "conduction velocity",
+    "processing speed",
+    "demyelination",
+    "remyelination",
+    "multiple sclerosis",
+    "metabolic support",
+    "lactate",
+    "adaptive myelination",
+    "neural timing"
+  ],
+  "spacedRepetition": {
+    "conceptKey": "oligodendrocytes",
+    "minimumReviewItems": 5,
+    "reviewPrompts": [
+      "Explain how myelin changes membrane resistance and capacitance.",
+      "Trace saltatory conduction from one node of Ranvier to the next.",
+      "Distinguish an oligodendrocyte from a Schwann cell by the number of axonal segments myelinated.",
+      "Name one non-insulating function of oligodendrocytes.",
+      "Explain why altered white-matter timing can affect processing speed and network coordination."
+    ]
+  },
+  "references": [
+    {
+      "type": "Major review",
+      "citation": "Nave KA. Myelination and Support of Axonal Integrity by Glia. Nature. 2010;468:244–252.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21068833/"
+    },
+    {
+      "type": "Major review",
+      "citation": "Simons M, Nave KA. Oligodendrocytes: Myelination and Axonal Support. Cold Spring Harbor Perspectives in Biology. 2015;8(1):a020479.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26101081/"
+    },
+    {
+      "type": "Adaptive myelination review",
+      "citation": "Fields RD. A New Mechanism of Nervous System Plasticity: Activity-Dependent Myelination. Nature Reviews Neuroscience. 2015;16:756–767.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26585800/"
+    },
+    {
+      "type": "Axonal metabolic support",
+      "citation": "Saab AS, et al. Oligodendroglial NMDA Receptors Regulate Glucose Import and Axonal Energy Metabolism. Neuron. 2016;91(1):119–132.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27292539/"
+    }
+  ]
+}

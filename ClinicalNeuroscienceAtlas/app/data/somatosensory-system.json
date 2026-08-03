@@ -1,0 +1,185 @@
+{
+  "id": "somatosensory-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Somatosensory System.",
+    "Explain how the Somatosensory System contributes to sensation, regulation or behaviour.",
+    "Connect Somatosensory System function with clinically relevant symptoms.",
+    "Use lesion patterns and phenomenology cautiously rather than relying on one-to-one explanations."
+  ],
+  "anatomy": [
+    {
+      "id": "receptors",
+      "label": "Peripheral receptors",
+      "short": "Detect mechanical, thermal and tissue-threat signals",
+      "detail": "Specialised endings translate physical events into neural firing.",
+      "clinical": "Peripheral injury changes both signal quantity and quality."
+    },
+    {
+      "id": "dorsal",
+      "label": "Dorsal columns",
+      "short": "Fine touch and proprioception",
+      "detail": "Ascending fibres preserve detailed spatial information to the medulla.",
+      "clinical": "Lesions impair vibration and position sense ipsilaterally below the lesion."
+    },
+    {
+      "id": "anterolateral",
+      "label": "Anterolateral system",
+      "short": "Pain, temperature and crude touch",
+      "detail": "Fibres cross near spinal entry and ascend contralaterally.",
+      "clinical": "Lesions alter pain and temperature on the opposite side."
+    },
+    {
+      "id": "thalamus",
+      "label": "Somatosensory thalamus",
+      "short": "Relay and state-dependent gating",
+      "detail": "VPL and VPM nuclei route body and facial information to cortex.",
+      "clinical": "Thalamic lesions may cause sensory loss or central pain."
+    },
+    {
+      "id": "cortex",
+      "label": "Somatosensory cortex",
+      "short": "Body map and feature analysis",
+      "detail": "S1 represents body regions somatotopically; association areas integrate body schema.",
+      "clinical": "Cortical lesions can impair localisation, recognition or awareness."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Somatosensory System",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "receptors",
+        "label": "Peripheral receptors",
+        "description": "Specialised endings translate physical events into neural firing."
+      },
+      {
+        "id": "dorsal",
+        "label": "Dorsal columns",
+        "description": "Ascending fibres preserve detailed spatial information to the medulla."
+      },
+      {
+        "id": "anterolateral",
+        "label": "Anterolateral system",
+        "description": "Fibres cross near spinal entry and ascend contralaterally."
+      },
+      {
+        "id": "thalamus",
+        "label": "Somatosensory thalamus",
+        "description": "VPL and VPM nuclei route body and facial information to cortex."
+      },
+      {
+        "id": "cortex",
+        "label": "Somatosensory cortex",
+        "description": "S1 represents body regions somatotopically; association areas integrate body schema."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "somatosensory-system-q1",
+      "question": "Which component is best described as: Detect mechanical, thermal and tissue-threat signals?",
+      "options": [
+        "Peripheral receptors",
+        "Dorsal columns",
+        "Anterolateral system",
+        "Somatosensory thalamus"
+      ],
+      "answer": 0,
+      "explanation": "Specialised endings translate physical events into neural firing."
+    },
+    {
+      "id": "somatosensory-system-q2",
+      "question": "Which component is best described as: Fine touch and proprioception?",
+      "options": [
+        "Dorsal columns",
+        "Peripheral receptors",
+        "Anterolateral system",
+        "Somatosensory thalamus"
+      ],
+      "answer": 0,
+      "explanation": "Ascending fibres preserve detailed spatial information to the medulla."
+    },
+    {
+      "id": "somatosensory-system-q3",
+      "question": "Which component is best described as: Pain, temperature and crude touch?",
+      "options": [
+        "Anterolateral system",
+        "Peripheral receptors",
+        "Dorsal columns",
+        "Somatosensory thalamus"
+      ],
+      "answer": 0,
+      "explanation": "Fibres cross near spinal entry and ascend contralaterally."
+    },
+    {
+      "id": "somatosensory-system-q4",
+      "question": "Which component is best described as: Relay and state-dependent gating?",
+      "options": [
+        "Somatosensory thalamus",
+        "Peripheral receptors",
+        "Dorsal columns",
+        "Anterolateral system"
+      ],
+      "answer": 0,
+      "explanation": "VPL and VPM nuclei route body and facial information to cortex."
+    },
+    {
+      "id": "somatosensory-system-q5",
+      "question": "Which component is best described as: Body map and feature analysis?",
+      "options": [
+        "Somatosensory cortex",
+        "Peripheral receptors",
+        "Dorsal columns",
+        "Anterolateral system"
+      ],
+      "answer": 0,
+      "explanation": "S1 represents body regions somatotopically; association areas integrate body schema."
+    }
+  ],
+  "tags": [
+    "somatosensation",
+    "touch",
+    "proprioception",
+    "pain",
+    "temperature",
+    "dorsal columns",
+    "spinothalamic",
+    "body schema"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Somatosensory System.",
+      "Explain one clinically relevant function of the Somatosensory System.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Kandel et al.",
+      "year": "2021",
+      "title": "Principles of Neural Science, 6th ed.",
+      "source": "McGraw-Hill",
+      "citation": "Kandel et al., 2021. Principles of Neural Science, 6th ed.. McGraw-Hill."
+    },
+    {
+      "authors": "Craig",
+      "year": "2002",
+      "title": "How do you feel? Interoception: the sense of the physiological condition of the body",
+      "source": "Nature Reviews Neuroscience",
+      "citation": "Craig, 2002. How do you feel? Interoception: the sense of the physiological condition of the body. Nature Reviews Neuroscience."
+    },
+    {
+      "authors": "Basbaum et al.",
+      "year": "2009",
+      "title": "Cellular and molecular mechanisms of pain",
+      "source": "Cell",
+      "citation": "Basbaum et al., 2009. Cellular and molecular mechanisms of pain. Cell."
+    }
+  ]
+}

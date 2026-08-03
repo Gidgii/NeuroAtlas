@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+<title id="t">Feedback Modalities</title><desc id="d">Accessible clinical neurofeedback diagram showing a sensor, signal processor, feedback display and learning loop for feedback modalities.</desc>
+<rect width="1200" height="760" rx="34" fill="#090d12"/><g opacity=".18" stroke="#9bd8c2" stroke-width="2"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200"/></g>
+<g fill="none" stroke="#66f0ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<path d="M165 390c-45-105 25-205 145-205 102 0 171 70 171 164 0 63-31 110-83 143-36 23-47 64-47 102"/>
+<path d="M205 348c35-61 126-75 179-23M224 414c52 42 119 40 167-6"/>
+<circle cx="320" cy="620" r="16" fill="#66f0ff"/><path d="M320 604V492"/>
+<rect x="540" y="234" width="224" height="246" rx="28"/><path d="M572 382c25-78 49 76 74-8s51 72 82-15"/>
+<rect x="852" y="270" width="218" height="160" rx="24"/><path d="M895 386l36-46 38 28 58-66"/>
+<path d="M483 364H535M766 364H845"/><path d="M962 468c-36 126-162 207-313 186-103-14-183-64-235-136" stroke-dasharray="18 18"/>
+</g>
+<g font-family="system-ui,Segoe UI,sans-serif" fill="#f4fbf8"><text x="70" y="82" font-size="46" font-weight="800">Feedback Modalities</text><text x="70" y="132" font-size="42" font-weight="700"></text><text x="545" y="211" font-size="25">SIGNAL</text><text x="872" y="250" font-size="25">FEEDBACK</text><text x="700" y="704" font-size="25" fill="#66f0ff">MEASURE → PROCESS → REINFORCE → TRANSFER</text></g></svg>

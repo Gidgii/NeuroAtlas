@@ -1,0 +1,138 @@
+{
+  "id": "clinical-reporting-qeeg",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Clinical QEEG Reporting.",
+    "Apply Clinical QEEG Reporting to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "A defensible report describes indication, acquisition, artifact handling, analysed condition, methods, results, uncertainty and clinical integration."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Reports should avoid deterministic brain-language, unsupported localisation and diagnosis from normative deviation alone. Conventional EEG abnormalities require appropriate medical interpretation."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Transparent reporting supports informed consent and multidisciplinary use."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Colour maps without methods and caveats are marketing, not clinical science."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Clinical QEEG Reporting",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "A defensible report describes indication, acquisition, artifact handling, analysed condition, methods, results, uncertainty and clinical integration."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Reports should avoid deterministic brain-language, unsupported localisation and diagnosis from normative deviation alone. Conventional EEG abnormalities require appropriate medical interpretation."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Transparent reporting supports informed consent and multidisciplinary use."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Colour maps without methods and caveats are marketing, not clinical science."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Clinical QEEG Reporting"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Clinical QEEG Reporting?",
+      "options": [
+        "A defensible report describes indication, acquisition, artifact handling, analysed condition, methods, results, uncertainty and clinical integration.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "A defensible report describes indication, acquisition, artifact handling, analysed condition, methods, results, uncertainty and clinical integration."
+    },
+    {
+      "question": "What is the safest clinical principle for Clinical QEEG Reporting?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Clinical QEEG Reporting?",
+      "options": [
+        "Colour maps without methods and caveats are marketing, not clinical science.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Colour maps without methods and caveats are marketing, not clinical science."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Reports should avoid deterministic brain-language, unsupported localisation and diagnosis from normative deviation alone. Conventional EEG abnormalities require appropriate medical interpretation."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Transparent reporting supports informed consent and multidisciplinary use."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Colour maps without methods and caveats are marketing, not clinical science."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "A good report makes uncertainty visible."
+    }
+  ],
+  "tags": [
+    "clinical qeeg reporting",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "communicating",
+    "methods",
+    "limits",
+    "proportionate"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "source-localisation",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of EEG Source Localisation.",
+    "Apply EEG Source Localisation to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Inverse methods estimate source distributions that could produce observed scalp fields."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "The inverse problem has no unique solution without constraints. Head models, electrode positions, regularisation and source space strongly shape results."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Can complement expert EEG interpretation and research when uncertainty is explicit."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Displaying a 3D source image can create unjustified anatomical confidence."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace EEG Source Localisation",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Inverse methods estimate source distributions that could produce observed scalp fields."
+      },
+      {
+        "label": "Analyse",
+        "detail": "The inverse problem has no unique solution without constraints. Head models, electrode positions, regularisation and source space strongly shape results."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Can complement expert EEG interpretation and research when uncertainty is explicit."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Displaying a 3D source image can create unjustified anatomical confidence."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for EEG Source Localisation"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures EEG Source Localisation?",
+      "options": [
+        "Inverse methods estimate source distributions that could produce observed scalp fields.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Inverse methods estimate source distributions that could produce observed scalp fields."
+    },
+    {
+      "question": "What is the safest clinical principle for EEG Source Localisation?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in EEG Source Localisation?",
+      "options": [
+        "Displaying a 3D source image can create unjustified anatomical confidence.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Displaying a 3D source image can create unjustified anatomical confidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "The inverse problem has no unique solution without constraints. Head models, electrode positions, regularisation and source space strongly shape results."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Can complement expert EEG interpretation and research when uncertainty is explicit."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Displaying a 3D source image can create unjustified anatomical confidence."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Source localisation is model-based inference, not direct imaging."
+    }
+  ],
+  "tags": [
+    "eeg source localisation",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "estimating",
+    "intracranial",
+    "generators",
+    "scalp"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

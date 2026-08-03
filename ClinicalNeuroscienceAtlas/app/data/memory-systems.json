@@ -1,0 +1,171 @@
+{
+  "id": "memory-systems",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate working, episodic, semantic and procedural memory.",
+    "Explain hippocampal binding and systems consolidation.",
+    "Distinguish encoding, storage and retrieval failures.",
+    "Apply memory-system distinctions to clinical assessment."
+  ],
+  "anatomy": [
+    {
+      "id": "working",
+      "label": "Frontoparietal working memory",
+      "short": "Maintain and manipulate current information",
+      "detail": "Distributed frontal and parietal systems sustain task-relevant representations.",
+      "clinical": "ADHD, fatigue and anxiety may reduce effective capacity through attentional competition."
+    },
+    {
+      "id": "hippocampus",
+      "label": "Hippocampal formation",
+      "short": "Bind relational episodic details",
+      "detail": "Hippocampal circuits link people, places, time and context into retrievable episodes.",
+      "clinical": "Bilateral damage causes profound anterograde episodic-memory impairment."
+    },
+    {
+      "id": "semantic",
+      "label": "Distributed semantic cortex",
+      "short": "Represent concepts and factual knowledge",
+      "detail": "Temporal and association cortices encode conceptual features across modalities.",
+      "clinical": "Anterior temporal degeneration can produce progressive loss of word and object meaning."
+    },
+    {
+      "id": "procedural",
+      "label": "Striatum and cerebellum",
+      "short": "Acquire habits and skills",
+      "detail": "Repeated action-outcome patterns become efficient through corticostriatal and cerebellar learning.",
+      "clinical": "Procedural learning may remain relatively intact despite severe episodic amnesia."
+    },
+    {
+      "id": "retrieval",
+      "label": "Prefrontal retrieval control",
+      "short": "Search, verify and monitor memories",
+      "detail": "Prefrontal systems organise cues and evaluate whether retrieved information fits current goals.",
+      "clinical": "Executive dysfunction can mimic amnesia through disorganised retrieval."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Memory Systems",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Memory Systems model",
+    "stages": [
+      {
+        "label": "Attend",
+        "text": "Selective attention determines what information receives effective processing."
+      },
+      {
+        "label": "Encode",
+        "text": "Features are organised and bound into a usable representation."
+      },
+      {
+        "label": "Consolidate",
+        "text": "Synaptic and systems processes stabilise memory across time."
+      },
+      {
+        "label": "Retrieve",
+        "text": "Cues reactivate relevant representations."
+      },
+      {
+        "label": "Monitor",
+        "text": "Executive systems evaluate confidence, source and accuracy."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "memory-systems-q1",
+      "question": "The hippocampus is especially important for:",
+      "options": [
+        "Binding relational episodic details",
+        "Producing muscle force",
+        "Detecting sound frequency",
+        "Maintaining blood pressure"
+      ],
+      "answer": 0,
+      "explanation": "The hippocampal formation links distributed features into context-rich episodic representations."
+    },
+    {
+      "id": "memory-systems-q2",
+      "question": "Which memory system supports learned skills and habits?",
+      "options": [
+        "Procedural memory",
+        "Episodic memory only",
+        "Iconic memory only",
+        "Autobiographical memory only"
+      ],
+      "answer": 0,
+      "explanation": "Procedural learning relies strongly on corticostriatal and cerebellar circuits."
+    },
+    {
+      "id": "memory-systems-q3",
+      "question": "Poor attention during learning most directly impairs:",
+      "options": [
+        "Encoding",
+        "Myelination",
+        "CSF circulation",
+        "Motor-neuron conduction"
+      ],
+      "answer": 0,
+      "explanation": "Information that is not effectively attended to is less likely to be encoded for later retrieval."
+    },
+    {
+      "id": "memory-systems-q4",
+      "question": "Working memory relies heavily on:",
+      "options": [
+        "Frontoparietal networks",
+        "Primary olfactory neurons",
+        "Vestibular nuclei alone",
+        "Spinal reflex arcs"
+      ],
+      "answer": 0,
+      "explanation": "Distributed prefrontal and parietal systems maintain and manipulate task-relevant information."
+    },
+    {
+      "id": "memory-systems-q5",
+      "question": "A retrieval failure differs from storage loss because:",
+      "options": [
+        "The representation may remain available but inaccessible with current cues",
+        "No memory was ever encoded",
+        "The hippocampus has disappeared",
+        "The information is purely motor"
+      ],
+      "answer": 0,
+      "explanation": "Retrieval can fail despite retained information, particularly when cueing or executive search is weak."
+    }
+  ],
+  "tags": [
+    "memory",
+    "working memory",
+    "episodic",
+    "semantic",
+    "procedural",
+    "hippocampus",
+    "consolidation"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the major components of the Memory Systems.",
+      "Explain one clinically relevant function of the Memory Systems.",
+      "Identify one common oversimplification to avoid."
+    ]
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Squire LR, Dede AJO. Conscious and unconscious memory systems. Cold Spring Harb Perspect Biol. 2015;7:a021667."
+    },
+    {
+      "type": "Review",
+      "citation": "Dudai Y, Karni A, Born J. The consolidation and transformation of memory. Neuron. 2015;88:20–32."
+    }
+  ]
+}

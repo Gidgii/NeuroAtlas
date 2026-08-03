@@ -1,0 +1,138 @@
+{
+  "id": "qeeg-workflow",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of QEEG Workflow.",
+    "Apply QEEG Workflow to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "QEEG quantifies selected features after acquisition, artifact review, segmentation, transformation and statistical analysis."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Every output inherits the assumptions and errors of each preprocessing step. Conventional visual review remains essential."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "A transparent workflow supports reproducibility and prevents “black box” interpretation."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Skipping raw-data review because the software produced a report is unsafe."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace QEEG Workflow",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "QEEG quantifies selected features after acquisition, artifact review, segmentation, transformation and statistical analysis."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Every output inherits the assumptions and errors of each preprocessing step. Conventional visual review remains essential."
+      },
+      {
+        "label": "Integrate",
+        "detail": "A transparent workflow supports reproducibility and prevents “black box” interpretation."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Skipping raw-data review because the software produced a report is unsafe."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for QEEG Workflow"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures QEEG Workflow?",
+      "options": [
+        "QEEG quantifies selected features after acquisition, artifact review, segmentation, transformation and statistical analysis.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "QEEG quantifies selected features after acquisition, artifact review, segmentation, transformation and statistical analysis."
+    },
+    {
+      "question": "What is the safest clinical principle for QEEG Workflow?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in QEEG Workflow?",
+      "options": [
+        "Skipping raw-data review because the software produced a report is unsafe.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Skipping raw-data review because the software produced a report is unsafe."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Every output inherits the assumptions and errors of each preprocessing step. Conventional visual review remains essential."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "A transparent workflow supports reproducibility and prevents “black box” interpretation."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Skipping raw-data review because the software produced a report is unsafe."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "QEEG begins with EEG quality, not with a z-score map."
+    }
+  ],
+  "tags": [
+    "qeeg workflow",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "valid",
+    "interpretable",
+    "numerical",
+    "features"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

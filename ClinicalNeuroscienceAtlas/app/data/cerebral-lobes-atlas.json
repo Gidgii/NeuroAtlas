@@ -1,0 +1,286 @@
+{
+  "id": "cerebral-lobes-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 14,
+  "level": 29,
+  "title": "Cerebral Lobes Atlas",
+  "subtitle": "Compare frontal, parietal, temporal, occipital and insular territories",
+  "pronunciation": "seh-REE-bruhl lohbz",
+  "hero": "cerebral-lobes-atlas.svg",
+  "altText": "Interactive chalkboard-style anatomical atlas of Cerebral Lobes with labelled regions and pathway relationships.",
+  "prerequisites": [
+    "whole-brain"
+  ],
+  "previousConcept": "neurotransmitter-pathways",
+  "nextConcept": "cerebellum-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "cerebral lobes atlas",
+    "clinical psychology",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Cerebral Lobes Atlas",
+    "seh-REE-bruhl lohbz",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Identify the five major cerebral lobes in lateral and medial views.",
+    "Compare characteristic functions without reducing cognition to one lobe.",
+    "Relate cortical territories to blood supply and common lesion presentations."
+  ],
+  "sections": {
+    "explainSimply": "The cerebral cortex is divided into broad lobes that specialise in different kinds of information while continuously working together.",
+    "explainLikePsychologist": "Lobe labels are useful orientation tools, but psychological functions arise from distributed networks that cross anatomical boundaries.",
+    "advancedClinicalDetail": "The frontal, parietal, temporal, occipital and insular cortices contain multiple cytoarchitectonic and connectional territories. Clinical interpretation therefore depends on lesion location, laterality, white-matter disconnection and network compensation rather than lobe name alone.",
+    "thinkOfItLike": "Think of the lobes as districts in one city: each has characteristic services, but roads, utilities and people constantly cross district borders.",
+    "whyPsychologistsCare": "Lobe-level orientation helps psychologists connect behavioural change with plausible neural systems while avoiding crude localisation claims.",
+    "whenItGoesWrong": "Treating one lobe as the sole home of a complex function can produce inaccurate formulation and overconfident lesion inference.",
+    "clinicalPearl": "Use lobes to orient; use networks, tracts and task demands to explain.",
+    "practicalExample": "A left posterior temporal lesion may disrupt language comprehension, but the person’s functional profile also depends on auditory processing, semantic networks and interhemispheric support.",
+    "limitationsCautions": "Individual variation is substantial. A lobe map cannot diagnose impairment or predict outcome without examination, imaging and functional assessment."
+  },
+  "anatomy": [
+    {
+      "id": "frontal-lobe",
+      "label": "Frontal lobe",
+      "pronunciation": "Frontal lobe",
+      "function": "Executive control, action selection, motor planning and social regulation",
+      "inputs": "Thalamic, limbic, sensory-association and contralateral cortical input",
+      "outputs": "Motor, striatal, thalamic, limbic and association-cortex outputs",
+      "connections": "Thalamic, limbic, sensory-association and contralateral cortical input; projects via Motor, striatal, thalamic, limbic and association-cortex outputs.",
+      "associatedDisorders": "Disinhibition, apathy, dysexecutive syndromes, motor deficits",
+      "clinicalSignificance": "Assess frontal lobe in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "parietal-lobe",
+      "label": "Parietal lobe",
+      "pronunciation": "Parietal lobe",
+      "function": "Multisensory integration, body representation, spatial attention and skilled action",
+      "inputs": "Somatosensory, visual, auditory and thalamic input",
+      "outputs": "Premotor, frontal, temporal and subcortical outputs",
+      "connections": "Somatosensory, visual, auditory and thalamic input; projects via Premotor, frontal, temporal and subcortical outputs.",
+      "associatedDisorders": "Neglect, apraxia, dyscalculia, somatosensory integration deficits",
+      "clinicalSignificance": "Assess parietal lobe in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "temporal-lobe",
+      "label": "Temporal lobe",
+      "pronunciation": "Temporal lobe",
+      "function": "Auditory analysis, semantic memory, object recognition and episodic-memory interfaces",
+      "inputs": "Auditory, visual, limbic and association-cortex input",
+      "outputs": "Frontal, parietal, limbic and subcortical outputs",
+      "connections": "Auditory, visual, limbic and association-cortex input; projects via Frontal, parietal, limbic and subcortical outputs.",
+      "associatedDisorders": "Aphasia, memory impairment, agnosia, altered emotion processing",
+      "clinicalSignificance": "Assess temporal lobe in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "occipital-lobe",
+      "label": "Occipital lobe",
+      "pronunciation": "Occipital lobe",
+      "function": "Early and intermediate visual analysis",
+      "inputs": "Thalamic visual input through the lateral geniculate nucleus",
+      "outputs": "Dorsal and ventral visual-stream outputs",
+      "connections": "Thalamic visual input through the lateral geniculate nucleus; projects via Dorsal and ventral visual-stream outputs.",
+      "associatedDisorders": "Visual field loss, cortical blindness, visual perceptual deficits",
+      "clinicalSignificance": "Assess occipital lobe in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "insula",
+      "label": "Insula",
+      "pronunciation": "Insula",
+      "function": "Interoception, salience, taste and integration of bodily state with emotion",
+      "inputs": "Visceral, somatosensory, limbic and thalamic input",
+      "outputs": "Cingulate, frontal, temporal, autonomic and subcortical outputs",
+      "connections": "Visceral, somatosensory, limbic and thalamic input; projects via Cingulate, frontal, temporal, autonomic and subcortical outputs.",
+      "associatedDisorders": "Altered interoception, taste disturbance, salience dysregulation",
+      "clinicalSignificance": "Assess insula in the context of lesion location, laterality, tract involvement and functional change."
+    }
+  ],
+  "mechanismMap": [
+    {
+      "label": "Frontal lobe",
+      "detail": "Executive control, action selection, motor planning and social regulation"
+    },
+    {
+      "label": "Parietal lobe",
+      "detail": "Multisensory integration, body representation, spatial attention and skilled action"
+    },
+    {
+      "label": "Temporal lobe",
+      "detail": "Auditory analysis, semantic memory, object recognition and episodic-memory interfaces"
+    },
+    {
+      "label": "Occipital lobe",
+      "detail": "Early and intermediate visual analysis"
+    },
+    {
+      "label": "Insula",
+      "detail": "Interoception, salience, taste and integration of bodily state with emotion"
+    }
+  ],
+  "interaction": {
+    "type": "anatomy-explorer",
+    "instruction": "Select each labelled structure to reveal function, inputs, outputs, connections and clinical significance.",
+    "signalSteps": [
+      "Frontal lobe: Executive control, action selection, motor planning and social regulation",
+      "Parietal lobe: Multisensory integration, body representation, spatial attention and skilled action",
+      "Temporal lobe: Auditory analysis, semantic memory, object recognition and episodic-memory interfaces",
+      "Occipital lobe: Early and intermediate visual analysis",
+      "Insula: Interoception, salience, taste and integration of bodily state with emotion"
+    ],
+    "accessibilityLabel": "Interactive anatomy sequence for Cerebral Lobes Atlas"
+  },
+  "quizBank": [
+    {
+      "id": "cerebral-lobes-atlas-q1",
+      "question": "Which statement best captures the clinical use of the Cerebral Lobes Atlas?",
+      "options": [
+        "Use lobes to orient; use networks, tracts and task demands to explain.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Laterality is never relevant"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Use lobes to orient; use networks, tracts and task demands to explain.",
+      "explanation": "Use lobes to orient; use networks, tracts and task demands to explain."
+    },
+    {
+      "id": "cerebral-lobes-atlas-q2",
+      "question": "What is the safest interpretation principle for Cerebral Lobes Atlas?",
+      "options": [
+        "Use structure, networks, examination and context together",
+        "Infer diagnosis from one image",
+        "Ignore white-matter connections",
+        "Assume all people have identical organisation"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Anatomical findings require integration with networks, clinical examination and individual context.",
+      "explanation": "Anatomical findings require integration with networks, clinical examination and individual context."
+    },
+    {
+      "id": "cerebral-lobes-atlas-q3",
+      "question": "Which feature is explicitly included in this atlas slice?",
+      "options": [
+        "Frontal lobe",
+        "Only a decorative title",
+        "No clinical links",
+        "No pathway information"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Frontal lobe is one of the mapped structures in this slice.",
+      "explanation": "Frontal lobe is one of the mapped structures in this slice."
+    }
+  ],
+  "reviewPrompts": [
+    "Name the major structures in Cerebral Lobes Atlas.",
+    "Trace one input-output relationship in Cerebral Lobes Atlas.",
+    "Give one clinical caution relevant to Cerebral Lobes Atlas."
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easyIntervalDays": 14,
+    "tags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "responsive": true,
+    "reducedMotion": true
+  },
+  "references": [
+    {
+      "citation": "Mesulam MM. From sensation to cognition. Brain. 1998.",
+      "url": "https://doi.org/10.1093/brain/121.6.1013",
+      "type": "Reference"
+    },
+    {
+      "citation": "Catani M, Thiebaut de Schotten M. Atlas of Human Brain Connections. Oxford University Press. 2012.",
+      "url": "https://global.oup.com/academic/product/atlas-of-human-brain-connections-9780199541164",
+      "type": "Reference"
+    }
+  ],
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "Cerebral Lobes Atlas"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "functions"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy",
+        "lesion"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best captures the clinical use of the Cerebral Lobes Atlas?",
+      "options": [
+        "Use lobes to orient; use networks, tracts and task demands to explain.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Laterality is never relevant"
+      ],
+      "answer": 0,
+      "explanation": "Use lobes to orient; use networks, tracts and task demands to explain."
+    },
+    {
+      "question": "Why do connections matter clinically?",
+      "options": [
+        "Symptoms may reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Pathways do not affect cognition.",
+        "All people have identical pathways."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive functions depend on connected pathways."
+    },
+    {
+      "question": "What should an atlas not be used for?",
+      "options": [
+        "Making a diagnosis from one structure alone.",
+        "Learning spatial relationships.",
+        "Generating lesion hypotheses.",
+        "Understanding vascular territories."
+      ],
+      "answer": 0,
+      "rationale": "An atlas is an educational and hypothesis-support tool, not a standalone diagnostic instrument."
+    }
+  ],
+  "accessibility": {
+    "altText": "Interactive chalkboard-style anatomical atlas of Cerebral Lobes with labelled regions and pathway relationships.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The cerebral cortex is divided into broad lobes that specialise in different kinds of information while continuously working together.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

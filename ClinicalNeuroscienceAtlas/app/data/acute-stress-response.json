@@ -1,0 +1,175 @@
+{
+  "id": "acute-stress-response",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 2,
+  "level": 28,
+  "title": "Acute Stress Response",
+  "subtitle": "Rapid survival mobilisation after threat",
+  "hero": "acute-stress-response.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating acute stress response across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "foundations-trauma-neuroscience"
+  ],
+  "previousConcept": "foundations-trauma-neuroscience",
+  "nextConcept": "chronic-stress-trauma",
+  "tags": [
+    "acute",
+    "stress",
+    "response",
+    "trauma",
+    "emdr",
+    "established physiology"
+  ],
+  "searchTerms": [
+    "acute",
+    "stress",
+    "response",
+    "trauma",
+    "emdr",
+    "established physiology",
+    "rapid",
+    "survival",
+    "mobilisation",
+    "after",
+    "threat"
+  ],
+  "learningObjectives": [
+    "Explain acute stress response in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in acute stress response.",
+    "Identify one limitation or safety implication relevant to acute stress response."
+  ],
+  "sections": {
+    "explainSimply": "Acute stress prepares the body to act through fast autonomic and hormonal responses.",
+    "explainLikePsychologist": "Attention narrows, salience rises, memory encoding changes and flexible reasoning may temporarily reduce as survival priorities dominate.",
+    "advancedClinicalDetail": "Catecholamines act rapidly; HPA-axis cortisol follows more slowly. Response magnitude depends on predictability, controllability, prior learning and current safety.",
+    "thinkOfItLike": "Think of acute stress response as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need acute stress response to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "A strong acute response can be adaptive and is not itself a disorder.",
+    "clinicalPearl": "Clinical pearl: use acute stress response to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses acute stress response to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "A strong acute response can be adaptive and is not itself a disorder. Evidence classification: established physiology."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Acute stress prepares the body to act through fast autonomic and hormonal responses."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Attention narrows, salience rises, memory encoding changes and flexible reasoning may temporarily reduce as survival priorities dominate."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "A strong acute response can be adaptive and is not itself a disorder."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Acute stress prepares the body to act through fast autonomic and hormonal responses.",
+      "Attention narrows, salience rises, memory encoding changes and flexible reasoning may temporarily reduce as survival priorities dominate.",
+      "A strong acute response can be adaptive and is not itself a disorder."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "acute-stress-response-q1",
+      "question": "What is the most accurate core statement about Acute Stress Response?",
+      "options": [
+        "Acute stress prepares the body to act through fast autonomic and hormonal responses.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Acute stress prepares the body to act through fast autonomic and hormonal responses."
+    },
+    {
+      "id": "acute-stress-response-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Attention narrows, salience rises, memory encoding changes and flexible reasoning may temporarily reduce as survival priorities dominate.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Attention narrows, salience rises, memory encoding changes and flexible reasoning may temporarily reduce as survival priorities dominate."
+    },
+    {
+      "id": "acute-stress-response-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "A strong acute response can be adaptive and is not itself a disorder.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "A strong acute response can be adaptive and is not itself a disorder."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Acute stress prepares the body to act through fast autonomic and hormonal responses."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "A strong acute response can be adaptive and is not itself a disorder."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established physiology"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

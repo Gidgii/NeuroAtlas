@@ -1,0 +1,138 @@
+{
+  "id": "qeeg-autism-evidence",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of QEEG and Autism.",
+    "Apply QEEG and Autism to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Autism studies report varied spectral and connectivity findings, often inconsistent across age, phenotype and methodology."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Neurodevelopmental diversity, medication, sleep and sensory state complicate interpretation. Diagnosis rests on developmental history and observed behaviour."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Supports critical appraisal of biomarker claims and respectful communication."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Presenting deviations as proof of autism risks diagnostic harm and stigma."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace QEEG and Autism",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Autism studies report varied spectral and connectivity findings, often inconsistent across age, phenotype and methodology."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Neurodevelopmental diversity, medication, sleep and sensory state complicate interpretation. Diagnosis rests on developmental history and observed behaviour."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Supports critical appraisal of biomarker claims and respectful communication."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Presenting deviations as proof of autism risks diagnostic harm and stigma."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for QEEG and Autism"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures QEEG and Autism?",
+      "options": [
+        "Autism studies report varied spectral and connectivity findings, often inconsistent across age, phenotype and methodology.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Autism studies report varied spectral and connectivity findings, often inconsistent across age, phenotype and methodology."
+    },
+    {
+      "question": "What is the safest clinical principle for QEEG and Autism?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in QEEG and Autism?",
+      "options": [
+        "Presenting deviations as proof of autism risks diagnostic harm and stigma.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Presenting deviations as proof of autism risks diagnostic harm and stigma."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Neurodevelopmental diversity, medication, sleep and sensory state complicate interpretation. Diagnosis rests on developmental history and observed behaviour."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Supports critical appraisal of biomarker claims and respectful communication."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Presenting deviations as proof of autism risks diagnostic harm and stigma."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Research signal is not clinical certainty."
+    }
+  ],
+  "tags": [
+    "qeeg and autism",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "research",
+    "patterns",
+    "provide",
+    "validated"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

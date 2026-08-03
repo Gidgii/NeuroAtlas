@@ -1,0 +1,226 @@
+{
+  "id": "integrated-systems-capstone",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Integrate cellular, circuit, cognitive and contextual levels.",
+    "Distinguish causal mechanisms from correlates and markers.",
+    "Identify reductionist errors in clinical reasoning.",
+    "Use neuroscience to improve—not replace—formulation."
+  ],
+  "anatomy": [
+    {
+      "id": "cell",
+      "label": "Cellular level",
+      "short": "Channels, metabolism and plasticity",
+      "detail": "Cell states constrain signalling capacity.",
+      "clinical": "Medical and pharmacological factors may enter here."
+    },
+    {
+      "id": "circuit",
+      "label": "Circuit level",
+      "short": "Distributed pathways and network dynamics",
+      "detail": "Connectivity shapes timing and integration.",
+      "clinical": "Similar symptoms can arise from different circuit disruptions."
+    },
+    {
+      "id": "cognitive",
+      "label": "Cognitive level",
+      "short": "Attention, memory, prediction and control",
+      "detail": "Mental operations bridge neural systems and behaviour.",
+      "clinical": "Assessment should specify the affected operation."
+    },
+    {
+      "id": "behaviour",
+      "label": "Behavioural level",
+      "short": "Actions, habits and learning history",
+      "detail": "Reinforcement and avoidance maintain patterns.",
+      "clinical": "Observable behaviour remains essential evidence."
+    },
+    {
+      "id": "context",
+      "label": "Contextual level",
+      "short": "Relationships, environment and development",
+      "detail": "Demand and support alter system expression.",
+      "clinical": "A capacity problem may appear only under certain conditions."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Integrated Systems Capstone",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Integrated Systems Capstone model",
+    "stages": [
+      {
+        "label": "Describe",
+        "text": "Define the behaviour, time course and context precisely."
+      },
+      {
+        "label": "Map",
+        "text": "Identify plausible operations and systems at multiple levels."
+      },
+      {
+        "label": "Compare",
+        "text": "Test competing explanations and disconfirming evidence."
+      },
+      {
+        "label": "Intervene",
+        "text": "Choose the safest, most modifiable leverage points."
+      },
+      {
+        "label": "Update",
+        "text": "Revise the model using outcome and new information."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "integrated-systems-capstone-q1",
+      "question": "A multilevel formulation should:",
+      "options": [
+        "Link biological, cognitive, behavioural and contextual processes",
+        "Replace psychology with anatomy",
+        "Assume one cause per symptom",
+        "Ignore alternative explanations"
+      ],
+      "answer": 0,
+      "explanation": "Clinical phenomena usually require linked levels of explanation."
+    },
+    {
+      "id": "integrated-systems-capstone-q2",
+      "question": "A neural correlate is:",
+      "options": [
+        "An associated measure, not automatically a cause",
+        "Always a treatment target",
+        "A diagnosis",
+        "Proof of permanence"
+      ],
+      "answer": 0,
+      "explanation": "Association alone does not establish causal or clinical meaning."
+    },
+    {
+      "id": "integrated-systems-capstone-q3",
+      "question": "The strongest model is the one that:",
+      "options": [
+        "Explains the pattern and guides testable action",
+        "Uses the most technical vocabulary",
+        "Names the most brain regions",
+        "Never changes"
+      ],
+      "answer": 0,
+      "explanation": "Clinical models should be useful, falsifiable and revisable."
+    },
+    {
+      "id": "integrated-systems-capstone-q4",
+      "question": "Reductionism risks:",
+      "options": [
+        "Collapsing complex presentations into one level",
+        "Improving differential diagnosis automatically",
+        "Eliminating uncertainty",
+        "Capturing all contextual effects"
+      ],
+      "answer": 0,
+      "explanation": "Single-level accounts often miss interacting causes and constraints."
+    },
+    {
+      "id": "integrated-systems-capstone-q5",
+      "question": "Neuroscience should be used to:",
+      "options": [
+        "Refine assessment and intervention while preserving context",
+        "Make deterministic predictions about individuals",
+        "Replace behavioural evidence",
+        "Infer diagnosis from one scan"
+      ],
+      "answer": 0,
+      "explanation": "Neuroscience is one evidence layer within broader clinical reasoning."
+    }
+  ],
+  "tags": [
+    "accounts",
+    "across",
+    "action",
+    "alone",
+    "also",
+    "alternative",
+    "alternatives",
+    "another",
+    "assessment",
+    "become",
+    "behaviour",
+    "behavioural",
+    "best",
+    "biological",
+    "blame",
+    "body",
+    "brain",
+    "capstone",
+    "causal",
+    "cause",
+    "cells",
+    "cellular",
+    "circuits",
+    "clinical",
+    "cognitive",
+    "collapsing",
+    "comes",
+    "communication",
+    "compensation",
+    "constrain",
+    "context",
+    "contributors",
+    "correlation",
+    "course",
+    "dependence",
+    "depends",
+    "determine",
+    "deterministic",
+    "development",
+    "diagnosis",
+    "distinguish",
+    "emerges",
+    "environmental",
+    "explains",
+    "explanation",
+    "explanations",
+    "falsely",
+    "findings",
+    "formulated",
+    "formulation",
+    "from",
+    "guides",
+    "hypotheses",
+    "ignore",
+    "improves",
+    "integrated",
+    "integrates",
+    "interpersonal",
+    "intervention",
+    "into"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "A multilevel formulation should:",
+      "A neural correlate is:",
+      "The best formulation is not the most biological one; it is the model that explains the pattern, survives alternatives and guides safe action."
+    ]
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    },
+    {
+      "type": "Reference",
+      "citation": "Pessoa L. The Cognitive-Emotional Brain. MIT Press; 2013."
+    },
+    {
+      "type": "Reference",
+      "citation": "Cacioppo JT, Berntson GG. Social psychological contributions to the decade of the brain. Am Psychol. 1992;47:1019–1028."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas diagram of integrated systems capstone with labelled system components.",
+    "interactionSummary": "A keyboard-accessible five-stage sequence explains the system from input through integration."
+  }
+}

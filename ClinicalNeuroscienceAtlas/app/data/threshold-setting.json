@@ -1,0 +1,160 @@
+{
+  "id": "threshold-setting",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 12,
+  "level": 25,
+  "title": "Threshold Setting",
+  "subtitle": "Set a challenge that remains informative",
+  "hero": "threshold-setting.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating threshold setting within a neurofeedback closed loop.",
+  "prerequisites": [
+    "artifact-recognition-neurofeedback"
+  ],
+  "nextConcept": "reward-bands",
+  "previousConcept": "artifact-recognition-neurofeedback",
+  "tags": [
+    "threshold",
+    "setting",
+    "neurofeedback",
+    "protocol",
+    "implementation principle"
+  ],
+  "searchTerms": [
+    "threshold",
+    "setting",
+    "neurofeedback",
+    "protocol",
+    "implementation principle",
+    "set",
+    "challenge",
+    "that",
+    "remains",
+    "informative"
+  ],
+  "learningObjectives": [
+    "Explain threshold setting without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in threshold setting.",
+    "Identify one safety or validity limitation relevant to threshold setting."
+  ],
+  "sections": {
+    "explainSimply": "The threshold determines when feedback is earned.",
+    "explainLikePsychologist": "A useful threshold is achievable enough to sustain learning but discriminating enough to represent the intended state. Threshold drift should be documented.",
+    "advancedClinicalDetail": "Manual and automatic thresholds influence reward rate differently. Report whether thresholds are fixed, adaptive, percentile-based or clinician-adjusted.",
+    "thinkOfItLike": "A rehabilitation plan: define the target, dose, measurement and stopping rule before changing the exercise.",
+    "whyPsychologistsCare": "Psychologists need to understand threshold setting to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Chasing a preferred reward percentage can hide lack of physiological learning.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using threshold setting predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Chasing a preferred reward percentage can hide lack of physiological learning. Evidence classification: implementation principle; limited comparative evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Manual and automatic thresholds influence reward rate differently. Report whether thresholds are fixed, adaptive, percentile-based or clinician-adjusted."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "The threshold determines when feedback is earned."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "The threshold determines when feedback is earned.",
+      "A useful threshold is achievable enough to sustain learning but discriminating enough to represent the intended state. Threshold drift should be documented.",
+      "Chasing a preferred reward percentage can hide lack of physiological learning."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Threshold Setting?",
+      "options": [
+        "The threshold determines when feedback is earned.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "The threshold determines when feedback is earned."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Threshold Setting?",
+      "options": [
+        "Chasing a preferred reward percentage can hide lack of physiological learning.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Chasing a preferred reward percentage can hide lack of physiological learning."
+    },
+    {
+      "question": "How should the evidence for Threshold Setting be communicated?",
+      "options": [
+        "As implementation principle; limited comparative evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: implementation principle; limited comparative evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The threshold determines when feedback is earned."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Chasing a preferred reward percentage can hide lack of physiological learning."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "implementation principle; limited comparative evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

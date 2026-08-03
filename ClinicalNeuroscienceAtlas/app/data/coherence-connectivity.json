@@ -1,0 +1,138 @@
+{
+  "id": "coherence-connectivity",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Coherence and Connectivity.",
+    "Apply Coherence and Connectivity to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Coherence measures frequency-specific consistency between channels; other metrics estimate phase or amplitude coupling."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Volume conduction, reference choice, common sources and nonstationarity can inflate apparent connectivity. Connectivity is not direct anatomical wiring."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "May support network research and carefully controlled longitudinal analysis."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Calling coherence “communication” without addressing common-source effects is overreach."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Coherence and Connectivity",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Coherence measures frequency-specific consistency between channels; other metrics estimate phase or amplitude coupling."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Volume conduction, reference choice, common sources and nonstationarity can inflate apparent connectivity. Connectivity is not direct anatomical wiring."
+      },
+      {
+        "label": "Integrate",
+        "detail": "May support network research and carefully controlled longitudinal analysis."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Calling coherence “communication” without addressing common-source effects is overreach."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Coherence and Connectivity"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Coherence and Connectivity?",
+      "options": [
+        "Coherence measures frequency-specific consistency between channels; other metrics estimate phase or amplitude coupling.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Coherence measures frequency-specific consistency between channels; other metrics estimate phase or amplitude coupling."
+    },
+    {
+      "question": "What is the safest clinical principle for Coherence and Connectivity?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Coherence and Connectivity?",
+      "options": [
+        "Calling coherence “communication” without addressing common-source effects is overreach.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Calling coherence “communication” without addressing common-source effects is overreach."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Volume conduction, reference choice, common sources and nonstationarity can inflate apparent connectivity. Connectivity is not direct anatomical wiring."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "May support network research and carefully controlled longitudinal analysis."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Calling coherence “communication” without addressing common-source effects is overreach."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Connectivity metrics quantify relationships in signals, not conversations between lobes."
+    }
+  ],
+  "tags": [
+    "coherence and connectivity",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "estimating",
+    "statistical",
+    "relationships",
+    "between"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

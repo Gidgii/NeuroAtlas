@@ -1,0 +1,179 @@
+{
+  "id": "amygdala",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Amygdala.",
+    "Explain how the Amygdala contributes to distributed brain function.",
+    "Connect Amygdala physiology with clinically relevant symptoms and conditions.",
+    "Interpret structural or functional findings cautiously and in context."
+  ],
+  "anatomy": [
+    {
+      "id": "lateral",
+      "label": "Lateral nucleus",
+      "short": "Sensory input hub",
+      "detail": "Receives converging sensory information and learns cue associations.",
+      "clinical": "Supports conditioned responses to predictive cues."
+    },
+    {
+      "id": "basal",
+      "label": "Basal nuclei",
+      "short": "Context and action selection",
+      "detail": "Integrates hippocampal and prefrontal information with learned value.",
+      "clinical": "Helps distinguish safe from dangerous contexts."
+    },
+    {
+      "id": "central",
+      "label": "Central nucleus",
+      "short": "Response coordinator",
+      "detail": "Projects to hypothalamic and brainstem systems controlling autonomic and defensive responses.",
+      "clinical": "Excess output can amplify arousal and avoidance."
+    },
+    {
+      "id": "intercalated",
+      "label": "Intercalated cells",
+      "short": "Inhibitory gates",
+      "detail": "GABAergic clusters regulate flow from basolateral to central nuclei.",
+      "clinical": "Important for extinction and flexible inhibition."
+    },
+    {
+      "id": "extended",
+      "label": "Extended amygdala",
+      "short": "Sustained threat network",
+      "detail": "Includes bed nucleus pathways involved in prolonged apprehension.",
+      "clinical": "Distinguishes sustained anxiety from brief phasic fear."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Amygdala",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "lateral",
+        "label": "Lateral nucleus",
+        "description": "Receives converging sensory information and learns cue associations."
+      },
+      {
+        "id": "basal",
+        "label": "Basal nuclei",
+        "description": "Integrates hippocampal and prefrontal information with learned value."
+      },
+      {
+        "id": "central",
+        "label": "Central nucleus",
+        "description": "Projects to hypothalamic and brainstem systems controlling autonomic and defensive responses."
+      },
+      {
+        "id": "intercalated",
+        "label": "Intercalated cells",
+        "description": "GABAergic clusters regulate flow from basolateral to central nuclei."
+      },
+      {
+        "id": "extended",
+        "label": "Extended amygdala",
+        "description": "Includes bed nucleus pathways involved in prolonged apprehension."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "amygdala-q1",
+      "question": "Which component is best described as: Sensory input hub?",
+      "options": [
+        "Lateral nucleus",
+        "Basal nuclei",
+        "Central nucleus",
+        "Intercalated cells"
+      ],
+      "answer": 0,
+      "explanation": "Receives converging sensory information and learns cue associations."
+    },
+    {
+      "id": "amygdala-q2",
+      "question": "Which component is best described as: Context and action selection?",
+      "options": [
+        "Basal nuclei",
+        "Lateral nucleus",
+        "Central nucleus",
+        "Intercalated cells"
+      ],
+      "answer": 0,
+      "explanation": "Integrates hippocampal and prefrontal information with learned value."
+    },
+    {
+      "id": "amygdala-q3",
+      "question": "Which component is best described as: Response coordinator?",
+      "options": [
+        "Central nucleus",
+        "Lateral nucleus",
+        "Basal nuclei",
+        "Intercalated cells"
+      ],
+      "answer": 0,
+      "explanation": "Projects to hypothalamic and brainstem systems controlling autonomic and defensive responses."
+    },
+    {
+      "id": "amygdala-q4",
+      "question": "Which component is best described as: Inhibitory gates?",
+      "options": [
+        "Intercalated cells",
+        "Lateral nucleus",
+        "Basal nuclei",
+        "Central nucleus"
+      ],
+      "answer": 0,
+      "explanation": "GABAergic clusters regulate flow from basolateral to central nuclei."
+    },
+    {
+      "id": "amygdala-q5",
+      "question": "Which component is best described as: Sustained threat network?",
+      "options": [
+        "Extended amygdala",
+        "Lateral nucleus",
+        "Basal nuclei",
+        "Central nucleus"
+      ],
+      "answer": 0,
+      "explanation": "Includes bed nucleus pathways involved in prolonged apprehension."
+    }
+  ],
+  "tags": [
+    "emotion",
+    "fear learning",
+    "salience",
+    "threat",
+    "reward"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Amygdala.",
+      "Explain one clinically relevant function of the Amygdala.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "LeDoux, 2000",
+      "year": "2000",
+      "title": "Emotion circuits in the brain",
+      "source": "Annual Review of Neuroscience"
+    },
+    {
+      "authors": "Janak & Tye, 2015",
+      "year": "2015",
+      "title": "From circuits to behaviour in the amygdala",
+      "source": "Nature"
+    },
+    {
+      "authors": "Phelps & LeDoux, 2005",
+      "year": "2005",
+      "title": "Contributions of the amygdala to emotion processing",
+      "source": "Neuron"
+    }
+  ]
+}

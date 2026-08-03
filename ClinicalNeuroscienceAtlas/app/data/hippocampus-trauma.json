@@ -1,0 +1,171 @@
+{
+  "id": "hippocampus-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 9,
+  "level": 28,
+  "title": "Hippocampus in Trauma",
+  "subtitle": "Context, sequence and episodic memory",
+  "hero": "hippocampus-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating hippocampus in trauma across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "amygdala-trauma"
+  ],
+  "previousConcept": "amygdala-trauma",
+  "nextConcept": "prefrontal-cortex-trauma",
+  "tags": [
+    "hippocampus",
+    "trauma",
+    "trauma",
+    "emdr",
+    "promising group evidence; causal uncertainty"
+  ],
+  "searchTerms": [
+    "hippocampus",
+    "trauma",
+    "emdr",
+    "promising group evidence; causal uncertainty",
+    "context",
+    "sequence",
+    "episodic",
+    "memory"
+  ],
+  "learningObjectives": [
+    "Explain hippocampus in trauma in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in hippocampus in trauma.",
+    "Identify one limitation or safety implication relevant to hippocampus in trauma."
+  ],
+  "sections": {
+    "explainSimply": "The hippocampus helps place experiences in time and context.",
+    "explainLikePsychologist": "Trauma may disrupt contextual discrimination, making safe present cues feel similar to past danger.",
+    "advancedClinicalDetail": "Hippocampal volume and function findings in PTSD are statistically reliable in some meta-analyses yet influenced by pre-existing risk, chronicity and comorbidity.",
+    "thinkOfItLike": "Think of hippocampus in trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need hippocampus in trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Smaller average volume does not prove trauma caused damage in one person.",
+    "clinicalPearl": "Clinical pearl: use hippocampus in trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses hippocampus in trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Smaller average volume does not prove trauma caused damage in one person. Evidence classification: promising group evidence; causal uncertainty."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "The hippocampus helps place experiences in time and context."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Trauma may disrupt contextual discrimination, making safe present cues feel similar to past danger."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Smaller average volume does not prove trauma caused damage in one person."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "The hippocampus helps place experiences in time and context.",
+      "Trauma may disrupt contextual discrimination, making safe present cues feel similar to past danger.",
+      "Smaller average volume does not prove trauma caused damage in one person."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "hippocampus-trauma-q1",
+      "question": "What is the most accurate core statement about Hippocampus in Trauma?",
+      "options": [
+        "The hippocampus helps place experiences in time and context.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The hippocampus helps place experiences in time and context."
+    },
+    {
+      "id": "hippocampus-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Trauma may disrupt contextual discrimination, making safe present cues feel similar to past danger.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma may disrupt contextual discrimination, making safe present cues feel similar to past danger."
+    },
+    {
+      "id": "hippocampus-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Smaller average volume does not prove trauma caused damage in one person.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Smaller average volume does not prove trauma caused damage in one person."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The hippocampus helps place experiences in time and context."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Smaller average volume does not prove trauma caused damage in one person."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "promising group evidence; causal uncertainty"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

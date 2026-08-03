@@ -1,0 +1,173 @@
+{
+  "id": "fear-extinction-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 18,
+  "level": 28,
+  "title": "Fear Extinction",
+  "subtitle": "Learning safety without deleting the old association",
+  "hero": "fear-extinction-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating fear extinction across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "fear-conditioning-trauma"
+  ],
+  "previousConcept": "fear-conditioning-trauma",
+  "nextConcept": "prediction-error-trauma",
+  "tags": [
+    "fear",
+    "extinction",
+    "trauma",
+    "emdr",
+    "established learning mechanism"
+  ],
+  "searchTerms": [
+    "fear",
+    "extinction",
+    "trauma",
+    "emdr",
+    "established learning mechanism",
+    "learning",
+    "safety",
+    "without",
+    "deleting",
+    "association"
+  ],
+  "learningObjectives": [
+    "Explain fear extinction in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in fear extinction.",
+    "Identify one limitation or safety implication relevant to fear extinction."
+  ],
+  "sections": {
+    "explainSimply": "Extinction creates new learning that a cue can be safe in the present.",
+    "explainLikePsychologist": "The original threat memory usually remains available, which helps explain renewal, reinstatement and spontaneous recovery.",
+    "advancedClinicalDetail": "Exposure works best when it supports expectancy violation, variability, context generalisation and reduced safety behaviours.",
+    "thinkOfItLike": "Think of fear extinction as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need fear extinction to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "A temporary return of fear does not mean treatment failed.",
+    "clinicalPearl": "Clinical pearl: use fear extinction to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses fear extinction to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "A temporary return of fear does not mean treatment failed. Evidence classification: established learning mechanism."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Extinction creates new learning that a cue can be safe in the present."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "The original threat memory usually remains available, which helps explain renewal, reinstatement and spontaneous recovery."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "A temporary return of fear does not mean treatment failed."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Extinction creates new learning that a cue can be safe in the present.",
+      "The original threat memory usually remains available, which helps explain renewal, reinstatement and spontaneous recovery.",
+      "A temporary return of fear does not mean treatment failed."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "fear-extinction-trauma-q1",
+      "question": "What is the most accurate core statement about Fear Extinction?",
+      "options": [
+        "Extinction creates new learning that a cue can be safe in the present.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Extinction creates new learning that a cue can be safe in the present."
+    },
+    {
+      "id": "fear-extinction-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "The original threat memory usually remains available, which helps explain renewal, reinstatement and spontaneous recovery.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The original threat memory usually remains available, which helps explain renewal, reinstatement and spontaneous recovery."
+    },
+    {
+      "id": "fear-extinction-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "A temporary return of fear does not mean treatment failed.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "A temporary return of fear does not mean treatment failed."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Extinction creates new learning that a cue can be safe in the present."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "A temporary return of fear does not mean treatment failed."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established learning mechanism"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

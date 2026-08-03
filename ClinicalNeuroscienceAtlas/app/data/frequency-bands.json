@@ -1,0 +1,138 @@
+{
+  "id": "frequency-bands",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Frequency Bands.",
+    "Apply Frequency Bands to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Delta, theta, alpha, beta and gamma bands summarise frequency ranges, but boundaries vary and functions overlap."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Individual alpha frequency, age, state and task can be more informative than rigid canonical cut-offs."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Prevents simplistic claims such as “theta equals ADHD” or “beta equals anxiety.”"
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Band-to-diagnosis storytelling exceeds the evidence."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Frequency Bands",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Delta, theta, alpha, beta and gamma bands summarise frequency ranges, but boundaries vary and functions overlap."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Individual alpha frequency, age, state and task can be more informative than rigid canonical cut-offs."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Prevents simplistic claims such as “theta equals ADHD” or “beta equals anxiety.”"
+      },
+      {
+        "label": "Check limits",
+        "detail": "Band-to-diagnosis storytelling exceeds the evidence."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Frequency Bands"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Frequency Bands?",
+      "options": [
+        "Delta, theta, alpha, beta and gamma bands summarise frequency ranges, but boundaries vary and functions overlap.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Delta, theta, alpha, beta and gamma bands summarise frequency ranges, but boundaries vary and functions overlap."
+    },
+    {
+      "question": "What is the safest clinical principle for Frequency Bands?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Frequency Bands?",
+      "options": [
+        "Band-to-diagnosis storytelling exceeds the evidence.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Band-to-diagnosis storytelling exceeds the evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Individual alpha frequency, age, state and task can be more informative than rigid canonical cut-offs."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Prevents simplistic claims such as “theta equals ADHD” or “beta equals anxiety.”"
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Band-to-diagnosis storytelling exceeds the evidence."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Bands organise data; they do not diagnose people."
+    }
+  ],
+  "tags": [
+    "frequency bands",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "conventional",
+    "ranges",
+    "useful",
+    "labels"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

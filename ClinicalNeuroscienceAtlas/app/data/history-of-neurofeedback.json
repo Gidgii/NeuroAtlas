@@ -1,0 +1,161 @@
+{
+  "id": "history-of-neurofeedback",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 1,
+  "level": 24,
+  "title": "History of Neurofeedback",
+  "subtitle": "From conditioning animal rhythms to modern closed-loop training",
+  "hero": "history-of-neurofeedback.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating history of neurofeedback within a neurofeedback closed loop.",
+  "prerequisites": [
+    "eeg-qeeg-capstone"
+  ],
+  "nextConcept": "learning-theory-neurofeedback",
+  "previousConcept": "eeg-qeeg-capstone",
+  "tags": [
+    "history",
+    "neurofeedback",
+    "foundations",
+    "established mechanism"
+  ],
+  "searchTerms": [
+    "history",
+    "neurofeedback",
+    "foundations",
+    "established mechanism",
+    "from",
+    "conditioning",
+    "animal",
+    "rhythms",
+    "modern",
+    "closed",
+    "loop",
+    "training"
+  ],
+  "learningObjectives": [
+    "Explain history of neurofeedback without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in history of neurofeedback.",
+    "Identify one safety or validity limitation relevant to history of neurofeedback."
+  ],
+  "sections": {
+    "explainSimply": "Neurofeedback developed from biofeedback and operant-conditioning research in which measurable physiological activity was returned to a learner as feedback.",
+    "explainLikePsychologist": "Historically important findings established that some brain signals can be shaped through contingent feedback, but early clinical enthusiasm often outpaced controlled evidence.",
+    "advancedClinicalDetail": "Modern neurofeedback includes EEG, slow cortical potential, source-based, haemodynamic and imaging-based approaches. Historical claims should be separated from contemporary evidence standards.",
+    "thinkOfItLike": "A driving instructor who gives immediate dashboard feedback while the learner practises a controllable skill.",
+    "whyPsychologistsCare": "Psychologists need to understand history of neurofeedback to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "Do not treat longevity of use as proof of efficacy.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using history of neurofeedback predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "Do not treat longevity of use as proof of efficacy. Evidence classification: established mechanism; mixed clinical evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Modern neurofeedback includes EEG, slow cortical potential, source-based, haemodynamic and imaging-based approaches. Historical claims should be separated from contemporary evidence standards."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Neurofeedback developed from biofeedback and operant-conditioning research in which measurable physiological activity was returned to a learner as feedback."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Neurofeedback developed from biofeedback and operant-conditioning research in which measurable physiological activity was returned to a learner as feedback.",
+      "Historically important findings established that some brain signals can be shaped through contingent feedback, but early clinical enthusiasm often outpaced controlled evidence.",
+      "Do not treat longevity of use as proof of efficacy."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of History of Neurofeedback?",
+      "options": [
+        "Neurofeedback developed from biofeedback and operant-conditioning research in which measurable physiological activity was returned to a learner as feedback.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Neurofeedback developed from biofeedback and operant-conditioning research in which measurable physiological activity was returned to a learner as feedback."
+    },
+    {
+      "question": "Which limitation matters most when interpreting History of Neurofeedback?",
+      "options": [
+        "Do not treat longevity of use as proof of efficacy.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "Do not treat longevity of use as proof of efficacy."
+    },
+    {
+      "question": "How should the evidence for History of Neurofeedback be communicated?",
+      "options": [
+        "As established mechanism; mixed clinical evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: established mechanism; mixed clinical evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Neurofeedback developed from biofeedback and operant-conditioning research in which measurable physiological activity was returned to a learner as feedback."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "Do not treat longevity of use as proof of efficacy."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "established mechanism; mixed clinical evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

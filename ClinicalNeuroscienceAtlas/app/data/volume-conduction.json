@@ -1,0 +1,138 @@
+{
+  "id": "volume-conduction",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Volume Conduction.",
+    "Apply Volume Conduction to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Electrical fields spread through cerebrospinal fluid, skull and skin before reaching electrodes. Each sensor therefore samples a mixture of sources."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Volume conduction blurs spatial localisation and inflates zero-lag similarity between channels. Source modelling can reduce ambiguity but depends on modelling assumptions and signal quality."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "This explains why topographic colour does not equal a sharply bounded cortical lesion and why connectivity metrics require caution."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Treating neighbouring electrodes as independent brain regions can exaggerate localisation and connectivity claims."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Volume Conduction",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Electrical fields spread through cerebrospinal fluid, skull and skin before reaching electrodes. Each sensor therefore samples a mixture of sources."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Volume conduction blurs spatial localisation and inflates zero-lag similarity between channels. Source modelling can reduce ambiguity but depends on modelling assumptions and signal quality."
+      },
+      {
+        "label": "Integrate",
+        "detail": "This explains why topographic colour does not equal a sharply bounded cortical lesion and why connectivity metrics require caution."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Treating neighbouring electrodes as independent brain regions can exaggerate localisation and connectivity claims."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Volume Conduction"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Volume Conduction?",
+      "options": [
+        "Electrical fields spread through cerebrospinal fluid, skull and skin before reaching electrodes. Each sensor therefore samples a mixture of sources.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Electrical fields spread through cerebrospinal fluid, skull and skin before reaching electrodes. Each sensor therefore samples a mixture of sources."
+    },
+    {
+      "question": "What is the safest clinical principle for Volume Conduction?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Volume Conduction?",
+      "options": [
+        "Treating neighbouring electrodes as independent brain regions can exaggerate localisation and connectivity claims.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Treating neighbouring electrodes as independent brain regions can exaggerate localisation and connectivity claims."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Volume conduction blurs spatial localisation and inflates zero-lag similarity between channels. Source modelling can reduce ambiguity but depends on modelling assumptions and signal quality."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "This explains why topographic colour does not equal a sharply bounded cortical lesion and why connectivity metrics require caution."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Treating neighbouring electrodes as independent brain regions can exaggerate localisation and connectivity claims."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "A scalp maximum is a clue to a field, not a GPS coordinate."
+    }
+  ],
+  "tags": [
+    "volume conduction",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "brain",
+    "activity",
+    "spreads",
+    "through"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "fear-conditioning-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 17,
+  "level": 28,
+  "title": "Fear Conditioning",
+  "subtitle": "Learning that cues predict danger",
+  "hero": "fear-conditioning-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating fear conditioning across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "memory-reconsolidation-trauma"
+  ],
+  "previousConcept": "memory-reconsolidation-trauma",
+  "nextConcept": "fear-extinction-trauma",
+  "tags": [
+    "fear",
+    "conditioning",
+    "trauma",
+    "emdr",
+    "established learning mechanism"
+  ],
+  "searchTerms": [
+    "fear",
+    "conditioning",
+    "trauma",
+    "emdr",
+    "established learning mechanism",
+    "learning",
+    "that",
+    "cues",
+    "predict",
+    "danger"
+  ],
+  "learningObjectives": [
+    "Explain fear conditioning in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in fear conditioning.",
+    "Identify one limitation or safety implication relevant to fear conditioning."
+  ],
+  "sections": {
+    "explainSimply": "Fear conditioning links previously neutral cues with aversive outcomes.",
+    "explainLikePsychologist": "Generalisation can spread responding to safe cues that resemble the original threat, while avoidance prevents corrective learning.",
+    "advancedClinicalDetail": "Human trauma involves language, meaning and social context beyond laboratory conditioning, so conditioning models are informative but incomplete.",
+    "thinkOfItLike": "Think of fear conditioning as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need fear conditioning to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Conditioning is not a complete explanation of PTSD.",
+    "clinicalPearl": "Clinical pearl: use fear conditioning to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses fear conditioning to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Conditioning is not a complete explanation of PTSD. Evidence classification: established learning mechanism."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Fear conditioning links previously neutral cues with aversive outcomes."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Generalisation can spread responding to safe cues that resemble the original threat, while avoidance prevents corrective learning."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Conditioning is not a complete explanation of PTSD."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Fear conditioning links previously neutral cues with aversive outcomes.",
+      "Generalisation can spread responding to safe cues that resemble the original threat, while avoidance prevents corrective learning.",
+      "Conditioning is not a complete explanation of PTSD."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "fear-conditioning-trauma-q1",
+      "question": "What is the most accurate core statement about Fear Conditioning?",
+      "options": [
+        "Fear conditioning links previously neutral cues with aversive outcomes.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Fear conditioning links previously neutral cues with aversive outcomes."
+    },
+    {
+      "id": "fear-conditioning-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Generalisation can spread responding to safe cues that resemble the original threat, while avoidance prevents corrective learning.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Generalisation can spread responding to safe cues that resemble the original threat, while avoidance prevents corrective learning."
+    },
+    {
+      "id": "fear-conditioning-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Conditioning is not a complete explanation of PTSD.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Conditioning is not a complete explanation of PTSD."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Fear conditioning links previously neutral cues with aversive outcomes."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Conditioning is not a complete explanation of PTSD."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established learning mechanism"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "reward-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate reward prediction, pleasure, motivation and habit.",
+    "Explain reward prediction error and dopaminergic learning.",
+    "Identify ventral versus dorsal striatal contributions.",
+    "Apply reward mechanisms to anhedonia, addiction and behaviour change."
+  ],
+  "anatomy": [
+    {
+      "id": "vta",
+      "label": "Ventral tegmental area",
+      "short": "Broadcast prediction error",
+      "detail": "Midbrain dopamine neurons signal better- or worse-than-expected outcomes.",
+      "clinical": "Altered signalling can impair learning or amplify cue-driven motivation."
+    },
+    {
+      "id": "nacc",
+      "label": "Nucleus accumbens",
+      "short": "Integrate value and motivation",
+      "detail": "Combines reward predictions with current physiological and contextual state.",
+      "clinical": "Cue sensitisation may drive compulsive approach."
+    },
+    {
+      "id": "ofc",
+      "label": "Orbitofrontal cortex",
+      "short": "Represent outcome value",
+      "detail": "Tracks the current value and identity of expected outcomes.",
+      "clinical": "Damage can cause poor reversal learning and inflexible choice."
+    },
+    {
+      "id": "dorsal-striatum",
+      "label": "Dorsal striatum",
+      "short": "Build action policies and habits",
+      "detail": "Links contexts and actions through repeated reinforcement.",
+      "clinical": "Overlearned habits may persist despite changing goals."
+    },
+    {
+      "id": "habenula",
+      "label": "Habenula",
+      "short": "Signal negative outcomes",
+      "detail": "Contributes to aversive prediction and suppression of unrewarded actions.",
+      "clinical": "Excessive negative-outcome signalling may relate to pessimistic learning."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Reward System",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Reward System model",
+    "stages": [
+      {
+        "label": "Predict",
+        "text": "The brain estimates likely value before acting."
+      },
+      {
+        "label": "Act",
+        "text": "Effort is allocated toward a selected option."
+      },
+      {
+        "label": "Outcome",
+        "text": "The actual consequence is registered."
+      },
+      {
+        "label": "Compare",
+        "text": "Prediction error signals better- or worse-than-expected results."
+      },
+      {
+        "label": "Update",
+        "text": "Future value and action policies are revised."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "reward-system-q1",
+      "question": "Dopamine is most accurately described as:",
+      "options": [
+        "A teaching and motivational signal",
+        "A pure pleasure chemical",
+        "A stress hormone only",
+        "A sensory neurotransmitter only"
+      ],
+      "answer": 0,
+      "explanation": "Dopamine supports prediction error, incentive salience and action vigour."
+    },
+    {
+      "id": "reward-system-q2",
+      "question": "Reward prediction error is the difference between:",
+      "options": [
+        "Expected and obtained outcome",
+        "Pleasure and pain receptors",
+        "Memory and attention",
+        "Movement and sensation"
+      ],
+      "answer": 0,
+      "explanation": "Prediction error updates future value estimates."
+    },
+    {
+      "id": "reward-system-q3",
+      "question": "The ventral striatum is especially important for:",
+      "options": [
+        "Integrating reward value and motivation",
+        "Primary visual transduction",
+        "Language articulation",
+        "CSF production"
+      ],
+      "answer": 0,
+      "explanation": "Ventral striatal circuits link predicted value to motivated behaviour."
+    },
+    {
+      "id": "reward-system-q4",
+      "question": "Habits rely increasingly on:",
+      "options": [
+        "Dorsal striatal action policies",
+        "Occipital cortex",
+        "Medulla only",
+        "Hippocampus alone"
+      ],
+      "answer": 0,
+      "explanation": "Repeated reinforcement shifts behaviour toward dorsal striatal stimulus-response control."
+    },
+    {
+      "id": "reward-system-q5",
+      "question": "Anhedonia always means dopamine is absent.",
+      "options": [
+        "False",
+        "True",
+        "Only in children",
+        "Only during sleep"
+      ],
+      "answer": 0,
+      "explanation": "Anhedonia is heterogeneous and can involve valuation, motivation, learning or consummatory pleasure."
+    }
+  ],
+  "tags": [
+    "action",
+    "allowing",
+    "alone",
+    "amygdala",
+    "anhedonia",
+    "attention",
+    "behaviour",
+    "between",
+    "circuits",
+    "compulsive",
+    "context-dependent",
+    "contribute",
+    "cortex",
+    "corticostriatal",
+    "cost",
+    "delay",
+    "depends",
+    "deprivation",
+    "differences",
+    "Dopamine",
+    "dopamine",
+    "dorsal",
+    "drive",
+    "effort",
+    "encode",
+    "error",
+    "especially",
+    "estimates",
+    "exaggerated",
+    "expected",
+    "exposure",
+    "habenular",
+    "habits",
+    "hedonic",
+    "highly"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Dopamine is most accurately described as:",
+      "Reward prediction error is the difference between:",
+      "Dopamine is better understood as a teaching and energising signal than as a simple pleasure chemical."
+    ]
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Schultz W. Dopamine reward prediction-error signalling: a two-component response. Nature Reviews Neuroscience. 2016."
+    },
+    {
+      "type": "Review",
+      "citation": "Berridge KC, Robinson TE. Liking, wanting, and the incentive-sensitization theory of addiction. American Psychologist. 2016."
+    },
+    {
+      "type": "Review",
+      "citation": "Haber SN, Knutson B. The reward circuit: linking primate anatomy and human imaging. Neuropsychopharmacology. 2010."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas illustration of reward system showing key network components.",
+    "interactionSummary": "A keyboard-accessible sequence explains the system from input through adaptation."
+  }
+}

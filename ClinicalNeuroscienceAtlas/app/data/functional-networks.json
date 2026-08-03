@@ -1,0 +1,164 @@
+{
+  "id": "functional-networks",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Define functional connectivity without confusing it with causality.",
+    "Explain why psychological functions emerge from distributed systems.",
+    "Distinguish nodes, edges, hubs and dynamic network states.",
+    "Apply network reasoning cautiously to clinical formulation."
+  ],
+  "anatomy": [
+    {
+      "id": "nodes",
+      "label": "Nodes",
+      "short": "Regions or parcels represented in a network",
+      "detail": "Nodes may be anatomical regions, functionally defined parcels or recording sites. Their meaning depends on how the network was constructed.",
+      "clinical": "Changing the parcellation can change apparent network organisation."
+    },
+    {
+      "id": "edges",
+      "label": "Edges",
+      "short": "Statistical or anatomical relationships",
+      "detail": "Edges represent relationships such as correlation, coherence or tract connectivity.",
+      "clinical": "A functional edge does not establish direct communication or causal direction."
+    },
+    {
+      "id": "hubs",
+      "label": "Hubs",
+      "short": "Highly connected or integrative nodes",
+      "detail": "Some regions connect many systems and may support integration across specialised processes.",
+      "clinical": "Hub vulnerability can have widespread effects despite a small focal lesion."
+    },
+    {
+      "id": "segregation",
+      "label": "Segregation",
+      "short": "Specialised processing within modules",
+      "detail": "Networks balance within-system cohesion with separation from other systems.",
+      "clinical": "Too little or too much segregation can reduce adaptive flexibility."
+    },
+    {
+      "id": "integration",
+      "label": "Integration",
+      "short": "Communication across systems",
+      "detail": "Integration allows information to move between specialised networks as goals change.",
+      "clinical": "Complex tasks often require transient increases in cross-network coordination."
+    },
+    {
+      "id": "dynamics",
+      "label": "Dynamic states",
+      "short": "Connectivity changes over seconds to longer periods",
+      "detail": "Networks reconfigure with task, arousal, learning and internal state.",
+      "clinical": "A static average may conceal clinically meaningful fluctuations."
+    }
+  ],
+  "interaction": {
+    "title": "Functional Networks sequence",
+    "instruction": "Select a component, then run the sequence to follow information flow across the network.",
+    "ariaLabel": "Interactive functional networks model",
+    "stages": [
+      {
+        "label": "Detect",
+        "text": "Record neural signals across regions."
+      },
+      {
+        "label": "Relate",
+        "text": "Estimate how signals covary or communicate."
+      },
+      {
+        "label": "Organise",
+        "text": "Identify modules, hubs and network boundaries."
+      },
+      {
+        "label": "Reconfigure",
+        "text": "Track how coupling changes with state and task."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Functional connectivity most directly refers to:",
+      "options": [
+        "Statistical dependence between neural signals",
+        "Proof of a direct axonal pathway",
+        "A diagnosis from fMRI",
+        "The size of a brain region"
+      ],
+      "answer": 0,
+      "explanation": "Functional connectivity is a statistical relationship and does not by itself establish anatomy or causality."
+    },
+    {
+      "question": "A network hub is best described as:",
+      "options": [
+        "A node with unusually broad or influential connectivity",
+        "A region that works alone",
+        "Any brightly activated voxel",
+        "A structure found only in the frontal lobe"
+      ],
+      "answer": 0,
+      "explanation": "Hubs are highly connected or integrative nodes."
+    },
+    {
+      "question": "Network segregation refers to:",
+      "options": [
+        "Relative specialisation and within-network cohesion",
+        "Permanent isolation between all regions",
+        "Loss of all connectivity",
+        "The separation of grey and white matter"
+      ],
+      "answer": 0,
+      "explanation": "Segregation supports specialised processing within modules."
+    },
+    {
+      "question": "Why are network states called dynamic?",
+      "options": [
+        "Coupling changes with task, arousal and context",
+        "Networks move physically around the skull",
+        "Every network disappears during sleep",
+        "Connectivity never repeats"
+      ],
+      "answer": 0,
+      "explanation": "Functional coordination is state dependent."
+    },
+    {
+      "question": "A clinically cautious network interpretation should:",
+      "options": [
+        "Link findings to behaviour while acknowledging methodological limits",
+        "Treat one scan as diagnostic",
+        "Assume correlation proves causation",
+        "Ignore task context"
+      ],
+      "answer": 0,
+      "explanation": "Network measures require behavioural and methodological context."
+    }
+  ],
+  "tags": [
+    "functional networks",
+    "functional connectivity",
+    "large-scale networks",
+    "clinical neuroscience",
+    "nodes",
+    "edges",
+    "hubs"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "Functional connectivity most directly refers to:",
+      "A network hub is best described as:",
+      "Network segregation refers to:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Primary study",
+      "citation": "Yeo BTT et al. The organization of the human cerebral cortex estimated by intrinsic functional connectivity. Journal of Neurophysiology. 2011.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21653723/"
+    },
+    {
+      "type": "Review",
+      "citation": "Bassett DS, Sporns O. Network neuroscience. Nature Neuroscience. 2017.",
+      "url": "https://doi.org/10.1038/nn.4502"
+    }
+  ]
+}

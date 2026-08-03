@@ -1,0 +1,138 @@
+{
+  "id": "z-scores-effect-sizes",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Z-Scores and Effect Sizes.",
+    "Apply Z-Scores and Effect Sizes to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "A z-score describes distance from a normative mean in standard-deviation units."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Extreme values may occur by chance when many channels and metrics are tested. Distribution assumptions, reliability and correction matter."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Supports disciplined interpretation of magnitude and uncertainty."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Treating |z| > 2 as automatically clinically meaningful inflates false positives."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Z-Scores and Effect Sizes",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "A z-score describes distance from a normative mean in standard-deviation units."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Extreme values may occur by chance when many channels and metrics are tested. Distribution assumptions, reliability and correction matter."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Supports disciplined interpretation of magnitude and uncertainty."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Treating |z| > 2 as automatically clinically meaningful inflates false positives."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Z-Scores and Effect Sizes"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Z-Scores and Effect Sizes?",
+      "options": [
+        "A z-score describes distance from a normative mean in standard-deviation units.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "A z-score describes distance from a normative mean in standard-deviation units."
+    },
+    {
+      "question": "What is the safest clinical principle for Z-Scores and Effect Sizes?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Z-Scores and Effect Sizes?",
+      "options": [
+        "Treating |z| > 2 as automatically clinically meaningful inflates false positives.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Treating |z| > 2 as automatically clinically meaningful inflates false positives."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Extreme values may occur by chance when many channels and metrics are tested. Distribution assumptions, reliability and correction matter."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Supports disciplined interpretation of magnitude and uncertainty."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Treating |z| > 2 as automatically clinically meaningful inflates false positives."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Statistical rarity and clinical importance are different questions."
+    }
+  ],
+  "tags": [
+    "z-scores and effect sizes",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "quantifying",
+    "deviation",
+    "without",
+    "confusing"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

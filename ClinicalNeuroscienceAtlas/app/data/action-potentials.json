@@ -1,0 +1,150 @@
+{
+  "id": "action-potentials",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify threshold, depolarisation, repolarisation and after-hyperpolarisation.",
+    "Explain sodium-channel activation and inactivation.",
+    "Distinguish absolute from relative refractory periods.",
+    "Relate firing patterns to neural coding and clinical excitability."
+  ],
+  "anatomy": [
+    {
+      "id": "threshold",
+      "label": "Threshold",
+      "short": "Trigger point for regeneration",
+      "detail": "Threshold is the membrane voltage at which inward sodium current becomes self-amplifying and an action potential is initiated.",
+      "clinical": "Threshold is dynamic and shifts with recent activity, neuromodulation and channel state."
+    },
+    {
+      "id": "sodium",
+      "label": "Voltage-gated sodium channels",
+      "short": "Rapid depolarising current",
+      "detail": "Sodium channels open quickly with depolarisation, then inactivate even while the membrane remains depolarised.",
+      "clinical": "Sodium-channel blockers can reduce pathological high-frequency firing."
+    },
+    {
+      "id": "potassium",
+      "label": "Voltage-gated potassium channels",
+      "short": "Delayed repolarising current",
+      "detail": "Potassium channels open more slowly, allowing potassium efflux that returns voltage toward baseline.",
+      "clinical": "Altered potassium conductance can prolong spikes or destabilise firing."
+    },
+    {
+      "id": "refractory",
+      "label": "Refractory periods",
+      "short": "Built-in recovery window",
+      "detail": "During the absolute refractory period most sodium channels are inactivated; during the relative period stronger input may still trigger firing.",
+      "clinical": "Refractoriness limits firing rate and helps action potentials travel in one direction."
+    }
+  ],
+  "interaction": {
+    "title": "Action Potentials sequence",
+    "instruction": "Select a component, then run the sequence to see how the system changes over time.",
+    "ariaLabel": "Interactive action potentials sequence",
+    "stages": [
+      {
+        "label": "Threshold",
+        "text": "Summed input depolarises the axon initial segment to threshold."
+      },
+      {
+        "label": "Upstroke",
+        "text": "Voltage-gated sodium channels open and sodium enters rapidly."
+      },
+      {
+        "label": "Repolarise",
+        "text": "Sodium channels inactivate while potassium channels open."
+      },
+      {
+        "label": "Recover",
+        "text": "After-hyperpolarisation and channel recovery restore readiness."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What directly produces the rapid upstroke of an action potential?",
+      "options": [
+        "Voltage-gated sodium entry",
+        "Passive chloride storage",
+        "Myelin synthesis",
+        "Neurotransmitter reuptake"
+      ],
+      "answer": 0,
+      "explanation": "Rapid sodium influx drives the depolarising upstroke."
+    },
+    {
+      "question": "Why does an action potential not normally travel backward?",
+      "options": [
+        "Recently activated membrane is refractory",
+        "The axon has one-way valves",
+        "Potassium cannot move backward",
+        "Dendrites block electricity"
+      ],
+      "answer": 0,
+      "explanation": "The refractory region behind the spike cannot immediately regenerate another action potential."
+    },
+    {
+      "question": "What ends the sodium current during the spike?",
+      "options": [
+        "Sodium-channel inactivation",
+        "Loss of all extracellular sodium",
+        "Astrocyte migration",
+        "Synaptic vesicle fusion"
+      ],
+      "answer": 0,
+      "explanation": "Voltage-gated sodium channels rapidly enter an inactivated state."
+    },
+    {
+      "question": "During the relative refractory period:",
+      "options": [
+        "A stronger-than-usual input may trigger another spike",
+        "No spike is possible under any condition",
+        "The neuron has no membrane voltage",
+        "All potassium channels are permanently closed"
+      ],
+      "answer": 0,
+      "explanation": "Residual potassium conductance means stronger depolarisation is needed."
+    },
+    {
+      "question": "Action-potential amplitude usually encodes stimulus strength by:",
+      "options": [
+        "It generally does not; rate and timing carry more information",
+        "Growing larger with every stronger stimulus",
+        "Changing the axon diameter instantly",
+        "Increasing neurotransmitter molecule size"
+      ],
+      "answer": 0,
+      "explanation": "Individual spikes are stereotyped; firing pattern conveys intensity and context."
+    }
+  ],
+  "tags": [
+    "action potential",
+    "threshold",
+    "depolarisation",
+    "repolarisation",
+    "refractory period",
+    "sodium channel",
+    "potassium channel"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "What directly produces the rapid upstroke of an action potential?",
+      "Why does an action potential not normally travel backward?",
+      "What ends the sodium current during the spike?"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Bean BP. The action potential in mammalian central neurons. Nature Reviews Neuroscience. 2007.",
+      "url": "https://doi.org/10.1038/nrn2148"
+    },
+    {
+      "type": "Open textbook",
+      "citation": "Purves D, et al. Neuroscience. Action Potentials. NCBI Bookshelf.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10888/"
+    }
+  ]
+}

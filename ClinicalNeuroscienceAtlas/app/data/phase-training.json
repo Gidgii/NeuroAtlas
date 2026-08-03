@@ -1,0 +1,161 @@
+{
+  "id": "phase-training",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 27,
+  "level": 26,
+  "title": "Phase Training",
+  "subtitle": "Targeting timing relationships between oscillatory signals",
+  "hero": "phase-training.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating phase training within a neurofeedback closed loop.",
+  "prerequisites": [
+    "coherence-training"
+  ],
+  "nextConcept": "zscore-neurofeedback",
+  "previousConcept": "coherence-training",
+  "tags": [
+    "phase",
+    "training",
+    "neurofeedback",
+    "methods",
+    "emerging"
+  ],
+  "searchTerms": [
+    "phase",
+    "training",
+    "neurofeedback",
+    "methods",
+    "emerging",
+    "targeting",
+    "timing",
+    "relationships",
+    "between",
+    "oscillatory",
+    "signals"
+  ],
+  "learningObjectives": [
+    "Explain phase training without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in phase training.",
+    "Identify one safety or validity limitation relevant to phase training."
+  ],
+  "sections": {
+    "explainSimply": "Phase training attempts to alter the timing relationship between signals.",
+    "explainLikePsychologist": "Phase estimates are highly sensitive to filtering, reference and volume conduction. Small processing changes can alter apparent lag.",
+    "advancedClinicalDetail": "Clinical claims about phase normalisation require transparent methods and independent replication.",
+    "thinkOfItLike": "Choosing a camera lens: every method emphasises some information and introduces its own distortions.",
+    "whyPsychologistsCare": "Psychologists need to understand phase training to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "A precise number can still be a fragile measurement.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using phase training predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "A precise number can still be a fragile measurement. Evidence classification: emerging; insufficient clinical evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Clinical claims about phase normalisation require transparent methods and independent replication."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Phase training attempts to alter the timing relationship between signals."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Phase training attempts to alter the timing relationship between signals.",
+      "Phase estimates are highly sensitive to filtering, reference and volume conduction. Small processing changes can alter apparent lag.",
+      "A precise number can still be a fragile measurement."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Phase Training?",
+      "options": [
+        "Phase training attempts to alter the timing relationship between signals.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Phase training attempts to alter the timing relationship between signals."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Phase Training?",
+      "options": [
+        "A precise number can still be a fragile measurement.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "A precise number can still be a fragile measurement."
+    },
+    {
+      "question": "How should the evidence for Phase Training be communicated?",
+      "options": [
+        "As emerging; insufficient clinical evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: emerging; insufficient clinical evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Phase training attempts to alter the timing relationship between signals."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "A precise number can still be a fragile measurement."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "emerging; insufficient clinical evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

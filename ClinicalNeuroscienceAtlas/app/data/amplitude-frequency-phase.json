@@ -1,0 +1,137 @@
+{
+  "id": "amplitude-frequency-phase",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Amplitude Frequency and Phase.",
+    "Apply Amplitude Frequency and Phase to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Amplitude describes voltage size, frequency describes cycles per second, and phase describes position within a cycle."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "These features underpin visual EEG, spectral power and connectivity measures. They are mathematically separable but physiologically interdependent."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Clear vocabulary improves communication between psychologists, technicians and neurophysiologists."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Equating high amplitude with “more brain activity” oversimplifies generator synchrony and geometry."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Amplitude Frequency and Phase",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Amplitude describes voltage size, frequency describes cycles per second, and phase describes position within a cycle."
+      },
+      {
+        "label": "Analyse",
+        "detail": "These features underpin visual EEG, spectral power and connectivity measures. They are mathematically separable but physiologically interdependent."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Clear vocabulary improves communication between psychologists, technicians and neurophysiologists."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Equating high amplitude with “more brain activity” oversimplifies generator synchrony and geometry."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Amplitude Frequency and Phase"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Amplitude Frequency and Phase?",
+      "options": [
+        "Amplitude describes voltage size, frequency describes cycles per second, and phase describes position within a cycle.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Amplitude describes voltage size, frequency describes cycles per second, and phase describes position within a cycle."
+    },
+    {
+      "question": "What is the safest clinical principle for Amplitude Frequency and Phase?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Amplitude Frequency and Phase?",
+      "options": [
+        "Equating high amplitude with “more brain activity” oversimplifies generator synchrony and geometry.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Equating high amplitude with “more brain activity” oversimplifies generator synchrony and geometry."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "These features underpin visual EEG, spectral power and connectivity measures. They are mathematically separable but physiologically interdependent."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Clear vocabulary improves communication between psychologists, technicians and neurophysiologists."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Equating high amplitude with “more brain activity” oversimplifies generator synchrony and geometry."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Amplitude is not activation; frequency is not function; phase is not communication by itself."
+    }
+  ],
+  "tags": [
+    "amplitude frequency and phase",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "dimensions",
+    "oscillating",
+    "signal"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

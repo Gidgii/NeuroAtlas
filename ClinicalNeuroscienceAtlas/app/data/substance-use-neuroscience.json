@@ -1,0 +1,112 @@
+{
+  "id": "substance-use-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain incentive learning, habit and negative reinforcement in substance use.",
+    "Distinguish dopamine signalling from a simplistic “pleasure chemical” account.",
+    "Recognise withdrawal and overdose presentations requiring urgent medical care.",
+    "Connect mechanisms to motivational and behavioural treatment strategies."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability interacts with development and prior learning."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external conditions recruit the relevant neural systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter salience, prediction, control and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Cue-triggered “wanting” despite reduced pleasure is most consistent with:",
+      "options": [
+        "Incentive sensitisation",
+        "Visual neglect",
+        "Aphasia",
+        "Circadian entrainment"
+      ],
+      "answer": 0,
+      "explanation": "Repeated use can sensitise motivational responses to drug-associated cues."
+    },
+    {
+      "question": "Which withdrawal can be medically dangerous?",
+      "options": [
+        "Alcohol or benzodiazepine withdrawal",
+        "Caffeine withdrawal alone in a healthy adult",
+        "Stopping sugar",
+        "Missing one exercise session"
+      ],
+      "answer": 0,
+      "explanation": "Alcohol and benzodiazepine withdrawal can cause seizures or delirium and may require supervised care."
+    },
+    {
+      "question": "Contingency management works primarily by:",
+      "options": [
+        "Delivering reliable reinforcement for target behaviours",
+        "Erasing autobiographical memory",
+        "Blocking all dopamine",
+        "Using punishment as the only strategy"
+      ],
+      "answer": 0,
+      "explanation": "Contingency management changes the reinforcement environment around recovery behaviours."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Drugs differ pharmacologically but can converge on mesocorticolimbic dopamine and downstream plasticity. Incentive sensitisation may amplify cue-triggered wanting; allostatic adaptation shifts hedonic set points; dorsal striatal recruitment supports habitual responding; prefrontal and interoceptive networks influence choice and relapse. These models are complementary, not universal explanations for every person."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "Dopamine is not simply pleasure. It helps update motivational significance and learning. Addiction is neither pure choice nor loss of all agency—it is constrained, learned behaviour that can change with effective support."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Tolerance, withdrawal, overdose, seizures, psychosis, mood destabilisation, cognitive impairment and interpersonal harm vary by substance and pattern. Alcohol and benzodiazepine withdrawal can be medically dangerous; opioid overdose can suppress breathing."
+    }
+  ],
+  "tags": [
+    "substance use and addiction neuroscience",
+    "substance use neuroscience",
+    "clinical neuroscience",
+    "differential diagnosis",
+    "network neuroscience",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "Koob GF, Volkow ND. Neurobiology of addiction: a neurocircuitry analysis. Lancet Psychiatry. 2016;3(8):760–773.",
+      "type": "Review",
+      "url": "https://doi.org/10.1016/S2215-0366(16)00104-8"
+    },
+    {
+      "citation": "Robinson TE, Berridge KC. The incentive sensitization theory of addiction. Philosophical Transactions B. 2008;363:3137–3146.",
+      "type": "Theory/review",
+      "url": "https://doi.org/10.1098/rstb.2008.0093"
+    },
+    {
+      "citation": "Volkow ND, Michaelides M, Baler R. The neuroscience of drug reward and addiction. Physiological Reviews. 2019;99(4):2115–2140.",
+      "type": "Review",
+      "url": "https://doi.org/10.1152/physrev.00014.2018"
+    }
+  ]
+}

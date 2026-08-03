@@ -1,0 +1,179 @@
+{
+  "id": "hippocampus",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Hippocampus.",
+    "Explain how the Hippocampus contributes to distributed brain function.",
+    "Connect Hippocampus physiology with clinically relevant symptoms and conditions.",
+    "Interpret structural or functional findings cautiously and in context."
+  ],
+  "anatomy": [
+    {
+      "id": "dentate-gyrus",
+      "label": "Dentate gyrus",
+      "short": "Pattern separation gateway",
+      "detail": "Sparse coding helps distinguish similar input patterns.",
+      "clinical": "Reduced separation can increase memory interference."
+    },
+    {
+      "id": "ca3",
+      "label": "CA3",
+      "short": "Associative completion network",
+      "detail": "Recurrent connections support retrieval from partial cues.",
+      "clinical": "Overgeneralised completion can blur distinct contexts."
+    },
+    {
+      "id": "ca1",
+      "label": "CA1",
+      "short": "Comparator and output stage",
+      "detail": "CA1 integrates entorhinal input with CA3 predictions.",
+      "clinical": "Sensitive to hypoxia and temporal-lobe epilepsy."
+    },
+    {
+      "id": "subiculum",
+      "label": "Subiculum",
+      "short": "Major hippocampal output",
+      "detail": "Routes processed information to cortical and subcortical targets.",
+      "clinical": "Disconnection can disrupt memory-guided behaviour."
+    },
+    {
+      "id": "entorhinal",
+      "label": "Entorhinal cortex",
+      "short": "Cortical interface",
+      "detail": "Provides major input and output pathways linking hippocampus with association cortex.",
+      "clinical": "Early degeneration affects memory in Alzheimer disease."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Hippocampus",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "dentate-gyrus",
+        "label": "Dentate gyrus",
+        "description": "Sparse coding helps distinguish similar input patterns."
+      },
+      {
+        "id": "ca3",
+        "label": "CA3",
+        "description": "Recurrent connections support retrieval from partial cues."
+      },
+      {
+        "id": "ca1",
+        "label": "CA1",
+        "description": "CA1 integrates entorhinal input with CA3 predictions."
+      },
+      {
+        "id": "subiculum",
+        "label": "Subiculum",
+        "description": "Routes processed information to cortical and subcortical targets."
+      },
+      {
+        "id": "entorhinal",
+        "label": "Entorhinal cortex",
+        "description": "Provides major input and output pathways linking hippocampus with association cortex."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "hippocampus-q1",
+      "question": "Which component is best described as: Pattern separation gateway?",
+      "options": [
+        "Dentate gyrus",
+        "CA3",
+        "CA1",
+        "Subiculum"
+      ],
+      "answer": 0,
+      "explanation": "Sparse coding helps distinguish similar input patterns."
+    },
+    {
+      "id": "hippocampus-q2",
+      "question": "Which component is best described as: Associative completion network?",
+      "options": [
+        "CA3",
+        "Dentate gyrus",
+        "CA1",
+        "Subiculum"
+      ],
+      "answer": 0,
+      "explanation": "Recurrent connections support retrieval from partial cues."
+    },
+    {
+      "id": "hippocampus-q3",
+      "question": "Which component is best described as: Comparator and output stage?",
+      "options": [
+        "CA1",
+        "Dentate gyrus",
+        "CA3",
+        "Subiculum"
+      ],
+      "answer": 0,
+      "explanation": "CA1 integrates entorhinal input with CA3 predictions."
+    },
+    {
+      "id": "hippocampus-q4",
+      "question": "Which component is best described as: Major hippocampal output?",
+      "options": [
+        "Subiculum",
+        "Dentate gyrus",
+        "CA3",
+        "CA1"
+      ],
+      "answer": 0,
+      "explanation": "Routes processed information to cortical and subcortical targets."
+    },
+    {
+      "id": "hippocampus-q5",
+      "question": "Which component is best described as: Cortical interface?",
+      "options": [
+        "Entorhinal cortex",
+        "Dentate gyrus",
+        "CA3",
+        "CA1"
+      ],
+      "answer": 0,
+      "explanation": "Provides major input and output pathways linking hippocampus with association cortex."
+    }
+  ],
+  "tags": [
+    "memory",
+    "episodic memory",
+    "spatial context",
+    "medial temporal lobe",
+    "learning"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Hippocampus.",
+      "Explain one clinically relevant function of the Hippocampus.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Squire & Zola-Morgan, 1991",
+      "year": "1991",
+      "title": "The medial temporal lobe memory system",
+      "source": "Science"
+    },
+    {
+      "authors": "Eichenbaum, 2017",
+      "year": "2017",
+      "title": "Memory: Organization and Control",
+      "source": "Annual Review of Psychology"
+    },
+    {
+      "authors": "Buzsáki & Moser, 2013",
+      "year": "2013",
+      "title": "Memory, navigation and theta rhythm in the hippocampal-entorhinal system",
+      "source": "Nature Neuroscience"
+    }
+  ]
+}

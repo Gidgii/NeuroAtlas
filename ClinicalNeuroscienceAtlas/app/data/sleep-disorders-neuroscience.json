@@ -1,0 +1,111 @@
+{
+  "id": "sleep-disorders-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Distinguish insomnia, circadian, breathing-related and hypersomnolence mechanisms.",
+    "Explain the interaction of circadian timing, sleep pressure and arousal systems.",
+    "Identify sleep presentations that require medical assessment.",
+    "Integrate sleep into formulation of cognition, mood and behaviour."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability interacts with development and prior learning."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external conditions recruit the relevant neural systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter salience, prediction, control and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Repeated airway collapse with sleep fragmentation most strongly suggests:",
+      "options": [
+        "Obstructive sleep apnoea",
+        "Delayed sleep–wake phase disorder",
+        "Nightmare disorder",
+        "Sleep-state misperception"
+      ],
+      "answer": 0,
+      "explanation": "OSA involves recurrent upper-airway obstruction, oxygen fluctuation and arousal."
+    },
+    {
+      "question": "In insomnia, excessive effort to force sleep can:",
+      "options": [
+        "Increase arousal and strengthen wakefulness in bed",
+        "Reliably switch off the arousal system",
+        "Correct circadian phase immediately",
+        "Treat sleep apnoea"
+      ],
+      "answer": 0,
+      "explanation": "Sleep effort and threat monitoring can condition the bed as a cue for wakefulness."
+    },
+    {
+      "question": "Which presentation warrants prompt safety attention?",
+      "options": [
+        "Uncontrollable daytime sleepiness while driving",
+        "Occasional weekend sleep-in",
+        "Preferring a cool bedroom",
+        "Remembering a dream"
+      ],
+      "answer": 0,
+      "explanation": "Dangerous sleepiness creates immediate accident risk and requires assessment."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Sleep–wake regulation emerges from interaction between circadian signals from the suprachiasmatic nucleus, homeostatic sleep pressure, hypothalamic sleep-promoting neurons, ascending arousal systems and orexin-mediated state stability. Disorder mechanisms differ: hyperarousal and learned associations in insomnia; upper-airway obstruction and autonomic surges in OSA; phase misalignment in circadian disorders; REM/NREM state dissociation in parasomnias."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "“I sleep badly” is a symptom, not a mechanism. Separate insomnia, circadian misalignment, breathing disturbance, movement and hypersomnolence before choosing treatment."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Chronic insomnia can perpetuate distress and functional impairment; untreated OSA increases cardiovascular and cognitive risk; severe sleep deprivation may worsen mania, psychosis, seizures and suicidality. Red flags include dangerous sleepiness, nocturnal breathing pauses, cataplexy or injurious parasomnias."
+    }
+  ],
+  "tags": [
+    "sleep disorders neuroscience",
+    "sleep disorders neuroscience",
+    "clinical neuroscience",
+    "differential diagnosis",
+    "network neuroscience",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "International Classification of Sleep Disorders. 3rd ed., text revision. American Academy of Sleep Medicine; 2023.",
+      "type": "Diagnostic framework"
+    },
+    {
+      "citation": "Borbély AA, Daan S, Wirz-Justice A, Deboer T. The two-process model of sleep regulation. Journal of Sleep Research. 2016;25(2):131–143.",
+      "type": "Foundational model",
+      "url": "https://doi.org/10.1111/jsr.12371"
+    },
+    {
+      "citation": "Riemann D, et al. The neurobiology, investigation, and treatment of chronic insomnia. Lancet Neurology. 2015;14(5):547–558.",
+      "type": "Review",
+      "url": "https://doi.org/10.1016/S1474-4422(15)00021-6"
+    }
+  ]
+}

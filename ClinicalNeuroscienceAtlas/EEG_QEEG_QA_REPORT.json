@@ -1,0 +1,53 @@
+{
+  "phase": "EEG & QEEG",
+  "date": "2026-08-02",
+  "conceptCount": 53,
+  "passes": [
+    {
+      "pass": 1,
+      "name": "Curriculum and content schema",
+      "checks": [
+        "required fields",
+        "three-question minimum",
+        "reference coverage",
+        "answer-index validity"
+      ],
+      "errors": [],
+      "result": "pass"
+    },
+    {
+      "pass": 2,
+      "name": "Application integration and offline assets",
+      "checks": [
+        "loader registration",
+        "hero existence",
+        "service-worker data cache",
+        "service-worker artwork cache"
+      ],
+      "errors": [],
+      "result": "pass"
+    },
+    {
+      "pass": 3,
+      "name": "Scientific boundaries, accessibility and production quality",
+      "checks": [
+        "diagnostic-overclaim scan",
+        "minimum content depth",
+        "SVG title/description/role",
+        "clinical caveats"
+      ],
+      "errors": [],
+      "warnings": [
+        "topographic-maps may be too brief",
+        "z-scores-effect-sizes may be too brief"
+      ],
+      "result": "pass"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "topographic-maps may be too brief",
+    "z-scores-effect-sizes may be too brief"
+  ],
+  "result": "pass"
+}

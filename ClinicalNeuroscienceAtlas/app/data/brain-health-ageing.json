@@ -1,0 +1,201 @@
+{
+  "id": "brain-health-ageing",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate healthy cognitive ageing from pathological decline.",
+    "Explain cognitive reserve and brain maintenance.",
+    "Identify modifiable contributors to brain health.",
+    "Recognise red flags requiring medical assessment."
+  ],
+  "anatomy": [
+    {
+      "id": "vasculature",
+      "label": "Cerebrovascular system",
+      "short": "Deliver oxygen and nutrients",
+      "detail": "Vascular integrity supports every cognitive network.",
+      "clinical": "Hypertension and small-vessel disease can impair white matter and executive function."
+    },
+    {
+      "id": "white-matter",
+      "label": "White-matter pathways",
+      "short": "Maintain network efficiency",
+      "detail": "Myelinated tracts support fast communication across distributed systems.",
+      "clinical": "Age-related degeneration can slow processing and reduce coordination."
+    },
+    {
+      "id": "hippocampus",
+      "label": "Medial temporal system",
+      "short": "Support new learning",
+      "detail": "Hippocampal circuits remain plastic but are vulnerable to several disease processes.",
+      "clinical": "Progressive episodic learning decline can be an early warning sign."
+    },
+    {
+      "id": "prefrontal",
+      "label": "Prefrontal systems",
+      "short": "Support flexible control",
+      "detail": "Compensatory recruitment may help maintain performance.",
+      "clinical": "Reduced reserve can expose executive inefficiency."
+    },
+    {
+      "id": "reserve",
+      "label": "Cognitive reserve",
+      "short": "Buffer clinical expression",
+      "detail": "Education, occupational complexity and lifelong engagement build flexible strategies.",
+      "clinical": "Reserve may delay symptoms but does not eliminate pathology."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Brain Health & Ageing",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Brain Health & Ageing model",
+    "stages": [
+      {
+        "label": "Maintain",
+        "text": "Support vascular, metabolic, sensory and sleep health."
+      },
+      {
+        "label": "Engage",
+        "text": "Use learning, movement and social connection to sustain plasticity."
+      },
+      {
+        "label": "Monitor",
+        "text": "Track meaningful within-person cognitive and functional change."
+      },
+      {
+        "label": "Differentiate",
+        "text": "Separate normal variation from mood, medication or medical causes."
+      },
+      {
+        "label": "Escalate",
+        "text": "Refer acute, progressive or functionally significant decline for assessment."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "brain-health-ageing-q1",
+      "question": "Healthy cognitive ageing commonly involves:",
+      "options": [
+        "Some slowing with preserved knowledge and expertise",
+        "Uniform severe memory loss",
+        "No variability between people",
+        "Inevitable dementia"
+      ],
+      "answer": 0,
+      "explanation": "Ageing is heterogeneous; processing speed may decline while accumulated knowledge remains strong."
+    },
+    {
+      "id": "brain-health-ageing-q2",
+      "question": "Cognitive reserve refers to:",
+      "options": [
+        "Capacity to maintain function despite brain change",
+        "A fixed brain size",
+        "Short-term memory span only",
+        "The absence of pathology"
+      ],
+      "answer": 0,
+      "explanation": "Reserve reflects flexible networks and strategies that buffer clinical expression."
+    },
+    {
+      "id": "brain-health-ageing-q3",
+      "question": "Which is a red flag for urgent medical review?",
+      "options": [
+        "Acute fluctuating confusion",
+        "Stable word-finding pauses over years",
+        "Using lists for appointments",
+        "Needing brighter light to read"
+      ],
+      "answer": 0,
+      "explanation": "Acute fluctuation suggests delirium or another medical cause."
+    },
+    {
+      "id": "brain-health-ageing-q4",
+      "question": "Hearing loss matters for brain health because it can:",
+      "options": [
+        "Increase cognitive load and social isolation",
+        "Improve memory automatically",
+        "Prevent vascular disease",
+        "Eliminate sleep problems"
+      ],
+      "answer": 0,
+      "explanation": "Untreated sensory loss increases effort and may reduce engagement."
+    },
+    {
+      "id": "brain-health-ageing-q5",
+      "question": "The most accurate statement is:",
+      "options": [
+        "Age is a risk factor, not a diagnosis",
+        "All older adults develop dementia",
+        "Normal ageing never affects speed",
+        "One supplement prevents decline"
+      ],
+      "answer": 0,
+      "explanation": "Assessment must focus on trajectory, function and modifiable contributors rather than stereotypes."
+    }
+  ],
+  "tags": [
+    "accumulated",
+    "across",
+    "activity",
+    "Aerobic",
+    "age-related",
+    "Ageing",
+    "ageing",
+    "although",
+    "associated",
+    "biological",
+    "blood-pressure",
+    "both",
+    "Brain",
+    "brain",
+    "change",
+    "changes",
+    "clinical",
+    "Clinicians",
+    "cognitive",
+    "Cognitive",
+    "control",
+    "decline",
+    "delirium",
+    "dementia",
+    "density",
+    "depression",
+    "diabetes",
+    "distinguish",
+    "disturbance",
+    "education",
+    "effects",
+    "efficiency",
+    "emotional",
+    "engagement",
+    "expected"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Healthy cognitive ageing commonly involves:",
+      "Cognitive reserve refers to:",
+      "Age is a risk factor, not a diagnosis. Compare the person with their own prior functioning, not with a caricature of “normal ageing.”"
+    ]
+  },
+  "references": [
+    {
+      "type": "Commission",
+      "citation": "Livingston G et al. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. The Lancet. 2024."
+    },
+    {
+      "type": "Review",
+      "citation": "Stern Y et al. Whitepaper: defining and investigating cognitive reserve, brain reserve, and brain maintenance. Alzheimer’s & Dementia. 2020."
+    },
+    {
+      "type": "Framework",
+      "citation": "World Health Organization. Risk reduction of cognitive decline and dementia: WHO guidelines. 2019."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas illustration of brain health & ageing showing key network components.",
+    "interactionSummary": "A keyboard-accessible sequence explains the system from input through adaptation."
+  }
+}

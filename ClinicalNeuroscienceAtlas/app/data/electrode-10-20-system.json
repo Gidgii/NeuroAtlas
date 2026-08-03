@@ -1,0 +1,138 @@
+{
+  "id": "electrode-10-20-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of International 10–20 System.",
+    "Apply International 10–20 System to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "The 10–20 system positions electrodes by percentages of nasion–inion and preauricular distances, creating consistent labels such as Fp1, Cz and O2."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Standardised placement supports comparison across people and sessions. Extended 10–10 arrays increase spatial sampling but do not remove volume-conduction limits."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Correct placement is foundational for lateralisation, topography, repeat testing and normative comparison."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Eyeballing electrode positions introduces systematic topographic error."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace International 10–20 System",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "The 10–20 system positions electrodes by percentages of nasion–inion and preauricular distances, creating consistent labels such as Fp1, Cz and O2."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Standardised placement supports comparison across people and sessions. Extended 10–10 arrays increase spatial sampling but do not remove volume-conduction limits."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Correct placement is foundational for lateralisation, topography, repeat testing and normative comparison."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Eyeballing electrode positions introduces systematic topographic error."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for International 10–20 System"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures International 10–20 System?",
+      "options": [
+        "The 10–20 system positions electrodes by percentages of nasion–inion and preauricular distances, creating consistent labels such as Fp1, Cz and O2.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "The 10–20 system positions electrodes by percentages of nasion–inion and preauricular distances, creating consistent labels such as Fp1, Cz and O2."
+    },
+    {
+      "question": "What is the safest clinical principle for International 10–20 System?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in International 10–20 System?",
+      "options": [
+        "Eyeballing electrode positions introduces systematic topographic error.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Eyeballing electrode positions introduces systematic topographic error."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Standardised placement supports comparison across people and sessions. Extended 10–10 arrays increase spatial sampling but do not remove volume-conduction limits."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Correct placement is foundational for lateralisation, topography, repeat testing and normative comparison."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Eyeballing electrode positions introduces systematic topographic error."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Bad coordinates cannot be repaired by sophisticated statistics."
+    }
+  ],
+  "tags": [
+    "international 10–20 system",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "reproducible",
+    "electrode",
+    "placement",
+    "using"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

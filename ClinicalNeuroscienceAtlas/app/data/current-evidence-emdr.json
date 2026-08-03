@@ -1,0 +1,175 @@
+{
+  "id": "current-evidence-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 39,
+  "level": 28,
+  "title": "Current Evidence Base",
+  "subtitle": "What research supports and what remains uncertain",
+  "hero": "current-evidence-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating current evidence base across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "contraindications-precautions-emdr"
+  ],
+  "previousConcept": "contraindications-precautions-emdr",
+  "nextConcept": "clinical-integration-limitations-emdr",
+  "tags": [
+    "current",
+    "evidence",
+    "base",
+    "trauma",
+    "emdr",
+    "established PTSD efficacy; uncertainties remain"
+  ],
+  "searchTerms": [
+    "current",
+    "evidence",
+    "base",
+    "trauma",
+    "emdr",
+    "established PTSD efficacy; uncertainties remain",
+    "what",
+    "research",
+    "supports",
+    "remains",
+    "uncertain"
+  ],
+  "learningObjectives": [
+    "Explain current evidence base in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in current evidence base.",
+    "Identify one limitation or safety implication relevant to current evidence base."
+  ],
+  "sections": {
+    "explainSimply": "Multiple guidelines recommend EMDR as a trauma-focused treatment for PTSD.",
+    "explainLikePsychologist": "Average efficacy is comparable to other trauma-focused therapies, while dropout, preference and fit vary.",
+    "advancedClinicalDetail": "Evidence is strongest for PTSD; mechanism, optimal dosing and effects in complex populations remain active research areas.",
+    "thinkOfItLike": "Think of current evidence base as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need current evidence base to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Guideline support does not mean universal benefit or zero risk.",
+    "clinicalPearl": "Clinical pearl: use current evidence base to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses current evidence base to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Guideline support does not mean universal benefit or zero risk. Evidence classification: established PTSD efficacy; uncertainties remain."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Multiple guidelines recommend EMDR as a trauma-focused treatment for PTSD."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Average efficacy is comparable to other trauma-focused therapies, while dropout, preference and fit vary."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Guideline support does not mean universal benefit or zero risk."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Multiple guidelines recommend EMDR as a trauma-focused treatment for PTSD.",
+      "Average efficacy is comparable to other trauma-focused therapies, while dropout, preference and fit vary.",
+      "Guideline support does not mean universal benefit or zero risk."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "current-evidence-emdr-q1",
+      "question": "What is the most accurate core statement about Current Evidence Base?",
+      "options": [
+        "Multiple guidelines recommend EMDR as a trauma-focused treatment for PTSD.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Multiple guidelines recommend EMDR as a trauma-focused treatment for PTSD."
+    },
+    {
+      "id": "current-evidence-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Average efficacy is comparable to other trauma-focused therapies, while dropout, preference and fit vary.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Average efficacy is comparable to other trauma-focused therapies, while dropout, preference and fit vary."
+    },
+    {
+      "id": "current-evidence-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Guideline support does not mean universal benefit or zero risk.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Guideline support does not mean universal benefit or zero risk."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Multiple guidelines recommend EMDR as a trauma-focused treatment for PTSD."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Guideline support does not mean universal benefit or zero risk."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established PTSD efficacy; uncertainties remain"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

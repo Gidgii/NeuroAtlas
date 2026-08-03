@@ -1,0 +1,105 @@
+{
+  "id": "psychopharmacology-foundations",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate pharmacokinetics from pharmacodynamics.",
+    "Reject simplistic chemical-imbalance explanations.",
+    "Recognise major medication classes and urgent adverse effects.",
+    "Describe the psychologist’s role in monitoring and collaborative care."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Presenting pattern",
+      "detail": "Define the functional difficulty, context, onset and time course before inferring mechanism."
+    },
+    {
+      "label": "Candidate systems",
+      "detail": "Map plausible cellular, circuit, cognitive and environmental contributors."
+    },
+    {
+      "label": "Differential test",
+      "detail": "Compare alternatives, comorbidity and medical red flags using converging evidence."
+    },
+    {
+      "label": "Clinical action",
+      "detail": "Select the explanation that best guides safe, proportionate assessment and intervention."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the clinical reasoning sequence, then retrieve the key distinction without looking back.",
+    "signalSteps": [
+      "Name the observed pattern precisely.",
+      "Identify the most plausible neural and cognitive systems.",
+      "Check developmental history, context and competing explanations.",
+      "Choose a formulation that guides action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Pharmacokinetics refers to:",
+      "options": [
+        "What the body does to the drug over time",
+        "Only receptor binding",
+        "Whether a diagnosis is correct",
+        "The meaning a patient gives medication"
+      ],
+      "answer": 0,
+      "explanation": "Pharmacokinetics covers absorption, distribution, metabolism and elimination."
+    },
+    {
+      "question": "Why is the “chemical imbalance” explanation inadequate?",
+      "options": [
+        "Psychotropic effects involve complex network adaptation and are not diagnostic of one missing chemical",
+        "Neurotransmitters do not exist",
+        "Medicines never affect receptors",
+        "All psychiatric symptoms are social"
+      ],
+      "answer": 0,
+      "explanation": "Medicines influence signalling, but disorders cannot be reduced to a single transmitter deficit."
+    },
+    {
+      "question": "Which adverse pattern is urgent?",
+      "options": [
+        "Fever, marked rigidity and altered consciousness after antipsychotic exposure",
+        "Mild transient dry mouth",
+        "A single missed dose without symptoms",
+        "Stable appetite"
+      ],
+      "answer": 0,
+      "explanation": "This pattern may indicate neuroleptic malignant syndrome and requires emergency assessment."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Medication response is evidence about treatment effect, not proof of a diagnosis or a single underlying chemical defect."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Simple “chemical imbalance” explanations are misleading. Drug effects are network-level, state-dependent and probabilistic. Pharmacokinetics determines absorption, distribution, metabolism and elimination; pharmacodynamics concerns what the drug does at its targets. CYP interactions, half-life, active metabolites, withdrawal, adherence and placebo/nocebo processes all matter clinically. Psychological practice should support informed decision-making without prescribing outside scope."
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "New suicidality, severe agitation, serotonin-toxicity signs, manic activation, rigidity with fever, seizures or significant metabolic change require urgent medical review. Abrupt cessation can cause withdrawal or relapse."
+    }
+  ],
+  "tags": [
+    "psychopharmacology",
+    "antidepressants",
+    "stimulants",
+    "antipsychotics",
+    "mood stabilisers"
+  ],
+  "references": [
+    {
+      "citation": "Stahl SM. Stahl’s Essential Psychopharmacology. 5th ed. Cambridge University Press; 2021.",
+      "type": "Primary or authoritative source"
+    },
+    {
+      "citation": "Moncrieff J, et al. The serotonin theory of depression: umbrella review. Mol Psychiatry. 2023;28:3243–3256.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1038/s41380-022-01661-0"
+    }
+  ]
+}

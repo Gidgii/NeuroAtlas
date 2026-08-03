@@ -1,0 +1,250 @@
+{
+  "id": "pituitary-and-sella-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 29,
+  "level": 29,
+  "title": "Pituitary Gland & Sella Turcica Atlas",
+  "subtitle": "Explore pituitary compartments, sellar relationships and hypothalamic control",
+  "pronunciation": "pih-TOO-ih-tair-ee; SELL-uh TUR-sih-kuh",
+  "hero": "pituitary-and-sella-atlas.svg",
+  "altText": "Chalkboard-style midsagittal and coronal views of the pituitary gland within the sella turcica, labelled with the optic chiasm, cavernous sinuses, sphenoid sinus, hypothalamus and infundibulum.",
+  "prerequisites": [
+    "hypothalamus-atlas"
+  ],
+  "previousConcept": "reticular-activating-system-atlas",
+  "nextConcept": "basal-ganglia-circuit-explorer",
+  "tags": [
+    "interactive anatomy",
+    "pituitary gland",
+    "sella turcica",
+    "hypophysis",
+    "adenohypophysis",
+    "neurohypophysis",
+    "optic chiasm",
+    "cavernous sinus",
+    "endocrine"
+  ],
+  "searchTerms": [
+    "pituitary",
+    "sella",
+    "sellar",
+    "suprasellar",
+    "adenohypophysis",
+    "neurohypophysis",
+    "infundibulum",
+    "hypophyseal portal system",
+    "optic chiasm",
+    "cavernous sinus",
+    "pituitary adenoma"
+  ],
+  "learningObjectives": [
+    "Locate the pituitary gland within the sella turcica and identify its relationships to the optic chiasm, cavernous sinuses and sphenoid sinus.",
+    "Differentiate anterior and posterior pituitary organisation, inputs and outputs.",
+    "Relate sellar expansion and pituitary dysfunction to plausible visual, endocrine, neurological and psychological presentations without over-localising symptoms."
+  ],
+  "sections": {
+    "explainSimply": "The pituitary is a pea-sized hormone gland in a bony pocket beneath the brain. It receives instructions from the hypothalamus and helps regulate growth, stress, reproduction, thyroid function, water balance and lactation.",
+    "explainLikePsychologist": "The pituitary is a major endocrine interface between brain and body. Changes in pituitary or hypothalamic function can alter energy, sleep, mood, cognition, sexual function, appetite and stress physiology, but these symptoms are nonspecific and require medical assessment.",
+    "advancedClinicalDetail": "The hypophysis sits in the hypophyseal fossa of the sphenoid bone. The anterior lobe receives hypothalamic releasing and inhibiting factors through the superior hypophyseal portal circulation; the posterior lobe contains axon terminals from supraoptic and paraventricular hypothalamic neurons. Superiorly lie the diaphragma sellae, infundibulum and optic chiasm; laterally are the cavernous sinuses containing the internal carotid arteries and cranial nerves III, IV, V1, V2 and VI; inferiorly lies the sphenoid sinus. Sellar and parasellar lesions may therefore combine endocrine, visual-field, ocular-motor, facial sensory and headache presentations.",
+    "thinkOfItLike": "Think of the hypothalamus as the executive office and the pituitary as the dispatch centre. The sella is the reinforced control booth, but nearby visual and cranial-nerve cables make expansion clinically important.",
+    "whyPsychologistsCare": "Pituitary disease can mimic or amplify depression, anxiety, fatigue, cognitive slowing, irritability, sleep disturbance and changes in motivation. Psychologists should recognise red flags and avoid assuming that endocrine-linked symptoms are purely psychological.",
+    "whenItGoesWrong": "Pituitary hormone excess or deficiency can produce broad systemic and neuropsychiatric effects. Expanding masses may compress the optic chiasm, invade the cavernous sinus or disturb hypothalamic pathways. Symptom patterns vary with hormone type, lesion size, growth direction, treatment and comorbidity.",
+    "clinicalPearl": "A combination of new visual-field change, persistent headache and endocrine symptoms is a sellar-region red flag, not a personality formulation.",
+    "clinicalExample": "A person with fatigue, reduced libido, headaches and difficulty noticing objects at the outer edges of vision may require urgent medical and visual-field assessment for a sellar or suprasellar process; no single symptom proves pituitary disease.",
+    "limitationsCautions": "Hormonal symptoms are often gradual and nonspecific. Imaging size does not map neatly onto symptom severity, incidental pituitary lesions are common, and psychiatric presentations should not be attributed to pituitary dysfunction without endocrine and medical evidence.",
+    "practicalExample": "Use the relationship view to predict whether a lesion expanding superiorly, laterally or inferiorly would be more likely to affect vision, cavernous-sinus structures or the sphenoid sinus."
+  },
+  "anatomy": {
+    "position": "Midline in the hypophyseal fossa of the sphenoid bone, inferior to the hypothalamus and optic chiasm, between the cavernous sinuses and superior to the sphenoid sinus.",
+    "spatialRelationships": [
+      "Hypothalamus and third ventricle superiorly",
+      "Optic chiasm usually superior and slightly anterior",
+      "Cavernous sinuses laterally",
+      "Sphenoid sinus inferiorly",
+      "Dorsum sellae posteriorly",
+      "Tuberculum sellae anteriorly"
+    ],
+    "substructures": [
+      "Adenohypophysis (anterior lobe)",
+      "Pars distalis",
+      "Pars tuberalis",
+      "Pars intermedia",
+      "Neurohypophysis (posterior lobe)",
+      "Infundibular stalk",
+      "Median eminence",
+      "Diaphragma sellae"
+    ],
+    "inputs": [
+      "Hypothalamic releasing and inhibiting hormones via portal vessels",
+      "Magnocellular axons from supraoptic and paraventricular nuclei",
+      "Systemic endocrine feedback signals"
+    ],
+    "outputs": [
+      "ACTH",
+      "TSH",
+      "Growth hormone",
+      "Prolactin",
+      "LH and FSH",
+      "Vasopressin and oxytocin released from posterior pituitary terminals"
+    ],
+    "connections": [
+      "Hypothalamic-pituitary-adrenal axis",
+      "Hypothalamic-pituitary-thyroid axis",
+      "Hypothalamic-pituitary-gonadal axis",
+      "Growth-hormone/IGF-1 axis",
+      "Posterior pituitary water-balance and reproductive pathways"
+    ],
+    "bloodSupply": [
+      "Superior hypophyseal arteries, usually from internal carotid and posterior communicating branches",
+      "Inferior hypophyseal arteries from cavernous internal carotid branches",
+      "Portal venous plexus linking median eminence to anterior pituitary"
+    ],
+    "lesionPatterns": [
+      "Hormone hypersecretion or hypopituitarism",
+      "Bitemporal visual-field loss from chiasmal compression",
+      "Ocular-motor or trigeminal symptoms with cavernous-sinus extension",
+      "Diabetes insipidus with stalk or posterior-system involvement",
+      "Headache or pituitary apoplexy presentation",
+      "Nonspecific fatigue, mood or cognitive change requiring endocrine correlation"
+    ],
+    "associatedPresentations": [
+      "Visual-field disturbance",
+      "Headache",
+      "Fatigue and cognitive slowing",
+      "Mood and anxiety symptoms",
+      "Changes in growth, weight or body composition",
+      "Menstrual, fertility or sexual-function changes",
+      "Thirst and polyuria",
+      "Autonomic or metabolic disturbance"
+    ]
+  },
+  "interaction": {
+    "title": "Explore the sellar control hub",
+    "instruction": "Select a structure, then run the pathway sequence from hypothalamic signal to body feedback.",
+    "ariaLabel": "Interactive pituitary and sella model showing pituitary compartments, hypothalamic control, optic chiasm, cavernous sinuses and sphenoid sinus.",
+    "stages": [
+      {
+        "label": "Hypothalamus",
+        "text": "Hypothalamic neurons detect internal state and generate releasing, inhibiting or neurosecretory signals."
+      },
+      {
+        "label": "Pituitary route",
+        "text": "Signals travel through portal blood to the anterior lobe or down axons to the posterior lobe."
+      },
+      {
+        "label": "Target organs",
+        "text": "Pituitary hormones influence thyroid, adrenal, gonadal, growth, lactation and water-balance systems."
+      },
+      {
+        "label": "Feedback",
+        "text": "Peripheral hormones and physiological state feed back to hypothalamic and pituitary systems."
+      }
+    ]
+  },
+  "explorerParts": [
+    {
+      "id": "anterior",
+      "label": "Anterior pituitary",
+      "short": "Portal-controlled endocrine tissue",
+      "detail": "The adenohypophysis synthesises and releases ACTH, TSH, GH, prolactin, LH and FSH under hypothalamic and peripheral feedback control.",
+      "clinical": "Functional adenomas may produce hormone excess; compression or treatment can reduce multiple axes."
+    },
+    {
+      "id": "posterior",
+      "label": "Posterior pituitary",
+      "short": "Hypothalamic axon terminals",
+      "detail": "The neurohypophysis stores and releases vasopressin and oxytocin made in hypothalamic magnocellular neurons.",
+      "clinical": "Stalk or posterior-system injury can disturb water balance; diabetes insipidus is not expected from most isolated anterior adenomas."
+    },
+    {
+      "id": "chiasm",
+      "label": "Optic chiasm",
+      "short": "Visual pathway above the sella",
+      "detail": "Crossing nasal retinal fibres lie close to the superior sellar region, although exact chiasmal position varies.",
+      "clinical": "Superior expansion can cause classically bitemporal field loss, but visual patterns depend on anatomy and compression geometry."
+    },
+    {
+      "id": "cavernous",
+      "label": "Cavernous sinuses",
+      "short": "Lateral neurovascular corridors",
+      "detail": "Each cavernous sinus contains the internal carotid artery and is related to cranial nerves III, IV, V1, V2 and VI.",
+      "clinical": "Lateral extension may cause diplopia, ophthalmoplegia or facial sensory symptoms; these require urgent medical evaluation."
+    },
+    {
+      "id": "sphenoid",
+      "label": "Sphenoid sinus",
+      "short": "Air sinus beneath the sella",
+      "detail": "The sphenoid sinus lies inferior to the sellar floor and provides the common transsphenoidal surgical route.",
+      "clinical": "Its anatomy matters for surgery and explains why inferior relationships differ from superior chiasmal effects."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "pit-sella-q1",
+      "question": "Which structure is most vulnerable to a pituitary mass expanding superiorly?",
+      "options": [
+        "Optic chiasm",
+        "Cerebellar vermis",
+        "Medial lemniscus",
+        "Primary auditory cortex"
+      ],
+      "answer": 0,
+      "rationale": "The optic chiasm lies immediately superior to the sella, so superior expansion can disturb crossing visual fibres."
+    },
+    {
+      "id": "pit-sella-q2",
+      "question": "How does the hypothalamus primarily control the anterior pituitary?",
+      "options": [
+        "Through releasing and inhibiting hormones carried in portal vessels",
+        "Through direct corticospinal fibres",
+        "Through cerebrospinal-fluid pressure alone",
+        "Through the vagus nerve"
+      ],
+      "answer": 0,
+      "rationale": "Hypothalamic factors enter the hypophyseal portal circulation at the median eminence and regulate anterior pituitary cells."
+    },
+    {
+      "id": "pit-sella-q3",
+      "question": "Which statement is clinically safest?",
+      "options": [
+        "Mood and fatigue symptoms are nonspecific and require endocrine and medical correlation",
+        "Depression proves pituitary dysfunction",
+        "Pituitary lesion size predicts psychiatric severity exactly",
+        "A normal mood excludes pituitary disease"
+      ],
+      "answer": 0,
+      "rationale": "Neuropsychiatric symptoms can occur in endocrine illness but are nonspecific and should not be used as stand-alone localisation evidence."
+    }
+  ],
+  "references": [
+    {
+      "citation": "Standring, S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Melmed, S. et al. Williams Textbook of Endocrinology.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Blumenfeld, H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Trace hypothalamic control of the anterior and posterior pituitary and name the key structures surrounding the sella."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive pituitary and sella atlas with selectable compartments, neighbouring structures, endocrine pathways and qualified lesion patterns.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

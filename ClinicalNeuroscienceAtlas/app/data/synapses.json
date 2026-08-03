@@ -1,0 +1,158 @@
+{
+  "id": "synapses",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Describe presynaptic release, cleft diffusion and postsynaptic receptor activation.",
+    "Differentiate ionotropic, metabotropic and electrical synapses.",
+    "Explain temporal and spatial summation.",
+    "Relate synaptic targets to medication effects and clinical symptoms."
+  ],
+  "anatomy": [
+    {
+      "id": "terminal",
+      "label": "Presynaptic terminal",
+      "short": "Release machinery",
+      "detail": "The terminal contains vesicles, active zones and voltage-gated calcium channels that couple an arriving spike to transmitter release.",
+      "clinical": "Botulinum toxin and several disease processes alter vesicle-release machinery."
+    },
+    {
+      "id": "calcium",
+      "label": "Calcium channels",
+      "short": "Trigger for vesicle fusion",
+      "detail": "Depolarisation opens presynaptic calcium channels. Local calcium concentration rises sharply and activates proteins that drive vesicle fusion.",
+      "clinical": "Small changes in calcium entry can substantially change release probability."
+    },
+    {
+      "id": "cleft",
+      "label": "Synaptic cleft",
+      "short": "Microscopic signalling gap",
+      "detail": "Released transmitter diffuses across a narrow extracellular space before reaching receptors.",
+      "clinical": "Diffusion is rapid, but transmitter clearance is essential to preserve timing and specificity."
+    },
+    {
+      "id": "receptors",
+      "label": "Postsynaptic receptors",
+      "short": "Message interpreters",
+      "detail": "Ionotropic receptors directly gate channels; metabotropic receptors activate slower intracellular signalling cascades.",
+      "clinical": "The same transmitter can produce different effects through different receptor subtypes."
+    },
+    {
+      "id": "clearance",
+      "label": "Clearance systems",
+      "short": "Signal termination",
+      "detail": "Transporters, enzymes and diffusion remove transmitter from the cleft and recycle components.",
+      "clinical": "Transporter blockade is a major mechanism of antidepressants and stimulants."
+    }
+  ],
+  "interaction": {
+    "title": "Synapses sequence",
+    "instruction": "Select a component, then run the sequence to see how the system changes over time.",
+    "ariaLabel": "Interactive synapses sequence",
+    "stages": [
+      {
+        "label": "Arrive",
+        "text": "An action potential depolarises the presynaptic terminal."
+      },
+      {
+        "label": "Release",
+        "text": "Calcium entry triggers vesicle fusion and transmitter release."
+      },
+      {
+        "label": "Bind",
+        "text": "Transmitter activates postsynaptic receptors."
+      },
+      {
+        "label": "Clear",
+        "text": "Transporters, enzymes and diffusion terminate the signal."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What directly triggers synaptic vesicle fusion?",
+      "options": [
+        "Presynaptic calcium entry",
+        "Potassium storage in myelin",
+        "Nuclear transcription alone",
+        "Astrocyte cell division"
+      ],
+      "answer": 0,
+      "explanation": "Calcium entering through voltage-gated channels activates fusion machinery."
+    },
+    {
+      "question": "Ionotropic receptors differ from metabotropic receptors because ionotropic receptors:",
+      "options": [
+        "Directly gate ion channels",
+        "Are located only in the nucleus",
+        "Never change voltage",
+        "Always inhibit neurons"
+      ],
+      "answer": 0,
+      "explanation": "Ionotropic receptors rapidly alter conductance by directly gating channels."
+    },
+    {
+      "question": "What is spatial summation?",
+      "options": [
+        "Inputs from different synapses combine at the same time",
+        "One synapse fires repeatedly over time",
+        "A spike grows larger down the axon",
+        "Glia create new ventricles"
+      ],
+      "answer": 0,
+      "explanation": "Spatial summation combines simultaneous inputs arriving at different locations."
+    },
+    {
+      "question": "Which process can terminate synaptic signalling?",
+      "options": [
+        "Reuptake, enzymatic breakdown and diffusion",
+        "Permanent receptor activation",
+        "Loss of all extracellular fluid",
+        "Myelin wrapping the synaptic cleft"
+      ],
+      "answer": 0,
+      "explanation": "Several clearance mechanisms limit transmitter action."
+    },
+    {
+      "question": "Electrical synapses transmit signals through:",
+      "options": [
+        "Gap junctions",
+        "Synaptic vesicles only",
+        "Blood vessels",
+        "Mitochondrial DNA"
+      ],
+      "answer": 0,
+      "explanation": "Gap junction channels allow direct current flow between cells."
+    }
+  ],
+  "tags": [
+    "synapse",
+    "vesicle",
+    "calcium",
+    "receptor",
+    "reuptake",
+    "ionotropic",
+    "metabotropic",
+    "summation"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "What directly triggers synaptic vesicle fusion?",
+      "Ionotropic receptors differ from metabotropic receptors because ionotropic receptors:",
+      "What is spatial summation?"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Südhof TC. The presynaptic active zone. Neuron. 2012.",
+      "url": "https://doi.org/10.1016/j.neuron.2012.10.012"
+    },
+    {
+      "type": "Open textbook",
+      "citation": "Purves D, et al. Synaptic Transmission. NCBI Bookshelf.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11115/"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "blood-brain-barrier",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Blood–Brain Barrier.",
+    "Explain how the Blood–Brain Barrier contributes to distributed brain function.",
+    "Connect Blood–Brain Barrier physiology with clinically relevant symptoms and conditions.",
+    "Interpret structural or functional findings cautiously and in context."
+  ],
+  "anatomy": [
+    {
+      "id": "endothelium",
+      "label": "Endothelial cells",
+      "short": "Selective vascular lining",
+      "detail": "Continuous tight junctions limit paracellular diffusion.",
+      "clinical": "Injury increases permeability and vasogenic oedema."
+    },
+    {
+      "id": "tight-junctions",
+      "label": "Tight junctions",
+      "short": "Molecular seals",
+      "detail": "Claudins, occludin and scaffold proteins restrict movement between cells.",
+      "clinical": "Inflammation can alter junction organisation."
+    },
+    {
+      "id": "pericytes",
+      "label": "Pericytes",
+      "short": "Vascular support cells",
+      "detail": "Regulate capillary stability, flow and barrier gene expression.",
+      "clinical": "Loss is linked with microvascular dysfunction."
+    },
+    {
+      "id": "astrocyte-feet",
+      "label": "Astrocytic end-feet",
+      "short": "Neurovascular interface",
+      "detail": "Help regulate ions, water and signalling around vessels.",
+      "clinical": "Aquaporin dysfunction contributes to oedema."
+    },
+    {
+      "id": "transporters",
+      "label": "Selective transporters",
+      "short": "Controlled molecular entry",
+      "detail": "Glucose and amino acids use dedicated carrier systems.",
+      "clinical": "Transport competition and saturation affect drug delivery."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Blood–Brain Barrier",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "endothelium",
+        "label": "Endothelial cells",
+        "description": "Continuous tight junctions limit paracellular diffusion."
+      },
+      {
+        "id": "tight-junctions",
+        "label": "Tight junctions",
+        "description": "Claudins, occludin and scaffold proteins restrict movement between cells."
+      },
+      {
+        "id": "pericytes",
+        "label": "Pericytes",
+        "description": "Regulate capillary stability, flow and barrier gene expression."
+      },
+      {
+        "id": "astrocyte-feet",
+        "label": "Astrocytic end-feet",
+        "description": "Help regulate ions, water and signalling around vessels."
+      },
+      {
+        "id": "transporters",
+        "label": "Selective transporters",
+        "description": "Glucose and amino acids use dedicated carrier systems."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "blood-brain-barrier-q1",
+      "question": "Which component is best described as: Selective vascular lining?",
+      "options": [
+        "Endothelial cells",
+        "Tight junctions",
+        "Pericytes",
+        "Astrocytic end-feet"
+      ],
+      "answer": 0,
+      "explanation": "Continuous tight junctions limit paracellular diffusion."
+    },
+    {
+      "id": "blood-brain-barrier-q2",
+      "question": "Which component is best described as: Molecular seals?",
+      "options": [
+        "Tight junctions",
+        "Endothelial cells",
+        "Pericytes",
+        "Astrocytic end-feet"
+      ],
+      "answer": 0,
+      "explanation": "Claudins, occludin and scaffold proteins restrict movement between cells."
+    },
+    {
+      "id": "blood-brain-barrier-q3",
+      "question": "Which component is best described as: Vascular support cells?",
+      "options": [
+        "Pericytes",
+        "Endothelial cells",
+        "Tight junctions",
+        "Astrocytic end-feet"
+      ],
+      "answer": 0,
+      "explanation": "Regulate capillary stability, flow and barrier gene expression."
+    },
+    {
+      "id": "blood-brain-barrier-q4",
+      "question": "Which component is best described as: Neurovascular interface?",
+      "options": [
+        "Astrocytic end-feet",
+        "Endothelial cells",
+        "Tight junctions",
+        "Pericytes"
+      ],
+      "answer": 0,
+      "explanation": "Help regulate ions, water and signalling around vessels."
+    },
+    {
+      "id": "blood-brain-barrier-q5",
+      "question": "Which component is best described as: Controlled molecular entry?",
+      "options": [
+        "Selective transporters",
+        "Endothelial cells",
+        "Tight junctions",
+        "Pericytes"
+      ],
+      "answer": 0,
+      "explanation": "Glucose and amino acids use dedicated carrier systems."
+    }
+  ],
+  "tags": [
+    "neurovascular unit",
+    "barrier",
+    "endothelium",
+    "inflammation",
+    "drug delivery"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Blood–Brain Barrier.",
+      "Explain one clinically relevant function of the Blood–Brain Barrier.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Abbott et al., 2010",
+      "year": "2010",
+      "title": "Structure and function of the blood–brain barrier",
+      "source": "Neurobiology of Disease"
+    },
+    {
+      "authors": "Daneman & Prat, 2015",
+      "year": "2015",
+      "title": "The blood–brain barrier",
+      "source": "Cold Spring Harbor Perspectives in Biology"
+    },
+    {
+      "authors": "Sweeney et al., 2019",
+      "year": "2019",
+      "title": "The role of brain vasculature in neurodegenerative disorders",
+      "source": "Nature Neuroscience"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "salience-network",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify core salience-network nodes.",
+    "Explain salience as behavioural relevance rather than threat alone.",
+    "Describe the proposed role of network switching.",
+    "Connect interoception and clinical symptoms cautiously."
+  ],
+  "anatomy": [
+    {
+      "id": "ai",
+      "label": "Anterior insula",
+      "short": "Integrates body state and relevance",
+      "detail": "Anterior insular regions integrate interoceptive, affective and cognitive information.",
+      "clinical": "Relevant to panic, pain, craving and awareness of internal state."
+    },
+    {
+      "id": "dacc",
+      "label": "Dorsal anterior cingulate",
+      "short": "Action readiness and control demand",
+      "detail": "Dorsal cingulate regions participate in effort, conflict, autonomic coordination and action selection.",
+      "clinical": "Persistent recruitment may accompany high control demand or threat monitoring."
+    },
+    {
+      "id": "amygdala-link",
+      "label": "Limbic interactions",
+      "short": "Affective significance",
+      "detail": "Salience systems interact with amygdala and other subcortical structures to shape relevance.",
+      "clinical": "Salience should not be reduced to the amygdala or fear."
+    },
+    {
+      "id": "interoception",
+      "label": "Interoceptive pathways",
+      "short": "Signals from the body",
+      "detail": "Visceral and autonomic inputs inform estimates of bodily condition and urgency.",
+      "clinical": "Misinterpretation of bodily signals can amplify panic or health anxiety."
+    },
+    {
+      "id": "switching",
+      "label": "Network switching",
+      "short": "Reallocates processing resources",
+      "detail": "The salience network has been proposed to help shift between default-mode and executive systems.",
+      "clinical": "Switching is a useful model, not a settled single-mechanism explanation."
+    }
+  ],
+  "interaction": {
+    "title": "Salience Network sequence",
+    "instruction": "Select a component, then run the sequence to follow information flow across the network.",
+    "ariaLabel": "Interactive salience network model",
+    "stages": [
+      {
+        "label": "Sample",
+        "text": "Monitor external events and internal body signals."
+      },
+      {
+        "label": "Prioritise",
+        "text": "Estimate behavioural relevance and urgency."
+      },
+      {
+        "label": "Recruit",
+        "text": "Engage attention, control and autonomic systems."
+      },
+      {
+        "label": "Update",
+        "text": "Reduce or sustain response as new evidence arrives."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Salience most closely means:",
+      "options": [
+        "Behavioural relevance",
+        "Fear only",
+        "Pleasure only",
+        "Visual brightness"
+      ],
+      "answer": 0,
+      "explanation": "Salience concerns what matters for current goals or bodily needs."
+    },
+    {
+      "question": "A core salience-network region is the:",
+      "options": [
+        "Anterior insula",
+        "Primary visual cortex",
+        "Cerebellar vermis only",
+        "Occipital pole"
+      ],
+      "answer": 0,
+      "explanation": "Anterior insula is commonly identified as a core node."
+    },
+    {
+      "question": "Interoception refers to:",
+      "options": [
+        "Sensing the internal condition of the body",
+        "Remembering childhood events",
+        "Reading written words",
+        "Moving the eyes"
+      ],
+      "answer": 0,
+      "explanation": "Interoception concerns internal bodily signals."
+    },
+    {
+      "question": "The salience network may help:",
+      "options": [
+        "Coordinate shifts between internal and task-focused systems",
+        "Store every autobiographical memory",
+        "Generate spinal reflexes",
+        "Control only hearing"
+      ],
+      "answer": 0,
+      "explanation": "It may facilitate switching and recruitment based on relevance."
+    },
+    {
+      "question": "A clinically careful interpretation is that salience hyperactivity:",
+      "options": [
+        "May reflect several processes and is not diagnostic by itself",
+        "Always proves PTSD",
+        "Means the amygdala is damaged",
+        "Cannot change with context"
+      ],
+      "answer": 0,
+      "explanation": "Salience findings are transdiagnostic and context dependent."
+    }
+  ],
+  "tags": [
+    "salience network",
+    "functional connectivity",
+    "large-scale networks",
+    "clinical neuroscience",
+    "anterior insula",
+    "dorsal anterior cingulate",
+    "limbic interactions"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "Salience most closely means:",
+      "A core salience-network region is the:",
+      "Interoception refers to:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Primary study",
+      "citation": "Seeley WW et al. Dissociable intrinsic connectivity networks for salience processing and executive control. Journal of Neuroscience. 2007.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17329432/"
+    },
+    {
+      "type": "Review",
+      "citation": "Menon V. Large-scale brain networks and psychopathology: a unifying triple network model. Trends in Cognitive Sciences. 2011.",
+      "url": "https://doi.org/10.1016/j.tics.2011.08.003"
+    }
+  ]
+}

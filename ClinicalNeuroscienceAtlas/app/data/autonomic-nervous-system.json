@@ -1,0 +1,171 @@
+{
+  "id": "autonomic-nervous-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate sympathetic, parasympathetic and enteric functions.",
+    "Identify major central autonomic network structures.",
+    "Explain how baroreflexes stabilise cardiovascular state.",
+    "Interpret autonomic symptoms without assuming a purely psychological cause."
+  ],
+  "anatomy": [
+    {
+      "id": "insula",
+      "label": "Insula",
+      "short": "Represent internal bodily state",
+      "detail": "Posterior-to-anterior insular processing integrates interoceptive signals with salience and awareness.",
+      "clinical": "Altered interoceptive precision can amplify or blunt perceived bodily threat."
+    },
+    {
+      "id": "hypothalamus",
+      "label": "Hypothalamus",
+      "short": "Coordinate endocrine and autonomic priorities",
+      "detail": "Hypothalamic nuclei organise temperature, energy, fluid and defensive responses.",
+      "clinical": "Lesions or dysfunction can disturb appetite, sleep, thermoregulation and stress responses."
+    },
+    {
+      "id": "brainstem",
+      "label": "Brainstem autonomic nuclei",
+      "short": "Control cardiorespiratory reflexes",
+      "detail": "NTS and medullary networks integrate visceral afferents and regulate output.",
+      "clinical": "Dysfunction can impair blood-pressure, respiratory or swallowing control."
+    },
+    {
+      "id": "sympathetic",
+      "label": "Sympathetic pathways",
+      "short": "Mobilise resources under demand",
+      "detail": "Thoracolumbar preganglionic neurons recruit distributed organs through ganglia.",
+      "clinical": "Excess or inadequate responses can produce tachycardia, sweating or orthostatic symptoms."
+    },
+    {
+      "id": "parasympathetic",
+      "label": "Parasympathetic pathways",
+      "short": "Support restoration and visceral regulation",
+      "detail": "Craniosacral output, especially vagal pathways, regulates heart, lungs and gut.",
+      "clinical": "Vagal effects are organ-specific; “more vagal” is not universally better."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Autonomic Nervous System",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Autonomic Nervous System model",
+    "stages": [
+      {
+        "label": "Sense",
+        "text": "Visceral receptors report pressure, chemistry and organ state."
+      },
+      {
+        "label": "Integrate",
+        "text": "Brainstem, hypothalamic and cortical regions interpret current demand."
+      },
+      {
+        "label": "Mobilise",
+        "text": "Sympathetic output reallocates energy and supports action when needed."
+      },
+      {
+        "label": "Restore",
+        "text": "Parasympathetic pathways support recovery, digestion and conservation."
+      },
+      {
+        "label": "Update",
+        "text": "Interoception and learning influence how future bodily changes are interpreted."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "autonomic-nervous-system-q1",
+      "question": "Preganglionic sympathetic neurons arise primarily from the:",
+      "options": [
+        "Thoracolumbar spinal cord",
+        "Occipital cortex",
+        "Sacral cortex",
+        "Cerebellar vermis"
+      ],
+      "answer": 0,
+      "explanation": "Sympathetic preganglionic neurons originate in thoracic and upper lumbar spinal segments."
+    },
+    {
+      "id": "autonomic-nervous-system-q2",
+      "question": "The nucleus tractus solitarius primarily receives:",
+      "options": [
+        "Visceral afferent information",
+        "Visual cortical output",
+        "Motor commands to the hand",
+        "Olfactory receptor axons"
+      ],
+      "answer": 0,
+      "explanation": "The NTS is a major brainstem relay for cardiovascular, respiratory and gastrointestinal afferents."
+    },
+    {
+      "id": "autonomic-nervous-system-q3",
+      "question": "Which structure is central to conscious interoceptive representation?",
+      "options": [
+        "Insula",
+        "Putamen",
+        "Primary visual cortex",
+        "Corpus callosum"
+      ],
+      "answer": 0,
+      "explanation": "The insula integrates internal bodily signals with salience and subjective awareness."
+    },
+    {
+      "id": "autonomic-nervous-system-q4",
+      "question": "The baroreflex helps stabilise:",
+      "options": [
+        "Blood pressure",
+        "Long-term episodic memory",
+        "Colour vision",
+        "Speech articulation"
+      ],
+      "answer": 0,
+      "explanation": "Stretch receptors and brainstem circuits rapidly adjust heart and vascular output."
+    },
+    {
+      "id": "autonomic-nervous-system-q5",
+      "question": "Which statement is most accurate?",
+      "options": [
+        "Autonomic patterns are context-dependent and not diagnosis-specific",
+        "Sympathetic activity always means fear",
+        "Parasympathetic activity is always healthy",
+        "Bodily arousal proves danger"
+      ],
+      "answer": 0,
+      "explanation": "Autonomic states are real but psychologically non-specific; interpretation requires context and differential assessment."
+    }
+  ],
+  "tags": [
+    "autonomic",
+    "sympathetic",
+    "parasympathetic",
+    "interoception",
+    "insula",
+    "vagus",
+    "dysautonomia"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the major components of the Autonomic Nervous System.",
+      "Explain one clinically relevant function of the Autonomic Nervous System.",
+      "Identify one common oversimplification to avoid."
+    ]
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Benarroch EE. The central autonomic network. Mayo Clin Proc. 1993;68:988–1001."
+    },
+    {
+      "type": "Review",
+      "citation": "Critchley HD, Harrison NA. Visceral influences on brain and behavior. Neuron. 2013;77:624–638."
+    }
+  ]
+}

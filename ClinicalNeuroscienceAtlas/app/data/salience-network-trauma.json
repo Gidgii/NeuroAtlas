@@ -1,0 +1,174 @@
+{
+  "id": "salience-network-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 11,
+  "level": 28,
+  "title": "Salience Network Changes",
+  "subtitle": "Selecting what deserves attention now",
+  "hero": "salience-network-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating salience network changes across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "prefrontal-cortex-trauma"
+  ],
+  "previousConcept": "prefrontal-cortex-trauma",
+  "nextConcept": "default-mode-network-trauma",
+  "tags": [
+    "salience",
+    "network",
+    "changes",
+    "trauma",
+    "emdr",
+    "promising network evidence"
+  ],
+  "searchTerms": [
+    "salience",
+    "network",
+    "changes",
+    "trauma",
+    "emdr",
+    "promising network evidence",
+    "selecting",
+    "what",
+    "deserves",
+    "attention"
+  ],
+  "learningObjectives": [
+    "Explain salience network changes in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in salience network changes.",
+    "Identify one limitation or safety implication relevant to salience network changes."
+  ],
+  "sections": {
+    "explainSimply": "The salience network helps detect important internal and external events and switch between modes of processing.",
+    "explainLikePsychologist": "Trauma can bias attention toward threat cues and bodily signals, increasing rapid switching into defensive states.",
+    "advancedClinicalDetail": "Anterior insula and dorsal anterior cingulate are central nodes, but network findings are not specific enough for diagnosis.",
+    "thinkOfItLike": "Think of salience network changes as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need salience network changes to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not treat connectivity maps as direct readouts of symptoms.",
+    "clinicalPearl": "Clinical pearl: use salience network changes to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses salience network changes to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not treat connectivity maps as direct readouts of symptoms. Evidence classification: promising network evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "The salience network helps detect important internal and external events and switch between modes of processing."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Trauma can bias attention toward threat cues and bodily signals, increasing rapid switching into defensive states."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not treat connectivity maps as direct readouts of symptoms."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "The salience network helps detect important internal and external events and switch between modes of processing.",
+      "Trauma can bias attention toward threat cues and bodily signals, increasing rapid switching into defensive states.",
+      "Do not treat connectivity maps as direct readouts of symptoms."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "salience-network-trauma-q1",
+      "question": "What is the most accurate core statement about Salience Network Changes?",
+      "options": [
+        "The salience network helps detect important internal and external events and switch between modes of processing.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The salience network helps detect important internal and external events and switch between modes of processing."
+    },
+    {
+      "id": "salience-network-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Trauma can bias attention toward threat cues and bodily signals, increasing rapid switching into defensive states.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma can bias attention toward threat cues and bodily signals, increasing rapid switching into defensive states."
+    },
+    {
+      "id": "salience-network-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not treat connectivity maps as direct readouts of symptoms.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not treat connectivity maps as direct readouts of symptoms."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The salience network helps detect important internal and external events and switch between modes of processing."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not treat connectivity maps as direct readouts of symptoms."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "promising network evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

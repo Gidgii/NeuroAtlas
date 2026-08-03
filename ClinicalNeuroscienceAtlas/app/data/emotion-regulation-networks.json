@@ -1,0 +1,201 @@
+{
+  "id": "emotion-regulation-networks",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify major cortical, limbic and autonomic contributors to emotion regulation.",
+    "Differentiate reappraisal, attentional deployment, suppression and recovery.",
+    "Explain why arousal and context alter regulatory capacity.",
+    "Translate network mechanisms into practical clinical formulation."
+  ],
+  "anatomy": [
+    {
+      "id": "amygdala",
+      "label": "Amygdala",
+      "short": "Detect relevance and threat",
+      "detail": "Rapidly evaluates emotionally salient cues and helps coordinate defensive responses.",
+      "clinical": "Hyperreactivity or poor contextual inhibition may amplify threat responding."
+    },
+    {
+      "id": "vmPFC",
+      "label": "Ventromedial prefrontal cortex",
+      "short": "Update value and safety",
+      "detail": "Integrates current goals, bodily value signals and contextual information.",
+      "clinical": "Reduced safety updating can prolong fear or avoidance."
+    },
+    {
+      "id": "dlPFC",
+      "label": "Lateral prefrontal cortex",
+      "short": "Hold goals and reframe",
+      "detail": "Maintains alternative interpretations and task rules during reappraisal.",
+      "clinical": "Fatigue and stress can reduce access to deliberate strategies."
+    },
+    {
+      "id": "insula",
+      "label": "Anterior insula",
+      "short": "Represent internal state",
+      "detail": "Maps interoceptive changes and subjective feeling intensity.",
+      "clinical": "Heightened interoceptive precision may intensify panic or distress."
+    },
+    {
+      "id": "hippocampus",
+      "label": "Hippocampus",
+      "short": "Supply context",
+      "detail": "Distinguishes present conditions from past associations.",
+      "clinical": "Context-generalised fear can make safe situations feel dangerous."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Emotion Regulation Networks",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Emotion Regulation Networks model",
+    "stages": [
+      {
+        "label": "Detect",
+        "text": "Salience and limbic systems register a meaningful change."
+      },
+      {
+        "label": "Contextualise",
+        "text": "Memory systems compare the present cue with past experience."
+      },
+      {
+        "label": "Appraise",
+        "text": "The brain assigns meaning, value and predicted consequences."
+      },
+      {
+        "label": "Regulate",
+        "text": "Attention, interpretation or action is adjusted to current goals."
+      },
+      {
+        "label": "Recover",
+        "text": "Autonomic and behavioural systems return toward baseline."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "emotion-regulation-networks-q1",
+      "question": "Which statement best describes emotion regulation?",
+      "options": [
+        "Flexible shaping of emotional responses across time",
+        "Suppressing all negative feelings",
+        "Using logic to eliminate emotion",
+        "A single prefrontal function"
+      ],
+      "answer": 0,
+      "explanation": "Regulation is a flexible, distributed process that changes attention, meaning, action and recovery."
+    },
+    {
+      "id": "emotion-regulation-networks-q2",
+      "question": "The hippocampus contributes to emotion regulation mainly by:",
+      "options": [
+        "Providing contextual information",
+        "Generating motor commands",
+        "Detecting sound pitch",
+        "Producing hormones"
+      ],
+      "answer": 0,
+      "explanation": "Hippocampal context helps distinguish present safety from past threat associations."
+    },
+    {
+      "id": "emotion-regulation-networks-q3",
+      "question": "Why can severe arousal impair reappraisal?",
+      "options": [
+        "Arousal constrains working memory and prefrontal control",
+        "Emotion permanently damages cortex",
+        "The amygdala turns off all cognition",
+        "Reappraisal requires no attention"
+      ],
+      "answer": 0,
+      "explanation": "High arousal can narrow attention and reduce access to deliberate control strategies."
+    },
+    {
+      "id": "emotion-regulation-networks-q4",
+      "question": "Suppression differs from reappraisal because suppression primarily:",
+      "options": [
+        "Modifies outward response after emotion is underway",
+        "Changes meaning before response develops",
+        "Erases the memory",
+        "Eliminates autonomic arousal"
+      ],
+      "answer": 0,
+      "explanation": "Suppression targets expression, whereas reappraisal changes interpretation earlier in the process."
+    },
+    {
+      "id": "emotion-regulation-networks-q5",
+      "question": "The most useful clinical formulation asks:",
+      "options": [
+        "Which regulatory operation is failing in which context?",
+        "Why is the client choosing to be emotional?",
+        "Which single brain region is broken?",
+        "How can all emotion be removed?"
+      ],
+      "answer": 0,
+      "explanation": "Mechanism- and context-based formulation is more accurate than moral or single-region explanations."
+    }
+  ],
+  "tags": [
+    "access",
+    "across",
+    "activity",
+    "alone",
+    "amygdala",
+    "anterior",
+    "appear",
+    "arousal",
+    "attentional",
+    "autonomic",
+    "available",
+    "behaviour",
+    "bidirectional",
+    "biologically",
+    "brain",
+    "chronic",
+    "cingulate",
+    "circuits",
+    "Clients",
+    "constrain",
+    "context",
+    "contextual",
+    "control",
+    "coordinated",
+    "cortical",
+    "cues",
+    "depends",
+    "deployment",
+    "detection",
+    "detects",
+    "distinct",
+    "dorsal",
+    "Effective",
+    "emerges",
+    "Emotion"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Which statement best describes emotion regulation?",
+      "The hippocampus contributes to emotion regulation mainly by:",
+      "The goal is flexible, context-sensitive responding—not feeling less. A regulated nervous system can still produce intense emotion when the situation warrants it."
+    ]
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Ochsner KN, Gross JJ. The cognitive control of emotion. Trends in Cognitive Sciences. 2005."
+    },
+    {
+      "type": "Review",
+      "citation": "Etkin A, Büchel C, Gross JJ. The neural bases of emotion regulation. Nature Reviews Neuroscience. 2015."
+    },
+    {
+      "type": "Framework",
+      "citation": "Gross JJ. Emotion regulation: current status and future prospects. Psychological Inquiry. 2015."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas illustration of emotion regulation networks showing key network components.",
+    "interactionSummary": "A keyboard-accessible sequence explains the system from input through adaptation."
+  }
+}

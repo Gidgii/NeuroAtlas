@@ -1,0 +1,138 @@
+{
+  "id": "eyes-open-eyes-closed",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Eyes-Open and Eyes-Closed Recording.",
+    "Apply Eyes-Open and Eyes-Closed Recording to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Posterior alpha commonly increases with relaxed eye closure and attenuates with eye opening. Repeated blocks help assess reproducibility and vigilance."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Eye closure also changes ocular artifact and arousal. Lack of alpha blocking is nonspecific and should not be over-interpreted without context."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Controlled blocks improve routine interpretation and qEEG reliability."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Analysing mixed eyes-open and eyes-closed segments against a single normative condition invalidates comparison."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Eyes-Open and Eyes-Closed Recording",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Posterior alpha commonly increases with relaxed eye closure and attenuates with eye opening. Repeated blocks help assess reproducibility and vigilance."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Eye closure also changes ocular artifact and arousal. Lack of alpha blocking is nonspecific and should not be over-interpreted without context."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Controlled blocks improve routine interpretation and qEEG reliability."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Analysing mixed eyes-open and eyes-closed segments against a single normative condition invalidates comparison."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Eyes-Open and Eyes-Closed Recording"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Eyes-Open and Eyes-Closed Recording?",
+      "options": [
+        "Posterior alpha commonly increases with relaxed eye closure and attenuates with eye opening. Repeated blocks help assess reproducibility and vigilance.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Posterior alpha commonly increases with relaxed eye closure and attenuates with eye opening. Repeated blocks help assess reproducibility and vigilance."
+    },
+    {
+      "question": "What is the safest clinical principle for Eyes-Open and Eyes-Closed Recording?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Eyes-Open and Eyes-Closed Recording?",
+      "options": [
+        "Analysing mixed eyes-open and eyes-closed segments against a single normative condition invalidates comparison.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Analysing mixed eyes-open and eyes-closed segments against a single normative condition invalidates comparison."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Eye closure also changes ocular artifact and arousal. Lack of alpha blocking is nonspecific and should not be over-interpreted without context."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Controlled blocks improve routine interpretation and qEEG reliability."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Analysing mixed eyes-open and eyes-closed segments against a single normative condition invalidates comparison."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Condition labels must match the physiology actually recorded."
+    }
+  ],
+  "tags": [
+    "eyes-open and eyes-closed recording",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "basic",
+    "manipulation",
+    "tests",
+    "reactivity"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

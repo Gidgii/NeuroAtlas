@@ -1,0 +1,189 @@
+{
+  "id": "thalamus-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 23,
+  "level": 29,
+  "title": "Thalamus Atlas",
+  "subtitle": "Map the relay, association and regulatory nuclei linking cortex, subcortex and arousal systems",
+  "pronunciation": "THAL-uh-muss",
+  "hero": "thalamus-atlas.svg",
+  "altText": "Clinically labelled chalkboard-style anatomical illustration of the thalamus atlas, showing major subdivisions, connections and nearby landmarks.",
+  "prerequisites": [
+    "deep-nuclei-atlas"
+  ],
+  "previousConcept": "deep-nuclei-atlas",
+  "nextConcept": "hypothalamus-atlas",
+  "tags": [
+    "interactive anatomy",
+    "thalamus",
+    "deep nuclei",
+    "sensory relay",
+    "motor circuits",
+    "attention",
+    "arousal",
+    "clinical localisation"
+  ],
+  "searchTerms": [
+    "thalamus nuclei",
+    "VPL VPM LGN MGN",
+    "pulvinar",
+    "mediodorsal nucleus",
+    "anterior nucleus",
+    "intralaminar nuclei",
+    "thalamic stroke",
+    "sensory relay"
+  ],
+  "learningObjectives": [
+    "Locate the thalamus relative to the third ventricle, internal capsule and basal ganglia.",
+    "Differentiate major relay, association and intralaminar nuclear groups.",
+    "Connect thalamic vascular territories and pathway disruption to plausible clinical signs."
+  ],
+  "sections": {
+    "explainSimply": "The thalamus is a paired hub deep in the brain. Most sensory information, and many motor and attention signals, pass through specialised thalamic nuclei before reaching cortex.",
+    "explainLikePsychologist": "The thalamus is not a passive relay. Its nuclei gate information according to state, salience and cortical feedback, contributing to attention, arousal, memory and the coordination of distributed cognitive networks.",
+    "advancedClinicalDetail": "Each thalamus borders the third ventricle and is divided by internal medullary laminae into anterior, medial and lateral nuclear groups. Ventral posterior nuclei relay somatosensation; geniculate bodies relay visual and auditory information; ventral anterior and lateral nuclei participate in basal ganglia and cerebellar motor loops; anterior and mediodorsal nuclei support limbic and prefrontal functions; pulvinar and intralaminar nuclei contribute to association, attention and arousal. Clinical effects depend on laterality, vascular territory and network disconnection.",
+    "thinkOfItLike": "Think of a secure rail interchange: different platforms serve different destinations, while cortical feedback continually changes which trains are prioritised.",
+    "whyPsychologistsCare": "Thalamic injury can alter attention, memory, language, arousal, affect and sensory experience. Recognising a distributed thalamocortical pattern helps avoid mislabelling neurological changes as purely psychiatric.",
+    "whenItGoesWrong": "A focal thalamic lesion may cause hemisensory loss, central pain, memory impairment, language or neglect-like symptoms, reduced alertness or executive change. Symptoms rarely identify a single nucleus without imaging and neurological examination.",
+    "clinicalPearl": "Bilateral paramedian thalamic injury can produce profound arousal and memory disturbance because it disrupts midline nuclei and their widespread cortical connections.",
+    "clinicalExample": "A person with a left paramedian thalamic infarct may present with fluctuating alertness, slowed initiation and memory difficulty despite relatively preserved primary strength.",
+    "limitationsCautions": "Atlas localisation supports hypothesis generation, not diagnosis. Thalamic nuclei are small, boundaries vary across atlases, and behavioural outcomes reflect connected cortical and subcortical systems.",
+    "practicalExample": "Use the thalamus atlas map to test whether a clinical pattern is anatomically coherent while considering network and medical alternatives."
+  },
+  "anatomy": {
+    "position": "Paired ovoid structures on either side of the third ventricle, superior to the hypothalamus and medial to the internal capsule.",
+    "substructures": [
+      "Anterior nucleus",
+      "Mediodorsal nucleus",
+      "Ventral anterior nucleus",
+      "Ventral lateral nucleus",
+      "VPL",
+      "VPM",
+      "Lateral geniculate nucleus",
+      "Medial geniculate nucleus",
+      "Pulvinar",
+      "Intralaminar nuclei",
+      "Reticular nucleus"
+    ],
+    "inputs": [
+      "Ascending sensory pathways",
+      "Cerebellum",
+      "Basal ganglia",
+      "Mammillary bodies",
+      "Brainstem reticular formation",
+      "Corticothalamic feedback"
+    ],
+    "outputs": [
+      "Primary and association cortices",
+      "Prefrontal cortex",
+      "Cingulate cortex",
+      "Motor and premotor cortices",
+      "Limbic networks"
+    ],
+    "bloodSupply": [
+      "Paramedian thalamoperforating arteries",
+      "Thalamogeniculate arteries",
+      "Posterior choroidal arteries",
+      "Tuberothalamic artery when present"
+    ],
+    "lesionPatterns": [
+      "Pure sensory syndrome",
+      "Thalamic pain syndrome",
+      "Arousal impairment",
+      "Amnesia",
+      "Aphasia or neglect-like syndromes",
+      "Executive and affective change"
+    ]
+  },
+  "interactions": [
+    {
+      "id": "thal-layer",
+      "label": "Layer nuclei",
+      "description": "Toggle relay, association, limbic and intralaminar nuclear groups."
+    },
+    {
+      "id": "thal-pathways",
+      "label": "Trace pathways",
+      "description": "Follow sensory, cerebellar, basal-ganglia and limbic inputs to cortical targets."
+    },
+    {
+      "id": "thal-vascular",
+      "label": "Show vascular territories",
+      "description": "Overlay major arterial territories and representative lesion syndromes."
+    },
+    {
+      "id": "thal-laterality",
+      "label": "Compare sides",
+      "description": "Compare left and right thalamic relationships and lateralised clinical effects."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "thal-q1",
+      "question": "Which thalamic structure is the principal visual relay to primary visual cortex?",
+      "options": [
+        "Lateral geniculate nucleus",
+        "Medial geniculate nucleus",
+        "VPL",
+        "Anterior nucleus"
+      ],
+      "answer": 0,
+      "rationale": "The lateral geniculate nucleus relays retinal information to primary visual cortex."
+    },
+    {
+      "id": "thal-q2",
+      "question": "Why is the thalamus better described as a gate than a simple relay?",
+      "options": [
+        "Corticothalamic and state-dependent signals modulate transmission",
+        "It receives no cortical feedback",
+        "Every nucleus carries the same information",
+        "It only processes pain"
+      ],
+      "answer": 0,
+      "rationale": "Thalamic transmission is dynamically shaped by cortical feedback, arousal and attention."
+    },
+    {
+      "id": "thal-q3",
+      "question": "A unilateral posterolateral thalamic lesion most directly raises concern for which pattern?",
+      "options": [
+        "Contralateral hemisensory disturbance",
+        "Isolated ipsilateral deafness",
+        "Pure lower motor neuron weakness",
+        "Bitemporal hemianopia"
+      ],
+      "answer": 0,
+      "rationale": "Posterolateral thalamic sensory nuclei relay contralateral body and facial sensation."
+    }
+  ],
+  "references": [
+    {
+      "citation": "Nolte, J. The Human Brain: An Introduction to Its Functional Anatomy.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Blumenfeld, H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring, S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Identify the major subdivisions and clinical relationships of the thalamus atlas."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive Thalamus Atlas atlas with labelled regions, pathway relationships and clinical notes.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

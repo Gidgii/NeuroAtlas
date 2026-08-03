@@ -1,0 +1,157 @@
+{
+  "id": "frontoparietal-control-network",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Describe flexible cognitive control as a network process.",
+    "Identify common lateral frontal and parietal components.",
+    "Explain adaptive coupling with other networks.",
+    "Relate control demand to fatigue and clinical performance."
+  ],
+  "anatomy": [
+    {
+      "id": "dlpfc",
+      "label": "Lateral prefrontal cortex",
+      "short": "Maintains rules and goals",
+      "detail": "Lateral prefrontal regions represent task rules, context and goal-relevant information.",
+      "clinical": "Performance may decline when working-memory and monitoring demands exceed capacity."
+    },
+    {
+      "id": "parietal",
+      "label": "Posterior parietal cortex",
+      "short": "Represents priorities and task structure",
+      "detail": "Parietal nodes support selection, evidence integration and flexible mapping between goals and responses.",
+      "clinical": "Relevant to set shifting, calculation, praxis and attentional control."
+    },
+    {
+      "id": "monitoring",
+      "label": "Monitoring systems",
+      "short": "Tracks outcomes and conflict",
+      "detail": "Control systems compare performance with goals and recruit adjustment when needed.",
+      "clinical": "A person may be accurate yet exhausted if monitoring remains effortful."
+    },
+    {
+      "id": "adaptive-coupling",
+      "label": "Adaptive coupling",
+      "short": "Partners with other networks",
+      "detail": "Frontoparietal regions change their connectivity depending on whether a task requires memory, attention or internal simulation.",
+      "clinical": "Flexibility may matter more than globally high activation."
+    },
+    {
+      "id": "control-cost",
+      "label": "Control cost",
+      "short": "Effort is metabolically and subjectively costly",
+      "detail": "Sustained control competes with fatigue, stress, reward and motivation.",
+      "clinical": "Executive performance should be assessed across time and complexity, not one easy task."
+    }
+  ],
+  "interaction": {
+    "title": "Frontoparietal Control Network sequence",
+    "instruction": "Select a component, then run the sequence to follow information flow across the network.",
+    "ariaLabel": "Interactive frontoparietal control network model",
+    "stages": [
+      {
+        "label": "Set goal",
+        "text": "Represent the rule, target or desired outcome."
+      },
+      {
+        "label": "Configure",
+        "text": "Recruit the systems needed for the current task."
+      },
+      {
+        "label": "Monitor",
+        "text": "Compare ongoing performance with the goal."
+      },
+      {
+        "label": "Adjust",
+        "text": "Update strategy, effort or network coupling."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "The frontoparietal control network is especially relevant to:",
+      "options": [
+        "Flexible goal-directed control",
+        "Basic spinal reflexes",
+        "Cerebrospinal fluid circulation",
+        "Retinal phototransduction"
+      ],
+      "answer": 0,
+      "explanation": "It supports flexible coordination under goal demand."
+    },
+    {
+      "question": "A core principle of this network is:",
+      "options": [
+        "Its coupling changes with task context",
+        "It works independently of all other networks",
+        "It is active only in childhood",
+        "More activation always means better performance"
+      ],
+      "answer": 0,
+      "explanation": "Adaptive coupling is central to flexible control."
+    },
+    {
+      "question": "Executive fatigue may occur when:",
+      "options": [
+        "Accurate performance requires sustained high control effort",
+        "A person has perfect automaticity",
+        "No monitoring is needed",
+        "The task has no rules"
+      ],
+      "answer": 0,
+      "explanation": "Compensation can preserve accuracy at a high subjective cost."
+    },
+    {
+      "question": "Lateral prefrontal regions often help maintain:",
+      "options": [
+        "Task rules and goals",
+        "Blood oxygen directly",
+        "Auditory hair cells",
+        "Spinal motor neurons"
+      ],
+      "answer": 0,
+      "explanation": "They contribute to context and goal representation."
+    },
+    {
+      "question": "Clinical executive assessment should consider:",
+      "options": [
+        "Complexity, time, motivation and fatigue",
+        "Only one brief easy task",
+        "Intelligence as the sole explanation",
+        "A single imaging result"
+      ],
+      "answer": 0,
+      "explanation": "Executive performance is highly context sensitive."
+    }
+  ],
+  "tags": [
+    "frontoparietal control network",
+    "functional connectivity",
+    "large-scale networks",
+    "clinical neuroscience",
+    "lateral prefrontal cortex",
+    "posterior parietal cortex",
+    "monitoring systems"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "The frontoparietal control network is especially relevant to:",
+      "A core principle of this network is:",
+      "Executive fatigue may occur when:"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Primary study",
+      "citation": "Seeley WW et al. Dissociable intrinsic connectivity networks for salience processing and executive control. Journal of Neuroscience. 2007.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17329432/"
+    },
+    {
+      "type": "Review",
+      "citation": "Marek S, Dosenbach NUF. The frontoparietal network: function, electrophysiology, and importance of individual precision mapping. Dialogues in Clinical Neuroscience. 2018.",
+      "url": "https://doi.org/10.31887/DCNS.2018.20.2/smarek"
+    }
+  ]
+}

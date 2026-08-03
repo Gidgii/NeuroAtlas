@@ -1,0 +1,138 @@
+{
+  "id": "eeg-state-dependence",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of EEG State Dependence.",
+    "Apply EEG State Dependence to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Eyes open, eyes closed, drowsiness, sleep, medication, caffeine, pain and anxiety all alter EEG."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "State must be documented and replicated when comparing sessions or normative data. A valid resting condition is a controlled physiological state, not merely sitting still."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "State effects are central to clinical interpretation and pre–post comparisons."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Attributing drowsiness-related theta to pathology is a common avoidable error."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace EEG State Dependence",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Eyes open, eyes closed, drowsiness, sleep, medication, caffeine, pain and anxiety all alter EEG."
+      },
+      {
+        "label": "Analyse",
+        "detail": "State must be documented and replicated when comparing sessions or normative data. A valid resting condition is a controlled physiological state, not merely sitting still."
+      },
+      {
+        "label": "Integrate",
+        "detail": "State effects are central to clinical interpretation and pre–post comparisons."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Attributing drowsiness-related theta to pathology is a common avoidable error."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for EEG State Dependence"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures EEG State Dependence?",
+      "options": [
+        "Eyes open, eyes closed, drowsiness, sleep, medication, caffeine, pain and anxiety all alter EEG.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Eyes open, eyes closed, drowsiness, sleep, medication, caffeine, pain and anxiety all alter EEG."
+    },
+    {
+      "question": "What is the safest clinical principle for EEG State Dependence?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in EEG State Dependence?",
+      "options": [
+        "Attributing drowsiness-related theta to pathology is a common avoidable error.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Attributing drowsiness-related theta to pathology is a common avoidable error."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "State must be documented and replicated when comparing sessions or normative data. A valid resting condition is a controlled physiological state, not merely sitting still."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "State effects are central to clinical interpretation and pre–post comparisons."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Attributing drowsiness-related theta to pathology is a common avoidable error."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Before interpreting trait, verify state."
+    }
+  ],
+  "tags": [
+    "eeg state dependence",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "brain",
+    "rhythms",
+    "change",
+    "vigilance"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

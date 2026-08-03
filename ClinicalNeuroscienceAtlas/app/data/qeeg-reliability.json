@@ -1,0 +1,138 @@
+{
+  "id": "qeeg-reliability",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Reliability and Repeatability.",
+    "Apply Reliability and Repeatability to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Reliability depends on recording length, state stability, preprocessing, metric choice and time interval."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "A statistically significant pre–post difference is not meaningful if test–retest variability is large."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Essential for longitudinal monitoring and neurofeedback planning."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Interpreting noise as treatment response can reinforce ineffective interventions."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Reliability and Repeatability",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Reliability depends on recording length, state stability, preprocessing, metric choice and time interval."
+      },
+      {
+        "label": "Analyse",
+        "detail": "A statistically significant pre–post difference is not meaningful if test–retest variability is large."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Essential for longitudinal monitoring and neurofeedback planning."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Interpreting noise as treatment response can reinforce ineffective interventions."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Reliability and Repeatability"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Reliability and Repeatability?",
+      "options": [
+        "Reliability depends on recording length, state stability, preprocessing, metric choice and time interval.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Reliability depends on recording length, state stability, preprocessing, metric choice and time interval."
+    },
+    {
+      "question": "What is the safest clinical principle for Reliability and Repeatability?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Reliability and Repeatability?",
+      "options": [
+        "Interpreting noise as treatment response can reinforce ineffective interventions.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Interpreting noise as treatment response can reinforce ineffective interventions."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "A statistically significant pre–post difference is not meaningful if test–retest variability is large."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Essential for longitudinal monitoring and neurofeedback planning."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Interpreting noise as treatment response can reinforce ineffective interventions."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Change must exceed measurement error and state variation."
+    }
+  ],
+  "tags": [
+    "reliability and repeatability",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "determining",
+    "whether",
+    "metric",
+    "stable"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

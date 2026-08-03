@@ -1,0 +1,138 @@
+{
+  "id": "qeeg-anxiety-depression-evidence",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of QEEG in Anxiety and Depression.",
+    "Apply QEEG in Anxiety and Depression to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Alpha asymmetry and other spectral findings show mixed reliability and substantial overlap across populations."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "State effects, medication, comorbidity and analytic flexibility limit individual inference. No single QEEG pattern establishes mood or anxiety diagnosis."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Helps psychologists avoid biological overclaiming while engaging with emerging evidence."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Using a map to validate or invalidate a client’s symptoms is clinically inappropriate."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace QEEG in Anxiety and Depression",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Alpha asymmetry and other spectral findings show mixed reliability and substantial overlap across populations."
+      },
+      {
+        "label": "Analyse",
+        "detail": "State effects, medication, comorbidity and analytic flexibility limit individual inference. No single QEEG pattern establishes mood or anxiety diagnosis."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Helps psychologists avoid biological overclaiming while engaging with emerging evidence."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Using a map to validate or invalidate a client’s symptoms is clinically inappropriate."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for QEEG in Anxiety and Depression"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures QEEG in Anxiety and Depression?",
+      "options": [
+        "Alpha asymmetry and other spectral findings show mixed reliability and substantial overlap across populations.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Alpha asymmetry and other spectral findings show mixed reliability and substantial overlap across populations."
+    },
+    {
+      "question": "What is the safest clinical principle for QEEG in Anxiety and Depression?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in QEEG in Anxiety and Depression?",
+      "options": [
+        "Using a map to validate or invalidate a client’s symptoms is clinically inappropriate.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Using a map to validate or invalidate a client’s symptoms is clinically inappropriate."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "State effects, medication, comorbidity and analytic flexibility limit individual inference. No single QEEG pattern establishes mood or anxiety diagnosis."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Helps psychologists avoid biological overclaiming while engaging with emerging evidence."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Using a map to validate or invalidate a client’s symptoms is clinically inappropriate."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Biomarkers should add information, not replace the person’s history."
+    }
+  ],
+  "tags": [
+    "qeeg in anxiety and depression",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "candidate",
+    "markers",
+    "remain",
+    "probabilistic"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

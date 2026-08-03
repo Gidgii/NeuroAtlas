@@ -1,0 +1,138 @@
+{
+  "id": "qeeg-ethics-scope",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Ethics Scope and Competence.",
+    "Apply Ethics Scope and Competence to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Professionals must work within competence, obtain informed consent, protect neural data and distinguish education, research and clinical diagnosis."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Medical EEG interpretation and seizure diagnosis require appropriately qualified practitioners. Commercial conflicts and persuasive visual outputs require extra transparency."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Protects clients from delayed medical care, false reassurance and expensive unsupported treatment."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Using “brain scan” language can imply diagnostic certainty the method does not provide."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Ethics Scope and Competence",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Professionals must work within competence, obtain informed consent, protect neural data and distinguish education, research and clinical diagnosis."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Medical EEG interpretation and seizure diagnosis require appropriately qualified practitioners. Commercial conflicts and persuasive visual outputs require extra transparency."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Protects clients from delayed medical care, false reassurance and expensive unsupported treatment."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Using “brain scan” language can imply diagnostic certainty the method does not provide."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Ethics Scope and Competence"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Ethics Scope and Competence?",
+      "options": [
+        "Professionals must work within competence, obtain informed consent, protect neural data and distinguish education, research and clinical diagnosis.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Professionals must work within competence, obtain informed consent, protect neural data and distinguish education, research and clinical diagnosis."
+    },
+    {
+      "question": "What is the safest clinical principle for Ethics Scope and Competence?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Ethics Scope and Competence?",
+      "options": [
+        "Using “brain scan” language can imply diagnostic certainty the method does not provide.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Using “brain scan” language can imply diagnostic certainty the method does not provide."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Medical EEG interpretation and seizure diagnosis require appropriately qualified practitioners. Commercial conflicts and persuasive visual outputs require extra transparency."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Protects clients from delayed medical care, false reassurance and expensive unsupported treatment."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Using “brain scan” language can imply diagnostic certainty the method does not provide."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Scope is part of science, not administrative decoration."
+    }
+  ],
+  "tags": [
+    "ethics scope and competence",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "using",
+    "within",
+    "training",
+    "regulation"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

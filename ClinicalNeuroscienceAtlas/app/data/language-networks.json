@@ -1,0 +1,172 @@
+{
+  "id": "language-networks",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Contrast dorsal and ventral language pathways.",
+    "Identify major cortical contributors to comprehension and production.",
+    "Distinguish aphasia from dysarthria and apraxia of speech.",
+    "Use network-based rather than two-centre language models."
+  ],
+  "anatomy": [
+    {
+      "id": "auditory",
+      "label": "Superior temporal cortex",
+      "short": "Analyse speech sounds and lexical patterns",
+      "detail": "Temporal auditory regions transform acoustic input into phonological representations.",
+      "clinical": "Damage can impair speech discrimination and comprehension."
+    },
+    {
+      "id": "ventral",
+      "label": "Ventral language stream",
+      "short": "Map sound and print to meaning",
+      "detail": "Middle and anterior temporal pathways integrate lexical-semantic information.",
+      "clinical": "Disruption may impair comprehension and semantic access."
+    },
+    {
+      "id": "dorsal",
+      "label": "Dorsal language stream",
+      "short": "Map sounds to articulatory plans",
+      "detail": "Parietal and frontal pathways support repetition, phonological working memory and sensorimotor mapping.",
+      "clinical": "Damage can produce disproportionate repetition and phonological errors."
+    },
+    {
+      "id": "frontal",
+      "label": "Inferior frontal cortex",
+      "short": "Select, sequence and control language",
+      "detail": "Left inferior frontal systems support controlled retrieval, syntax and speech planning.",
+      "clinical": "Lesions may reduce fluency and grammatical complexity."
+    },
+    {
+      "id": "right",
+      "label": "Right-hemisphere language systems",
+      "short": "Support prosody, discourse and inference",
+      "detail": "Right temporal and frontal regions contribute emotional tone and context-sensitive interpretation.",
+      "clinical": "Damage may impair humour, indirect meaning or emotional prosody."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Language Networks",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Language Networks model",
+    "stages": [
+      {
+        "label": "Analyse",
+        "text": "Auditory or visual systems extract speech sounds or written forms."
+      },
+      {
+        "label": "Access",
+        "text": "Temporal networks activate candidate words and meanings."
+      },
+      {
+        "label": "Select",
+        "text": "Control systems choose context-appropriate representations."
+      },
+      {
+        "label": "Sequence",
+        "text": "Frontal and dorsal pathways organise phonology, grammar and motor plans."
+      },
+      {
+        "label": "Express",
+        "text": "Motor systems produce speech, writing or gesture while feedback updates performance."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "language-networks-q1",
+      "question": "The dorsal language pathway is especially involved in:",
+      "options": [
+        "Sound-to-articulation mapping and repetition",
+        "Temperature regulation",
+        "Reward valuation",
+        "Visual field detection"
+      ],
+      "answer": 0,
+      "explanation": "Dorsal frontotemporal pathways support phonological sensorimotor mapping and repetition."
+    },
+    {
+      "id": "language-networks-q2",
+      "question": "Ventral language pathways primarily support:",
+      "options": [
+        "Mapping language forms to meaning",
+        "Spinal reflexes",
+        "Balance control",
+        "Cardiac output"
+      ],
+      "answer": 0,
+      "explanation": "Ventral temporal pathways are central to lexical-semantic processing."
+    },
+    {
+      "id": "language-networks-q3",
+      "question": "Aphasia is best defined as:",
+      "options": [
+        "An acquired language disorder from brain dysfunction",
+        "Weakness of the speech muscles only",
+        "Hearing loss only",
+        "A developmental reading difference only"
+      ],
+      "answer": 0,
+      "explanation": "Aphasia affects language formulation or comprehension and is distinct from pure motor-speech impairment."
+    },
+    {
+      "id": "language-networks-q4",
+      "question": "The right hemisphere commonly contributes to:",
+      "options": [
+        "Prosody and discourse-level inference",
+        "Only left-hand movement",
+        "CSF production",
+        "Retinal transduction"
+      ],
+      "answer": 0,
+      "explanation": "Right-lateralised systems contribute emotional tone, pragmatic interpretation and discourse coherence."
+    },
+    {
+      "id": "language-networks-q5",
+      "question": "Modern language neuroscience favours:",
+      "options": [
+        "Distributed interacting networks",
+        "Two isolated language centres",
+        "A single language organ",
+        "No hemispheric specialisation"
+      ],
+      "answer": 0,
+      "explanation": "Language depends on distributed dorsal and ventral pathways with variable lateralisation."
+    }
+  ],
+  "tags": [
+    "language",
+    "aphasia",
+    "dorsal stream",
+    "ventral stream",
+    "Broca",
+    "Wernicke",
+    "semantics",
+    "prosody"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the major components of the Language Networks.",
+      "Explain one clinically relevant function of the Language Networks.",
+      "Identify one common oversimplification to avoid."
+    ]
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Hickok G, Poeppel D. The cortical organization of speech processing. Nat Rev Neurosci. 2007;8:393–402."
+    },
+    {
+      "type": "Review",
+      "citation": "Friederici AD. The brain basis of language processing. Physiol Rev. 2011;91:1357–1392."
+    }
+  ]
+}

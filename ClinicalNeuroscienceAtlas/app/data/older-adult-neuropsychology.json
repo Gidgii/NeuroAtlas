@@ -1,0 +1,122 @@
+{
+  "id": "older-adult-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Older-Adult Neuropsychology.",
+    "Apply Older-Adult Neuropsychology to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Establish trajectory",
+      "detail": "Clarify onset, progression and fluctuations."
+    },
+    {
+      "label": "Assess function",
+      "detail": "Determine whether cognition affects instrumental daily activities."
+    },
+    {
+      "label": "Evaluate contributors",
+      "detail": "Review sensory, medical, vascular, psychiatric and medication factors."
+    },
+    {
+      "label": "Integrate longitudinally",
+      "detail": "Compare current profile with prior records and future follow-up when indicated."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Establish trajectory",
+        "detail": "Clarify onset, progression and fluctuations."
+      },
+      {
+        "label": "Assess function",
+        "detail": "Determine whether cognition affects instrumental daily activities."
+      },
+      {
+        "label": "Evaluate contributors",
+        "detail": "Review sensory, medical, vascular, psychiatric and medication factors."
+      },
+      {
+        "label": "Integrate longitudinally",
+        "detail": "Compare current profile with prior records and future follow-up when indicated."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Older-Adult Neuropsychology"
+  },
+  "quizBank": [
+    {
+      "question": "Which feature is least consistent with uncomplicated healthy ageing?",
+      "options": [
+        "Slower processing speed",
+        "Occasional retrieval difficulty",
+        "Progressive loss of independent medication management",
+        "Benefit from cues"
+      ],
+      "answer": 2,
+      "explanation": "Progressive loss of independent medication management is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Older-Adult Neuropsychology?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Ask about change from the person’s own baseline, not whether they resemble an average older adult."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Establish trajectory → Assess function → Evaluate contributors → Integrate longitudinally"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Acute confusion suggests delirium; rapid progression, focal signs or marked functional decline requires prompt medical assessment."
+    }
+  ],
+  "tags": [
+    "older-adult neuropsychology",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Harada CN, Natelson Love MC, Triebel KL. Normal cognitive aging. Clinics in Geriatric Medicine. 2013;29:737–752.",
+      "url": "https://doi.org/10.1016/j.cger.2013.07.002"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

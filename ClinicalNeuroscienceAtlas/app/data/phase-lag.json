@@ -1,0 +1,138 @@
+{
+  "id": "phase-lag",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Phase Lag and Synchrony.",
+    "Apply Phase Lag and Synchrony to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Phase-based measures estimate whether oscillations maintain consistent timing differences."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Filtering, reference, volume conduction and low signal-to-noise ratio can distort phase. Non-zero-lag metrics reduce some but not all confounds."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Helps evaluate claims about timing and network coordination."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "A phase map alone cannot establish direction or causality."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Phase Lag and Synchrony",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Phase-based measures estimate whether oscillations maintain consistent timing differences."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Filtering, reference, volume conduction and low signal-to-noise ratio can distort phase. Non-zero-lag metrics reduce some but not all confounds."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Helps evaluate claims about timing and network coordination."
+      },
+      {
+        "label": "Check limits",
+        "detail": "A phase map alone cannot establish direction or causality."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Phase Lag and Synchrony"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Phase Lag and Synchrony?",
+      "options": [
+        "Phase-based measures estimate whether oscillations maintain consistent timing differences.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Phase-based measures estimate whether oscillations maintain consistent timing differences."
+    },
+    {
+      "question": "What is the safest clinical principle for Phase Lag and Synchrony?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Phase Lag and Synchrony?",
+      "options": [
+        "A phase map alone cannot establish direction or causality.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "A phase map alone cannot establish direction or causality."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Filtering, reference, volume conduction and low signal-to-noise ratio can distort phase. Non-zero-lag metrics reduce some but not all confounds."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Helps evaluate claims about timing and network coordination."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "A phase map alone cannot establish direction or causality."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Synchrony is a pattern; mechanism requires more evidence."
+    }
+  ],
+  "tags": [
+    "phase lag and synchrony",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "timing",
+    "relationships",
+    "between",
+    "oscillatory"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

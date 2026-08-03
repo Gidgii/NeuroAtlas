@@ -1,0 +1,185 @@
+{
+  "id": "auditory-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the major components of the Auditory System.",
+    "Explain how the Auditory System contributes to sensation, regulation or behaviour.",
+    "Connect Auditory System function with clinically relevant symptoms.",
+    "Use lesion patterns and phenomenology cautiously rather than relying on one-to-one explanations."
+  ],
+  "anatomy": [
+    {
+      "id": "cochlea",
+      "label": "Cochlea",
+      "short": "Frequency analysis and transduction",
+      "detail": "Basilar-membrane mechanics separate frequencies; hair cells encode vibration.",
+      "clinical": "Hair-cell injury causes sensorineural hearing loss."
+    },
+    {
+      "id": "nerve",
+      "label": "Auditory nerve",
+      "short": "Carries encoded sound",
+      "detail": "Spiral ganglion axons transmit cochlear output to brainstem.",
+      "clinical": "Neuropathy can disrupt timing despite preserved outer hair-cell function."
+    },
+    {
+      "id": "olive",
+      "label": "Superior olivary complex",
+      "short": "Binaural comparison",
+      "detail": "Compares interaural timing and level differences.",
+      "clinical": "Dysfunction impairs sound localisation."
+    },
+    {
+      "id": "colliculus",
+      "label": "Inferior colliculus",
+      "short": "Midbrain auditory integration",
+      "detail": "Combines spatial and spectral information.",
+      "clinical": "Contributes to orienting toward salient sounds."
+    },
+    {
+      "id": "cortex",
+      "label": "Auditory cortex",
+      "short": "Conscious sound analysis",
+      "detail": "Temporal cortex represents complex acoustic patterns and speech features.",
+      "clinical": "Lesions can impair recognition despite intact peripheral hearing."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Auditory System",
+    "instructions": "Select each stage to reveal its role, then move through the sequence to consolidate the system as a whole.",
+    "steps": [
+      {
+        "id": "cochlea",
+        "label": "Cochlea",
+        "description": "Basilar-membrane mechanics separate frequencies; hair cells encode vibration."
+      },
+      {
+        "id": "nerve",
+        "label": "Auditory nerve",
+        "description": "Spiral ganglion axons transmit cochlear output to brainstem."
+      },
+      {
+        "id": "olive",
+        "label": "Superior olivary complex",
+        "description": "Compares interaural timing and level differences."
+      },
+      {
+        "id": "colliculus",
+        "label": "Inferior colliculus",
+        "description": "Combines spatial and spectral information."
+      },
+      {
+        "id": "cortex",
+        "label": "Auditory cortex",
+        "description": "Temporal cortex represents complex acoustic patterns and speech features."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "auditory-system-q1",
+      "question": "Which component is best described as: Frequency analysis and transduction?",
+      "options": [
+        "Cochlea",
+        "Auditory nerve",
+        "Superior olivary complex",
+        "Inferior colliculus"
+      ],
+      "answer": 0,
+      "explanation": "Basilar-membrane mechanics separate frequencies; hair cells encode vibration."
+    },
+    {
+      "id": "auditory-system-q2",
+      "question": "Which component is best described as: Carries encoded sound?",
+      "options": [
+        "Auditory nerve",
+        "Cochlea",
+        "Superior olivary complex",
+        "Inferior colliculus"
+      ],
+      "answer": 0,
+      "explanation": "Spiral ganglion axons transmit cochlear output to brainstem."
+    },
+    {
+      "id": "auditory-system-q3",
+      "question": "Which component is best described as: Binaural comparison?",
+      "options": [
+        "Superior olivary complex",
+        "Cochlea",
+        "Auditory nerve",
+        "Inferior colliculus"
+      ],
+      "answer": 0,
+      "explanation": "Compares interaural timing and level differences."
+    },
+    {
+      "id": "auditory-system-q4",
+      "question": "Which component is best described as: Midbrain auditory integration?",
+      "options": [
+        "Inferior colliculus",
+        "Cochlea",
+        "Auditory nerve",
+        "Superior olivary complex"
+      ],
+      "answer": 0,
+      "explanation": "Combines spatial and spectral information."
+    },
+    {
+      "id": "auditory-system-q5",
+      "question": "Which component is best described as: Conscious sound analysis?",
+      "options": [
+        "Auditory cortex",
+        "Cochlea",
+        "Auditory nerve",
+        "Superior olivary complex"
+      ],
+      "answer": 0,
+      "explanation": "Temporal cortex represents complex acoustic patterns and speech features."
+    }
+  ],
+  "tags": [
+    "hearing",
+    "cochlea",
+    "auditory nerve",
+    "brainstem",
+    "temporal lobe",
+    "speech",
+    "tinnitus",
+    "auditory processing"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the core components of the Auditory System.",
+      "Explain one clinically relevant function of the Auditory System.",
+      "What common oversimplification should be avoided?"
+    ]
+  },
+  "references": [
+    {
+      "authors": "Pickles",
+      "year": "2013",
+      "title": "An Introduction to the Physiology of Hearing",
+      "source": "Brill",
+      "citation": "Pickles, 2013. An Introduction to the Physiology of Hearing. Brill."
+    },
+    {
+      "authors": "Kandel et al.",
+      "year": "2021",
+      "title": "Principles of Neural Science, 6th ed.",
+      "source": "McGraw-Hill",
+      "citation": "Kandel et al., 2021. Principles of Neural Science, 6th ed.. McGraw-Hill."
+    },
+    {
+      "authors": "Rauschecker & Scott",
+      "year": "2009",
+      "title": "Maps and streams in the auditory cortex",
+      "source": "Nature Neuroscience",
+      "citation": "Rauschecker & Scott, 2009. Maps and streams in the auditory cortex. Nature Neuroscience."
+    }
+  ]
+}

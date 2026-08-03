@@ -1,0 +1,111 @@
+{
+  "id": "personality-disorders-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Describe personality pathology as dimensional dysfunction rather than a single neural lesion.",
+    "Link self, interpersonal, salience and regulation processes without over-localising them.",
+    "Use neuroscience to reduce stigma while maintaining responsibility and treatment optimism.",
+    "Differentiate trait-like patterns from state effects and common clinical mimics."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability interacts with development and prior learning."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external conditions recruit the relevant neural systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter salience, prediction, control and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "A clinically responsible use of neuroscience is to:",
+      "options": [
+        "Support a multilevel formulation without claiming diagnostic certainty from a scan",
+        "Replace developmental history with imaging",
+        "Explain harmful behaviour as unavoidable",
+        "Assign one brain region to each trait"
+      ],
+      "answer": 0,
+      "explanation": "Neuroscience should constrain and enrich formulation, not replace clinical assessment or agency."
+    },
+    {
+      "question": "Why are group-level imaging findings insufficient for individual diagnosis?",
+      "options": [
+        "Distributions overlap substantially and findings lack adequate specificity",
+        "All personality disorders have identical symptoms",
+        "Imaging never measures brain function",
+        "Development has no influence on the brain"
+      ],
+      "answer": 0,
+      "explanation": "Neural findings are heterogeneous and overlap across diagnoses and healthy populations."
+    },
+    {
+      "question": "Which treatment implication is most defensible?",
+      "options": [
+        "Target modifiable regulation, learning and interpersonal processes",
+        "Assume traits cannot change after adolescence",
+        "Avoid behavioural accountability",
+        "Treat neurobiology instead of relationships"
+      ],
+      "answer": 0,
+      "explanation": "Evidence-based therapies focus on changeable processes and skills within a validating, accountable framework."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Research describes heterogeneous alterations in frontolimbic reactivity, connectivity and learning across diagnostic groups, with substantial overlap with trauma exposure, mood disorders, neurodevelopmental conditions and substance use. Developmental models emphasise gene–environment interplay, attachment learning, reinforcement history, social cognition and state-dependent network dynamics. Group-level neural differences are not sufficiently specific for individual diagnosis."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "Biology may help explain vulnerability; it never excuses harm or makes change impossible. Formulate functions and learning histories, not “bad brain regions.”"
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Rigid threat predictions, unstable self-representation, impulsive reinforcement learning, interpersonal hypersensitivity or reduced behavioural flexibility can perpetuate crises and relational disruption. Similar patterns may reflect trauma, autism, ADHD, mood states, psychosis, substance effects or environmental danger and require careful differential assessment."
+    }
+  ],
+  "tags": [
+    "personality disorders: network and developmental neuroscience",
+    "personality disorders neuroscience",
+    "clinical neuroscience",
+    "differential diagnosis",
+    "network neuroscience",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders. 5th ed., text rev.; 2022.",
+      "type": "Diagnostic framework"
+    },
+    {
+      "citation": "Sharp C, Wall K. Personality pathology grows up: adolescence as a sensitive period. Current Opinion in Psychology. 2018;21:111–116.",
+      "type": "Review",
+      "url": "https://doi.org/10.1016/j.copsyc.2017.11.010"
+    },
+    {
+      "citation": "Herpertz SC, Bertsch K. The social-cognitive basis of personality disorders. Current Opinion in Psychiatry. 2014;27(1):73–77.",
+      "type": "Review",
+      "url": "https://doi.org/10.1097/YCO.0000000000000026"
+    }
+  ]
+}

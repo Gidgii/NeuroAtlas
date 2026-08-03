@@ -1,0 +1,109 @@
+{
+  "id": "social-cognition-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate emotion recognition, theory of mind and social inference.",
+    "Identify major distributed neural systems supporting social cognition.",
+    "Interpret social-cognitive performance in cultural and task context.",
+    "Recognise neurological red flags associated with acquired social change."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Signal detection",
+      "detail": "Faces, voices, gaze and body cues provide rapidly changing social information."
+    },
+    {
+      "label": "Mental-state inference",
+      "detail": "The brain estimates what another person may know, feel or intend."
+    },
+    {
+      "label": "Context integration",
+      "detail": "Language, culture, relationship history and current goals shape interpretation."
+    },
+    {
+      "label": "Response regulation",
+      "detail": "Executive and orbitofrontal systems help select socially appropriate action."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Signal detection",
+        "detail": "Faces, voices, gaze and body cues provide rapidly changing social information."
+      },
+      {
+        "label": "Mental-state inference",
+        "detail": "The brain estimates what another person may know, feel or intend."
+      },
+      {
+        "label": "Context integration",
+        "detail": "Language, culture, relationship history and current goals shape interpretation."
+      },
+      {
+        "label": "Response regulation",
+        "detail": "Executive and orbitofrontal systems help select socially appropriate action."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Social Cognition in Neuropsychology"
+  },
+  "quizBank": [
+    {
+      "question": "Which conclusion is most defensible after a low theory-of-mind score?",
+      "options": [
+        "The person lacks empathy",
+        "The task indicates difficulty inferring mental states under those conditions",
+        "The person has autism",
+        "The person is intentionally rude"
+      ],
+      "answer": 1,
+      "explanation": "A low score supports a task-specific hypothesis and must be interpreted with language, executive load, culture and history."
+    },
+    {
+      "question": "Which region is commonly involved in mental-state reasoning?",
+      "options": [
+        "Primary motor cortex",
+        "Temporoparietal junction",
+        "Medulla",
+        "Primary visual cortex only"
+      ],
+      "answer": 1,
+      "explanation": "The temporoparietal junction is one node in a broader social-cognition network."
+    },
+    {
+      "question": "Why is ecological validity especially important here?",
+      "options": [
+        "Social tasks are always easy",
+        "Real social interactions are faster and more ambiguous than structured tests",
+        "Scores do not require norms",
+        "Culture has no effect"
+      ],
+      "answer": 1,
+      "explanation": "Laboratory tasks simplify the timing, context and ambiguity of everyday social exchanges."
+    }
+  ],
+  "reviewPrompts": [
+    "Explain Social Cognition in Neuropsychology in plain language.",
+    "Name one clinical interpretation pitfall in Social Cognition in Neuropsychology.",
+    "Identify a red flag relevant to Social Cognition in Neuropsychology."
+  ],
+  "tags": [
+    "social cognition neuropsychology",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "psychology"
+  ],
+  "references": [
+    {
+      "citation": "Adolphs R. The social brain: neural basis of social knowledge. Annual Review of Psychology. 2009.",
+      "url": "https://doi.org/10.1146/annurev.psych.60.110707.163514"
+    },
+    {
+      "citation": "Henry JD et al. Clinical assessment of social cognitive function in neurological disorders. Nature Reviews Neurology. 2016.",
+      "url": "https://doi.org/10.1038/nrneurol.2016.89"
+    }
+  ]
+}

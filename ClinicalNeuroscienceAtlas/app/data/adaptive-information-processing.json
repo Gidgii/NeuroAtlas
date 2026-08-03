@@ -1,0 +1,176 @@
+{
+  "id": "adaptive-information-processing",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 34,
+  "level": 28,
+  "title": "Adaptive Information Processing Model",
+  "subtitle": "EMDR’s clinical model of insufficiently integrated memory",
+  "hero": "adaptive-information-processing.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating adaptive information processing model across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "orienting-response-emdr"
+  ],
+  "previousConcept": "orienting-response-emdr",
+  "nextConcept": "eight-phases-emdr",
+  "tags": [
+    "adaptive",
+    "information",
+    "processing",
+    "model",
+    "trauma",
+    "emdr",
+    "clinical theoretical model"
+  ],
+  "searchTerms": [
+    "adaptive",
+    "information",
+    "processing",
+    "model",
+    "trauma",
+    "emdr",
+    "clinical theoretical model",
+    "clinical",
+    "insufficiently",
+    "integrated",
+    "memory"
+  ],
+  "learningObjectives": [
+    "Explain adaptive information processing model in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in adaptive information processing model.",
+    "Identify one limitation or safety implication relevant to adaptive information processing model."
+  ],
+  "sections": {
+    "explainSimply": "AIP proposes that some distress persists when experiences remain stored in maladaptive forms and are not integrated with adaptive information.",
+    "explainLikePsychologist": "It guides case conceptualisation and target selection, but it is a psychotherapy model rather than a directly verified neural-storage theory.",
+    "advancedClinicalDetail": "Use the model pragmatically while maintaining differential diagnosis and evidence-based risk management.",
+    "thinkOfItLike": "Think of adaptive information processing model as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need adaptive information processing model to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not present “blocked processing” as a measurable brain lesion.",
+    "clinicalPearl": "Clinical pearl: use adaptive information processing model to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses adaptive information processing model to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not present “blocked processing” as a measurable brain lesion. Evidence classification: clinical theoretical model."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "AIP proposes that some distress persists when experiences remain stored in maladaptive forms and are not integrated with adaptive information."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "It guides case conceptualisation and target selection, but it is a psychotherapy model rather than a directly verified neural-storage theory."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not present “blocked processing” as a measurable brain lesion."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "AIP proposes that some distress persists when experiences remain stored in maladaptive forms and are not integrated with adaptive information.",
+      "It guides case conceptualisation and target selection, but it is a psychotherapy model rather than a directly verified neural-storage theory.",
+      "Do not present “blocked processing” as a measurable brain lesion."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "adaptive-information-processing-q1",
+      "question": "What is the most accurate core statement about Adaptive Information Processing Model?",
+      "options": [
+        "AIP proposes that some distress persists when experiences remain stored in maladaptive forms and are not integrated with adaptive information.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "AIP proposes that some distress persists when experiences remain stored in maladaptive forms and are not integrated with adaptive information."
+    },
+    {
+      "id": "adaptive-information-processing-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "It guides case conceptualisation and target selection, but it is a psychotherapy model rather than a directly verified neural-storage theory.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "It guides case conceptualisation and target selection, but it is a psychotherapy model rather than a directly verified neural-storage theory."
+    },
+    {
+      "id": "adaptive-information-processing-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not present “blocked processing” as a measurable brain lesion.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not present “blocked processing” as a measurable brain lesion."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "AIP proposes that some distress persists when experiences remain stored in maladaptive forms and are not integrated with adaptive information."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not present “blocked processing” as a measurable brain lesion."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "clinical theoretical model"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

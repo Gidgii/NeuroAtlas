@@ -1,0 +1,122 @@
+{
+  "id": "agnosia-recognition",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Agnosia and Recognition.",
+    "Apply Agnosia and Recognition to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Feature detection",
+      "detail": "Primary sensory systems register basic features."
+    },
+    {
+      "label": "Percept assembly",
+      "detail": "Association cortex builds a coherent representation."
+    },
+    {
+      "label": "Meaning access",
+      "detail": "The representation activates stored knowledge."
+    },
+    {
+      "label": "Name or response",
+      "detail": "Language and action systems express recognition."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Feature detection",
+        "detail": "Primary sensory systems register basic features."
+      },
+      {
+        "label": "Percept assembly",
+        "detail": "Association cortex builds a coherent representation."
+      },
+      {
+        "label": "Meaning access",
+        "detail": "The representation activates stored knowledge."
+      },
+      {
+        "label": "Name or response",
+        "detail": "Language and action systems express recognition."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Agnosia and Recognition"
+  },
+  "quizBank": [
+    {
+      "question": "In associative visual agnosia, a person may be able to:",
+      "options": [
+        "Neither see nor copy the object",
+        "Copy the object but not identify it",
+        "Recognise it normally in every modality",
+        "Only fail because of weakness"
+      ],
+      "answer": 1,
+      "explanation": "Copy the object but not identify it is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Agnosia and Recognition?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Ask whether the person can match, copy, describe and recognise the same item through another sense."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Feature detection → Percept assembly → Meaning access → Name or response"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Acute recognition failure, especially with visual-field loss or other focal signs, requires urgent neurological assessment."
+    }
+  ],
+  "tags": [
+    "agnosia and recognition",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Farah MJ. Visual Agnosia. 2nd ed. MIT Press; 2004.",
+      "url": "https://mitpress.mit.edu/9780262562034/visual-agnosia/"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "cingulate-cortex-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 27,
+  "level": 29,
+  "title": "Cingulate Cortex Atlas",
+  "subtitle": "Trace anterior, midcingulate and posterior cingulate functions",
+  "pronunciation": "SIN-gyuh-lit",
+  "hero": "cingulate-cortex-atlas.svg",
+  "altText": "Chalkboard-style anatomical atlas illustration highlighting the cingulate cortex atlas and its major connections.",
+  "prerequisites": [
+    "cerebral-lobes-atlas"
+  ],
+  "previousConcept": "insula-operculum-atlas",
+  "nextConcept": "reticular-activating-system-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "cingulate cortex atlas",
+    "clinical psychology",
+    "brain atlas",
+    "salience network",
+    "default mode network",
+    "pain matrix",
+    "action selection"
+  ],
+  "searchTerms": [
+    "Cingulate Cortex Atlas",
+    "SIN-gyuh-lit",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance",
+    "subgenual ACC",
+    "pregenual ACC",
+    "dorsal ACC",
+    "midcingulate",
+    "posterior cingulate",
+    "retrosplenial cortex"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the cingulate cortex atlas.",
+    "Trace key connections and functional relationships of the cingulate cortex atlas.",
+    "Relate lesions or network disruption to plausible clinical presentations."
+  ],
+  "sections": {
+    "explainSimply": "The cingulate cortex curves around the corpus callosum and helps connect motivation, pain, attention, memory and emotion.",
+    "explainLikePsychologist": "Different cingulate zones participate in salience, action selection, autonomic regulation, error monitoring and internally directed cognition.",
+    "advancedClinicalDetail": "Anterior and midcingulate sectors connect strongly with prefrontal, insular, limbic, motor and autonomic systems; posterior cingulate and retrosplenial regions are central nodes in memory and default-mode networks. Boundaries are functional gradients rather than rigid boxes.",
+    "thinkOfItLike": "A bridge running around the brain’s central highway, linking body state, motivation, action and memory.",
+    "whyPsychologistsCare": "Cingulate lesions may alter initiation, error monitoring, affect, pain experience, memory orientation or self-referential processing depending on location and connectivity.",
+    "whenItGoesWrong": "Damage or dysregulation can disrupt salience network, default mode network, pain matrix; presentations depend on laterality, extent and connected networks.",
+    "clinicalPearl": "“Cingulate dysfunction” is too broad to be clinically useful—specify the subregion, network and task demand.",
+    "practicalExample": "A clinician uses the cingulate cortex atlas map to test whether a patient’s pattern is anatomically coherent while considering broader network and medical explanations.",
+    "limitationsCautions": "Atlas localisation supports hypothesis generation, not diagnosis. Individual anatomy, distributed processing, compensation and comorbidity limit one-to-one structure–symptom claims."
+  },
+  "anatomy": {
+    "position": "Integrated within deep or medial cortical-brainstem relationships shown in the atlas.",
+    "regions": [
+      "subgenual ACC",
+      "pregenual ACC",
+      "dorsal ACC",
+      "midcingulate",
+      "posterior cingulate",
+      "retrosplenial cortex"
+    ],
+    "inputs": [
+      "prefrontal cortex",
+      "insula",
+      "amygdala"
+    ],
+    "outputs": [
+      "hippocampus",
+      "motor cortex",
+      "thalamus"
+    ],
+    "connections": [
+      "prefrontal cortex",
+      "insula",
+      "amygdala",
+      "hippocampus",
+      "motor cortex",
+      "thalamus"
+    ],
+    "functions": [
+      "salience network",
+      "default mode network",
+      "pain matrix",
+      "action selection"
+    ]
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "subgenual ACC",
+        "pregenual ACC",
+        "dorsal ACC",
+        "midcingulate",
+        "posterior cingulate",
+        "retrosplenial cortex"
+      ]
+    },
+    {
+      "type": "trace",
+      "label": "Trace connections",
+      "targets": [
+        "prefrontal cortex",
+        "insula",
+        "amygdala",
+        "hippocampus",
+        "motor cortex",
+        "thalamus"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "salience network",
+        "default mode network",
+        "pain matrix",
+        "action selection"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best describes the cingulate cortex atlas?",
+      "options": [
+        "Different cingulate zones participate in salience, action selection, autonomic regulation, error monitoring and internally directed cognition.",
+        "It acts independently of the rest of the brain.",
+        "It has one fixed psychological function.",
+        "It can diagnose psychiatric disorders from anatomy alone."
+      ],
+      "answer": 0,
+      "rationale": "The structure participates in distributed networks and should be interpreted in context."
+    },
+    {
+      "question": "What is the safest clinical inference from this atlas?",
+      "options": [
+        "A lesion pattern can guide hypotheses but requires clinical and medical correlation.",
+        "One symptom proves one structure is damaged.",
+        "Normal imaging excludes network dysfunction.",
+        "Laterality is never relevant."
+      ],
+      "answer": 0,
+      "rationale": "Neuroanatomy constrains hypotheses but does not replace assessment."
+    },
+    {
+      "question": "Why are connections important?",
+      "options": [
+        "Symptoms can reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Connections are irrelevant to cognition.",
+        "All pathways are identical across people."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive systems depend on pathways linking regions."
+    }
+  ],
+  "references": [
+    {
+      "title": "Clinical Neuroanatomy",
+      "source": "Blumenfeld, Neuroanatomy Through Clinical Cases",
+      "type": "textbook"
+    },
+    {
+      "title": "Principles of Neural Science",
+      "source": "Kandel et al.",
+      "type": "textbook"
+    },
+    {
+      "title": "Human brain network anatomy",
+      "source": "Peer-reviewed systems neuroscience literature",
+      "type": "review"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "easyIntervalDays": 7,
+    "hardIntervalDays": 1,
+    "tags": [
+      "anatomy",
+      "cingulate-cortex-atlas"
+    ]
+  },
+  "accessibility": {
+    "altText": "Anatomical illustration of Cingulate Cortex Atlas.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The cingulate cortex curves around the corpus callosum and helps connect motivation, pain, attention, memory and emotion.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

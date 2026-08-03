@@ -1,0 +1,172 @@
+{
+  "id": "clinical-indications-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 37,
+  "level": 28,
+  "title": "Clinical Indications",
+  "subtitle": "Where EMDR is supported and where evidence is emerging",
+  "hero": "clinical-indications-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating clinical indications across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "mechanisms-change-emdr"
+  ],
+  "previousConcept": "mechanisms-change-emdr",
+  "nextConcept": "contraindications-precautions-emdr",
+  "tags": [
+    "clinical",
+    "indications",
+    "trauma",
+    "emdr",
+    "established for PTSD; emerging elsewhere"
+  ],
+  "searchTerms": [
+    "clinical",
+    "indications",
+    "trauma",
+    "emdr",
+    "established for PTSD; emerging elsewhere",
+    "where",
+    "supported",
+    "evidence",
+    "emerging"
+  ],
+  "learningObjectives": [
+    "Explain clinical indications in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in clinical indications.",
+    "Identify one limitation or safety implication relevant to clinical indications."
+  ],
+  "sections": {
+    "explainSimply": "EMDR is best established for PTSD and trauma-related symptoms.",
+    "explainLikePsychologist": "Evidence for other conditions is developing but should not be generalised from PTSD without condition-specific trials.",
+    "advancedClinicalDetail": "Indication decisions require diagnosis, goals, stability, consent, comorbidity and availability of evidence-based alternatives.",
+    "thinkOfItLike": "Think of clinical indications as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need clinical indications to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "“Trauma-informed” does not mean every problem requires trauma processing.",
+    "clinicalPearl": "Clinical pearl: use clinical indications to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses clinical indications to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "“Trauma-informed” does not mean every problem requires trauma processing. Evidence classification: established for PTSD; emerging elsewhere."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "EMDR is best established for PTSD and trauma-related symptoms."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Evidence for other conditions is developing but should not be generalised from PTSD without condition-specific trials."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "“Trauma-informed” does not mean every problem requires trauma processing."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "EMDR is best established for PTSD and trauma-related symptoms.",
+      "Evidence for other conditions is developing but should not be generalised from PTSD without condition-specific trials.",
+      "“Trauma-informed” does not mean every problem requires trauma processing."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "clinical-indications-emdr-q1",
+      "question": "What is the most accurate core statement about Clinical Indications?",
+      "options": [
+        "EMDR is best established for PTSD and trauma-related symptoms.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "EMDR is best established for PTSD and trauma-related symptoms."
+    },
+    {
+      "id": "clinical-indications-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Evidence for other conditions is developing but should not be generalised from PTSD without condition-specific trials.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Evidence for other conditions is developing but should not be generalised from PTSD without condition-specific trials."
+    },
+    {
+      "id": "clinical-indications-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "“Trauma-informed” does not mean every problem requires trauma processing.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "“Trauma-informed” does not mean every problem requires trauma processing."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "EMDR is best established for PTSD and trauma-related symptoms."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "“Trauma-informed” does not mean every problem requires trauma processing."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established for PTSD; emerging elsewhere"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

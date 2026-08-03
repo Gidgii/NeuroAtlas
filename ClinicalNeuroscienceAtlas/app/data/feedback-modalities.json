@@ -1,0 +1,161 @@
+{
+  "id": "feedback-modalities",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 7,
+  "level": 24,
+  "title": "Feedback Modalities",
+  "subtitle": "Visual, auditory, tactile and game-based feedback",
+  "hero": "feedback-modalities.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating feedback modalities within a neurofeedback closed loop.",
+  "prerequisites": [
+    "closed-loop-systems"
+  ],
+  "nextConcept": "sensor-placement",
+  "previousConcept": "closed-loop-systems",
+  "tags": [
+    "feedback",
+    "modalities",
+    "neurofeedback",
+    "foundations",
+    "practitioner consensus"
+  ],
+  "searchTerms": [
+    "feedback",
+    "modalities",
+    "neurofeedback",
+    "foundations",
+    "practitioner consensus",
+    "visual",
+    "auditory",
+    "tactile",
+    "and",
+    "game",
+    "based"
+  ],
+  "learningObjectives": [
+    "Explain feedback modalities without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in feedback modalities.",
+    "Identify one safety or validity limitation relevant to feedback modalities."
+  ],
+  "sections": {
+    "explainSimply": "Feedback can be a tone, animation, video brightness, game movement or another signal the learner can perceive.",
+    "explainLikePsychologist": "Modality should match sensory needs, age, goals and tolerance. Highly stimulating feedback may improve engagement while also increasing arousal or masking fatigue.",
+    "advancedClinicalDetail": "Feedback design affects reward salience, cognitive load and attribution. Virtual-reality systems add immersion but may add cybersickness and attentional demands.",
+    "thinkOfItLike": "A driving instructor who gives immediate dashboard feedback while the learner practises a controllable skill.",
+    "whyPsychologistsCare": "Psychologists need to understand feedback modalities to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "The most entertaining feedback is not automatically the most therapeutic.",
+    "clinicalPearl": "The trained metric is an intermediate target; the clinical endpoint is meaningful function.",
+    "practicalExample": "A clinician using feedback modalities predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "The most entertaining feedback is not automatically the most therapeutic. Evidence classification: practitioner consensus; limited comparative evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Feedback design affects reward salience, cognitive load and attribution. Virtual-reality systems add immersion but may add cybersickness and attentional demands."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Feedback can be a tone, animation, video brightness, game movement or another signal the learner can perceive."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Feedback can be a tone, animation, video brightness, game movement or another signal the learner can perceive.",
+      "Modality should match sensory needs, age, goals and tolerance. Highly stimulating feedback may improve engagement while also increasing arousal or masking fatigue.",
+      "The most entertaining feedback is not automatically the most therapeutic."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Feedback Modalities?",
+      "options": [
+        "Feedback can be a tone, animation, video brightness, game movement or another signal the learner can perceive.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Feedback can be a tone, animation, video brightness, game movement or another signal the learner can perceive."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Feedback Modalities?",
+      "options": [
+        "The most entertaining feedback is not automatically the most therapeutic.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "The most entertaining feedback is not automatically the most therapeutic."
+    },
+    {
+      "question": "How should the evidence for Feedback Modalities be communicated?",
+      "options": [
+        "As practitioner consensus; limited comparative evidence, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: practitioner consensus; limited comparative evidence."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Feedback can be a tone, animation, video brightness, game movement or another signal the learner can perceive."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "The most entertaining feedback is not automatically the most therapeutic."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "practitioner consensus; limited comparative evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

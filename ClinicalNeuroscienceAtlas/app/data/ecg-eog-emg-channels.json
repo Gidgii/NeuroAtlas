@@ -1,0 +1,138 @@
+{
+  "id": "ecg-eog-emg-channels",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Polygraphic Channels.",
+    "Apply Polygraphic Channels to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Electrooculography, electromyography, electrocardiography and respiration channels clarify artifacts and sleep staging."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Auxiliary channels improve source attribution and allow physiological coupling analyses, but require correct placement and interpretation."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "They reduce false cerebral interpretations of blink, pulse and muscle activity."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Discarding auxiliary channels to simplify setup can make later cleaning guesswork."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Polygraphic Channels",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Electrooculography, electromyography, electrocardiography and respiration channels clarify artifacts and sleep staging."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Auxiliary channels improve source attribution and allow physiological coupling analyses, but require correct placement and interpretation."
+      },
+      {
+        "label": "Integrate",
+        "detail": "They reduce false cerebral interpretations of blink, pulse and muscle activity."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Discarding auxiliary channels to simplify setup can make later cleaning guesswork."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Polygraphic Channels"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Polygraphic Channels?",
+      "options": [
+        "Electrooculography, electromyography, electrocardiography and respiration channels clarify artifacts and sleep staging.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Electrooculography, electromyography, electrocardiography and respiration channels clarify artifacts and sleep staging."
+    },
+    {
+      "question": "What is the safest clinical principle for Polygraphic Channels?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Polygraphic Channels?",
+      "options": [
+        "Discarding auxiliary channels to simplify setup can make later cleaning guesswork.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Discarding auxiliary channels to simplify setup can make later cleaning guesswork."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Auxiliary channels improve source attribution and allow physiological coupling analyses, but require correct placement and interpretation."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "They reduce false cerebral interpretations of blink, pulse and muscle activity."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Discarding auxiliary channels to simplify setup can make later cleaning guesswork."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "The best artifact correction is often a channel that proves the artifact source."
+    }
+  ],
+  "tags": [
+    "polygraphic channels",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "using",
+    "muscle",
+    "channels",
+    "identify"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

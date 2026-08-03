@@ -1,0 +1,138 @@
+{
+  "id": "ocular-artifact",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Ocular Artifact.",
+    "Apply Ocular Artifact to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Blinks and vertical eye movements produce large frontal slow deflections; lateral movements create opposite polarities near temporal electrodes."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Ocular correction methods can remove cerebral signal if overapplied. Identification should combine waveform shape, topography and EOG channels."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Frontal theta or delta estimates can be grossly inflated by unrecognised eye activity."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Blindly deleting every frontal slow wave may remove genuine cerebral activity."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Ocular Artifact",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Blinks and vertical eye movements produce large frontal slow deflections; lateral movements create opposite polarities near temporal electrodes."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Ocular correction methods can remove cerebral signal if overapplied. Identification should combine waveform shape, topography and EOG channels."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Frontal theta or delta estimates can be grossly inflated by unrecognised eye activity."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Blindly deleting every frontal slow wave may remove genuine cerebral activity."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Ocular Artifact"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Ocular Artifact?",
+      "options": [
+        "Blinks and vertical eye movements produce large frontal slow deflections; lateral movements create opposite polarities near temporal electrodes.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Blinks and vertical eye movements produce large frontal slow deflections; lateral movements create opposite polarities near temporal electrodes."
+    },
+    {
+      "question": "What is the safest clinical principle for Ocular Artifact?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Ocular Artifact?",
+      "options": [
+        "Blindly deleting every frontal slow wave may remove genuine cerebral activity.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Blindly deleting every frontal slow wave may remove genuine cerebral activity."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Ocular correction methods can remove cerebral signal if overapplied. Identification should combine waveform shape, topography and EOG channels."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Frontal theta or delta estimates can be grossly inflated by unrecognised eye activity."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Blindly deleting every frontal slow wave may remove genuine cerebral activity."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Label first, correct second, interpret last."
+    }
+  ],
+  "tags": [
+    "ocular artifact",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "recognising",
+    "blinks",
+    "movements",
+    "corneo"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

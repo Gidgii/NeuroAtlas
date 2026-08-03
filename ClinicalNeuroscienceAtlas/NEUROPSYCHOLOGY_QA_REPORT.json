@@ -1,0 +1,17 @@
+{
+  "runAt": "2026-08-02",
+  "scope": "All Neuropsychology concepts (levels 17\u201318)",
+  "conceptCount": 22,
+  "checks": [
+    "schema completeness",
+    "JSON parse",
+    "quiz answer bounds",
+    "reference presence",
+    "hero asset existence",
+    "app loader registration",
+    "service-worker cache registration"
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

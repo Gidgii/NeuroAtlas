@@ -1,0 +1,161 @@
+{
+  "id": "depression-neurofeedback",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Neurofeedback",
+  "sequence": 35,
+  "level": 27,
+  "title": "Depression Applications",
+  "subtitle": "Experimental regulation targets, not established first-line care",
+  "hero": "depression-neurofeedback.svg",
+  "altText": "Chalkboard-style clinical diagram illustrating depression applications within a neurofeedback closed loop.",
+  "prerequisites": [
+    "ptsd-neurofeedback"
+  ],
+  "nextConcept": "autism-neurofeedback",
+  "previousConcept": "ptsd-neurofeedback",
+  "tags": [
+    "depression",
+    "applications",
+    "neurofeedback",
+    "promising but insufficient for routine first-line use"
+  ],
+  "searchTerms": [
+    "depression",
+    "applications",
+    "neurofeedback",
+    "promising but insufficient for routine first-line use",
+    "experimental",
+    "regulation",
+    "targets",
+    "not",
+    "established",
+    "first",
+    "line",
+    "care"
+  ],
+  "learningObjectives": [
+    "Explain depression applications without diagnostic overreach.",
+    "Distinguish measurement, mechanism and clinical outcome in depression applications.",
+    "Identify one safety or validity limitation relevant to depression applications."
+  ],
+  "sections": {
+    "explainSimply": "Neurofeedback research in depression targets patterns related to mood, approach, reward or emotion regulation.",
+    "explainLikePsychologist": "Studies vary across EEG asymmetry, source, connectivity and fMRI paradigms. Small samples and heterogeneous protocols limit conclusions.",
+    "advancedClinicalDetail": "Use validated symptom and risk monitoring, including suicidality. Neurofeedback should not delay established treatments or medical review.",
+    "thinkOfItLike": "Testing a treatment hypothesis: improvement must be meaningful, measured and compared with plausible alternatives.",
+    "whyPsychologistsCare": "Psychologists need to understand depression applications to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
+    "whenItGoesWrong": "A changing EEG metric does not guarantee mood recovery or safety.",
+    "clinicalPearl": "Measure benefit and harm with the same seriousness.",
+    "practicalExample": "A clinician using depression applications predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
+    "limitationsCautions": "A changing EEG metric does not guarantee mood recovery or safety. Evidence classification: promising but insufficient for routine first-line use."
+  },
+  "mechanismMap": [
+    {
+      "label": "Measure",
+      "detail": "Acquire a valid physiological signal and inspect raw data."
+    },
+    {
+      "label": "Process",
+      "detail": "Use validated symptom and risk monitoring, including suicidality. Neurofeedback should not delay established treatments or medical review."
+    },
+    {
+      "label": "Reinforce",
+      "detail": "Neurofeedback research in depression targets patterns related to mood, approach, reward or emotion regulation."
+    },
+    {
+      "label": "Transfer",
+      "detail": "Test whether learned regulation changes meaningful behaviour or symptoms outside training."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the closed loop, then identify where artifact, expectancy or threshold logic could change the interpretation.",
+    "signalSteps": [
+      "Prepare and establish a valid baseline.",
+      "Neurofeedback research in depression targets patterns related to mood, approach, reward or emotion regulation.",
+      "Studies vary across EEG asymmetry, source, connectivity and fMRI paradigms. Small samples and heterogeneous protocols limit conclusions.",
+      "A changing EEG metric does not guarantee mood recovery or safety."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "What is the central clinical point of Depression Applications?",
+      "options": [
+        "Neurofeedback research in depression targets patterns related to mood, approach, reward or emotion regulation.",
+        "Every observed change is treatment-specific",
+        "Protocol choice requires no outcome measurement",
+        "Artifact is irrelevant once feedback begins"
+      ],
+      "answer": 0,
+      "explanation": "Neurofeedback research in depression targets patterns related to mood, approach, reward or emotion regulation."
+    },
+    {
+      "question": "Which limitation matters most when interpreting Depression Applications?",
+      "options": [
+        "A changing EEG metric does not guarantee mood recovery or safety.",
+        "Training metrics are direct diagnoses",
+        "More sessions always solve nonresponse",
+        "Normative values define ideal function"
+      ],
+      "answer": 0,
+      "explanation": "A changing EEG metric does not guarantee mood recovery or safety."
+    },
+    {
+      "question": "How should the evidence for Depression Applications be communicated?",
+      "options": [
+        "As promising but insufficient for routine first-line use, with methods and outcomes specified",
+        "As conclusively effective for all clients",
+        "Without discussing alternatives",
+        "By promising normalisation of the brain"
+      ],
+      "answer": 0,
+      "explanation": "The appropriate evidence label is: promising but insufficient for routine first-line use."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Neurofeedback research in depression targets patterns related to mood, approach, reward or emotion regulation."
+    },
+    {
+      "prompt": "State the main interpretive caution.",
+      "answer": "A changing EEG metric does not guarantee mood recovery or safety."
+    },
+    {
+      "prompt": "How strong is the evidence?",
+      "answer": "promising but insufficient for routine first-line use"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "type": "Consensus reporting standard",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "type": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+    }
+  ]
+}

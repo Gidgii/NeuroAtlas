@@ -1,0 +1,138 @@
+{
+  "id": "qeeg-tbi-evidence",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of QEEG and Traumatic Brain Injury.",
+    "Apply QEEG and Traumatic Brain Injury to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Research describes slowing and connectivity changes after traumatic brain injury, but findings overlap with sleep loss, pain, medication, psychiatric symptoms and artifact."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Timing, injury severity and premorbid status matter. QEEG should not independently establish remote concussion or causation in forensic contexts."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Encourages integration with neurological examination, imaging, history and neuropsychology."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Retrospective causal claims from nonspecific deviations are especially risky."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace QEEG and Traumatic Brain Injury",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Research describes slowing and connectivity changes after traumatic brain injury, but findings overlap with sleep loss, pain, medication, psychiatric symptoms and artifact."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Timing, injury severity and premorbid status matter. QEEG should not independently establish remote concussion or causation in forensic contexts."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Encourages integration with neurological examination, imaging, history and neuropsychology."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Retrospective causal claims from nonspecific deviations are especially risky."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for QEEG and Traumatic Brain Injury"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures QEEG and Traumatic Brain Injury?",
+      "options": [
+        "Research describes slowing and connectivity changes after traumatic brain injury, but findings overlap with sleep loss, pain, medication, psychiatric symptoms and artifact.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Research describes slowing and connectivity changes after traumatic brain injury, but findings overlap with sleep loss, pain, medication, psychiatric symptoms and artifact."
+    },
+    {
+      "question": "What is the safest clinical principle for QEEG and Traumatic Brain Injury?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in QEEG and Traumatic Brain Injury?",
+      "options": [
+        "Retrospective causal claims from nonspecific deviations are especially risky.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Retrospective causal claims from nonspecific deviations are especially risky."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Timing, injury severity and premorbid status matter. QEEG should not independently establish remote concussion or causation in forensic contexts."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Encourages integration with neurological examination, imaging, history and neuropsychology."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Retrospective causal claims from nonspecific deviations are especially risky."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Sensitive is not specific; abnormal is not causative."
+    }
+  ],
+  "tags": [
+    "qeeg and traumatic brain injury",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "potential",
+    "sensitivity",
+    "equal",
+    "diagnostic"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

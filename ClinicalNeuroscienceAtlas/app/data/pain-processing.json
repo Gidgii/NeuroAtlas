@@ -1,0 +1,201 @@
+{
+  "id": "pain-processing",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Differentiate nociception from pain.",
+    "Trace major ascending and descending pain pathways.",
+    "Explain peripheral and central sensitisation.",
+    "Apply predictive and behavioural mechanisms to persistent pain."
+  ],
+  "anatomy": [
+    {
+      "id": "nociceptor",
+      "label": "Peripheral nociceptors",
+      "short": "Detect potential tissue threat",
+      "detail": "Transduce mechanical, thermal and chemical danger signals.",
+      "clinical": "Sensitisation lowers activation thresholds after injury."
+    },
+    {
+      "id": "dorsal-horn",
+      "label": "Spinal dorsal horn",
+      "short": "Gate and transform input",
+      "detail": "Local circuits amplify or inhibit incoming nociceptive signals.",
+      "clinical": "Central sensitisation can increase responsiveness."
+    },
+    {
+      "id": "thalamus",
+      "label": "Thalamus",
+      "short": "Distribute pain-related signals",
+      "detail": "Routes information to sensory, affective and arousal systems.",
+      "clinical": "Altered thalamocortical processing may contribute to persistent pain."
+    },
+    {
+      "id": "insula-acc",
+      "label": "Insula and cingulate",
+      "short": "Represent salience and unpleasantness",
+      "detail": "Integrate bodily state with emotional significance and action urgency.",
+      "clinical": "Threat appraisal can amplify suffering and avoidance."
+    },
+    {
+      "id": "pag",
+      "label": "Periaqueductal grey",
+      "short": "Drive descending modulation",
+      "detail": "Coordinates endogenous inhibition and defensive responses.",
+      "clinical": "Reduced inhibition can permit greater spinal transmission."
+    }
+  ],
+  "interaction": {
+    "title": "Explore Pain Processing",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Pain Processing model",
+    "stages": [
+      {
+        "label": "Detect",
+        "text": "Peripheral receptors encode potential threat."
+      },
+      {
+        "label": "Transmit",
+        "text": "Spinal pathways relay and transform signals."
+      },
+      {
+        "label": "Interpret",
+        "text": "Brain networks integrate sensation, context and prediction."
+      },
+      {
+        "label": "Modulate",
+        "text": "Descending systems amplify or inhibit transmission."
+      },
+      {
+        "label": "Learn",
+        "text": "Avoidance and expectation update future threat responses."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "pain-processing-q1",
+      "question": "Nociception refers to:",
+      "options": [
+        "Neural encoding of potentially harmful stimuli",
+        "The full conscious pain experience",
+        "Fear of movement only",
+        "Tissue damage itself"
+      ],
+      "answer": 0,
+      "explanation": "Nociception is neural threat signalling; pain is the conscious protective experience."
+    },
+    {
+      "id": "pain-processing-q2",
+      "question": "Persistent pain can continue after tissue healing because of:",
+      "options": [
+        "Sensitisation, learning and altered modulation",
+        "Imaginary symptoms",
+        "No nervous-system involvement",
+        "Weak character"
+      ],
+      "answer": 0,
+      "explanation": "Neural sensitivity and prediction can maintain pain without ongoing tissue injury."
+    },
+    {
+      "id": "pain-processing-q3",
+      "question": "Descending pain pathways can:",
+      "options": [
+        "Amplify or inhibit spinal transmission",
+        "Only increase pain",
+        "Only decrease pain",
+        "Produce vision"
+      ],
+      "answer": 0,
+      "explanation": "Descending modulation is bidirectional and context dependent."
+    },
+    {
+      "id": "pain-processing-q4",
+      "question": "Allodynia means:",
+      "options": [
+        "Pain from a normally non-painful stimulus",
+        "Complete absence of pain",
+        "Pain only during sleep",
+        "Loss of temperature sense"
+      ],
+      "answer": 0,
+      "explanation": "Allodynia reflects altered processing of ordinarily innocuous input."
+    },
+    {
+      "id": "pain-processing-q5",
+      "question": "The best clinical stance is to:",
+      "options": [
+        "Validate pain while assessing maintaining mechanisms",
+        "Assume pain equals tissue damage",
+        "Dismiss symptoms when scans are normal",
+        "Avoid discussing function"
+      ],
+      "answer": 0,
+      "explanation": "Validation and mechanism-based formulation are compatible and clinically essential."
+    }
+  ],
+  "tags": [
+    "affective-motivational",
+    "after",
+    "altered",
+    "amplify",
+    "arousal",
+    "Ascending",
+    "assessment",
+    "attention",
+    "avoidance",
+    "become",
+    "beliefs",
+    "brainstem",
+    "central",
+    "cingulate",
+    "circuits",
+    "conscious",
+    "cortical",
+    "damage",
+    "descending",
+    "distribute",
+    "does",
+    "dorsal",
+    "encoding",
+    "examining",
+    "experience",
+    "fear",
+    "fibres",
+    "functional",
+    "grey",
+    "harmful",
+    "healing",
+    "horn",
+    "imaginary",
+    "implying",
+    "information"
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewPrompts": [
+      "Nociception refers to:",
+      "Persistent pain can continue after tissue healing because of:",
+      "Pain is real even when ongoing tissue damage is absent. The clinically useful question is what mechanisms are sustaining protection now."
+    ]
+  },
+  "references": [
+    {
+      "type": "Definition",
+      "citation": "Raja SN et al. The revised IASP definition of pain. Pain. 2020."
+    },
+    {
+      "type": "Review",
+      "citation": "Tracey I, Mantyh PW. The cerebral signature for pain perception and its modulation. Neuron. 2007."
+    },
+    {
+      "type": "Review",
+      "citation": "Kuner R, Flor H. Structural plasticity and reorganisation in chronic pain. Nature Reviews Neuroscience. 2017."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Stylised medical-atlas illustration of pain processing showing key network components.",
+    "interactionSummary": "A keyboard-accessible sequence explains the system from input through adaptation."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "muscle-artifact",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Muscle Artifact.",
+    "Apply Muscle Artifact to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "Temporalis, frontalis, jaw and neck activity commonly produces irregular fast activity, especially at temporal and frontal electrodes."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Muscle power can dominate beta and gamma bands. Relaxation instructions and observation often outperform post-hoc filtering."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "QEEG high-frequency findings are uninterpretable without rigorous EMG review."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Calling jaw tension “excess cortical beta” is a serious category error."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Muscle Artifact",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "Temporalis, frontalis, jaw and neck activity commonly produces irregular fast activity, especially at temporal and frontal electrodes."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Muscle power can dominate beta and gamma bands. Relaxation instructions and observation often outperform post-hoc filtering."
+      },
+      {
+        "label": "Integrate",
+        "detail": "QEEG high-frequency findings are uninterpretable without rigorous EMG review."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Calling jaw tension “excess cortical beta” is a serious category error."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Muscle Artifact"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Muscle Artifact?",
+      "options": [
+        "Temporalis, frontalis, jaw and neck activity commonly produces irregular fast activity, especially at temporal and frontal electrodes.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "Temporalis, frontalis, jaw and neck activity commonly produces irregular fast activity, especially at temporal and frontal electrodes."
+    },
+    {
+      "question": "What is the safest clinical principle for Muscle Artifact?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Muscle Artifact?",
+      "options": [
+        "Calling jaw tension “excess cortical beta” is a serious category error.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Calling jaw tension “excess cortical beta” is a serious category error."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Muscle power can dominate beta and gamma bands. Relaxation instructions and observation often outperform post-hoc filtering."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "QEEG high-frequency findings are uninterpretable without rigorous EMG review."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Calling jaw tension “excess cortical beta” is a serious category error."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "High-frequency scalp EEG must earn its cerebral interpretation."
+    }
+  ],
+  "tags": [
+    "muscle artifact",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "frequency",
+    "contamination",
+    "scalp",
+    "facial"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

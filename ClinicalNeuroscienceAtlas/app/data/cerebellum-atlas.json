@@ -1,0 +1,286 @@
+{
+  "id": "cerebellum-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 15,
+  "level": 29,
+  "title": "Cerebellum Atlas",
+  "subtitle": "Map lobules, peduncles, deep nuclei and cerebellar loops",
+  "pronunciation": "seh-reh-BELL-um",
+  "hero": "cerebellum-atlas.svg",
+  "altText": "Interactive chalkboard-style anatomical atlas of Cerebellum with labelled regions and pathway relationships.",
+  "prerequisites": [
+    "cerebral-lobes-atlas"
+  ],
+  "previousConcept": "cerebral-lobes-atlas",
+  "nextConcept": "brainstem-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "cerebellum atlas",
+    "clinical psychology",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Cerebellum Atlas",
+    "seh-reh-BELL-um",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Identify the cerebellar hemispheres, vermis, lobes, peduncles and deep nuclei.",
+    "Trace major input and output routes through cerebellar peduncles.",
+    "Explain motor and cognitive-affective consequences of cerebellar disruption."
+  ],
+  "sections": {
+    "explainSimply": "The cerebellum fine-tunes movement, timing and prediction. It also contributes to language, attention and emotional regulation through loops with the cortex.",
+    "explainLikePsychologist": "Cerebellar function is best understood as error-based calibration across motor and cognitive systems, not merely balance and coordination.",
+    "advancedClinicalDetail": "Cerebellar cortex receives mossy- and climbing-fibre input, transforms signals through granule and Purkinje-cell circuitry, and modulates output through deep nuclei. Cerebello-thalamo-cortical loops support timing, prediction, adaptation and optimisation across motor and nonmotor domains.",
+    "thinkOfItLike": "It is the brain’s quality-control studio: it compares the intended performance with the actual performance and adjusts the next attempt.",
+    "whyPsychologistsCare": "Cerebellar lesions may produce cognitive-affective changes, slowed processing, dysprosody or executive inefficiency in addition to ataxia.",
+    "whenItGoesWrong": "Assuming a normal strength examination excludes meaningful cerebellar dysfunction misses timing, coordination and cognitive-affective effects.",
+    "clinicalPearl": "The cerebellum does not initiate most behaviour; it calibrates the precision, timing and adaptability of behaviour.",
+    "practicalExample": "A posterior cerebellar lesion may leave basic strength intact yet produce dysmetria, slowed set-shifting and flattened affect.",
+    "limitationsCautions": "Cerebellar cognitive-affective findings are variable and should be corroborated with neurological signs, imaging and functional change."
+  },
+  "anatomy": [
+    {
+      "id": "vermis",
+      "label": "Vermis",
+      "pronunciation": "Vermis",
+      "function": "Midline posture, gait and axial coordination",
+      "inputs": "Vestibular, spinal and cortical information",
+      "outputs": "Fastigial and vestibular pathways",
+      "connections": "Vestibular, spinal and cortical information; projects via Fastigial and vestibular pathways.",
+      "associatedDisorders": "Truncal ataxia, gait instability",
+      "clinicalSignificance": "Assess vermis in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "lateral-hemispheres",
+      "label": "Lateral hemispheres",
+      "pronunciation": "Lateral hemispheres",
+      "function": "Planning, timing and cognitive calibration",
+      "inputs": "Pontocerebellar input from association cortex",
+      "outputs": "Dentate nucleus to thalamus and cortex",
+      "connections": "Pontocerebellar input from association cortex; projects via Dentate nucleus to thalamus and cortex.",
+      "associatedDisorders": "Limb dysmetria, executive and language changes",
+      "clinicalSignificance": "Assess lateral hemispheres in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "flocculonodular-lobe",
+      "label": "Flocculonodular lobe",
+      "pronunciation": "Flocculonodular lobe",
+      "function": "Balance and eye-movement calibration",
+      "inputs": "Vestibular input",
+      "outputs": "Vestibular nuclei",
+      "connections": "Vestibular input; projects via Vestibular nuclei.",
+      "associatedDisorders": "Nystagmus, vertigo, balance impairment",
+      "clinicalSignificance": "Assess flocculonodular lobe in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "deep-nuclei",
+      "label": "Deep nuclei",
+      "pronunciation": "Deep nuclei",
+      "function": "Primary output hubs of the cerebellum",
+      "inputs": "Purkinje-cell inhibition and collateral excitatory input",
+      "outputs": "Thalamic, red-nucleus and vestibular targets",
+      "connections": "Purkinje-cell inhibition and collateral excitatory input; projects via Thalamic, red-nucleus and vestibular targets.",
+      "associatedDisorders": "Disrupted timing and coordination",
+      "clinicalSignificance": "Assess deep nuclei in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "cerebellar-peduncles",
+      "label": "Cerebellar peduncles",
+      "pronunciation": "Cerebellar peduncles",
+      "function": "White-matter gateways connecting cerebellum with brainstem",
+      "inputs": "Spinal, vestibular, olivary and pontine pathways",
+      "outputs": "Brainstem, thalamic and cortical loops",
+      "connections": "Spinal, vestibular, olivary and pontine pathways; projects via Brainstem, thalamic and cortical loops.",
+      "associatedDisorders": "Ipsilateral ataxia and pathway-specific deficits",
+      "clinicalSignificance": "Assess cerebellar peduncles in the context of lesion location, laterality, tract involvement and functional change."
+    }
+  ],
+  "mechanismMap": [
+    {
+      "label": "Vermis",
+      "detail": "Midline posture, gait and axial coordination"
+    },
+    {
+      "label": "Lateral hemispheres",
+      "detail": "Planning, timing and cognitive calibration"
+    },
+    {
+      "label": "Flocculonodular lobe",
+      "detail": "Balance and eye-movement calibration"
+    },
+    {
+      "label": "Deep nuclei",
+      "detail": "Primary output hubs of the cerebellum"
+    },
+    {
+      "label": "Cerebellar peduncles",
+      "detail": "White-matter gateways connecting cerebellum with brainstem"
+    }
+  ],
+  "interaction": {
+    "type": "anatomy-explorer",
+    "instruction": "Select each labelled structure to reveal function, inputs, outputs, connections and clinical significance.",
+    "signalSteps": [
+      "Vermis: Midline posture, gait and axial coordination",
+      "Lateral hemispheres: Planning, timing and cognitive calibration",
+      "Flocculonodular lobe: Balance and eye-movement calibration",
+      "Deep nuclei: Primary output hubs of the cerebellum",
+      "Cerebellar peduncles: White-matter gateways connecting cerebellum with brainstem"
+    ],
+    "accessibilityLabel": "Interactive anatomy sequence for Cerebellum Atlas"
+  },
+  "quizBank": [
+    {
+      "id": "cerebellum-atlas-q1",
+      "question": "Which statement best captures the clinical use of the Cerebellum Atlas?",
+      "options": [
+        "The cerebellum does not initiate most behaviour; it calibrates the precision, timing and adaptability of behaviour.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Laterality is never relevant"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "The cerebellum does not initiate most behaviour; it calibrates the precision, timing and adaptability of behaviour.",
+      "explanation": "The cerebellum does not initiate most behaviour; it calibrates the precision, timing and adaptability of behaviour."
+    },
+    {
+      "id": "cerebellum-atlas-q2",
+      "question": "What is the safest interpretation principle for Cerebellum Atlas?",
+      "options": [
+        "Use structure, networks, examination and context together",
+        "Infer diagnosis from one image",
+        "Ignore white-matter connections",
+        "Assume all people have identical organisation"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Anatomical findings require integration with networks, clinical examination and individual context.",
+      "explanation": "Anatomical findings require integration with networks, clinical examination and individual context."
+    },
+    {
+      "id": "cerebellum-atlas-q3",
+      "question": "Which feature is explicitly included in this atlas slice?",
+      "options": [
+        "Vermis",
+        "Only a decorative title",
+        "No clinical links",
+        "No pathway information"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Vermis is one of the mapped structures in this slice.",
+      "explanation": "Vermis is one of the mapped structures in this slice."
+    }
+  ],
+  "reviewPrompts": [
+    "Name the major structures in Cerebellum Atlas.",
+    "Trace one input-output relationship in Cerebellum Atlas.",
+    "Give one clinical caution relevant to Cerebellum Atlas."
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easyIntervalDays": 14,
+    "tags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "responsive": true,
+    "reducedMotion": true
+  },
+  "references": [
+    {
+      "citation": "Schmahmann JD. The cerebellum and cognition. Academic Press. 1997.",
+      "url": "https://doi.org/10.1016/B978-012625510-3/50001-2",
+      "type": "Reference"
+    },
+    {
+      "citation": "Buckner RL. The cerebellum and cognitive function. Neuron. 2013.",
+      "url": "https://doi.org/10.1016/j.neuron.2013.10.044",
+      "type": "Reference"
+    }
+  ],
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "Cerebellum Atlas"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "functions"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy",
+        "lesion"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best captures the clinical use of the Cerebellum Atlas?",
+      "options": [
+        "The cerebellum does not initiate most behaviour; it calibrates the precision, timing and adaptability of behaviour.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Laterality is never relevant"
+      ],
+      "answer": 0,
+      "explanation": "The cerebellum does not initiate most behaviour; it calibrates the precision, timing and adaptability of behaviour."
+    },
+    {
+      "question": "Why do connections matter clinically?",
+      "options": [
+        "Symptoms may reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Pathways do not affect cognition.",
+        "All people have identical pathways."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive functions depend on connected pathways."
+    },
+    {
+      "question": "What should an atlas not be used for?",
+      "options": [
+        "Making a diagnosis from one structure alone.",
+        "Learning spatial relationships.",
+        "Generating lesion hypotheses.",
+        "Understanding vascular territories."
+      ],
+      "answer": 0,
+      "rationale": "An atlas is an educational and hypothesis-support tool, not a standalone diagnostic instrument."
+    }
+  ],
+  "accessibility": {
+    "altText": "Interactive chalkboard-style anatomical atlas of Cerebellum with labelled regions and pathway relationships.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The cerebellum fine-tunes movement, timing and prediction. It also contributes to language, attention and emotional regulation through loops with the cortex.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

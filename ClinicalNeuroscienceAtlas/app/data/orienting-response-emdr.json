@@ -1,0 +1,173 @@
+{
+  "id": "orienting-response-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 33,
+  "level": 28,
+  "title": "Orienting Response",
+  "subtitle": "Automatic attention to novel or changing stimulation",
+  "hero": "orienting-response-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating orienting response across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "working-memory-theory-emdr"
+  ],
+  "previousConcept": "working-memory-theory-emdr",
+  "nextConcept": "adaptive-information-processing",
+  "tags": [
+    "orienting",
+    "response",
+    "trauma",
+    "emdr",
+    "theoretical and mixed evidence"
+  ],
+  "searchTerms": [
+    "orienting",
+    "response",
+    "trauma",
+    "emdr",
+    "theoretical and mixed evidence",
+    "automatic",
+    "attention",
+    "novel",
+    "changing",
+    "stimulation"
+  ],
+  "learningObjectives": [
+    "Explain orienting response in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in orienting response.",
+    "Identify one limitation or safety implication relevant to orienting response."
+  ],
+  "sections": {
+    "explainSimply": "The orienting response briefly shifts attention toward a new stimulus and may be followed by settling when no danger appears.",
+    "explainLikePsychologist": "Some EMDR models propose repeated orienting plus safety contributes to reduced arousal, though evidence is less developed than working-memory accounts.",
+    "advancedClinicalDetail": "Orienting, habituation and parasympathetic changes are plausible contributors but not uniquely specific to EMDR.",
+    "thinkOfItLike": "Think of orienting response as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need orienting response to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Do not equate physiological settling with complete processing.",
+    "clinicalPearl": "Clinical pearl: use orienting response to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses orienting response to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Do not equate physiological settling with complete processing. Evidence classification: theoretical and mixed evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "The orienting response briefly shifts attention toward a new stimulus and may be followed by settling when no danger appears."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Some EMDR models propose repeated orienting plus safety contributes to reduced arousal, though evidence is less developed than working-memory accounts."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Do not equate physiological settling with complete processing."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "The orienting response briefly shifts attention toward a new stimulus and may be followed by settling when no danger appears.",
+      "Some EMDR models propose repeated orienting plus safety contributes to reduced arousal, though evidence is less developed than working-memory accounts.",
+      "Do not equate physiological settling with complete processing."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "orienting-response-emdr-q1",
+      "question": "What is the most accurate core statement about Orienting Response?",
+      "options": [
+        "The orienting response briefly shifts attention toward a new stimulus and may be followed by settling when no danger appears.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The orienting response briefly shifts attention toward a new stimulus and may be followed by settling when no danger appears."
+    },
+    {
+      "id": "orienting-response-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Some EMDR models propose repeated orienting plus safety contributes to reduced arousal, though evidence is less developed than working-memory accounts.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Some EMDR models propose repeated orienting plus safety contributes to reduced arousal, though evidence is less developed than working-memory accounts."
+    },
+    {
+      "id": "orienting-response-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Do not equate physiological settling with complete processing.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Do not equate physiological settling with complete processing."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "The orienting response briefly shifts attention toward a new stimulus and may be followed by settling when no danger appears."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Do not equate physiological settling with complete processing."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "theoretical and mixed evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

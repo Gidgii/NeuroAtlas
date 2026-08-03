@@ -1,0 +1,255 @@
+{
+  "id": "arterial-territories-stroke-comparison",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 34,
+  "level": 29,
+  "title": "Arterial Territories & Stroke Comparison",
+  "subtitle": "Compare ACA, MCA, PCA, perforator and posterior-circulation lesion patterns",
+  "pronunciation": "ar-TEER-ee-ul TERR-ih-tor-eez",
+  "hero": "arterial-territories-stroke-comparison.svg",
+  "altText": "Interactive chalkboard-style anatomical map of Arterial Territories & Stroke Comparison with selectable regions and pathways.",
+  "prerequisites": [
+    "functional-network-overlay-atlas"
+  ],
+  "previousConcept": "functional-network-overlay-atlas",
+  "nextConcept": "brain-lateralisation-comparison",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "regional oxygen and glucose delivery",
+    "vascular reserve",
+    "collateral perfusion"
+  ],
+  "searchTerms": [
+    "Arterial Territories & Stroke Comparison",
+    "ar-TEER-ee-ul TERR-ih-tor-eez",
+    "anterior cerebral artery territory",
+    "middle cerebral artery territory",
+    "posterior cerebral artery territory",
+    "lenticulostriate arteries",
+    "anterior choroidal artery",
+    "posterior inferior cerebellar artery",
+    "anterior inferior cerebellar artery",
+    "superior cerebellar artery",
+    "basilar perforators",
+    "ACA-MCA watershed",
+    "MCA-PCA watershed",
+    "circle of Willis",
+    "deep perforator territories",
+    "posterior circulation",
+    "regional oxygen and glucose delivery",
+    "vascular reserve",
+    "collateral perfusion"
+  ],
+  "learningObjectives": [
+    "Identify the major components of the Arterial Territories & Stroke Comparison.",
+    "Trace key inputs, outputs and connections in the Arterial Territories & Stroke Comparison.",
+    "Interpret lesion patterns cautiously using distributed-network and clinical context."
+  ],
+  "sections": {
+    "explainSimply": "Compare ACA, MCA, PCA, perforator and posterior-circulation lesion patterns.",
+    "explainLikePsychologist": "Post-stroke mood, fatigue, apathy and cognitive change reflect lesion location, network disconnection, systemic illness, disability and psychosocial context rather than a single “stroke personality.”",
+    "advancedClinicalDetail": "Location: Arterial territories cover cortical surfaces, deep nuclei, white matter, brainstem and cerebellum with substantial anatomical variation and collateral overlap. Major subdivisions include anterior cerebral artery territory, middle cerebral artery territory, posterior cerebral artery territory, lenticulostriate arteries, anterior choroidal artery, posterior inferior cerebellar artery, anterior inferior cerebellar artery, superior cerebellar artery, basilar perforators. Inputs include internal carotid circulation, vertebrobasilar circulation, circle of Willis collateral routes; outputs include cortical branches, deep perforators, brainstem and cerebellar branches.",
+    "thinkOfItLike": "A dynamic transport and control map: the meaning of any node depends on the routes entering, leaving and bypassing it.",
+    "whyPsychologistsCare": "Post-stroke mood, fatigue, apathy and cognitive change reflect lesion location, network disconnection, systemic illness, disability and psychosocial context rather than a single “stroke personality.”",
+    "whenItGoesWrong": "Ischaemia or haemorrhage may produce contralateral motor/sensory deficits, aphasia, neglect, visual-field loss, memory disturbance, ataxia, cranial-nerve findings or altered consciousness depending on site and extent.",
+    "clinicalPearl": "Time plus territory matters: sudden focal deficit is vascular until proven otherwise, and urgent stroke pathways outrank elegant localisation.",
+    "practicalExample": "Select a region, trace its incoming and outgoing pathways, then compare healthy and lesion overlays before forming a clinical hypothesis.",
+    "limitationsCautions": "Classic syndromes are teaching heuristics. Real strokes cross boundaries, spare expected regions, evolve over time and are modified by collaterals, reperfusion and prior brain health."
+  },
+  "anatomy": {
+    "position": "Arterial territories cover cortical surfaces, deep nuclei, white matter, brainstem and cerebellum with substantial anatomical variation and collateral overlap.",
+    "spatialRelationships": "Interpreted relative to connected cortical, subcortical and vascular structures; boundaries and laterality must be checked in the selected view.",
+    "regions": [
+      "anterior cerebral artery territory",
+      "middle cerebral artery territory",
+      "posterior cerebral artery territory",
+      "lenticulostriate arteries",
+      "anterior choroidal artery",
+      "posterior inferior cerebellar artery",
+      "anterior inferior cerebellar artery",
+      "superior cerebellar artery",
+      "basilar perforators"
+    ],
+    "inputs": [
+      "internal carotid circulation",
+      "vertebrobasilar circulation",
+      "circle of Willis collateral routes"
+    ],
+    "outputs": [
+      "cortical branches",
+      "deep perforators",
+      "brainstem and cerebellar branches"
+    ],
+    "connections": [
+      "ACA-MCA watershed",
+      "MCA-PCA watershed",
+      "circle of Willis",
+      "deep perforator territories",
+      "posterior circulation"
+    ],
+    "functions": [
+      "regional oxygen and glucose delivery",
+      "vascular reserve",
+      "collateral perfusion"
+    ],
+    "bloodSupply": "This atlas is itself a vascular map. Territory boundaries are approximate and vary with branching patterns, dominance and collateral circulation.",
+    "lesionEffects": "Ischaemia or haemorrhage may produce contralateral motor/sensory deficits, aphasia, neglect, visual-field loss, memory disturbance, ataxia, cranial-nerve findings or altered consciousness depending on site and extent.",
+    "clinicalSignificance": "Post-stroke mood, fatigue, apathy and cognitive change reflect lesion location, network disconnection, systemic illness, disability and psychosocial context rather than a single “stroke personality.”"
+  },
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Tap to select",
+      "targets": [
+        "anterior cerebral artery territory",
+        "middle cerebral artery territory",
+        "posterior cerebral artery territory",
+        "lenticulostriate arteries",
+        "anterior choroidal artery",
+        "posterior inferior cerebellar artery",
+        "anterior inferior cerebellar artery",
+        "superior cerebellar artery",
+        "basilar perforators"
+      ]
+    },
+    {
+      "type": "view",
+      "label": "Change anatomical view",
+      "targets": [
+        "lateral",
+        "medial",
+        "axial",
+        "coronal"
+      ]
+    },
+    {
+      "type": "zoom-pan",
+      "label": "Zoom and pan",
+      "targets": [
+        "atlas canvas"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Show or hide layers",
+      "targets": [
+        "surrounding anatomy",
+        "connections",
+        "blood supply",
+        "function overlay"
+      ]
+    },
+    {
+      "type": "trace-inputs",
+      "label": "Trace inputs",
+      "targets": [
+        "internal carotid circulation",
+        "vertebrobasilar circulation",
+        "circle of Willis collateral routes"
+      ]
+    },
+    {
+      "type": "trace-outputs",
+      "label": "Trace outputs",
+      "targets": [
+        "cortical branches",
+        "deep perforators",
+        "brainstem and cerebellar branches"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and pathology",
+      "targets": [
+        "healthy network",
+        "focal lesion",
+        "network disconnection"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to whole-brain overview",
+      "targets": [
+        "whole brain"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "arterial-territories-stroke-comparison-q1",
+      "question": "A dominant-hemisphere superior-division MCA stroke most classically threatens:",
+      "options": [
+        "Expressive language and face-arm motor systems",
+        "Only leg sensation",
+        "Bilateral hearing exclusively",
+        "Pituitary hormone release"
+      ],
+      "answer": 0,
+      "rationale": "The dominant lateral frontal territory includes language-production and face-arm motor regions, though actual patterns vary."
+    },
+    {
+      "id": "arterial-territories-stroke-comparison-q2",
+      "question": "Why are arterial territory maps approximate?",
+      "options": [
+        "Branching, dominance and collateral circulation vary between individuals",
+        "All brains have identical arteries",
+        "Territories never overlap",
+        "Perfusion does not change"
+      ],
+      "answer": 0,
+      "rationale": "Individual vascular anatomy and collateral flow shift functional territory boundaries."
+    },
+    {
+      "id": "arterial-territories-stroke-comparison-q3",
+      "question": "What is the safest response to sudden new facial weakness and speech disturbance?",
+      "options": [
+        "Activate urgent stroke assessment",
+        "Wait for a psychology appointment",
+        "Assume anxiety",
+        "Use lesion localisation as definitive diagnosis"
+      ],
+      "answer": 0,
+      "rationale": "Acute focal neurological deficits require emergency medical assessment because treatment is time-sensitive."
+    }
+  ],
+  "relatedConcepts": [
+    "functional-network-overlay-atlas",
+    "brain-lateralisation-comparison",
+    "cerebral-vasculature-atlas",
+    "deep-nuclei-atlas",
+    "thalamus-atlas",
+    "cerebral-lobes-atlas"
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Kandel ER et al. Principles of Neural Science.",
+      "type": "textbook"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Sketch the major nodes and pathways of the Arterial Territories & Stroke Comparison and explain one qualified lesion pattern."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive Arterial Territories & Stroke Comparison with selectable anatomy, pathway tracing, overlays and lesion comparisons.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

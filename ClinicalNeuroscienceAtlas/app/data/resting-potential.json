@@ -1,0 +1,149 @@
+{
+  "id": "resting-potential",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain why the neuronal interior is negative relative to the exterior at rest.",
+    "Distinguish the roles of leak channels, concentration gradients and Na+/K+-ATPase.",
+    "Predict how changes in extracellular potassium alter excitability.",
+    "Relate resting potential to threshold and clinical network stability."
+  ],
+  "anatomy": [
+    {
+      "id": "gradient",
+      "label": "Ion gradients",
+      "short": "Stored electrochemical energy",
+      "detail": "Sodium is concentrated outside the neuron and potassium inside. These gradients store potential energy across the membrane.",
+      "clinical": "Rapid changes in serum sodium or potassium can alter excitability and produce confusion, weakness or seizures."
+    },
+    {
+      "id": "leak",
+      "label": "Potassium leak channels",
+      "short": "Dominant resting conductance",
+      "detail": "At rest, potassium leak channels allow more potassium movement than sodium movement, pulling voltage toward the potassium equilibrium potential.",
+      "clinical": "Channel expression helps set how responsive a neuron is to incoming signals."
+    },
+    {
+      "id": "pump",
+      "label": "Na+/K+-ATPase",
+      "short": "Gradient-maintenance pump",
+      "detail": "The pump uses ATP to move three sodium ions out and two potassium ions in, preserving gradients over time.",
+      "clinical": "Hypoxia and metabolic failure compromise the pump, causing ionic collapse and cellular swelling."
+    },
+    {
+      "id": "anions",
+      "label": "Intracellular anions",
+      "short": "Negative charge retained inside",
+      "detail": "Large negatively charged proteins and phosphates remain trapped inside the cell and contribute to intracellular negativity.",
+      "clinical": "Cell injury can disturb osmotic and ionic balance even without a primary channel disorder."
+    }
+  ],
+  "interaction": {
+    "title": "Resting Membrane Potential sequence",
+    "instruction": "Select a component, then run the sequence to see how the system changes over time.",
+    "ariaLabel": "Interactive resting membrane potential sequence",
+    "stages": [
+      {
+        "label": "Separate",
+        "text": "ATP-dependent transport maintains sodium outside and potassium inside."
+      },
+      {
+        "label": "Leak",
+        "text": "Potassium moves down its concentration gradient through leak channels."
+      },
+      {
+        "label": "Balance",
+        "text": "Electrical attraction opposes further potassium loss."
+      },
+      {
+        "label": "Stabilise",
+        "text": "The membrane settles near a negative resting voltage, ready to respond."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Which ion has the greatest influence on a typical neuron’s resting membrane potential?",
+      "options": [
+        "Potassium",
+        "Calcium",
+        "Chloride only",
+        "Magnesium"
+      ],
+      "answer": 0,
+      "explanation": "Resting conductance is usually dominated by potassium leak channels."
+    },
+    {
+      "question": "What is the main role of Na+/K+-ATPase at rest?",
+      "options": [
+        "Maintain sodium and potassium gradients over time",
+        "Open voltage-gated sodium channels",
+        "Release neurotransmitter",
+        "Create myelin"
+      ],
+      "answer": 0,
+      "explanation": "The pump preserves the concentration gradients that support membrane voltage."
+    },
+    {
+      "question": "Why is the inside of a resting neuron relatively negative?",
+      "options": [
+        "Selective ion permeability and retained intracellular anions",
+        "Because electrons flow down the axon",
+        "Because all sodium leaves the cell",
+        "Because the nucleus is negatively charged"
+      ],
+      "answer": 0,
+      "explanation": "Selective permeability and fixed intracellular anions produce relative intracellular negativity."
+    },
+    {
+      "question": "What usually happens if extracellular potassium rises substantially?",
+      "options": [
+        "The resting voltage becomes less negative",
+        "The membrane becomes infinitely negative",
+        "All synapses stop chemically",
+        "Myelin thickens immediately"
+      ],
+      "answer": 0,
+      "explanation": "A reduced potassium gradient tends to depolarise the membrane and alter excitability."
+    },
+    {
+      "question": "“Resting” membrane potential means the neuron is:",
+      "options": [
+        "Not firing an action potential but still metabolically active",
+        "Biologically inactive",
+        "Disconnected from all synapses",
+        "Unable to change voltage"
+      ],
+      "answer": 0,
+      "explanation": "Resting neurons actively maintain gradients and receive continuous input."
+    }
+  ],
+  "tags": [
+    "resting potential",
+    "membrane voltage",
+    "potassium",
+    "sodium potassium pump",
+    "excitability",
+    "electrochemical gradient"
+  ],
+  "spacedRepetition": {
+    "prompts": [
+      "Which ion has the greatest influence on a typical neuron’s resting membrane potential?",
+      "What is the main role of Na+/K+-ATPase at rest?",
+      "Why is the inside of a resting neuron relatively negative?"
+    ],
+    "minimumIntervalDays": 1
+  },
+  "references": [
+    {
+      "type": "Open textbook",
+      "citation": "Purves D, et al. Neuroscience. Membrane Potential. NCBI Bookshelf.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11117/"
+    },
+    {
+      "type": "Review",
+      "citation": "Bean BP. The action potential in mammalian central neurons. Nature Reviews Neuroscience. 2007.",
+      "url": "https://doi.org/10.1038/nrn2148"
+    }
+  ]
+}

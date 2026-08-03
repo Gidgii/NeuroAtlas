@@ -1,0 +1,111 @@
+{
+  "id": "migraine-neuroscience",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Describe migraine as a cyclic brain-state disorder.",
+    "Explain aura and trigeminovascular pain mechanisms.",
+    "Recognise features of central sensitisation.",
+    "Identify headache red flags."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability, development and prior learning shape baseline risk."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external demands recruit the relevant systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter prediction, salience, control, sensation and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Migraine aura is most closely linked to:",
+      "options": [
+        "Cortical spreading depolarisation",
+        "Permanent cortical necrosis",
+        "Only muscle tension",
+        "Reduced cerebrospinal fluid"
+      ],
+      "answer": 0,
+      "explanation": "A slowly propagating wave of depolarisation is the leading mechanism for aura."
+    },
+    {
+      "question": "CGRP is clinically important because it:",
+      "options": [
+        "Participates in trigeminovascular signalling",
+        "Diagnoses migraine on MRI",
+        "Only controls sleep",
+        "Is absent from sensory pathways"
+      ],
+      "answer": 0,
+      "explanation": "CGRP is a key mediator and treatment target in migraine."
+    },
+    {
+      "question": "Which headache presentation is most urgent?",
+      "options": [
+        "A sudden maximal-intensity thunderclap headache",
+        "A familiar migraine relieved by the usual plan",
+        "Mild tension after a long day",
+        "Brief light sensitivity before sleep"
+      ],
+      "answer": 0,
+      "explanation": "Thunderclap headache can indicate subarachnoid haemorrhage or other acute pathology."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "Cortical spreading depolarisation is strongly linked to aura, while trigeminal afferents and calcitonin gene-related peptide contribute to meningeal nociceptive signalling. Hypothalamic and brainstem changes may precede pain, consistent with a cyclic state disorder rather than a purely vascular event. Central sensitisation can produce allodynia and chronification. Genetic susceptibility, sleep, hormones, sensory load and learning history influence threshold."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "Migraine is a disorder of brain state regulation and sensory processing, not simply dilated blood vessels."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "A sudden thunderclap headache, new focal deficit, fever with neck stiffness, pregnancy-related severe headache or a major change in pattern requires urgent medical assessment."
+    }
+  ],
+  "tags": [
+    "migraine",
+    "headache",
+    "trigeminovascular",
+    "CGRP",
+    "sensory processing"
+  ],
+  "references": [
+    {
+      "citation": "Goadsby PJ, et al. Pathophysiology of migraine: a disorder of sensory processing. Physiol Rev. 2017;97:553–622.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1152/physrev.00034.2015"
+    },
+    {
+      "citation": "Charles A. The pathophysiology of migraine: implications for clinical management. Lancet Neurol. 2018;17:174–182.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S1474-4422(17)30435-0"
+    },
+    {
+      "citation": "Ashina M. Migraine. N Engl J Med. 2020;383:1866–1876.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1056/NEJMra1915327"
+    }
+  ]
+}

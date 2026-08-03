@@ -1,0 +1,286 @@
+{
+  "id": "brainstem-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 16,
+  "level": 29,
+  "title": "Brainstem Atlas",
+  "subtitle": "Trace midbrain, pons, medulla, nuclei and ascending systems",
+  "pronunciation": "BRAYN-stem",
+  "hero": "brainstem-atlas.svg",
+  "altText": "Interactive chalkboard-style anatomical atlas of Brainstem with labelled regions and pathway relationships.",
+  "prerequisites": [
+    "cerebellum-atlas"
+  ],
+  "previousConcept": "cerebellum-atlas",
+  "nextConcept": "meninges-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "brainstem atlas",
+    "clinical psychology",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Brainstem Atlas",
+    "BRAYN-stem",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Differentiate midbrain, pons and medulla.",
+    "Locate major cranial-nerve and arousal systems.",
+    "Recognise clinically urgent patterns associated with brainstem dysfunction."
+  ],
+  "sections": {
+    "explainSimply": "The brainstem links the brain, spinal cord and cerebellum while regulating breathing, heart rate, sleep, arousal and many cranial-nerve functions.",
+    "explainLikePsychologist": "Brainstem systems shape state regulation, sensory gating and autonomic stability, meaning small lesions can produce broad cognitive, behavioural and medical effects.",
+    "advancedClinicalDetail": "The midbrain, pons and medulla contain cranial-nerve nuclei, reticular formation, long ascending and descending tracts, neuromodulatory nuclei and cardiorespiratory centres. Compact anatomy makes focal lesions clinically dense and often crossed in their signs.",
+    "thinkOfItLike": "It is a compact transport hub and life-support control room: major routes pass through while local stations regulate essential functions.",
+    "whyPsychologistsCare": "Changes in arousal, eye movements, swallowing, autonomic regulation or crossed sensory-motor signs can indicate urgent brainstem pathology.",
+    "whenItGoesWrong": "Attributing fluctuating consciousness or cranial-nerve changes to anxiety without neurological assessment may delay recognition of serious disease.",
+    "clinicalPearl": "Brainstem symptoms are often disproportionate to lesion size because many critical pathways are packed into a small space.",
+    "practicalExample": "A pontine lesion may combine ipsilateral facial weakness with contralateral limb weakness because a cranial-nerve nucleus and corticospinal tract are affected together.",
+    "limitationsCautions": "New diplopia, dysphagia, dysarthria, collapse, respiratory change or altered consciousness warrants urgent medical assessment."
+  },
+  "anatomy": [
+    {
+      "id": "midbrain",
+      "label": "Midbrain",
+      "pronunciation": "Midbrain",
+      "function": "Eye movements, orienting, motor modulation and arousal",
+      "inputs": "Cortical, retinal, cerebellar and sensory input",
+      "outputs": "Thalamic, spinal, cerebellar and cranial-motor outputs",
+      "connections": "Cortical, retinal, cerebellar and sensory input; projects via Thalamic, spinal, cerebellar and cranial-motor outputs.",
+      "associatedDisorders": "Oculomotor deficits, altered arousal, parkinsonian signs",
+      "clinicalSignificance": "Assess midbrain in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "pons",
+      "label": "Pons",
+      "pronunciation": "Pons",
+      "function": "Cortico-cerebellar relay, facial sensation and movement, sleep regulation",
+      "inputs": "Cortical, cerebellar, vestibular and sensory input",
+      "outputs": "Cerebellar, cranial-motor and long-tract outputs",
+      "connections": "Cortical, cerebellar, vestibular and sensory input; projects via Cerebellar, cranial-motor and long-tract outputs.",
+      "associatedDisorders": "Facial weakness, gaze palsy, ataxia, locked-in syndrome",
+      "clinicalSignificance": "Assess pons in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "medulla",
+      "label": "Medulla",
+      "pronunciation": "Medulla",
+      "function": "Cardiorespiratory control, swallowing and lower cranial functions",
+      "inputs": "Visceral, spinal, vestibular and cortical input",
+      "outputs": "Autonomic, cranial-motor and spinal outputs",
+      "connections": "Visceral, spinal, vestibular and cortical input; projects via Autonomic, cranial-motor and spinal outputs.",
+      "associatedDisorders": "Dysphagia, respiratory instability, crossed deficits",
+      "clinicalSignificance": "Assess medulla in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "reticular-formation",
+      "label": "Reticular formation",
+      "pronunciation": "Reticular formation",
+      "function": "Arousal, attention, sleep-wake regulation and pain modulation",
+      "inputs": "Diffuse sensory and cortical input",
+      "outputs": "Thalamic, hypothalamic, cortical and spinal outputs",
+      "connections": "Diffuse sensory and cortical input; projects via Thalamic, hypothalamic, cortical and spinal outputs.",
+      "associatedDisorders": "Coma, delirium, sleep-wake disruption",
+      "clinicalSignificance": "Assess reticular formation in the context of lesion location, laterality, tract involvement and functional change."
+    },
+    {
+      "id": "long-tracts",
+      "label": "Long tracts",
+      "pronunciation": "Long tracts",
+      "function": "Carry motor, somatosensory and autonomic information through the brainstem",
+      "inputs": "Cortex, spinal cord and peripheral sensory systems",
+      "outputs": "Spinal cord, thalamus, cerebellum and cortex",
+      "connections": "Cortex, spinal cord and peripheral sensory systems; projects via Spinal cord, thalamus, cerebellum and cortex.",
+      "associatedDisorders": "Weakness, sensory loss, ataxia and crossed signs",
+      "clinicalSignificance": "Assess long tracts in the context of lesion location, laterality, tract involvement and functional change."
+    }
+  ],
+  "mechanismMap": [
+    {
+      "label": "Midbrain",
+      "detail": "Eye movements, orienting, motor modulation and arousal"
+    },
+    {
+      "label": "Pons",
+      "detail": "Cortico-cerebellar relay, facial sensation and movement, sleep regulation"
+    },
+    {
+      "label": "Medulla",
+      "detail": "Cardiorespiratory control, swallowing and lower cranial functions"
+    },
+    {
+      "label": "Reticular formation",
+      "detail": "Arousal, attention, sleep-wake regulation and pain modulation"
+    },
+    {
+      "label": "Long tracts",
+      "detail": "Carry motor, somatosensory and autonomic information through the brainstem"
+    }
+  ],
+  "interaction": {
+    "type": "anatomy-explorer",
+    "instruction": "Select each labelled structure to reveal function, inputs, outputs, connections and clinical significance.",
+    "signalSteps": [
+      "Midbrain: Eye movements, orienting, motor modulation and arousal",
+      "Pons: Cortico-cerebellar relay, facial sensation and movement, sleep regulation",
+      "Medulla: Cardiorespiratory control, swallowing and lower cranial functions",
+      "Reticular formation: Arousal, attention, sleep-wake regulation and pain modulation",
+      "Long tracts: Carry motor, somatosensory and autonomic information through the brainstem"
+    ],
+    "accessibilityLabel": "Interactive anatomy sequence for Brainstem Atlas"
+  },
+  "quizBank": [
+    {
+      "id": "brainstem-atlas-q1",
+      "question": "Which statement best captures the clinical use of the Brainstem Atlas?",
+      "options": [
+        "Brainstem symptoms are often disproportionate to lesion size because many critical pathways are packed into a small space.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Laterality is never relevant"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Brainstem symptoms are often disproportionate to lesion size because many critical pathways are packed into a small space.",
+      "explanation": "Brainstem symptoms are often disproportionate to lesion size because many critical pathways are packed into a small space."
+    },
+    {
+      "id": "brainstem-atlas-q2",
+      "question": "What is the safest interpretation principle for Brainstem Atlas?",
+      "options": [
+        "Use structure, networks, examination and context together",
+        "Infer diagnosis from one image",
+        "Ignore white-matter connections",
+        "Assume all people have identical organisation"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Anatomical findings require integration with networks, clinical examination and individual context.",
+      "explanation": "Anatomical findings require integration with networks, clinical examination and individual context."
+    },
+    {
+      "id": "brainstem-atlas-q3",
+      "question": "Which feature is explicitly included in this atlas slice?",
+      "options": [
+        "Midbrain",
+        "Only a decorative title",
+        "No clinical links",
+        "No pathway information"
+      ],
+      "correctAnswer": 0,
+      "answer": 0,
+      "rationale": "Midbrain is one of the mapped structures in this slice.",
+      "explanation": "Midbrain is one of the mapped structures in this slice."
+    }
+  ],
+  "reviewPrompts": [
+    "Name the major structures in Brainstem Atlas.",
+    "Trace one input-output relationship in Brainstem Atlas.",
+    "Give one clinical caution relevant to Brainstem Atlas."
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easyIntervalDays": 14,
+    "tags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "responsive": true,
+    "reducedMotion": true
+  },
+  "references": [
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. Wolters Kluwer.",
+      "url": "https://shop.lww.com/Neuroanatomy/p/9781975157722",
+      "type": "Reference"
+    },
+    {
+      "citation": "Nolte J. The Human Brain: An Introduction to Its Functional Anatomy. Elsevier.",
+      "url": "https://www.elsevier.com/books/the-human-brain/nolte/978-0-323-04531-4",
+      "type": "Reference"
+    }
+  ],
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select structure",
+      "targets": [
+        "Brainstem Atlas"
+      ]
+    },
+    {
+      "type": "toggle",
+      "label": "Show functions",
+      "targets": [
+        "functions"
+      ]
+    },
+    {
+      "type": "compare",
+      "label": "Compare healthy and lesion patterns",
+      "targets": [
+        "healthy",
+        "lesion"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best captures the clinical use of the Brainstem Atlas?",
+      "options": [
+        "Brainstem symptoms are often disproportionate to lesion size because many critical pathways are packed into a small space.",
+        "One structure explains all complex behaviour",
+        "Anatomy alone establishes diagnosis",
+        "Laterality is never relevant"
+      ],
+      "answer": 0,
+      "explanation": "Brainstem symptoms are often disproportionate to lesion size because many critical pathways are packed into a small space."
+    },
+    {
+      "question": "Why do connections matter clinically?",
+      "options": [
+        "Symptoms may reflect disconnection and downstream network effects.",
+        "Only local tissue matters.",
+        "Pathways do not affect cognition.",
+        "All people have identical pathways."
+      ],
+      "answer": 0,
+      "rationale": "Distributed cognitive functions depend on connected pathways."
+    },
+    {
+      "question": "What should an atlas not be used for?",
+      "options": [
+        "Making a diagnosis from one structure alone.",
+        "Learning spatial relationships.",
+        "Generating lesion hypotheses.",
+        "Understanding vascular territories."
+      ],
+      "answer": 0,
+      "rationale": "An atlas is an educational and hypothesis-support tool, not a standalone diagnostic instrument."
+    }
+  ],
+  "accessibility": {
+    "altText": "Interactive chalkboard-style anatomical atlas of Brainstem with labelled regions and pathway relationships.",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "The brainstem links the brain, spinal cord and cerebellum while regulating breathing, heart rate, sleep, arousal and many cranial-nerve functions.",
+    "reducedMotionSupported": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

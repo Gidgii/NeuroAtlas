@@ -1,0 +1,174 @@
+{
+  "id": "intergenerational-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 29,
+  "level": 28,
+  "title": "Intergenerational Trauma",
+  "subtitle": "How adversity can affect later generations through multiple pathways",
+  "hero": "intergenerational-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating intergenerational trauma across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "moral-injury"
+  ],
+  "previousConcept": "moral-injury",
+  "nextConcept": "neurobiology-emdr",
+  "tags": [
+    "intergenerational",
+    "trauma",
+    "trauma",
+    "emdr",
+    "promising but limited biological evidence"
+  ],
+  "searchTerms": [
+    "intergenerational",
+    "trauma",
+    "emdr",
+    "promising but limited biological evidence",
+    "adversity",
+    "affect",
+    "later",
+    "generations",
+    "through",
+    "multiple",
+    "pathways"
+  ],
+  "learningObjectives": [
+    "Explain intergenerational trauma in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in intergenerational trauma.",
+    "Identify one limitation or safety implication relevant to intergenerational trauma."
+  ],
+  "sections": {
+    "explainSimply": "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways.",
+    "explainLikePsychologist": "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited.",
+    "advancedClinicalDetail": "Human intergenerational research faces major confounding from shared environments, structural disadvantage and measurement limitations.",
+    "thinkOfItLike": "Think of intergenerational trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need intergenerational trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Avoid deterministic claims that trauma is genetically “passed down.”",
+    "clinicalPearl": "Clinical pearl: use intergenerational trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses intergenerational trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Avoid deterministic claims that trauma is genetically “passed down.” Evidence classification: promising but limited biological evidence."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Avoid deterministic claims that trauma is genetically “passed down.”"
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways.",
+      "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited.",
+      "Avoid deterministic claims that trauma is genetically “passed down.”"
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "intergenerational-trauma-q1",
+      "question": "What is the most accurate core statement about Intergenerational Trauma?",
+      "options": [
+        "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways."
+    },
+    {
+      "id": "intergenerational-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited."
+    },
+    {
+      "id": "intergenerational-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Avoid deterministic claims that trauma is genetically “passed down.”",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Avoid deterministic claims that trauma is genetically “passed down.”"
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Avoid deterministic claims that trauma is genetically “passed down.”"
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "promising but limited biological evidence"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

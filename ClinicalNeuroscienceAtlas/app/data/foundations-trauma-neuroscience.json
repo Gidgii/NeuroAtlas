@@ -1,0 +1,174 @@
+{
+  "id": "foundations-trauma-neuroscience",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 1,
+  "level": 28,
+  "title": "Foundations of Trauma Neuroscience",
+  "subtitle": "How threat, learning, memory and regulation interact",
+  "hero": "foundations-trauma-neuroscience.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating foundations of trauma neuroscience across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "ethics-evidence-clinical-limits"
+  ],
+  "previousConcept": "ethics-evidence-clinical-limits",
+  "nextConcept": "acute-stress-response",
+  "tags": [
+    "foundations",
+    "trauma",
+    "neuroscience",
+    "trauma",
+    "emdr",
+    "established systems framework; heterogeneous biomarkers"
+  ],
+  "searchTerms": [
+    "foundations",
+    "trauma",
+    "neuroscience",
+    "emdr",
+    "established systems framework; heterogeneous biomarkers",
+    "threat",
+    "learning",
+    "memory",
+    "regulation",
+    "interact"
+  ],
+  "learningObjectives": [
+    "Explain foundations of trauma neuroscience in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in foundations of trauma neuroscience.",
+    "Identify one limitation or safety implication relevant to foundations of trauma neuroscience."
+  ],
+  "sections": {
+    "explainSimply": "Trauma is not stored in one brain region; it reflects coordinated changes in threat detection, memory, arousal and regulation.",
+    "explainLikePsychologist": "A trauma formulation links nervous-system state, learning history, appraisal, avoidance, attachment and context rather than reducing distress to a single circuit.",
+    "advancedClinicalDetail": "Research supports altered function across amygdala–hippocampal–prefrontal systems and large-scale networks, but findings are heterogeneous and not diagnostic at the individual level.",
+    "thinkOfItLike": "Think of foundations of trauma neuroscience as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need foundations of trauma neuroscience to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Group-level neuroimaging findings cannot determine whether one person has trauma.",
+    "clinicalPearl": "Clinical pearl: use foundations of trauma neuroscience to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses foundations of trauma neuroscience to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Group-level neuroimaging findings cannot determine whether one person has trauma. Evidence classification: established systems framework; heterogeneous biomarkers."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Trauma is not stored in one brain region; it reflects coordinated changes in threat detection, memory, arousal and regulation."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "A trauma formulation links nervous-system state, learning history, appraisal, avoidance, attachment and context rather than reducing distress to a single circuit."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Group-level neuroimaging findings cannot determine whether one person has trauma."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Trauma is not stored in one brain region; it reflects coordinated changes in threat detection, memory, arousal and regulation.",
+      "A trauma formulation links nervous-system state, learning history, appraisal, avoidance, attachment and context rather than reducing distress to a single circuit.",
+      "Group-level neuroimaging findings cannot determine whether one person has trauma."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "foundations-trauma-neuroscience-q1",
+      "question": "What is the most accurate core statement about Foundations of Trauma Neuroscience?",
+      "options": [
+        "Trauma is not stored in one brain region; it reflects coordinated changes in threat detection, memory, arousal and regulation.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Trauma is not stored in one brain region; it reflects coordinated changes in threat detection, memory, arousal and regulation."
+    },
+    {
+      "id": "foundations-trauma-neuroscience-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "A trauma formulation links nervous-system state, learning history, appraisal, avoidance, attachment and context rather than reducing distress to a single circuit.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "A trauma formulation links nervous-system state, learning history, appraisal, avoidance, attachment and context rather than reducing distress to a single circuit."
+    },
+    {
+      "id": "foundations-trauma-neuroscience-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Group-level neuroimaging findings cannot determine whether one person has trauma.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Group-level neuroimaging findings cannot determine whether one person has trauma."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Trauma is not stored in one brain region; it reflects coordinated changes in threat detection, memory, arousal and regulation."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Group-level neuroimaging findings cannot determine whether one person has trauma."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established systems framework; heterogeneous biomarkers"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

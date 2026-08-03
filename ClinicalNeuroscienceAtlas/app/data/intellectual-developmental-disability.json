@@ -1,0 +1,111 @@
+{
+  "id": "intellectual-developmental-disability",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "State the two core diagnostic domains.",
+    "Explain why severity is based on adaptive functioning.",
+    "Describe heterogeneous neurodevelopmental mechanisms.",
+    "Recognise diagnostic overshadowing."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Predisposition",
+      "detail": "Biological vulnerability, development and prior learning shape baseline risk."
+    },
+    {
+      "label": "Trigger or demand",
+      "detail": "Internal or external demands recruit the relevant systems."
+    },
+    {
+      "label": "Network response",
+      "detail": "Distributed circuits alter prediction, salience, control, sensation and behaviour."
+    },
+    {
+      "label": "Feedback",
+      "detail": "Consequences update future expectations, habits and compensatory strategies."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through the mechanism map, then retrieve the core clinical distinction without looking back.",
+    "signalSteps": [
+      "Identify the presenting pattern and time course.",
+      "Map candidate mechanisms across cells, circuits, cognition and context.",
+      "Test plausible alternatives and medical red flags.",
+      "Choose the explanation that best guides safe action without overstating certainty."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Severity of intellectual developmental disability is primarily based on:",
+      "options": [
+        "Adaptive functioning and support needs",
+        "IQ score alone",
+        "Brain-scan appearance",
+        "School grade only"
+      ],
+      "answer": 0,
+      "explanation": "Current classification emphasises adaptive functioning."
+    },
+    {
+      "question": "A sudden decline in an adult with lifelong intellectual disability should be:",
+      "options": [
+        "Investigated for medical, psychiatric or environmental causes",
+        "Assumed to be the disability",
+        "Ignored if IQ is low",
+        "Treated as deliberate"
+      ],
+      "answer": 0,
+      "explanation": "Developmental disability does not explain acute change."
+    },
+    {
+      "question": "Good assessment should include:",
+      "options": [
+        "Conceptual, social and practical adaptive functioning",
+        "Only one brief IQ subtest",
+        "Only parent opinion",
+        "Only academic attainment"
+      ],
+      "answer": 0,
+      "explanation": "Diagnosis requires both intellectual and adaptive assessment."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the central mechanism in this concept?",
+      "answer": "There is no single neural mechanism. Diverse aetiologies can alter synaptic development, excitation–inhibition balance, white-matter organisation, cortical maturation or metabolic function. Cognitive profiles are often uneven, and test performance is influenced by language, attention, motor demands, culture, opportunity and health. Adaptive functioning integrates real-world performance across conceptual, social and practical domains."
+    },
+    {
+      "prompt": "What is the most important clinical caution?",
+      "answer": "IQ estimates capacity under test conditions; adaptive functioning determines how much support is needed in daily life."
+    },
+    {
+      "prompt": "What alternative explanations or red flags must be considered?",
+      "answer": "Diagnostic overshadowing can cause pain, depression, psychosis, abuse or medical illness to be missed. Sudden functional decline is not explained by a lifelong developmental disability and needs assessment."
+    }
+  ],
+  "tags": [
+    "intellectual disability",
+    "developmental disability",
+    "adaptive functioning",
+    "neurodevelopment",
+    "assessment"
+  ],
+  "references": [
+    {
+      "citation": "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, 5th ed, text rev. 2022.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.1176/appi.books.9780890425787"
+    },
+    {
+      "citation": "Schalock RL, et al. Intellectual Disability: Definition, Diagnosis, Classification, and Systems of Supports. 12th ed. AAIDD; 2021.",
+      "type": "Primary or authoritative source",
+      "url": "https://www.aaidd.org/intellectual-disability/definition"
+    },
+    {
+      "citation": "Patel DR, Cabral MD, Ho A, Merrick J. A clinical primer on intellectual disability. Transl Pediatr. 2020;9:S23–S35.",
+      "type": "Primary or authoritative source",
+      "url": "https://doi.org/10.21037/tp.2020.02.02"
+    }
+  ]
+}

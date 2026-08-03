@@ -1,0 +1,122 @@
+{
+  "id": "procedural-learning-neuropsychology",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Procedural Learning.",
+    "Apply Procedural Learning to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Attempt",
+      "detail": "The person performs the skill with high conscious effort."
+    },
+    {
+      "label": "Error signal",
+      "detail": "Outcome feedback updates predictions."
+    },
+    {
+      "label": "Circuit tuning",
+      "detail": "Basal-ganglia and cerebellar loops refine the sequence."
+    },
+    {
+      "label": "Automatization",
+      "detail": "Performance becomes faster and less attention-demanding."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Attempt",
+        "detail": "The person performs the skill with high conscious effort."
+      },
+      {
+        "label": "Error signal",
+        "detail": "Outcome feedback updates predictions."
+      },
+      {
+        "label": "Circuit tuning",
+        "detail": "Basal-ganglia and cerebellar loops refine the sequence."
+      },
+      {
+        "label": "Automatization",
+        "detail": "Performance becomes faster and less attention-demanding."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Procedural Learning"
+  },
+  "quizBank": [
+    {
+      "question": "Which system is especially important for habit and procedural learning?",
+      "options": [
+        "Medial temporal lobe alone",
+        "Corticostriatal circuits",
+        "Primary visual cortex alone",
+        "Broca area"
+      ],
+      "answer": 1,
+      "explanation": "Corticostriatal circuits is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Procedural Learning?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "When explicit teaching fails, consistent practice in the real context may still build useful learning."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Attempt → Error signal → Circuit tuning → Automatization"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "New loss of previously automatic skills, gait change or motor sequencing difficulty requires assessment for neurological, movement or cerebellar disorders."
+    }
+  ],
+  "tags": [
+    "procedural learning",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Squire LR. Memory systems of the brain: a brief history and current perspective. Neurobiology of Learning and Memory. 2004;82:171–177.",
+      "url": "https://doi.org/10.1016/j.nlm.2004.06.005"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

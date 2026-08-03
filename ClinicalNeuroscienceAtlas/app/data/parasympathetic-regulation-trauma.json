@@ -1,0 +1,172 @@
+{
+  "id": "parasympathetic-regulation-trauma",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 6,
+  "level": 28,
+  "title": "Parasympathetic Regulation",
+  "subtitle": "Recovery, flexibility and state change",
+  "hero": "parasympathetic-regulation-trauma.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating parasympathetic regulation across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "sympathetic-activation-trauma"
+  ],
+  "previousConcept": "sympathetic-activation-trauma",
+  "nextConcept": "polyvagal-theory",
+  "tags": [
+    "parasympathetic",
+    "regulation",
+    "trauma",
+    "emdr",
+    "established physiology; measurement caveats"
+  ],
+  "searchTerms": [
+    "parasympathetic",
+    "regulation",
+    "trauma",
+    "emdr",
+    "established physiology; measurement caveats",
+    "recovery",
+    "flexibility",
+    "state",
+    "change"
+  ],
+  "learningObjectives": [
+    "Explain parasympathetic regulation in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in parasympathetic regulation.",
+    "Identify one limitation or safety implication relevant to parasympathetic regulation."
+  ],
+  "sections": {
+    "explainSimply": "Parasympathetic processes support recovery after activation and help regulate heart rate, digestion and social engagement.",
+    "explainLikePsychologist": "Regulation is not simply “turning on the vagus nerve”; it involves flexible coordination across autonomic, respiratory, cortical and contextual systems.",
+    "advancedClinicalDetail": "Respiratory sinus arrhythmia and heart-rate variability index aspects of cardiac vagal control but are affected by respiration, posture, medication and fitness.",
+    "thinkOfItLike": "Think of parasympathetic regulation as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need parasympathetic regulation to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "HRV is not a direct measure of psychological safety.",
+    "clinicalPearl": "Clinical pearl: use parasympathetic regulation to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses parasympathetic regulation to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "HRV is not a direct measure of psychological safety. Evidence classification: established physiology; measurement caveats."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "Parasympathetic processes support recovery after activation and help regulate heart rate, digestion and social engagement."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "Regulation is not simply “turning on the vagus nerve”; it involves flexible coordination across autonomic, respiratory, cortical and contextual systems."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "HRV is not a direct measure of psychological safety."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "Parasympathetic processes support recovery after activation and help regulate heart rate, digestion and social engagement.",
+      "Regulation is not simply “turning on the vagus nerve”; it involves flexible coordination across autonomic, respiratory, cortical and contextual systems.",
+      "HRV is not a direct measure of psychological safety."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "parasympathetic-regulation-trauma-q1",
+      "question": "What is the most accurate core statement about Parasympathetic Regulation?",
+      "options": [
+        "Parasympathetic processes support recovery after activation and help regulate heart rate, digestion and social engagement.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Parasympathetic processes support recovery after activation and help regulate heart rate, digestion and social engagement."
+    },
+    {
+      "id": "parasympathetic-regulation-trauma-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "Regulation is not simply “turning on the vagus nerve”; it involves flexible coordination across autonomic, respiratory, cortical and contextual systems.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Regulation is not simply “turning on the vagus nerve”; it involves flexible coordination across autonomic, respiratory, cortical and contextual systems."
+    },
+    {
+      "id": "parasympathetic-regulation-trauma-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "HRV is not a direct measure of psychological safety.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "HRV is not a direct measure of psychological safety."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "Parasympathetic processes support recovery after activation and help regulate heart rate, digestion and social engagement."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "HRV is not a direct measure of psychological safety."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established physiology; measurement caveats"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

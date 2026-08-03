@@ -1,0 +1,122 @@
+{
+  "id": "premorbid-ability-estimation",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the core mechanisms of Premorbid Ability Estimation.",
+    "Apply Premorbid Ability Estimation to differential interpretation.",
+    "Identify major confounds and red flags.",
+    "Translate findings into proportionate recommendations."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Collect history",
+      "detail": "Education, occupation, records and developmental history establish context."
+    },
+    {
+      "label": "Select methods",
+      "detail": "Choose estimates appropriate to language, culture and condition."
+    },
+    {
+      "label": "Triangulate",
+      "detail": "Compare demographic, hold-test and record-based evidence."
+    },
+    {
+      "label": "Express uncertainty",
+      "detail": "Use a plausible range and state limitations."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace the clinical reasoning pathway",
+    "steps": [
+      {
+        "label": "Collect history",
+        "detail": "Education, occupation, records and developmental history establish context."
+      },
+      {
+        "label": "Select methods",
+        "detail": "Choose estimates appropriate to language, culture and condition."
+      },
+      {
+        "label": "Triangulate",
+        "detail": "Compare demographic, hold-test and record-based evidence."
+      },
+      {
+        "label": "Express uncertainty",
+        "detail": "Use a plausible range and state limitations."
+      }
+    ],
+    "accessibilityLabel": "Interactive mechanism sequence for Premorbid Ability Estimation"
+  },
+  "quizBank": [
+    {
+      "question": "Why should premorbid ability usually be expressed as a range?",
+      "options": [
+        "Because norms are unnecessary",
+        "Because every estimate contains uncertainty and assumptions",
+        "Because cognitive decline cannot occur",
+        "Because reading is always preserved"
+      ],
+      "answer": 1,
+      "explanation": "Because every estimate contains uncertainty and assumptions is the best-supported answer."
+    },
+    {
+      "question": "What is the safest principle when interpreting Premorbid Ability Estimation?",
+      "options": [
+        "Use one score in isolation",
+        "Integrate history, behaviour, validity and function",
+        "Assume localisation is exact",
+        "Ignore contextual factors"
+      ],
+      "answer": 1,
+      "explanation": "Neuropsychological interpretation requires converging evidence and context."
+    },
+    {
+      "question": "Which finding should increase urgency for medical assessment?",
+      "options": [
+        "Stable lifelong variation",
+        "Acute or progressive focal change",
+        "Improvement with support",
+        "A single average score"
+      ],
+      "answer": 1,
+      "explanation": "Acute, progressive or focal change can indicate neurological disease."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core clinical distinction?",
+      "answer": "Premorbid ability is an interval with uncertainty, not a single hidden true score."
+    },
+    {
+      "prompt": "What mechanism should be remembered?",
+      "answer": "Collect history → Select methods → Triangulate → Express uncertainty"
+    },
+    {
+      "prompt": "What red flags or alternatives matter?",
+      "answer": "Avoid demographic formulas or reading estimates when the normative assumptions do not fit the person."
+    }
+  ],
+  "tags": [
+    "premorbid ability estimation",
+    "neuropsychology",
+    "assessment",
+    "clinical interpretation",
+    "differential diagnosis"
+  ],
+  "references": [
+    {
+      "citation": "Franzen MD, Burgess EJ, Smith-Seemiller L. Methods of estimating premorbid functioning. Archives of Clinical Neuropsychology. 1997;12:711–738.",
+      "url": "https://doi.org/10.1093/arclin/12.8.711"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "url": "https://doi.org/10.1080/13825580601025932"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    }
+  ]
+}

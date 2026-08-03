@@ -1,0 +1,173 @@
+{
+  "id": "eight-phases-emdr",
+  "schemaVersion": "2.0.0",
+  "status": "production",
+  "module": "Trauma & EMDR Neuroscience",
+  "sequence": 35,
+  "level": 28,
+  "title": "Eight Phases of EMDR",
+  "subtitle": "A structured protocol beyond eye movements",
+  "hero": "eight-phases-emdr.svg",
+  "altText": "Chalkboard-style clinical neuroscience diagram illustrating eight phases of emdr across threat, memory, regulation and treatment systems.",
+  "prerequisites": [
+    "adaptive-information-processing"
+  ],
+  "previousConcept": "adaptive-information-processing",
+  "nextConcept": "mechanisms-change-emdr",
+  "tags": [
+    "eight",
+    "phases",
+    "emdr",
+    "trauma",
+    "emdr",
+    "established protocol standard"
+  ],
+  "searchTerms": [
+    "eight",
+    "phases",
+    "emdr",
+    "trauma",
+    "established protocol standard",
+    "structured",
+    "protocol",
+    "beyond",
+    "movements"
+  ],
+  "learningObjectives": [
+    "Explain eight phases of emdr in clinically accurate language.",
+    "Distinguish established findings from theoretical or mixed claims in eight phases of emdr.",
+    "Identify one limitation or safety implication relevant to eight phases of emdr."
+  ],
+  "sections": {
+    "explainSimply": "EMDR includes history, preparation, assessment, desensitisation, installation, body scan, closure and reevaluation.",
+    "explainLikePsychologist": "The phases support formulation, consent, stabilisation, target activation, processing, monitoring and follow-up.",
+    "advancedClinicalDetail": "Competent delivery requires training, pacing, documentation and adaptation for dissociation, developmental level and complexity.",
+    "thinkOfItLike": "Think of eight phases of emdr as one part of a dynamic safety-and-learning system rather than a single switch.",
+    "whyPsychologistsCare": "Psychologists need eight phases of emdr to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
+    "whenItGoesWrong": "Eye movements without the broader protocol are not equivalent to EMDR therapy.",
+    "clinicalPearl": "Clinical pearl: use eight phases of emdr to sharpen formulation, not to replace phenomenology or outcome measurement.",
+    "practicalExample": "A clinician uses eight phases of emdr to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
+    "limitationsCautions": "Eye movements without the broader protocol are not equivalent to EMDR therapy. Evidence classification: established protocol standard."
+  },
+  "mechanismMap": [
+    {
+      "label": "Trigger / context",
+      "detail": "Identify current cues, developmental context and meaning."
+    },
+    {
+      "label": "State response",
+      "detail": "EMDR includes history, preparation, assessment, desensitisation, installation, body scan, closure and reevaluation."
+    },
+    {
+      "label": "Learning / memory",
+      "detail": "The phases support formulation, consent, stabilisation, target activation, processing, monitoring and follow-up."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Eye movements without the broader protocol are not equivalent to EMDR therapy."
+    }
+  ],
+  "interaction": {
+    "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
+    "signalSteps": [
+      "Establish context and current safety.",
+      "EMDR includes history, preparation, assessment, desensitisation, installation, body scan, closure and reevaluation.",
+      "The phases support formulation, consent, stabilisation, target activation, processing, monitoring and follow-up.",
+      "Eye movements without the broader protocol are not equivalent to EMDR therapy."
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "eight-phases-emdr-q1",
+      "question": "What is the most accurate core statement about Eight Phases of EMDR?",
+      "options": [
+        "EMDR includes history, preparation, assessment, desensitisation, installation, body scan, closure and reevaluation.",
+        "It is a diagnostic biomarker",
+        "It has one universal mechanism",
+        "It guarantees treatment response"
+      ],
+      "correctAnswer": 0,
+      "rationale": "EMDR includes history, preparation, assessment, desensitisation, installation, body scan, closure and reevaluation."
+    },
+    {
+      "id": "eight-phases-emdr-q2",
+      "question": "Which interpretation is most clinically responsible?",
+      "options": [
+        "The phases support formulation, consent, stabilisation, target activation, processing, monitoring and follow-up.",
+        "Treat group findings as individual diagnosis",
+        "Ignore context and comorbidity",
+        "Assume causality from correlation"
+      ],
+      "correctAnswer": 0,
+      "rationale": "The phases support formulation, consent, stabilisation, target activation, processing, monitoring and follow-up."
+    },
+    {
+      "id": "eight-phases-emdr-q3",
+      "question": "Which caution should guide practice?",
+      "options": [
+        "Eye movements without the broader protocol are not equivalent to EMDR therapy.",
+        "More intensity is always better",
+        "Mechanism certainty is required before consent",
+        "Neuroscience replaces clinical assessment"
+      ],
+      "correctAnswer": 0,
+      "rationale": "Eye movements without the broader protocol are not equivalent to EMDR therapy."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "State the core principle.",
+      "answer": "EMDR includes history, preparation, assessment, desensitisation, installation, body scan, closure and reevaluation."
+    },
+    {
+      "prompt": "State the main caution.",
+      "answer": "Eye movements without the broader protocol are not equivalent to EMDR therapy."
+    },
+    {
+      "prompt": "Classify the evidence.",
+      "answer": "established protocol standard"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "successfulIntervalsDays": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90
+    ],
+    "lapseIntervalDays": 1,
+    "masteryTarget": 0.85
+  },
+  "capabilities": {
+    "bookmark": true,
+    "progressTracking": true,
+    "offline": true,
+    "reducedMotionCompatible": true,
+    "responsive": true
+  },
+  "references": [
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceType": "guideline"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceType": "guideline"
+    }
+  ]
+}

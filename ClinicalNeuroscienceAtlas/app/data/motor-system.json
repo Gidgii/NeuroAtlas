@@ -1,0 +1,171 @@
+{
+  "id": "motor-system",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Trace voluntary movement from cortical planning to spinal execution.",
+    "Distinguish basal-ganglia action selection from cerebellar error correction.",
+    "Relate upper- and lower-motor-neuron signs to pathway level.",
+    "Avoid treating all reduced movement as weakness."
+  ],
+  "anatomy": [
+    {
+      "id": "premotor",
+      "label": "Premotor and supplementary cortex",
+      "short": "Select and sequence goal-directed actions",
+      "detail": "These frontal regions prepare movements using internal goals and external cues.",
+      "clinical": "Disruption may cause impaired sequencing, initiation or apraxic errors."
+    },
+    {
+      "id": "m1",
+      "label": "Primary motor cortex",
+      "short": "Generate descending motor commands",
+      "detail": "M1 contributes fractionated voluntary control through corticospinal and corticobulbar projections.",
+      "clinical": "Focal injury commonly produces contralateral weakness and loss of fine control."
+    },
+    {
+      "id": "basal",
+      "label": "Basal ganglia",
+      "short": "Bias action selection and vigour",
+      "detail": "Parallel loops facilitate useful actions while suppressing competitors.",
+      "clinical": "Circuit imbalance contributes to bradykinesia, rigidity, dystonia and hyperkinesia."
+    },
+    {
+      "id": "cerebellum",
+      "label": "Cerebellum",
+      "short": "Predict, compare and correct",
+      "detail": "Cerebellar circuits compare intended and actual outcomes to refine timing and accuracy.",
+      "clinical": "Lesions cause ipsilateral ataxia, dysmetria and impaired motor learning."
+    },
+    {
+      "id": "spinal",
+      "label": "Brainstem and spinal cord",
+      "short": "Execute coordinated muscle patterns",
+      "detail": "Descending pathways converge on interneurons and lower motor neurons.",
+      "clinical": "Damage may produce weakness, altered tone, abnormal reflexes or patterned posturing."
+    }
+  ],
+  "interaction": {
+    "title": "Explore the Motor System",
+    "instruction": "Select a component, then run the sequence.",
+    "ariaLabel": "Interactive Motor System model",
+    "stages": [
+      {
+        "label": "Plan",
+        "text": "Frontal networks define the goal and organise the action sequence."
+      },
+      {
+        "label": "Select",
+        "text": "Basal-ganglia loops bias the chosen action and suppress competitors."
+      },
+      {
+        "label": "Command",
+        "text": "Motor cortex sends descending signals through brainstem and spinal pathways."
+      },
+      {
+        "label": "Correct",
+        "text": "Cerebellar prediction and sensory feedback continuously refine the movement."
+      },
+      {
+        "label": "Learn",
+        "text": "Successful and unsuccessful outcomes update future motor commands."
+      }
+    ]
+  },
+  "quizBank": [
+    {
+      "id": "motor-system-q1",
+      "question": "Which structure is most associated with online prediction-error correction?",
+      "options": [
+        "Cerebellum",
+        "Amygdala",
+        "Hippocampus",
+        "Hypothalamus"
+      ],
+      "answer": 0,
+      "explanation": "The cerebellum compares expected and actual movement outcomes and updates commands."
+    },
+    {
+      "id": "motor-system-q2",
+      "question": "The corticospinal tract is especially important for:",
+      "options": [
+        "Fractionated voluntary movement",
+        "Hormone release",
+        "Episodic memory",
+        "Auditory localisation"
+      ],
+      "answer": 0,
+      "explanation": "Corticospinal projections are central to skilled voluntary control, particularly of distal limbs."
+    },
+    {
+      "id": "motor-system-q3",
+      "question": "Basal-ganglia circuits primarily help to:",
+      "options": [
+        "Bias action selection and movement vigour",
+        "Detect retinal contrast",
+        "Produce cerebrospinal fluid",
+        "Encode word meaning"
+      ],
+      "answer": 0,
+      "explanation": "Basal-ganglia loops help select and scale actions while suppressing competitors."
+    },
+    {
+      "id": "motor-system-q4",
+      "question": "An upper-motor-neuron lesion commonly produces:",
+      "options": [
+        "Weakness with increased tone and reflexes",
+        "Flaccidity with fasciculations only",
+        "Pure sensory loss",
+        "Isolated amnesia"
+      ],
+      "answer": 0,
+      "explanation": "Loss of descending control can produce weakness, hyperreflexia and spasticity."
+    },
+    {
+      "id": "motor-system-q5",
+      "question": "Apraxia refers to:",
+      "options": [
+        "Impaired learned action despite sufficient basic strength",
+        "Complete paralysis from spinal injury",
+        "Loss of pain sensation",
+        "Failure to recognise faces"
+      ],
+      "answer": 0,
+      "explanation": "Apraxia is a disorder of learned purposeful action not explained by elementary weakness alone."
+    }
+  ],
+  "tags": [
+    "motor cortex",
+    "corticospinal tract",
+    "basal ganglia",
+    "cerebellum",
+    "movement",
+    "apraxia",
+    "motor control"
+  ],
+  "spacedRepetition": {
+    "again": 1,
+    "hard": 3,
+    "good": 7,
+    "easy": 14,
+    "prompts": [
+      "Name the major components of the Motor System.",
+      "Explain one clinically relevant function of the Motor System.",
+      "Identify one common oversimplification to avoid."
+    ]
+  },
+  "references": [
+    {
+      "type": "Textbook",
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Lemon RN. Descending pathways in motor control. Annu Rev Neurosci. 2008;31:195–218."
+    },
+    {
+      "type": "Review",
+      "citation": "Shadmehr R, Krakauer JW. A computational neuroanatomy for motor control. Exp Brain Res. 2008;185:359–381."
+    }
+  ]
+}

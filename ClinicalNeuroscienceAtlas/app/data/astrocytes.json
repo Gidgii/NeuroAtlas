@@ -1,0 +1,140 @@
+{
+  "id": "astrocytes",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Identify the soma, fine perisynaptic processes, vascular endfeet, gap-junction network and principal transporter systems of an astrocyte.",
+    "Explain how astrocytes stabilise extracellular potassium and clear glutamate after synaptic activity.",
+    "Describe the tripartite synapse and the astrocyte contribution to metabolic and neurovascular support.",
+    "Apply astrocyte principles to seizures, excitotoxicity, blood–brain barrier dysfunction and reactive astrogliosis without treating glia as passive support cells."
+  ],
+  "anatomy": [
+    {
+      "id": "soma",
+      "label": "Astrocyte soma",
+      "short": "Metabolic control centre",
+      "detail": "The soma contains the nucleus and biosynthetic machinery that maintain the astrocyte's extensive territorial processes. A single astrocyte can coordinate local homeostasis across many synapses.",
+      "clinical": "Astrocytes are metabolically active cells, not inert packing material. Their failure can alter neuronal function even when neurons remain structurally intact."
+    },
+    {
+      "id": "perisynaptic",
+      "label": "Perisynaptic processes",
+      "short": "Synapse-facing branches",
+      "detail": "Very fine astrocytic processes approach or envelop synapses. They sense transmitter release, shape extracellular chemistry and help limit spillover between neighbouring synapses.",
+      "clinical": "The tripartite synapse frames transmission as an interaction among the presynaptic neuron, postsynaptic neuron and nearby astrocyte."
+    },
+    {
+      "id": "transporters",
+      "label": "Glutamate transporters",
+      "short": "Rapid transmitter clearance",
+      "detail": "Astrocytic excitatory amino-acid transporters, especially EAAT2 in humans, remove much of the glutamate released into the extracellular space. Astrocytes then convert glutamate to glutamine for reuse by neurons.",
+      "clinical": "Impaired glutamate clearance can increase excitotoxic stress and destabilise networks. This is clinically relevant to epilepsy, injury and several neurodegenerative conditions."
+    },
+    {
+      "id": "potassium",
+      "label": "Potassium buffering",
+      "short": "Electrical environment control",
+      "detail": "Neuronal firing raises extracellular potassium. Astrocytes take up and redistribute potassium through channels and coupled networks, helping preserve the gradients required for reliable excitability.",
+      "clinical": "Failure of potassium homeostasis can lower seizure threshold and amplify pathological synchrony."
+    },
+    {
+      "id": "endfeet",
+      "label": "Vascular endfeet",
+      "short": "Interface with blood vessels",
+      "detail": "Astrocytic endfeet closely cover cerebral microvessels. They participate in the neurovascular unit, support barrier properties and help match local perfusion to neural activity.",
+      "clinical": "Functional imaging relies on neurovascular coupling. BOLD signal is therefore an indirect haemodynamic correlate of neural activity, shaped by neuron–glia–vascular interactions."
+    },
+    {
+      "id": "metabolism",
+      "label": "Metabolic support",
+      "short": "Fuel storage and delivery",
+      "detail": "Astrocytes store glycogen, process glucose and provide metabolic substrates that support active neurons. Their position between synapses and blood vessels makes them key coordinators of local energy demand.",
+      "clinical": "Sleep loss, hypoxia and metabolic stress can impair cognition partly by disturbing the systems that support neuronal energy use."
+    },
+    {
+      "id": "network",
+      "label": "Gap-junction network",
+      "short": "Coupled local syncytium",
+      "detail": "Astrocytes connect to neighbouring astrocytes through gap junctions, allowing ions and small molecules to redistribute across a functional network rather than remaining confined to one cell.",
+      "clinical": "Homeostasis is distributed. A local disturbance may be buffered across an astrocytic network, but widespread dysfunction can reduce that reserve."
+    }
+  ],
+  "interaction": {
+    "instruction": "Select an astrocyte system, then run the support cycle to follow glutamate clearance, potassium buffering and blood-flow matching.",
+    "supportSteps": [
+      "Synaptic activity releases glutamate and raises extracellular potassium.",
+      "Perisynaptic astrocyte processes detect and take up these signals.",
+      "Glutamate is converted to glutamine and returned to neurons for transmitter synthesis.",
+      "Potassium is redistributed through astrocytic channels and gap-junction networks.",
+      "Vascular endfeet help coordinate local blood flow and metabolic support with tissue demand."
+    ]
+  },
+  "quizBank": [
+    {
+      "question": "Which astrocyte function most directly limits glutamate accumulation outside neurons?",
+      "options": ["EAAT-mediated uptake", "Myelin wrapping", "Microglial phagocytosis", "Axonal sodium influx"],
+      "answer": 0,
+      "explanation": "Astrocytic excitatory amino-acid transporters rapidly clear extracellular glutamate and help prevent spillover and excitotoxic stress."
+    },
+    {
+      "question": "What does the tripartite synapse add to the traditional two-neuron model?",
+      "options": ["A nearby astrocyte that senses and regulates synaptic activity", "A second axon hillock", "A vascular smooth-muscle cell inside the cleft", "A microglial nucleus in the postsynaptic neuron"],
+      "answer": 0,
+      "explanation": "The tripartite concept recognises the perisynaptic astrocyte as an active participant alongside pre- and postsynaptic neuronal elements."
+    },
+    {
+      "question": "Why is astrocytic potassium buffering important?",
+      "options": ["It stabilises neuronal excitability after firing", "It generates action potentials in myelin", "It converts dopamine into serotonin", "It creates cerebrospinal fluid in ventricles"],
+      "answer": 0,
+      "explanation": "Neuronal activity raises extracellular potassium; astrocytes help redistribute it so membrane gradients and network stability are maintained."
+    },
+    {
+      "question": "Astrocytic vascular endfeet are part of which functional system?",
+      "options": ["The neurovascular unit", "The corticospinal tract", "The ventricular choroid plexus only", "The peripheral neuromuscular junction"],
+      "answer": 0,
+      "explanation": "Endfeet contact cerebral microvessels and contribute to barrier support, metabolic exchange and activity-linked blood-flow regulation."
+    },
+    {
+      "question": "Which statement about reactive astrogliosis is most accurate?",
+      "options": ["It can be protective or maladaptive depending on context and duration", "It always means astrocytes have died", "It is identical to bacterial meningitis", "It has no effect on neuronal networks"],
+      "answer": 0,
+      "explanation": "Reactive astrocyte responses are heterogeneous. They may contain injury and restore homeostasis, but persistent or dysregulated responses can also impede recovery."
+    }
+  ],
+  "tags": [
+    "astrocyte", "astroglia", "glia", "tripartite synapse", "EAAT2", "glutamate uptake", "glutamate glutamine cycle", "potassium buffering", "neurovascular coupling", "blood brain barrier", "vascular endfeet", "glycogen", "metabolic support", "gap junctions", "reactive astrogliosis", "excitotoxicity", "epilepsy"
+  ],
+  "spacedRepetition": {
+    "conceptKey": "astrocytes",
+    "minimumReviewItems": 5,
+    "reviewPrompts": [
+      "Name three homeostatic functions performed by astrocytes.",
+      "Explain the tripartite synapse in one sentence.",
+      "Trace glutamate from synaptic release to neuronal reuse.",
+      "Explain why potassium buffering matters for seizure threshold.",
+      "Distinguish adaptive from potentially maladaptive reactive astrogliosis."
+    ]
+  },
+  "references": [
+    {
+      "type": "Foundational review",
+      "citation": "Perea G, Navarrete M, Araque A. Tripartite synapses: astrocytes process and control synaptic information. Trends Neurosci. 2009;32(8):421–431.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19615761/"
+    },
+    {
+      "type": "Homeostasis review",
+      "citation": "Cheung G, Sibille J, Zapata J, Rouach N. Activity-dependent plasticity of astroglial potassium and glutamate clearance. Neural Plast. 2015;2015:109106.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4539499/"
+    },
+    {
+      "type": "Neurovascular review",
+      "citation": "Petzold GC, Murthy VN. Role of astrocytes in neurovascular coupling. Neuron. 2011;71(5):782–797.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21903073/"
+    },
+    {
+      "type": "Open textbook",
+      "citation": "Purves D, et al. Neuroglial Cells. Neuroscience. 2nd ed. NCBI Bookshelf.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10869/"
+    }
+  ]
+}

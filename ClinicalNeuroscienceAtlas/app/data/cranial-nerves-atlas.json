@@ -1,0 +1,228 @@
+{
+  "id": "cranial-nerves-atlas",
+  "schemaVersion": "2.1.0",
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 21,
+  "level": 29,
+  "title": "Cranial Nerves Atlas",
+  "subtitle": "Map all twelve cranial nerves from nuclei to skull exits and target organs",
+  "pronunciation": "KRAY-nee-ul nurvz",
+  "hero": "cranial-nerves-atlas.svg",
+  "altText": "Chalkboard-style interactive anatomical illustration for Cranial Nerves Atlas, showing labelled structures and pathway relationships.",
+  "prerequisites": [
+    "ventricular-system-atlas"
+  ],
+  "previousConcept": "ventricular-system-atlas",
+  "nextConcept": "deep-nuclei-atlas",
+  "tags": [
+    "interactive anatomy",
+    "neuroanatomy",
+    "cranial nerves atlas",
+    "clinical localisation",
+    "brain atlas"
+  ],
+  "searchTerms": [
+    "Cranial Nerves Atlas",
+    "KRAY-nee-ul nurvz",
+    "inputs",
+    "outputs",
+    "lesions",
+    "blood supply",
+    "clinical significance"
+  ],
+  "learningObjectives": [
+    "Identify the major components of cranial nerves.",
+    "Trace clinically relevant inputs, outputs and connections.",
+    "Relate focal dysfunction to plausible neurological and behavioural signs."
+  ],
+  "sections": {
+    "explainSimply": "Cranial Nerves is a set of connected structures that can be explored layer by layer to understand where it sits and what it does.",
+    "explainLikePsychologist": "This atlas links the anatomy of cranial nerves to behaviour, cognition, neurological signs and clinically meaningful patterns without reducing complex functions to one structure.",
+    "advancedClinicalDetail": "The cranial nerves should be interpreted through spatial relationships, laterality, vascular supply, pathway continuity and distributed network effects. Focal damage can create both local signs and disconnection syndromes.",
+    "thinkOfItLike": "Think of it as a layered transit map: structures are stations, tracts are routes, and symptoms depend on which junctions or connections are interrupted.",
+    "whyPsychologistsCare": "Recognising plausible neuroanatomical patterns supports better referral, formulation and interpretation of cognitive or behavioural change.",
+    "whenItGoesWrong": "Over-localising a symptom to one structure, or treating an atlas view as diagnostic evidence, can produce false certainty.",
+    "clinicalPearl": "The only sensory system that reaches cortex without an obligatory thalamic relay.",
+    "practicalExample": "A clinician can select a structure in the Cranial Nerves Atlas and trace its inputs and outputs before comparing the predicted pattern with examination, imaging and functional assessment.",
+    "limitationsCautions": "This atlas supports learning and clinical reasoning; it does not replace neurological examination, imaging or specialist interpretation."
+  },
+  "anatomy": [
+    {
+      "id": "cn-i",
+      "label": "CN I — Olfactory",
+      "pronunciation": "CN I — Olfactory",
+      "function": "Smell",
+      "inputs": "Olfactory epithelium",
+      "outputs": "Olfactory bulb and cortex",
+      "connections": "Olfactory epithelium; projects to Olfactory bulb and cortex.",
+      "associatedDisorders": "Anosmia, frontal-base injury",
+      "clinicalSignificance": "The only sensory system that reaches cortex without an obligatory thalamic relay."
+    },
+    {
+      "id": "cn-ii",
+      "label": "CN II — Optic",
+      "pronunciation": "CN II — Optic",
+      "function": "Vision",
+      "inputs": "Retinal ganglion cells",
+      "outputs": "Chiasm, tract, LGN and visual cortex",
+      "connections": "Retinal ganglion cells; projects to Chiasm, tract, LGN and visual cortex.",
+      "associatedDisorders": "Visual-field loss, optic neuritis",
+      "clinicalSignificance": "Field defects localise lesions along the visual pathway."
+    },
+    {
+      "id": "cn-iii-iv-vi",
+      "label": "CN III, IV and VI",
+      "pronunciation": "CN III, IV and VI",
+      "function": "Coordinate eye movements and pupil responses",
+      "inputs": "Brainstem gaze systems",
+      "outputs": "Extraocular muscles and pupil",
+      "connections": "Brainstem gaze systems; projects to Extraocular muscles and pupil.",
+      "associatedDisorders": "Diplopia, ptosis, anisocoria",
+      "clinicalSignificance": "Patterns of ophthalmoplegia help localise brainstem, cavernous sinus or orbital disease."
+    },
+    {
+      "id": "cn-v",
+      "label": "CN V — Trigeminal",
+      "pronunciation": "CN V — Trigeminal",
+      "function": "Facial sensation and mastication",
+      "inputs": "Face, cornea, oral cavity",
+      "outputs": "Brainstem nuclei and muscles of mastication",
+      "connections": "Face, cornea, oral cavity; projects to Brainstem nuclei and muscles of mastication.",
+      "associatedDisorders": "Neuralgia, numbness, weak jaw",
+      "clinicalSignificance": "Corneal reflex testing samples both trigeminal and facial pathways."
+    },
+    {
+      "id": "cn-vii",
+      "label": "CN VII — Facial",
+      "pronunciation": "CN VII — Facial",
+      "function": "Facial expression, taste, lacrimation and salivation",
+      "inputs": "Pons and taste receptors",
+      "outputs": "Facial muscles and glands",
+      "connections": "Pons and taste receptors; projects to Facial muscles and glands.",
+      "associatedDisorders": "Bell palsy, central facial weakness",
+      "clinicalSignificance": "Forehead sparing suggests a supranuclear lesion rather than peripheral facial palsy."
+    },
+    {
+      "id": "cn-viii",
+      "label": "CN VIII — Vestibulocochlear",
+      "pronunciation": "CN VIII — Vestibulocochlear",
+      "function": "Hearing and balance",
+      "inputs": "Cochlea and vestibular organs",
+      "outputs": "Pontomedullary nuclei",
+      "connections": "Cochlea and vestibular organs; projects to Pontomedullary nuclei.",
+      "associatedDisorders": "Vertigo, hearing loss",
+      "clinicalSignificance": "Peripheral and central vestibular signs require different urgency and interpretation."
+    },
+    {
+      "id": "cn-ix-x",
+      "label": "CN IX and X",
+      "pronunciation": "CN IX and X",
+      "function": "Swallowing, voice and visceral regulation",
+      "inputs": "Pharynx, larynx and viscera",
+      "outputs": "Nucleus ambiguus and autonomic nuclei",
+      "connections": "Pharynx, larynx and viscera; projects to Nucleus ambiguus and autonomic nuclei.",
+      "associatedDisorders": "Dysphagia, dysphonia, aspiration",
+      "clinicalSignificance": "New bulbar symptoms can signal urgent brainstem or neuromuscular disease."
+    },
+    {
+      "id": "cn-xi-xii",
+      "label": "CN XI and XII",
+      "pronunciation": "CN XI and XII",
+      "function": "Head turning, shoulder elevation and tongue movement",
+      "inputs": "Motor nuclei",
+      "outputs": "SCM, trapezius and tongue",
+      "connections": "Motor nuclei; projects to SCM, trapezius and tongue.",
+      "associatedDisorders": "Weak shoulder, tongue deviation",
+      "clinicalSignificance": "Tongue deviation and atrophy help distinguish lower from upper motor pathway lesions."
+    }
+  ],
+  "interactions": {
+    "tap": true,
+    "zoom": true,
+    "pan": true,
+    "rotate": "simulated multi-view",
+    "layers": [
+      "overview",
+      "structures",
+      "connections",
+      "clinical overlay"
+    ],
+    "traceInputs": true,
+    "traceOutputs": true,
+    "compareLaterality": true,
+    "showFunctions": true,
+    "showLesions": true,
+    "returnToOverview": true
+  },
+  "quiz": [
+    {
+      "id": "cranial-nerves-atlas-q1",
+      "question": "What is the safest way to use the Cranial Nerves Atlas?",
+      "options": [
+        "As a spatial and network guide alongside clinical evidence",
+        "As a stand-alone diagnostic test",
+        "To assume one symptom has one location",
+        "To ignore laterality"
+      ],
+      "answer": 0,
+      "rationale": "As a spatial and network guide alongside clinical evidence"
+    },
+    {
+      "id": "cranial-nerves-atlas-q2",
+      "question": "Which principle best improves lesion interpretation?",
+      "options": [
+        "Consider location, pathways, laterality and network effects",
+        "Use only the structure name",
+        "Ignore white-matter connections",
+        "Assume all people have identical anatomy"
+      ],
+      "answer": 0,
+      "rationale": "Consider location, pathways, laterality and network effects"
+    },
+    {
+      "id": "cranial-nerves-atlas-q3",
+      "question": "What does selecting a structure reveal?",
+      "options": [
+        "Function, inputs, outputs, connections and clinical relevance",
+        "A definitive psychiatric diagnosis",
+        "A guaranteed prognosis",
+        "Only its colour"
+      ],
+      "answer": 0,
+      "rationale": "Function, inputs, outputs, connections and clinical relevance"
+    }
+  ],
+  "references": [
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Sinauer/Oxford University Press.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Standring S, ed. Gray’s Anatomy. 42nd ed. Elsevier.",
+      "type": "anatomy reference"
+    },
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. 10th ed. Wolters Kluwer.",
+      "type": "atlas"
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true,
+    "initialIntervalDays": 1,
+    "difficulty": "intermediate",
+    "reviewTags": [
+      "anatomy",
+      "clinical-localisation"
+    ]
+  },
+  "accessibility": {
+    "altText": "Interactive Cranial Nerves Atlas diagram",
+    "keyboardNavigable": true,
+    "screenReaderSummary": "Cranial Nerves is a set of connected structures that can be explored layer by layer to understand where it sits and what it does.",
+    "reducedMotionFallback": true
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

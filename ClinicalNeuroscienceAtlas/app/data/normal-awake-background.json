@@ -1,0 +1,138 @@
+{
+  "id": "normal-awake-background",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Normal Awake Background.",
+    "Apply Normal Awake Background to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "A normal adult awake EEG usually shows an organised posterior dominant rhythm with appropriate anterior–posterior gradient and reactivity."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Normal varies with age, state and medication. Interpretation integrates frequency, amplitude, symmetry, synchrony and continuity rather than one band value."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Provides the baseline against which slowing, asymmetry and epileptiform activity are judged."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "A normal variant can look unusual when isolated from age and state."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Normal Awake Background",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "A normal adult awake EEG usually shows an organised posterior dominant rhythm with appropriate anterior–posterior gradient and reactivity."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Normal varies with age, state and medication. Interpretation integrates frequency, amplitude, symmetry, synchrony and continuity rather than one band value."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Provides the baseline against which slowing, asymmetry and epileptiform activity are judged."
+      },
+      {
+        "label": "Check limits",
+        "detail": "A normal variant can look unusual when isolated from age and state."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Normal Awake Background"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Normal Awake Background?",
+      "options": [
+        "A normal adult awake EEG usually shows an organised posterior dominant rhythm with appropriate anterior–posterior gradient and reactivity.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "A normal adult awake EEG usually shows an organised posterior dominant rhythm with appropriate anterior–posterior gradient and reactivity."
+    },
+    {
+      "question": "What is the safest clinical principle for Normal Awake Background?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Normal Awake Background?",
+      "options": [
+        "A normal variant can look unusual when isolated from age and state.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "A normal variant can look unusual when isolated from age and state."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Normal varies with age, state and medication. Interpretation integrates frequency, amplitude, symmetry, synchrony and continuity rather than one band value."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Provides the baseline against which slowing, asymmetry and epileptiform activity are judged."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "A normal variant can look unusual when isolated from age and state."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "Organisation often matters more than whether one frequency is “high.”"
+    }
+  ],
+  "tags": [
+    "normal awake background",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "organisation",
+    "symmetry",
+    "reactivity",
+    "expected"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

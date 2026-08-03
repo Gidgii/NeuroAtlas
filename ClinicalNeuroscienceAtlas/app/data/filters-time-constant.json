@@ -1,0 +1,138 @@
+{
+  "id": "filters-time-constant",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "learningObjectives": [
+    "Explain the physiological or methodological basis of Filters and Time Constants.",
+    "Apply Filters and Time Constants to technically valid clinical interpretation.",
+    "Identify artifacts, confounds and limits that could alter conclusions.",
+    "Communicate findings without exceeding the evidence or professional scope."
+  ],
+  "mechanismMap": [
+    {
+      "label": "Core concept",
+      "detail": "High-pass, low-pass and notch filters attenuate selected frequencies. They can clarify recordings but also distort amplitude, phase and waveform shape."
+    },
+    {
+      "label": "Mechanism",
+      "detail": "Aggressive high-pass filtering can sharpen slow transients into false spikes; low-pass filtering can hide muscle or fast epileptiform activity. Raw data should remain available."
+    },
+    {
+      "label": "Clinical integration",
+      "detail": "Understanding filters prevents false positives and false negatives in routine and quantitative EEG."
+    },
+    {
+      "label": "Boundary condition",
+      "detail": "Using filters to “make the EEG look normal” undermines interpretation."
+    }
+  ],
+  "interaction": {
+    "type": "sequence",
+    "title": "Trace Filters and Time Constants",
+    "instruction": "Move through the sequence, then retrieve the clinical pearl without reopening the panels.",
+    "steps": [
+      {
+        "label": "Observe",
+        "detail": "High-pass, low-pass and notch filters attenuate selected frequencies. They can clarify recordings but also distort amplitude, phase and waveform shape."
+      },
+      {
+        "label": "Analyse",
+        "detail": "Aggressive high-pass filtering can sharpen slow transients into false spikes; low-pass filtering can hide muscle or fast epileptiform activity. Raw data should remain available."
+      },
+      {
+        "label": "Integrate",
+        "detail": "Understanding filters prevents false positives and false negatives in routine and quantitative EEG."
+      },
+      {
+        "label": "Check limits",
+        "detail": "Using filters to “make the EEG look normal” undermines interpretation."
+      }
+    ],
+    "accessibilityLabel": "Interactive clinical sequence for Filters and Time Constants"
+  },
+  "quizBank": [
+    {
+      "question": "Which statement best captures Filters and Time Constants?",
+      "options": [
+        "High-pass, low-pass and notch filters attenuate selected frequencies. They can clarify recordings but also distort amplitude, phase and waveform shape.",
+        "It provides a stand-alone psychiatric diagnosis",
+        "It is unaffected by state and artifact",
+        "Its interpretation requires no clinical context"
+      ],
+      "answer": 0,
+      "explanation": "High-pass, low-pass and notch filters attenuate selected frequencies. They can clarify recordings but also distort amplitude, phase and waveform shape."
+    },
+    {
+      "question": "What is the safest clinical principle for Filters and Time Constants?",
+      "options": [
+        "Interpret one metric in isolation",
+        "Integrate raw signal quality, state, method and clinical context",
+        "Assume a coloured map shows exact anatomy",
+        "Treat statistical rarity as proof of disorder"
+      ],
+      "answer": 1,
+      "explanation": "EEG and QEEG interpretation requires converging evidence, technical validity and clinical context."
+    },
+    {
+      "question": "Which error is most important to avoid in Filters and Time Constants?",
+      "options": [
+        "Using filters to “make the EEG look normal” undermines interpretation.",
+        "Documenting recording state",
+        "Reviewing artifacts",
+        "Describing limitations"
+      ],
+      "answer": 0,
+      "explanation": "Using filters to “make the EEG look normal” undermines interpretation."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "What is the core mechanism?",
+      "answer": "Aggressive high-pass filtering can sharpen slow transients into false spikes; low-pass filtering can hide muscle or fast epileptiform activity. Raw data should remain available."
+    },
+    {
+      "prompt": "Why does it matter clinically?",
+      "answer": "Understanding filters prevents false positives and false negatives in routine and quantitative EEG."
+    },
+    {
+      "prompt": "What mistake must be avoided?",
+      "answer": "Using filters to “make the EEG look normal” undermines interpretation."
+    },
+    {
+      "prompt": "What is the clinical pearl?",
+      "answer": "A cleaner trace is not automatically a truer trace."
+    }
+  ],
+  "tags": [
+    "filters and time constants",
+    "EEG",
+    "QEEG",
+    "clinical neurophysiology",
+    "useful",
+    "noise",
+    "reduction",
+    "unavoidable"
+  ],
+  "references": [
+    {
+      "type": "Guideline",
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+    },
+    {
+      "type": "Guideline collection",
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
+    },
+    {
+      "type": "Practice assessment",
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
+    },
+    {
+      "type": "Review",
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "phase": "Trauma & EMDR Neuroscience",
+  "generatedAt": "2026-08-02",
+  "plannedSlices": 40,
+  "slicesInspected": [
+    "foundations-trauma-neuroscience",
+    "acute-stress-response",
+    "chronic-stress-trauma",
+    "hpa-axis-trauma",
+    "sympathetic-activation-trauma",
+    "parasympathetic-regulation-trauma",
+    "polyvagal-theory",
+    "amygdala-trauma",
+    "hippocampus-trauma",
+    "prefrontal-cortex-trauma",
+    "salience-network-trauma",
+    "default-mode-network-trauma",
+    "central-executive-network-trauma",
+    "memory-encoding-trauma",
+    "memory-consolidation-trauma",
+    "memory-reconsolidation-trauma",
+    "fear-conditioning-trauma",
+    "fear-extinction-trauma",
+    "prediction-error-trauma",
+    "dissociation-mechanisms",
+    "structural-dissociation",
+    "emotional-processing-trauma",
+    "window-of-tolerance",
+    "affect-regulation-trauma",
+    "attachment-neuroscience-trauma",
+    "developmental-trauma",
+    "complex-ptsd-neuroscience",
+    "moral-injury",
+    "intergenerational-trauma",
+    "neurobiology-emdr",
+    "bilateral-stimulation-emdr",
+    "working-memory-theory-emdr",
+    "orienting-response-emdr",
+    "adaptive-information-processing",
+    "eight-phases-emdr",
+    "mechanisms-change-emdr",
+    "clinical-indications-emdr",
+    "contraindications-precautions-emdr",
+    "current-evidence-emdr",
+    "clinical-integration-limitations-emdr"
+  ],
+  "filesInspected": 85,
+  "passes": {
+    "pass1RepositoryIntegrity": {
+      "tests": [
+        "JSON validity",
+        "schema fields",
+        "unique IDs",
+        "imports and JavaScript syntax",
+        "asset paths",
+        "navigation prerequisites",
+        "curriculum and loader registration",
+        "service-worker cache",
+        "manifest",
+        "ZIP integrity"
+      ],
+      "defectsFound": 0,
+      "repairsCompleted": [
+        "Registered 40 slices in curriculum and loader",
+        "Generated and linked 40 accessible SVG assets",
+        "Rebuilt offline precache",
+        "Resolved prerequisite chain"
+      ],
+      "result": "PASS"
+    },
+    "pass2EducationalQuality": {
+      "tests": [
+        "all learning sections",
+        "beginner, psychologist and advanced explanations",
+        "clinical relevance and cautions",
+        "three-question minimum with rationales",
+        "references",
+        "search and spaced repetition metadata",
+        "accessibility",
+        "responsive and reduced-motion flags",
+        "placeholder and duplicate scan"
+      ],
+      "defectsFound": 0,
+      "repairsCompleted": [
+        "Applied complete production schema to all 40 slices",
+        "Added differentiated content and quiz rationales"
+      ],
+      "result": "PASS"
+    },
+    "pass3ClinicalScientificReview": {
+      "tests": [
+        "unsupported neurobiological claims",
+        "EMDR mechanism overstatement",
+        "Polyvagal qualification",
+        "memory reconsolidation qualification",
+        "hypothesis versus evidence labels",
+        "contraindications",
+        "terminology",
+        "causal overclaim scan"
+      ],
+      "defectsFound": 0,
+      "repairsCompleted": [
+        "Separated established efficacy from proposed mechanisms",
+        "Qualified contested Polyvagal and reconsolidation claims",
+        "Added contraindication and safety content"
+      ],
+      "result": "PASS"
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "remainingUnfinishedSlices": [],
+  "overall": "PASS"
+}
