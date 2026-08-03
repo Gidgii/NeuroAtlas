@@ -1,6 +1,6 @@
 {
-  "version": "2.11.0",
-  "status": "Interactive Anatomy in progress — 23 structures implemented; two roadmap structures remain",
+  "version": "2.12.0",
+  "status": "Interactive Anatomy in progress — 24 structures implemented; one roadmap structure remains",
   "currentPhase": "Interactive Anatomy Atlas",
   "completedProductionSlices": [
     "traumatic-brain-injury",
@@ -192,18 +192,19 @@
     "functional-network-overlay-atlas",
     "arterial-territories-stroke-comparison",
     "brain-lateralisation-comparison",
-    "healthy-versus-pathology-comparison"
+    "healthy-versus-pathology-comparison",
+    "lesion-and-symptom-mapping"
   ],
   "latestBatch": {
     "phase": "Interactive Anatomy Atlas",
-    "build": "35 — Healthy Versus Pathology Comparison",
+    "build": "36 — Lesion and Symptom Mapping",
     "type": "integrated vertical slice",
     "structuresCompleted": [
-      "healthy-versus-pathology-comparison"
+      "lesion-and-symptom-mapping"
     ],
     "structuresMigrated": 0,
-    "verifiedRegisteredStructures": 23,
-    "qa": "STATIC PASS — manual browser checks reported but not independently reproducible"
+    "verifiedRegisteredStructures": 24,
+    "qa": "STATIC PASS — browser runtime validation not run"
   },
   "neurofeedback": {
     "status": "complete",
@@ -309,9 +310,8 @@
   },
   "interactiveAnatomy": {
     "status": "in_progress",
-    "structuresCompleted": 23,
+    "structuresCompleted": 24,
     "remainingStructures": [
-      "lesion-and-symptom-mapping",
       "integrated-whole-brain-explorer-and-capstone"
     ],
     "verifiedStructures": [
@@ -330,6 +330,7 @@
       "hypothalamus-atlas",
       "insula-atlas",
       "insula-operculum-atlas",
+      "lesion-and-symptom-mapping",
       "limbic-system-atlas",
       "major-white-matter-pathways-atlas",
       "meninges-atlas",
@@ -339,8 +340,8 @@
       "thalamus-atlas",
       "ventricular-system-atlas"
     ],
-    "nextStructure": "lesion-and-symptom-mapping",
-    "qaStatus": "STATIC PASS — 23 canonical registrations validated; Build 35 manual browser checks reported but not independently reproducible",
+    "nextStructure": "integrated-whole-brain-explorer-and-capstone",
+    "qaStatus": "STATIC PASS — 24 canonical registrations validated; browser runtime validation not run for Build 36",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   }
 }

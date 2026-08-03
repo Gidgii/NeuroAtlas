@@ -154,3 +154,17 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
   Offline-network reload, mobile viewport and reduced-motion media emulation were not run.
 - Healthy Versus Pathology Comparison is the 23rd implemented structure. Interactive Anatomy remains in
   progress; Lesion and Symptom Mapping and the Integrated Whole-Brain Explorer and Capstone remain.
+
+## Build 36 — Lesion and Symptom Mapping (v2.12.0) — 2026-08-03
+- Added `lesion-and-symptom-mapping` as Level 29 structure 37 using canonical explorer schema 1.0.0.
+- Mapped cortical, subcortical, white-matter, brainstem, cerebellar and distributed lesion patterns through
+  laterality, vascular territory, pathway and network relationships without one-lesion-one-symptom claims.
+- Added a dedicated accessible SVG, seven selectable patterns plus overview, left-right comparison, four
+  overlays, pathway sequence, uncertainty cautions, four-question quiz bank and spaced-review metadata.
+- Integrated curriculum, loader, reciprocal navigation, search, bookmarks, progress, quiz, review and
+  offline caching; advanced the roadmap to the Integrated Whole-Brain Explorer and Capstone.
+- Repaired the optional comparison group's fixed healthy-pathology accessible name by allowing a safe,
+  data-driven label while preserving the Build 35 fallback.
+- Static validation passed. Browser runtime validation was not run because no committed harness exists.
+- Lesion and Symptom Mapping is the 24th implemented structure. Interactive Anatomy remains in progress;
+  the Integrated Whole-Brain Explorer and Capstone remains.

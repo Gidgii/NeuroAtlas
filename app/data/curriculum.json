@@ -1,5 +1,5 @@
 {
-  "version": "2.11.0",
+  "version": "2.12.0",
   "levels": [
     {
       "id": 1,
@@ -8573,6 +8573,27 @@
         "options": ["A finding becomes diagnostic only when appropriately combined with clinical and other evidence", "Any visible difference proves disorder", "An unremarkable scan excludes dysfunction", "Functional imaging independently establishes psychiatric diagnosis"],
         "answer": 0,
         "rationale": "Imaging is one evidence source; diagnosis depends on validated criteria and convergence with phenotype, course and examination."
+      }
+    },
+    {
+      "id": "lesion-and-symptom-mapping",
+      "level": 29,
+      "order": 37,
+      "title": "Lesion and Symptom Mapping",
+      "subtitle": "Relate lesions to pathways, networks, laterality, vascular territories and qualified symptom patterns",
+      "hero": "lesion-and-symptom-mapping.svg",
+      "simple": "A lesion affects tissue at one place, but symptoms depend on the pathways, networks and context around it. The map supports hypotheses, not certainty.",
+      "psych": "Cognition, emotion and behaviour emerge from distributed systems. Laterality, disconnection, diaschisis, reserve, development and time since injury all shape presentation.",
+      "advanced": "Lesion-symptom inference combines topography and mechanism with tract anatomy, network membership, hemispheric specialisation, vascular territory and temporal evolution. Many-to-many mapping is expected.",
+      "analogy": "A rail fault may damage one station, sever a track between intact stations or destabilise the timetable across the network.",
+      "care": "Qualified mapping guides assessment and rehabilitation while preventing biological overclaiming and one-region-one-symptom conclusions.",
+      "wrong": "Focal lesions, disconnections and distributed network dysfunction can produce overlapping patterns, while similar lesions can have different consequences.",
+      "pearl": "Ask what is focal, what is disconnected, what is distributed and which alternatives could produce the same findings.",
+      "quiz": {
+        "question": "Why is one-lesion-one-symptom reasoning unsafe?",
+        "options": ["Symptoms and lesions have many-to-many relationships shaped by pathways, networks and individual context", "Every symptom has one necessary cortical centre", "Laterality does not influence function", "Only lesion volume matters"],
+        "answer": 0,
+        "rationale": "A lesion can disturb several connected functions, while the same symptom can arise from different nodes, tracts or physiological mechanisms."
       }
     }
   ]
