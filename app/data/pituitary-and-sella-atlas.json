@@ -1,6 +1,7 @@
 {
   "id": "pituitary-and-sella-atlas",
   "schemaVersion": "2.1.0",
+  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 29,
