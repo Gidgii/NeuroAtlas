@@ -1,12 +1,12 @@
 {
-  "reportVersion": "2.12.0",
-  "build": "36 — Lesion and Symptom Mapping",
+  "reportVersion": "2.13.0",
+  "build": "37 — Integrated Whole-Brain Explorer and Capstone",
   "phase": "Interactive Anatomy Atlas",
   "generatedDate": "2026-08-03",
-  "status": "STATIC PASS — browser runtime validation not run",
-  "verifiedRegisteredStructures": 24,
+  "status": "STATIC PASS — all planned structures implemented; browser runtime validation not run",
+  "verifiedRegisteredStructures": 25,
   "canonicalSchemaVersion": "1.0.0",
-  "structuresAdded": ["lesion-and-symptom-mapping"],
+  "structuresAdded": ["integrated-whole-brain-explorer-and-capstone"],
   "structuresMigrated": [],
   "migrationHistory": {
     "build": "33.1 — Interactive Anatomy Runtime Stabilisation",
@@ -17,21 +17,23 @@
   },
   "buildHistory": [
     {"build": "34 — Brain Lateralisation Comparison", "version": "2.10.0", "structure": "brain-lateralisation-comparison"},
-    {"build": "35 — Healthy Versus Pathology Comparison", "version": "2.11.0", "structure": "healthy-versus-pathology-comparison", "runtimeEvidence": "Manual browser checks were reported but are not independently reproducible."}
+    {"build": "35 — Healthy Versus Pathology Comparison", "version": "2.11.0", "structure": "healthy-versus-pathology-comparison", "runtimeEvidence": "Manual browser checks were reported but are not independently reproducible."},
+    {"build": "36 — Lesion and Symptom Mapping", "version": "2.12.0", "structure": "lesion-and-symptom-mapping"}
   ],
   "staticValidation": {
     "status": "PASS",
-    "evidence": "Repository validation assertions, JSON and XML parsing, syntax checks, Git checks and source inspection",
-    "checks": {"jsonValidity": "PASS", "uniqueCurriculumIds": "PASS", "uniqueLevelOrderPairs": "PASS", "fileIdAlignment": "PASS", "loaderRegistration": "PASS", "curriculumRegistration": "PASS", "navigationLinkage": "PASS", "assetPaths": "PASS", "illustrationXml": "PASS", "serviceWorkerCoverage": "PASS", "serviceWorkerDuplicates": "PASS", "quizCoverageAndRationales": "PASS", "canonicalSchemaCompliance": "PASS", "searchMetadata": "PASS", "bookmarkCompatibility": "PASS", "progressTracking": "PASS", "spacedRepetition": "PASS", "accessibilityMetadata": "PASS", "reducedMotionSupport": "PASS", "javascriptSyntax": "PASS", "pythonSyntax": "PASS", "gitDiffAndWhitespace": "PASS"}
+    "evidence": "12 repository validation assertions, launcher validation, JSON and SVG parsing, JavaScript syntax checks, Git checks and source inspection",
+    "checks": {"jsonValidity": "PASS", "uniqueCurriculumIds": "PASS", "uniqueLevelOrderPairs": "PASS", "fileIdAlignment": "PASS", "loaderRegistration": "PASS", "curriculumRegistration": "PASS", "navigationLinkage": "PASS", "allStructureDestinations": "PASS", "assetPaths": "PASS", "illustrationXml": "PASS", "serviceWorkerCoverage": "PASS", "serviceWorkerDuplicates": "PASS", "quizCoverageAndRationales": "PASS", "canonicalSchemaCompliance": "PASS", "searchMetadata": "PASS", "bookmarkCompatibility": "PASS", "progressTracking": "PASS", "spacedRepetition": "PASS", "accessibilityMetadata": "PASS", "reducedMotionSupport": "PASS", "javascriptSyntax": "PASS", "pythonSyntax": "PASS", "gitDiffAndWhitespace": "PASS"}
   },
   "runtimeValidation": {
     "status": "NOT RUN",
     "automatedBrowserTests": "NOT COMMITTED",
-    "limitations": ["No committed repeatable browser harness is available.", "Browser rendering, control activation, search, bookmark, progress, quiz, spaced repetition, offline reload, mobile viewport, keyboard operation and reduced-motion media emulation were not run for Build 36."]
+    "limitations": ["No committed repeatable browser harness is available.", "Browser rendering, destination control activation, search, bookmark, progress, quiz, spaced repetition, offline reload, mobile viewport, keyboard operation and reduced-motion media emulation were not run for Build 37."]
   },
-  "defectsFound": ["The optional comparison control group used a healthy-versus-pathology-specific accessible name for every structure."],
-  "repairsCompleted": ["Added lesion-and-symptom-mapping as canonical Interactive Anatomy structure 37.", "Added a dedicated accessible SVG illustration.", "Registered curriculum, loader, navigation, search metadata, quiz, review and offline-cache integration.", "Added data-driven accessible comparison-group labels while retaining the Build 35 fallback and safe optional-data handling."],
-  "nextUnfinishedStructure": "integrated-whole-brain-explorer-and-capstone",
-  "remainingRoadmap": ["integrated-whole-brain-explorer-and-capstone"],
-  "notes": ["Lesion and Symptom Mapping is the 24th implemented Interactive Anatomy structure; it does not complete the phase.", "Build 33.1 migration and Builds 34 and 35 history are preserved.", "Examples distinguish focal injury, disconnection and distributed dysfunction and explicitly reject one-lesion-one-symptom determinism."]
+  "defectsFound": ["The canonical explorer could display integrated domains but had no data-driven destination control for navigating from a domain to its detailed structures."],
+  "repairsCompleted": ["Added the final canonical capstone with whole-brain, hemisphere and healthy-pathology comparison modes.", "Added data-driven keyboard-accessible destination controls covering all 24 previously completed Interactive Anatomy structures, including rebinding after dynamic domain changes.", "Added cortical, subcortical, brainstem, cerebellar, white-matter, vascular, functional, lesion and presentation integration.", "Added a dedicated accessible SVG and registered curriculum, loader, navigation, search, quiz, review and offline-cache integration."],
+  "nextUnfinishedStructure": null,
+  "remainingRoadmap": [],
+  "interactiveAnatomyCompletion": "COMPLETE — all 25 planned structures are implemented, integrated and statically validated",
+  "notes": ["Build 37 completes the planned Interactive Anatomy roadmap.", "Browser runtime PASS is not claimed.", "Clinical content preserves distributed-network, laterality, vascular, developmental, contextual and differential-diagnosis qualifications."]
 }

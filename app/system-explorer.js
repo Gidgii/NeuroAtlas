@@ -42,7 +42,8 @@ function canonicalOverlays(details){
 }
 
 function model(details){return {parts:canonicalParts(details),stages:canonicalStages(details),overlays:canonicalOverlays(details)}}
-function detailMarkup(item){return `<div class="eyebrow">Selected component</div><h3>${escapeHTML(item.label)}</h3><p>${escapeHTML(item.detail||item.short||'No additional description is available.')}</p>${item.clinical?`<aside><strong>Clinical relevance</strong>${escapeHTML(item.clinical)}</aside>`:''}`}
+function destinationMarkup(item){const ids=[...asArray(item.conceptIds),...asArray(item.conceptId)].filter(Boolean);return ids.length?`<nav class="system-destinations" aria-label="Detailed atlas destinations">${ids.map(id=>`<button class="secondary" data-open="${escapeHTML(id)}">Open ${escapeHTML(id.replace(/-/g,' '))}</button>`).join('')}</nav>`:''}
+function detailMarkup(item){return `<div class="eyebrow">Selected component</div><h3>${escapeHTML(item.label)}</h3><p>${escapeHTML(item.detail||item.short||'No additional description is available.')}</p>${item.clinical?`<aside><strong>Clinical relevance</strong>${escapeHTML(item.clinical)}</aside>`:''}${destinationMarkup(item)}`}
 
 export function renderSystemExplorer(details){
   const {parts,stages,overlays}=model(details),first=parts[0];
@@ -56,11 +57,13 @@ export function renderSystemExplorer(details){
 export function bindSystemExplorer(root,details){
   if(!root||!details||root.classList.contains('system-explorer-empty'))return;
   const {parts,stages,overlays}=model(details),partButtons=[...root.querySelectorAll('[data-system-part]')],overlayButtons=[...root.querySelectorAll('[data-system-overlay]')],comparisonButtons=[...root.querySelectorAll('[data-system-comparison]')],detail=root.querySelector('[data-system-detail]'),run=root.querySelector('[data-system-run]'),stageText=root.querySelector('[data-stage-text]'),nodes=[...root.querySelectorAll('[data-stage]')];
-  const selectPart=id=>{const item=parts.find(part=>part.id===id)||parts[0];if(!item)return;partButtons.forEach(button=>{const active=button.dataset.systemPart===item.id;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active))});overlayButtons.forEach(button=>{button.classList.remove('active');button.setAttribute('aria-pressed','false')});detail.innerHTML=detailMarkup(item)};
+  const bindDestinations=()=>detail.querySelectorAll('[data-open]').forEach(button=>button.onclick=()=>window.openAtlasConcept?.(button.dataset.open));
+  const selectPart=id=>{const item=parts.find(part=>part.id===id)||parts[0];if(!item)return;partButtons.forEach(button=>{const active=button.dataset.systemPart===item.id;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active))});overlayButtons.forEach(button=>{button.classList.remove('active');button.setAttribute('aria-pressed','false')});detail.innerHTML=detailMarkup(item);bindDestinations()};
   partButtons.forEach(button=>button.onclick=()=>selectPart(button.dataset.systemPart));
   comparisonButtons.forEach(button=>button.onclick=()=>{comparisonButtons.forEach(candidate=>{const active=candidate===button;candidate.classList.toggle('active',active);candidate.setAttribute('aria-pressed',String(active))});selectPart(button.dataset.systemComparisonPart)});
   overlayButtons.forEach(button=>button.onclick=()=>{const item=overlays.find(overlay=>overlay.id===button.dataset.systemOverlay);if(!item)return;overlayButtons.forEach(candidate=>{const active=candidate===button;candidate.classList.toggle('active',active);candidate.setAttribute('aria-pressed',String(active))});partButtons.forEach(candidate=>{candidate.classList.remove('active');candidate.setAttribute('aria-pressed','false')});detail.innerHTML=`<div class="eyebrow">Overlay</div><h3>${escapeHTML(item.label)}</h3><p>${escapeHTML(item.text)}</p>`});
   root.querySelector('[data-system-overview]')?.addEventListener('click',()=>selectPart(parts[0]?.id));
+  bindDestinations();
   if(!run||!stages.length)return;
   let timer=null;
   run.onclick=()=>{if(timer)return;let index=0;run.disabled=true;root.classList.add('system-running');const advance=()=>{nodes.forEach((node,nodeIndex)=>node.classList.toggle('active',nodeIndex===index));const stage=stages[index];if(!stage){finish();return}stageText.textContent=`${stage.label}: ${stage.text}`;index+=1;if(index>=stages.length)finish()};const finish=()=>{if(timer)clearInterval(timer);timer=null;run.disabled=false;root.classList.remove('system-running')};if(window.matchMedia?.('(prefers-reduced-motion: reduce)').matches){stages.forEach((stage,nodeIndex)=>{nodes.forEach((node,index)=>node.classList.toggle('active',index===nodeIndex));stageText.textContent=`${stage.label}: ${stage.text}`});finish();return}advance();if(index<stages.length)timer=setInterval(advance,1200)};

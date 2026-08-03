@@ -167,3 +167,29 @@ def test_build_36_lesion_mapping_is_complete_and_optional_runtime_is_safe():
     }
     source = (APP / "system-explorer.js").read_text(encoding="utf-8")
     assert "details.explorer?.comparisonLabel" in source
+
+
+def test_build_37_capstone_navigates_every_completed_anatomy_structure():
+    record = detail("integrated-whole-brain-explorer-and-capstone")
+    assert record["previousConcept"] == "lesion-and-symptom-mapping"
+    assert record["nextConcept"] is None
+    assert len(record["quiz"]) >= 3
+    assert all(question.get("rationale") for question in record["quiz"])
+    assert record["searchTerms"]
+    assert record["spacedRepetition"]["reviewPrompt"]
+    assert record["accessibility"]["reducedMotion"] is True
+    destinations = {
+        destination
+        for part in record["explorerParts"]
+        for destination in [*part.get("conceptIds", []), *([part["conceptId"]] if part.get("conceptId") else [])]
+    }
+    prior_atlas_ids = set(ATLAS_IDS) - {record["id"]}
+    assert destinations == prior_atlas_ids
+    assert {mode["id"] for mode in record["explorer"]["comparisonModes"]} == {
+        "left", "right", "healthy", "pathology"
+    }
+    source = (APP / "system-explorer.js").read_text(encoding="utf-8")
+    assert "data-open=" in source
+    assert "system-destinations" in source
+    assert "bindDestinations" in source
+    assert "openAtlasConcept" in (APP / "app.js").read_text(encoding="utf-8")

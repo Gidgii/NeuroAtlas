@@ -168,3 +168,18 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
 - Static validation passed. Browser runtime validation was not run because no committed harness exists.
 - Lesion and Symptom Mapping is the 24th implemented structure. Interactive Anatomy remains in progress;
   the Integrated Whole-Brain Explorer and Capstone remains.
+
+## Build 37 — Integrated Whole-Brain Explorer and Capstone (v2.13.0) — 2026-08-03
+- Added `integrated-whole-brain-explorer-and-capstone` as Level 29 structure 38 using canonical explorer schema 1.0.0.
+- Integrated cortical, subcortical, brainstem, cerebellar, white-matter, vascular, functional-network and
+  lesion perspectives in a whole-brain overview with left-right and healthy-pathology comparison modes.
+- Added data-driven destination controls from integrated domains to every one of the 24 previously completed
+  Interactive Anatomy structures, using the existing application routing and native keyboard controls.
+- Added a dedicated accessible SVG, four clinical overlays, pathway sequence, uncertainty cautions,
+  four-question quiz bank and spaced-review metadata.
+- Integrated curriculum, loader, terminal navigation, search, bookmarks, progress, quiz, review and offline caching.
+- Added a Build 37 repository assertion verifying exact destination coverage across all prior anatomy structures.
+- Launcher validation and 12 repository tests passed; JSON, SVG, JavaScript and Python syntax, service-worker
+  coverage, navigation and Git whitespace checks passed during the final static validation.
+- Browser runtime validation was not run because no committed reproducible browser harness exists.
+- Interactive Anatomy is complete: all 25 planned structures are implemented, integrated and statically validated.
