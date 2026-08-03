@@ -123,3 +123,14 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
   quiz, search, bookmark, progress, review and offline loading checks passed.
 - Pytest, Ruff and the Typer-based launcher could not run because their third-party packages are not
   installed in the available Python runtime.
+
+## Build 34 — Brain Lateralisation Comparison (v2.10.0) — 2026-08-03
+- Added `brain-lateralisation-comparison` as Level 29 structure 35 using canonical explorer schema 1.0.0.
+- Added a distinct accessible paired-hemisphere SVG and clinically qualified comparison of language,
+  attention, prosody, sensorimotor, visual-field, callosal and individual-variation systems.
+- Integrated curriculum, loader, navigation, search, bookmarks, progress, four-question quiz,
+  spaced repetition, references and offline caching.
+- Repaired application search so declared detail `searchTerms` are indexed alongside tags.
+- Static repository checks and JavaScript syntax passed; live browser rendering, selection, overlays,
+  overview reset, sequence playback, quiz scoring, bookmark, review and search checks passed without
+  console errors.

@@ -1,6 +1,6 @@
 {
-  "version": "2.9.1",
-  "status": "Interactive Anatomy in progress — 21 registered structures migrated to the canonical runtime schema",
+  "version": "2.10.0",
+  "status": "Interactive Anatomy planned set complete — 22 structures validated",
   "currentPhase": "Interactive Anatomy Atlas",
   "completedProductionSlices": [
     "traumatic-brain-injury",
@@ -190,15 +190,18 @@
     "major-white-matter-pathways-atlas",
     "neurotransmitter-pathways-atlas",
     "functional-network-overlay-atlas",
-    "arterial-territories-stroke-comparison"
+    "arterial-territories-stroke-comparison",
+    "brain-lateralisation-comparison"
   ],
   "latestBatch": {
     "phase": "Interactive Anatomy Atlas",
-    "build": "33.1 — Interactive Anatomy Runtime Stabilisation",
-    "type": "runtime stabilisation",
-    "structuresCompleted": [],
-    "structuresMigrated": 21,
-    "verifiedRegisteredStructures": 21,
+    "build": "34 — Brain Lateralisation Comparison",
+    "type": "integrated vertical slice",
+    "structuresCompleted": [
+      "brain-lateralisation-comparison"
+    ],
+    "structuresMigrated": 0,
+    "verifiedRegisteredStructures": 22,
     "qa": "PASS"
   },
   "neurofeedback": {
@@ -304,14 +307,13 @@
     "qaReport": "TRAUMA_EMDR_QA_REPORT.json"
   },
   "interactiveAnatomy": {
-    "status": "in_progress",
-    "structuresCompleted": 21,
-    "remainingStructures": [
-      "brain-lateralisation-comparison"
-    ],
+    "status": "complete",
+    "structuresCompleted": 22,
+    "remainingStructures": [],
     "verifiedStructures": [
       "arterial-territories-stroke-comparison",
       "basal-ganglia-circuit-explorer",
+      "brain-lateralisation-comparison",
       "brainstem-atlas",
       "cerebellum-atlas",
       "cerebral-lobes-atlas",
@@ -332,8 +334,8 @@
       "thalamus-atlas",
       "ventricular-system-atlas"
     ],
-    "nextStructure": "brain-lateralisation-comparison",
-    "qaStatus": "PASS — canonical schema and runtime safety validated",
+    "nextStructure": null,
+    "qaStatus": "PASS — 22 canonical structures validated",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   }
 }

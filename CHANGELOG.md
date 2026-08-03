@@ -146,3 +146,17 @@ v1.1.0 next 5
 - Historical duplicate 2.7.0 entries remain unchanged because they describe separate recorded QA passes.
 - Live browser QA covered all 21 explorers plus quiz scoring, search, bookmarks, progress, review and
   offline loading; no browser console errors were observed.
+
+## 2.10.0 — 2026-08-03
+
+### Added
+- Brain Lateralisation Comparison as the 22nd canonical Interactive Anatomy structure.
+- Accessible paired-hemisphere illustration, seven selectable systems, four clinical overlays,
+  four-question quiz bank and spaced-review metadata.
+
+### Changed
+- Completed the currently planned Interactive Anatomy structure set.
+- Advanced the application, Python package and offline cache to version 2.10.0.
+
+### Fixed
+- Included detail `searchTerms` metadata in application search results.

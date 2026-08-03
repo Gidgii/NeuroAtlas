@@ -1,35 +1,15 @@
 {
-  "reportVersion": "2.9.1",
-  "build": "33.1 — Interactive Anatomy Runtime Stabilisation",
+  "reportVersion": "2.10.0",
+  "build": "34 — Brain Lateralisation Comparison",
   "phase": "Interactive Anatomy Atlas",
   "generatedDate": "2026-08-03",
   "status": "PASS",
-  "verifiedRegisteredStructures": 21,
+  "verifiedRegisteredStructures": 22,
   "canonicalSchemaVersion": "1.0.0",
-  "structuresAdded": [],
-  "structuresMigrated": [
-    "arterial-territories-stroke-comparison",
-    "basal-ganglia-circuit-explorer",
-    "brainstem-atlas",
-    "cerebellum-atlas",
-    "cerebral-lobes-atlas",
-    "cerebral-vasculature-atlas",
-    "cingulate-cortex-atlas",
-    "cranial-nerves-atlas",
-    "deep-nuclei-atlas",
-    "functional-network-overlay-atlas",
-    "hypothalamus-atlas",
-    "insula-atlas",
-    "insula-operculum-atlas",
-    "limbic-system-atlas",
-    "major-white-matter-pathways-atlas",
-    "meninges-atlas",
-    "neurotransmitter-pathways-atlas",
-    "pituitary-and-sella-atlas",
-    "reticular-activating-system-atlas",
-    "thalamus-atlas",
-    "ventricular-system-atlas"
+  "structuresAdded": [
+    "brain-lateralisation-comparison"
   ],
+  "structuresMigrated": [],
   "checks": {
     "jsonValidity": "PASS",
     "uniqueCurriculumIds": "PASS",
@@ -43,36 +23,33 @@
     "serviceWorkerDuplicates": "PASS",
     "quizCoverageAndRationales": "PASS",
     "canonicalSchemaCompliance": "PASS",
-    "emptyStateSafety": "PASS",
-    "optionalStageSafety": "PASS",
-    "browserRuntimeAll21": "PASS",
-    "componentSelectionAll21": "PASS",
-    "overviewResetAll21": "PASS",
-    "sequencePlaybackAll21": "PASS",
-    "searchBookmarksProgressReview": "PASS",
-    "offlineShellReload": "PASS",
-    "browserConsoleErrors": "PASS — none observed",
+    "browserRuntimeBuild34": "PASS",
+    "componentSelection": "PASS",
+    "clinicalOverlays": "PASS",
+    "overviewReset": "PASS",
+    "sequencePlayback": "PASS",
+    "searchMetadata": "PASS",
+    "bookmarkCompatibility": "PASS",
+    "progressTracking": "PASS",
+    "spacedRepetition": "PASS",
+    "offlineReload": "PASS",
     "accessibilityMetadata": "PASS",
-    "reducedMotionSupport": "PASS"
+    "reducedMotionSupport": "PASS",
+    "browserConsoleErrors": "PASS — none observed"
   },
   "defectsFound": [
-    "Legacy anatomy arrays and structured anatomy objects were interpreted inconsistently.",
-    "Singular interaction and plural interactions fields did not share a runtime contract.",
-    "Missing stages or parts could cause empty explorers or runtime exceptions.",
-    "Hypothalamus Atlas omitted its forward link to Insula Atlas.",
-    "Authoritative state and Python package versions were stale or contradictory."
+    "Detail searchTerms metadata was not included in the application search index."
   ],
   "repairsCompleted": [
-    "Declared canonical explorer schema 1.0.0 in all 21 registered records.",
-    "Added safe canonical part, stage and overlay resolution without rewriting clinical content.",
-    "Added accessible selection, overview reset, live announcements and reduced-motion playback.",
-    "Repaired Hypothalamus Atlas navigation and authoritative project-state fields.",
-    "Aligned application and Python package metadata at version 2.9.1.",
-    "Added automated repository validation coverage."
+    "Added brain-lateralisation-comparison as canonical Interactive Anatomy structure 35.",
+    "Added a structure-specific accessible SVG illustration.",
+    "Registered curriculum, loader, navigation, search, quiz, review and offline-cache integration.",
+    "Extended application search to index detail searchTerms as well as tags."
   ],
-  "nextUnfinishedStructure": "brain-lateralisation-comparison",
+  "nextUnfinishedStructure": null,
   "notes": [
-    "No new Interactive Anatomy structure was added in this stabilisation build.",
-    "All 21 structures were exercised in the local browser; static and browser results are reported separately."
+    "The currently planned Interactive Anatomy set contains 22 validated structures.",
+    "Laterality claims are qualified as population tendencies within bilateral distributed systems.",
+    "Handedness is presented as an imperfect probabilistic correlate rather than an individual diagnostic marker."
   ]
 }

@@ -97,8 +97,8 @@ def test_interactive_anatomy_navigation_is_bidirectional():
             assert records[next_id].get("previousConcept") == structure_id
 
 
-def test_all_21_structures_use_canonical_explorer_schema():
-    assert len(ATLAS_IDS) == 21
+def test_all_registered_structures_use_canonical_explorer_schema():
+    assert len(ATLAS_IDS) == STATE["interactiveAnatomy"]["structuresCompleted"]
     for structure_id in ATLAS_IDS:
         record = detail(structure_id)
         explorer = record["explorer"]
