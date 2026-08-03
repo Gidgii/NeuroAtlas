@@ -8527,6 +8527,32 @@
         "answer": 0,
         "rationale": "The dominant lateral frontal territory includes language-production and face-arm motor regions, though actual patterns vary."
       }
+    },
+    {
+      "id": "brain-lateralisation-comparison",
+      "level": 29,
+      "order": 35,
+      "title": "Brain Lateralisation Comparison",
+      "subtitle": "Compare hemispheric specialisation without reducing people to left-brain or right-brain types",
+      "hero": "brain-lateralisation-comparison.svg",
+      "simple": "The hemispheres work as a connected pair. Some operations are weighted more strongly to one side, but neither hemisphere is a complete personality or a self-sufficient thinking style.",
+      "psych": "Language is commonly left-lateralised, whereas right-lateralised networks often contribute strongly to broad spatial attention, emotional prosody and discourse context. These are population tendencies within bilateral systems, not personality categories or stand-alone diagnostic markers.",
+      "advanced": "Hemispheric specialisation emerges from asymmetries in cortical organisation, intrahemispheric connectivity and interhemispheric coordination. Lesion effects depend on cortical and subcortical extent, white-matter disconnection, vascular territory, premorbid organisation, diaschisis and recovery.",
+      "analogy": "A skilled two-person team: each member may take the lead for particular operations, but useful performance depends on continuous exchange and shared context.",
+      "care": "Laterality helps formulate aphasia, neglect, aprosodia, awareness, memory and executive presentations. It should guide testable hypotheses, not be used to infer creativity, logic, personality or diagnosis from preferences or handedness.",
+      "wrong": "Dominant perisylvian injury may impair language; right frontoparietal injury may produce left neglect or impaired awareness; right perisylvian injury may alter affective prosody; callosal injury may cause task-specific disconnection signs. Real presentations frequently overlap or depart from textbook patterns.",
+      "pearl": "Ask which network, pathway and side are affected—and what the person could do before the lesion—rather than asking whether someone is left-brained or right-brained.",
+      "quiz": {
+        "question": "Which statement best describes hemispheric lateralisation?",
+        "options": [
+          "Relative specialisation within strongly connected bilateral systems",
+          "Separate logical and creative personality types",
+          "Complete independence of the two hemispheres",
+          "A fixed trait determined only by handedness"
+        ],
+        "answer": 0,
+        "rationale": "Lateralisation describes relative functional weighting; most complex behaviour depends on bilateral networks and interhemispheric exchange."
+      }
     }
   ]
 }

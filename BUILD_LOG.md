@@ -104,3 +104,36 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
 - Added five unique accessible SVG atlas illustrations.
 - Registered curriculum, loader, navigation, search, quizzes, spaced repetition, bookmarks, progress and offline caching.
 - Repository and JavaScript syntax QA passed.
+
+## Build 33.1 — Interactive Anatomy Runtime Stabilisation (v2.9.1) — 2026-08-03
+- Migrated all 21 registered Interactive Anatomy records to canonical explorer schema 1.0.0.
+- Rebuilt the generic explorer to resolve legacy anatomy content safely into selectable parts,
+  pathway stages, clinical overlays, accessible announcements and overview reset controls.
+- Added missing-stage and empty-state guards, keyboard-visible focus, touch-friendly overlay controls
+  and deterministic reduced-motion playback.
+- Repaired the Hypothalamus Atlas forward link, authoritative state contradictions, package version
+  drift and stale project-state validation behaviour.
+- Added repository validation tests and a repository `.gitignore`; no new atlas structure was added.
+- Corrected five detached title-only records from `production` to `draft` so validation cannot
+  mistake placeholders for completed loader content.
+- Normalised quiz scoring across the existing `answer` and `correctAnswer` record variants.
+- Static validation was recorded through nine repository checks and JavaScript syntax checks for
+  app.js, system-explorer.js and sw.js. Manual browser checks were reported for all 21 explorers and
+  representative application workflows, but no reproducible browser harness or execution artifacts
+  were committed.
+- Pytest, Ruff and the Typer-based launcher could not run because their third-party packages are not
+  installed in the available Python runtime.
+
+## Build 34 — Brain Lateralisation Comparison (v2.10.0) — 2026-08-03
+- Added `brain-lateralisation-comparison` as Level 29 structure 35 using canonical explorer schema 1.0.0.
+- Added a distinct accessible paired-hemisphere SVG and clinically qualified comparison of language,
+  attention, prosody, sensorimotor, visual-field, callosal and individual-variation systems.
+- Integrated curriculum, loader, navigation, search, bookmarks, progress, four-question quiz,
+  spaced repetition, references and offline caching.
+- Repaired application search so declared detail `searchTerms` are indexed alongside tags.
+- Static repository checks and JavaScript syntax passed. Manual checks were reported for rendering,
+  selection, overlays, overview reset, sequence playback, quiz scoring, bookmarks, review and search,
+  but no reproducible browser harness or execution artifacts were committed.
+- Brain Lateralisation is the 22nd implemented structure. Interactive Anatomy remains in progress;
+  Healthy versus Pathology Comparison, Lesion and Symptom Mapping, and the Integrated Whole-Brain
+  Explorer and Capstone remain on the roadmap.

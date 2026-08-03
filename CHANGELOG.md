@@ -123,3 +123,41 @@ v1.1.0 next 5
 ### Changed
 - Advanced Interactive Anatomy navigation to Brain Lateralisation Comparison.
 - Expanded offline cache and loader registration to 21 verified structures.
+
+## 2.9.1 — 2026-08-03
+
+### Changed
+- Standardised all 21 registered Interactive Anatomy records on canonical explorer schema 1.0.0.
+- Updated the generic explorer for selectable anatomy, pathway playback, available clinical overlays,
+  overview reset, accessible live announcements and reduced-motion operation.
+- Aligned Python package, application and offline-cache versions at 2.9.1.
+
+### Fixed
+- Prevented missing stages or selectable parts from causing generic-explorer exceptions.
+- Repaired the Hypothalamus Atlas forward navigation link and contradictory project-state fields.
+- Prevented legacy project-management automation from silently rewriting the current authoritative
+  state schema.
+- Reclassified five detached title-only records as drafts instead of production content.
+- Normalised quiz scoring for records using either `answer` or `correctAnswer` indexes.
+
+### Validation
+- Added automated coverage for JSON, identifiers, file alignment, loader registration, illustrations,
+  offline cache entries, quizzes, navigation and canonical Interactive Anatomy schema compliance.
+- Historical duplicate 2.7.0 entries remain unchanged because they describe separate recorded QA passes.
+- Manual browser QA was reported across all 21 explorers and representative application workflows.
+  No reproducible browser harness or execution artifacts were committed with this release.
+
+## 2.10.0 — 2026-08-03
+
+### Added
+- Brain Lateralisation Comparison as the 22nd canonical Interactive Anatomy structure.
+- Accessible paired-hemisphere illustration, seven selectable systems, four clinical overlays,
+  four-question quiz bank and spaced-review metadata.
+
+### Changed
+- Advanced the application, Python package and offline cache to version 2.10.0.
+- Recorded Brain Lateralisation as the 22nd implemented structure while keeping Interactive Anatomy
+  in progress with three roadmap structures remaining.
+
+### Fixed
+- Included detail `searchTerms` metadata in application search results.

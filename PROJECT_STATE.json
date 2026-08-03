@@ -1,6 +1,6 @@
 {
-  "version": "2.9.0",
-  "status": "Interactive Anatomy in progress — five additional integrated atlas structures validated",
+  "version": "2.10.0",
+  "status": "Interactive Anatomy in progress — 22 structures implemented; three roadmap structures remain",
   "currentPhase": "Interactive Anatomy Atlas",
   "completedProductionSlices": [
     "traumatic-brain-injury",
@@ -190,24 +190,20 @@
     "major-white-matter-pathways-atlas",
     "neurotransmitter-pathways-atlas",
     "functional-network-overlay-atlas",
-    "arterial-territories-stroke-comparison"
+    "arterial-territories-stroke-comparison",
+    "brain-lateralisation-comparison"
   ],
   "latestBatch": {
     "phase": "Interactive Anatomy Atlas",
-    "type": "five integrated vertical slices",
+    "build": "34 — Brain Lateralisation Comparison",
+    "type": "integrated vertical slice",
     "structuresCompleted": [
-      "basal-ganglia-circuit-explorer",
-      "major-white-matter-pathways-atlas",
-      "neurotransmitter-pathways-atlas",
-      "functional-network-overlay-atlas",
-      "arterial-territories-stroke-comparison"
+      "brain-lateralisation-comparison"
     ],
-    "verifiedRegisteredStructures": 21,
-    "qa": "PASS"
+    "structuresMigrated": 0,
+    "verifiedRegisteredStructures": 22,
+    "qa": "STATIC PASS — manual runtime checks reported; reproducible browser automation not committed"
   },
-  "last_batch": "53 EEG & QEEG production slices with three QA passes",
-  "phase": "Neurofeedback",
-  "neurofeedback_topics_added": 10,
   "neurofeedback": {
     "status": "complete",
     "plannedSlices": 42,
@@ -312,10 +308,16 @@
   },
   "interactiveAnatomy": {
     "status": "in_progress",
-    "structuresCompleted": 21,
+    "structuresCompleted": 22,
+    "remainingStructures": [
+      "healthy-versus-pathology-comparison",
+      "lesion-and-symptom-mapping",
+      "integrated-whole-brain-explorer-and-capstone"
+    ],
     "verifiedStructures": [
       "arterial-territories-stroke-comparison",
       "basal-ganglia-circuit-explorer",
+      "brain-lateralisation-comparison",
       "brainstem-atlas",
       "cerebellum-atlas",
       "cerebral-lobes-atlas",
@@ -336,8 +338,8 @@
       "thalamus-atlas",
       "ventricular-system-atlas"
     ],
-    "nextStructure": "brain-lateralisation-comparison",
-    "qaStatus": "PASS",
+    "nextStructure": "healthy-versus-pathology-comparison",
+    "qaStatus": "STATIC PASS — 22 canonical registrations validated; manual runtime checks reported but not reproducible from committed automation",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   }
 }
