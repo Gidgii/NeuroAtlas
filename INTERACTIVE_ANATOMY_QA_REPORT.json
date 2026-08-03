@@ -1,12 +1,12 @@
 {
-  "reportVersion": "2.11.0",
-  "build": "35 — Healthy Versus Pathology Comparison",
+  "reportVersion": "2.12.0",
+  "build": "36 — Lesion and Symptom Mapping",
   "phase": "Interactive Anatomy Atlas",
   "generatedDate": "2026-08-03",
-  "status": "PARTIAL — static validation passed; reported manual browser testing is not independently reproducible",
-  "verifiedRegisteredStructures": 23,
+  "status": "STATIC PASS — browser runtime validation not run",
+  "verifiedRegisteredStructures": 24,
   "canonicalSchemaVersion": "1.0.0",
-  "structuresAdded": ["healthy-versus-pathology-comparison"],
+  "structuresAdded": ["lesion-and-symptom-mapping"],
   "structuresMigrated": [],
   "migrationHistory": {
     "build": "33.1 — Interactive Anatomy Runtime Stabilisation",
@@ -15,21 +15,23 @@
     "structuresMigrated": ["arterial-territories-stroke-comparison", "basal-ganglia-circuit-explorer", "brainstem-atlas", "cerebellum-atlas", "cerebral-lobes-atlas", "cerebral-vasculature-atlas", "cingulate-cortex-atlas", "cranial-nerves-atlas", "deep-nuclei-atlas", "functional-network-overlay-atlas", "hypothalamus-atlas", "insula-atlas", "insula-operculum-atlas", "limbic-system-atlas", "major-white-matter-pathways-atlas", "meninges-atlas", "neurotransmitter-pathways-atlas", "pituitary-and-sella-atlas", "reticular-activating-system-atlas", "thalamus-atlas", "ventricular-system-atlas"],
     "implementationEvidence": ["Commit d049780 added canonical explorer declarations to all 21 registered structures.", "Commit d049780 added generic runtime normalization, empty-state guards, optional-stage guards, overlays, overview reset and reduced-motion handling.", "Commit acd59b4 added nine static repository validation tests and recorded the stabilisation state."]
   },
+  "buildHistory": [
+    {"build": "34 — Brain Lateralisation Comparison", "version": "2.10.0", "structure": "brain-lateralisation-comparison"},
+    {"build": "35 — Healthy Versus Pathology Comparison", "version": "2.11.0", "structure": "healthy-versus-pathology-comparison", "runtimeEvidence": "Manual browser checks were reported but are not independently reproducible."}
+  ],
   "staticValidation": {
     "status": "PASS",
-    "evidence": "Repository validation assertions, syntax checks and source inspection",
-    "checks": {"jsonValidity": "PASS", "uniqueCurriculumIds": "PASS", "uniqueLevelOrderPairs": "PASS", "fileIdAlignment": "PASS", "loaderRegistration": "PASS", "curriculumRegistration": "PASS", "navigationLinkage": "PASS", "assetPaths": "PASS", "serviceWorkerCoverage": "PASS", "serviceWorkerDuplicates": "PASS", "quizCoverageAndRationales": "PASS", "canonicalSchemaCompliance": "PASS", "searchMetadata": "PASS", "bookmarkCompatibility": "PASS", "progressTracking": "PASS", "spacedRepetition": "PASS", "accessibilityMetadata": "PASS", "reducedMotionSupport": "PASS", "javascriptSyntax": "PASS", "pythonSyntax": "PASS"}
+    "evidence": "Repository validation assertions, JSON and XML parsing, syntax checks, Git checks and source inspection",
+    "checks": {"jsonValidity": "PASS", "uniqueCurriculumIds": "PASS", "uniqueLevelOrderPairs": "PASS", "fileIdAlignment": "PASS", "loaderRegistration": "PASS", "curriculumRegistration": "PASS", "navigationLinkage": "PASS", "assetPaths": "PASS", "illustrationXml": "PASS", "serviceWorkerCoverage": "PASS", "serviceWorkerDuplicates": "PASS", "quizCoverageAndRationales": "PASS", "canonicalSchemaCompliance": "PASS", "searchMetadata": "PASS", "bookmarkCompatibility": "PASS", "progressTracking": "PASS", "spacedRepetition": "PASS", "accessibilityMetadata": "PASS", "reducedMotionSupport": "PASS", "javascriptSyntax": "PASS", "pythonSyntax": "PASS", "gitDiffAndWhitespace": "PASS"}
   },
   "runtimeValidation": {
-    "status": "REPORTED, NOT INDEPENDENTLY REPRODUCIBLE",
+    "status": "NOT RUN",
     "automatedBrowserTests": "NOT COMMITTED",
-    "testedOrigin": "http://127.0.0.1:8081/",
-    "reportedChecks": ["Build 35 curriculum card and concept route", "six selectable comparison domains", "healthy/pathology toggle and pressed state", "four clinical overlays", "return to overview", "sequence control presence", "bookmark toggle", "quiz scoring and rationale", "detail searchTerms result", "console warning/error capture"],
-    "limitations": ["No committed repeatable browser harness, execution transcript, screenshots or per-check artifacts are available for independent reproduction.", "The reported manual checks are not recorded as runtime PASS evidence.", "Offline-network reload, mobile viewport and reduced-motion media emulation were not run.", "Keyboard support was verified structurally through native buttons and accessibility metadata, but synthetic keyboard activation was not accepted as runtime evidence."]
+    "limitations": ["No committed repeatable browser harness is available.", "Browser rendering, control activation, search, bookmark, progress, quiz, spaced repetition, offline reload, mobile viewport, keyboard operation and reduced-motion media emulation were not run for Build 36."]
   },
-  "defectsFound": [],
-  "repairsCompleted": ["Added healthy-versus-pathology-comparison as canonical Interactive Anatomy structure 36.", "Added a structure-specific accessible SVG illustration.", "Registered curriculum, loader, navigation, search, quiz, review and offline-cache integration.", "Added optional comparison-mode controls with safe absence handling, keyboard-native buttons and accessible pressed state."],
-  "nextUnfinishedStructure": "lesion-and-symptom-mapping",
-  "remainingRoadmap": ["lesion-and-symptom-mapping", "integrated-whole-brain-explorer-and-capstone"],
-  "notes": ["Healthy Versus Pathology Comparison is the 23rd implemented Interactive Anatomy structure; it does not complete the phase.", "Build 33.1 migration history is preserved unchanged as historical evidence.", "Imaging is presented as one evidence source rather than a stand-alone diagnostic method.", "Variation, dysfunction, injury and disorder are distinguished without binary or deterministic framing."]
+  "defectsFound": ["The optional comparison control group used a healthy-versus-pathology-specific accessible name for every structure."],
+  "repairsCompleted": ["Added lesion-and-symptom-mapping as canonical Interactive Anatomy structure 37.", "Added a dedicated accessible SVG illustration.", "Registered curriculum, loader, navigation, search metadata, quiz, review and offline-cache integration.", "Added data-driven accessible comparison-group labels while retaining the Build 35 fallback and safe optional-data handling."],
+  "nextUnfinishedStructure": "integrated-whole-brain-explorer-and-capstone",
+  "remainingRoadmap": ["integrated-whole-brain-explorer-and-capstone"],
+  "notes": ["Lesion and Symptom Mapping is the 24th implemented Interactive Anatomy structure; it does not complete the phase.", "Build 33.1 migration and Builds 34 and 35 history are preserved.", "Examples distinguish focal injury, disconnection and distributed dysfunction and explicitly reject one-lesion-one-symptom determinism."]
 }

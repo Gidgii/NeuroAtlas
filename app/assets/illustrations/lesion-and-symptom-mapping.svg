@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Lesion and symptom mapping</title>
+  <desc id="desc">A bilateral brain and pathway diagram maps cortical, subcortical, white-matter, brainstem and cerebellar lesions to overlapping symptom patterns, vascular territories and an uncertainty marker.</desc>
+  <defs>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="brain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b3042"/><stop offset="1" stop-color="#101820"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3 0 6Z" fill="#7de3ff"/></marker>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="#090d12"/>
+  <g fill="none" stroke="#32495c" stroke-width="2" opacity=".55"><path d="M55 120H1145M55 555H1145"/><path d="M600 80V595" stroke-dasharray="7 10"/></g>
+  <text x="60" y="72" fill="#f0f6f8" font-family="system-ui,sans-serif" font-size="31" font-weight="700">LESION → PATHWAY → PATTERN</text>
+  <text x="60" y="105" fill="#90a7b8" font-family="system-ui,sans-serif" font-size="17">location • laterality • territory • network • uncertainty</text>
+  <g transform="translate(90 155)">
+    <path d="M250 15C145-4 42 60 32 159c-8 75 38 143 113 166 66 21 149 3 195-52 34-40 44-95 30-145C355 72 312 28 250 15Z" fill="url(#brain)" stroke="#79dcff" stroke-width="5"/>
+    <path d="M203 28c-20 54-22 111 2 164 22 48 17 91-5 132" stroke="#79dcff" stroke-width="3" opacity=".6"/>
+    <path d="M73 132c78-42 177-36 270 12M68 223c77 34 175 35 278-2" stroke="#536f82" stroke-width="3"/>
+    <ellipse cx="128" cy="112" rx="37" ry="29" fill="#ff5470" opacity=".85" filter="url(#glow)"/>
+    <circle cx="225" cy="184" r="22" fill="#ffd166" opacity=".9" filter="url(#glow)"/>
+    <path d="M101 254c68-72 134-112 226-147" stroke="#b992ff" stroke-width="12" stroke-linecap="round" stroke-dasharray="18 11"/>
+    <text x="85" y="365" fill="#e8f2f5" font-family="system-ui,sans-serif" font-size="18">LEFT / RIGHT CORTEX</text>
+    <text x="154" y="395" fill="#e8f2f5" font-family="system-ui,sans-serif" font-size="18">DEEP + WHITE MATTER</text>
+  </g>
+  <g transform="translate(445 315)">
+    <path d="M40 0c58 16 75 54 60 112-8 34-1 63 14 88" fill="none" stroke="#65f0bd" stroke-width="25" stroke-linecap="round"/>
+    <path d="M115 177c52-42 105-29 132 19-48 41-100 39-132-19Z" fill="#1c3840" stroke="#65f0bd" stroke-width="5"/>
+    <circle cx="75" cy="72" r="20" fill="#ff8a5b" filter="url(#glow)"/>
+    <circle cx="180" cy="190" r="19" fill="#ff5470" filter="url(#glow)"/>
+    <text x="4" y="245" fill="#e8f2f5" font-family="system-ui,sans-serif" font-size="18">BRAINSTEM + CEREBELLUM</text>
+  </g>
+  <g stroke="#7de3ff" stroke-width="4" fill="none" marker-end="url(#arrow)"><path d="M408 243C520 180 676 181 778 221"/><path d="M418 390C563 401 675 380 783 333"/><path d="M650 506C715 487 757 452 805 423"/></g>
+  <g transform="translate(785 160)" font-family="system-ui,sans-serif">
+    <rect width="340" height="110" rx="18" fill="#131f29" stroke="#ff5470" stroke-width="3"/>
+    <text x="24" y="36" fill="#ff8aa0" font-size="17" font-weight="700">LESION PATTERN</text><text x="24" y="68" fill="#e9f2f5" font-size="19">focal • disconnected • distributed</text><text x="24" y="94" fill="#93aabc" font-size="15">site is evidence, not destiny</text>
+    <rect y="135" width="340" height="110" rx="18" fill="#131f29" stroke="#ffd166" stroke-width="3"/>
+    <text x="24" y="171" fill="#ffe09a" font-size="17" font-weight="700">SYMPTOM PATTERN</text><text x="24" y="203" fill="#e9f2f5" font-size="19">motor • language • attention • affect</text><text x="24" y="229" fill="#93aabc" font-size="15">overlapping, variable, time-dependent</text>
+    <rect y="270" width="340" height="110" rx="18" fill="#131f29" stroke="#65f0bd" stroke-width="3"/>
+    <text x="24" y="306" fill="#9bffd9" font-size="17" font-weight="700">VASCULAR + DIFFERENTIAL</text><text x="24" y="338" fill="#e9f2f5" font-size="19">territory • onset • mechanism</text><text x="24" y="364" fill="#93aabc" font-size="15">corroborate and show uncertainty</text>
+  </g>
+  <g transform="translate(58 595)" font-family="system-ui,sans-serif"><circle cx="15" cy="0" r="15" fill="#ffd166"/><text x="10" y="6" fill="#0b1117" font-size="18" font-weight="800">?</text><text x="42" y="6" fill="#e8f2f5" font-size="17">One lesion can produce several effects; one symptom can have several causes.</text></g>
+</svg>

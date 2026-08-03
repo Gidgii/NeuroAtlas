@@ -178,3 +178,20 @@ v1.1.0 next 5
 ### Safety
 - Distinguished variation, dysfunction, injury and disorder; qualified structural, functional,
   developmental, vascular and degenerative interpretations; and stated that imaging alone does not establish diagnosis.
+
+## 2.12.0 — 2026-08-03
+
+### Added
+- Lesion and Symptom Mapping as the 24th canonical Interactive Anatomy structure.
+- Accessible lesion-network illustration, cortical through cerebellar examples, left-right comparison,
+  vascular and symptom overlays, four-question quiz bank and spaced-review metadata.
+
+### Changed
+- Advanced the application, Python package and offline cache to version 2.12.0.
+- Advanced Interactive Anatomy navigation to the Integrated Whole-Brain Explorer and Capstone while
+  keeping the phase in progress.
+- Allowed canonical explorer comparison controls to declare a context-appropriate accessible group label.
+
+### Safety
+- Distinguished focal lesions, disconnection syndromes and distributed network dysfunction; qualified
+  laterality and vascular inference; and rejected deterministic one-lesion-one-symptom mapping.

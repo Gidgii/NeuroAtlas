@@ -138,5 +138,32 @@ def test_build_35_comparison_is_complete_and_optional_runtime_is_safe():
     ]
     source = (APP / "system-explorer.js").read_text(encoding="utf-8")
     assert "details.explorer?.comparisonModes" in source
-    assert 'aria-label="Healthy and pathology comparison"' in source
+    assert "'Healthy and pathology comparison'" in source
     assert "data-system-comparison" in source
+
+
+def test_build_36_lesion_mapping_is_complete_and_optional_runtime_is_safe():
+    record = detail("lesion-and-symptom-mapping")
+    assert record["previousConcept"] == "healthy-versus-pathology-comparison"
+    assert record["nextConcept"] == "integrated-whole-brain-explorer-and-capstone"
+    assert len(record["quiz"]) >= 3
+    assert all(question.get("rationale") for question in record["quiz"])
+    assert record["searchTerms"]
+    assert record["spacedRepetition"]["reviewPrompt"]
+    assert record["accessibility"]["reducedMotion"] is True
+    assert record["explorer"]["comparisonModes"] == [
+        {"id": "left", "label": "Left hemisphere", "part": "left-cortical"},
+        {"id": "right", "label": "Right hemisphere", "part": "right-cortical"},
+    ]
+    assert record["explorer"]["comparisonLabel"] == "Left and right lesion comparison"
+    assert {part["id"] for part in record["explorerParts"]} >= {
+        "left-cortical",
+        "right-cortical",
+        "subcortical",
+        "white-matter",
+        "brainstem",
+        "cerebellar",
+        "distributed",
+    }
+    source = (APP / "system-explorer.js").read_text(encoding="utf-8")
+    assert "details.explorer?.comparisonLabel" in source
