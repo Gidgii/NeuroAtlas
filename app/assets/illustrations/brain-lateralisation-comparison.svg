@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Brain Lateralisation Comparison</title>
+  <desc id="desc">Paired neon-chalk cerebral hemispheres linked by the corpus callosum, showing overlapping language, attention, prosody, motor and visual-field networks.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="68%"><stop offset="0" stop-color="#173033"/><stop offset="1" stop-color="#080c0d"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="4" cy="7" r="1" fill="#dff8f2" opacity=".08"/><circle cx="18" cy="17" r=".8" fill="#dff8f2" opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="750" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="750" rx="32" fill="url(#grain)"/>
+  <text x="600" y="70" text-anchor="middle" fill="#eef8f6" font-family="system-ui,sans-serif" font-size="38" font-weight="700">SPECIALISED · CONNECTED · VARIABLE</text>
+  <g fill="#14282b" stroke-width="8" filter="url(#glow)">
+    <path d="M538 153C430 102 284 128 201 227c-78 93-80 251-5 350 68 90 196 124 303 80 47-19 73-59 74-112V235c-1-38-12-65-35-82Z" stroke="#50f1d2"/>
+    <path d="M662 153c108-51 254-25 337 74 78 93 80 251 5 350-68 90-196 124-303 80-47-19-73-59-74-112V235c1-38 12-65 35-82Z" stroke="#c8a7ff"/>
+  </g>
+  <g fill="none" stroke-linecap="round" opacity=".7">
+    <path d="M476 200c-90-36-181 5-220 78M486 293c-99-25-193 27-215 113M483 407c-89-13-162 34-190 112M470 533c-63 4-111 30-137 75" stroke="#50f1d2" stroke-width="5"/>
+    <path d="M724 200c90-36 181 5 220 78M714 293c99-25 193 27 215 113M717 407c89-13 162 34 190 112M730 533c63 4 111 30 137 75" stroke="#c8a7ff" stroke-width="5"/>
+  </g>
+  <path d="M520 365c52-40 108-40 160 0M520 395c52 40 108 40 160 0" fill="none" stroke="#ffd166" stroke-width="13" stroke-linecap="round" filter="url(#glow)"/>
+  <g font-family="system-ui,sans-serif" font-weight="700">
+    <g fill="#50f1d2"><circle cx="372" cy="285" r="24"/><circle cx="435" cy="354" r="20"/><path d="M372 285 435 354" stroke="#50f1d2" stroke-width="8"/><text x="180" y="210" font-size="28">LANGUAGE</text><text x="180" y="244" font-size="18" opacity=".8">commonly left-weighted</text></g>
+    <g fill="#c8a7ff"><circle cx="828" cy="285" r="24"/><circle cx="765" cy="354" r="20"/><path d="M828 285 765 354" stroke="#c8a7ff" stroke-width="8"/><text x="842" y="210" font-size="28">ATTENTION</text><text x="842" y="244" font-size="18" opacity=".8">broad right contribution</text></g>
+    <g fill="#ff4db8"><circle cx="838" cy="455" r="22"/><circle cx="760" cy="495" r="18"/><path d="M838 455 760 495" stroke="#ff4db8" stroke-width="7"/><text x="840" y="545" font-size="24">PROSODY · CONTEXT</text></g>
+    <g fill="#ffd166"><text x="600" y="340" text-anchor="middle" font-size="17">CALLOSAL EXCHANGE</text></g>
+  </g>
+  <g fill="none" stroke="#51a8ff" stroke-width="6" stroke-dasharray="12 12" opacity=".9">
+    <path d="M310 630c75-58 133-65 210-30"/><path d="M890 630c-75-58-133-65-210-30"/>
+  </g>
+  <text x="600" y="703" text-anchor="middle" fill="#dbe8e6" font-family="system-ui,sans-serif" font-size="24">No “left-brain” or “right-brain” personality types</text>
+</svg>

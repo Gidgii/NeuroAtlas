@@ -1,35 +1,3 @@
-# Repository Guidelines
-
-## Project Structure & Module Organization
-
-The browser application lives in `app/`. `app/index.html`, `app/styles.css`, and the top-level JavaScript files provide the PWA shell and interactive explorers. Curriculum records are stored as kebab-case JSON files in `app/data/`; matching SVG artwork belongs in `app/assets/illustrations/`. Keep new concepts aligned across the curriculum registry, detail loader, illustration references, and the offline cache in `app/sw.js`.
-
-Repository automation is implemented in `launcher.py`, `project_manager.py`, and `milestone_manager.py`. `PROJECT_STATE.json` is the authoritative project snapshot; `*_QA_REPORT.json`, `BUILD_LOG.md`, and `CHANGELOG.md` record validation and release history.
-
-## Build, Test, and Development Commands
-
-- `python -m venv .venv` creates a local environment. 
-- `.venv\Scripts\pip install -e ".[dev]"` installs the CLI and development tools.
-- `python -m http.server 8080 --directory app` serves the PWA at `http://localhost:8080`; do not test service workers through `file://`.
-- `python launcher.py validate --no-update-state` checks repository structure and content without rewriting project state.
-- `pytest` runs tests under `tests/` when present; `pytest --cov` adds coverage reporting.
-- `ruff check .` and `ruff format --check .` lint and verify Python formatting.
-
-## Coding Style & Naming Conventions
-
-Python targets 3.11, uses four-space indentation, double quotes, and a 100-character line limit. Follow Ruff's configured rules in `pyproject.toml`; use `snake_case` for functions and modules and `PascalCase` for classes. Preserve the existing two-space indentation in JavaScript, CSS, and JSON. Name concept files and identifiers in kebab case (for example, `app/data/action-potentials.json`) and keep related asset basenames identical.
-
-## Testing Guidelines
-
-Pytest is configured with strict markers and strict configuration. Name files `tests/test_<feature>.py` and tests `test_<behaviour>()`. For content changes, run repository validation and manually verify navigation, quizzes, asset loading, responsive layout, and offline behavior. New concepts must have valid JSON, resolvable artwork, loader registration, and service-worker coverage.
-
-## Commit & Pull Request Guidelines
-
-The short history uses concise, imperative, repository-level summaries such as `Initial authoritative Atlas repository`. Continue with a focused subject line; include rationale and validation details in the body when useful. Pull requests should describe the affected concepts or tooling, list commands run, link relevant issues, and include screenshots for visible UI or illustration changes. Call out edits to `PROJECT_STATE.json` or QA reports explicitly, and avoid mixing unrelated curriculum batches or refactors.
-Replace the generated AGENTS.md contents with the project instructions below. Do not modify any other files.
-
-
-
 # Clinical Neuroscience Atlas — Repository Instructions
 
 ## Role

@@ -1,0 +1,299 @@
+{
+  "id": "brain-lateralisation-comparison",
+  "schemaVersion": "2.1.0",
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": ["inputs", "connections", "outputs"],
+    "overlays": ["bloodSupply", "functions", "lesions", "symptoms"],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
+  "status": "production",
+  "module": "Interactive Anatomy Atlas",
+  "sequence": 35,
+  "level": 29,
+  "title": "Brain Lateralisation Comparison",
+  "subtitle": "Compare hemispheric specialisation without reducing people to left-brain or right-brain types",
+  "pronunciation": "lat-er-uh-lih-ZAY-shun",
+  "hero": "brain-lateralisation-comparison.svg",
+  "altText": "Chalkboard-style paired cerebral hemispheres linked by the corpus callosum, with language, attention, prosody, motor and visual-field networks shown as overlapping rather than isolated systems.",
+  "prerequisites": ["arterial-territories-stroke-comparison", "brain-lateralisation"],
+  "previousConcept": "arterial-territories-stroke-comparison",
+  "nextConcept": null,
+  "tags": [
+    "interactive anatomy",
+    "hemispheric lateralisation",
+    "language dominance",
+    "spatial attention",
+    "prosody",
+    "handedness",
+    "corpus callosum",
+    "aphasia",
+    "hemispatial neglect",
+    "split brain"
+  ],
+  "searchTerms": [
+    "brain lateralisation comparison",
+    "left hemisphere",
+    "right hemisphere",
+    "dominant hemisphere",
+    "non-dominant hemisphere",
+    "language lateralisation",
+    "spatial neglect",
+    "aprosodia",
+    "visual hemifield",
+    "handedness",
+    "corpus callosum",
+    "interhemispheric transfer",
+    "left brain right brain myth"
+  ],
+  "learningObjectives": [
+    "Compare common hemispheric asymmetries while recognising bilateral and distributed contributions.",
+    "Explain how the corpus callosum and other commissures support interhemispheric coordination.",
+    "Relate lesion laterality to qualified hypotheses about aphasia, neglect, prosody, motor and visual-field findings.",
+    "Explain why handedness and personality do not determine an individual's cerebral organisation."
+  ],
+  "sections": {
+    "explainSimply": "The hemispheres work as a connected pair. Some operations are weighted more strongly to one side, but neither hemisphere is a complete personality or a self-sufficient thinking style.",
+    "explainLikePsychologist": "Language is commonly left-lateralised, whereas right-lateralised networks often contribute strongly to broad spatial attention, emotional prosody and discourse context. These are population tendencies within bilateral systems, not personality categories or stand-alone diagnostic markers.",
+    "advancedClinicalDetail": "Hemispheric specialisation emerges from asymmetries in cortical organisation, intrahemispheric connectivity and interhemispheric coordination. In most right-handers and many left-handers, core language production and comprehension are left-weighted, although bilateral and right-dominant patterns occur. Right frontoparietal attention systems show an important asymmetry: right-sided networks attend broadly across space, while left-sided attention is more strongly biased contralaterally. Lesion effects depend on cortical and subcortical extent, white-matter disconnection, vascular territory, premorbid organisation, diaschisis and recovery.",
+    "thinkOfItLike": "A skilled two-person team: each member may take the lead for particular operations, but useful performance depends on continuous exchange and shared context.",
+    "whyPsychologistsCare": "Laterality helps formulate aphasia, neglect, aprosodia, awareness, memory and executive presentations. It should guide testable hypotheses, not be used to infer creativity, logic, personality or diagnosis from preferences or handedness.",
+    "whenItGoesWrong": "Dominant perisylvian injury may impair language; right frontoparietal injury may produce left neglect or impaired awareness; right perisylvian injury may alter affective prosody; callosal injury may cause task-specific disconnection signs. Real presentations frequently overlap or depart from textbook patterns.",
+    "clinicalPearl": "Ask which network, pathway and side are affected—and what the person could do before the lesion—rather than asking whether someone is left-brained or right-brained.",
+    "practicalExample": "Compare a person with fluent but empty speech after a dominant posterior temporal lesion with a person who omits the left side of space after a right frontoparietal lesion, then identify findings that require broader differential diagnosis.",
+    "limitationsCautions": "Language dominance cannot be inferred reliably from handedness alone. Functional imaging, stimulation and behavioural tests answer different questions, and reorganisation after early injury or epilepsy can alter expected patterns. Group averages do not establish an individual's anatomy."
+  },
+  "anatomy": {
+    "position": "Paired cerebral hemispheres separated by the longitudinal fissure and connected by the corpus callosum, anterior and posterior commissures and subcortical pathways.",
+    "spatialRelationships": "Homologous cortical regions face across the midline; each hemisphere receives predominantly contralateral somatosensory and motor information, while visual pathways divide information by visual hemifield rather than by eye.",
+    "regions": [
+      "dominant perisylvian language network",
+      "right frontoparietal attention network",
+      "right prosody and discourse network",
+      "contralateral sensorimotor systems",
+      "visual hemifield pathways",
+      "corpus callosum and commissures",
+      "bilateral association networks"
+    ],
+    "inputs": [
+      "contralateral somatosensory input",
+      "contralateral visual hemifield input",
+      "bilateral auditory input",
+      "thalamocortical input",
+      "interhemispheric callosal input"
+    ],
+    "outputs": [
+      "contralateral motor control",
+      "language and communicative output",
+      "spatially directed attention and action",
+      "prosodic and discourse modulation",
+      "callosal transfer to complementary networks"
+    ],
+    "connections": [
+      "corpus callosum",
+      "anterior commissure",
+      "association fasciculi",
+      "corticospinal and corticobulbar pathways",
+      "thalamocortical radiations",
+      "dorsal and ventral language pathways"
+    ],
+    "functions": [
+      "relative language specialisation",
+      "spatial attention",
+      "affective prosody and discourse context",
+      "contralateral motor and sensory control",
+      "visual hemifield processing",
+      "interhemispheric integration"
+    ],
+    "bloodSupply": "Lateralised syndromes commonly follow asymmetric ACA, MCA, PCA or deep perforator lesions; vascular boundaries and functional dominance vary between individuals.",
+    "lesionEffects": "Possible findings include aphasia, apraxia of speech, hemispatial neglect, extinction, anosognosia, aprosodia, contralateral weakness or sensory loss, homonymous visual-field loss and callosal disconnection signs. No single finding is explained by hemisphere alone.",
+    "neurologicalPresentations": [
+      "aphasia or apraxia of speech",
+      "hemispatial neglect or extinction",
+      "contralateral motor or sensory impairment",
+      "homonymous visual-field loss",
+      "aprosodia",
+      "disconnection phenomena"
+    ],
+    "psychologicalPresentations": [
+      "impaired discourse inference",
+      "reduced awareness of deficit",
+      "changes in emotional communication",
+      "task-dependent executive inefficiency",
+      "distress and adjustment effects shaped by disability and context"
+    ],
+    "clinicalSignificance": "Laterality narrows hypotheses about affected networks and pathways, but interpretation requires direct assessment, imaging, premorbid context and differential diagnosis."
+  },
+  "explorerParts": [
+    {
+      "id": "language",
+      "label": "Dominant language network",
+      "short": "Usually left-weighted, always distributed",
+      "detail": "Inferior frontal, posterior temporal, inferior parietal and connecting dorsal and ventral pathways commonly show left-weighted language organisation.",
+      "clinical": "Dominant-hemisphere injury may produce different aphasia or speech-motor patterns depending on cortical, subcortical and tract involvement."
+    },
+    {
+      "id": "attention",
+      "label": "Right attention network",
+      "short": "Broad spatial monitoring and reorienting",
+      "detail": "Right frontal and parietal attention systems contribute to monitoring both sides of space and reorienting toward salient events.",
+      "clinical": "Right-sided injury more often causes severe and persistent left neglect, but neglect is a network disorder rather than a single-lobe sign."
+    },
+    {
+      "id": "prosody",
+      "label": "Prosody and discourse",
+      "short": "Tone, context and nonliteral meaning",
+      "detail": "Right-lateralised temporal and frontal contributions help process affective prosody, discourse coherence, humour and contextual inference within bilateral communication systems.",
+      "clinical": "Right-hemisphere lesions may cause receptive or expressive aprosodia and discourse difficulties, with considerable individual variability."
+    },
+    {
+      "id": "sensorimotor",
+      "label": "Sensorimotor laterality",
+      "short": "Predominantly contralateral control",
+      "detail": "Each hemisphere predominantly controls and represents the opposite side of the body, although axial, proximal and some cranial functions receive bilateral influence.",
+      "clinical": "Lesion level and tract anatomy determine whether weakness, sensory loss, apraxia or other motor-control deficits accompany cortical signs."
+    },
+    {
+      "id": "visual-fields",
+      "label": "Visual hemifields",
+      "short": "Left space to right cortex; right space to left cortex",
+      "detail": "Post-chiasmal visual pathways route each visual hemifield to the contralateral occipital cortex, combining information from both eyes.",
+      "clinical": "Retro-chiasmal lesions may cause contralateral homonymous field loss; this differs from attentional neglect, although both can coexist."
+    },
+    {
+      "id": "callosum",
+      "label": "Corpus callosum",
+      "short": "Interhemispheric transfer and coordination",
+      "detail": "Callosal fibres link homologous and heterologous cortical regions, supporting both cooperative exchange and task-dependent modulation between hemispheres.",
+      "clinical": "Callosal disconnection can reveal task-specific transfer deficits; it does not create two ordinary independent personalities."
+    },
+    {
+      "id": "variation",
+      "label": "Individual variation",
+      "short": "Handedness is an imperfect clue",
+      "detail": "Most right-handers and many left-handers show left-weighted language, while bilateral and right-dominant organisation also occur.",
+      "clinical": "Presurgical and complex neurological decisions require individual functional assessment rather than inference from handedness."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "select",
+      "label": "Select a lateralised system",
+      "targets": ["language", "attention", "prosody", "sensorimotor", "visual-fields", "callosum", "variation"]
+    },
+    {
+      "type": "sequence",
+      "label": "Run input–connection–output sequence",
+      "targets": ["inputs", "connections", "outputs"]
+    },
+    {
+      "type": "layers",
+      "label": "Show available clinical overlays",
+      "targets": ["blood supply", "functions", "lesion effects", "presentations"]
+    },
+    {
+      "type": "overview",
+      "label": "Return to overview",
+      "targets": ["dominant language network"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "brain-lateralisation-comparison-q1",
+      "question": "Which statement best describes hemispheric lateralisation?",
+      "options": [
+        "Relative specialisation within strongly connected bilateral systems",
+        "Separate logical and creative personality types",
+        "Complete independence of the two hemispheres",
+        "A fixed trait determined only by handedness"
+      ],
+      "answer": 0,
+      "rationale": "Lateralisation describes relative functional weighting; most complex behaviour depends on bilateral networks and interhemispheric exchange."
+    },
+    {
+      "id": "brain-lateralisation-comparison-q2",
+      "question": "Why can a right frontoparietal lesion produce severe left hemispatial neglect?",
+      "options": [
+        "Right attention networks contribute broadly to monitoring and reorienting across space",
+        "The right hemisphere sees only through the right eye",
+        "All spatial processing occurs in one parietal point",
+        "Neglect is simply a visual-field defect"
+      ],
+      "answer": 0,
+      "rationale": "Right-lateralised attention networks have broad spatial contributions; neglect reflects disrupted attention networks and differs from primary visual-field loss."
+    },
+    {
+      "id": "brain-lateralisation-comparison-q3",
+      "question": "What is the safest inference from left-handedness?",
+      "options": [
+        "Language organisation may be more variable, but individual dominance cannot be assumed",
+        "Language must be right-dominant",
+        "The person has a right-brain personality",
+        "Spatial attention must be left-lateralised"
+      ],
+      "answer": 0,
+      "rationale": "Handedness is associated with language lateralisation only probabilistically; most left-handers still have left-weighted language."
+    },
+    {
+      "id": "brain-lateralisation-comparison-q4",
+      "question": "A left homonymous visual-field loss most directly suggests dysfunction in:",
+      "options": [
+        "Right retro-chiasmal visual pathways",
+        "Only the left eye",
+        "The corpus callosum alone",
+        "The left peripheral nerves"
+      ],
+      "answer": 0,
+      "rationale": "Each retro-chiasmal pathway represents the contralateral visual hemifield using information from both eyes."
+    }
+  ],
+  "relatedConcepts": [
+    "brain-lateralisation",
+    "arterial-territories-stroke-comparison",
+    "cerebral-lobes-atlas",
+    "major-white-matter-pathways-atlas",
+    "functional-network-overlay-atlas",
+    "language-networks",
+    "hemispatial-neglect",
+    "corpus-callosum"
+  ],
+  "references": [
+    {
+      "citation": "Corballis MC. Left Brain, Right Brain: Facts and Fantasies. PLoS Biology. 2014;12(1):e1001767.",
+      "type": "peer-reviewed review",
+      "url": "https://doi.org/10.1371/journal.pbio.1001767"
+    },
+    {
+      "citation": "Knecht S, Dräger B, Deppe M, et al. Handedness and hemispheric language dominance in healthy humans. Brain. 2000;123(12):2512–2518.",
+      "type": "peer-reviewed study",
+      "url": "https://doi.org/10.1093/brain/123.12.2512"
+    },
+    {
+      "citation": "Josse G, Seghier ML, Kherif F, Price CJ. Explaining function with anatomy: language lateralization and corpus callosum size. Journal of Neuroscience. 2008;28(52):14132–14139.",
+      "type": "peer-reviewed study",
+      "url": "https://doi.org/10.1523/JNEUROSCI.4383-08.2008"
+    }
+  ],
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Compare language, spatial attention and visual-field lateralisation, then explain why handedness and personality labels are insufficient."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive comparison of left- and right-weighted language, attention, prosody, sensorimotor and visual systems with callosal integration and individual variability.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
+  "offline": true,
+  "bookmarkCompatible": true,
+  "progressTracking": true
+}

@@ -1,41 +1,110 @@
 {
-  "reportVersion": "2.9.0",
+  "reportVersion": "2.10.0",
+  "build": "34 — Brain Lateralisation Comparison",
   "phase": "Interactive Anatomy Atlas",
-  "generatedDate": "2026-08-02",
-  "status": "PASS",
-  "verifiedRegisteredStructures": 21,
+  "generatedDate": "2026-08-03",
+  "status": "PARTIAL — static validation passed; runtime automation not committed",
+  "verifiedRegisteredStructures": 22,
+  "canonicalSchemaVersion": "1.0.0",
   "structuresAdded": [
-    "basal-ganglia-circuit-explorer",
-    "major-white-matter-pathways-atlas",
-    "neurotransmitter-pathways-atlas",
-    "functional-network-overlay-atlas",
-    "arterial-territories-stroke-comparison"
+    "brain-lateralisation-comparison"
   ],
-  "checks": {
-    "jsonValidity": "PASS",
-    "uniqueTargetIds": "PASS",
-    "fileIdAlignment": "PASS",
-    "loaderRegistration": "PASS",
-    "curriculumRegistration": "PASS",
-    "navigationLinkage": "PASS",
-    "assetPaths": "PASS",
-    "serviceWorkerCoverage": "PASS",
-    "searchMetadata": "PASS",
-    "bookmarkCompatibility": "PASS",
-    "progressTracking": "PASS",
-    "quizCoverageAndRationales": "PASS",
-    "spacedRepetitionMetadata": "PASS",
-    "accessibilityMetadata": "PASS",
-    "reducedMotionSupport": "PASS",
-    "offlineAvailability": "PASS",
-    "javascriptSyntax": "PASS",
-    "zipIntegrity": "PASS"
+  "structuresMigrated": [],
+  "migrationHistory": {
+    "build": "33.1 — Interactive Anatomy Runtime Stabilisation",
+    "version": "2.9.1",
+    "canonicalSchemaVersion": "1.0.0",
+    "structuresMigrated": [
+      "arterial-territories-stroke-comparison",
+      "basal-ganglia-circuit-explorer",
+      "brainstem-atlas",
+      "cerebellum-atlas",
+      "cerebral-lobes-atlas",
+      "cerebral-vasculature-atlas",
+      "cingulate-cortex-atlas",
+      "cranial-nerves-atlas",
+      "deep-nuclei-atlas",
+      "functional-network-overlay-atlas",
+      "hypothalamus-atlas",
+      "insula-atlas",
+      "insula-operculum-atlas",
+      "limbic-system-atlas",
+      "major-white-matter-pathways-atlas",
+      "meninges-atlas",
+      "neurotransmitter-pathways-atlas",
+      "pituitary-and-sella-atlas",
+      "reticular-activating-system-atlas",
+      "thalamus-atlas",
+      "ventricular-system-atlas"
+    ],
+    "implementationEvidence": [
+      "Commit d049780 added canonical explorer declarations to all 21 registered structures.",
+      "Commit d049780 added generic runtime normalization, empty-state guards, optional-stage guards, overlays, overview reset and reduced-motion handling.",
+      "Commit acd59b4 added nine static repository validation tests and recorded the stabilisation state."
+    ]
   },
-  "defectsFound": [],
-  "repairsCompleted": [],
-  "nextUnfinishedStructure": "brain-lateralisation-comparison",
+  "staticValidation": {
+    "status": "PASS",
+    "evidence": "Committed repository validation assertions and source inspection",
+    "checks": {
+      "jsonValidity": "PASS",
+      "uniqueCurriculumIds": "PASS",
+      "uniqueLevelOrderPairs": "PASS",
+      "fileIdAlignment": "PASS",
+      "loaderRegistration": "PASS",
+      "curriculumRegistration": "PASS",
+      "navigationLinkage": "PASS",
+      "assetPaths": "PASS",
+      "serviceWorkerCoverage": "PASS",
+      "serviceWorkerDuplicates": "PASS",
+      "quizCoverageAndRationales": "PASS",
+      "canonicalSchemaCompliance": "PASS",
+      "searchMetadata": "PASS",
+      "bookmarkCompatibility": "PASS",
+      "progressTracking": "PASS",
+      "spacedRepetition": "PASS",
+      "accessibilityMetadata": "PASS",
+      "reducedMotionSupport": "PASS"
+    }
+  },
+  "runtimeValidation": {
+    "status": "NOT REPRODUCIBLE FROM COMMITTED EVIDENCE",
+    "automatedBrowserTests": "NOT COMMITTED",
+    "limitations": [
+      "No committed browser harness, execution transcript, screenshots, console log or per-structure result set exists.",
+      "The nine committed repository tests are static and do not render or operate the application in a browser."
+    ]
+  },
+  "manualVerification": {
+    "status": "REPORTED, NOT INDEPENDENTLY REPRODUCIBLE",
+    "reportedBehaviours": [
+      "Brain Lateralisation rendering and component selection",
+      "Clinical overlays and return-to-overview behaviour",
+      "Sequence playback and quiz scoring",
+      "Search, bookmarks and spaced review",
+      "Offline reload and absence of observed console errors"
+    ],
+    "qualification": "These behaviours were reported during Build 34, but the repository does not contain sufficient execution evidence to record them as reproducible PASS results."
+  },
+  "defectsFound": [
+    "Detail searchTerms metadata was not included in the application search index."
+  ],
+  "repairsCompleted": [
+    "Added brain-lateralisation-comparison as canonical Interactive Anatomy structure 35.",
+    "Added a structure-specific accessible SVG illustration.",
+    "Registered curriculum, loader, navigation, search, quiz, review and offline-cache integration.",
+    "Extended application search to index detail searchTerms as well as tags."
+  ],
+  "nextUnfinishedStructure": "healthy-versus-pathology-comparison",
+  "remainingRoadmap": [
+    "healthy-versus-pathology-comparison",
+    "lesion-and-symptom-mapping",
+    "integrated-whole-brain-explorer-and-capstone"
+  ],
   "notes": [
-    "Interaction controls are rendered through the existing generic atlas explorer using each structure\u2019s registered interaction metadata.",
-    "Lesion and behavioural descriptions explicitly qualify localisation and distributed-network interpretation."
+    "Brain Lateralisation Comparison is the 22nd implemented Interactive Anatomy structure; it does not complete the phase.",
+    "Build 33.1 migration history is preserved separately from Build 34 feature validation.",
+    "Laterality claims are qualified as population tendencies within bilateral distributed systems.",
+    "Handedness is presented as an imperfect probabilistic correlate rather than an individual diagnostic marker."
   ]
 }

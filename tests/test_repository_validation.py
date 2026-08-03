@@ -1,0 +1,124 @@
+import json
+import re
+from pathlib import Path
+
+
+ROOT = Path(__file__).parents[1]
+APP = ROOT / "app"
+DATA = APP / "data"
+ILLUSTRATIONS = APP / "assets" / "illustrations"
+STATE = json.loads((ROOT / "PROJECT_STATE.json").read_text(encoding="utf-8"))
+CURRICULUM = json.loads((DATA / "curriculum.json").read_text(encoding="utf-8"))
+ATLAS_IDS = STATE["interactiveAnatomy"]["verifiedStructures"]
+
+
+def detail(structure_id):
+    return json.loads((DATA / f"{structure_id}.json").read_text(encoding="utf-8"))
+
+
+def registered_loader_ids():
+    source = (APP / "app.js").read_text(encoding="utf-8")
+    block = re.search(r"const detailFiles=\[(.*?)\];const detailResponses", source, re.S)
+    assert block
+    return set(re.findall(r"'([^']+)'", block.group(1)))
+
+
+def service_worker_paths():
+    source = (APP / "sw.js").read_text(encoding="utf-8")
+    block = re.search(r"const CORE=(\[.*?\]);\s*self\.addEventListener", source, re.S)
+    assert block
+    return json.loads(block.group(1))
+
+
+def test_all_json_files_parse():
+    for path in ROOT.rglob("*.json"):
+        json.loads(path.read_text(encoding="utf-8"))
+
+
+def test_curriculum_ids_and_level_orders_are_unique():
+    ids = [concept["id"] for concept in CURRICULUM["concepts"]]
+    positions = [(concept["level"], concept["order"]) for concept in CURRICULUM["concepts"]]
+    assert len(ids) == len(set(ids))
+    assert len(positions) == len(set(positions))
+
+
+def test_production_details_are_filename_aligned_and_registered():
+    loader_ids = registered_loader_ids()
+    for path in DATA.glob("*.json"):
+        if path.name == "curriculum.json":
+            continue
+        record = json.loads(path.read_text(encoding="utf-8"))
+        if record.get("status") != "production":
+            continue
+        assert record["id"] == path.stem
+        assert record["id"] in loader_ids
+
+
+def test_curriculum_illustrations_exist():
+    for concept in CURRICULUM["concepts"]:
+        assert (ILLUSTRATIONS / concept["hero"]).is_file()
+
+
+def test_service_worker_has_unique_complete_production_coverage():
+    paths = service_worker_paths()
+    assert len(paths) == len(set(paths))
+    cached = set(paths)
+    for path in DATA.glob("*.json"):
+        if path.name == "curriculum.json":
+            continue
+        record = json.loads(path.read_text(encoding="utf-8"))
+        if record.get("status") == "production":
+            assert f"./data/{path.name}" in cached
+    for concept in CURRICULUM["concepts"]:
+        assert f"./assets/illustrations/{concept['hero']}" in cached
+
+
+def test_quizzes_have_valid_answers_and_rationales():
+    for path in DATA.glob("*.json"):
+        if path.name == "curriculum.json":
+            continue
+        record = json.loads(path.read_text(encoding="utf-8"))
+        questions = record.get("quizBank") or record.get("quiz") or []
+        for question in questions:
+            answer = question.get("answer", question.get("correctAnswer"))
+            assert answer is not None
+            assert 0 <= answer < len(question["options"])
+            assert question.get("rationale") or question.get("explanation")
+
+
+def test_interactive_anatomy_navigation_is_bidirectional():
+    records = {structure_id: detail(structure_id) for structure_id in ATLAS_IDS}
+    for structure_id, record in records.items():
+        previous_id = record.get("previousConcept")
+        next_id = record.get("nextConcept")
+        if previous_id in records:
+            assert records[previous_id].get("nextConcept") == structure_id
+        if next_id in records:
+            assert records[next_id].get("previousConcept") == structure_id
+
+
+def test_all_registered_structures_use_canonical_explorer_schema():
+    assert len(ATLAS_IDS) == STATE["interactiveAnatomy"]["structuresCompleted"]
+    for structure_id in ATLAS_IDS:
+        record = detail(structure_id)
+        explorer = record["explorer"]
+        assert explorer["schemaVersion"] == "1.0.0"
+        assert explorer["partsSource"] == "anatomy"
+        assert explorer["stages"] == ["inputs", "connections", "outputs"]
+        assert set(explorer["overlays"]) == {"bloodSupply", "functions", "lesions", "symptoms"}
+        assert explorer["returnToOverview"] is True
+        assert explorer["accessibility"] == {
+            "keyboard": True,
+            "screenReader": True,
+            "reducedMotion": True,
+            "touchTargetPx": 44,
+        }
+
+
+def test_generic_explorer_has_safe_empty_and_optional_stage_guards():
+    source = (APP / "system-explorer.js").read_text(encoding="utf-8")
+    assert "if(!first)return" in source
+    assert "if(!run||!stages.length)return" in source
+    assert "if(!stage){finish();return}" in source
+    assert "prefers-reduced-motion: reduce" in source
+    assert "aria-live=\"polite\"" in source
