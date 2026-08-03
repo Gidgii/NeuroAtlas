@@ -144,8 +144,8 @@ v1.1.0 next 5
 - Added automated coverage for JSON, identifiers, file alignment, loader registration, illustrations,
   offline cache entries, quizzes, navigation and canonical Interactive Anatomy schema compliance.
 - Historical duplicate 2.7.0 entries remain unchanged because they describe separate recorded QA passes.
-- Live browser QA covered all 21 explorers plus quiz scoring, search, bookmarks, progress, review and
-  offline loading; no browser console errors were observed.
+- Manual browser QA was reported across all 21 explorers and representative application workflows.
+  No reproducible browser harness or execution artifacts were committed with this release.
 
 ## 2.10.0 — 2026-08-03
 
@@ -155,8 +155,9 @@ v1.1.0 next 5
   four-question quiz bank and spaced-review metadata.
 
 ### Changed
-- Completed the currently planned Interactive Anatomy structure set.
 - Advanced the application, Python package and offline cache to version 2.10.0.
+- Recorded Brain Lateralisation as the 22nd implemented structure while keeping Interactive Anatomy
+  in progress with three roadmap structures remaining.
 
 ### Fixed
 - Included detail `searchTerms` metadata in application search results.

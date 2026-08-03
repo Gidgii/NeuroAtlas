@@ -1,6 +1,6 @@
 {
   "version": "2.10.0",
-  "status": "Interactive Anatomy planned set complete — 22 structures validated",
+  "status": "Interactive Anatomy in progress — 22 structures implemented; three roadmap structures remain",
   "currentPhase": "Interactive Anatomy Atlas",
   "completedProductionSlices": [
     "traumatic-brain-injury",
@@ -202,7 +202,7 @@
     ],
     "structuresMigrated": 0,
     "verifiedRegisteredStructures": 22,
-    "qa": "PASS"
+    "qa": "STATIC PASS — manual runtime checks reported; reproducible browser automation not committed"
   },
   "neurofeedback": {
     "status": "complete",
@@ -307,9 +307,13 @@
     "qaReport": "TRAUMA_EMDR_QA_REPORT.json"
   },
   "interactiveAnatomy": {
-    "status": "complete",
+    "status": "in_progress",
     "structuresCompleted": 22,
-    "remainingStructures": [],
+    "remainingStructures": [
+      "healthy-versus-pathology-comparison",
+      "lesion-and-symptom-mapping",
+      "integrated-whole-brain-explorer-and-capstone"
+    ],
     "verifiedStructures": [
       "arterial-territories-stroke-comparison",
       "basal-ganglia-circuit-explorer",
@@ -334,8 +338,8 @@
       "thalamus-atlas",
       "ventricular-system-atlas"
     ],
-    "nextStructure": null,
-    "qaStatus": "PASS — 22 canonical structures validated",
+    "nextStructure": "healthy-versus-pathology-comparison",
+    "qaStatus": "STATIC PASS — 22 canonical registrations validated; manual runtime checks reported but not reproducible from committed automation",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   }
 }

@@ -117,10 +117,10 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
 - Corrected five detached title-only records from `production` to `draft` so validation cannot
   mistake placeholders for completed loader content.
 - Normalised quiz scoring across the existing `answer` and `correctAnswer` record variants.
-- Validation completed: nine repository checks passed through the dependency-free runner; JavaScript
-  syntax passed for app.js, system-explorer.js and sw.js; all 21 explorers passed live browser
-  rendering, selection, sequence, overview, accessibility and console-error checks; representative
-  quiz, search, bookmark, progress, review and offline loading checks passed.
+- Static validation was recorded through nine repository checks and JavaScript syntax checks for
+  app.js, system-explorer.js and sw.js. Manual browser checks were reported for all 21 explorers and
+  representative application workflows, but no reproducible browser harness or execution artifacts
+  were committed.
 - Pytest, Ruff and the Typer-based launcher could not run because their third-party packages are not
   installed in the available Python runtime.
 
@@ -131,6 +131,9 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
 - Integrated curriculum, loader, navigation, search, bookmarks, progress, four-question quiz,
   spaced repetition, references and offline caching.
 - Repaired application search so declared detail `searchTerms` are indexed alongside tags.
-- Static repository checks and JavaScript syntax passed; live browser rendering, selection, overlays,
-  overview reset, sequence playback, quiz scoring, bookmark, review and search checks passed without
-  console errors.
+- Static repository checks and JavaScript syntax passed. Manual checks were reported for rendering,
+  selection, overlays, overview reset, sequence playback, quiz scoring, bookmarks, review and search,
+  but no reproducible browser harness or execution artifacts were committed.
+- Brain Lateralisation is the 22nd implemented structure. Interactive Anatomy remains in progress;
+  Healthy versus Pathology Comparison, Lesion and Symptom Mapping, and the Integrated Whole-Brain
+  Explorer and Capstone remain on the roadmap.
