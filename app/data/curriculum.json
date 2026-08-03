@@ -1,5 +1,5 @@
 {
-  "version": "2.8.0",
+  "version": "2.11.0",
   "levels": [
     {
       "id": 1,
@@ -8552,6 +8552,27 @@
         ],
         "answer": 0,
         "rationale": "Lateralisation describes relative functional weighting; most complex behaviour depends on bilateral networks and interhemispheric exchange."
+      }
+    },
+    {
+      "id": "healthy-versus-pathology-comparison",
+      "level": 29,
+      "order": 36,
+      "title": "Healthy Versus Pathology Comparison",
+      "subtitle": "Compare variation, dysfunction, injury and disorder without treating a scan as a diagnosis",
+      "hero": "healthy-versus-pathology-comparison.svg",
+      "simple": "Healthy brains vary. A scan difference may be harmless, while important dysfunction may occur without a visible structural lesion.",
+      "psych": "Variation, dysfunction, injury and disorder overlap but are not interchangeable. Interpretation requires clinical context, impairment, time course and converging evidence.",
+      "advanced": "Structural, functional, developmental, vascular and degenerative patterns have different meanings. Network disconnection, diaschisis, compensation, reserve and comorbidity shape phenotype, and imaging alone does not establish diagnosis.",
+      "analogy": "A city map and a traffic report describe different aspects of the same system; neither alone explains how one resident is functioning.",
+      "care": "Careful framing prevents biological essentialism, false reassurance from an unremarkable scan and overdiagnosis from incidental findings.",
+      "wrong": "Similar symptoms can arise through different mechanisms, and similar biological findings can have different functional consequences.",
+      "pearl": "Ask whether the finding, time course, network and examination converge before attributing a symptom or diagnosis.",
+      "quiz": {
+        "question": "Which statement best distinguishes an imaging finding from a diagnosis?",
+        "options": ["A finding becomes diagnostic only when appropriately combined with clinical and other evidence", "Any visible difference proves disorder", "An unremarkable scan excludes dysfunction", "Functional imaging independently establishes psychiatric diagnosis"],
+        "answer": 0,
+        "rationale": "Imaging is one evidence source; diagnosis depends on validated criteria and convergence with phenotype, course and examination."
       }
     }
   ]

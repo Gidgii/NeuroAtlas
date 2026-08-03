@@ -1,6 +1,6 @@
 {
-  "version": "2.10.0",
-  "status": "Interactive Anatomy in progress — 22 structures implemented; three roadmap structures remain",
+  "version": "2.11.0",
+  "status": "Interactive Anatomy in progress — 23 structures implemented; two roadmap structures remain",
   "currentPhase": "Interactive Anatomy Atlas",
   "completedProductionSlices": [
     "traumatic-brain-injury",
@@ -191,18 +191,19 @@
     "neurotransmitter-pathways-atlas",
     "functional-network-overlay-atlas",
     "arterial-territories-stroke-comparison",
-    "brain-lateralisation-comparison"
+    "brain-lateralisation-comparison",
+    "healthy-versus-pathology-comparison"
   ],
   "latestBatch": {
     "phase": "Interactive Anatomy Atlas",
-    "build": "34 — Brain Lateralisation Comparison",
+    "build": "35 — Healthy Versus Pathology Comparison",
     "type": "integrated vertical slice",
     "structuresCompleted": [
-      "brain-lateralisation-comparison"
+      "healthy-versus-pathology-comparison"
     ],
     "structuresMigrated": 0,
-    "verifiedRegisteredStructures": 22,
-    "qa": "STATIC PASS — manual runtime checks reported; reproducible browser automation not committed"
+    "verifiedRegisteredStructures": 23,
+    "qa": "PASS — static validation and documented in-app browser checks passed"
   },
   "neurofeedback": {
     "status": "complete",
@@ -308,9 +309,8 @@
   },
   "interactiveAnatomy": {
     "status": "in_progress",
-    "structuresCompleted": 22,
+    "structuresCompleted": 23,
     "remainingStructures": [
-      "healthy-versus-pathology-comparison",
       "lesion-and-symptom-mapping",
       "integrated-whole-brain-explorer-and-capstone"
     ],
@@ -326,6 +326,7 @@
       "cranial-nerves-atlas",
       "deep-nuclei-atlas",
       "functional-network-overlay-atlas",
+      "healthy-versus-pathology-comparison",
       "hypothalamus-atlas",
       "insula-atlas",
       "insula-operculum-atlas",
@@ -338,8 +339,8 @@
       "thalamus-atlas",
       "ventricular-system-atlas"
     ],
-    "nextStructure": "healthy-versus-pathology-comparison",
-    "qaStatus": "STATIC PASS — 22 canonical registrations validated; manual runtime checks reported but not reproducible from committed automation",
+    "nextStructure": "lesion-and-symptom-mapping",
+    "qaStatus": "PASS — 23 canonical registrations validated; Build 35 in-app browser checks passed",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   }
 }

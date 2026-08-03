@@ -161,3 +161,20 @@ v1.1.0 next 5
 
 ### Fixed
 - Included detail `searchTerms` metadata in application search results.
+
+## 2.11.0 — 2026-08-03
+
+### Added
+- Healthy Versus Pathology Comparison as the 23rd canonical Interactive Anatomy structure.
+- Accessible whole-brain comparison illustration, six selectable domains, a healthy/pathology toggle,
+  four clinical overlays, four-question quiz bank and spaced-review metadata.
+
+### Changed
+- Advanced the application, Python package and offline cache to version 2.11.0.
+- Advanced Interactive Anatomy navigation to Lesion and Symptom Mapping while keeping the phase in progress.
+- Added optional, data-driven comparison modes to the canonical explorer with native keyboard controls,
+  accessible pressed state and safe handling when comparison data is absent.
+
+### Safety
+- Distinguished variation, dysfunction, injury and disorder; qualified structural, functional,
+  developmental, vascular and degenerative interpretations; and stated that imaging alone does not establish diagnosis.
