@@ -1,6 +1,6 @@
 {
-  "version": "2.9.0",
-  "status": "Interactive Anatomy in progress — five additional integrated atlas structures validated",
+  "version": "2.9.1",
+  "status": "Interactive Anatomy in progress — 21 registered structures migrated to the canonical runtime schema",
   "currentPhase": "Interactive Anatomy Atlas",
   "completedProductionSlices": [
     "traumatic-brain-injury",
@@ -194,20 +194,13 @@
   ],
   "latestBatch": {
     "phase": "Interactive Anatomy Atlas",
-    "type": "five integrated vertical slices",
-    "structuresCompleted": [
-      "basal-ganglia-circuit-explorer",
-      "major-white-matter-pathways-atlas",
-      "neurotransmitter-pathways-atlas",
-      "functional-network-overlay-atlas",
-      "arterial-territories-stroke-comparison"
-    ],
+    "build": "33.1 — Interactive Anatomy Runtime Stabilisation",
+    "type": "runtime stabilisation",
+    "structuresCompleted": [],
+    "structuresMigrated": 21,
     "verifiedRegisteredStructures": 21,
     "qa": "PASS"
   },
-  "last_batch": "53 EEG & QEEG production slices with three QA passes",
-  "phase": "Neurofeedback",
-  "neurofeedback_topics_added": 10,
   "neurofeedback": {
     "status": "complete",
     "plannedSlices": 42,
@@ -313,6 +306,9 @@
   "interactiveAnatomy": {
     "status": "in_progress",
     "structuresCompleted": 21,
+    "remainingStructures": [
+      "brain-lateralisation-comparison"
+    ],
     "verifiedStructures": [
       "arterial-territories-stroke-comparison",
       "basal-ganglia-circuit-explorer",
@@ -337,7 +333,7 @@
       "ventricular-system-atlas"
     ],
     "nextStructure": "brain-lateralisation-comparison",
-    "qaStatus": "PASS",
+    "qaStatus": "PASS — canonical schema and runtime safety validated",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   }
 }

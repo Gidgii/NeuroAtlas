@@ -104,3 +104,22 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
 - Added five unique accessible SVG atlas illustrations.
 - Registered curriculum, loader, navigation, search, quizzes, spaced repetition, bookmarks, progress and offline caching.
 - Repository and JavaScript syntax QA passed.
+
+## Build 33.1 — Interactive Anatomy Runtime Stabilisation (v2.9.1) — 2026-08-03
+- Migrated all 21 registered Interactive Anatomy records to canonical explorer schema 1.0.0.
+- Rebuilt the generic explorer to resolve legacy anatomy content safely into selectable parts,
+  pathway stages, clinical overlays, accessible announcements and overview reset controls.
+- Added missing-stage and empty-state guards, keyboard-visible focus, touch-friendly overlay controls
+  and deterministic reduced-motion playback.
+- Repaired the Hypothalamus Atlas forward link, authoritative state contradictions, package version
+  drift and stale project-state validation behaviour.
+- Added repository validation tests and a repository `.gitignore`; no new atlas structure was added.
+- Corrected five detached title-only records from `production` to `draft` so validation cannot
+  mistake placeholders for completed loader content.
+- Normalised quiz scoring across the existing `answer` and `correctAnswer` record variants.
+- Validation completed: nine repository checks passed through the dependency-free runner; JavaScript
+  syntax passed for app.js, system-explorer.js and sw.js; all 21 explorers passed live browser
+  rendering, selection, sequence, overview, accessibility and console-error checks; representative
+  quiz, search, bookmark, progress, review and offline loading checks passed.
+- Pytest, Ruff and the Typer-based launcher could not run because their third-party packages are not
+  installed in the available Python runtime.

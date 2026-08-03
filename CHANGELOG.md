@@ -123,3 +123,26 @@ v1.1.0 next 5
 ### Changed
 - Advanced Interactive Anatomy navigation to Brain Lateralisation Comparison.
 - Expanded offline cache and loader registration to 21 verified structures.
+
+## 2.9.1 — 2026-08-03
+
+### Changed
+- Standardised all 21 registered Interactive Anatomy records on canonical explorer schema 1.0.0.
+- Updated the generic explorer for selectable anatomy, pathway playback, available clinical overlays,
+  overview reset, accessible live announcements and reduced-motion operation.
+- Aligned Python package, application and offline-cache versions at 2.9.1.
+
+### Fixed
+- Prevented missing stages or selectable parts from causing generic-explorer exceptions.
+- Repaired the Hypothalamus Atlas forward navigation link and contradictory project-state fields.
+- Prevented legacy project-management automation from silently rewriting the current authoritative
+  state schema.
+- Reclassified five detached title-only records as drafts instead of production content.
+- Normalised quiz scoring for records using either `answer` or `correctAnswer` indexes.
+
+### Validation
+- Added automated coverage for JSON, identifiers, file alignment, loader registration, illustrations,
+  offline cache entries, quizzes, navigation and canonical Interactive Anatomy schema compliance.
+- Historical duplicate 2.7.0 entries remain unchanged because they describe separate recorded QA passes.
+- Live browser QA covered all 21 explorers plus quiz scoring, search, bookmarks, progress, review and
+  offline loading; no browser console errors were observed.

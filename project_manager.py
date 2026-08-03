@@ -29,18 +29,11 @@ REQUIRED_MILESTONE_ONE_FILES = (
 )
 
 REQUIRED_STATE_KEYS = (
-    "current_version",
-    "current_milestone",
-    "completed_files",
-    "pending_files",
-    "completed_curriculum",
-    "completed_illustrations",
-    "completed_animations",
-    "dependency_status",
-    "build_status",
-    "qa_status",
-    "known_issues",
-    "next_recommended_task",
+    "version",
+    "status",
+    "currentPhase",
+    "completedProductionSlices",
+    "interactiveAnatomy",
 )
 
 DEPENDENCY_IMPORT_MAP = {
@@ -166,27 +159,20 @@ class ProjectManager:
         except ProjectStateError as exc:
             return ValidationResult("project_state", False, [str(exc)])
 
-        completed = set(state["completed_files"])
-        pending = set(state["pending_files"])
-        overlap = sorted(completed & pending)
-
         details: list[str] = []
         passed = True
-
-        if overlap:
+        anatomy = state["interactiveAnatomy"]
+        verified = anatomy["verifiedStructures"]
+        if anatomy["structuresCompleted"] != len(verified):
             passed = False
-            details.append(
-                "Files cannot be both completed and pending: " + ", ".join(overlap)
-            )
-
-        completed_missing = sorted(
-            name for name in completed if not (self.root / name).exists()
+            details.append("Interactive Anatomy count does not match verifiedStructures.")
+        missing_details = sorted(
+            structure
+            for structure in verified
+            if not (self.root / "app" / "data" / f"{structure}.json").is_file()
         )
-        if completed_missing:
-            passed = False
-            details.extend(
-                f"Completed file does not exist: {name}" for name in completed_missing
-            )
+        details.extend(f"Missing Interactive Anatomy detail: {name}" for name in missing_details)
+        passed = passed and not missing_details
 
         if passed:
             details.append("Project state is structurally valid and internally consistent.")
@@ -239,44 +225,11 @@ class ProjectManager:
     def synchronise_qa_state(
         self, results: Iterable[ValidationResult]
     ) -> dict[str, Any]:
-        state = self.load_state()
-        result_map = {result.name: result for result in results}
-        all_passed = all(result.passed for result in result_map.values())
-
-        qa_checks = state.setdefault("qa_status", {}).setdefault("checks", {})
-        qa_checks["required_files_present"] = result_map.get(
-            "required_files", ValidationResult("", False)
-        ).passed
-        qa_checks["project_state_valid"] = result_map.get(
-            "project_state", ValidationResult("", False)
-        ).passed
-        qa_checks["python_syntax_valid"] = result_map.get(
-            "python_syntax", ValidationResult("", False)
-        ).passed
-        qa_checks["dependency_imports_valid"] = result_map.get(
-            "dependencies", ValidationResult("", False)
-        ).passed
-
-        state["qa_status"]["state"] = "passed" if all_passed else "failed"
-        state["qa_status"]["issues"] = [
-            detail
-            for result in result_map.values()
-            if not result.passed
-            for detail in result.details
-        ]
-
-        state["dependency_status"]["validated"] = result_map.get(
-            "dependencies", ValidationResult("", False)
-        ).passed
-        state["dependency_status"]["installed"] = result_map.get(
-            "dependencies", ValidationResult("", False)
-        ).passed
-        state["dependency_status"]["issues"] = result_map.get(
-            "dependencies", ValidationResult("", False)
-        ).details
-
-        self.save_state(state)
-        return state
+        raise ProjectStateError(
+            "Automatic QA-state synchronisation is disabled for the authoritative "
+            "Interactive Anatomy schema; use validate --no-update-state and update "
+            "the reviewed QA report explicitly."
+        )
 
     def _validate_state_shape(self, state: Any) -> None:
         if not isinstance(state, dict):
@@ -288,24 +241,16 @@ class ProjectManager:
                 "Project state is missing required keys: " + ", ".join(missing_keys)
             )
 
-        list_fields = (
-            "completed_files",
-            "pending_files",
-            "completed_curriculum",
-            "completed_illustrations",
-            "completed_animations",
-            "known_issues",
-        )
-        for field_name in list_fields:
-            if not isinstance(state[field_name], list):
-                raise ProjectStateError(f"{field_name} must be a list.")
-
-        if not isinstance(state["current_milestone"], dict):
-            raise ProjectStateError("current_milestone must be an object.")
-
-        for key in ("id", "name", "status"):
-            if key not in state["current_milestone"]:
-                raise ProjectStateError(f"current_milestone is missing {key}.")
+        if not isinstance(state["completedProductionSlices"], list):
+            raise ProjectStateError("completedProductionSlices must be a list.")
+        anatomy = state["interactiveAnatomy"]
+        if not isinstance(anatomy, dict):
+            raise ProjectStateError("interactiveAnatomy must be an object.")
+        for key in ("structuresCompleted", "verifiedStructures", "nextStructure", "qaStatus"):
+            if key not in anatomy:
+                raise ProjectStateError(f"interactiveAnatomy is missing {key}.")
+        if not isinstance(anatomy["verifiedStructures"], list):
+            raise ProjectStateError("interactiveAnatomy.verifiedStructures must be a list.")
 
     @staticmethod
     def _append_markdown(path: Path, heading: str, entries: Iterable[str]) -> None:
