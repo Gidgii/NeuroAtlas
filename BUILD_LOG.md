@@ -183,3 +183,20 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
   coverage, navigation and Git whitespace checks passed during the final static validation.
 - Browser runtime validation was not run because no committed reproducible browser harness exists.
 - Interactive Anatomy is complete: all 25 planned structures are implemented, integrated and statically validated.
+
+## Build 38 — P0 Runtime Truthfulness and Artwork Readiness Baseline (v2.14.0) — 2026-08-03
+- Began the Release 3.0 Runtime Truthfulness & Product Stabilisation program without adding curriculum content.
+- Gated `Bring it to life` behind the explicit visual-scene registry: 38 supported concepts retain the control and 211 unsupported concepts no longer expose a dead button.
+- Removed generic empty explorer output for 172 production detail records that do not provide selectable anatomy; meaningful custom and canonical explorers remain unchanged.
+- Reclassified five detached title-only records as draft and removed their unregistered fetches from the application loader and service-worker cache.
+- Removed seven additional draft-only scaffolds from the service-worker cache so offline data coverage now contains only curriculum and production details.
+- Repaired six malformed SVGs by XML-escaping visible ampersands; all 249 illustration files now parse as XML.
+- Added content-specific concept-hero alt text resolution with a safe title/subtitle fallback.
+- Added `artworkReadiness` to all 249 curriculum concepts and created `ARTWORK_READINESS_REPORT.json` with the governed five-status scale.
+- Assigned 109 template-geometry variants to Placeholder and 140 unique-geometry illustrations to Functional. No artwork was promoted to Ready for Production, Premium or Locked without rendered review evidence.
+- Expanded the repository suite from 12 to 16 assertions for exact loader alignment, artwork readiness, unsupported-control suppression and hero alt-text contracts.
+- Independent validation passed for 269 JSON files, 249 SVG files, 249 unique curriculum concepts, 241 loader-aligned production details, 504 unique offline paths, quiz answers/rationales and artwork counts.
+- All nine application JavaScript modules parsed with Node `vm.SourceTextModule`; Git whitespace validation passed.
+- Direct module exercises confirmed supported and unsupported scene detection, empty explorer suppression and meaningful explorer rendering.
+- Python launcher validation, Pytest and Ruff were not run because Python tooling is unavailable in the current task runtime.
+- Browser runtime validation was attempted but not completed because the in-app browser webview did not attach; no browser PASS is claimed.

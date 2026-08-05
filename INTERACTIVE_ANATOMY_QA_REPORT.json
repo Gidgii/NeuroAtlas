@@ -1,12 +1,12 @@
 {
-  "reportVersion": "2.13.0",
-  "build": "37 — Integrated Whole-Brain Explorer and Capstone",
-  "phase": "Interactive Anatomy Atlas",
+  "reportVersion": "2.14.0",
+  "build": "38 — P0 Runtime Truthfulness and Artwork Readiness Baseline",
+  "phase": "Release 3.0 — Runtime Truthfulness & Product Stabilisation",
   "generatedDate": "2026-08-03",
-  "status": "STATIC PASS — all planned structures implemented; browser runtime validation not run",
+  "status": "STATIC PASS WITH TOOLING LIMITATIONS — browser runtime, Pytest and Ruff not run",
   "verifiedRegisteredStructures": 25,
   "canonicalSchemaVersion": "1.0.0",
-  "structuresAdded": ["integrated-whole-brain-explorer-and-capstone"],
+  "structuresAdded": [],
   "structuresMigrated": [],
   "migrationHistory": {
     "build": "33.1 — Interactive Anatomy Runtime Stabilisation",
@@ -18,22 +18,24 @@
   "buildHistory": [
     {"build": "34 — Brain Lateralisation Comparison", "version": "2.10.0", "structure": "brain-lateralisation-comparison"},
     {"build": "35 — Healthy Versus Pathology Comparison", "version": "2.11.0", "structure": "healthy-versus-pathology-comparison", "runtimeEvidence": "Manual browser checks were reported but are not independently reproducible."},
-    {"build": "36 — Lesion and Symptom Mapping", "version": "2.12.0", "structure": "lesion-and-symptom-mapping"}
+    {"build": "36 — Lesion and Symptom Mapping", "version": "2.12.0", "structure": "lesion-and-symptom-mapping"},
+    {"build": "37 — Integrated Whole-Brain Explorer and Capstone", "version": "2.13.0", "structure": "integrated-whole-brain-explorer-and-capstone"},
+    {"build": "38 — P0 Runtime Truthfulness and Artwork Readiness Baseline", "version": "2.14.0", "structure": null}
   ],
   "staticValidation": {
-    "status": "PASS",
-    "evidence": "12 repository validation assertions, launcher validation, JSON and SVG parsing, JavaScript syntax checks, Git checks and source inspection",
-    "checks": {"jsonValidity": "PASS", "uniqueCurriculumIds": "PASS", "uniqueLevelOrderPairs": "PASS", "fileIdAlignment": "PASS", "loaderRegistration": "PASS", "curriculumRegistration": "PASS", "navigationLinkage": "PASS", "allStructureDestinations": "PASS", "assetPaths": "PASS", "illustrationXml": "PASS", "serviceWorkerCoverage": "PASS", "serviceWorkerDuplicates": "PASS", "quizCoverageAndRationales": "PASS", "canonicalSchemaCompliance": "PASS", "searchMetadata": "PASS", "bookmarkCompatibility": "PASS", "progressTracking": "PASS", "spacedRepetition": "PASS", "accessibilityMetadata": "PASS", "reducedMotionSupport": "PASS", "javascriptSyntax": "PASS", "pythonSyntax": "PASS", "gitDiffAndWhitespace": "PASS"}
+    "status": "PASS WITH TOOLING LIMITATIONS",
+    "evidence": "Independent PowerShell validation of 269 JSON files, 249 SVG files, curriculum identity, loader alignment, offline coverage, quiz answers, quiz rationales and artwork status counts; all 9 JavaScript modules parsed with Node vm.SourceTextModule; direct module exercises passed for scene availability and explorer suppression; Git whitespace checks passed",
+    "checks": {"jsonValidity": "PASS", "uniqueCurriculumIds": "PASS", "uniqueLevelOrderPairs": "PASS", "fileIdAlignment": "PASS", "loaderRegistration": "PASS — exact 241 production-detail match", "curriculumRegistration": "PASS", "navigationLinkage": "PASS", "allStructureDestinations": "PASS", "assetPaths": "PASS", "illustrationXml": "PASS — 249/249 after six repairs", "serviceWorkerCoverage": "PASS — exact production-only data coverage across 504 unique paths", "serviceWorkerDuplicates": "PASS", "quizCoverageAndRationales": "PASS", "canonicalSchemaCompliance": "PASS", "searchMetadata": "PASS", "bookmarkCompatibility": "PASS", "progressTracking": "PASS", "spacedRepetition": "PASS", "accessibilityMetadata": "PASS — content-specific hero alt metadata is used when available", "reducedMotionSupport": "PASS", "artworkReadiness": "PASS — 249/249 concepts", "runtimeTruthfulnessSourceContracts": "PASS", "javascriptSyntax": "PASS — 9/9 modules", "pythonSyntax": "NOT RUN — Python unavailable", "repositoryTestSuite": "NOT RUN — Pytest unavailable", "ruff": "NOT RUN — Ruff unavailable", "gitDiffAndWhitespace": "PASS"}
   },
   "runtimeValidation": {
     "status": "NOT RUN",
     "automatedBrowserTests": "NOT COMMITTED",
-    "limitations": ["No committed repeatable browser harness is available.", "Browser rendering, destination control activation, search, bookmark, progress, quiz, spaced repetition, offline reload, mobile viewport, keyboard operation and reduced-motion media emulation were not run for Build 37."]
+    "limitations": ["No committed repeatable browser harness is available.", "The in-app browser webview did not attach to the local preview.", "Browser rendering, destination control activation, search, bookmark, progress, quiz, spaced repetition, offline reload, mobile viewport, keyboard operation and reduced-motion media emulation were not run for Build 38."]
   },
-  "defectsFound": ["The canonical explorer could display integrated domains but had no data-driven destination control for navigating from a domain to its detailed structures."],
-  "repairsCompleted": ["Added the final canonical capstone with whole-brain, hemisphere and healthy-pathology comparison modes.", "Added data-driven keyboard-accessible destination controls covering all 24 previously completed Interactive Anatomy structures, including rebinding after dynamic domain changes.", "Added cortical, subcortical, brainstem, cerebellar, white-matter, vascular, functional, lesion and presentation integration.", "Added a dedicated accessible SVG and registered curriculum, loader, navigation, search, quiz, review and offline-cache integration."],
+  "defectsFound": ["The application exposed Bring it to life controls for all 249 concepts although only 38 visual scenes exist.", "The generic explorer rendered an error-styled empty model for 172 production detail records without selectable anatomy.", "Five detached title-only records were fetched and cached despite having no curriculum registration or record ID.", "Six hero SVGs were malformed because visible ampersands were not XML-escaped.", "Concept heroes used generic alt text even when content-specific accessibility metadata existed."],
+  "repairsCompleted": ["Visual controls are now gated by an explicit scene-availability contract and toggle an accurate expanded state.", "Generic explorers now remain absent when no meaningful selectable model exists.", "Detached title-only records were reclassified as draft and removed from runtime loading and offline caching.", "Seven additional draft-only scaffolds were removed from offline caching so cached data is production-only.", "All six malformed SVGs were repaired and all 249 SVGs XML-validated.", "Concept heroes now prefer detail-level alt text and use a title/subtitle fallback.", "Artwork Readiness was added to every concept with 109 Placeholder and 140 Functional classifications; no unsupported production-readiness claim was made."],
   "nextUnfinishedStructure": null,
   "remainingRoadmap": [],
   "interactiveAnatomyCompletion": "COMPLETE — all 25 planned structures are implemented, integrated and statically validated",
-  "notes": ["Build 37 completes the planned Interactive Anatomy roadmap.", "Browser runtime PASS is not claimed.", "Clinical content preserves distributed-network, laterality, vascular, developmental, contextual and differential-diagnosis qualifications."]
+  "notes": ["The Interactive Anatomy curriculum remains complete; Release 3.0 product stabilisation is in progress.", "Browser runtime PASS is not claimed.", "Pytest, Ruff and launcher validation were not run because Python tooling is unavailable in this task runtime.", "Artwork promotion beyond Functional requires rendered, clinical, responsive and accessibility review."]
 }

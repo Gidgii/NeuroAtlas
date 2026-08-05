@@ -9,7 +9,17 @@ DATA = APP / "data"
 ILLUSTRATIONS = APP / "assets" / "illustrations"
 STATE = json.loads((ROOT / "PROJECT_STATE.json").read_text(encoding="utf-8"))
 CURRICULUM = json.loads((DATA / "curriculum.json").read_text(encoding="utf-8"))
+ARTWORK_REPORT = json.loads(
+    (ROOT / "ARTWORK_READINESS_REPORT.json").read_text(encoding="utf-8")
+)
 ATLAS_IDS = STATE["interactiveAnatomy"]["verifiedStructures"]
+ARTWORK_STATUSES = {
+    "Placeholder",
+    "Functional",
+    "Ready for Production",
+    "Premium",
+    "Locked",
+}
 
 
 def detail(structure_id):
@@ -54,21 +64,49 @@ def test_production_details_are_filename_aligned_and_registered():
         assert record["id"] in loader_ids
 
 
+def test_loader_requests_only_registered_production_concept_details():
+    curriculum_ids = {concept["id"] for concept in CURRICULUM["concepts"]}
+    expected_loader_ids = set()
+    for concept_id in curriculum_ids:
+        path = DATA / f"{concept_id}.json"
+        if not path.is_file():
+            continue
+        record = json.loads(path.read_text(encoding="utf-8"))
+        if record.get("status") == "production":
+            expected_loader_ids.add(concept_id)
+    assert registered_loader_ids() == expected_loader_ids
+
+
 def test_curriculum_illustrations_exist():
     for concept in CURRICULUM["concepts"]:
         assert (ILLUSTRATIONS / concept["hero"]).is_file()
+
+
+def test_every_concept_has_valid_artwork_readiness():
+    concepts = CURRICULUM["concepts"]
+    statuses = [concept["artworkReadiness"] for concept in concepts]
+    assert set(CURRICULUM["artworkReadinessScale"]) == ARTWORK_STATUSES
+    assert all(status in ARTWORK_STATUSES for status in statuses)
+    assert len({concept["hero"] for concept in concepts}) == len(concepts)
+    assert ARTWORK_REPORT["totalConcepts"] == len(concepts)
+    assert ARTWORK_REPORT["totalIllustrations"] == len(concepts)
+    assert ARTWORK_REPORT["counts"] == {
+        status: statuses.count(status) for status in ARTWORK_STATUSES
+    }
 
 
 def test_service_worker_has_unique_complete_production_coverage():
     paths = service_worker_paths()
     assert len(paths) == len(set(paths))
     cached = set(paths)
+    expected_data_paths = {"./data/curriculum.json"}
     for path in DATA.glob("*.json"):
         if path.name == "curriculum.json":
             continue
         record = json.loads(path.read_text(encoding="utf-8"))
         if record.get("status") == "production":
-            assert f"./data/{path.name}" in cached
+            expected_data_paths.add(f"./data/{path.name}")
+    assert {path for path in cached if path.startswith("./data/")} == expected_data_paths
     for concept in CURRICULUM["concepts"]:
         assert f"./assets/illustrations/{concept['hero']}" in cached
 
@@ -122,6 +160,24 @@ def test_generic_explorer_has_safe_empty_and_optional_stage_guards():
     assert "if(!stage){finish();return}" in source
     assert "prefers-reduced-motion: reduce" in source
     assert "aria-live=\"polite\"" in source
+
+
+def test_runtime_does_not_expose_unsupported_visual_controls_or_empty_explorers():
+    app_source = (APP / "app.js").read_text(encoding="utf-8")
+    visual_source = (APP / "visual-scenes.js").read_text(encoding="utf-8")
+    explorer_source = (APP / "system-explorer.js").read_text(encoding="utf-8")
+    assert "hasVisualScene(c.id)" in app_source
+    assert "visualAvailable&&state.visualOpen" in app_source
+    assert "state.visualOpen=!state.visualOpen" in app_source
+    assert "export const hasVisualScene" in visual_source
+    assert "if(!first)return ''" in explorer_source
+    assert "No selectable anatomy is available for this record." not in explorer_source
+
+
+def test_concept_hero_uses_content_specific_accessible_text_when_available():
+    source = (APP / "app.js").read_text(encoding="utf-8")
+    assert "d?.altText||d?.accessibility?.altText" in source
+    assert 'alt="${escapeHTML(conceptAlt(c))}"' in source
 
 
 def test_build_35_comparison_is_complete_and_optional_runtime_is_safe():
