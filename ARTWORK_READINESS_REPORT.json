@@ -1,0 +1,47 @@
+{
+  "reportVersion": "1.0.0",
+  "atlasVersion": "2.14.0",
+  "releaseProgram": "Release 3.0 — Runtime Truthfulness & Product Stabilisation",
+  "generatedDate": "2026-08-03",
+  "status": "BASELINE COMPLETE — rendered visual review remains required before promotion",
+  "sourceOfTruth": "app/data/curriculum.json concept.artworkReadiness",
+  "totalConcepts": 249,
+  "totalIllustrations": 249,
+  "oneIllustrationPerConcept": true,
+  "allowedStatuses": {
+    "Placeholder": "Functional only",
+    "Functional": "Good enough for development",
+    "Ready for Production": "No expected layout changes",
+    "Premium": "Final commercial artwork",
+    "Locked": "Never modify except bug fixes"
+  },
+  "counts": {
+    "Placeholder": 109,
+    "Functional": 140,
+    "Ready for Production": 0,
+    "Premium": 0,
+    "Locked": 0
+  },
+  "classificationMethod": {
+    "Placeholder": "Assigned when two or more SVGs share identical normalised geometry after title, description and text content are removed. These are functional template variants and require concept-specific visual review or replacement.",
+    "Functional": "Assigned when an SVG has unique normalised geometry. This is a development baseline only, not a claim of publication readiness.",
+    "promotionRule": "Promotion to Ready for Production, Premium or Locked requires rendered visual inspection, clinical accuracy review, responsive layout review and accessibility verification. No illustration was promoted without that evidence."
+  },
+  "validation": {
+    "curriculumConceptsWithStatus": 249,
+    "missingStatuses": 0,
+    "invalidStatuses": 0,
+    "uniqueHeroFiles": 249,
+    "missingHeroFiles": 0,
+    "exactDuplicateSvgFiles": 0,
+    "normalisedGeometryTemplateGroups": 20,
+    "illustrationsInTemplateGroups": 109,
+    "renderedVisualReview": "NOT RUN — browser webview did not attach in the available runtime"
+  },
+  "remainingWork": [
+    "Render and inspect every illustration at mobile and desktop sizes.",
+    "Replace or redesign Placeholder artwork with clinically meaningful concept-specific teaching visuals.",
+    "Review Functional artwork for anatomical accuracy, hierarchy, legibility and psychology-focused educational value.",
+    "Promote artwork only when the evidence required by the promotion rule is recorded."
+  ]
+}

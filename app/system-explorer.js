@@ -47,7 +47,7 @@ function detailMarkup(item){return `<div class="eyebrow">Selected component</div
 
 export function renderSystemExplorer(details){
   const {parts,stages,overlays}=model(details),first=parts[0];
-  if(!first)return `<section class="system-explorer system-explorer-empty" data-system-explorer="${escapeHTML(details.id)}" aria-labelledby="system-title-${escapeHTML(details.id)}"><div class="system-explorer-head"><div><div class="eyebrow">Interactive model</div><h2 id="system-title-${escapeHTML(details.id)}">${escapeHTML(details.title||'Anatomy explorer')}</h2></div></div><p role="status">No selectable anatomy is available for this record.</p></section>`;
+  if(!first)return '';
   const title=details.interaction?.title||`Explore ${details.title}`;
   const instruction=details.interaction?.instruction||'Select a component, inspect available overlays, or run the pathway sequence.';
   const modes=asArray(details.explorer?.comparisonModes);

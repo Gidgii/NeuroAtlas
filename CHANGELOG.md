@@ -212,3 +212,25 @@ v1.1.0 next 5
 ### Safety
 - Preserved distributed-network, pathway, laterality, vascular, developmental and clinical-context qualifications;
   overlay convergence is explicitly framed as hypothesis support rather than diagnosis or causal proof.
+
+## 2.14.0 — 2026-08-03
+
+### Added
+- Artwork Readiness governance for every one of the 249 curriculum concepts.
+- `ARTWORK_READINESS_REPORT.json` with status definitions, counts, validation evidence and promotion rules.
+- Repository assertions for exact loader truthfulness, artwork status coverage, visual-control availability and hero alt-text use.
+
+### Changed
+- `Bring it to life` is shown only for the 38 concepts with an implemented visual scene and now reports accurate expanded state.
+- Generic explorers remain hidden when a concept has no selectable interactive model.
+- Concept hero images prefer content-specific accessibility metadata and fall back to the concept title and subtitle.
+- Five detached title-only records are classified as draft and are no longer loaded or precached.
+- Seven additional draft-only scaffolds are no longer precached; offline data coverage is production-only.
+
+### Fixed
+- Repaired six SVG files that were invalid XML because of unescaped ampersands.
+- Removed 211 dead visual controls and 172 empty explorer panels from reachable runtime paths.
+
+### Validation
+- Independent JSON, SVG, loader, curriculum, quiz, service-worker, artwork-status, JavaScript-parse and Git-whitespace checks passed.
+- Browser runtime, Python launcher, Pytest and Ruff checks were not completed in the available task runtime and are not claimed.

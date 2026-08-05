@@ -1,7 +1,7 @@
 {
-  "version": "2.13.0",
-  "status": "Interactive Anatomy complete — all 25 planned structures implemented and statically validated",
-  "currentPhase": "Interactive Anatomy Atlas",
+  "version": "2.14.0",
+  "status": "Release 3.0 stabilisation in progress — P0 runtime truthfulness baseline completed",
+  "currentPhase": "Release 3.0 — Runtime Truthfulness & Product Stabilisation",
   "completedProductionSlices": [
     "traumatic-brain-injury",
     "migraine-neuroscience",
@@ -197,15 +197,13 @@
     "integrated-whole-brain-explorer-and-capstone"
   ],
   "latestBatch": {
-    "phase": "Interactive Anatomy Atlas",
-    "build": "37 — Integrated Whole-Brain Explorer and Capstone",
-    "type": "integrated vertical slice",
-    "structuresCompleted": [
-      "integrated-whole-brain-explorer-and-capstone"
-    ],
+    "phase": "Release 3.0 — Runtime Truthfulness & Product Stabilisation",
+    "build": "38 — P0 Runtime Truthfulness and Artwork Readiness Baseline",
+    "type": "product stabilisation vertical slice",
+    "structuresCompleted": [],
     "structuresMigrated": 0,
     "verifiedRegisteredStructures": 25,
-    "qa": "STATIC PASS — browser runtime validation not run"
+    "qa": "STATIC PASS — browser runtime validation blocked because the browser webview did not attach"
   },
   "neurofeedback": {
     "status": "complete",
@@ -341,7 +339,42 @@
       "ventricular-system-atlas"
     ],
     "nextStructure": null,
-    "qaStatus": "STATIC PASS — all 25 planned canonical registrations validated; browser runtime validation not run for Build 37",
+    "qaStatus": "STATIC PASS — all 25 planned canonical registrations remain valid; Release 3.0 browser runtime validation not completed",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
+  },
+  "release30": {
+    "status": "in_progress",
+    "program": "Runtime Truthfulness & Product Stabilisation",
+    "currentEpic": "Epic 1 — Runtime Truthfulness",
+    "completedBuilds": [
+      "p0-runtime-truthfulness-and-artwork-readiness-baseline"
+    ],
+    "completedRepairs": [
+      "Unsupported Bring it to life controls are hidden for 211 concepts without a visual scene.",
+      "Generic empty explorers are no longer rendered when a detail record has no selectable model.",
+      "Five detached title-only runtime stubs were removed from the loader and offline cache and reclassified as draft.",
+      "Seven additional draft-only scaffolds were removed from offline caching.",
+      "Six malformed SVGs with unescaped ampersands were repaired and XML-validated.",
+      "Concept hero images now use content-specific accessibility text when detail metadata provides it.",
+      "Every curriculum concept now has an Artwork Readiness status."
+    ],
+    "artworkReadiness": {
+      "report": "ARTWORK_READINESS_REPORT.json",
+      "total": 249,
+      "Placeholder": 109,
+      "Functional": 140,
+      "Ready for Production": 0,
+      "Premium": 0,
+      "Locked": 0
+    },
+    "remainingEpics": [
+      "Epic 1 — remaining runtime truthfulness and reproducible browser QA",
+      "Epic 2 — rendered visual review and atlas artwork rebuild",
+      "Epic 3 — educational enhancement",
+      "Epic 4 — clinical quality",
+      "Epic 5 — technical quality"
+    ],
+    "nextBuild": "Complete reproducible browser QA and remediate the next verified P0 runtime defects.",
+    "qaStatus": "STATIC PASS — 249 SVGs and 269 JSON files parse; 241 production details align with loader; 504 offline paths contain production data only; browser runtime not completed"
   }
 }

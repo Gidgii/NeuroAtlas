@@ -41,6 +41,8 @@ const scenes = {
 
 };
 
+export const hasVisualScene = id => Object.prototype.hasOwnProperty.call(scenes, id);
+
 const dots = (count, cls='pulse-dot') => Array.from({length:count},(_,i)=>`<circle class="${cls} d${i%6}" cx="${110+i*82}" cy="230" r="8"/>`).join('');
 
 function artwork(kind){
