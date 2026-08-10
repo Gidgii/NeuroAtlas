@@ -35,7 +35,10 @@ MODULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("neuron-explorer.js", ("renderNeuronExplorer", "bindNeuronExplorer")),
     ("astrocyte-explorer.js", ("renderAstrocyteExplorer", "bindAstrocyteExplorer")),
     ("microglia-explorer.js", ("renderMicrogliaExplorer", "bindMicrogliaExplorer")),
-    ("oligodendrocyte-explorer.js", ("renderOligodendrocyteExplorer", "bindOligodendrocyteExplorer")),
+    (
+        "oligodendrocyte-explorer.js",
+        ("renderOligodendrocyteExplorer", "bindOligodendrocyteExplorer"),
+    ),
     ("system-explorer.js", ("renderSystemExplorer", "bindSystemExplorer")),
 )
 
@@ -137,7 +140,9 @@ def _start_server() -> tuple[ThreadingHTTPServer, str]:
 
 
 def _wait_for_app(page: Any) -> None:
-    page.wait_for_function("() => document.querySelectorAll('[data-level]').length > 0", timeout=15000)
+    page.wait_for_function(
+        "() => document.querySelectorAll('[data-level]').length > 0", timeout=15000
+    )
 
 
 def _safe_text(locator: Any) -> str:
@@ -154,7 +159,6 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
 
     curriculum = _read_json(DATA / "curriculum.json")
     concepts = sorted(curriculum["concepts"], key=lambda item: (item["level"], item["order"]))
-    concept_by_id = {item["id"]: item for item in concepts}
     report = Report(transport=transport)
     server: ThreadingHTTPServer | None = None
 
@@ -164,9 +168,14 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         if chromium_path:
             launch_kwargs["executable_path"] = chromium_path
         browser = p.chromium.launch(**launch_kwargs)
-        context = browser.new_context(viewport={"width": 1280, "height": 900}, reduced_motion="reduce")
+        context = browser.new_context(
+            viewport={"width": 1280, "height": 900}, reduced_motion="reduce"
+        )
         page = context.new_page()
-        page.on("console", lambda msg: report.console_errors.append(msg.text) if msg.type == "error" else None)
+        page.on(
+            "console",
+            lambda msg: report.console_errors.append(msg.text) if msg.type == "error" else None,
+        )
         page.on("pageerror", lambda exc: report.page_errors.append(str(exc)))
         page.on(
             "requestfailed",
@@ -176,7 +185,11 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         if transport == "http":
             server, url = _start_server()
             response = page.goto(url, wait_until="networkidle", timeout=15000)
-            report.add("HTTP entry point returns success", bool(response and response.ok), str(response.status if response else "no response"))
+            report.add(
+                "HTTP entry point returns success",
+                bool(response and response.ok),
+                str(response.status if response else "no response"),
+            )
         else:
             html, payloads = _build_injected_html()
             page.set_content(html, wait_until="domcontentloaded")
@@ -212,8 +225,16 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
             return report
 
         report.add("Application initialises", True)
-        report.add("Home page has one primary heading", page.locator("main h1").count() == 1, _safe_text(page.locator("main h1").first))
-        report.add("All curriculum levels render", page.locator("[data-level]").count() == len(curriculum["levels"]), f"rendered={page.locator('[data-level]').count()} expected={len(curriculum['levels'])}")
+        report.add(
+            "Home page has one primary heading",
+            page.locator("main h1").count() == 1,
+            _safe_text(page.locator("main h1").first),
+        )
+        report.add(
+            "All curriculum levels render",
+            page.locator("[data-level]").count() == len(curriculum["levels"]),
+            f"rendered={page.locator('[data-level]').count()} expected={len(curriculum['levels'])}",
+        )
         report.metrics["concepts"] = len(concepts)
         report.metrics["levels"] = len(curriculum["levels"])
 
@@ -225,7 +246,9 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         report.add("Search returns matching concepts", search_count > 0, f"results={search_count}")
         if search_count:
             page.locator("[data-search-open]").first.click()
-            report.add("Search result opens a concept", page.locator(".concept-header h1").count() == 1)
+            report.add(
+                "Search result opens a concept", page.locator(".concept-header h1").count() == 1
+            )
 
         # Exhaustive concept render scan + visual scene checks. Run inside the page so the
         # full 249-concept sweep remains fast enough for routine regression testing.
@@ -256,8 +279,14 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
             })""",
             [{"id": item["id"], "title": item["title"]} for item in concepts],
         )
-        render_failures = [f"{item['id']}: {'; '.join(item['failures'])}" for item in scan if item["failures"]]
-        render_failures += [f"{item['id']}: visual scene did not open" for item in scan if item["hasVisual"] and not item["visualOpened"]]
+        render_failures = [
+            f"{item['id']}: {'; '.join(item['failures'])}" for item in scan if item["failures"]
+        ]
+        render_failures += [
+            f"{item['id']}: visual scene did not open"
+            for item in scan
+            if item["hasVisual"] and not item["visualOpened"]
+        ]
         undefined_concepts = [item["id"] for item in scan if item["hasUndefined"]]
         missing_alt = [item["id"] for item in scan if not item["hasAlt"]]
         visual_ids = [item["id"] for item in scan if item["hasVisual"]]
@@ -268,9 +297,17 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         report.metrics["visual_scene_ids"] = visual_ids
         report.metrics["explorer_ids"] = explorer_ids
         report.add("Every concept renders", not render_failures, "; ".join(render_failures[:10]))
-        report.add("Rendered concepts contain no literal undefined", not undefined_concepts, ", ".join(undefined_concepts[:20]))
+        report.add(
+            "Rendered concepts contain no literal undefined",
+            not undefined_concepts,
+            ", ".join(undefined_concepts[:20]),
+        )
         report.add("Every concept hero has alt text", not missing_alt, ", ".join(missing_alt[:20]))
-        report.add("Visual scenes open and close", not any("visual scene" in item for item in render_failures), f"scenes={len(visual_ids)}")
+        report.add(
+            "Visual scenes open and close",
+            not any("visual scene" in item for item in render_failures),
+            f"scenes={len(visual_ids)}",
+        )
 
         # Tabs on a representative concept.
         first = concepts[0]
@@ -296,16 +333,23 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         report.add("Bookmark saves and appears in Bookmarks", bookmarked and listed)
 
         # Quiz -> progress -> review flow. Start with clean app storage for deterministic answer selection.
-        page.evaluate("localStorage.removeItem('cna-progress'); localStorage.removeItem('cna-review-v1')")
+        page.evaluate(
+            "localStorage.removeItem('cna-progress'); localStorage.removeItem('cna-review-v1')"
+        )
         page.reload() if transport == "http" else None
         if transport == "http":
             _wait_for_app(page)
         else:
             # State objects were created before storage was cleared. Recreate the page for a clean deterministic run.
             context.close()
-            context = browser.new_context(viewport={"width": 1280, "height": 900}, reduced_motion="reduce")
+            context = browser.new_context(
+                viewport={"width": 1280, "height": 900}, reduced_motion="reduce"
+            )
             page = context.new_page()
-            page.on("console", lambda msg: report.console_errors.append(msg.text) if msg.type == "error" else None)
+            page.on(
+                "console",
+                lambda msg: report.console_errors.append(msg.text) if msg.type == "error" else None,
+            )
             page.on("pageerror", lambda exc: report.page_errors.append(str(exc)))
             html, payloads = _build_injected_html()
             page.set_content(html, wait_until="domcontentloaded")
@@ -340,11 +384,16 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         question = bank[0] if bank else first["quiz"]
         answer_index = question.get("answer", question.get("correctAnswer"))
         page.locator("[data-answer]").nth(int(answer_index)).click()
-        correct = page.locator(".answer-button.correct").count() == 1 and "Correct." in _safe_text(page.locator(".feedback"))
+        correct = page.locator(".answer-button.correct").count() == 1 and "Correct." in _safe_text(
+            page.locator(".feedback")
+        )
         report.add("Correct quiz answer is scored correctly", correct)
         progress_obj = page.evaluate("JSON.parse(localStorage.getItem('cna-progress') || '{}')")
         review_obj = page.evaluate("JSON.parse(localStorage.getItem('cna-review-v1') || '{}')")
-        report.add("Quiz completion persists to localStorage", bool(progress_obj.get(first["id"], {}).get("completed")))
+        report.add(
+            "Quiz completion persists to localStorage",
+            bool(progress_obj.get(first["id"], {}).get("completed")),
+        )
         report.add("Completed quiz enters review queue", first["id"] in review_obj)
 
         page.click('[data-route="review"]')
@@ -356,14 +405,18 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
             scheduled = page.locator(".review-empty").count() == 1
         else:
             revealed = scheduled = False
-        report.add("Review card can be revealed and graded", review_visible and revealed and scheduled)
+        report.add(
+            "Review card can be revealed and graded", review_visible and revealed and scheduled
+        )
 
         page.click('[data-route="progress"]')
         progress_text = _safe_text(page.locator("main"))
-        report.add("Progress page reflects completed concept", "1" in progress_text and "Concepts complete" in progress_text)
+        report.add(
+            "Progress page reflects completed concept",
+            "1" in progress_text and "Concepts complete" in progress_text,
+        )
 
         # Reduced-motion explorer sequence should complete synchronously rather than leaving a disabled control.
-        run_candidate = next((cid for cid in explorer_ids if cid in concept_by_id), None)
         run_tested = False
         run_ok = True
         run_detail = "no explorer with sequence control found"
@@ -375,17 +428,33 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
                 run_ok = not page.locator("[data-system-run]").is_disabled()
                 run_detail = cid
                 break
-        report.add("Reduced-motion pathway sequence completes without locking controls", run_tested and run_ok, run_detail)
+        report.add(
+            "Reduced-motion pathway sequence completes without locking controls",
+            run_tested and run_ok,
+            run_detail,
+        )
 
         # Mobile viewport smoke test.
         page.set_viewport_size({"width": 390, "height": 844})
         page.evaluate("() => window.scrollTo(0,0)")
         page.click("#homeButton")
-        overflow = page.evaluate("() => document.documentElement.scrollWidth - document.documentElement.clientWidth")
-        report.add("Home page has no material mobile horizontal overflow", overflow <= 2, f"overflow_px={overflow}")
+        overflow = page.evaluate(
+            "() => document.documentElement.scrollWidth - document.documentElement.clientWidth"
+        )
+        report.add(
+            "Home page has no material mobile horizontal overflow",
+            overflow <= 2,
+            f"overflow_px={overflow}",
+        )
         page.click('[data-route="learn"]')
-        overflow = page.evaluate("() => document.documentElement.scrollWidth - document.documentElement.clientWidth")
-        report.add("Learn page has no material mobile horizontal overflow", overflow <= 2, f"overflow_px={overflow}")
+        overflow = page.evaluate(
+            "() => document.documentElement.scrollWidth - document.documentElement.clientWidth"
+        )
+        report.add(
+            "Learn page has no material mobile horizontal overflow",
+            overflow <= 2,
+            f"overflow_px={overflow}",
+        )
 
         # Lightweight semantic/accessibility contracts.
         empty_named_buttons = page.evaluate(
@@ -393,13 +462,29 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
                 !(b.innerText || '').trim() && !(b.getAttribute('aria-label') || '').trim()
             ).length"""
         )
-        report.add("Visible buttons have text or an aria-label", empty_named_buttons == 0, f"unnamed={empty_named_buttons}")
+        report.add(
+            "Visible buttons have text or an aria-label",
+            empty_named_buttons == 0,
+            f"unnamed={empty_named_buttons}",
+        )
 
         # Browser-level error gates. Injected transport intentionally has no network requests for images.
-        report.add("No uncaught JavaScript exceptions", not report.page_errors, "; ".join(report.page_errors[:10]))
-        report.add("No console error messages", not report.console_errors, "; ".join(report.console_errors[:10]))
+        report.add(
+            "No uncaught JavaScript exceptions",
+            not report.page_errors,
+            "; ".join(report.page_errors[:10]),
+        )
+        report.add(
+            "No console error messages",
+            not report.console_errors,
+            "; ".join(report.console_errors[:10]),
+        )
         if transport == "http":
-            report.add("No failed runtime requests", not report.request_failures, "; ".join(report.request_failures[:10]))
+            report.add(
+                "No failed runtime requests",
+                not report.request_failures,
+                "; ".join(report.request_failures[:10]),
+            )
 
         context.close()
         browser.close()
@@ -422,7 +507,7 @@ def main() -> int:
 
     for check in report.checks:
         marker = "PASS" if check.ok else "FAIL"
-        suffix = f" — {check.detail}" if check.detail else ""
+        suffix = f" â€” {check.detail}" if check.detail else ""
         print(f"[{marker}] {check.name}{suffix}")
     print(f"\nRuntime QA: {report.passed}/{len(report.checks)} passed; {report.failed} failed")
     print(f"Report: {args.report}")

@@ -46,9 +46,7 @@ def status(
             resolve_path=True,
         ),
     ] = Path("."),
-    as_json: Annotated[
-        bool, typer.Option("--json", help="Emit machine-readable JSON.")
-    ] = False,
+    as_json: Annotated[bool, typer.Option("--json", help="Emit machine-readable JSON.")] = False,
 ) -> None:
     """Display the authoritative project state."""
     try:
@@ -67,7 +65,7 @@ def status(
     table.add_row("Version", str(state["current_version"]))
     table.add_row(
         "Milestone",
-        f'{milestone["id"]}: {milestone["name"]} ({milestone["status"]})',
+        f"{milestone['id']}: {milestone['name']} ({milestone['status']})",
     )
     table.add_row("Build", str(state["build_status"]["state"]))
     table.add_row("QA", str(state["qa_status"]["state"]))
@@ -188,8 +186,8 @@ def milestone_complete(
     console.print(
         Panel(
             f"Milestone {milestone_id} completed.\n"
-            f'Current milestone: {next_milestone["id"]}: '
-            f'{next_milestone["name"]}.',
+            f"Current milestone: {next_milestone['id']}: "
+            f"{next_milestone['name']}.",
             title="Success",
             style="green",
         )

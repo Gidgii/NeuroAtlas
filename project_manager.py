@@ -7,10 +7,11 @@ import importlib.util
 import json
 import os
 import tempfile
+from collections.abc import Iterable
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 PROJECT_STATE_FILENAME = "PROJECT_STATE.json"
 BUILD_LOG_FILENAME = "BUILD_LOG.md"
@@ -94,9 +95,7 @@ class ProjectManager:
         try:
             state = json.loads(self.state_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
-            raise ProjectStateError(
-                f"{PROJECT_STATE_FILENAME} is not valid JSON: {exc}"
-            ) from exc
+            raise ProjectStateError(f"{PROJECT_STATE_FILENAME} is not valid JSON: {exc}") from exc
 
         self._validate_state_shape(state)
         return state
@@ -105,7 +104,7 @@ class ProjectManager:
         self._validate_state_shape(state)
         self.ensure_root()
 
-        state["updated_at"] = datetime.now(timezone.utc).isoformat()
+        state["updated_at"] = datetime.now(UTC).isoformat()
         payload = json.dumps(state, indent=2, ensure_ascii=False) + "\n"
 
         fd, temp_name = tempfile.mkstemp(
@@ -222,9 +221,7 @@ class ProjectManager:
             self.validate_dependencies(),
         ]
 
-    def synchronise_qa_state(
-        self, results: Iterable[ValidationResult]
-    ) -> dict[str, Any]:
+    def synchronise_qa_state(self, results: Iterable[ValidationResult]) -> dict[str, Any]:
         raise ProjectStateError(
             "Automatic QA-state synchronisation is disabled for the authoritative "
             "Interactive Anatomy schema; use validate --no-update-state and update "

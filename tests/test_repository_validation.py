@@ -2,16 +2,13 @@ import json
 import re
 from pathlib import Path
 
-
 ROOT = Path(__file__).parents[1]
 APP = ROOT / "app"
 DATA = APP / "data"
 ILLUSTRATIONS = APP / "assets" / "illustrations"
 STATE = json.loads((ROOT / "PROJECT_STATE.json").read_text(encoding="utf-8"))
 CURRICULUM = json.loads((DATA / "curriculum.json").read_text(encoding="utf-8"))
-ARTWORK_REPORT = json.loads(
-    (ROOT / "ARTWORK_READINESS_REPORT.json").read_text(encoding="utf-8")
-)
+ARTWORK_REPORT = json.loads((ROOT / "ARTWORK_READINESS_REPORT.json").read_text(encoding="utf-8"))
 ATLAS_IDS = STATE["interactiveAnatomy"]["verifiedStructures"]
 ARTWORK_STATUSES = {
     "Placeholder",
@@ -159,7 +156,7 @@ def test_generic_explorer_has_safe_empty_and_optional_stage_guards():
     assert "if(!run||!stages.length)return" in source
     assert "if(!stage){finish();return}" in source
     assert "prefers-reduced-motion: reduce" in source
-    assert "aria-live=\"polite\"" in source
+    assert 'aria-live="polite"' in source
 
 
 def test_runtime_does_not_expose_unsupported_visual_controls_or_empty_explorers():
@@ -237,12 +234,18 @@ def test_build_37_capstone_navigates_every_completed_anatomy_structure():
     destinations = {
         destination
         for part in record["explorerParts"]
-        for destination in [*part.get("conceptIds", []), *([part["conceptId"]] if part.get("conceptId") else [])]
+        for destination in [
+            *part.get("conceptIds", []),
+            *([part["conceptId"]] if part.get("conceptId") else []),
+        ]
     }
     prior_atlas_ids = set(ATLAS_IDS) - {record["id"]}
     assert destinations == prior_atlas_ids
     assert {mode["id"] for mode in record["explorer"]["comparisonModes"]} == {
-        "left", "right", "healthy", "pathology"
+        "left",
+        "right",
+        "healthy",
+        "pathology",
     }
     source = (APP / "system-explorer.js").read_text(encoding="utf-8")
     assert "data-open=" in source

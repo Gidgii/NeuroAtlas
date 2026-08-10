@@ -95,9 +95,7 @@ class MilestoneManager:
         definition = self._get_definition(milestone_id)
         state = self.project.load_state()
 
-        required_files_result = self.project.validate_required_files(
-            definition.required_files
-        )
+        required_files_result = self.project.validate_required_files(definition.required_files)
         validation_results = self.project.validate_all() if milestone_id == 1 else []
 
         return {
@@ -145,14 +143,9 @@ class MilestoneManager:
 
         if not allowed:
             failures = [
-                detail
-                for result in results
-                if not result.passed
-                for detail in result.details
+                detail for result in results if not result.passed for detail in result.details
             ]
-            raise ProjectStateError(
-                "Milestone completion blocked:\n- " + "\n- ".join(failures)
-            )
+            raise ProjectStateError("Milestone completion blocked:\n- " + "\n- ".join(failures))
 
         state = self.project.load_state()
         next_id = milestone_id + 1
@@ -171,17 +164,14 @@ class MilestoneManager:
                 "name": next_definition.name,
                 "status": "in_progress",
             }
-            state["next_recommended_task"] = (
-                f"Begin Milestone {next_id}: {next_definition.name}."
-            )
+            state["next_recommended_task"] = f"Begin Milestone {next_id}: {next_definition.name}."
 
         state["build_status"]["state"] = "milestone_completed"
         state["qa_status"]["state"] = "passed"
         state["known_issues"] = [
             issue
             for issue in state["known_issues"]
-            if "dependencies" not in issue.lower()
-            and "runtime cli validation" not in issue.lower()
+            if "dependencies" not in issue.lower() and "runtime cli validation" not in issue.lower()
         ]
 
         self.project.save_state(state)
