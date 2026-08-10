@@ -1,7 +1,28 @@
 {
   "id": "limbic-system-atlas",
   "schemaVersion": "2.1.0",
-  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 19,
@@ -300,5 +321,63 @@
   },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/limbic-system-atlas.svg",
+    "label": "Spatial interactive map for Limbic System Atlas",
+    "alt": "Medial brain and circuit diagram showing hippocampus, amygdala, cingulate cortex, fornix, mammillary bodies, hypothalamus and ventral striatum.",
+    "title": "Select a limbic structure or pathway",
+    "instruction": "Tap the medial-brain map, then link memory, salience, motivation and homeostatic regulation.",
+    "hotspots": [
+      {
+        "part": "cingulate-cortex",
+        "label": "Cingulate",
+        "x": 50,
+        "y": 40,
+        "w": 34,
+        "h": 17
+      },
+      {
+        "part": "hippocampal-formation",
+        "label": "Hippocampus",
+        "x": 48,
+        "y": 62,
+        "w": 27,
+        "h": 17
+      },
+      {
+        "part": "amygdala-complex",
+        "label": "Amygdala",
+        "x": 62,
+        "y": 57,
+        "w": 10,
+        "h": 15
+      },
+      {
+        "part": "fornix-mammillary",
+        "label": "Fornix–mammillary",
+        "x": 46,
+        "y": 68,
+        "w": 17,
+        "h": 31
+      },
+      {
+        "part": "ventral-striatum",
+        "label": "Ventral striatum",
+        "x": 56,
+        "y": 64,
+        "w": 10,
+        "h": 11
+      },
+      {
+        "part": "hypothalamus",
+        "label": "Hypothalamus",
+        "x": 56,
+        "y": 64,
+        "w": 9,
+        "h": 11
+      }
+    ]
+  }
 }

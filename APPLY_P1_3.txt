@@ -1,0 +1,11 @@
+P1.3 is a data-only patch that assumes P1.2 is already installed.
+
+Copy the app/data JSON files in this package into the matching app/data folder in the Git repository, then run:
+
+py -m ruff check .
+py -m ruff format --check .
+py -m pytest
+
+git add .
+git commit -m "Expand P1.3 spatial atlas coverage"
+git push origin main

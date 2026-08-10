@@ -1,7 +1,28 @@
 {
   "id": "ventricular-system-atlas",
   "schemaVersion": "2.1.0",
-  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 20,
@@ -192,5 +213,55 @@
   },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/ventricular-system-atlas.svg",
+    "label": "Spatial interactive map for Ventricular System Atlas",
+    "alt": "Chalkboard-style interactive anatomical illustration for Ventricular System Atlas, showing labelled structures and pathway relationships.",
+    "title": "Trace cerebrospinal-fluid flow",
+    "instruction": "Tap each chamber or conduit, then follow the ventricular sequence and predict where obstruction would enlarge upstream spaces.",
+    "hotspots": [
+      {
+        "part": "lateral-ventricles",
+        "label": "Lateral ventricles",
+        "x": 48,
+        "y": 43,
+        "w": 29,
+        "h": 42
+      },
+      {
+        "part": "third-ventricle",
+        "label": "Third ventricle",
+        "x": 50,
+        "y": 51,
+        "w": 12,
+        "h": 23
+      },
+      {
+        "part": "cerebral-aqueduct",
+        "label": "Aqueduct",
+        "x": 51,
+        "y": 64,
+        "w": 8,
+        "h": 23
+      },
+      {
+        "part": "fourth-ventricle",
+        "label": "Fourth ventricle",
+        "x": 53,
+        "y": 75,
+        "w": 13,
+        "h": 15
+      },
+      {
+        "part": "choroid-plexus",
+        "label": "Choroid plexus",
+        "x": 47,
+        "y": 51,
+        "w": 21,
+        "h": 35
+      }
+    ]
+  }
 }

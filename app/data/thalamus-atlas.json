@@ -1,7 +1,28 @@
 {
   "id": "thalamus-atlas",
   "schemaVersion": "2.1.0",
-  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 23,
@@ -186,5 +207,103 @@
   },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/thalamus-atlas.svg",
+    "label": "Spatial interactive map for Thalamus Atlas",
+    "alt": "Clinically labelled chalkboard-style anatomical illustration of the thalamus atlas, showing major subdivisions, connections and nearby landmarks.",
+    "title": "Select a thalamic nucleus",
+    "instruction": "Tap a nuclear group to connect relay target, vascular territory and lesion phenotype.",
+    "hotspots": [
+      {
+        "part": "anterior-nucleus",
+        "label": "Anterior",
+        "x": 37,
+        "y": 45,
+        "w": 11,
+        "h": 13
+      },
+      {
+        "part": "mediodorsal-nucleus",
+        "label": "Mediodorsal",
+        "x": 41,
+        "y": 51,
+        "w": 12,
+        "h": 14
+      },
+      {
+        "part": "ventral-anterior-nucleus",
+        "label": "VA",
+        "x": 44,
+        "y": 56,
+        "w": 10,
+        "h": 12
+      },
+      {
+        "part": "ventral-lateral-nucleus",
+        "label": "VL",
+        "x": 47,
+        "y": 57,
+        "w": 10,
+        "h": 12
+      },
+      {
+        "part": "vpl",
+        "label": "VPL",
+        "x": 45,
+        "y": 61,
+        "w": 9,
+        "h": 10
+      },
+      {
+        "part": "vpm",
+        "label": "VPM",
+        "x": 42,
+        "y": 61,
+        "w": 9,
+        "h": 10
+      },
+      {
+        "part": "lateral-geniculate-nucleus",
+        "label": "LGN",
+        "x": 49,
+        "y": 55,
+        "w": 9,
+        "h": 9
+      },
+      {
+        "part": "medial-geniculate-nucleus",
+        "label": "MGN",
+        "x": 48,
+        "y": 60,
+        "w": 9,
+        "h": 9
+      },
+      {
+        "part": "pulvinar",
+        "label": "Pulvinar",
+        "x": 48,
+        "y": 48,
+        "w": 12,
+        "h": 14
+      },
+      {
+        "part": "intralaminar-nuclei",
+        "label": "Intralaminar",
+        "x": 40,
+        "y": 54,
+        "w": 8,
+        "h": 19
+      },
+      {
+        "part": "reticular-nucleus",
+        "label": "Reticular",
+        "x": 46,
+        "y": 51,
+        "w": 19,
+        "h": 28
+      }
+    ]
+  }
 }

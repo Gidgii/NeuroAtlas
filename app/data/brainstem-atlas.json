@@ -1,7 +1,28 @@
 {
   "id": "brainstem-atlas",
   "schemaVersion": "2.1.0",
-  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 16,
@@ -283,5 +304,55 @@
   },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/brainstem-atlas.svg",
+    "label": "Spatial interactive map for Brainstem Atlas",
+    "alt": "Interactive chalkboard-style anatomical atlas of Brainstem with labelled regions and pathway relationships.",
+    "title": "Select a brainstem level or pathway",
+    "instruction": "Tap the anatomical region itself, then connect level to cranial-nerve, arousal and long-tract consequences.",
+    "hotspots": [
+      {
+        "part": "midbrain",
+        "label": "Midbrain",
+        "x": 43,
+        "y": 29,
+        "w": 17,
+        "h": 19
+      },
+      {
+        "part": "pons",
+        "label": "Pons",
+        "x": 43,
+        "y": 49,
+        "w": 18,
+        "h": 19
+      },
+      {
+        "part": "medulla",
+        "label": "Medulla",
+        "x": 43,
+        "y": 68,
+        "w": 16,
+        "h": 24
+      },
+      {
+        "part": "reticular-formation",
+        "label": "Reticular formation",
+        "x": 46,
+        "y": 49,
+        "w": 8,
+        "h": 48
+      },
+      {
+        "part": "long-tracts",
+        "label": "Long tracts",
+        "x": 42,
+        "y": 51,
+        "w": 5,
+        "h": 60
+      }
+    ]
+  }
 }

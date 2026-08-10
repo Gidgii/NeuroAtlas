@@ -1,7 +1,28 @@
 {
   "id": "cerebellum-atlas",
   "schemaVersion": "2.1.0",
-  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 15,
@@ -283,5 +304,55 @@
   },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/cerebellum-atlas.svg",
+    "label": "Spatial interactive map for Cerebellum Atlas",
+    "alt": "Interactive chalkboard-style anatomical atlas of Cerebellum with labelled regions and pathway relationships.",
+    "title": "Select a cerebellar region",
+    "instruction": "Tap the map to distinguish midline, hemispheric, vestibular, deep-nuclear and peduncular functions.",
+    "hotspots": [
+      {
+        "part": "vermis",
+        "label": "Vermis",
+        "x": 44,
+        "y": 50,
+        "w": 11,
+        "h": 57
+      },
+      {
+        "part": "lateral-hemispheres",
+        "label": "Lateral hemispheres",
+        "x": 46,
+        "y": 52,
+        "w": 48,
+        "h": 52
+      },
+      {
+        "part": "flocculonodular-lobe",
+        "label": "Flocculonodular lobe",
+        "x": 43,
+        "y": 73,
+        "w": 18,
+        "h": 14
+      },
+      {
+        "part": "deep-nuclei",
+        "label": "Deep nuclei",
+        "x": 44,
+        "y": 56,
+        "w": 18,
+        "h": 16
+      },
+      {
+        "part": "cerebellar-peduncles",
+        "label": "Peduncles",
+        "x": 66,
+        "y": 52,
+        "w": 14,
+        "h": 25
+      }
+    ]
+  }
 }

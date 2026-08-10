@@ -1,7 +1,28 @@
 {
   "id": "hypothalamus-atlas",
   "schemaVersion": "2.1.0",
-  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 24,
@@ -184,5 +205,95 @@
   },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/hypothalamus-atlas.svg",
+    "label": "Spatial interactive map for Hypothalamus Atlas",
+    "alt": "Clinically labelled chalkboard-style anatomical illustration of the hypothalamus atlas, showing major subdivisions, connections and nearby landmarks.",
+    "title": "Select a hypothalamic nucleus or zone",
+    "instruction": "Use the sagittal map to connect nuclear position with circadian, endocrine, autonomic and feeding functions.",
+    "hotspots": [
+      {
+        "part": "preoptic-area",
+        "label": "Preoptic",
+        "x": 36,
+        "y": 59,
+        "w": 11,
+        "h": 12
+      },
+      {
+        "part": "suprachiasmatic-nucleus",
+        "label": "SCN",
+        "x": 39,
+        "y": 65,
+        "w": 9,
+        "h": 10
+      },
+      {
+        "part": "paraventricular-nucleus",
+        "label": "PVN",
+        "x": 42,
+        "y": 59,
+        "w": 9,
+        "h": 11
+      },
+      {
+        "part": "supraoptic-nucleus",
+        "label": "SON",
+        "x": 39,
+        "y": 68,
+        "w": 9,
+        "h": 10
+      },
+      {
+        "part": "arcuate-nucleus",
+        "label": "Arcuate",
+        "x": 43,
+        "y": 67,
+        "w": 10,
+        "h": 11
+      },
+      {
+        "part": "ventromedial-nucleus",
+        "label": "VMN",
+        "x": 45,
+        "y": 61,
+        "w": 10,
+        "h": 12
+      },
+      {
+        "part": "dorsomedial-nucleus",
+        "label": "DMN",
+        "x": 45,
+        "y": 56,
+        "w": 10,
+        "h": 11
+      },
+      {
+        "part": "lateral-hypothalamic-area",
+        "label": "Lateral area",
+        "x": 48,
+        "y": 61,
+        "w": 12,
+        "h": 18
+      },
+      {
+        "part": "posterior-nucleus",
+        "label": "Posterior",
+        "x": 49,
+        "y": 58,
+        "w": 9,
+        "h": 12
+      },
+      {
+        "part": "mammillary-bodies",
+        "label": "Mammillary",
+        "x": 47,
+        "y": 71,
+        "w": 10,
+        "h": 9
+      }
+    ]
+  }
 }
