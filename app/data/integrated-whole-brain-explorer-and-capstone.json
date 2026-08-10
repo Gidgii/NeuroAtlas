@@ -4,17 +4,47 @@
   "explorer": {
     "schemaVersion": "1.0.0",
     "partsSource": "anatomy",
-    "stages": ["inputs", "connections", "outputs"],
-    "overlays": ["bloodSupply", "functions", "lesions", "symptoms"],
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
     "comparisonLabel": "Whole-brain comparison mode",
     "comparisonModes": [
-      {"id": "left", "label": "Left hemisphere", "part": "left-hemisphere"},
-      {"id": "right", "label": "Right hemisphere", "part": "right-hemisphere"},
-      {"id": "healthy", "label": "Healthy variation", "part": "healthy-brain"},
-      {"id": "pathology", "label": "Pathology pattern", "part": "pathology-brain"}
+      {
+        "id": "left",
+        "label": "Left hemisphere",
+        "part": "left-hemisphere"
+      },
+      {
+        "id": "right",
+        "label": "Right hemisphere",
+        "part": "right-hemisphere"
+      },
+      {
+        "id": "healthy",
+        "label": "Healthy variation",
+        "part": "healthy-brain"
+      },
+      {
+        "id": "pathology",
+        "label": "Pathology pattern",
+        "part": "pathology-brain"
+      }
     ],
     "returnToOverview": true,
-    "accessibility": {"keyboard": true, "screenReader": true, "reducedMotion": true, "touchTargetPx": 44}
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
   },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
@@ -25,11 +55,42 @@
   "pronunciation": "IN-tuh-gray-tid HOHL-brayn ex-PLOR-er",
   "hero": "integrated-whole-brain-explorer-and-capstone.svg",
   "altText": "Accessible chalkboard-style whole-brain overview showing bilateral cortex around deep nuclei and ventricles, connected to brainstem and cerebellum by white-matter pathways, with vascular, functional-network and lesion overlays and labelled atlas entry points.",
-  "prerequisites": ["lesion-and-symptom-mapping", "healthy-versus-pathology-comparison", "brain-lateralisation-comparison", "arterial-territories-stroke-comparison"],
+  "prerequisites": [
+    "lesion-and-symptom-mapping",
+    "healthy-versus-pathology-comparison",
+    "brain-lateralisation-comparison",
+    "arterial-territories-stroke-comparison"
+  ],
   "previousConcept": "lesion-and-symptom-mapping",
   "nextConcept": null,
-  "tags": ["interactive anatomy", "whole brain explorer", "capstone", "cortex", "subcortex", "cerebellum", "brainstem", "white matter", "vascular territories", "functional networks", "lesion overlay", "atlas navigation"],
-  "searchTerms": ["integrated whole brain", "whole brain overview", "interactive anatomy capstone", "cortical subcortical integration", "brainstem cerebellum integration", "white matter pathways", "vascular territory overlay", "functional network overlay", "lesion overlay", "healthy pathology comparison", "left right hemisphere comparison", "all anatomy structures"],
+  "tags": [
+    "interactive anatomy",
+    "whole brain explorer",
+    "capstone",
+    "cortex",
+    "subcortex",
+    "cerebellum",
+    "brainstem",
+    "white matter",
+    "vascular territories",
+    "functional networks",
+    "lesion overlay",
+    "atlas navigation"
+  ],
+  "searchTerms": [
+    "integrated whole brain",
+    "whole brain overview",
+    "interactive anatomy capstone",
+    "cortical subcortical integration",
+    "brainstem cerebellum integration",
+    "white matter pathways",
+    "vascular territory overlay",
+    "functional network overlay",
+    "lesion overlay",
+    "healthy pathology comparison",
+    "left right hemisphere comparison",
+    "all anatomy structures"
+  ],
   "learningObjectives": [
     "Navigate from a whole-brain overview to every completed Interactive Anatomy structure.",
     "Integrate cortical, subcortical, cerebellar and brainstem anatomy through white-matter pathways and distributed networks.",
@@ -50,56 +111,453 @@
   "anatomy": {
     "position": "Integrated whole-brain overview spanning bilateral cerebral cortex, deep nuclei, limbic and diencephalic structures, ventricles and meninges, brainstem, cerebellum, cranial nerves, white matter and cerebral vasculature.",
     "spatialRelationships": "Cortical areas surround and connect with subcortical nuclei; projection, association and commissural fibres link hemispheres and levels; the brainstem joins cerebrum, cerebellum, spinal and cranial systems; arterial territories overlap and vary.",
-    "regions": ["whole-brain overview", "left hemisphere", "right hemisphere", "healthy brain", "pathology brain", "cortex and insula", "deep nuclei and limbic system", "brainstem and cranial nerves", "cerebellum", "white-matter pathways", "vascular territories", "functional and neurotransmitter networks", "protective and ventricular systems", "clinical comparison and lesion mapping"],
-    "subdivisions": ["cortical", "subcortical", "diencephalic", "limbic", "brainstem", "cerebellar", "white matter", "vascular", "meningeal", "ventricular", "network-level"],
-    "inputs": ["anatomical location and laterality", "ascending sensory and arousal information", "descending cortical and subcortical commands", "cerebellar and basal-ganglia feedback", "vascular, lesion and clinical context"],
-    "connections": ["association, commissural and projection fibres", "cortico-striato-thalamo-cortical loops", "cerebello-thalamo-cortical loops", "limbic and hypothalamic pathways", "brainstem ascending and descending systems", "distributed functional and neurotransmitter networks"],
-    "outputs": ["integrated anatomical hypothesis", "selected detailed atlas destination", "pathway and network interpretation", "vascular and lesion comparison", "explicit differential and uncertainty"],
-    "functions": ["whole-brain overview", "navigate to every completed anatomy structure", "show or hide anatomical layers", "compare left and right hemispheres", "compare healthy variation and pathology", "trace pathways", "inspect vascular, functional and lesion overlays", "return to overview"],
+    "regions": [
+      "whole-brain overview",
+      "left hemisphere",
+      "right hemisphere",
+      "healthy brain",
+      "pathology brain",
+      "cortex and insula",
+      "deep nuclei and limbic system",
+      "brainstem and cranial nerves",
+      "cerebellum",
+      "white-matter pathways",
+      "vascular territories",
+      "functional and neurotransmitter networks",
+      "protective and ventricular systems",
+      "clinical comparison and lesion mapping"
+    ],
+    "subdivisions": [
+      "cortical",
+      "subcortical",
+      "diencephalic",
+      "limbic",
+      "brainstem",
+      "cerebellar",
+      "white matter",
+      "vascular",
+      "meningeal",
+      "ventricular",
+      "network-level"
+    ],
+    "inputs": [
+      "anatomical location and laterality",
+      "ascending sensory and arousal information",
+      "descending cortical and subcortical commands",
+      "cerebellar and basal-ganglia feedback",
+      "vascular, lesion and clinical context"
+    ],
+    "connections": [
+      "association, commissural and projection fibres",
+      "cortico-striato-thalamo-cortical loops",
+      "cerebello-thalamo-cortical loops",
+      "limbic and hypothalamic pathways",
+      "brainstem ascending and descending systems",
+      "distributed functional and neurotransmitter networks"
+    ],
+    "outputs": [
+      "integrated anatomical hypothesis",
+      "selected detailed atlas destination",
+      "pathway and network interpretation",
+      "vascular and lesion comparison",
+      "explicit differential and uncertainty"
+    ],
+    "functions": [
+      "whole-brain overview",
+      "navigate to every completed anatomy structure",
+      "show or hide anatomical layers",
+      "compare left and right hemispheres",
+      "compare healthy variation and pathology",
+      "trace pathways",
+      "inspect vascular, functional and lesion overlays",
+      "return to overview"
+    ],
     "bloodSupply": "ACA, MCA and PCA cortical territories interact with deep perforators and vertebrobasilar, PICA, AICA and SCA territories. Watersheds and borders vary; venous, haemorrhagic and nonvascular mechanisms require different reasoning.",
     "lesionEffects": "Clinical effects reflect local tissue injury, affected fibres, network disconnection, laterality, vascular distribution, diaschisis and time. Similar symptoms may arise from different sites, and similar lesions may produce different presentations.",
-    "neurologicalPresentations": ["motor or sensory change", "aphasia, neglect or visual-field loss", "cranial-nerve and long-tract combinations", "ataxia or dysmetria", "altered arousal, memory or executive control"],
-    "psychologicalPresentations": ["changes in attention, language, memory or social cognition", "altered motivation, affect regulation or self-monitoring", "fatigue and slowed processing", "variable disability shaped by reserve and environment"],
+    "neurologicalPresentations": [
+      "motor or sensory change",
+      "aphasia, neglect or visual-field loss",
+      "cranial-nerve and long-tract combinations",
+      "ataxia or dysmetria",
+      "altered arousal, memory or executive control"
+    ],
+    "psychologicalPresentations": [
+      "changes in attention, language, memory or social cognition",
+      "altered motivation, affect regulation or self-monitoring",
+      "fatigue and slowed processing",
+      "variable disability shaped by reserve and environment"
+    ],
     "clinicalSignificance": "A whole-brain framework helps clinicians combine focal localisation with pathway, network and vascular reasoning, select detailed atlas views and state uncertainty without using anatomy as a stand-alone diagnosis."
   },
   "explorerParts": [
-    {"id":"overview","label":"Whole-brain overview","short":"All systems on one orienting map","detail":"Orient cortex, deep structures, brainstem, cerebellum, white matter, vasculature, protective layers and distributed networks before selecting a detailed destination.","clinical":"Begin broad, then narrow by time course, examination, laterality, pathway and mechanism."},
-    {"id":"left-hemisphere","label":"Left hemisphere","short":"Compare language, praxis and contralateral systems","detail":"Inspect left cortical and subcortical organisation without assuming universal dominance.","clinical":"Confirm individual dominance and distributed network involvement.","conceptId":"brain-lateralisation-comparison"},
-    {"id":"right-hemisphere","label":"Right hemisphere","short":"Compare spatial attention, prosody and contralateral systems","detail":"Inspect right cortical and subcortical organisation within bilateral networks.","clinical":"Neglect and awareness disorders are distributed and variable.","conceptId":"brain-lateralisation-comparison"},
-    {"id":"healthy-brain","label":"Healthy variation","short":"Variation, reserve and compensation","detail":"Compare expected variation with function and context rather than a binary normal-abnormal label.","clinical":"A structural difference may be incidental, while dysfunction may be physiologically important without a visible lesion.","conceptId":"healthy-versus-pathology-comparison"},
-    {"id":"pathology-brain","label":"Pathology pattern","short":"Injury, dysfunction and disorder","detail":"Integrate structural, functional, developmental, vascular and degenerative patterns.","clinical":"Diagnosis requires converging phenotype, course, examination and investigation.","conceptId":"healthy-versus-pathology-comparison"},
-    {"id":"cortex","label":"Cortex, insula and cingulate","short":"Lobes, buried cortex and medial integration","detail":"Navigate cerebral lobes, insula, operculum and cingulate cortex.","clinical":"Cortical functions emerge through distributed connections.","conceptIds":["cerebral-lobes-atlas","insula-atlas","insula-operculum-atlas","cingulate-cortex-atlas"]},
-    {"id":"subcortex","label":"Deep nuclei, limbic and diencephalon","short":"Thalamic, hypothalamic, striatal and limbic loops","detail":"Navigate deep nuclei, basal-ganglia circuits, limbic system, thalamus, hypothalamus and pituitary-sellar anatomy.","clinical":"Compact nuclei and fibres can produce mixed motor, sensory, cognitive, autonomic and endocrine patterns.","conceptIds":["deep-nuclei-atlas","basal-ganglia-circuit-explorer","limbic-system-atlas","thalamus-atlas","hypothalamus-atlas","pituitary-and-sella-atlas"]},
-    {"id":"brainstem","label":"Brainstem, arousal and cranial nerves","short":"Long tracts, nuclei and ascending regulation","detail":"Navigate brainstem, reticular activating system and cranial nerves.","clinical":"Crossed signs, arousal change and autonomic instability require urgent contextual assessment.","conceptIds":["brainstem-atlas","reticular-activating-system-atlas","cranial-nerves-atlas"]},
-    {"id":"cerebellum","label":"Cerebellum","short":"Coordination, timing and cerebello-cortical loops","detail":"Navigate hemispheres, vermis, deep nuclei and cerebellar peduncles.","clinical":"Interpret cognitive-affective effects with concordant neurological and network evidence.","conceptId":"cerebellum-atlas"},
-    {"id":"white-matter","label":"White matter and chemical pathways","short":"Structural tracts and modulatory projections","detail":"Navigate major association, commissural and projection pathways plus neurotransmitter systems.","clinical":"Disconnection and neuromodulation can alter intact nodes across distance.","conceptIds":["major-white-matter-pathways-atlas","neurotransmitter-pathways-atlas"]},
-    {"id":"vascular","label":"Vasculature and arterial territories","short":"Supply anatomy and stroke comparison","detail":"Navigate cerebral vessels and compare ACA, MCA, PCA and posterior-circulation territories.","clinical":"Territory borders vary; mechanism and time course remain essential.","conceptIds":["cerebral-vasculature-atlas","arterial-territories-stroke-comparison"]},
-    {"id":"networks","label":"Functional networks","short":"Distributed cognition, salience and control","detail":"Navigate overlapping functional-network overlays across cortical and subcortical nodes.","clinical":"Network membership is dynamic and does not assign one psychological function to one region.","conceptId":"functional-network-overlay-atlas"},
-    {"id":"protection-csf","label":"Meninges and ventricular system","short":"Protection, compartments and cerebrospinal fluid","detail":"Navigate meningeal layers and ventricular-CSF anatomy.","clinical":"Mass effect, pressure, haemorrhage, inflammation and CSF obstruction can affect distant systems.","conceptIds":["meninges-atlas","ventricular-system-atlas"]},
-    {"id":"clinical-mapping","label":"Lesion and symptom integration","short":"Many-to-many clinical localisation","detail":"Navigate lesion mapping after comparing laterality and healthy-pathology patterns.","clinical":"Use anatomy to rank and test hypotheses, never to reverse-infer a diagnosis or lived experience.","conceptId":"lesion-and-symptom-mapping"}
+    {
+      "id": "overview",
+      "label": "Whole-brain overview",
+      "short": "All systems on one orienting map",
+      "detail": "Orient cortex, deep structures, brainstem, cerebellum, white matter, vasculature, protective layers and distributed networks before selecting a detailed destination.",
+      "clinical": "Begin broad, then narrow by time course, examination, laterality, pathway and mechanism."
+    },
+    {
+      "id": "left-hemisphere",
+      "label": "Left hemisphere",
+      "short": "Compare language, praxis and contralateral systems",
+      "detail": "Inspect left cortical and subcortical organisation without assuming universal dominance.",
+      "clinical": "Confirm individual dominance and distributed network involvement.",
+      "conceptId": "brain-lateralisation-comparison"
+    },
+    {
+      "id": "right-hemisphere",
+      "label": "Right hemisphere",
+      "short": "Compare spatial attention, prosody and contralateral systems",
+      "detail": "Inspect right cortical and subcortical organisation within bilateral networks.",
+      "clinical": "Neglect and awareness disorders are distributed and variable.",
+      "conceptId": "brain-lateralisation-comparison"
+    },
+    {
+      "id": "healthy-brain",
+      "label": "Healthy variation",
+      "short": "Variation, reserve and compensation",
+      "detail": "Compare expected variation with function and context rather than a binary normal-abnormal label.",
+      "clinical": "A structural difference may be incidental, while dysfunction may be physiologically important without a visible lesion.",
+      "conceptId": "healthy-versus-pathology-comparison"
+    },
+    {
+      "id": "pathology-brain",
+      "label": "Pathology pattern",
+      "short": "Injury, dysfunction and disorder",
+      "detail": "Integrate structural, functional, developmental, vascular and degenerative patterns.",
+      "clinical": "Diagnosis requires converging phenotype, course, examination and investigation.",
+      "conceptId": "healthy-versus-pathology-comparison"
+    },
+    {
+      "id": "cortex",
+      "label": "Cortex, insula and cingulate",
+      "short": "Lobes, buried cortex and medial integration",
+      "detail": "Navigate cerebral lobes, insula, operculum and cingulate cortex.",
+      "clinical": "Cortical functions emerge through distributed connections.",
+      "conceptIds": [
+        "cerebral-lobes-atlas",
+        "insula-atlas",
+        "insula-operculum-atlas",
+        "cingulate-cortex-atlas"
+      ]
+    },
+    {
+      "id": "subcortex",
+      "label": "Deep nuclei, limbic and diencephalon",
+      "short": "Thalamic, hypothalamic, striatal and limbic loops",
+      "detail": "Navigate deep nuclei, basal-ganglia circuits, limbic system, thalamus, hypothalamus and pituitary-sellar anatomy.",
+      "clinical": "Compact nuclei and fibres can produce mixed motor, sensory, cognitive, autonomic and endocrine patterns.",
+      "conceptIds": [
+        "deep-nuclei-atlas",
+        "basal-ganglia-circuit-explorer",
+        "limbic-system-atlas",
+        "thalamus-atlas",
+        "hypothalamus-atlas",
+        "pituitary-and-sella-atlas"
+      ]
+    },
+    {
+      "id": "brainstem",
+      "label": "Brainstem, arousal and cranial nerves",
+      "short": "Long tracts, nuclei and ascending regulation",
+      "detail": "Navigate brainstem, reticular activating system and cranial nerves.",
+      "clinical": "Crossed signs, arousal change and autonomic instability require urgent contextual assessment.",
+      "conceptIds": [
+        "brainstem-atlas",
+        "reticular-activating-system-atlas",
+        "cranial-nerves-atlas"
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "label": "Cerebellum",
+      "short": "Coordination, timing and cerebello-cortical loops",
+      "detail": "Navigate hemispheres, vermis, deep nuclei and cerebellar peduncles.",
+      "clinical": "Interpret cognitive-affective effects with concordant neurological and network evidence.",
+      "conceptId": "cerebellum-atlas"
+    },
+    {
+      "id": "white-matter",
+      "label": "White matter and chemical pathways",
+      "short": "Structural tracts and modulatory projections",
+      "detail": "Navigate major association, commissural and projection pathways plus neurotransmitter systems.",
+      "clinical": "Disconnection and neuromodulation can alter intact nodes across distance.",
+      "conceptIds": [
+        "major-white-matter-pathways-atlas",
+        "neurotransmitter-pathways-atlas"
+      ]
+    },
+    {
+      "id": "vascular",
+      "label": "Vasculature and arterial territories",
+      "short": "Supply anatomy and stroke comparison",
+      "detail": "Navigate cerebral vessels and compare ACA, MCA, PCA and posterior-circulation territories.",
+      "clinical": "Territory borders vary; mechanism and time course remain essential.",
+      "conceptIds": [
+        "cerebral-vasculature-atlas",
+        "arterial-territories-stroke-comparison"
+      ]
+    },
+    {
+      "id": "networks",
+      "label": "Functional networks",
+      "short": "Distributed cognition, salience and control",
+      "detail": "Navigate overlapping functional-network overlays across cortical and subcortical nodes.",
+      "clinical": "Network membership is dynamic and does not assign one psychological function to one region.",
+      "conceptId": "functional-network-overlay-atlas"
+    },
+    {
+      "id": "protection-csf",
+      "label": "Meninges and ventricular system",
+      "short": "Protection, compartments and cerebrospinal fluid",
+      "detail": "Navigate meningeal layers and ventricular-CSF anatomy.",
+      "clinical": "Mass effect, pressure, haemorrhage, inflammation and CSF obstruction can affect distant systems.",
+      "conceptIds": [
+        "meninges-atlas",
+        "ventricular-system-atlas"
+      ]
+    },
+    {
+      "id": "clinical-mapping",
+      "label": "Lesion and symptom integration",
+      "short": "Many-to-many clinical localisation",
+      "detail": "Navigate lesion mapping after comparing laterality and healthy-pathology patterns.",
+      "clinical": "Use anatomy to rank and test hypotheses, never to reverse-infer a diagnosis or lived experience.",
+      "conceptId": "lesion-and-symptom-mapping"
+    }
   ],
   "interactions": [
-    {"type":"select","label":"Select integrated anatomical domain","targets":["cortex","subcortex","brainstem","cerebellum","white matter","vasculature","networks","protective systems","clinical mapping"]},
-    {"type":"layers","label":"Show anatomical overlays","targets":["vascular territory","function","lesion","presentation"]},
-    {"type":"comparison","label":"Compare hemispheres and health states","targets":["left","right","healthy variation","pathology"]},
-    {"type":"navigate","label":"Open detailed atlas structures","targets":["all 24 completed Interactive Anatomy structures"]},
-    {"type":"overview","label":"Return to whole-brain overview","targets":["integrated brain"]}
+    {
+      "type": "select",
+      "label": "Select integrated anatomical domain",
+      "targets": [
+        "cortex",
+        "subcortex",
+        "brainstem",
+        "cerebellum",
+        "white matter",
+        "vasculature",
+        "networks",
+        "protective systems",
+        "clinical mapping"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Show anatomical overlays",
+      "targets": [
+        "vascular territory",
+        "function",
+        "lesion",
+        "presentation"
+      ]
+    },
+    {
+      "type": "comparison",
+      "label": "Compare hemispheres and health states",
+      "targets": [
+        "left",
+        "right",
+        "healthy variation",
+        "pathology"
+      ]
+    },
+    {
+      "type": "navigate",
+      "label": "Open detailed atlas structures",
+      "targets": [
+        "all 24 completed Interactive Anatomy structures"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to whole-brain overview",
+      "targets": [
+        "integrated brain"
+      ]
+    }
   ],
   "quiz": [
-    {"id":"integrated-whole-brain-explorer-and-capstone-q1","question":"What is the best first step when using the integrated explorer for a new clinical pattern?","options":["Orient to the whole-brain pattern and time course before narrowing by laterality, pathway, network and mechanism","Choose the single region most associated with one symptom","Assume the largest overlay is causal","Ignore normal variation"],"answer":0,"rationale":"Broad orientation prevents premature localisation and supports structured comparison of sites, pathways, networks and mechanisms."},
-    {"id":"integrated-whole-brain-explorer-and-capstone-q2","question":"Why can a small subcortical lesion cause several deficits?","options":["Compact nuclei and projection fibres serving several systems may lie close together","Subcortical anatomy has no organisation","Every deep lesion affects the entire cortex equally","Symptoms depend only on lesion volume"],"answer":0,"rationale":"Deep structures contain closely packed nuclei and fibres, so a small lesion may affect multiple connected functions."},
-    {"id":"integrated-whole-brain-explorer-and-capstone-q3","question":"What does convergence of a lesion overlay with a vascular territory and functional network establish?","options":["A stronger anatomical hypothesis that still requires clinical and investigative confirmation","A definitive diagnosis and prognosis","The person's psychological experience","One necessary symptom"],"answer":0,"rationale":"Converging layers improve coherence but cannot replace examination, imaging interpretation, course, differential diagnosis and context."},
-    {"id":"integrated-whole-brain-explorer-and-capstone-q4","question":"Which statement best integrates cerebellar and cortical anatomy?","options":["Cerebellar effects can include coordination and connected cognitive-affective changes through cerebello-thalamo-cortical loops","The cerebellum controls cognition independently of the cerebrum","All affective symptoms localise to the vermis","Cortical function is unaffected by cerebellar connections"],"answer":0,"rationale":"Cerebellar contributions are mediated through distributed loops; clinical interpretation requires neurological, temporal and network concordance."}
+    {
+      "id": "integrated-whole-brain-explorer-and-capstone-q1",
+      "question": "What is the best first step when using the integrated explorer for a new clinical pattern?",
+      "options": [
+        "Orient to the whole-brain pattern and time course before narrowing by laterality, pathway, network and mechanism",
+        "Choose the single region most associated with one symptom",
+        "Assume the largest overlay is causal",
+        "Ignore normal variation"
+      ],
+      "answer": 0,
+      "rationale": "Broad orientation prevents premature localisation and supports structured comparison of sites, pathways, networks and mechanisms."
+    },
+    {
+      "id": "integrated-whole-brain-explorer-and-capstone-q2",
+      "question": "Why can a small subcortical lesion cause several deficits?",
+      "options": [
+        "Compact nuclei and projection fibres serving several systems may lie close together",
+        "Subcortical anatomy has no organisation",
+        "Every deep lesion affects the entire cortex equally",
+        "Symptoms depend only on lesion volume"
+      ],
+      "answer": 0,
+      "rationale": "Deep structures contain closely packed nuclei and fibres, so a small lesion may affect multiple connected functions."
+    },
+    {
+      "id": "integrated-whole-brain-explorer-and-capstone-q3",
+      "question": "What does convergence of a lesion overlay with a vascular territory and functional network establish?",
+      "options": [
+        "A stronger anatomical hypothesis that still requires clinical and investigative confirmation",
+        "A definitive diagnosis and prognosis",
+        "The person's psychological experience",
+        "One necessary symptom"
+      ],
+      "answer": 0,
+      "rationale": "Converging layers improve coherence but cannot replace examination, imaging interpretation, course, differential diagnosis and context."
+    },
+    {
+      "id": "integrated-whole-brain-explorer-and-capstone-q4",
+      "question": "Which statement best integrates cerebellar and cortical anatomy?",
+      "options": [
+        "Cerebellar effects can include coordination and connected cognitive-affective changes through cerebello-thalamo-cortical loops",
+        "The cerebellum controls cognition independently of the cerebrum",
+        "All affective symptoms localise to the vermis",
+        "Cortical function is unaffected by cerebellar connections"
+      ],
+      "answer": 0,
+      "rationale": "Cerebellar contributions are mediated through distributed loops; clinical interpretation requires neurological, temporal and network concordance."
+    }
   ],
-  "relatedConcepts": ["cerebral-lobes-atlas","deep-nuclei-atlas","brainstem-atlas","cerebellum-atlas","major-white-matter-pathways-atlas","cerebral-vasculature-atlas","functional-network-overlay-atlas","arterial-territories-stroke-comparison","brain-lateralisation-comparison","healthy-versus-pathology-comparison","lesion-and-symptom-mapping"],
+  "relatedConcepts": [
+    "cerebral-lobes-atlas",
+    "deep-nuclei-atlas",
+    "brainstem-atlas",
+    "cerebellum-atlas",
+    "major-white-matter-pathways-atlas",
+    "cerebral-vasculature-atlas",
+    "functional-network-overlay-atlas",
+    "arterial-territories-stroke-comparison",
+    "brain-lateralisation-comparison",
+    "healthy-versus-pathology-comparison",
+    "lesion-and-symptom-mapping"
+  ],
   "references": [
-    {"citation":"Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021.","type":"textbook"},
-    {"citation":"Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021.","type":"textbook"},
-    {"citation":"Catani M, Thiebaut de Schotten M. Atlas of Human Brain Connections. Oxford University Press; 2012.","type":"atlas"}
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Catani M, Thiebaut de Schotten M. Atlas of Human Brain Connections. Oxford University Press; 2012.",
+      "type": "atlas"
+    }
   ],
-  "spacedRepetition": {"initialIntervalDays":1,"graduatingIntervalDays":7,"easeFactor":2.5,"reviewPrompt":"For one clinical pattern, integrate location, laterality, white-matter pathway, functional network, vascular territory, lesion mechanism and one disconfirming alternative."},
-  "accessibility": {"keyboardNavigation":true,"screenReaderSummary":"Integrated whole-brain explorer with fourteen selectable domains, links to all 24 completed anatomy structures, four comparison modes, pathway sequence, vascular, function, lesion and presentation overlays, and overview reset.","reducedMotion":true,"minimumTouchTargetPx":44},
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "For one clinical pattern, integrate location, laterality, white-matter pathway, functional network, vascular territory, lesion mechanism and one disconfirming alternative."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Integrated whole-brain explorer with fourteen selectable domains, links to all 24 completed anatomy structures, four comparison modes, pathway sequence, vascular, function, lesion and presentation overlays, and overview reset.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/integrated-whole-brain-explorer-and-capstone.svg",
+    "label": "Spatial interactive map for Integrated Whole-Brain Explorer and Capstone",
+    "alt": "Accessible chalkboard-style whole-brain overview showing bilateral cortex around deep nuclei and ventricles, connected to brainstem and cerebellum by white-matter pathways, with vascular, functional-network and lesion overlays and labelled atlas entry points.",
+    "title": "Navigate the whole brain spatially",
+    "instruction": "Start from the map, select an anatomical family, then use the linked detail and destination controls to drill down.",
+    "hotspots": [
+      {
+        "part": "left-hemisphere",
+        "label": "Left hemisphere",
+        "x": 34,
+        "y": 28,
+        "w": 24,
+        "h": 29
+      },
+      {
+        "part": "right-hemisphere",
+        "label": "Right hemisphere",
+        "x": 67,
+        "y": 28,
+        "w": 24,
+        "h": 29
+      },
+      {
+        "part": "cortex",
+        "label": "Cortex",
+        "x": 26,
+        "y": 40,
+        "w": 24,
+        "h": 33
+      },
+      {
+        "part": "subcortex",
+        "label": "Deep nuclei",
+        "x": 50,
+        "y": 49,
+        "w": 24,
+        "h": 16
+      },
+      {
+        "part": "brainstem",
+        "label": "Brainstem",
+        "x": 50,
+        "y": 72,
+        "w": 12,
+        "h": 24
+      },
+      {
+        "part": "cerebellum",
+        "label": "Cerebellum",
+        "x": 58,
+        "y": 82,
+        "w": 18,
+        "h": 18
+      },
+      {
+        "part": "white-matter",
+        "label": "White matter",
+        "x": 71,
+        "y": 55,
+        "w": 18,
+        "h": 19
+      },
+      {
+        "part": "vascular",
+        "label": "Vascular",
+        "x": 80,
+        "y": 31,
+        "w": 15,
+        "h": 24
+      },
+      {
+        "part": "networks",
+        "label": "Networks",
+        "x": 21,
+        "y": 66,
+        "w": 18,
+        "h": 18
+      },
+      {
+        "part": "clinical-mapping",
+        "label": "Lesion mapping",
+        "x": 67,
+        "y": 41,
+        "w": 12,
+        "h": 14
+      }
+    ]
+  }
 }

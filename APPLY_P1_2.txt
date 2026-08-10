@@ -1,0 +1,20 @@
+P1.2 — Spatial Atlas Interaction Engine
+
+Copy the contents of this folder over the root of ClinicalNeuroscienceAtlas-git, preserving folders.
+
+This patch changes only:
+- app/system-explorer.js
+- app/styles.css
+- app/data/cerebral-lobes-atlas.json
+- app/data/basal-ganglia-circuit-explorer.json
+- app/data/integrated-whole-brain-explorer-and-capstone.json
+- P1_INTERACTION_AUDIT.md
+
+It does not modify the Neuro Atlas entrance.
+
+After copying, run:
+  py -m ruff check .
+  py -m ruff format --check .
+  py -m pytest
+
+Then commit and push if green.

@@ -1,7 +1,28 @@
 {
   "id": "basal-ganglia-circuit-explorer",
   "schemaVersion": "2.1.0",
-  "explorer": {"schemaVersion":"1.0.0","partsSource":"anatomy","stages":["inputs","connections","outputs"],"overlays":["bloodSupply","functions","lesions","symptoms"],"returnToOverview":true,"accessibility":{"keyboard":true,"screenReader":true,"reducedMotion":true,"touchTargetPx":44}},
+  "explorer": {
+    "schemaVersion": "1.0.0",
+    "partsSource": "anatomy",
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
+    "returnToOverview": true,
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
+  },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
   "sequence": 30,
@@ -263,5 +284,63 @@
   },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "spatialMap": {
+    "schemaVersion": "1.0.0",
+    "image": "./assets/illustrations/basal-ganglia-circuit-explorer.svg",
+    "label": "Spatial interactive map for Basal Ganglia Circuit Explorer",
+    "alt": "Interactive chalkboard-style anatomical map of Basal Ganglia Circuit Explorer with selectable regions and pathways.",
+    "title": "Select a basal-ganglia node",
+    "instruction": "Use the circuit map to move between nuclei; the detail panel updates with each selection.",
+    "hotspots": [
+      {
+        "part": "caudate-nucleus",
+        "label": "Caudate",
+        "x": 16.7,
+        "y": 28.3,
+        "w": 22,
+        "h": 16
+      },
+      {
+        "part": "putamen",
+        "label": "Putamen",
+        "x": 50,
+        "y": 28.3,
+        "w": 22,
+        "h": 16
+      },
+      {
+        "part": "nucleus-accumbens",
+        "label": "N. accumbens",
+        "x": 83.3,
+        "y": 28.3,
+        "w": 22,
+        "h": 16
+      },
+      {
+        "part": "globus-pallidus-external",
+        "label": "GPe",
+        "x": 16.7,
+        "y": 63.3,
+        "w": 22,
+        "h": 16
+      },
+      {
+        "part": "globus-pallidus-internal",
+        "label": "GPi",
+        "x": 50,
+        "y": 63.3,
+        "w": 22,
+        "h": 16
+      },
+      {
+        "part": "subthalamic-nucleus",
+        "label": "STN",
+        "x": 83.3,
+        "y": 63.3,
+        "w": 22,
+        "h": 16
+      }
+    ]
+  }
 }
