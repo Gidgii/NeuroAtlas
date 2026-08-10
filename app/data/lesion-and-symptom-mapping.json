@@ -653,5 +653,97 @@
         "caveat": "Network-level formulations are probabilistic. They should not be used to reverse-engineer a lesion or diagnosis from cognitive test scores alone."
       }
     ]
+  },
+  "integratedCaseLab": {
+    "title": "Integrated lesion-to-function cases",
+    "instruction": "Work through localisation and assessment sequentially, then integrate supporting and conflicting evidence before committing to a formulation.",
+    "cases": [
+      {
+        "id": "dominant-language-network",
+        "label": "Dominant language network",
+        "part": "left-cortical",
+        "vignette": "Following a focal neurological event, speech is effortful, naming is impaired and sentence repetition is poor, while alertness is intact.",
+        "clues": [
+          "language change is acute and focal",
+          "motor speech versus language must be separated",
+          "laterality depends on individual language dominance"
+        ],
+        "targetHypothesis": "Dominant left perisylvian language-network disruption",
+        "hypothesisOptions": [
+          "Dominant left perisylvian language-network disruption",
+          "Right-lateralised visuospatial network disruption",
+          "Primary cerebellar motor syndrome"
+        ],
+        "hypothesisRationale": "A multimodal language disturbance involving naming, connected speech and repetition is most coherently approached as a dominant perisylvian network problem, while still testing for dysarthria/apraxia and broader deficits.",
+        "targetAssessment": "Structured language examination across modalities",
+        "assessmentOptions": [
+          "Structured language examination across modalities",
+          "Visual-field testing only",
+          "Reward sensitivity task"
+        ],
+        "assessmentRationale": "Sampling spontaneous speech, naming, comprehension, repetition, reading and writing establishes whether the deficit is genuinely language-based and which components are disproportionately affected.",
+        "supports": [
+          "convergent impairment across language modalities",
+          "aphasic error types rather than pure motor weakness",
+          "imaging concordant with dominant language network"
+        ],
+        "challenges": [
+          "intact language with isolated dysarthria",
+          "global delirium or reduced arousal",
+          "hearing or motor impairment accounts for performance"
+        ],
+        "alternatives": [
+          "speech-motor disorder",
+          "thalamic/subcortical language-network disruption",
+          "post-ictal or migraine-related transient dysfunction"
+        ],
+        "synthesis": "The best working model is a dominant language-network disruption, but the examination must establish whether the observed communication difficulty is linguistic, motor-speech, attentional or mixed.",
+        "nextStep": "Map the full language profile and integrate neurological examination, imaging, handedness and premorbid language history.",
+        "caveat": "Language is distributed and individual dominance varies; a behavioural profile cannot specify a single cortical point lesion."
+      },
+      {
+        "id": "right-attention-network",
+        "label": "Right attention network",
+        "part": "right-cortical",
+        "vignette": "A patient repeatedly omits items on the left side of space, collides with objects on the left and is relatively unaware of the problem after a right-hemisphere event.",
+        "clues": [
+          "asymmetry is spatial rather than simply visual acuity",
+          "functional behaviour shows left-sided omissions",
+          "awareness may also be impaired"
+        ],
+        "targetHypothesis": "Right-lateralised attention-network disruption with left neglect",
+        "hypothesisOptions": [
+          "Right-lateralised attention-network disruption with left neglect",
+          "Dominant phonological-language disconnection",
+          "Isolated hippocampal amnesia"
+        ],
+        "hypothesisRationale": "Persistent left-sided omissions across tasks and everyday behaviour after right-hemisphere injury strongly support an attentional neglect hypothesis, although visual-field loss and motor/sensory deficits must be distinguished.",
+        "targetAssessment": "Multimodal spatial-attention and neglect assessment",
+        "assessmentOptions": [
+          "Multimodal spatial-attention and neglect assessment",
+          "Single list-learning score",
+          "Fine motor speed in the right hand only"
+        ],
+        "assessmentRationale": "Cancellation, line bisection, copying, visual search and functional observation across modalities help separate neglect from hemianopia, sensory loss and general inattention.",
+        "supports": [
+          "left-sided omissions across more than one task",
+          "egocentric or allocentric spatial bias",
+          "functional collisions or grooming asymmetry"
+        ],
+        "challenges": [
+          "deficit maps exactly to a visual field without attentional bias",
+          "bilateral random omissions from reduced arousal",
+          "visual or motor limitations fully explain performance"
+        ],
+        "alternatives": [
+          "homonymous hemianopia",
+          "diffuse attentional impairment",
+          "left-sided sensory extinction or motor impairment"
+        ],
+        "synthesis": "The behavioural asymmetry supports a right attention-network hypothesis, but neglect is heterogeneous and should be characterised across reference frames and functional contexts.",
+        "nextStep": "Combine bedside neglect measures, visual-field examination and functional observation; assess safety implications.",
+        "caveat": "Neglect is a network syndrome and can vary markedly by task, modality and recovery stage."
+      }
+    ]
   }
 }

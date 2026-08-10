@@ -582,5 +582,97 @@
         "caveat": "Arousal disturbance is highly non-specific and can arise from structural, metabolic, toxic, infectious, sleep-related and psychiatric causes."
       }
     ]
+  },
+  "integratedCaseLab": {
+    "title": "Integrated brainstem cases",
+    "instruction": "Work through localisation and assessment sequentially, then integrate supporting and conflicting evidence before committing to a formulation.",
+    "cases": [
+      {
+        "id": "pontine-crossed-signs",
+        "label": "Pontine crossed signs",
+        "part": "pons",
+        "vignette": "A patient develops sudden diplopia, ipsilateral facial weakness and contralateral limb weakness.",
+        "clues": [
+          "abrupt onset",
+          "cranial-nerve and long-tract signs occur together",
+          "limb weakness is contralateral to the facial findings"
+        ],
+        "targetHypothesis": "Focal pontine brainstem lesion",
+        "hypothesisOptions": [
+          "Focal pontine brainstem lesion",
+          "Isolated peripheral facial neuropathy",
+          "Primary amnestic syndrome"
+        ],
+        "hypothesisRationale": "The combination of ipsilateral cranial-nerve findings with contralateral long-tract weakness is a classic crossed brainstem pattern and is more coherent with a pontine localisation than with an isolated peripheral lesion.",
+        "targetAssessment": "Urgent cranial-nerve plus motor-sensory examination",
+        "assessmentOptions": [
+          "Urgent cranial-nerve plus motor-sensory examination",
+          "Delayed verbal memory testing",
+          "Personality inventory"
+        ],
+        "assessmentRationale": "Acute focal neurological signs require immediate medical localisation and stabilisation. Formal neuropsychological testing is secondary until the neurological state is characterised.",
+        "supports": [
+          "reproducible gaze or facial motor abnormality",
+          "upper-motor-neuron limb pattern on the opposite side",
+          "imaging lesion in the pons"
+        ],
+        "challenges": [
+          "facial weakness without any long-tract or ocular signs",
+          "peripheral nerve distribution better explains all findings",
+          "symptoms fluctuate without objective neurological signs"
+        ],
+        "alternatives": [
+          "multifocal vascular disease",
+          "demyelination",
+          "posterior-fossa mass or inflammatory process"
+        ],
+        "synthesis": "The crossed pattern raises a high-priority pontine hypothesis because neighbouring cranial-nerve nuclei/fascicles and descending long tracts can be affected together. The pattern should guide urgent neurological examination and imaging rather than stand alone as a diagnosis.",
+        "nextStep": "Escalate for acute neurological assessment and imaging; defer extensive cognitive testing until medically stable.",
+        "caveat": "Brainstem localisation is pattern-based and probabilistic. Exact vascular territory and structure require examination and imaging."
+      },
+      {
+        "id": "medullary-swallowing-pattern",
+        "label": "Medullary swallowing pattern",
+        "part": "medulla",
+        "vignette": "After an acute event, a patient has dysphagia, hoarse voice, gait unsteadiness and altered pain/temperature sensation affecting the face and opposite side of the body.",
+        "clues": [
+          "lower cranial dysfunction",
+          "crossed sensory pattern",
+          "acute vestibular/ataxic features"
+        ],
+        "targetHypothesis": "Lateral medullary network involvement",
+        "hypothesisOptions": [
+          "Lateral medullary network involvement",
+          "Isolated dominant temporal-lobe dysfunction",
+          "Peripheral median neuropathy"
+        ],
+        "hypothesisRationale": "Dysphagia/hoarseness plus crossed pain-temperature findings and ataxia form a coherent medullary brainstem syndrome rather than an isolated cortical or peripheral pattern.",
+        "targetAssessment": "Swallow safety and focused neurological examination",
+        "assessmentOptions": [
+          "Swallow safety and focused neurological examination",
+          "Executive-function battery first",
+          "Academic achievement testing"
+        ],
+        "assessmentRationale": "Airway and swallowing risk take priority, followed by cranial-nerve, sensory, vestibular and cerebellar examination to establish the neurological pattern.",
+        "supports": [
+          "objective bulbar dysfunction",
+          "crossed facial/body sensory loss",
+          "ipsilateral ataxia or vestibular signs"
+        ],
+        "challenges": [
+          "normal swallowing and cranial-nerve function",
+          "single peripheral sensory territory",
+          "isolated language or memory impairment"
+        ],
+        "alternatives": [
+          "other posterior-circulation lesions",
+          "demyelinating or inflammatory brainstem disease",
+          "multifocal pathology"
+        ],
+        "synthesis": "The convergent bulbar, sensory and cerebellar/vestibular signs support a medullary localisation. Clinical urgency is driven by swallowing and respiratory safety, not by neuropsychological profile.",
+        "nextStep": "Obtain urgent medical review, swallowing assessment and imaging as indicated.",
+        "caveat": "This teaching pattern is not a substitute for bedside localisation or acute stroke protocols."
+      }
+    ]
   }
 }

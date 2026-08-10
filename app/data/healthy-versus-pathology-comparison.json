@@ -569,5 +569,97 @@
         "caveat": "Normal ageing, psychiatric illness, sensory impairment, medication effects and medical disease can mimic or amplify cognitive decline."
       }
     ]
+  },
+  "integratedCaseLab": {
+    "title": "Integrated healthy-to-pathology cases",
+    "instruction": "Work through localisation and assessment sequentially, then integrate supporting and conflicting evidence before committing to a formulation.",
+    "cases": [
+      {
+        "id": "vascular-network-inefficiency",
+        "label": "Vascular network inefficiency",
+        "part": "vascular",
+        "vignette": "An older adult with vascular risk factors shows slowed processing, reduced cognitive flexibility and variable attention, with relatively less prominent isolated storage failure.",
+        "clues": [
+          "vascular burden is documented",
+          "speed/executive efficiency is more affected than one focal cognitive module",
+          "daily function has changed gradually with possible stepwise periods"
+        ],
+        "targetHypothesis": "Distributed vascular network inefficiency",
+        "hypothesisOptions": [
+          "Distributed vascular network inefficiency",
+          "Pure focal hippocampal syndrome",
+          "Isolated peripheral vestibular disorder"
+        ],
+        "hypothesisRationale": "A speed/executive-dominant pattern in the context of vascular burden can fit distributed subcortical-white-matter network inefficiency, but profile alone cannot establish vascular causation.",
+        "targetAssessment": "Processing speed and executive control with vascular/functional context",
+        "assessmentOptions": [
+          "Processing speed and executive control with vascular/functional context",
+          "One recognition-memory score only",
+          "Olfactory naming only"
+        ],
+        "assessmentRationale": "A broad battery should quantify speed, attention, set shifting, inhibition and memory while separating motor/visual slowing and integrating imaging, vascular history and everyday function.",
+        "supports": [
+          "convergent slowing across low and higher executive-load tasks",
+          "executive inefficiency with retrieval benefiting from cueing",
+          "imaging and medical history show relevant vascular burden"
+        ],
+        "challenges": [
+          "isolated rapid forgetting with preserved speed/executive function",
+          "performance explained by depression, sleep, medication or sensory-motor factors",
+          "no evidence of vascular disease despite extensive workup"
+        ],
+        "alternatives": [
+          "neurodegenerative disease",
+          "depression or fatigue-related cognitive inefficiency",
+          "sleep disorder or medication effects"
+        ],
+        "synthesis": "The profile can support a vascular-network hypothesis only when cognitive pattern, time course, medical risk and neuroimaging converge. Neuropsychology contributes pattern and functional impact, not vascular diagnosis by itself.",
+        "nextStep": "Integrate longitudinal history, neurological findings, imaging and modifiable vascular risks; repeat assessment when change over time is clinically important.",
+        "caveat": "Mixed pathologies are common in later life, and executive slowing is highly non-specific."
+      },
+      {
+        "id": "progressive-memory-syndrome",
+        "label": "Progressive memory syndrome",
+        "part": "degenerative",
+        "vignette": "A person has a progressive history of repeating questions and forgetting recent events despite cueing, with increasing impact on independent daily tasks.",
+        "clues": [
+          "decline is progressive rather than abrupt",
+          "recent episodic learning is disproportionately affected",
+          "functional change is corroborated by an informant"
+        ],
+        "targetHypothesis": "Progressive medial-temporal memory-system dysfunction",
+        "hypothesisOptions": [
+          "Progressive medial-temporal memory-system dysfunction",
+          "Acute focal pontine lesion",
+          "Isolated motor-circuit disorder"
+        ],
+        "hypothesisRationale": "Progressive rapid forgetting with impaired retention and functional decline raises a medial-temporal memory-system hypothesis, while aetiology still requires broader neurological and medical investigation.",
+        "targetAssessment": "Episodic learning, retention and recognition plus broader cognitive profile",
+        "assessmentOptions": [
+          "Episodic learning, retention and recognition plus broader cognitive profile",
+          "Cranial-nerve examination alone",
+          "Simple grip strength only"
+        ],
+        "assessmentRationale": "Learning curves, delayed recall, recognition, intrusion errors and comparison with language, executive and visuospatial domains help determine whether memory storage is disproportionately affected and whether the syndrome is focal or broader.",
+        "supports": [
+          "poor delayed retention despite adequate initial exposure",
+          "limited benefit from recognition or cueing when true storage failure is present",
+          "progressive functional decline corroborated over time"
+        ],
+        "challenges": [
+          "memory normalises with cueing and slowed retrieval explains most difficulty",
+          "symptoms are static or abrupt rather than progressive",
+          "sleep, mood, medication or sensory factors better explain the pattern"
+        ],
+        "alternatives": [
+          "other neurodegenerative syndromes",
+          "depression or sleep-related cognitive impairment",
+          "medication, metabolic or neurological causes"
+        ],
+        "synthesis": "A progressive amnestic pattern can identify the cognitive syndrome and guide differential diagnosis, but neuropsychological findings must be integrated with medical history, biomarkers/imaging when appropriate and longitudinal course.",
+        "nextStep": "Complete broader cognitive and functional assessment and coordinate neurological/medical workup appropriate to the clinical context.",
+        "caveat": "No single memory test score diagnoses a neurodegenerative disease, and mixed or atypical presentations are common."
+      }
+    ]
   }
 }
