@@ -1,0 +1,246 @@
+{
+  "transport": "injected",
+  "duration_seconds": 2.49,
+  "summary": {
+    "passed": 23,
+    "failed": 0,
+    "total": 23
+  },
+  "metrics": {
+    "concepts": 249,
+    "levels": 29,
+    "visual_scene_count": 38,
+    "explorer_count": 69,
+    "visual_scene_ids": [
+      "cell",
+      "membrane",
+      "electricity",
+      "chemistry",
+      "brain-overview",
+      "lobes",
+      "subcortex",
+      "brainstem-cerebellum",
+      "neurons",
+      "astrocytes",
+      "microglia",
+      "oligodendrocytes",
+      "functional-networks",
+      "default-mode-network",
+      "salience-network",
+      "frontoparietal-control-network",
+      "attention-networks",
+      "motor-system",
+      "autonomic-nervous-system",
+      "memory-systems",
+      "language-networks",
+      "executive-function",
+      "emotion-regulation-networks",
+      "reward-system",
+      "sleep-circadian-rhythms",
+      "pain-processing",
+      "brain-health-ageing",
+      "personality-disorders-neuroscience",
+      "sleep-disorders-neuroscience",
+      "substance-use-neuroscience",
+      "neurodegenerative-disorders",
+      "epilepsy-neuroscience",
+      "traumatic-brain-injury",
+      "migraine-neuroscience",
+      "eating-disorders-neuroscience",
+      "tic-tourette-neuroscience",
+      "intellectual-developmental-disability",
+      "pituitary-and-sella-atlas"
+    ],
+    "explorer_ids": [
+      "neurons",
+      "astrocytes",
+      "microglia",
+      "oligodendrocytes",
+      "resting-potential",
+      "action-potentials",
+      "synapses",
+      "neurotransmitters",
+      "neuroplasticity",
+      "functional-networks",
+      "default-mode-network",
+      "salience-network",
+      "frontoparietal-control-network",
+      "attention-networks",
+      "embryonic-neural-development",
+      "neural-tube-formation",
+      "neuronal-migration",
+      "synaptogenesis",
+      "myelination",
+      "hippocampus",
+      "amygdala",
+      "corpus-callosum",
+      "ventricular-system",
+      "blood-brain-barrier",
+      "meninges",
+      "cranial-nerves",
+      "visual-system",
+      "auditory-system",
+      "somatosensory-system",
+      "motor-system",
+      "autonomic-nervous-system",
+      "memory-systems",
+      "language-networks",
+      "executive-function",
+      "emotion-regulation-networks",
+      "reward-system",
+      "sleep-circadian-rhythms",
+      "pain-processing",
+      "brain-health-ageing",
+      "consciousness-arousal",
+      "brain-lateralisation",
+      "neuroimmunology",
+      "brain-energy-metabolism",
+      "integrated-systems-capstone",
+      "cerebral-lobes-atlas",
+      "cerebellum-atlas",
+      "brainstem-atlas",
+      "meninges-atlas",
+      "cerebral-vasculature-atlas",
+      "limbic-system-atlas",
+      "ventricular-system-atlas",
+      "cranial-nerves-atlas",
+      "deep-nuclei-atlas",
+      "thalamus-atlas",
+      "hypothalamus-atlas",
+      "insula-atlas",
+      "insula-operculum-atlas",
+      "cingulate-cortex-atlas",
+      "reticular-activating-system-atlas",
+      "pituitary-and-sella-atlas",
+      "basal-ganglia-circuit-explorer",
+      "major-white-matter-pathways-atlas",
+      "neurotransmitter-pathways-atlas",
+      "functional-network-overlay-atlas",
+      "arterial-territories-stroke-comparison",
+      "brain-lateralisation-comparison",
+      "healthy-versus-pathology-comparison",
+      "lesion-and-symptom-mapping",
+      "integrated-whole-brain-explorer-and-capstone"
+    ]
+  },
+  "console_errors": [],
+  "page_errors": [],
+  "request_failures": [],
+  "checks": [
+    {
+      "name": "Application initialises",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Home page has one primary heading",
+      "ok": true,
+      "detail": "See the brain differently."
+    },
+    {
+      "name": "All curriculum levels render",
+      "ok": true,
+      "detail": "rendered=29 expected=29"
+    },
+    {
+      "name": "Search returns matching concepts",
+      "ok": true,
+      "detail": "results=12"
+    },
+    {
+      "name": "Search result opens a concept",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Every concept renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Rendered concepts contain no literal undefined",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Every concept hero has alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Visual scenes open and close",
+      "ok": true,
+      "detail": "scenes=38"
+    },
+    {
+      "name": "Concept exposes all seven depth tabs",
+      "ok": true,
+      "detail": "tabs=7"
+    },
+    {
+      "name": "All depth tabs contain content",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Bookmark saves and appears in Bookmarks",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Correct quiz answer is scored correctly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Quiz completion persists to localStorage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Completed quiz enters review queue",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Review card can be revealed and graded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Progress page reflects completed concept",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reduced-motion pathway sequence completes without locking controls",
+      "ok": true,
+      "detail": "resting-potential"
+    },
+    {
+      "name": "Home page has no material mobile horizontal overflow",
+      "ok": true,
+      "detail": "overflow_px=0"
+    },
+    {
+      "name": "Learn page has no material mobile horizontal overflow",
+      "ok": true,
+      "detail": "overflow_px=0"
+    },
+    {
+      "name": "Visible buttons have text or an aria-label",
+      "ok": true,
+      "detail": "unnamed=0"
+    },
+    {
+      "name": "No uncaught JavaScript exceptions",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No console error messages",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

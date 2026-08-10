@@ -1,7 +1,7 @@
 {
   "version": "2.14.0",
-  "status": "Release 3.0 stabilisation in progress — P0 runtime truthfulness baseline completed",
-  "currentPhase": "Release 3.0 — Runtime Truthfulness & Product Stabilisation",
+  "status": "Release 3.0 stabilisation in progress \u2014 P0 reproducible runtime QA harness established",
+  "currentPhase": "Release 3.0 \u2014 Runtime Truthfulness & Product Stabilisation",
   "completedProductionSlices": [
     "traumatic-brain-injury",
     "migraine-neuroscience",
@@ -197,13 +197,13 @@
     "integrated-whole-brain-explorer-and-capstone"
   ],
   "latestBatch": {
-    "phase": "Release 3.0 — Runtime Truthfulness & Product Stabilisation",
-    "build": "38 — P0 Runtime Truthfulness and Artwork Readiness Baseline",
-    "type": "product stabilisation vertical slice",
+    "phase": "Release 3.0 \u2014 Runtime Truthfulness & Product Stabilisation",
+    "build": "39 \u2014 Reproducible Browser Runtime QA Harness",
+    "type": "quality engineering / regression harness",
     "structuresCompleted": [],
     "structuresMigrated": 0,
     "verifiedRegisteredStructures": 25,
-    "qa": "STATIC PASS — browser runtime validation blocked because the browser webview did not attach"
+    "qa": "INJECTED BROWSER PASS \u2014 23/23 checks; all 249 concepts and 38 live visual scenes rendered without uncaught or console errors. HTTP/Service Worker path committed for unrestricted CI execution."
   },
   "neurofeedback": {
     "status": "complete",
@@ -339,15 +339,16 @@
       "ventricular-system-atlas"
     ],
     "nextStructure": null,
-    "qaStatus": "STATIC PASS — all 25 planned canonical registrations remain valid; Release 3.0 browser runtime validation not completed",
+    "qaStatus": "STATIC PASS \u2014 all 25 planned canonical registrations remain valid; Release 3.0 browser runtime validation not completed",
     "qaReport": "INTERACTIVE_ANATOMY_QA_REPORT.json"
   },
   "release30": {
     "status": "in_progress",
     "program": "Runtime Truthfulness & Product Stabilisation",
-    "currentEpic": "Epic 1 — Runtime Truthfulness",
+    "currentEpic": "Epic 1 \u2014 Runtime Truthfulness / reproducible browser QA",
     "completedBuilds": [
-      "p0-runtime-truthfulness-and-artwork-readiness-baseline"
+      "p0-runtime-truthfulness-and-artwork-readiness-baseline",
+      "reproducible-browser-runtime-qa-harness"
     ],
     "completedRepairs": [
       "Unsupported Bring it to life controls are hidden for 211 concepts without a visual scene.",
@@ -368,13 +369,13 @@
       "Locked": 0
     },
     "remainingEpics": [
-      "Epic 1 — remaining runtime truthfulness and reproducible browser QA",
-      "Epic 2 — rendered visual review and atlas artwork rebuild",
-      "Epic 3 — educational enhancement",
-      "Epic 4 — clinical quality",
-      "Epic 5 — technical quality"
+      "Epic 1 \u2014 remaining runtime truthfulness and reproducible browser QA",
+      "Epic 2 \u2014 rendered visual review and atlas artwork rebuild",
+      "Epic 3 \u2014 educational enhancement",
+      "Epic 4 \u2014 clinical quality",
+      "Epic 5 \u2014 technical quality"
     ],
-    "nextBuild": "Complete reproducible browser QA and remediate the next verified P0 runtime defects.",
-    "qaStatus": "STATIC PASS — 249 SVGs and 269 JSON files parse; 241 production details align with loader; 504 offline paths contain production data only; browser runtime not completed"
+    "nextBuild": "Run/retain the HTTP browser QA gate in unrestricted CI, then remediate any verified P0 defects before beginning rendered visual/artwork review.",
+    "qaStatus": "INJECTED BROWSER PASS \u2014 23/23 checks: 249 concepts, 38 live visual scenes, search, bookmarks, quiz/progress/review persistence, reduced-motion behaviour and mobile overflow. HTTP/Service Worker runtime gate is committed but not executable in the current sandbox because loopback navigation is blocked."
   }
 }

@@ -200,3 +200,19 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
 - Direct module exercises confirmed supported and unsupported scene detection, empty explorer suppression and meaningful explorer rendering.
 - Python launcher validation, Pytest and Ruff were not run because Python tooling is unavailable in the current task runtime.
 - Browser runtime validation was attempted but not completed because the in-app browser webview did not attach; no browser PASS is claimed.
+
+## Build 39 — Reproducible Browser Runtime QA Harness (v2.14.0 QA tooling) — 2026-08-10
+- Added `tools/runtime_qa.py`, a committed Playwright/Chromium regression harness with both normal
+  loopback HTTP and sandbox-safe injected transports.
+- Exercised the real Atlas JavaScript and production JSON in Chromium across all 249 curriculum
+  concepts; every concept rendered with non-empty hero alt text and no literal `undefined` output.
+- Verified all 38 registered `Bring it to life` scenes open and close successfully.
+- Verified search, seven content-depth tabs, bookmarks, correct quiz scoring, persisted completion,
+  review-queue insertion, reveal/grade review flow, progress rendering, reduced-motion pathway
+  sequences, mobile Home/Learn horizontal overflow, and basic named-button accessibility contracts.
+- Injected browser execution passed 23/23 checks with zero uncaught JavaScript exceptions and zero
+  console errors. This transport intentionally does not claim service-worker or real-network coverage.
+- Added the production HTTP transport as the release gate and a GitHub Actions workflow that runs
+  launcher validation, Pytest, Ruff, formatting checks and the HTTP browser harness on push/PR/manual run.
+- Current execution sandbox blocks Chromium navigation to loopback/file URLs, so HTTP/service-worker
+  runtime coverage remains to be confirmed by unrestricted CI. No Work/workspace credits were used.

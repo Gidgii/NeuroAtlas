@@ -1,0 +1,36 @@
+name: Atlas QA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install repository and QA dependencies
+        run: pip install -e ".[dev,runtime]"
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+      - name: Repository validation
+        run: |
+          python launcher.py validate --no-update-state
+          pytest -q
+          ruff check .
+          ruff format --check .
+      - name: Browser runtime QA
+        run: python tools/runtime_qa.py --transport http
+      - name: Upload runtime QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: runtime-qa-report
+          path: RUNTIME_QA_REPORT.json
+          if-no-files-found: ignore

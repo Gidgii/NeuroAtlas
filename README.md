@@ -30,6 +30,36 @@ Every curriculum concept declares one `artworkReadiness` value: `Placeholder`, `
 are recorded in `ARTWORK_READINESS_REPORT.json`. Artwork must not be promoted beyond `Functional`
 without rendered clinical, responsive and accessibility review.
 
+## Reproducible browser QA
+
+The committed runtime harness exercises the rendered application in Chromium: startup, search, all
+249 concept pages, live visual scenes, depth tabs, bookmarks, quiz/progress/review persistence,
+reduced-motion explorer behaviour, mobile overflow and basic accessible-control contracts.
+
+Install the optional browser-QA dependency and Chromium once:
+
+```bash
+pip install -e ".[runtime]"
+python -m playwright install chromium
+```
+
+Run the production HTTP path locally:
+
+```bash
+python tools/runtime_qa.py --transport http
+```
+
+For locked-down environments that prohibit loopback navigation, the same application JavaScript and
+JSON can be exercised in an in-memory Chromium document:
+
+```bash
+python tools/runtime_qa.py --transport injected
+```
+
+The harness writes `RUNTIME_QA_REPORT.json`. The injected transport validates application/UI logic but
+does not claim service-worker or real-network coverage; the HTTP transport is the release gate for
+those browser-loading behaviours.
+
 ## Validate
 
 ```bash

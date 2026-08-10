@@ -27,6 +27,9 @@ dev = [
   "pytest-cov>=5.0,<7.0",
   "ruff>=0.5,<1.0"
 ]
+runtime = [
+  "playwright>=1.54,<2.0"
+]
 
 [project.scripts]
 clinical-neuroscience-atlas = "launcher:app"
