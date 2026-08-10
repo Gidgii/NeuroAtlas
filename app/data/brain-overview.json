@@ -1,0 +1,69 @@
+{
+  "id": "brain-overview",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "title": "Meet the Brain",
+  "subtitle": "One organ, many coordinated systems",
+  "learningObjectives": [
+    "Describe the brain as interacting cortical, subcortical, cerebellar and brainstem systems.",
+    "Explain why connectivity is as clinically important as regional specialisation.",
+    "Use regional activation cautiously and avoid reverse inference."
+  ],
+  "sections": {
+    "explainSimply": "The brain is a team of regions that share information. No single area works completely alone.",
+    "explainLikePsychologist": "Functions emerge from distributed networks spanning cortex, subcortex, cerebellum and brainstem. Regional specialisation matters, but connectivity determines performance.",
+    "advancedClinicalDetail": "Large-scale networks dynamically reconfigure according to task demands, arousal and learning. Structure–function relationships are probabilistic, not one-to-one mappings.",
+    "thinkOfItLike": "An orchestra: sections specialise, but the music depends on timing, coordination and the conductor’s changing demands.",
+    "whyPsychologistsCare": "Avoid reverse inference—observing activation in a region does not prove a specific thought, diagnosis or emotion.",
+    "whenItGoesWrong": "Focal lesions can disrupt specialised functions, while diffuse or connectivity disturbances may produce broader cognitive and emotional effects.",
+    "clinicalPearl": "Think in systems first, regions second, and isolated “brain centres” last.",
+    "practicalExample": "A patient with a focal lesion may show deficits beyond the damaged tissue because connected network nodes lose input or alter their activity. Behaviour therefore reflects both local damage and network consequences.",
+    "limitationsCautions": "Functional labels are probabilistic summaries. Individual organisation varies with development, experience, pathology and task demands, and neuroimaging activation is not equivalent to a diagnosis."
+  },
+  "tags": [
+    "brain-overview",
+    "foundations",
+    "clinical neuroscience"
+  ],
+  "searchTerms": [
+    "Meet the Brain",
+    "One organ, many coordinated systems"
+  ],
+  "quizBank": [
+    {
+      "question": "Which statement best reflects modern neuroscience?",
+      "options": [
+        "Functions emerge from distributed networks",
+        "Each emotion has one brain centre",
+        "The cortex works independently",
+        "Connectivity is clinically irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Most psychological functions rely on coordinated activity across distributed, interacting networks."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "Explain meet the brain in clinically useful terms.",
+      "answer": "Functions emerge from distributed networks spanning cortex, subcortex, cerebellum and brainstem. Regional specialisation matters, but connectivity determines performance."
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true
+  },
+  "references": [
+    {
+      "type": "Review",
+      "citation": "Mesulam MM. From sensation to cognition. Brain. 1998;121:1013–1052.",
+      "url": "https://doi.org/10.1093/brain/121.6.1013"
+    },
+    {
+      "type": "Reference",
+      "citation": "Gazzaniga MS, Ivry RB, Mangun GR. Cognitive Neuroscience: The Biology of the Mind. 6th ed. Norton; 2024."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Meet the Brain: One organ, many coordinated systems.",
+    "interactionSummary": "Concept content includes an optional secondary clinical deep-dive layer."
+  }
+}

@@ -77,3 +77,62 @@
 #revealReview:disabled{opacity:.45;cursor:not-allowed}.calibration-card{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:center;padding:1rem;border:1px solid rgba(255,209,102,.28);border-radius:1rem;background:rgba(255,209,102,.05)}
 .calibration-score{min-width:110px;text-align:center}.calibration-score strong{display:block;color:var(--gold);font-size:1.8rem}.calibration-score span{display:block;color:var(--muted);font-size:.76rem}.calibration-detail p{margin:.1rem 0 .55rem;line-height:1.45}.calibration-detail div{display:flex;gap:.65rem;flex-wrap:wrap}.calibration-detail div span{padding:.25rem .45rem;border-radius:.5rem;background:rgba(255,255,255,.04);color:var(--muted);font-size:.7rem}
 @media(max-width:620px){.confidence-options{grid-template-columns:1fr}.calibration-card{grid-template-columns:1fr}.calibration-score{text-align:left}}
+
+/* P1 final consolidation: integrated clinical navigation */
+.reasoning-toolkit {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 1.2fr);
+  gap: 1.25rem;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--border, rgba(255, 255, 255, .12));
+  border-radius: 18px;
+  background: var(--surface, rgba(255, 255, 255, .035));
+}
+.reasoning-toolkit h2 { margin: .25rem 0 .4rem; }
+.reasoning-toolkit p { margin: 0; opacity: .78; }
+.reasoning-toolkit-actions { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: flex-end; }
+.reasoning-tool { min-height: 42px; }
+.clinical-thread { margin: 2rem 0 1.25rem; }
+.clinical-thread-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: .75rem;
+}
+.clinical-thread-card {
+  display: grid;
+  gap: .35rem;
+  min-height: 126px;
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid var(--border, rgba(255, 255, 255, .12));
+  border-radius: 16px;
+  background: var(--surface, rgba(255, 255, 255, .035));
+  color: inherit;
+  cursor: pointer;
+}
+.clinical-thread-card:hover,
+.clinical-thread-card:focus-visible { transform: translateY(-1px); border-color: currentColor; }
+.clinical-thread-card span { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; opacity: .65; }
+.clinical-thread-card strong { font-size: 1rem; }
+.clinical-thread-card small { line-height: 1.4; opacity: .72; }
+@media (max-width: 720px) {
+  .reasoning-toolkit { grid-template-columns: 1fr; }
+  .reasoning-toolkit-actions { justify-content: flex-start; }
+}
+
+/* P2.1 — optional secondary clinical layer */
+.deep-dive-launch{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin:1rem 0 1.25rem;padding:.85rem 1rem;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}
+.deep-dive-launch span{font-size:.86rem;color:var(--muted);max-width:42rem}
+.deep-dive-dialog{width:min(760px,calc(100vw - 2rem));max-height:min(82vh,820px);padding:0;border:1px solid var(--line);border-radius:18px;background:var(--surface);color:var(--text);box-shadow:0 30px 90px rgba(0,0,0,.55)}
+.deep-dive-dialog::backdrop{background:rgba(2,6,7,.76);backdrop-filter:blur(4px)}
+.deep-dive-shell{padding:0 1.25rem 1.4rem}
+.deep-dive-dialog .dialog-head{position:sticky;top:0;z-index:1;margin:0 -1.25rem 1rem;padding:1.1rem 1.25rem;background:var(--surface);border-bottom:1px solid var(--line);display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}
+.deep-dive-dialog .dialog-head h2{margin:.15rem 0 0}
+.deep-dive-dialog .dialog-head button{min-width:44px;min-height:44px;border:0;background:transparent;color:var(--text);font-size:1.6rem;cursor:pointer}
+.deep-dive-body{display:grid;gap:.8rem}
+.deep-dive-section{padding:1rem 1.05rem;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.02)}
+.deep-dive-section h3{margin:0 0 .45rem;font-size:1rem}
+.deep-dive-section p{margin:0;color:var(--muted);line-height:1.65}
+@media(max-width:640px){.deep-dive-dialog{width:calc(100vw - 1rem);max-height:88vh}.deep-dive-launch{align-items:flex-start;flex-direction:column}}

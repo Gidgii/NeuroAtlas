@@ -1,0 +1,68 @@
+{
+  "id": "subcortex",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "title": "Below the Cortex",
+  "subtitle": "Subcortical systems shape the whole brain",
+  "learningObjectives": [
+    "Identify major subcortical systems relevant to cognition, affect, movement and homeostasis.",
+    "Explain cortico-subcortical loops rather than treating deep nuclei as isolated modules.",
+    "Relate subcortical dysfunction to cognitive, behavioural and autonomic presentations."
+  ],
+  "sections": {
+    "explainSimply": "Important structures sit deep inside the brain. They help control movement, memory, emotion, motivation and body regulation.",
+    "explainLikePsychologist": "The thalamus coordinates information flow; basal ganglia support action selection and habit; hippocampal systems support memory; hypothalamus regulates homeostasis; amygdala contributes to salience and threat learning.",
+    "advancedClinicalDetail": "Cortico-striato-thalamo-cortical loops and limbic circuits integrate cognition, affect, motor control and reinforcement. Subcortical structures are heterogeneous nuclei, not unitary emotion modules.",
+    "thinkOfItLike": "The city’s transport hub, security network, archive and utilities department operating beneath the visible skyline.",
+    "whyPsychologistsCare": "Subcortical dysfunction can mimic “purely psychological” problems through apathy, impulsivity, memory change, sleep disruption or altered emotional learning.",
+    "whenItGoesWrong": "Degeneration, hypoxia, inflammation and focal injury may disrupt movement, memory, motivation or autonomic regulation.",
+    "clinicalPearl": "Deep structures influence cortical processing continuously; “higher” does not mean independent.",
+    "practicalExample": "Disruption of frontostriatal circuits can produce slowed initiation, reduced cognitive flexibility or apathy even when primary cortical sensory and motor systems remain relatively intact.",
+    "limitationsCautions": "Terms such as “limbic system” and “basal ganglia” group heterogeneous structures. Clinical reasoning should specify nuclei, pathways and network context where possible."
+  },
+  "tags": [
+    "subcortex",
+    "foundations",
+    "clinical neuroscience"
+  ],
+  "searchTerms": [
+    "Below the Cortex",
+    "Subcortical systems shape the whole brain"
+  ],
+  "quizBank": [
+    {
+      "question": "Which structure is central to forming new episodic memories?",
+      "options": [
+        "Hippocampus",
+        "Medulla",
+        "Primary motor cortex",
+        "Occipital pole"
+      ],
+      "answer": 0,
+      "explanation": "The hippocampal formation is crucial for encoding and consolidating new episodic memories."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "Explain below the cortex in clinically useful terms.",
+      "answer": "The thalamus coordinates information flow; basal ganglia support action selection and habit; hippocampal systems support memory; hypothalamus regulates homeostasis; amygdala contributes to salience and threat learning."
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021."
+    },
+    {
+      "type": "Reference",
+      "citation": "Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Below the Cortex: Subcortical systems shape the whole brain.",
+    "interactionSummary": "Concept content includes an optional secondary clinical deep-dive layer."
+  }
+}

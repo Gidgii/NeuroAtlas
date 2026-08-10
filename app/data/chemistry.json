@@ -1,0 +1,68 @@
+{
+  "id": "chemistry",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "title": "Brain Chemistry",
+  "subtitle": "Messages across microscopic gaps",
+  "learningObjectives": [
+    "Describe synthesis, vesicular release, receptor binding and signal termination in chemical neurotransmission.",
+    "Explain why transmitter effects depend on receptor subtype, circuit and timing.",
+    "Reject the simplistic “single chemical imbalance” model of psychiatric symptoms."
+  ],
+  "sections": {
+    "explainSimply": "Neurons often pass messages by releasing chemicals into a tiny gap. The next cell reads the chemical with matching receptors.",
+    "explainLikePsychologist": "Neurotransmission depends on synthesis, vesicular release, receptor binding and signal termination through reuptake, diffusion or enzymatic breakdown.",
+    "advancedClinicalDetail": "Calcium influx at the presynaptic terminal triggers SNARE-mediated vesicle fusion. Postsynaptic effects vary by receptor subtype, intracellular signalling and the receiving cell’s current state.",
+    "thinkOfItLike": "A keycard system: the same messenger can open one door, lock another, or do nothing when the reader is absent.",
+    "whyPsychologistsCare": "“Chemical imbalance” is an inadequate clinical model. Symptoms arise from dynamic circuits, learning, physiology and context—not a single low or high transmitter.",
+    "whenItGoesWrong": "Receptor dysregulation, impaired clearance, medication interactions and substance use can alter signalling across multiple networks.",
+    "clinicalPearl": "A neurotransmitter has no fixed psychological meaning outside its receptor, circuit, timing and context.",
+    "practicalExample": "Serotonin can produce different effects in different circuits because receptor families couple to different intracellular pathways and are expressed on different cell types.",
+    "limitationsCautions": "Neurotransmitter measures at the group level do not diagnose an individual. Psychological symptoms emerge from interacting circuits, development, learning, physiology and context."
+  },
+  "tags": [
+    "chemistry",
+    "foundations",
+    "clinical neuroscience"
+  ],
+  "searchTerms": [
+    "Brain Chemistry",
+    "Messages across microscopic gaps"
+  ],
+  "quizBank": [
+    {
+      "question": "What directly triggers vesicle release at the presynaptic terminal?",
+      "options": [
+        "Calcium influx",
+        "Chloride efflux",
+        "Myelin formation",
+        "Gene transcription"
+      ],
+      "answer": 0,
+      "explanation": "Incoming action potentials open voltage-gated calcium channels, initiating vesicle fusion and transmitter release."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "Explain brain chemistry in clinically useful terms.",
+      "answer": "Neurotransmission depends on synthesis, vesicular release, receptor binding and signal termination through reuptake, diffusion or enzymatic breakdown."
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021."
+    },
+    {
+      "type": "Reference",
+      "citation": "Purves D, et al. Neuroscience. 6th ed. Oxford University Press; 2018."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Brain Chemistry: Messages across microscopic gaps.",
+    "interactionSummary": "Concept content includes an optional secondary clinical deep-dive layer."
+  }
+}

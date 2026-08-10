@@ -1,0 +1,69 @@
+{
+  "id": "lobes",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "title": "The Cerebral Lobes",
+  "subtitle": "Useful landmarks, not sealed compartments",
+  "learningObjectives": [
+    "Use frontal, parietal, temporal and occipital lobes as anatomical orientation landmarks.",
+    "Relate lobe-level specialisation to distributed network function.",
+    "Explain why lesion side, extent and connectivity matter more than a lobe label alone."
+  ],
+  "sections": {
+    "explainSimply": "The cortex is divided into lobes that help us describe where things happen. The borders are landmarks, not walls.",
+    "explainLikePsychologist": "Frontal systems support executive control and action; parietal systems integrate sensory-spatial information; temporal systems support audition, memory and meaning; occipital cortex processes vision.",
+    "advancedClinicalDetail": "Each lobe contains multiple cytoarchitectonic and functional areas with extensive intra- and inter-lobar connectivity. Clinical effects depend on lesion side, extent, network position and premorbid organisation.",
+    "thinkOfItLike": "Suburbs in one city: each has a recognisable character, but roads and services cross every boundary.",
+    "whyPsychologistsCare": "Lobe-based summaries are useful for formulation but too coarse for definitive localisation or diagnosis.",
+    "whenItGoesWrong": "Injury may produce executive dysfunction, neglect, aphasia, agnosia or visual field deficits depending on network involvement.",
+    "clinicalPearl": "Use lobes to orient yourself; use networks and behaviour to reason clinically.",
+    "practicalExample": "A right parietal lesion may disrupt spatial attention, but the severity and pattern depend on which cortical regions and connecting white-matter pathways are affected.",
+    "limitationsCautions": "Lobe-based localisation is deliberately coarse. Avoid statements such as “the frontal lobe controls personality” or “the temporal lobe is the memory centre.”"
+  },
+  "tags": [
+    "lobes",
+    "foundations",
+    "clinical neuroscience"
+  ],
+  "searchTerms": [
+    "The Cerebral Lobes",
+    "Useful landmarks, not sealed compartments"
+  ],
+  "quizBank": [
+    {
+      "question": "Which lobe is most directly associated with primary visual processing?",
+      "options": [
+        "Occipital",
+        "Frontal",
+        "Temporal",
+        "Parietal"
+      ],
+      "answer": 0,
+      "explanation": "Primary visual cortex is located in the occipital lobe."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "Explain the cerebral lobes in clinically useful terms.",
+      "answer": "Frontal systems support executive control and action; parietal systems integrate sensory-spatial information; temporal systems support audition, memory and meaning; occipital cortex processes vision."
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Mesulam MM. From sensation to cognition. Brain. 1998;121:1013–1052.",
+      "url": "https://doi.org/10.1093/brain/121.6.1013"
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "The Cerebral Lobes: Useful landmarks, not sealed compartments.",
+    "interactionSummary": "Concept content includes an optional secondary clinical deep-dive layer."
+  }
+}

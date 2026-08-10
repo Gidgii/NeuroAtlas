@@ -1,0 +1,69 @@
+{
+  "id": "brainstem-cerebellum",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "title": "Brainstem & Cerebellum",
+  "subtitle": "Arousal, coordination and prediction",
+  "learningObjectives": [
+    "Distinguish core brainstem roles in arousal, autonomic control, long tracts and cranial-nerve function.",
+    "Explain cerebellar contributions to timing, prediction and error correction beyond movement.",
+    "Recognise neurological red flags that should override routine psychological interpretation."
+  ],
+  "sections": {
+    "explainSimply": "The brainstem keeps vital systems running and helps you stay awake. The cerebellum fine-tunes movement and helps the brain predict what happens next.",
+    "explainLikePsychologist": "Brainstem nuclei regulate arousal, sleep, autonomic function and cranial nerves. Cerebellar circuits contribute to timing, error correction, learning and aspects of cognition and affect.",
+    "advancedClinicalDetail": "Ascending neuromodulatory systems influence global cortical state. Cerebello-thalamo-cortical loops support predictive modelling beyond motor control, including language, executive and affective regulation.",
+    "thinkOfItLike": "The brainstem is the power-and-alertness system; the cerebellum is a precision coach constantly comparing intended and actual performance.",
+    "whyPsychologistsCare": "Arousal and autonomic state can profoundly shape attention, emotion regulation and test performance.",
+    "whenItGoesWrong": "Damage may cause altered consciousness, cranial nerve signs, ataxia, dysmetria or cognitive-affective changes.",
+    "clinicalPearl": "Before interpreting cognition, ask whether the person’s arousal and physiological state permit cognition to work normally.",
+    "practicalExample": "A person with acute diplopia, dysarthria and gait ataxia should not be conceptualised initially as having anxiety-related dizziness. The combination raises concern for posterior-circulation or brainstem–cerebellar pathology and requires urgent medical assessment.",
+    "limitationsCautions": "Cerebellar contributions to cognition and affect are real but should not be used to infer a specific cerebellar lesion from nonspecific executive or emotional symptoms. Acute cranial-nerve, consciousness or severe coordination changes require medical evaluation."
+  },
+  "tags": [
+    "brainstem-cerebellum",
+    "foundations",
+    "clinical neuroscience"
+  ],
+  "searchTerms": [
+    "Brainstem & Cerebellum",
+    "Arousal, coordination and prediction"
+  ],
+  "quizBank": [
+    {
+      "question": "Which structure is especially important for error correction and timing?",
+      "options": [
+        "Cerebellum",
+        "Amygdala",
+        "Corpus callosum",
+        "Pituitary gland"
+      ],
+      "answer": 0,
+      "explanation": "The cerebellum compares predicted and actual outcomes to refine timing, coordination and learning."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "Explain brainstem & cerebellum in clinically useful terms.",
+      "answer": "Brainstem nuclei regulate arousal, sleep, autonomic function and cranial nerves. Cerebellar circuits contribute to timing, error correction, learning and aspects of cognition and affect."
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021."
+    },
+    {
+      "type": "Review",
+      "citation": "Schmahmann JD. The cerebellum and cognition. Neurosci Lett. 2019;688:62–75.",
+      "url": "https://doi.org/10.1016/j.neulet.2018.07.005"
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "Brainstem & Cerebellum: Arousal, coordination and prediction.",
+    "interactionSummary": "Concept content includes an optional secondary clinical deep-dive layer."
+  }
+}

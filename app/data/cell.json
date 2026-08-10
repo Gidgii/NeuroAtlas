@@ -1,0 +1,68 @@
+{
+  "id": "cell",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "title": "The Cell",
+  "subtitle": "The smallest living unit",
+  "learningObjectives": [
+    "Name the core cellular structures shared by neurons and glia.",
+    "Explain why ATP, protein synthesis and membrane integrity are prerequisites for neural signalling.",
+    "Relate cellular metabolic failure to changes in cognition and behaviour."
+  ],
+  "sections": {
+    "explainSimply": "Your brain is made of tiny living units called cells. Each cell is like a miniature workplace with a boundary, energy supply and instructions.",
+    "explainLikePsychologist": "Neural tissue is cellular. Neurons and glia share core organelles, but specialise for signalling, support, defence and myelination.",
+    "advancedClinicalDetail": "The plasma membrane establishes electrochemical separation. The nucleus regulates gene expression; mitochondria generate ATP; ribosomes and endoplasmic reticulum synthesise proteins required for receptors, channels and structural maintenance.",
+    "thinkOfItLike": "A self-contained clinic: walls control entry, the records room stores instructions, and the generator powers every service.",
+    "whyPsychologistsCare": "Cellular energy failure, membrane instability and impaired protein handling can alter cognition, mood and behaviour before gross structural changes are visible.",
+    "whenItGoesWrong": "Hypoxia, mitochondrial dysfunction, inflammation and toxic exposure can disrupt cellular metabolism and communication.",
+    "clinicalPearl": "Psychological function depends on biological systems that are active, adaptive and metabolically expensive.",
+    "practicalExample": "During hypoxia, reduced oxidative phosphorylation lowers ATP availability. Ion pumps then struggle to maintain gradients, so neural signalling can fail before there is a visible structural lesion.",
+    "limitationsCautions": "Cell biology explains mechanisms, not a person’s psychological presentation by itself. Clinical interpretation still requires timing, systemic physiology, examination and functional context."
+  },
+  "tags": [
+    "cell",
+    "foundations",
+    "clinical neuroscience"
+  ],
+  "searchTerms": [
+    "The Cell",
+    "The smallest living unit"
+  ],
+  "quizBank": [
+    {
+      "question": "Which structure primarily controls what enters and leaves a cell?",
+      "options": [
+        "Plasma membrane",
+        "Nucleus",
+        "Mitochondrion",
+        "Ribosome"
+      ],
+      "answer": 0,
+      "explanation": "The plasma membrane selectively regulates movement between the cell and its environment."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "Explain the cell in clinically useful terms.",
+      "answer": "Neural tissue is cellular. Neurons and glia share core organelles, but specialise for signalling, support, defence and myelination."
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021."
+    },
+    {
+      "type": "Reference",
+      "citation": "Alberts B, et al. Molecular Biology of the Cell. 7th ed. Garland Science; 2022."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "The Cell: The smallest living unit.",
+    "interactionSummary": "Concept content includes an optional secondary clinical deep-dive layer."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "membrane",
+  "schemaVersion": "1.0.0",
+  "status": "production",
+  "title": "The Cell Membrane",
+  "subtitle": "A selective electrical boundary",
+  "learningObjectives": [
+    "Describe the phospholipid membrane as a selectively permeable electrical boundary.",
+    "Explain how pumps, channels and receptors maintain excitability.",
+    "Relate membrane targets to medication, electrolyte and channelopathy effects."
+  ],
+  "sections": {
+    "explainSimply": "The membrane is the cell’s flexible skin. It decides what can pass and helps keep the inside electrically different from the outside.",
+    "explainLikePsychologist": "Ion gradients across the membrane make neural signalling possible. Channels, pumps and receptors translate chemical and electrical events into cellular responses.",
+    "advancedClinicalDetail": "The phospholipid bilayer is selectively permeable. Na+/K+-ATPase maintains sodium and potassium gradients, while ligand-gated and voltage-gated channels alter membrane conductance and excitability.",
+    "thinkOfItLike": "A secure border with gates, scanners and staff who use energy to keep traffic moving in the correct direction.",
+    "whyPsychologistsCare": "Many psychoactive medications act at membrane receptors, transporters or ion channels rather than changing brain structure directly.",
+    "whenItGoesWrong": "Channelopathies, toxins and electrolyte disturbance can produce seizures, confusion, weakness or altered arousal.",
+    "clinicalPearl": "A neuron’s “decision” to fire emerges from thousands of membrane events summing over time and space.",
+    "practicalExample": "A change in extracellular potassium alters the electrochemical gradient across neuronal membranes. The resulting shift in excitability can affect consciousness, muscle function and seizure risk.",
+    "limitationsCautions": "Membrane mechanisms are necessary but not sufficient explanations for complex symptoms. The same channel or receptor can have different effects across cell types and circuits."
+  },
+  "tags": [
+    "membrane",
+    "foundations",
+    "clinical neuroscience"
+  ],
+  "searchTerms": [
+    "The Cell Membrane",
+    "A selective electrical boundary"
+  ],
+  "quizBank": [
+    {
+      "question": "What maintains the major sodium and potassium gradients?",
+      "options": [
+        "Na+/K+-ATPase",
+        "DNA polymerase",
+        "Myelin",
+        "Microtubules"
+      ],
+      "answer": 0,
+      "explanation": "The sodium-potassium pump uses ATP to preserve the gradients that support resting potential and action potentials."
+    }
+  ],
+  "reviewPrompts": [
+    {
+      "prompt": "Explain the cell membrane in clinically useful terms.",
+      "answer": "Ion gradients across the membrane make neural signalling possible. Channels, pumps and receptors translate chemical and electrical events into cellular responses."
+    }
+  ],
+  "spacedRepetition": {
+    "enabled": true
+  },
+  "references": [
+    {
+      "type": "Reference",
+      "citation": "Hille B. Ion Channels of Excitable Membranes. 3rd ed. Sinauer Associates; 2001."
+    },
+    {
+      "type": "Reference",
+      "citation": "Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021."
+    }
+  ],
+  "accessibility": {
+    "illustrationAlt": "The Cell Membrane: A selective electrical boundary.",
+    "interactionSummary": "Concept content includes an optional secondary clinical deep-dive layer."
+  }
+}
