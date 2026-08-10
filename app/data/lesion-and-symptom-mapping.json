@@ -4,15 +4,37 @@
   "explorer": {
     "schemaVersion": "1.0.0",
     "partsSource": "anatomy",
-    "stages": ["inputs", "connections", "outputs"],
-    "overlays": ["bloodSupply", "functions", "lesions", "symptoms"],
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
     "comparisonLabel": "Left and right lesion comparison",
     "comparisonModes": [
-      {"id": "left", "label": "Left hemisphere", "part": "left-cortical"},
-      {"id": "right", "label": "Right hemisphere", "part": "right-cortical"}
+      {
+        "id": "left",
+        "label": "Left hemisphere",
+        "part": "left-cortical"
+      },
+      {
+        "id": "right",
+        "label": "Right hemisphere",
+        "part": "right-cortical"
+      }
     ],
     "returnToOverview": true,
-    "accessibility": {"keyboard": true, "screenReader": true, "reducedMotion": true, "touchTargetPx": 44}
+    "accessibility": {
+      "keyboard": true,
+      "screenReader": true,
+      "reducedMotion": true,
+      "touchTargetPx": 44
+    }
   },
   "status": "production",
   "module": "Interactive Anatomy Atlas",
@@ -23,11 +45,45 @@
   "pronunciation": "LEE-zhun and SIMP-tum MAP-ing",
   "hero": "lesion-and-symptom-mapping.svg",
   "altText": "Accessible chalkboard-style brain map showing bilateral cortical lesions, a deep subcortical lesion, an interrupted white-matter pathway, a brainstem lesion and a cerebellar lesion connected by uncertain routes to overlapping symptom-pattern cards and vascular territories.",
-  "prerequisites": ["healthy-versus-pathology-comparison", "brain-lateralisation-comparison", "arterial-territories-stroke-comparison", "major-white-matter-pathways-atlas", "functional-network-overlay-atlas"],
+  "prerequisites": [
+    "healthy-versus-pathology-comparison",
+    "brain-lateralisation-comparison",
+    "arterial-territories-stroke-comparison",
+    "major-white-matter-pathways-atlas",
+    "functional-network-overlay-atlas"
+  ],
   "previousConcept": "healthy-versus-pathology-comparison",
   "nextConcept": "integrated-whole-brain-explorer-and-capstone",
-  "tags": ["interactive anatomy", "lesion mapping", "symptom mapping", "clinical localisation", "laterality", "vascular territory", "disconnection syndrome", "network dysfunction", "diaschisis", "differential diagnosis"],
-  "searchTerms": ["lesion symptom mapping", "focal lesion", "distributed network dysfunction", "disconnection syndrome", "left right lesion comparison", "cortical lesion", "subcortical lesion", "white matter lesion", "brainstem lesion", "cerebellar lesion", "vascular territory", "lesion network mapping", "diaschisis", "clinical localisation", "double dissociation", "uncertainty differential interpretation"],
+  "tags": [
+    "interactive anatomy",
+    "lesion mapping",
+    "symptom mapping",
+    "clinical localisation",
+    "laterality",
+    "vascular territory",
+    "disconnection syndrome",
+    "network dysfunction",
+    "diaschisis",
+    "differential diagnosis"
+  ],
+  "searchTerms": [
+    "lesion symptom mapping",
+    "focal lesion",
+    "distributed network dysfunction",
+    "disconnection syndrome",
+    "left right lesion comparison",
+    "cortical lesion",
+    "subcortical lesion",
+    "white matter lesion",
+    "brainstem lesion",
+    "cerebellar lesion",
+    "vascular territory",
+    "lesion network mapping",
+    "diaschisis",
+    "clinical localisation",
+    "double dissociation",
+    "uncertainty differential interpretation"
+  ],
   "learningObjectives": [
     "Relate lesion location, laterality and vascular territory to affected pathways and distributed networks.",
     "Distinguish focal tissue injury, white-matter disconnection and distributed network dysfunction.",
@@ -48,50 +104,437 @@
   "anatomy": {
     "position": "Whole-brain mapping across bilateral cortex, deep nuclei, long association and commissural white matter, brainstem and cerebellum.",
     "spatialRelationships": "Each focal site is interpreted within adjacent tissue, traversing fibres, connected nodes, crossed or uncrossed pathways and arterial territories; remote effects may extend beyond the visible lesion.",
-    "regions": ["left cortical lesion", "right cortical lesion", "subcortical lesion", "white-matter disconnection", "brainstem lesion", "cerebellar lesion", "distributed network dysfunction"],
-    "subdivisions": ["cortical", "subcortical", "white matter", "brainstem", "cerebellar", "multifocal or network-level"],
-    "inputs": ["lesion location, extent and mechanism", "laterality and hemispheric specialisation", "vascular territory and time course", "neurological, cognitive and psychological findings", "premorbid function, reserve and contextual modifiers"],
-    "connections": ["local cortical and nuclear computations", "association, projection and commissural fibres", "thalamo-cortical and cortico-subcortical loops", "brainstem long tracts and cranial-nerve systems", "cerebello-thalamo-cortical pathways", "remote network effects including diaschisis"],
-    "outputs": ["qualified symptom-pattern hypothesis", "affected pathway or network", "left-right and vascular interpretation", "differential diagnosis and urgency", "explicit uncertainty and need for corroboration"],
-    "functions": ["select a lesion location", "compare left and right", "display a lesion pattern", "display associated neurological and psychological symptom patterns", "trace an affected pathway or network", "show vascular territory where relevant", "show uncertainty and differential interpretation", "return to overview"],
+    "regions": [
+      "left cortical lesion",
+      "right cortical lesion",
+      "subcortical lesion",
+      "white-matter disconnection",
+      "brainstem lesion",
+      "cerebellar lesion",
+      "distributed network dysfunction"
+    ],
+    "subdivisions": [
+      "cortical",
+      "subcortical",
+      "white matter",
+      "brainstem",
+      "cerebellar",
+      "multifocal or network-level"
+    ],
+    "inputs": [
+      "lesion location, extent and mechanism",
+      "laterality and hemispheric specialisation",
+      "vascular territory and time course",
+      "neurological, cognitive and psychological findings",
+      "premorbid function, reserve and contextual modifiers"
+    ],
+    "connections": [
+      "local cortical and nuclear computations",
+      "association, projection and commissural fibres",
+      "thalamo-cortical and cortico-subcortical loops",
+      "brainstem long tracts and cranial-nerve systems",
+      "cerebello-thalamo-cortical pathways",
+      "remote network effects including diaschisis"
+    ],
+    "outputs": [
+      "qualified symptom-pattern hypothesis",
+      "affected pathway or network",
+      "left-right and vascular interpretation",
+      "differential diagnosis and urgency",
+      "explicit uncertainty and need for corroboration"
+    ],
+    "functions": [
+      "select a lesion location",
+      "compare left and right",
+      "display a lesion pattern",
+      "display associated neurological and psychological symptom patterns",
+      "trace an affected pathway or network",
+      "show vascular territory where relevant",
+      "show uncertainty and differential interpretation",
+      "return to overview"
+    ],
     "bloodSupply": "Cortical examples may follow ACA, MCA or PCA distributions; deep lesions may involve perforators; brainstem and cerebellar patterns may follow vertebrobasilar, PICA, AICA or SCA territories. Borders vary, and haemorrhage, venous disease and nonvascular lesions need different maps.",
     "lesionEffects": "Focal lesions injure local tissue and nearby fibres; disconnection syndromes interrupt communication between relatively intact nodes; distributed dysfunction reflects multifocal injury, remote physiological effects or altered network dynamics. Effects vary with laterality, mechanism, extent and recovery and are never one-to-one.",
-    "neurologicalPresentations": ["contralateral weakness or sensory change", "aphasia, neglect or visual-field loss", "cranial-nerve plus long-tract signs", "ataxia, dysmetria or gait disturbance", "altered arousal, memory or executive control"],
-    "psychologicalPresentations": ["language-mediated distress or reduced communication", "changes in attention, motivation or affect regulation", "fatigue and slowed processing", "impaired self-monitoring or social cognition", "variable functional impact shaped by reserve and context"],
+    "neurologicalPresentations": [
+      "contralateral weakness or sensory change",
+      "aphasia, neglect or visual-field loss",
+      "cranial-nerve plus long-tract signs",
+      "ataxia, dysmetria or gait disturbance",
+      "altered arousal, memory or executive control"
+    ],
+    "psychologicalPresentations": [
+      "language-mediated distress or reduced communication",
+      "changes in attention, motivation or affect regulation",
+      "fatigue and slowed processing",
+      "impaired self-monitoring or social cognition",
+      "variable functional impact shaped by reserve and context"
+    ],
     "clinicalSignificance": "Lesion-symptom mapping narrows anatomical and mechanistic hypotheses, guides urgent investigation and targeted assessment, and informs rehabilitation. It cannot independently establish aetiology, diagnosis, prognosis or an individual's psychological experience."
   },
   "explorerParts": [
-    {"id": "overview", "label": "Whole-brain overview", "short": "Many-to-many mapping", "detail": "Compare focal tissue injury, tract disconnection and distributed network dysfunction across lesion sites, laterality and vascular patterns.", "clinical": "Begin with onset and the full sign pattern; use the map to rank hypotheses and alternatives, not to declare a diagnosis."},
-    {"id": "left-cortical", "label": "Left cortical lesion", "short": "Language-dominant patterns are common, not universal", "detail": "A left perisylvian or frontoparietal lesion may disrupt language, praxis, verbal working memory and contralateral sensorimotor systems through local and network effects.", "clinical": "Confirm language dominance and lesion extent. Aphasia patterns vary, and seizure, perfusion change or subcortical disconnection may mimic cortical injury."},
-    {"id": "right-cortical", "label": "Right cortical lesion", "short": "Spatial attention, prosody and contextual integration", "detail": "A right temporoparietal or frontal lesion may disturb spatial attention, prosody, visuospatial integration, awareness and contralateral sensorimotor systems.", "clinical": "Neglect is a distributed attention-network syndrome and is neither obligatory nor exclusive to one cortical site."},
-    {"id": "subcortical", "label": "Subcortical lesion", "short": "Compact nuclei and fibres can yield mixed patterns", "detail": "Thalamic, basal-ganglia or internal-capsule lesions may combine sensory, motor, arousal, memory, language or executive changes because dense nuclei and pathways lie close together.", "clinical": "Small deep vascular lesions can have large effects, but exact syndromes vary with nucleus, fibre involvement, laterality and diaschisis."},
-    {"id": "white-matter", "label": "White-matter disconnection", "short": "Intact nodes, interrupted communication", "detail": "Association, projection or commissural injury can disconnect language, attention, memory, visual-recognition or interhemispheric systems without destroying each connected cortical node.", "clinical": "Consider tract course and lesion load. Diffuse axonal injury and small-vessel disease often produce distributed rather than single-tract presentations."},
-    {"id": "brainstem", "label": "Brainstem lesion", "short": "Cranial-nerve and long-tract combinations", "detail": "Midbrain, pontine or medullary lesions may affect ipsilateral cranial-nerve systems alongside contralateral motor or sensory pathways, arousal circuits, autonomic control or cerebellar connections.", "clinical": "Crossed findings and abrupt onset can support brainstem vascular localisation, but urgent examination and imaging are required."},
-    {"id": "cerebellar", "label": "Cerebellar lesion", "short": "Coordination plus connected cognitive-affective effects", "detail": "Hemispheric or vermian lesions may cause ipsilateral limb dysmetria, gait or truncal ataxia, dysarthria and changes in timing; cognitive-affective effects reflect cerebello-cortical circuits.", "clinical": "Do not attribute psychiatric or cognitive symptoms to the cerebellum without a concordant neurological, temporal and network pattern."},
-    {"id": "distributed", "label": "Distributed network dysfunction", "short": "Symptoms without one sufficient focal site", "detail": "Multifocal disease, diaschisis, altered perfusion, seizure activity, metabolic disturbance or network degeneration can impair a system across connected regions.", "clinical": "An unremarkable focal scan does not exclude dysfunction; consider physiology, evolution, systemic factors and alternative diagnoses."}
+    {
+      "id": "overview",
+      "label": "Whole-brain overview",
+      "short": "Many-to-many mapping",
+      "detail": "Compare focal tissue injury, tract disconnection and distributed network dysfunction across lesion sites, laterality and vascular patterns.",
+      "clinical": "Begin with onset and the full sign pattern; use the map to rank hypotheses and alternatives, not to declare a diagnosis."
+    },
+    {
+      "id": "left-cortical",
+      "label": "Left cortical lesion",
+      "short": "Language-dominant patterns are common, not universal",
+      "detail": "A left perisylvian or frontoparietal lesion may disrupt language, praxis, verbal working memory and contralateral sensorimotor systems through local and network effects.",
+      "clinical": "Confirm language dominance and lesion extent. Aphasia patterns vary, and seizure, perfusion change or subcortical disconnection may mimic cortical injury."
+    },
+    {
+      "id": "right-cortical",
+      "label": "Right cortical lesion",
+      "short": "Spatial attention, prosody and contextual integration",
+      "detail": "A right temporoparietal or frontal lesion may disturb spatial attention, prosody, visuospatial integration, awareness and contralateral sensorimotor systems.",
+      "clinical": "Neglect is a distributed attention-network syndrome and is neither obligatory nor exclusive to one cortical site."
+    },
+    {
+      "id": "subcortical",
+      "label": "Subcortical lesion",
+      "short": "Compact nuclei and fibres can yield mixed patterns",
+      "detail": "Thalamic, basal-ganglia or internal-capsule lesions may combine sensory, motor, arousal, memory, language or executive changes because dense nuclei and pathways lie close together.",
+      "clinical": "Small deep vascular lesions can have large effects, but exact syndromes vary with nucleus, fibre involvement, laterality and diaschisis."
+    },
+    {
+      "id": "white-matter",
+      "label": "White-matter disconnection",
+      "short": "Intact nodes, interrupted communication",
+      "detail": "Association, projection or commissural injury can disconnect language, attention, memory, visual-recognition or interhemispheric systems without destroying each connected cortical node.",
+      "clinical": "Consider tract course and lesion load. Diffuse axonal injury and small-vessel disease often produce distributed rather than single-tract presentations."
+    },
+    {
+      "id": "brainstem",
+      "label": "Brainstem lesion",
+      "short": "Cranial-nerve and long-tract combinations",
+      "detail": "Midbrain, pontine or medullary lesions may affect ipsilateral cranial-nerve systems alongside contralateral motor or sensory pathways, arousal circuits, autonomic control or cerebellar connections.",
+      "clinical": "Crossed findings and abrupt onset can support brainstem vascular localisation, but urgent examination and imaging are required."
+    },
+    {
+      "id": "cerebellar",
+      "label": "Cerebellar lesion",
+      "short": "Coordination plus connected cognitive-affective effects",
+      "detail": "Hemispheric or vermian lesions may cause ipsilateral limb dysmetria, gait or truncal ataxia, dysarthria and changes in timing; cognitive-affective effects reflect cerebello-cortical circuits.",
+      "clinical": "Do not attribute psychiatric or cognitive symptoms to the cerebellum without a concordant neurological, temporal and network pattern."
+    },
+    {
+      "id": "distributed",
+      "label": "Distributed network dysfunction",
+      "short": "Symptoms without one sufficient focal site",
+      "detail": "Multifocal disease, diaschisis, altered perfusion, seizure activity, metabolic disturbance or network degeneration can impair a system across connected regions.",
+      "clinical": "An unremarkable focal scan does not exclude dysfunction; consider physiology, evolution, systemic factors and alternative diagnoses."
+    }
   ],
   "interactions": [
-    {"type": "select", "label": "Select lesion location", "targets": ["left cortical", "right cortical", "subcortical", "white matter", "brainstem", "cerebellar", "distributed network"]},
-    {"type": "comparison", "label": "Compare left and right", "targets": ["left hemisphere", "right hemisphere"]},
-    {"type": "layers", "label": "Display mapping overlays", "targets": ["lesion pattern", "associated symptom pattern", "affected function", "vascular territory"]},
-    {"type": "trace", "label": "Trace affected pathway or network", "targets": ["local computation", "white-matter connection", "remote network effect"]},
-    {"type": "overview", "label": "Return to overview", "targets": ["whole brain"]}
+    {
+      "type": "select",
+      "label": "Select lesion location",
+      "targets": [
+        "left cortical",
+        "right cortical",
+        "subcortical",
+        "white matter",
+        "brainstem",
+        "cerebellar",
+        "distributed network"
+      ]
+    },
+    {
+      "type": "comparison",
+      "label": "Compare left and right",
+      "targets": [
+        "left hemisphere",
+        "right hemisphere"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Display mapping overlays",
+      "targets": [
+        "lesion pattern",
+        "associated symptom pattern",
+        "affected function",
+        "vascular territory"
+      ]
+    },
+    {
+      "type": "trace",
+      "label": "Trace affected pathway or network",
+      "targets": [
+        "local computation",
+        "white-matter connection",
+        "remote network effect"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to overview",
+      "targets": [
+        "whole brain"
+      ]
+    }
   ],
   "quiz": [
-    {"id": "lesion-and-symptom-mapping-q1", "question": "Why is one-lesion-one-symptom reasoning unsafe?", "options": ["Symptoms and lesions have many-to-many relationships shaped by pathways, networks and individual context", "Every symptom has one necessary cortical centre", "Laterality does not influence function", "Only lesion volume matters"], "answer": 0, "rationale": "A lesion can disturb several connected functions, while the same symptom can arise from different nodes, tracts or physiological mechanisms."},
-    {"id": "lesion-and-symptom-mapping-q2", "question": "What best defines a disconnection syndrome?", "options": ["Impaired communication between relatively intact nodes because connecting white matter is disrupted", "Complete destruction of every node in a network", "A symptom with no anatomical basis", "Any focal cortical infarct"], "answer": 0, "rationale": "Disconnection follows interruption of association, projection or commissural pathways rather than requiring destruction of all connected regions."},
-    {"id": "lesion-and-symptom-mapping-q3", "question": "Which pattern most strongly supports a brainstem localisation?", "options": ["An ipsilateral cranial-nerve deficit with a contralateral long-tract deficit", "Isolated distress after an incidental scan finding", "Symmetric distal neuropathic symptoms", "A single low memory score without neurological signs"], "answer": 0, "rationale": "Cranial-nerve nuclei or fascicles lie near ascending and descending long tracts, producing classic crossed patterns, although actual presentations vary."},
-    {"id": "lesion-and-symptom-mapping-q4", "question": "What is the safest interpretation of a sudden aphasia with right face-arm weakness?", "options": ["An urgent left-hemisphere vascular-network hypothesis requiring immediate stroke assessment", "Proof of one exact cortical lesion", "A psychological symptom unless imaging is positive", "A cerebellar syndrome"], "answer": 0, "rationale": "The pattern is compatible with a dominant left MCA-system event, but exact site and mechanism require urgent clinical and imaging confirmation."}
+    {
+      "id": "lesion-and-symptom-mapping-q1",
+      "question": "Why is one-lesion-one-symptom reasoning unsafe?",
+      "options": [
+        "Symptoms and lesions have many-to-many relationships shaped by pathways, networks and individual context",
+        "Every symptom has one necessary cortical centre",
+        "Laterality does not influence function",
+        "Only lesion volume matters"
+      ],
+      "answer": 0,
+      "rationale": "A lesion can disturb several connected functions, while the same symptom can arise from different nodes, tracts or physiological mechanisms."
+    },
+    {
+      "id": "lesion-and-symptom-mapping-q2",
+      "question": "What best defines a disconnection syndrome?",
+      "options": [
+        "Impaired communication between relatively intact nodes because connecting white matter is disrupted",
+        "Complete destruction of every node in a network",
+        "A symptom with no anatomical basis",
+        "Any focal cortical infarct"
+      ],
+      "answer": 0,
+      "rationale": "Disconnection follows interruption of association, projection or commissural pathways rather than requiring destruction of all connected regions."
+    },
+    {
+      "id": "lesion-and-symptom-mapping-q3",
+      "question": "Which pattern most strongly supports a brainstem localisation?",
+      "options": [
+        "An ipsilateral cranial-nerve deficit with a contralateral long-tract deficit",
+        "Isolated distress after an incidental scan finding",
+        "Symmetric distal neuropathic symptoms",
+        "A single low memory score without neurological signs"
+      ],
+      "answer": 0,
+      "rationale": "Cranial-nerve nuclei or fascicles lie near ascending and descending long tracts, producing classic crossed patterns, although actual presentations vary."
+    },
+    {
+      "id": "lesion-and-symptom-mapping-q4",
+      "question": "What is the safest interpretation of a sudden aphasia with right face-arm weakness?",
+      "options": [
+        "An urgent left-hemisphere vascular-network hypothesis requiring immediate stroke assessment",
+        "Proof of one exact cortical lesion",
+        "A psychological symptom unless imaging is positive",
+        "A cerebellar syndrome"
+      ],
+      "answer": 0,
+      "rationale": "The pattern is compatible with a dominant left MCA-system event, but exact site and mechanism require urgent clinical and imaging confirmation."
+    }
   ],
-  "relatedConcepts": ["healthy-versus-pathology-comparison", "integrated-whole-brain-explorer-and-capstone", "brain-lateralisation-comparison", "arterial-territories-stroke-comparison", "major-white-matter-pathways-atlas", "functional-network-overlay-atlas", "cerebral-lobes-atlas", "deep-nuclei-atlas", "brainstem-atlas", "cerebellum-atlas", "hemispatial-neglect", "agnosia-recognition", "praxis-apraxia"],
+  "relatedConcepts": [
+    "healthy-versus-pathology-comparison",
+    "integrated-whole-brain-explorer-and-capstone",
+    "brain-lateralisation-comparison",
+    "arterial-territories-stroke-comparison",
+    "major-white-matter-pathways-atlas",
+    "functional-network-overlay-atlas",
+    "cerebral-lobes-atlas",
+    "deep-nuclei-atlas",
+    "brainstem-atlas",
+    "cerebellum-atlas",
+    "hemispatial-neglect",
+    "agnosia-recognition",
+    "praxis-apraxia"
+  ],
   "references": [
-    {"citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021.", "type": "textbook"},
-    {"citation": "Catani M, Ffytche DH. The rises and falls of disconnection syndromes. Brain. 2005;128(10):2224-2239.", "type": "peer-reviewed review", "url": "https://doi.org/10.1093/brain/awh622"},
-    {"citation": "Carrera E, Tononi G. Diaschisis: past, present, future. Brain. 2014;137(9):2408-2422.", "type": "peer-reviewed review", "url": "https://doi.org/10.1093/brain/awu101"}
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021.",
+      "type": "textbook"
+    },
+    {
+      "citation": "Catani M, Ffytche DH. The rises and falls of disconnection syndromes. Brain. 2005;128(10):2224-2239.",
+      "type": "peer-reviewed review",
+      "url": "https://doi.org/10.1093/brain/awh622"
+    },
+    {
+      "citation": "Carrera E, Tononi G. Diaschisis: past, present, future. Brain. 2014;137(9):2408-2422.",
+      "type": "peer-reviewed review",
+      "url": "https://doi.org/10.1093/brain/awu101"
+    }
   ],
-  "spacedRepetition": {"initialIntervalDays": 1, "graduatingIntervalDays": 7, "easeFactor": 2.5, "reviewPrompt": "For one symptom pattern, compare a focal lesion, a white-matter disconnection and distributed network dysfunction, then name laterality, vascular and uncertainty checks."},
-  "accessibility": {"keyboardNavigation": true, "screenReaderSummary": "Interactive lesion and symptom map with seven selectable lesion patterns, left-right comparison, pathway sequence, lesion, symptom, function and vascular overlays, uncertainty cautions and overview reset.", "reducedMotion": true, "minimumTouchTargetPx": 44},
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "For one symptom pattern, compare a focal lesion, a white-matter disconnection and distributed network dysfunction, then name laterality, vascular and uncertainty checks."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive lesion and symptom map with seven selectable lesion patterns, left-right comparison, pathway sequence, lesion, symptom, function and vascular overlays, uncertainty cautions and overview reset.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "lesionLab": {
+    "schemaVersion": "1.0.0",
+    "title": "Symptom → localisation challenge",
+    "instruction": "Start from the phenotype rather than the picture. Choose the best localisation hypothesis, then read the uncertainty statement.",
+    "cases": [
+      {
+        "id": "left-language",
+        "label": "Language",
+        "prompt": "Sudden impaired naming and sentence formulation occur with right face-arm weakness. Spatial neglect is not prominent.",
+        "clues": [
+          "Acute focal onset",
+          "Language impairment",
+          "Contralateral right-sided motor sign"
+        ],
+        "options": [
+          "left-cortical",
+          "right-cortical",
+          "cerebellar"
+        ],
+        "targetPart": "left-cortical",
+        "rationale": "A left hemispheric cortical or cortico-subcortical process is a strong localisation hypothesis when language change co-occurs with right-sided weakness.",
+        "caveat": "Language dominance varies, and subcortical or network disconnection can mimic a cortical syndrome. Acute focal deficits require emergency stroke assessment."
+      },
+      {
+        "id": "neglect",
+        "label": "Neglect",
+        "prompt": "A patient repeatedly ignores food and grooming on the left side and collides with objects on the left despite adequate primary vision for the task.",
+        "clues": [
+          "Left-sided spatial inattention",
+          "Awareness/attention problem",
+          "Not explained by primary visual loss alone"
+        ],
+        "options": [
+          "right-cortical",
+          "left-cortical",
+          "brainstem"
+        ],
+        "targetPart": "right-cortical",
+        "rationale": "Right-lateralised attention-network injury, often involving temporoparietal and frontal systems, is a common substrate for left hemispatial neglect.",
+        "caveat": "Neglect is a distributed network syndrome and can occur with subcortical lesions or atypical laterality."
+      },
+      {
+        "id": "pure-dense",
+        "label": "Deep motor",
+        "prompt": "Abrupt dense contralateral weakness affects face, arm and leg with no clear aphasia, neglect or visual-field syndrome.",
+        "clues": [
+          "Motor deficit is dense",
+          "Few cortical signs",
+          "Small deep lesion is plausible"
+        ],
+        "options": [
+          "subcortical",
+          "left-cortical",
+          "distributed"
+        ],
+        "targetPart": "subcortical",
+        "rationale": "A compact deep lesion affecting internal-capsular or neighbouring pathways can produce a dense motor syndrome with limited cortical features.",
+        "caveat": "This is a probabilistic localisation; brainstem and cortical lesions can sometimes produce similar patterns."
+      },
+      {
+        "id": "ataxia",
+        "label": "Coordination",
+        "prompt": "Prominent limb dysmetria, gait ataxia and impaired timing occur without a primary weakness pattern.",
+        "clues": [
+          "Coordination/timing deficit",
+          "Dysmetria",
+          "Gait ataxia"
+        ],
+        "options": [
+          "cerebellar",
+          "white-matter",
+          "left-cortical"
+        ],
+        "targetPart": "cerebellar",
+        "rationale": "A cerebellar or cerebello-connected system is the leading localisation for dysmetria and gait ataxia when primary weakness does not explain the deficit.",
+        "caveat": "Vestibular, sensory and brainstem disorders can also cause imbalance or apparent ataxia and must be differentiated clinically."
+      },
+      {
+        "id": "network",
+        "label": "Network",
+        "prompt": "After diffuse white-matter injury, processing is slowed and executive coordination is inefficient across tasks without one clean focal cortical syndrome.",
+        "clues": [
+          "Diffuse rather than focal pattern",
+          "Processing-speed inefficiency",
+          "Executive coordination affected"
+        ],
+        "options": [
+          "white-matter",
+          "right-cortical",
+          "brainstem"
+        ],
+        "targetPart": "white-matter",
+        "rationale": "Distributed white-matter disruption can reduce communication efficiency across multiple networks, producing slowed processing and broad executive inefficiency.",
+        "caveat": "Fatigue, mood, medication, sleep and many neurological conditions can also reduce processing efficiency; test interpretation requires context."
+      }
+    ]
+  },
+  "clinicalComparison": {
+    "title": "Compare intact systems with localisation hypotheses",
+    "instruction": "Use the contrast to connect anatomy, mechanism and behaviour without treating any presentation as pathognomonic.",
+    "comparisons": [
+      {
+        "id": "cortical-language",
+        "label": "Left cortical language network",
+        "part": "left-cortical",
+        "healthy": {
+          "label": "Integrated language network",
+          "summary": "Distributed dominant-hemisphere regions coordinate comprehension, formulation and speech with connected white matter.",
+          "mechanism": "Cortical nodes and association pathways exchange phonological, semantic and motor information.",
+          "observable": "Language is efficient enough for the person’s baseline and context."
+        },
+        "pathology": {
+          "label": "Dominant cortical/network disruption",
+          "summary": "Focal injury may disturb one or more language operations and their coordination.",
+          "mechanism": "Local tissue dysfunction and disconnection can alter comprehension, naming, repetition, fluency or praxis.",
+          "observable": "Aphasic features may occur alongside other focal signs depending on lesion extent."
+        },
+        "clinicalMeaning": "Use the pattern of spared and impaired language operations to generate a network-level localisation hypothesis.",
+        "assessment": "Sample spontaneous speech, naming, comprehension, repetition, reading and writing, then integrate neurological and imaging findings.",
+        "caveat": "Language dominance varies and aphasia profiles are not perfectly localising; perfusion, seizure and subcortical disconnection can mimic cortical patterns."
+      },
+      {
+        "id": "white-matter",
+        "label": "White-matter disconnection",
+        "part": "white-matter",
+        "healthy": {
+          "label": "Connected network",
+          "summary": "Relatively intact cortical nodes exchange information through association, projection and commissural fibres.",
+          "mechanism": "Fast, coordinated transmission supports integration across specialised regions.",
+          "observable": "Cross-region tasks are performed without a disconnection-specific bottleneck."
+        },
+        "pathology": {
+          "label": "Disconnection",
+          "summary": "Nodes may remain structurally intact while communication between them is impaired.",
+          "mechanism": "Fibre injury interrupts transfer, timing or integration across a distributed system.",
+          "observable": "Selective disconnection syndromes or broader slowing and inefficiency may occur."
+        },
+        "clinicalMeaning": "A deficit does not require destruction of the cortical regions that normally perform the computation; the connection itself may be the critical lesion.",
+        "assessment": "Look for dissociations and cross-modal or interhemispheric failures, then relate them to tract anatomy and lesion burden.",
+        "caveat": "Diffuse white-matter disease rarely respects a single tract and can produce distributed rather than textbook syndromes."
+      },
+      {
+        "id": "distributed",
+        "label": "Distributed network dysfunction",
+        "part": "distributed",
+        "healthy": {
+          "label": "Coordinated distributed system",
+          "summary": "Multiple nodes contribute to cognition through flexible, state-sensitive network interactions.",
+          "mechanism": "Local computations are integrated through recurrent and long-range connectivity.",
+          "observable": "Performance remains sufficiently stable across related tasks and everyday demands."
+        },
+        "pathology": {
+          "label": "Network-level dysfunction",
+          "summary": "Multifocal injury or remote physiological effects can degrade function beyond the visible lesion site.",
+          "mechanism": "Diaschisis, altered connectivity, multifocal disease or reduced network efficiency can affect distant nodes.",
+          "observable": "Broad or variable cognitive changes may exceed what a single focal lesion predicts."
+        },
+        "clinicalMeaning": "When the phenotype is wider than the visible lesion, consider network and remote effects before assuming poor effort or unrelated pathology.",
+        "assessment": "Integrate domain patterns, lesion burden, course, functional observations and performance validity.",
+        "caveat": "Network explanations remain hypotheses unless supported by convergent clinical and imaging evidence."
+      }
+    ]
+  }
 }

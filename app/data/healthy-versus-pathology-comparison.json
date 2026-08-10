@@ -4,11 +4,28 @@
   "explorer": {
     "schemaVersion": "1.0.0",
     "partsSource": "anatomy",
-    "stages": ["inputs", "connections", "outputs"],
-    "overlays": ["bloodSupply", "functions", "lesions", "symptoms"],
+    "stages": [
+      "inputs",
+      "connections",
+      "outputs"
+    ],
+    "overlays": [
+      "bloodSupply",
+      "functions",
+      "lesions",
+      "symptoms"
+    ],
     "comparisonModes": [
-      {"id": "healthy", "label": "Healthy variation", "part": "variation"},
-      {"id": "pathology", "label": "Pathology patterns", "part": "structural"}
+      {
+        "id": "healthy",
+        "label": "Healthy variation",
+        "part": "variation"
+      },
+      {
+        "id": "pathology",
+        "label": "Pathology patterns",
+        "part": "structural"
+      }
     ],
     "returnToOverview": true,
     "accessibility": {
@@ -27,11 +44,37 @@
   "pronunciation": "puh-THOL-uh-jee",
   "hero": "healthy-versus-pathology-comparison.svg",
   "altText": "Accessible chalkboard-style comparison of two overlapping brain network maps: one shows variable healthy organisation and the other shows structural, functional, developmental, vascular and degenerative patterns, joined by a clinical-context bridge.",
-  "prerequisites": ["brain-lateralisation-comparison", "functional-network-overlay-atlas", "arterial-territories-stroke-comparison"],
+  "prerequisites": [
+    "brain-lateralisation-comparison",
+    "functional-network-overlay-atlas",
+    "arterial-territories-stroke-comparison"
+  ],
   "previousConcept": "brain-lateralisation-comparison",
   "nextConcept": "lesion-and-symptom-mapping",
-  "tags": ["interactive anatomy", "healthy variation", "pathology", "dysfunction", "brain injury", "disorder", "neuroimaging", "vascular change", "neurodegeneration", "development"],
-  "searchTerms": ["healthy versus pathology", "normal versus abnormal brain", "incidental imaging finding", "structural lesion", "functional dysfunction", "developmental difference", "stroke pattern", "degenerative pattern", "clinical radiology correlation", "distributed network symptoms"],
+  "tags": [
+    "interactive anatomy",
+    "healthy variation",
+    "pathology",
+    "dysfunction",
+    "brain injury",
+    "disorder",
+    "neuroimaging",
+    "vascular change",
+    "neurodegeneration",
+    "development"
+  ],
+  "searchTerms": [
+    "healthy versus pathology",
+    "normal versus abnormal brain",
+    "incidental imaging finding",
+    "structural lesion",
+    "functional dysfunction",
+    "developmental difference",
+    "stroke pattern",
+    "degenerative pattern",
+    "clinical radiology correlation",
+    "distributed network symptoms"
+  ],
   "learningObjectives": [
     "Distinguish healthy variation, dysfunction, injury and disorder using clinical context rather than a binary normal-abnormal label.",
     "Compare structural, functional, developmental, vascular and degenerative patterns without assuming that imaging establishes diagnosis.",
@@ -52,46 +95,362 @@
   "anatomy": {
     "position": "Whole-brain comparison across cortex, subcortex, white matter, vascular territories and large-scale functional networks.",
     "spatialRelationships": "Local tissue findings sit within connected systems; remote effects may occur through white-matter disconnection, diaschisis, altered excitation-inhibition balance and compensatory recruitment.",
-    "regions": ["healthy variation and reserve", "structural change", "functional dysfunction", "developmental difference", "vascular injury", "degenerative network change"],
-    "inputs": ["developmental and premorbid context", "history and time course", "neurological and psychological examination", "structural and functional measurements", "laboratory and biomarker evidence"],
-    "outputs": ["qualified differential diagnosis", "network-level formulation", "functional-impact estimate", "need for monitoring or urgent action", "explicit uncertainty"],
-    "connections": ["cortico-cortical association pathways", "thalamo-cortical loops", "frontoparietal and salience networks", "limbic-memory networks", "cerebrovascular territories", "cerebellar and brainstem pathways"],
-    "functions": ["compare healthy and pathology views", "select a structure or network", "show or hide clinical overlays", "display lesion or pathology patterns", "display symptoms or functional effects", "return to whole-brain overview"],
+    "regions": [
+      "healthy variation and reserve",
+      "structural change",
+      "functional dysfunction",
+      "developmental difference",
+      "vascular injury",
+      "degenerative network change"
+    ],
+    "inputs": [
+      "developmental and premorbid context",
+      "history and time course",
+      "neurological and psychological examination",
+      "structural and functional measurements",
+      "laboratory and biomarker evidence"
+    ],
+    "outputs": [
+      "qualified differential diagnosis",
+      "network-level formulation",
+      "functional-impact estimate",
+      "need for monitoring or urgent action",
+      "explicit uncertainty"
+    ],
+    "connections": [
+      "cortico-cortical association pathways",
+      "thalamo-cortical loops",
+      "frontoparietal and salience networks",
+      "limbic-memory networks",
+      "cerebrovascular territories",
+      "cerebellar and brainstem pathways"
+    ],
+    "functions": [
+      "compare healthy and pathology views",
+      "select a structure or network",
+      "show or hide clinical overlays",
+      "display lesion or pathology patterns",
+      "display symptoms or functional effects",
+      "return to whole-brain overview"
+    ],
     "bloodSupply": "Vascular change is interpreted by onset, arterial territory, collateral supply and tissue evolution. Chronic small-vessel disease and incidental vascular variants require clinical correlation.",
     "lesionEffects": "Effects depend on lesion mechanism, location, volume, laterality, white-matter involvement, distributed network disruption, premorbid reserve and recovery; a lesion does not map one-to-one onto a symptom.",
-    "neurologicalPresentations": ["acute focal deficit", "seizure or transient dysfunction", "progressive cognitive or motor change", "developmental difference", "network-disconnection syndrome"],
-    "psychologicalPresentations": ["variable cognitive inefficiency", "changes in mood or behaviour", "fatigue and reduced participation", "distress shaped by interpretation and context", "no impairment despite an incidental finding"],
+    "neurologicalPresentations": [
+      "acute focal deficit",
+      "seizure or transient dysfunction",
+      "progressive cognitive or motor change",
+      "developmental difference",
+      "network-disconnection syndrome"
+    ],
+    "psychologicalPresentations": [
+      "variable cognitive inefficiency",
+      "changes in mood or behaviour",
+      "fatigue and reduced participation",
+      "distress shaped by interpretation and context",
+      "no impairment despite an incidental finding"
+    ],
     "clinicalSignificance": "A healthy-pathology comparison can organise hypotheses and urgency, but diagnosis requires concordance among clinical phenotype, course, examination and appropriately interpreted tests."
   },
   "explorerParts": [
-    {"id": "variation", "label": "Healthy variation & reserve", "short": "Difference is not automatically disease", "detail": "Brain morphology, lateralisation, connectivity and performance vary with age, development, experience and measurement conditions.", "clinical": "Use appropriate norms and functional evidence before labelling a variant pathological."},
-    {"id": "structural", "label": "Structural change", "short": "Visible anatomy, uncertain meaning", "detail": "Atrophy, mass effect, altered signal, malformation or white-matter change describes structure, not by itself cause, severity or diagnosis.", "clinical": "Correlate location and chronicity with symptoms; consider incidental findings, artefact and alternative causes."},
-    {"id": "functional", "label": "Functional dysfunction", "short": "Operation can change without a fixed lesion", "detail": "Network physiology can vary with seizure activity, migraine, medication, sleep, pain, metabolic state and psychiatric state.", "clinical": "Functional measures are often state-dependent and group-derived; they should support rather than replace clinical assessment."},
-    {"id": "developmental", "label": "Developmental difference", "short": "Different trajectory, not acquired injury", "detail": "Developmental timing, plasticity and experience shape network organisation and skill acquisition across childhood and adulthood.", "clinical": "Establish developmental history and adaptive impact; avoid describing all atypical organisation as damage."},
-    {"id": "vascular", "label": "Vascular injury", "short": "Time, territory and tissue", "detail": "Ischaemia and haemorrhage disrupt tissue according to vessel anatomy, collateral flow, lesion evolution and connected pathways.", "clinical": "Sudden focal deficits require urgent stroke assessment; imaging pattern assists but does not replace bedside evaluation."},
-    {"id": "degenerative", "label": "Degenerative network change", "short": "Progressive, patterned and longitudinal", "detail": "Neurodegenerative processes often spread through vulnerable cell populations and connected networks rather than respecting one isolated region.", "clinical": "Diagnosis depends on progressive phenotype, exclusion of mimics and, when appropriate, validated biomarkers."}
+    {
+      "id": "variation",
+      "label": "Healthy variation & reserve",
+      "short": "Difference is not automatically disease",
+      "detail": "Brain morphology, lateralisation, connectivity and performance vary with age, development, experience and measurement conditions.",
+      "clinical": "Use appropriate norms and functional evidence before labelling a variant pathological."
+    },
+    {
+      "id": "structural",
+      "label": "Structural change",
+      "short": "Visible anatomy, uncertain meaning",
+      "detail": "Atrophy, mass effect, altered signal, malformation or white-matter change describes structure, not by itself cause, severity or diagnosis.",
+      "clinical": "Correlate location and chronicity with symptoms; consider incidental findings, artefact and alternative causes."
+    },
+    {
+      "id": "functional",
+      "label": "Functional dysfunction",
+      "short": "Operation can change without a fixed lesion",
+      "detail": "Network physiology can vary with seizure activity, migraine, medication, sleep, pain, metabolic state and psychiatric state.",
+      "clinical": "Functional measures are often state-dependent and group-derived; they should support rather than replace clinical assessment."
+    },
+    {
+      "id": "developmental",
+      "label": "Developmental difference",
+      "short": "Different trajectory, not acquired injury",
+      "detail": "Developmental timing, plasticity and experience shape network organisation and skill acquisition across childhood and adulthood.",
+      "clinical": "Establish developmental history and adaptive impact; avoid describing all atypical organisation as damage."
+    },
+    {
+      "id": "vascular",
+      "label": "Vascular injury",
+      "short": "Time, territory and tissue",
+      "detail": "Ischaemia and haemorrhage disrupt tissue according to vessel anatomy, collateral flow, lesion evolution and connected pathways.",
+      "clinical": "Sudden focal deficits require urgent stroke assessment; imaging pattern assists but does not replace bedside evaluation."
+    },
+    {
+      "id": "degenerative",
+      "label": "Degenerative network change",
+      "short": "Progressive, patterned and longitudinal",
+      "detail": "Neurodegenerative processes often spread through vulnerable cell populations and connected networks rather than respecting one isolated region.",
+      "clinical": "Diagnosis depends on progressive phenotype, exclusion of mimics and, when appropriate, validated biomarkers."
+    }
   ],
   "interactions": [
-    {"type": "select", "label": "Select a structure or network comparison", "targets": ["variation", "structural", "functional", "developmental", "vascular", "degenerative"]},
-    {"type": "comparison", "label": "Toggle healthy and pathology perspectives", "targets": ["healthy variation", "pathology pattern"]},
-    {"type": "layers", "label": "Show or hide available overlays", "targets": ["blood supply", "functions", "lesion effects", "symptoms"]},
-    {"type": "overview", "label": "Return to whole-brain overview", "targets": ["healthy variation and reserve"]}
+    {
+      "type": "select",
+      "label": "Select a structure or network comparison",
+      "targets": [
+        "variation",
+        "structural",
+        "functional",
+        "developmental",
+        "vascular",
+        "degenerative"
+      ]
+    },
+    {
+      "type": "comparison",
+      "label": "Toggle healthy and pathology perspectives",
+      "targets": [
+        "healthy variation",
+        "pathology pattern"
+      ]
+    },
+    {
+      "type": "layers",
+      "label": "Show or hide available overlays",
+      "targets": [
+        "blood supply",
+        "functions",
+        "lesion effects",
+        "symptoms"
+      ]
+    },
+    {
+      "type": "overview",
+      "label": "Return to whole-brain overview",
+      "targets": [
+        "healthy variation and reserve"
+      ]
+    }
   ],
   "quiz": [
-    {"id": "healthy-versus-pathology-comparison-q1", "question": "Which statement best distinguishes an imaging finding from a diagnosis?", "options": ["A finding becomes diagnostic only when appropriately combined with clinical and other evidence", "Any visible difference proves disorder", "An unremarkable scan excludes dysfunction", "Functional imaging independently establishes psychiatric diagnosis"], "answer": 0, "rationale": "Imaging is one evidence source; diagnosis depends on validated criteria and convergence with phenotype, course and examination."},
-    {"id": "healthy-versus-pathology-comparison-q2", "question": "Which description of dysfunction is most accurate?", "options": ["Impaired operation may occur with or without a visible structural lesion", "It always means irreversible tissue destruction", "It is identical to a disorder", "It can be inferred from one group-average biomarker"], "answer": 0, "rationale": "Physiological dysfunction may be transient, state-dependent or structurally occult and is not synonymous with injury or disorder."},
-    {"id": "healthy-versus-pathology-comparison-q3", "question": "Why can similar lesions produce different outcomes?", "options": ["Network extent, laterality, reserve, development, comorbidity and recovery differ", "Every symptom belongs to one brain region", "Imaging resolution determines all disability", "Symptoms are unrelated to pathways"], "answer": 0, "rationale": "Clinical effects emerge from distributed systems and individual context, not lesion location alone."},
-    {"id": "healthy-versus-pathology-comparison-q4", "question": "What most strongly supports a degenerative interpretation?", "options": ["A progressive clinical phenotype with a concordant longitudinal pattern and appropriate exclusion of mimics", "Any age-related anatomical difference", "One isolated cognitive score", "A single nonspecific functional map"], "answer": 0, "rationale": "Degenerative diagnosis rests on progression and converging clinical evidence, sometimes supported by validated biomarkers."}
+    {
+      "id": "healthy-versus-pathology-comparison-q1",
+      "question": "Which statement best distinguishes an imaging finding from a diagnosis?",
+      "options": [
+        "A finding becomes diagnostic only when appropriately combined with clinical and other evidence",
+        "Any visible difference proves disorder",
+        "An unremarkable scan excludes dysfunction",
+        "Functional imaging independently establishes psychiatric diagnosis"
+      ],
+      "answer": 0,
+      "rationale": "Imaging is one evidence source; diagnosis depends on validated criteria and convergence with phenotype, course and examination."
+    },
+    {
+      "id": "healthy-versus-pathology-comparison-q2",
+      "question": "Which description of dysfunction is most accurate?",
+      "options": [
+        "Impaired operation may occur with or without a visible structural lesion",
+        "It always means irreversible tissue destruction",
+        "It is identical to a disorder",
+        "It can be inferred from one group-average biomarker"
+      ],
+      "answer": 0,
+      "rationale": "Physiological dysfunction may be transient, state-dependent or structurally occult and is not synonymous with injury or disorder."
+    },
+    {
+      "id": "healthy-versus-pathology-comparison-q3",
+      "question": "Why can similar lesions produce different outcomes?",
+      "options": [
+        "Network extent, laterality, reserve, development, comorbidity and recovery differ",
+        "Every symptom belongs to one brain region",
+        "Imaging resolution determines all disability",
+        "Symptoms are unrelated to pathways"
+      ],
+      "answer": 0,
+      "rationale": "Clinical effects emerge from distributed systems and individual context, not lesion location alone."
+    },
+    {
+      "id": "healthy-versus-pathology-comparison-q4",
+      "question": "What most strongly supports a degenerative interpretation?",
+      "options": [
+        "A progressive clinical phenotype with a concordant longitudinal pattern and appropriate exclusion of mimics",
+        "Any age-related anatomical difference",
+        "One isolated cognitive score",
+        "A single nonspecific functional map"
+      ],
+      "answer": 0,
+      "rationale": "Degenerative diagnosis rests on progression and converging clinical evidence, sometimes supported by validated biomarkers."
+    }
   ],
-  "relatedConcepts": ["brain-lateralisation-comparison", "lesion-and-symptom-mapping", "functional-network-overlay-atlas", "arterial-territories-stroke-comparison", "major-white-matter-pathways-atlas", "neurodegenerative-disorders", "normal-variants", "developmental-eeg"],
+  "relatedConcepts": [
+    "brain-lateralisation-comparison",
+    "lesion-and-symptom-mapping",
+    "functional-network-overlay-atlas",
+    "arterial-territories-stroke-comparison",
+    "major-white-matter-pathways-atlas",
+    "neurodegenerative-disorders",
+    "normal-variants",
+    "developmental-eeg"
+  ],
   "references": [
-    {"citation": "Wardlaw JM, Smith C, Dichgans M. Small vessel disease: mechanisms and clinical implications. Lancet Neurology. 2019;18(7):684–696.", "type": "peer-reviewed review", "url": "https://doi.org/10.1016/S1474-4422(19)30079-1"},
-    {"citation": "Insel TR, Cuthbert BN. Brain disorders? Precisely. Science. 2015;348(6234):499–500.", "type": "peer-reviewed perspective", "url": "https://doi.org/10.1126/science.aab2358"},
-    {"citation": "Power JD, Schlaggar BL, Petersen SE. Studying brain organization via spontaneous fMRI signal. Neuron. 2014;84(4):681–696.", "type": "peer-reviewed review", "url": "https://doi.org/10.1016/j.neuron.2014.09.007"}
+    {
+      "citation": "Wardlaw JM, Smith C, Dichgans M. Small vessel disease: mechanisms and clinical implications. Lancet Neurology. 2019;18(7):684–696.",
+      "type": "peer-reviewed review",
+      "url": "https://doi.org/10.1016/S1474-4422(19)30079-1"
+    },
+    {
+      "citation": "Insel TR, Cuthbert BN. Brain disorders? Precisely. Science. 2015;348(6234):499–500.",
+      "type": "peer-reviewed perspective",
+      "url": "https://doi.org/10.1126/science.aab2358"
+    },
+    {
+      "citation": "Power JD, Schlaggar BL, Petersen SE. Studying brain organization via spontaneous fMRI signal. Neuron. 2014;84(4):681–696.",
+      "type": "peer-reviewed review",
+      "url": "https://doi.org/10.1016/j.neuron.2014.09.007"
+    }
   ],
-  "spacedRepetition": {"initialIntervalDays": 1, "graduatingIntervalDays": 7, "easeFactor": 2.5, "reviewPrompt": "Distinguish variation, dysfunction, injury and disorder, then explain why imaging alone cannot establish diagnosis."},
-  "accessibility": {"keyboardNavigation": true, "screenReaderSummary": "Interactive whole-brain comparison of healthy variation with structural, functional, developmental, vascular and degenerative change, including clinical uncertainty and network effects.", "reducedMotion": true, "minimumTouchTargetPx": 44},
+  "spacedRepetition": {
+    "initialIntervalDays": 1,
+    "graduatingIntervalDays": 7,
+    "easeFactor": 2.5,
+    "reviewPrompt": "Distinguish variation, dysfunction, injury and disorder, then explain why imaging alone cannot establish diagnosis."
+  },
+  "accessibility": {
+    "keyboardNavigation": true,
+    "screenReaderSummary": "Interactive whole-brain comparison of healthy variation with structural, functional, developmental, vascular and degenerative change, including clinical uncertainty and network effects.",
+    "reducedMotion": true,
+    "minimumTouchTargetPx": 44
+  },
   "offline": true,
   "bookmarkCompatible": true,
-  "progressTracking": true
+  "progressTracking": true,
+  "lesionLab": {
+    "schemaVersion": "1.0.0",
+    "title": "Healthy variation or pathology?",
+    "instruction": "Decide which explanatory frame best fits the pattern. The answer emphasises why a single scan or score is not enough.",
+    "cases": [
+      {
+        "id": "incidental",
+        "label": "Incidental",
+        "prompt": "Imaging shows a stable anatomical variant, but the person has no concordant neurological signs, cognitive decline or functional change.",
+        "clues": [
+          "Stable finding",
+          "No matching phenotype",
+          "No functional decline"
+        ],
+        "options": [
+          "variation",
+          "structural",
+          "degenerative"
+        ],
+        "targetPart": "variation",
+        "rationale": "A structural difference without a concordant clinical phenotype may represent healthy variation or an incidental finding rather than disease.",
+        "caveat": "Clinical significance depends on the specific finding, history and appropriate medical interpretation."
+      },
+      {
+        "id": "sudden",
+        "label": "Acute focal",
+        "prompt": "A previously well person develops sudden unilateral weakness and language difficulty over minutes.",
+        "clues": [
+          "Sudden onset",
+          "Focal neurological signs",
+          "Time-critical evolution"
+        ],
+        "options": [
+          "vascular",
+          "developmental",
+          "variation"
+        ],
+        "targetPart": "vascular",
+        "rationale": "A sudden focal neurological syndrome is a vascular emergency pattern until proven otherwise, and time course is as important as location.",
+        "caveat": "Stroke mimics exist, but emergency assessment should not be delayed while attempting to resolve the differential."
+      },
+      {
+        "id": "progressive",
+        "label": "Progressive",
+        "prompt": "Cognitive and behavioural abilities decline progressively over years with increasing functional dependence and a coherent network-level pattern.",
+        "clues": [
+          "Progressive course",
+          "Functional decline",
+          "Pattern evolves longitudinally"
+        ],
+        "options": [
+          "degenerative",
+          "functional",
+          "variation"
+        ],
+        "targetPart": "degenerative",
+        "rationale": "A progressive, patterned decline raises a neurodegenerative hypothesis, which is evaluated longitudinally alongside reversible causes and, when indicated, biomarkers.",
+        "caveat": "Progressive symptoms do not identify a specific disease by themselves; psychiatric, medical, medication and sleep-related contributors require assessment."
+      }
+    ]
+  },
+  "clinicalComparison": {
+    "title": "Compare normal variation with disrupted systems",
+    "instruction": "Switch between qualified examples. Keep normal variation, compensation and context separate from pathology.",
+    "comparisons": [
+      {
+        "id": "functional",
+        "label": "Functional network change",
+        "part": "functional",
+        "healthy": {
+          "label": "Flexible network recruitment",
+          "summary": "Distributed systems change their coupling with task demands and state.",
+          "mechanism": "Dynamic recruitment and inhibition support efficient switching between networks.",
+          "observable": "Performance varies with task load while core function remains broadly adaptive."
+        },
+        "pathology": {
+          "label": "Inefficient or disrupted recruitment",
+          "summary": "A network may become less efficient, less selective or poorly coordinated with other systems.",
+          "mechanism": "Altered connectivity, node dysfunction or state effects can disturb coordinated processing.",
+          "observable": "Slowed, inconsistent or context-sensitive cognitive performance may emerge."
+        },
+        "clinicalMeaning": "The clinically useful question is not whether a network looks different, but whether the difference converges with history, examination and functional impairment.",
+        "assessment": "Compare performance across tasks and contexts, look for converging cognitive patterns, and consider fatigue, mood, medication and validity.",
+        "caveat": "Functional differences are not diagnostic biomarkers on their own and may reflect state, development, compensation or measurement noise."
+      },
+      {
+        "id": "vascular",
+        "label": "Vascular disruption",
+        "part": "vascular",
+        "healthy": {
+          "label": "Intact perfusion",
+          "summary": "Neural tissue receives sufficient blood flow to support local computation and connected network function.",
+          "mechanism": "Arterial supply and autoregulation maintain oxygen and substrate delivery.",
+          "observable": "No focal deficit attributable to acute regional hypoperfusion."
+        },
+        "pathology": {
+          "label": "Focal vascular injury",
+          "summary": "Ischaemia or haemorrhage can damage local tissue and interrupt fibres passing through the region.",
+          "mechanism": "Tissue injury plus oedema, disconnection and remote network effects shape the phenotype.",
+          "observable": "Abrupt focal neurological and cognitive changes may occur, depending on territory and extent."
+        },
+        "clinicalMeaning": "Time course and neurological pattern are central to vascular reasoning; the same cognitive symptom can arise from different territories or mechanisms.",
+        "assessment": "Pair neuropsychological findings with onset, neurological signs, imaging and vascular history rather than reverse-inferring a lesion from a test score.",
+        "caveat": "Vascular territories overlap and symptoms evolve with reperfusion, oedema, diaschisis and recovery."
+      },
+      {
+        "id": "degenerative",
+        "label": "Degenerative change",
+        "part": "degenerative",
+        "healthy": {
+          "label": "Age-related change",
+          "summary": "Some slowing and variability can occur with ageing without constituting neurodegenerative disease.",
+          "mechanism": "Normal ageing involves heterogeneous biological and cognitive changes with substantial individual variation.",
+          "observable": "Mild slowing may coexist with preserved everyday independence and stable learned knowledge."
+        },
+        "pathology": {
+          "label": "Progressive neurodegenerative pattern",
+          "summary": "Disease processes progressively compromise vulnerable neural systems and connected functions.",
+          "mechanism": "Pathology accumulates over time and affects networks according to disease-specific and individual factors.",
+          "observable": "Progressive decline, loss of previously established abilities and increasing functional impact may appear."
+        },
+        "clinicalMeaning": "Trajectory and loss of function matter more than a single low score when distinguishing normal variation from progressive disease.",
+        "assessment": "Use collateral history, serial change, functional status, medical work-up and domain pattern alongside normative interpretation.",
+        "caveat": "Age, education, sensory factors, mood, sleep, medication and premorbid ability can mimic or magnify apparent decline."
+      }
+    ]
+  }
 }

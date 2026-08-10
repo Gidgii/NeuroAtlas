@@ -342,5 +342,155 @@
         "h": 16
       }
     ]
+  },
+  "pathwayTrace": {
+    "schemaVersion": "1.0.0",
+    "title": "Trace basal-ganglia action-selection loops",
+    "instruction": "Follow each circuit through its key nuclei. Compare the intact loop with what happens when a node is under- or over-active.",
+    "pathways": [
+      {
+        "id": "direct",
+        "label": "Direct pathway",
+        "summary": "Facilitates selected motor programmes by reducing inhibitory basal-ganglia output to thalamocortical systems.",
+        "steps": [
+          {
+            "part": "putamen",
+            "label": "Putamen",
+            "role": "striatal input"
+          },
+          {
+            "part": "globus-pallidus-internal",
+            "label": "GPi",
+            "role": "output nucleus"
+          },
+          {
+            "part": "motor-thalamus",
+            "label": "Motor thalamus",
+            "role": "thalamo-cortical relay"
+          }
+        ],
+        "healthy": "Cortical activation of striatal direct-pathway neurons suppresses GPi output, disinhibiting motor thalamus and supporting the selected action.",
+        "disrupted": "Reduced effective direct-pathway facilitation can contribute to hypokinesia and impaired movement initiation, but clinical syndromes reflect the balance of multiple loops rather than one pathway in isolation."
+      },
+      {
+        "id": "indirect",
+        "label": "Indirect pathway",
+        "summary": "Suppresses competing actions through striatal, pallidal and subthalamic interactions.",
+        "steps": [
+          {
+            "part": "putamen",
+            "label": "Putamen",
+            "role": "striatal input"
+          },
+          {
+            "part": "globus-pallidus-external",
+            "label": "GPe",
+            "role": "intermediate pallidal node"
+          },
+          {
+            "part": "subthalamic-nucleus",
+            "label": "STN",
+            "role": "excitatory drive to output nuclei"
+          },
+          {
+            "part": "globus-pallidus-internal",
+            "label": "GPi",
+            "role": "inhibitory output"
+          }
+        ],
+        "healthy": "The indirect pathway helps constrain competing motor programmes by increasing effective inhibitory output from GPi.",
+        "disrupted": "Loss of subthalamic drive can reduce GPi inhibition of thalamus and contribute to hyperkinetic movement, classically contralateral ballistic movements with focal STN injury."
+      },
+      {
+        "id": "dopamine",
+        "label": "Nigrostriatal modulation",
+        "summary": "Dopamine from substantia nigra pars compacta modulates striatal activity and shifts the balance of direct and indirect pathways.",
+        "steps": [
+          {
+            "part": "substantia-nigra-pars-compacta",
+            "label": "SNc",
+            "role": "dopaminergic modulation"
+          },
+          {
+            "part": "putamen",
+            "label": "Putamen",
+            "role": "striatal target"
+          }
+        ],
+        "healthy": "Nigrostriatal dopamine modulates multiple striatal cell populations to support flexible scaling and initiation of action.",
+        "disrupted": "Progressive nigrostriatal dopamine loss contributes to bradykinesia, rigidity and other Parkinsonian features, while the full disorder involves broader circuits and non-dopaminergic systems."
+      }
+    ]
+  },
+  "lesionLab": {
+    "schemaVersion": "1.0.0",
+    "title": "Circuit lesion challenge",
+    "instruction": "Choose the node that best fits the pattern, then compare the explanation with the circuit trace.",
+    "cases": [
+      {
+        "id": "ballistic",
+        "label": "Case 1",
+        "prompt": "After a small unilateral deep lesion, a patient develops abrupt, large-amplitude flinging movements of the contralateral limbs.",
+        "clues": [
+          "Hyperkinetic rather than hypokinetic",
+          "Contralateral ballistic movements",
+          "Focal deep nucleus lesion"
+        ],
+        "options": [
+          "subthalamic-nucleus",
+          "caudate-nucleus",
+          "motor-thalamus"
+        ],
+        "targetPart": "subthalamic-nucleus",
+        "rationale": "Focal subthalamic nucleus injury is classically associated with contralateral hemiballismus through reduced excitatory drive to basal-ganglia output nuclei.",
+        "caveat": "Other lesions and metabolic causes can produce chorea or ballistic movements; the clinical pattern must be confirmed with examination and imaging."
+      }
+    ]
+  },
+  "clinicalComparison": {
+    "title": "Compare intact and disrupted basal-ganglia loops",
+    "instruction": "Follow how changes in gating alter movement and behaviour while keeping circuit models appropriately simplified.",
+    "comparisons": [
+      {
+        "id": "direct",
+        "label": "Direct pathway balance",
+        "part": "globus-pallidus-internal",
+        "healthy": {
+          "label": "Adaptive action facilitation",
+          "summary": "Direct and indirect pathway activity is balanced to facilitate selected actions while suppressing competitors.",
+          "mechanism": "Striatal, pallidal, subthalamic, nigral and thalamic nodes regulate thalamo-cortical output.",
+          "observable": "Movement initiation and behavioural selection are appropriately scaled to context."
+        },
+        "pathology": {
+          "label": "Reduced facilitation / excessive inhibition",
+          "summary": "Disrupted circuit balance can reduce effective thalamo-cortical drive.",
+          "mechanism": "Changes in dopaminergic modulation or basal-ganglia output alter action gating.",
+          "observable": "Bradykinetic or initiation-related difficulties may occur, depending on cause and circuit involvement."
+        },
+        "clinicalMeaning": "Basal-ganglia effects extend beyond pure movement because parallel loops contribute to cognitive and motivational selection.",
+        "assessment": "Consider motor findings, initiation, processing speed, executive control, medication state and neurological diagnosis together.",
+        "caveat": "The classic direct/indirect model is a useful teaching simplification, not a complete account of basal-ganglia physiology."
+      },
+      {
+        "id": "dopamine",
+        "label": "Dopaminergic modulation",
+        "part": "substantia-nigra-pars-compacta",
+        "healthy": {
+          "label": "Modulated striatal gating",
+          "summary": "Nigrostriatal dopamine helps tune activity across striatal receptor populations and action-selection circuits.",
+          "mechanism": "Dopaminergic input changes excitability and plasticity within cortico-basal-ganglia loops.",
+          "observable": "Action initiation and reinforcement-related learning are modulated flexibly."
+        },
+        "pathology": {
+          "label": "Reduced nigrostriatal modulation",
+          "summary": "Loss or dysfunction of dopaminergic input changes the balance of basal-ganglia output.",
+          "mechanism": "Altered striatal modulation affects downstream pallidal and thalamic influence on cortex.",
+          "observable": "Motor slowing and changes in learning or motivation may occur depending on disease and stage."
+        },
+        "clinicalMeaning": "Avoid reducing complex behaviour to “low dopamine”; dopamine acts in multiple circuits and clinical phenotype depends on the broader system.",
+        "assessment": "Interpret cognition and behaviour alongside motor state, medication timing, disease stage and mood.",
+        "caveat": "Dopamine is neither globally high nor low in a simple way across disorders, receptors, regions or time."
+      }
+    ]
   }
 }

@@ -354,5 +354,154 @@
         "h": 60
       }
     ]
+  },
+  "pathwayTrace": {
+    "schemaVersion": "1.0.0",
+    "title": "Trace brainstem systems vertically",
+    "instruction": "Follow long tracts and arousal systems across brainstem levels, then compare intact conduction with a focal disruption.",
+    "pathways": [
+      {
+        "id": "long-tract",
+        "label": "Long-tract transit",
+        "summary": "Descending motor and ascending sensory systems traverse compact brainstem corridors while interacting with cranial-nerve nuclei.",
+        "steps": [
+          {
+            "part": "midbrain",
+            "label": "Midbrain",
+            "role": "upper brainstem transit"
+          },
+          {
+            "part": "pons",
+            "label": "Pons",
+            "role": "pontine transit and relay"
+          },
+          {
+            "part": "medulla",
+            "label": "Medulla",
+            "role": "lower brainstem transit"
+          },
+          {
+            "part": "long-tracts",
+            "label": "Long tracts",
+            "role": "ascending/descending fibres"
+          }
+        ],
+        "healthy": "Long pathways carry information through successive brainstem levels while local nuclei add cranial, autonomic and cerebellar functions.",
+        "disrupted": "A focal brainstem lesion can combine ipsilateral cranial-nerve findings with contralateral long-tract deficits, creating crossed neurological signs."
+      },
+      {
+        "id": "arousal",
+        "label": "Ascending arousal system",
+        "summary": "Diffuse reticular systems project rostrally to thalamic, hypothalamic and cortical arousal networks.",
+        "steps": [
+          {
+            "part": "reticular-formation",
+            "label": "Reticular formation",
+            "role": "distributed arousal network"
+          },
+          {
+            "part": "pons",
+            "label": "Pons",
+            "role": "sleep-wake and arousal relays"
+          },
+          {
+            "part": "midbrain",
+            "label": "Midbrain",
+            "role": "rostral ascending arousal"
+          }
+        ],
+        "healthy": "Distributed reticular and ascending projections support wakefulness, attention and state regulation.",
+        "disrupted": "Bilateral or strategically placed lesions affecting ascending arousal systems can markedly reduce consciousness, but coma localisation requires full neurological and systemic assessment."
+      }
+    ]
+  },
+  "lesionLab": {
+    "schemaVersion": "1.0.0",
+    "title": "Brainstem localisation challenge",
+    "instruction": "Use the combination of cranial, long-tract and arousal findings to choose the best level or system.",
+    "cases": [
+      {
+        "id": "crossed",
+        "label": "Case 1",
+        "prompt": "A focal syndrome combines an ipsilateral cranial-nerve deficit with contralateral limb weakness and sensory change.",
+        "clues": [
+          "Crossed neurological signs",
+          "Cranial + long-tract involvement",
+          "Compact anatomical corridor"
+        ],
+        "options": [
+          "long-tracts",
+          "reticular-formation",
+          "pons"
+        ],
+        "targetPart": "long-tracts",
+        "rationale": "Crossed signs strongly suggest a brainstem localisation where cranial-nerve structures and ascending or descending long tracts lie in close proximity.",
+        "caveat": "The exact level depends on which cranial nerve and tract modalities are affected; this simplified map is not sufficient for bedside localisation."
+      },
+      {
+        "id": "arousal",
+        "label": "Case 2",
+        "prompt": "Following a central brainstem injury, the dominant change is profound reduction in wakefulness without a simple isolated limb syndrome.",
+        "clues": [
+          "Consciousness is the key deficit",
+          "Central brainstem involvement",
+          "Diffuse state-regulation system"
+        ],
+        "options": [
+          "reticular-formation",
+          "medulla",
+          "long-tracts"
+        ],
+        "targetPart": "reticular-formation",
+        "rationale": "The reticular formation and associated ascending arousal systems are central to wakefulness and state regulation.",
+        "caveat": "Reduced consciousness has many structural, metabolic, toxic and epileptic causes and always requires urgent comprehensive assessment."
+      }
+    ]
+  },
+  "clinicalComparison": {
+    "title": "Compare intact brainstem pathways with focal disruption",
+    "instruction": "Link compact anatomy to the combination of cranial-nerve, long-tract, arousal and autonomic findings.",
+    "comparisons": [
+      {
+        "id": "long-tract",
+        "label": "Long-tract integrity",
+        "part": "long-tracts",
+        "healthy": {
+          "label": "Continuous ascending and descending pathways",
+          "summary": "Major motor and sensory tracts traverse the brainstem while maintaining organised transmission.",
+          "mechanism": "Long fibres connect spinal, brainstem, thalamic and cortical levels.",
+          "observable": "Motor and sensory function is consistent with intact tract conduction."
+        },
+        "pathology": {
+          "label": "Focal long-tract interruption",
+          "summary": "A compact lesion can affect descending motor or ascending sensory fibres together with nearby cranial-nerve systems.",
+          "mechanism": "Dense tract packing allows a small lesion to disrupt multiple neighbouring pathways.",
+          "observable": "Crossed or combined cranial-nerve and contralateral long-tract signs may appear."
+        },
+        "clinicalMeaning": "The combination of signs is usually more localising than any single symptom.",
+        "assessment": "Map side, modality and cranial-nerve involvement; abrupt onset or reduced consciousness requires urgent medical evaluation.",
+        "caveat": "Brainstem syndromes vary with lesion level, extent and vascular anatomy and are not reliably diagnosed from symptoms alone."
+      },
+      {
+        "id": "arousal",
+        "label": "Arousal systems",
+        "part": "reticular-formation",
+        "healthy": {
+          "label": "Sustained arousal regulation",
+          "summary": "Brainstem arousal systems support wakefulness and modulate cortical state through widespread projections.",
+          "mechanism": "Reticular and neuromodulatory systems interact with thalamic, hypothalamic and cortical targets.",
+          "observable": "Wakefulness is maintained appropriately for sleep-wake state and context."
+        },
+        "pathology": {
+          "label": "Arousal-system disruption",
+          "summary": "Bilateral or strategically placed dysfunction can impair alertness and consciousness.",
+          "mechanism": "Damage to ascending arousal pathways reduces effective activation of distributed forebrain systems.",
+          "observable": "Somnolence, reduced alertness or more severe impairment of consciousness may occur."
+        },
+        "clinicalMeaning": "Altered consciousness is a medical sign with a broad differential; localisation is only one part of the assessment.",
+        "assessment": "Prioritise acute medical assessment, neurological examination and physiological causes before neuropsychological interpretation.",
+        "caveat": "Sedation, metabolic disturbance, seizure, sleep loss and diffuse brain dysfunction can also alter arousal."
+      }
+    ]
   }
 }

@@ -346,5 +346,177 @@
         "h": 18
       }
     ]
+  },
+  "pathwayTrace": {
+    "schemaVersion": "1.0.0",
+    "title": "Trace disconnection through major white matter",
+    "instruction": "Choose a pathway, follow the connected fibre route, then switch to Disrupted to predict the functional consequence before reading it.",
+    "pathways": [
+      {
+        "id": "interhemispheric-transfer",
+        "label": "Interhemispheric transfer",
+        "summary": "Commissural fibres coordinate homologous and complementary processing across hemispheres.",
+        "steps": [
+          {
+            "part": "corpus-callosum",
+            "label": "Corpus callosum",
+            "role": "commissural bridge"
+          }
+        ],
+        "healthy": "Callosal fibres permit rapid exchange of sensory, motor and higher-order information between the hemispheres.",
+        "disrupted": "Callosal injury can produce disconnection phenomena whose expression depends on lesion location, extent and task demands; findings are not reducible to a simple left-versus-right split."
+      },
+      {
+        "id": "motor-projection",
+        "label": "Descending motor projection",
+        "summary": "Motor commands converge through projection fibres on the way toward brainstem and spinal targets.",
+        "steps": [
+          {
+            "part": "corona-radiata",
+            "label": "Corona radiata",
+            "role": "fan of projection fibres"
+          },
+          {
+            "part": "internal-capsule",
+            "label": "Internal capsule",
+            "role": "compact bottleneck"
+          },
+          {
+            "part": "corticospinal-tract",
+            "label": "Corticospinal tract",
+            "role": "descending motor output"
+          }
+        ],
+        "healthy": "Distributed cortical motor output converges through corona radiata and the compact internal capsule before descending in the corticospinal system.",
+        "disrupted": "A small lesion where fibres are densely packed, especially the internal capsule, can produce disproportionately broad contralateral weakness compared with a similarly sized lesion in more dispersed white matter."
+      },
+      {
+        "id": "dorsal-language",
+        "label": "Dorsal language pathway",
+        "summary": "Frontotemporal-parietal association fibres support phonological and speech-motor integration within a distributed language network.",
+        "steps": [
+          {
+            "part": "superior-longitudinal-fasciculus",
+            "label": "Superior longitudinal fasciculus",
+            "role": "frontoparietal association system"
+          },
+          {
+            "part": "arcuate-fasciculus",
+            "label": "Arcuate fasciculus",
+            "role": "frontotemporal language linkage"
+          }
+        ],
+        "healthy": "Dorsal association fibres support rapid coordination among temporal, parietal and frontal language-related regions.",
+        "disrupted": "Damage may contribute to impaired repetition, phonological processing or speech-motor integration, but the phenotype depends on tract segment, cortical involvement and individual language organisation."
+      },
+      {
+        "id": "ventral-semantic",
+        "label": "Ventral semantic pathway",
+        "summary": "Long ventral association fibres link frontal, temporal and occipital regions for multimodal integration.",
+        "steps": [
+          {
+            "part": "inferior-fronto-occipital-fasciculus",
+            "label": "Inferior fronto-occipital fasciculus",
+            "role": "long ventral association tract"
+          },
+          {
+            "part": "uncinate-fasciculus",
+            "label": "Uncinate fasciculus",
+            "role": "frontotemporal linkage"
+          }
+        ],
+        "healthy": "Ventral pathways support integration of semantic, visual and affective information across distant cortical regions.",
+        "disrupted": "Disconnection can alter semantic access or frontotemporal integration, but tract-function mappings are probabilistic and overlap with neighbouring networks."
+      }
+    ]
+  },
+  "lesionLab": {
+    "schemaVersion": "1.0.0",
+    "title": "White-matter localisation challenge",
+    "instruction": "Use the symptom pattern to choose the tract or fibre system that best explains the disconnection. Then inspect the caveat.",
+    "cases": [
+      {
+        "id": "dense-motor",
+        "label": "Case 1",
+        "prompt": "A sudden small deep lesion is followed by marked contralateral face-arm-leg weakness with relatively little cortical cognitive change.",
+        "clues": [
+          "Acute focal onset",
+          "Dense motor deficit",
+          "Deep compact fibre location"
+        ],
+        "options": [
+          "internal-capsule",
+          "corpus-callosum",
+          "arcuate-fasciculus"
+        ],
+        "targetPart": "internal-capsule",
+        "rationale": "The internal capsule contains densely packed descending and ascending fibres, so a small lesion can affect a large proportion of motor output.",
+        "caveat": "This is a localisation exercise, not a diagnosis. Vascular mechanism, sensory findings, imaging and examination determine the actual lesion."
+      },
+      {
+        "id": "repetition",
+        "label": "Case 2",
+        "prompt": "Speech remains fluent and comprehension is relatively preserved, but repetition and phonological sequencing are disproportionately impaired after a dominant-hemisphere lesion.",
+        "clues": [
+          "Language-network disconnection pattern",
+          "Repetition disproportionately affected",
+          "Dominant hemisphere context"
+        ],
+        "options": [
+          "arcuate-fasciculus",
+          "corticospinal-tract",
+          "corpus-callosum"
+        ],
+        "targetPart": "arcuate-fasciculus",
+        "rationale": "The arcuate fasciculus is a major dorsal language pathway linking temporal-parietal and frontal language systems, although contemporary models treat repetition as network-based rather than a single-tract function.",
+        "caveat": "Cortical injury and other dorsal-stream fibres may produce similar findings; individual language organisation varies."
+      }
+    ]
+  },
+  "clinicalComparison": {
+    "title": "Compare intact tracts with disconnection",
+    "instruction": "Use tract anatomy to connect network communication with the cognitive pattern expected when transmission is disrupted.",
+    "comparisons": [
+      {
+        "id": "callosal",
+        "label": "Corpus callosum",
+        "part": "corpus-callosum",
+        "healthy": {
+          "label": "Interhemispheric transfer",
+          "summary": "Homologous and specialised cortical regions exchange information across the commissural system.",
+          "mechanism": "Callosal fibres support integration and transfer between hemispheres.",
+          "observable": "Tasks requiring cross-hemisphere integration proceed without a callosal bottleneck."
+        },
+        "pathology": {
+          "label": "Callosal disconnection",
+          "summary": "Interhemispheric information transfer may be selectively impaired despite relatively intact cortical nodes.",
+          "mechanism": "Commissural fibre injury limits transfer of sensory, motor or cognitive information between hemispheres.",
+          "observable": "Disconnection phenomena can emerge depending on lesion location and task demands."
+        },
+        "clinicalMeaning": "A callosal lesion is a network communication problem; behavioural effects depend on which fibres and cortical systems are disconnected.",
+        "assessment": "Use tasks that require interhemispheric transfer and interpret with lesion extent and handedness/lateralisation.",
+        "caveat": "Complete textbook disconnection syndromes are uncommon; partial lesions, compensation and bilateral representations alter presentation."
+      },
+      {
+        "id": "language",
+        "label": "Dorsal language pathway",
+        "part": "arcuate-fasciculus",
+        "healthy": {
+          "label": "Frontotemporal language integration",
+          "summary": "Dorsal association fibres support communication among posterior and frontal language-related regions.",
+          "mechanism": "Long-range white matter coordinates phonological and speech-production processes across nodes.",
+          "observable": "Repetition and phonological integration are adequate for the person’s baseline."
+        },
+        "pathology": {
+          "label": "Dorsal language disconnection",
+          "summary": "Injury can disturb communication across otherwise viable language regions.",
+          "mechanism": "Reduced tract integrity interrupts timing and transfer across the dorsal language system.",
+          "observable": "Repetition or phonological language difficulties may be prominent within a broader variable profile."
+        },
+        "clinicalMeaning": "The tract model explains why language disturbance can reflect disconnection rather than destruction of one named language centre.",
+        "assessment": "Examine repetition, phonology, naming and fluency alongside comprehension and lesion anatomy.",
+        "caveat": "Language pathways are distributed and variable; arcuate injury is not synonymous with one fixed aphasia syndrome."
+      }
+    ]
   }
 }

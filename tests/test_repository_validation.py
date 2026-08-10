@@ -2,13 +2,16 @@ import json
 import re
 from pathlib import Path
 
+
 ROOT = Path(__file__).parents[1]
 APP = ROOT / "app"
 DATA = APP / "data"
 ILLUSTRATIONS = APP / "assets" / "illustrations"
 STATE = json.loads((ROOT / "PROJECT_STATE.json").read_text(encoding="utf-8"))
 CURRICULUM = json.loads((DATA / "curriculum.json").read_text(encoding="utf-8"))
-ARTWORK_REPORT = json.loads((ROOT / "ARTWORK_READINESS_REPORT.json").read_text(encoding="utf-8"))
+ARTWORK_REPORT = json.loads(
+    (ROOT / "ARTWORK_READINESS_REPORT.json").read_text(encoding="utf-8")
+)
 ATLAS_IDS = STATE["interactiveAnatomy"]["verifiedStructures"]
 ARTWORK_STATUSES = {
     "Placeholder",
@@ -156,7 +159,7 @@ def test_generic_explorer_has_safe_empty_and_optional_stage_guards():
     assert "if(!run||!stages.length)return" in source
     assert "if(!stage){finish();return}" in source
     assert "prefers-reduced-motion: reduce" in source
-    assert 'aria-live="polite"' in source
+    assert "aria-live=\"polite\"" in source
 
 
 def test_runtime_does_not_expose_unsupported_visual_controls_or_empty_explorers():
@@ -234,21 +237,108 @@ def test_build_37_capstone_navigates_every_completed_anatomy_structure():
     destinations = {
         destination
         for part in record["explorerParts"]
-        for destination in [
-            *part.get("conceptIds", []),
-            *([part["conceptId"]] if part.get("conceptId") else []),
-        ]
+        for destination in [*part.get("conceptIds", []), *([part["conceptId"]] if part.get("conceptId") else [])]
     }
     prior_atlas_ids = set(ATLAS_IDS) - {record["id"]}
     assert destinations == prior_atlas_ids
     assert {mode["id"] for mode in record["explorer"]["comparisonModes"]} == {
-        "left",
-        "right",
-        "healthy",
-        "pathology",
+        "left", "right", "healthy", "pathology"
     }
     source = (APP / "system-explorer.js").read_text(encoding="utf-8")
     assert "data-open=" in source
     assert "system-destinations" in source
     assert "bindDestinations" in source
     assert "openAtlasConcept" in (APP / "app.js").read_text(encoding="utf-8")
+
+
+def test_p1_4_pathway_and_lesion_reasoning_contracts():
+    pathway_records = {
+        "major-white-matter-pathways-atlas": 4,
+        "basal-ganglia-circuit-explorer": 3,
+        "brainstem-atlas": 2,
+    }
+    for structure_id, expected_count in pathway_records.items():
+        record = detail(structure_id)
+        pathways = record["pathwayTrace"]["pathways"]
+        assert len(pathways) == expected_count
+        valid_parts = {
+            item.get("id")
+            for item in (
+                record.get("explorerParts")
+                or (record.get("anatomy") if isinstance(record.get("anatomy"), list) else [])
+            )
+        }
+        if not valid_parts:
+            valid_parts = {
+                re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+                for name in record["anatomy"].get("regions", [])
+            }
+        for pathway in pathways:
+            assert pathway["healthy"]
+            assert pathway["disrupted"]
+            assert pathway["steps"]
+            assert all(step["part"] in valid_parts for step in pathway["steps"])
+
+    lesion_records = {
+        "major-white-matter-pathways-atlas": 2,
+        "basal-ganglia-circuit-explorer": 1,
+        "brainstem-atlas": 2,
+        "lesion-and-symptom-mapping": 5,
+        "healthy-versus-pathology-comparison": 3,
+    }
+    for structure_id, expected_count in lesion_records.items():
+        record = detail(structure_id)
+        cases = record["lesionLab"]["cases"]
+        assert len(cases) == expected_count
+        if record.get("explorerParts"):
+            valid_parts = {part["id"] for part in record["explorerParts"]}
+        elif isinstance(record.get("anatomy"), list):
+            valid_parts = {part["id"] for part in record["anatomy"]}
+        else:
+            valid_parts = {
+                re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+                for name in record["anatomy"].get("regions", [])
+            }
+        for case in cases:
+            assert case["targetPart"] in valid_parts
+            assert case["targetPart"] in case["options"]
+            assert len(case["options"]) >= 3
+            assert case["rationale"]
+            assert case["caveat"]
+
+    source = (APP / "system-explorer.js").read_text(encoding="utf-8")
+    assert "data-pathway-lab" in source
+    assert "data-pathway-mode" in source
+    assert "data-lesion-lab" in source
+    assert "data-lesion-option" in source
+    assert "Best fit" in source
+
+
+def test_p1_5_clinical_comparison_contracts():
+    configured = []
+    for path in sorted((ROOT / "app" / "data").glob("*.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        comparison = payload.get("clinicalComparison")
+        if not comparison:
+            continue
+        configured.append(payload.get("id", path.stem))
+        parts = payload.get("explorerParts") or []
+        if not parts and isinstance(payload.get("anatomy"), list):
+            parts = payload["anatomy"]
+        part_ids = {item.get("id") for item in parts if isinstance(item, dict)}
+        if not part_ids and isinstance(payload.get("anatomy"), dict):
+            names = payload["anatomy"].get("regions") or payload["anatomy"].get("substructures") or []
+            part_ids = {re.sub(r"^-|-$", "", re.sub(r"[^a-z0-9]+", "-", str(name).lower())) for name in names}
+        comparisons = comparison.get("comparisons") or []
+        assert comparisons, f"{path.name}: clinicalComparison has no comparisons"
+        for item in comparisons:
+            assert item.get("id") and item.get("label"), f"{path.name}: comparison needs id + label"
+            assert item.get("part") in part_ids, f"{path.name}: invalid comparison part {item.get('part')}"
+            for state in ("healthy", "pathology"):
+                block = item.get(state) or {}
+                for field in ("label", "summary", "mechanism", "observable"):
+                    assert block.get(field), f"{path.name}: {item.get('id')} {state}.{field} missing"
+            assert item.get("clinicalMeaning"), f"{path.name}: {item.get('id')} clinicalMeaning missing"
+            assert item.get("assessment"), f"{path.name}: {item.get('id')} assessment missing"
+            assert item.get("caveat"), f"{path.name}: {item.get('id')} caveat missing"
+    assert len(configured) >= 5
