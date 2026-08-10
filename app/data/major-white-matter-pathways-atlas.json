@@ -518,5 +518,85 @@
         "caveat": "Language pathways are distributed and variable; arcuate injury is not synonymous with one fixed aphasia syndrome."
       }
     ]
+  },
+  "assessmentLab": {
+    "title": "Assessment-linked disconnection reasoning",
+    "instruction": "Test whether a suspected tract problem produces the functional disconnection pattern expected from that pathway.",
+    "cases": [
+      {
+        "id": "callosal-integration",
+        "label": "Callosal integration",
+        "part": "corpus-callosum",
+        "prompt": "A patient shows unusual difficulty integrating information across the two hemispheres after a documented callosal lesion. What domain should be prioritised?",
+        "targetDomain": "Interhemispheric integration",
+        "options": [
+          "Interhemispheric integration",
+          "Single-word vocabulary",
+          "Basic auditory threshold"
+        ],
+        "rationale": "A callosal hypothesis predicts difficulty transferring or integrating information across hemispheres rather than a global loss of knowledge.",
+        "observe": [
+          "cross-field or cross-hand discrepancies",
+          "bimanual coordination",
+          "integration of lateralised visual or tactile information",
+          "discordance between intact unilateral skills and impaired transfer"
+        ],
+        "taskTypes": [
+          "bilateral coordination tasks",
+          "lateralised sensory comparison",
+          "cross-modal transfer tasks",
+          "carefully selected visuomotor integration tasks"
+        ],
+        "supports": [
+          "reliable left-right transfer asymmetry",
+          "bimanual coordination difficulty disproportionate to unilateral motor skill",
+          "convergence with lesion location"
+        ],
+        "challenges": [
+          "global cognitive impairment",
+          "peripheral sensory or motor deficits explaining the asymmetry",
+          "inconsistent lateralised effects"
+        ],
+        "nextStep": "Interpret alongside handedness, lesion extent and other white-matter involvement.",
+        "caveat": "Real callosal lesions often coexist with neighbouring tissue damage; classic disconnection syndromes are uncommon in pure form."
+      },
+      {
+        "id": "language-disconnection",
+        "label": "Language disconnection",
+        "part": "arcuate-fasciculus",
+        "prompt": "Speech is fluent and comprehension is relatively preserved, but repetition is disproportionately poor. Which domain is the best first target?",
+        "targetDomain": "Phonological language and repetition",
+        "options": [
+          "Phonological language and repetition",
+          "Visual episodic memory",
+          "Motor strength"
+        ],
+        "rationale": "A dorsal language-pathway hypothesis is strengthened by a disproportionate repetition/phonological working-memory problem relative to comprehension and semantic access.",
+        "observe": [
+          "repetition across word and sentence length",
+          "phonological errors",
+          "auditory-verbal working memory",
+          "speech fluency and comprehension"
+        ],
+        "taskTypes": [
+          "word and sentence repetition",
+          "nonword repetition",
+          "digit or phonological span",
+          "connected speech and comprehension sampling"
+        ],
+        "supports": [
+          "repetition disproportionately impaired",
+          "phonemic paraphasias",
+          "relative preservation of conceptual comprehension"
+        ],
+        "challenges": [
+          "equivalent impairment across comprehension, naming and repetition",
+          "hearing impairment or severe dysarthria accounting for performance",
+          "global attentional failure"
+        ],
+        "nextStep": "Map the full language profile and imaging context rather than inferring an arcuate lesion from repetition alone.",
+        "caveat": "Language is network-based; dorsal stream disruption can involve multiple cortical and subcortical components beyond the arcuate fasciculus."
+      }
+    ]
   }
 }

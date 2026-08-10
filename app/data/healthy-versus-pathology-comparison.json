@@ -452,5 +452,122 @@
         "caveat": "Age, education, sensory factors, mood, sleep, medication and premorbid ability can mimic or magnify apparent decline."
       }
     ]
+  },
+  "assessmentLab": {
+    "title": "Assessment-linked healthy/pathology reasoning",
+    "instruction": "Use trajectory, functional impact and converging evidence to distinguish variation from clinically significant change.",
+    "cases": [
+      {
+        "id": "functional-change",
+        "label": "Functional change",
+        "part": "functional",
+        "prompt": "A person reports cognitive difficulty but structural imaging is unremarkable. What assessment domain best determines whether there is meaningful dysfunction?",
+        "targetDomain": "Functional cognitive profile and trajectory",
+        "options": [
+          "Functional cognitive profile and trajectory",
+          "Imaging appearance alone",
+          "One screening score"
+        ],
+        "rationale": "Normal structural imaging does not exclude dysfunction; significance comes from reproducible cognitive/behavioural change, time course and real-world impact.",
+        "observe": [
+          "change from premorbid baseline",
+          "consistency across settings",
+          "fatigue and state effects",
+          "functional consequences"
+        ],
+        "taskTypes": [
+          "targeted cognitive assessment",
+          "ecological functional history",
+          "symptom/state measures",
+          "serial assessment when clinically appropriate"
+        ],
+        "supports": [
+          "objective change converging with functional decline",
+          "reproducible domain-specific pattern",
+          "time course compatible with the hypothesised mechanism"
+        ],
+        "challenges": [
+          "stable lifelong profile",
+          "symptoms tracking primarily with sleep, stress or medication state",
+          "lack of functional impact despite subjective concern"
+        ],
+        "nextStep": "Use longitudinal and multimethod evidence; investigate reversible contributors and do not treat a normal scan as proof of normal function.",
+        "caveat": "Objective tests can also be normal despite genuine intermittent or context-dependent impairment; absence of a test abnormality is not proof that symptoms are unreal."
+      },
+      {
+        "id": "vascular-change",
+        "label": "Vascular change",
+        "part": "vascular",
+        "prompt": "A patient develops abrupt focal cognitive and neurological change. What should anchor the assessment?",
+        "targetDomain": "Time-locked focal neurological and cognitive profile",
+        "options": [
+          "Time-locked focal neurological and cognitive profile",
+          "Personality trait inventory first",
+          "Developmental academic history alone"
+        ],
+        "rationale": "Abrupt onset and focal signs make vascular localisation and urgent medical assessment higher priority than broad trait-level psychological interpretation.",
+        "observe": [
+          "exact onset and evolution",
+          "focal weakness, sensory or visual signs",
+          "language and neglect symptoms",
+          "vascular risk and acute medical context"
+        ],
+        "taskTypes": [
+          "urgent neurological examination",
+          "brief focal cognitive screening when medically appropriate",
+          "imaging and vascular work-up",
+          "later targeted neuropsychological assessment for recovery planning"
+        ],
+        "supports": [
+          "sudden onset",
+          "vascular-territory-consistent deficits",
+          "imaging/examination convergence"
+        ],
+        "challenges": [
+          "gradual longstanding course",
+          "non-focal fluctuating symptoms better explained by systemic state",
+          "discordant anatomy and symptom timing"
+        ],
+        "nextStep": "Acute stroke-like presentations require emergency medical pathways; detailed neuropsychological assessment follows stabilisation.",
+        "caveat": "Small, strategic or posterior-circulation events can be clinically significant despite subtle early findings."
+      },
+      {
+        "id": "degenerative-change",
+        "label": "Degenerative change",
+        "part": "degenerative",
+        "prompt": "A family reports gradual progressive decline over several years. Which assessment feature is most informative for distinguishing disease-related change from stable individual variation?",
+        "targetDomain": "Longitudinal cognitive and functional decline",
+        "options": [
+          "Longitudinal cognitive and functional decline",
+          "A single low score in isolation",
+          "Chronological age alone"
+        ],
+        "rationale": "Neurodegenerative hypotheses depend on decline from prior functioning and a coherent evolving profile, not simply low performance relative to norms.",
+        "observe": [
+          "trajectory over months to years",
+          "instrumental activities of daily living",
+          "domain sequence of change",
+          "neurological and behavioural evolution"
+        ],
+        "taskTypes": [
+          "multi-domain baseline assessment",
+          "informant-based functional measures",
+          "repeat assessment using practice-effect-aware interpretation",
+          "medical biomarker/imaging integration"
+        ],
+        "supports": [
+          "documented decline across time",
+          "progressive functional loss",
+          "evolving pattern compatible with a disease network"
+        ],
+        "challenges": [
+          "stable lifelong weakness",
+          "performance normalises when mood, sleep or medication factors improve",
+          "no corroborated functional change over time"
+        ],
+        "nextStep": "Integrate serial cognitive data with medical work-up, informant history and functional trajectory.",
+        "caveat": "Normal ageing, psychiatric illness, sensory impairment, medication effects and medical disease can mimic or amplify cognitive decline."
+      }
+    ]
   }
 }

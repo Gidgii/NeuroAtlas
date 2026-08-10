@@ -492,5 +492,85 @@
         "caveat": "Dopamine is neither globally high nor low in a simple way across disorders, receptors, regions or time."
       }
     ]
+  },
+  "assessmentLab": {
+    "title": "Assessment-linked basal ganglia reasoning",
+    "instruction": "Use observed behaviour and targeted tasks to test a circuit hypothesis rather than inferring a diagnosis from one motor or cognitive feature.",
+    "cases": [
+      {
+        "id": "motor-initiation",
+        "label": "Motor initiation",
+        "part": "caudate-nucleus",
+        "prompt": "A patient is slow to initiate actions and appears effortful despite preserved basic strength. What is the most informative first functional domain?",
+        "targetDomain": "Motor initiation and processing speed",
+        "options": [
+          "Motor initiation and processing speed",
+          "Visual recognition memory",
+          "Semantic knowledge"
+        ],
+        "rationale": "Basal ganglia circuit dysfunction often affects initiation, movement scaling and speed; the pattern should be separated from weakness, comprehension problems and low effort.",
+        "observe": [
+          "latency to initiate movement",
+          "movement amplitude and automaticity",
+          "psychomotor speed",
+          "task switching under time pressure"
+        ],
+        "taskTypes": [
+          "timed motor sequencing",
+          "simple and choice reaction-time tasks",
+          "rapid alternating movements",
+          "executive speed tasks with motor demands interpreted cautiously"
+        ],
+        "supports": [
+          "consistent bradykinetic or initiation pattern across tasks",
+          "motor slowing disproportionate to comprehension demands",
+          "convergent neurological signs"
+        ],
+        "challenges": [
+          "isolated cognitive slowing without motor features",
+          "primary weakness or pain limiting movement",
+          "performance varying mainly with anxiety or task novelty"
+        ],
+        "nextStep": "Integrate neurological examination, medication effects and functional history before attributing the pattern to a basal ganglia circuit.",
+        "caveat": "Processing speed measures are multiply determined; motor, visual, attentional and motivational demands must be separated."
+      },
+      {
+        "id": "reward-control",
+        "label": "Reward / control circuit",
+        "part": "nucleus-accumbens",
+        "prompt": "A patient shows marked reward-driven choices and poor delay tolerance. Which assessment domain best tests the circuit-level hypothesis?",
+        "targetDomain": "Reward sensitivity and inhibitory control",
+        "options": [
+          "Reward sensitivity and inhibitory control",
+          "Basic visual acuity",
+          "Remote autobiographical memory"
+        ],
+        "rationale": "Frontostriatal reward-control hypotheses require evidence about reinforcement sensitivity, inhibition and decision-making across contexts, not a single impulsive act.",
+        "observe": [
+          "delay tolerance",
+          "response inhibition",
+          "context-dependent reward seeking",
+          "effect of fatigue, mood, substances and medication"
+        ],
+        "taskTypes": [
+          "inhibitory-control paradigms",
+          "delay discounting or choice tasks",
+          "behavioural observation across reward conditions",
+          "collateral functional history"
+        ],
+        "supports": [
+          "cross-context disinhibition linked to reward salience",
+          "consistent inhibitory-control weakness",
+          "convergence with frontostriatal executive findings"
+        ],
+        "challenges": [
+          "behaviour confined to one interpersonal context",
+          "intact inhibitory control across structured tasks and everyday settings",
+          "better explanation by acute mood, substance or environmental factors"
+        ],
+        "nextStep": "Use multiple methods and collateral information; do not equate impulsivity with a specific circuit or disorder.",
+        "caveat": "Reward and inhibition are distributed network functions and are strongly shaped by development, context and psychiatric state."
+      }
+    ]
   }
 }

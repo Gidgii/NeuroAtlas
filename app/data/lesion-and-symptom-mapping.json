@@ -536,5 +536,122 @@
         "caveat": "Network explanations remain hypotheses unless supported by convergent clinical and imaging evidence."
       }
     ]
+  },
+  "assessmentLab": {
+    "title": "Assessment-linked localisation reasoning",
+    "instruction": "Move from symptom pattern to testable functional hypotheses. Choose the domain that gives the highest-yield first evidence, then inspect what would support or challenge the localisation.",
+    "cases": [
+      {
+        "id": "left-language-profile",
+        "label": "Left cortical language",
+        "part": "left-cortical",
+        "prompt": "After a left-hemisphere event, a patient has word-finding difficulty. Which assessment domain best tests whether this is a focal language syndrome rather than global cognitive slowing?",
+        "targetDomain": "Language profile",
+        "options": [
+          "Language profile",
+          "Nonverbal facial recognition",
+          "Simple motor endurance"
+        ],
+        "rationale": "Naming should be interpreted within fluency, comprehension, repetition, reading and writing so that the pattern—not one score—drives localisation.",
+        "observe": [
+          "spontaneous speech",
+          "naming and circumlocution",
+          "auditory comprehension",
+          "repetition, reading and writing"
+        ],
+        "taskTypes": [
+          "confrontation naming",
+          "semantic and phonemic fluency",
+          "sentence comprehension",
+          "repetition and literacy sampling"
+        ],
+        "supports": [
+          "coherent lateralised language pattern",
+          "error types consistent across tasks",
+          "relative preservation of non-language domains"
+        ],
+        "challenges": [
+          "uniform slowing across verbal and nonverbal tasks",
+          "severe hearing or speech-motor impairment",
+          "highly variable performance without language-specific pattern"
+        ],
+        "nextStep": "Integrate language findings with neurological examination, imaging and premorbid language background.",
+        "caveat": "Language lateralisation varies, especially with handedness, multilingualism, development and prior neurological reorganisation."
+      },
+      {
+        "id": "white-matter-profile",
+        "label": "White-matter disconnection",
+        "part": "white-matter",
+        "prompt": "A patient has relatively preserved isolated skills but difficulty coordinating complex multi-step cognition after diffuse white-matter injury. What domain is most informative?",
+        "targetDomain": "Processing speed and executive integration",
+        "options": [
+          "Processing speed and executive integration",
+          "Olfactory identification only",
+          "Overlearned factual knowledge"
+        ],
+        "rationale": "Disconnection can disproportionately affect speed, coordination and executive integration while leaving some crystallised or focal skills relatively preserved.",
+        "observe": [
+          "speed-accuracy trade-off",
+          "set maintenance and switching",
+          "dual-task cost",
+          "difference between simple and integrated tasks"
+        ],
+        "taskTypes": [
+          "processing-speed tasks",
+          "set-shifting and working-memory tasks",
+          "complex attention",
+          "ecologically relevant multistep tasks"
+        ],
+        "supports": [
+          "slowing increases with integration demands",
+          "executive inefficiency across modalities",
+          "relative preservation of simpler component skills"
+        ],
+        "challenges": [
+          "isolated focal deficit without broader network inefficiency",
+          "performance explained by sedation, pain, sleep or mood",
+          "normal complex-task performance despite severe claimed disconnection"
+        ],
+        "nextStep": "Control for motor speed, visual demands, fatigue and psychiatric factors before interpreting executive-speed findings as white-matter dysfunction.",
+        "caveat": "Diffuse slowing is non-specific and occurs in many neurological, psychiatric, sleep and medication-related states."
+      },
+      {
+        "id": "distributed-network-profile",
+        "label": "Distributed network",
+        "part": "distributed",
+        "prompt": "Symptoms span attention, memory, emotion regulation and social functioning without a clean focal neurological syndrome. What assessment strategy is best?",
+        "targetDomain": "Cross-domain network profile",
+        "options": [
+          "Cross-domain network profile",
+          "One isolated memory score",
+          "One symptom checklist"
+        ],
+        "rationale": "Distributed hypotheses require convergence across domains, time course and functional contexts; a single test cannot establish network dysfunction.",
+        "observe": [
+          "domain pattern and dissociations",
+          "within-person variability",
+          "ecological functioning",
+          "developmental and psychiatric context"
+        ],
+        "taskTypes": [
+          "multi-domain neuropsychological battery",
+          "behavioural and symptom measures",
+          "performance-validity methods where indicated",
+          "collateral and longitudinal data"
+        ],
+        "supports": [
+          "coherent cross-domain pattern matching known network demands",
+          "replication across methods and settings",
+          "longitudinal consistency with disease course"
+        ],
+        "challenges": [
+          "isolated low score without functional corroboration",
+          "inconsistent pattern dominated by situational factors",
+          "stronger alternative psychiatric, developmental or medical explanation"
+        ],
+        "nextStep": "Formulate at the network and functional level and retain competing explanations until evidence converges.",
+        "caveat": "Network-level formulations are probabilistic. They should not be used to reverse-engineer a lesion or diagnosis from cognitive test scores alone."
+      }
+    ]
   }
 }

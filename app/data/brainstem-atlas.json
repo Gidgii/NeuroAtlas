@@ -503,5 +503,84 @@
         "caveat": "Sedation, metabolic disturbance, seizure, sleep loss and diffuse brain dysfunction can also alter arousal."
       }
     ]
+  },
+  "assessmentLab": {
+    "title": "Assessment-linked brainstem reasoning",
+    "instruction": "Choose the most informative first assessment domain, then compare findings that would strengthen or weaken the localisation hypothesis.",
+    "cases": [
+      {
+        "id": "long-tract-assessment",
+        "label": "Long-tract pattern",
+        "part": "long-tracts",
+        "prompt": "A patient develops new unilateral weakness with altered sensation and brisk reflexes after an acute neurological event. Which domain should be prioritised first?",
+        "targetDomain": "Motor and sensory neurological examination",
+        "options": [
+          "Motor and sensory neurological examination",
+          "Episodic verbal memory",
+          "Social cognition"
+        ],
+        "rationale": "A long-tract hypothesis is tested most directly by the pattern of weakness, tone, reflexes, sensory change and side-to-side relationships before higher-order cognitive testing.",
+        "observe": [
+          "distribution and laterality of weakness",
+          "tone and deep tendon reflexes",
+          "sensory level or crossed sensory findings",
+          "gait and coordination"
+        ],
+        "taskTypes": [
+          "bedside motor examination",
+          "primary sensory testing",
+          "gait observation",
+          "cranial nerve examination when indicated"
+        ],
+        "supports": [
+          "upper motor neuron pattern",
+          "anatomically coherent sensory findings",
+          "convergent cranial nerve or long-tract signs"
+        ],
+        "challenges": [
+          "inconsistent effort-dependent findings",
+          "a pattern better explained by peripheral nerve, neuromuscular or musculoskeletal pathology",
+          "absence of neurological signs despite a stable severe complaint"
+        ],
+        "nextStep": "Escalate urgently for acute or progressive focal neurological signs; neuropsychological testing is secondary to medical localisation and stabilisation.",
+        "caveat": "Long-tract signs localise a system, not necessarily a single lesion. Brain, brainstem, spinal cord and mixed pathologies can produce overlapping patterns."
+      },
+      {
+        "id": "arousal-assessment",
+        "label": "Arousal / reticular pattern",
+        "part": "reticular-formation",
+        "prompt": "A patient is unusually difficult to rouse and shows fluctuating attention. What should come before formal cognitive testing?",
+        "targetDomain": "Arousal, attention and medical stability",
+        "options": [
+          "Arousal, attention and medical stability",
+          "Fine-grained personality assessment",
+          "Academic achievement"
+        ],
+        "rationale": "Reduced or fluctuating arousal can invalidate downstream cognitive testing and may signal an acute medical or neurological problem.",
+        "observe": [
+          "level and fluctuation of consciousness",
+          "orientation and sustained attention",
+          "respiratory or autonomic instability",
+          "medication, intoxication or metabolic contributors"
+        ],
+        "taskTypes": [
+          "serial bedside observations",
+          "brief attention probes only when sufficiently alert",
+          "collateral time-course history",
+          "medical review and physiological monitoring"
+        ],
+        "supports": [
+          "reproducible fluctuation in alertness",
+          "brainstem or diffuse neurological signs",
+          "temporal association with acute illness or medication change"
+        ],
+        "challenges": [
+          "stable alertness with selectively impaired cognition",
+          "a longstanding developmental attentional profile without altered consciousness"
+        ],
+        "nextStep": "Treat altered consciousness as a medical assessment problem first; defer extensive neuropsychological testing until arousal is sufficiently stable.",
+        "caveat": "Arousal disturbance is highly non-specific and can arise from structural, metabolic, toxic, infectious, sleep-related and psychiatric causes."
+      }
+    ]
   }
 }
