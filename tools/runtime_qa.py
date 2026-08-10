@@ -399,6 +399,10 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         page.click('[data-route="review"]')
         review_visible = page.locator(".review-card").count() == 1
         if review_visible:
+            confidence_buttons = page.locator("[data-confidence]")
+            if confidence_buttons.count():
+                confidence_buttons.nth(2).click()
+
             page.click("#revealReview")
             revealed = not page.locator("#reviewAnswer").is_hidden()
             page.locator('[data-grade="4"]').click()
