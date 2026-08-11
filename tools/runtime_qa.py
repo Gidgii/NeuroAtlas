@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Browser-level runtime QA for the Clinical Neuroscience Atlas.
 
 Two transports are supported:
@@ -34,7 +34,6 @@ MODULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("mastery-tracker.js", ("MasteryTracker",)),
     ("competency-tracker.js", ("CompetencyTracker", "COMPETENCIES")),
     ("calibration-tracker.js", ("CalibrationTracker", "CONFIDENCE_LEVELS")),
-    ("clinical-thread.js", ("renderClinicalThread",)),
     ("deep-dive.js", ("renderDeepDiveButton", "bindDeepDive")),
     ("content-quality.js", ("renderContentQualitySummary", "searchableDetailText")),
     ("accessibility-runtime.js", ("focusMainHeading", "installAccessibilityRuntime")),
@@ -540,7 +539,7 @@ def main() -> int:
 
     for check in report.checks:
         marker = "PASS" if check.ok else "FAIL"
-        suffix = f" — {check.detail}" if check.detail else ""
+        suffix = f" â€” {check.detail}" if check.detail else ""
         print(f"[{marker}] {check.name}{suffix}")
     print(f"\nRuntime QA: {report.passed}/{len(report.checks)} passed; {report.failed} failed")
     print(f"Report: {args.report}")

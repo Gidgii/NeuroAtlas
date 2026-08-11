@@ -1,10 +1,10 @@
 {
   "transport": "http",
-  "duration_seconds": 3.95,
+  "duration_seconds": 5.92,
   "summary": {
-    "passed": 25,
+    "passed": 28,
     "failed": 0,
-    "total": 25
+    "total": 28
   },
   "metrics": {
     "concepts": 249,
@@ -148,12 +148,27 @@
       "detail": "rendered=29 expected=29"
     },
     {
+      "name": "Slash shortcut opens search",
+      "ok": true,
+      "detail": ""
+    },
+    {
       "name": "Search returns matching concepts",
       "ok": true,
       "detail": "results=12"
     },
     {
       "name": "Search result opens a concept",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Route changes move focus to the concept heading",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Deep dive opens as an accessible secondary layer",
       "ok": true,
       "detail": ""
     },
