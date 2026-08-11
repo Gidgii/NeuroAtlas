@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Browser-level runtime QA for the Clinical Neuroscience Atlas.
 
 Two transports are supported:
