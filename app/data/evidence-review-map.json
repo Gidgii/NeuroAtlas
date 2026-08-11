@@ -1,0 +1,3135 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "concepts": {
+    "cell": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-168439CFBD",
+        "ATLAS-1B9C94D587",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "membrane": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-20A519C1B9",
+        "ATLAS-168439CFBD",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "electricity": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-443D21B3A9",
+        "ATLAS-168439CFBD",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "chemistry": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-168439CFBD",
+        "ATLAS-BA46B6C932",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "brain-overview": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-60C885A698",
+        "ATLAS-02325329CB",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "lobes": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E068780EB6",
+        "ATLAS-60C885A698",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "subcortex": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E068780EB6",
+        "ATLAS-168439CFBD",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "brainstem-cerebellum": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E068780EB6",
+        "ATLAS-A3FADCB84F",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neurons": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-168439CFBD",
+        "ATLAS-A8A39AB422",
+        "ATLAS-6FD9C08C0F",
+        "ATLAS-E06F04B95E",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "astrocytes": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2615A58713",
+        "ATLAS-DE0A8FAF07",
+        "ATLAS-D432F8793A",
+        "ATLAS-92784FA2E8",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "microglia": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1A244682FF",
+        "ATLAS-DCCAAA5CA3",
+        "ATLAS-3115BE98AF",
+        "ATLAS-FE01A4D425",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "oligodendrocytes": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-44FF4CB5B3",
+        "ATLAS-1D7DB6A4FC",
+        "ATLAS-1B273DE011",
+        "ATLAS-4E246A4818",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "resting-potential": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-6EEDBF8083",
+        "ATLAS-4A024B0C3C",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "action-potentials": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4A024B0C3C",
+        "ATLAS-465983D5F2",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "synapses": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-302567EB1E",
+        "ATLAS-2A1CE364EB",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neurotransmitters": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-5F933A4175",
+        "ATLAS-375268C507",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neuroplasticity": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-671DC37C3F",
+        "ATLAS-D905279535",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "functional-networks": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-49DFDC55F9",
+        "ATLAS-28298A5CD5",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "default-mode-network": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-8AD153539A",
+        "ATLAS-156743EC8D",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "salience-network": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-9E4DB922DE",
+        "ATLAS-D4EF62ABA3",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "frontoparietal-control-network": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-9E4DB922DE",
+        "ATLAS-887F50A1FE",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "attention-networks": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-18DB0884A3",
+        "ATLAS-8659EB3D7F",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "embryonic-neural-development": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-385B1658E8",
+        "ATLAS-B52ABE8386",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neural-tube-formation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-385B1658E8",
+        "ATLAS-B52ABE8386",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neuronal-migration": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-385B1658E8",
+        "ATLAS-B52ABE8386",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "synaptogenesis": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-385B1658E8",
+        "ATLAS-B52ABE8386",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "myelination": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-385B1658E8",
+        "ATLAS-B52ABE8386",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "hippocampus": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "amygdala": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "corpus-callosum": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ventricular-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "blood-brain-barrier": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "meninges": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-76BF474279",
+        "ATLAS-5E7681B1E5",
+        "ATLAS-E866EBC139",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cranial-nerves": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2AF140D09C",
+        "ATLAS-76BF474279",
+        "ATLAS-E985828E7A",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "visual-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B9FE449266",
+        "ATLAS-ABEEFB7359",
+        "ATLAS-B80558844A",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "auditory-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-C235BA156A",
+        "ATLAS-B9FE449266",
+        "ATLAS-B379E97F57",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "somatosensory-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B9FE449266",
+        "ATLAS-F0EDF658D8",
+        "ATLAS-F0C8FE2D4D",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "motor-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B4401F8165",
+        "ATLAS-AFB7899028",
+        "ATLAS-8C6EC8CA84",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "autonomic-nervous-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B4401F8165",
+        "ATLAS-6D227CA048",
+        "ATLAS-4117128A8D",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "memory-systems": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B4401F8165",
+        "ATLAS-744EE54E7A",
+        "ATLAS-42A2937247",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "language-networks": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B4401F8165",
+        "ATLAS-E1395BAC91",
+        "ATLAS-FF39CA7FBA",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "executive-function": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B4401F8165",
+        "ATLAS-357433E537",
+        "ATLAS-BE26A3D52E",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "emotion-regulation-networks": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-EC23599E6F",
+        "ATLAS-66255B7E95",
+        "ATLAS-7485EDC5BC"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "reward-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-9CB93D80DD",
+        "ATLAS-C8190A8595",
+        "ATLAS-D35CEEBA72",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "sleep-circadian-rhythms": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-63AAA79BFD",
+        "ATLAS-59166C6723",
+        "ATLAS-905E01FC5D",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "pain-processing": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-9166F5BC70",
+        "ATLAS-2A9BC8BDAE",
+        "ATLAS-0F0362DA9A",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "brain-health-ageing": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-5863389C71",
+        "ATLAS-44723CD6C8",
+        "ATLAS-71DADA6BE8",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "consciousness-arousal": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B4401F8165",
+        "ATLAS-F23541307A",
+        "ATLAS-D3CEF8FF4D",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "brain-lateralisation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-02325329CB",
+        "ATLAS-2757AD8723",
+        "ATLAS-45B3DE7C49",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neuroimmunology": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-AE025F75CB",
+        "ATLAS-3CFEE11673",
+        "ATLAS-B4401F8165",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "brain-energy-metabolism": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-7F8B677F7B",
+        "ATLAS-C79C2444FA",
+        "ATLAS-B4401F8165",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "integrated-systems-capstone": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-B4401F8165",
+        "ATLAS-C1F06C472B",
+        "ATLAS-A900AB9D54",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "personality-disorders-neuroscience": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-3788F505B8",
+        "ATLAS-C1766D7F09",
+        "ATLAS-AFECB1D647",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "sleep-disorders-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-CFD7F2FAEB",
+        "ATLAS-E3FAAF23BD",
+        "ATLAS-4B7E04D448",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "substance-use-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-27A5C80EA2",
+        "ATLAS-D015BF0B10",
+        "ATLAS-534C0BF29A"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neurodegenerative-disorders": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-498D667A14",
+        "ATLAS-6856610373",
+        "ATLAS-538D07AE6E",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "epilepsy-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-7C30B4BA2F",
+        "ATLAS-37C0F1E623",
+        "ATLAS-165829F379",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "traumatic-brain-injury": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-8FDBAD4D85",
+        "ATLAS-3796ADFDEA",
+        "ATLAS-EEFB6B48AD"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "migraine-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-432C4E7632",
+        "ATLAS-7DC6BDE50A",
+        "ATLAS-CA0FD231FA",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "eating-disorders-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-400FBBA0EB",
+        "ATLAS-C7E943FA63",
+        "ATLAS-8870BABB73",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "tic-tourette-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-F4833BDA3D",
+        "ATLAS-5203673637",
+        "ATLAS-DACCC5ABBD",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "intellectual-developmental-disability": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-7273A4B136",
+        "ATLAS-5755415E14",
+        "ATLAS-59B7632ADB",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "learning-disorders-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-701E047EFD",
+        "ATLAS-F4225BF1D4",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "communication-disorders-neuroscience": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-71E6F64A60",
+        "ATLAS-D41077D876",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "anxiety-spectrum-comparison": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E021319FE0",
+        "ATLAS-E833BB94D0",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "psychopharmacology-foundations": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2EED87ADA9",
+        "ATLAS-D517DE6BAB",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "clinical-neuroanatomy-review": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E068780EB6",
+        "ATLAS-8810CAE026",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "attention-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-543FDE06D4",
+        "ATLAS-4515050C6C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "processing-speed-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-7546672CE5",
+        "ATLAS-72AF02F4AF",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "working-memory-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-64708AB754",
+        "ATLAS-1F09975D84",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "episodic-memory-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-F4BAEEE3C2",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "visuospatial-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-646DD658D7",
+        "ATLAS-B59DF4D491",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "social-cognition-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-095D044829",
+        "ATLAS-BE00406026"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "executive-assessment": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-3C0E39C82B",
+        "ATLAS-C102750AAD",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "language-assessment": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-CDDFCE36FC",
+        "ATLAS-E09776C066",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neuropsychological-case-formulation": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1026CD6FBA",
+        "ATLAS-2AFB47F39D",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "clinical-test-interpretation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-0CB13E0E3A",
+        "ATLAS-F1B40D1F01",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023",
+        "AACN-SCORE-LABELS-2020"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "semantic-memory-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-FF059FA323",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "procedural-learning-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-8FEB09FFC7",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "praxis-apraxia": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-C9FB449AF1",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "agnosia-recognition": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-EAC619613C",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "hemispatial-neglect": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E5B43B8EAF",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "performance-validity": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-C103766952",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022",
+        "AACN-VALIDITY-2021"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "premorbid-ability-estimation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-16288DEC1D",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ecological-validity-functional-cognition": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4EEC00434B",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "psychiatric-state-confounds": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-C62750B975",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "paediatric-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-A4CC754392",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "older-adult-neuropsychology": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-CBCCBBD7D3",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neuropsychological-report-feedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-69D1F3F807",
+        "ATLAS-0A83511B8F",
+        "ATLAS-6E9CBCF73C",
+        "BERKOWITZ-LOCALIZATION-2022",
+        "AACN-SCORE-LABELS-2020"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "eeg-what-it-measures": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cortical-generators": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "volume-conduction": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "electrode-10-20-system": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "electrode-impedance": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "references-and-montages": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "sampling-and-aliasing": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "filters-time-constant": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "amplitude-frequency-phase": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "eeg-state-dependence": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "preparation-consent-safety": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "eyes-open-eyes-closed": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "hyperventilation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "photic-stimulation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "sleep-deprived-eeg": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ecg-eog-emg-channels": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ocular-artifact": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "muscle-artifact": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cardiac-pulse-artifact": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "movement-sweat-electrode-artifact": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "artifact-rejection-principles": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "normal-awake-background": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "posterior-dominant-rhythm": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "developmental-eeg": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "drowsiness-and-sleep-stages": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "focal-slowing": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "generalised-slowing": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "epileptiform-discharges": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "seizure-patterns": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "normal-variants": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "encephalopathy-patterns": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-workflow": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "fourier-transform": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "spectral-power": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "frequency-bands": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "individual-alpha-frequency": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "topographic-maps": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "normative-databases": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "z-scores-effect-sizes": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "coherence-connectivity": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "phase-lag": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "source-localisation": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-reliability": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "multiple-comparisons": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-adhd-evidence": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "AAN-QEEG-ADHD-2016-2025",
+        "ATLAS-6154481703",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-autism-evidence": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-anxiety-depression-evidence": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-tbi-evidence": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ACNS-QEEG-MTBI-2021",
+        "ATLAS-6154481703"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "medication-substance-effects": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "clinical-reporting-qeeg": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-ethics-scope": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "qeeg-neurofeedback-link": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "eeg-qeeg-capstone": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-2417EB6B93",
+        "ATLAS-3F7CE6CE66",
+        "ATLAS-6154481703",
+        "ATLAS-168CD78642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "history-of-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "learning-theory-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "operant-conditioning-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "reinforcement-schedules": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "eeg-versus-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "closed-loop-systems": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "feedback-modalities": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "sensor-placement": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "electrode-preparation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "signal-quality-impedance": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "artifact-recognition-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "threshold-setting": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "reward-bands": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "inhibit-bands": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "session-structure": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "baseline-recording": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "protocol-selection": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "treatment-planning-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "alpha-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "theta-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "beta-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "smr-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "alpha-theta-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "scp-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "connectivity-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "coherence-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "phase-training": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "zscore-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "loreta-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "heg-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ilf-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "adhd-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "WESTWOOD-NF-ADHD-2025",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "anxiety-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ptsd-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "ATLAS-02059543FA",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116",
+        "NF-PTSD-META-2025"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "depression-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "autism-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "REZAEE-NF-ASD-2025",
+        "AUTISM-NEUROBIOLOGY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "sleep-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023",
+        "NF-SLEEP-META-2024"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "peak-performance": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "medication-considerations-neurofeedback": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "ATLAS-E099C5563A",
+        "ATLAS-FE5FDEE038",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "contraindications-adverse-effects": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "ATLAS-E099C5563A",
+        "ATLAS-FE5FDEE038",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "troubleshooting-nonresponse": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "ATLAS-E099C5563A",
+        "ATLAS-FE5FDEE038",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ethics-evidence-clinical-limits": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "CRED-NF-2020",
+        "ATLAS-C8B941D2BC",
+        "ATLAS-E099C5563A",
+        "ATLAS-FE5FDEE038",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "foundations-trauma-neuroscience": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "acute-stress-response": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "chronic-stress-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "hpa-axis-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "sympathetic-activation-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "parasympathetic-regulation-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "polyvagal-theory": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "GROSSMAN-PVT-2023",
+        "GROSSMAN-ETAL-PVT-2026",
+        "PORGES-PVT-2025",
+        "PORGES-RESPONSE-2026",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "amygdala-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "hippocampus-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "prefrontal-cortex-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "salience-network-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "default-mode-network-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "central-executive-network-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "memory-encoding-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "memory-consolidation-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "memory-reconsolidation-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "WRIGHT-RECONSOLIDATION-2021",
+        "CAMBRIDGE-NEUROPSYCH-2024"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "fear-conditioning-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "fear-extinction-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "prediction-error-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "dissociation-mechanisms": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "structural-dissociation": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "emotional-processing-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "window-of-tolerance": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "affect-regulation-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "attachment-neuroscience-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "developmental-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "complex-ptsd-neuroscience": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "moral-injury": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "intergenerational-trauma": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ELKHALIL-INTERGEN-2025",
+        "YOUSEF-INTERGEN-EPIGEN-2023",
+        "OXFORD-EMOTION-DYSREG-2020"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neurobiology-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "bilateral-stimulation-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "working-memory-theory-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "WADJI-WM-EMDR-2022",
+        "WRIGHT-EMDR-IPDMA-2024",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "orienting-response-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "adaptive-information-processing": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "eight-phases-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "mechanisms-change-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "clinical-indications-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "contraindications-precautions-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "current-evidence-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "NICE-PTSD-NG116",
+        "WHO-PTSD-FACT-2024",
+        "WRIGHT-EMDR-IPDMA-2024",
+        "CAMBRIDGE-NEUROPSYCH-2024",
+        "VADOD-PTSD-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "clinical-integration-limitations-emdr": {
+      "status": "reviewed-with-boundaries",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4198DFE93E",
+        "ATLAS-8021EB737D",
+        "ATLAS-DD50C673DA",
+        "ATLAS-1BC2102147",
+        "VADOD-PTSD-2023",
+        "NICE-PTSD-NG116"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cerebral-lobes-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4F4A9F5419",
+        "ATLAS-5725B87642",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cerebellum-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-90058E6FF0",
+        "ATLAS-048AF6D3F9",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "brainstem-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-F968AA225B",
+        "ATLAS-69FE950181",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "meninges-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-4D5C6C8466",
+        "ATLAS-6EF2AFBB68",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cerebral-vasculature-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-BD6D856935",
+        "ATLAS-958E36E1B3",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "limbic-system-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1826B5E478",
+        "ATLAS-244069AF96"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "ventricular-system-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-889EA0DE47",
+        "ATLAS-6C98F9F192",
+        "ATLAS-7AECFFFE07",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cranial-nerves-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-889EA0DE47",
+        "ATLAS-6C98F9F192",
+        "ATLAS-7AECFFFE07",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "deep-nuclei-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-889EA0DE47",
+        "ATLAS-6C98F9F192",
+        "ATLAS-7AECFFFE07",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "thalamus-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-C4141AF1EB",
+        "ATLAS-557CA4FAFB",
+        "ATLAS-A1F2061746",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "hypothalamus-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-C4141AF1EB",
+        "ATLAS-557CA4FAFB",
+        "ATLAS-A1F2061746",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "insula-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "insula-operculum-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "cingulate-cortex-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "reticular-activating-system-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "pituitary-and-sella-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-A1F2061746",
+        "ATLAS-E28FCFBDBD",
+        "ATLAS-557CA4FAFB",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "basal-ganglia-circuit-explorer": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1DF67ED1EA",
+        "ATLAS-0D335110C9",
+        "ATLAS-509FB23001",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "major-white-matter-pathways-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1DF67ED1EA",
+        "ATLAS-0D335110C9",
+        "ATLAS-509FB23001",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "neurotransmitter-pathways-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1DF67ED1EA",
+        "ATLAS-0D335110C9",
+        "ATLAS-509FB23001",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "functional-network-overlay-atlas": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1DF67ED1EA",
+        "ATLAS-0D335110C9",
+        "ATLAS-509FB23001",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "arterial-territories-stroke-comparison": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-1DF67ED1EA",
+        "ATLAS-0D335110C9",
+        "ATLAS-509FB23001",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "brain-lateralisation-comparison": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-7FDC644070",
+        "ATLAS-35F06072A8",
+        "ATLAS-BC5CD37942",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "healthy-versus-pathology-comparison": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-5D9AFD2873",
+        "ATLAS-2EF1D487D8",
+        "ATLAS-C7F1C3013A",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "lesion-and-symptom-mapping": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E068780EB6",
+        "ATLAS-14B77DB02F",
+        "ATLAS-07AD2CF23E",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    },
+    "integrated-whole-brain-explorer-and-capstone": {
+      "status": "source-verified-foundation",
+      "reviewedAt": "2026-08-11",
+      "sourceIds": [
+        "ATLAS-E068780EB6",
+        "ATLAS-168439CFBD",
+        "ATLAS-D887F1C0CB",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "SOBOTTA-NEUROANATOMY-2023"
+      ],
+      "claimPolicy": "Clinical, diagnostic, treatment, biomarker and contested-mechanism claims require explicit uncertainty/limitations and current higher-level evidence. Stable anatomy/physiology may use authoritative specialist texts.",
+      "futureGate": "Any new or materially changed factual content must add or update source linkage before release."
+    }
+  }
+}

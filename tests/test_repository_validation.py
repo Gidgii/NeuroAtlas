@@ -24,10 +24,20 @@ def detail(structure_id):
 
 
 def registered_loader_ids():
+    bundle_path = DATA / "details-bundle.json"
+    if bundle_path.is_file():
+        bundle = json.loads(bundle_path.read_text(encoding="utf-8"))
+        assert isinstance(bundle, dict)
+        return set(bundle)
+
     source = (APP / "app.js").read_text(encoding="utf-8")
-    block = re.search(r"const detailFiles=\[(.*?)\];const detailResponses", source, re.S)
+    block = re.search(
+        r"const detailFiles=\[(.*?)\];const detailResponses",
+        source,
+        re.S,
+    )
     assert block
-    return set(re.findall(r"'([^']+)'", block.group(1)))
+    return set(re.findall(r'"([^"]+)"', block.group(1)))
 
 
 def service_worker_paths():
@@ -97,6 +107,8 @@ def test_service_worker_has_unique_complete_production_coverage():
     assert len(paths) == len(set(paths))
     cached = set(paths)
     expected_data_paths = {"./data/curriculum.json"}
+    if (DATA / "details-bundle.json").is_file():
+        expected_data_paths.add("./data/details-bundle.json")
     for path in DATA.glob("*.json"):
         if path.name == "curriculum.json":
             continue
@@ -407,3 +419,26 @@ def test_p1_6_assessment_linked_reasoning_contracts():
     assert "data-assessment-option" in source
     assert "Findings that strengthen the hypothesis" in source
     assert "Findings that challenge the hypothesis" in source
+
+
+def test_details_bundle_matches_production_concepts():
+    bundle_path = DATA / "details-bundle.json"
+    assert bundle_path.is_file()
+
+    bundle = json.loads(bundle_path.read_text(encoding="utf-8"))
+    curriculum_ids = {concept["id"] for concept in CURRICULUM["concepts"]}
+
+    expected_ids = set()
+    for concept_id in curriculum_ids:
+        path = DATA / f"{concept_id}.json"
+        if not path.is_file():
+            continue
+        record = json.loads(path.read_text(encoding="utf-8"))
+        if record.get("status") == "production":
+            expected_ids.add(concept_id)
+
+    assert set(bundle) == expected_ids
+
+    for concept_id, record in bundle.items():
+        assert record.get("id") == concept_id
+        assert record.get("status") == "production"

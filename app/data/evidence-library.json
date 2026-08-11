@@ -1,11 +1,13 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
   "generatedAt": "2026-08-11",
-  "purpose": "Claim-linked evidence register for NeuroAtlas peer review and the future in-app Evidence Library.",
+  "purpose": "Central evidence register for all production concepts, including claim-level peer-review sources and source-linked foundational references.",
   "reviewPolicy": {
     "primaryRule": "Use the highest-quality source appropriate to the claim; guidelines for clinical recommendations, systematic reviews/meta-analyses for synthesis, specialist texts for stable foundations, and primary studies when synthesis is unavailable.",
     "uncertaintyRule": "Distinguish established findings, emerging evidence, theoretical models, contested claims and superseded claims.",
-    "copyrightRule": "Store citations, identifiers, summaries and links; do not reproduce copyrighted source text or figures."
+    "copyrightRule": "Store citations, identifiers, summaries and links; do not reproduce copyrighted source text or figures.",
+    "releaseGate": "Every production concept must resolve to evidence-review metadata and at least one Evidence Library source. Higher-risk clinical, diagnostic, treatment, biomarker and contested-mechanism content requires explicit boundaries plus current guideline/systematic-review evidence where available.",
+    "futureContentRule": "No new factual concept content is release-ready until its evidence-review record and source links are updated."
   },
   "sources": [
     {
@@ -18,7 +20,18 @@
       "status": "current",
       "limitations": "Guideline recommendations support treatment decisions; they do not establish a unique neural mechanism for EMDR or other therapies.",
       "conceptIds": [
-        "current-evidence-emdr"
+        "bilateral-stimulation-emdr",
+        "clinical-indications-emdr",
+        "clinical-integration-limitations-emdr",
+        "complex-ptsd-neuroscience",
+        "contraindications-precautions-emdr",
+        "current-evidence-emdr",
+        "eight-phases-emdr",
+        "mechanisms-change-emdr",
+        "neurobiology-emdr",
+        "orienting-response-emdr",
+        "ptsd-neurofeedback",
+        "working-memory-theory-emdr"
       ]
     },
     {
@@ -77,7 +90,47 @@
       "limitations": "A reporting/design standard, not evidence that a specific neurofeedback protocol is efficacious.",
       "conceptIds": [
         "adhd-neurofeedback",
-        "autism-neurofeedback"
+        "alpha-theta-training",
+        "alpha-training",
+        "anxiety-neurofeedback",
+        "artifact-recognition-neurofeedback",
+        "autism-neurofeedback",
+        "baseline-recording",
+        "beta-training",
+        "closed-loop-systems",
+        "coherence-training",
+        "connectivity-training",
+        "contraindications-adverse-effects",
+        "depression-neurofeedback",
+        "eeg-versus-neurofeedback",
+        "electrode-preparation",
+        "ethics-evidence-clinical-limits",
+        "feedback-modalities",
+        "heg-neurofeedback",
+        "history-of-neurofeedback",
+        "ilf-neurofeedback",
+        "inhibit-bands",
+        "learning-theory-neurofeedback",
+        "loreta-neurofeedback",
+        "medication-considerations-neurofeedback",
+        "operant-conditioning-neurofeedback",
+        "peak-performance",
+        "phase-training",
+        "protocol-selection",
+        "ptsd-neurofeedback",
+        "reinforcement-schedules",
+        "reward-bands",
+        "scp-neurofeedback",
+        "sensor-placement",
+        "session-structure",
+        "signal-quality-impedance",
+        "sleep-neurofeedback",
+        "smr-training",
+        "theta-training",
+        "threshold-setting",
+        "treatment-planning-neurofeedback",
+        "troubleshooting-nonresponse",
+        "zscore-neurofeedback"
       ]
     },
     {
@@ -257,7 +310,8 @@
       "conceptIds": [
         "current-evidence-emdr",
         "memory-reconsolidation-trauma"
-      ]
+      ],
+      "url": "https://doi.org/10.1017/9781911623137"
     },
     {
       "id": "OXFORD-EMOTION-DYSREG-2020",
@@ -269,7 +323,8 @@
       "limitations": "Useful synthesis, but rapidly changing biological claims require newer primary reviews.",
       "conceptIds": [
         "intergenerational-trauma"
-      ]
+      ],
+      "url": "https://global.oup.com/academic/product/the-oxford-handbook-of-emotion-dysregulation-9780190689285"
     },
     {
       "id": "AUTISM-NEUROBIOLOGY-2023",
@@ -282,7 +337,3653 @@
       "limitations": "Includes animal-model and mechanistic chapters; findings from model systems must not be presented as established individual-level human biomarkers.",
       "conceptIds": [
         "autism-neurofeedback"
+      ],
+      "url": "https://doi.org/10.1007/978-3-031-42383-3"
+    },
+    {
+      "id": "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+      "citation": "Mtui E, Gruener G, Dockery P. Fitzgerald's Clinical Neuroanatomy and Neuroscience. 8th ed. Elsevier; 2022.",
+      "year": 2022,
+      "sourceType": "specialist textbook",
+      "evidenceStrength": "authoritative secondary source for stable neuroanatomy, pathways, EEG and lesion localisation",
+      "status": "current foundation",
+      "limitations": "Not a substitute for current disease-specific practice guidelines.",
+      "conceptIds": [
+        "action-potentials",
+        "adhd-neurofeedback",
+        "alpha-theta-training",
+        "alpha-training",
+        "amplitude-frequency-phase",
+        "anxiety-neurofeedback",
+        "anxiety-spectrum-comparison",
+        "arterial-territories-stroke-comparison",
+        "artifact-recognition-neurofeedback",
+        "artifact-rejection-principles",
+        "astrocytes",
+        "auditory-system",
+        "autonomic-nervous-system",
+        "basal-ganglia-circuit-explorer",
+        "baseline-recording",
+        "beta-training",
+        "blood-brain-barrier",
+        "brain-energy-metabolism",
+        "brain-health-ageing",
+        "brain-lateralisation",
+        "brain-lateralisation-comparison",
+        "brain-overview",
+        "brainstem-atlas",
+        "brainstem-cerebellum",
+        "cardiac-pulse-artifact",
+        "cell",
+        "cerebellum-atlas",
+        "cerebral-lobes-atlas",
+        "cerebral-vasculature-atlas",
+        "chemistry",
+        "cingulate-cortex-atlas",
+        "clinical-neuroanatomy-review",
+        "clinical-reporting-qeeg",
+        "clinical-test-interpretation",
+        "closed-loop-systems",
+        "coherence-connectivity",
+        "coherence-training",
+        "connectivity-training",
+        "consciousness-arousal",
+        "contraindications-adverse-effects",
+        "corpus-callosum",
+        "cortical-generators",
+        "cranial-nerves",
+        "cranial-nerves-atlas",
+        "deep-nuclei-atlas",
+        "depression-neurofeedback",
+        "developmental-eeg",
+        "drowsiness-and-sleep-stages",
+        "eating-disorders-neuroscience",
+        "ecg-eog-emg-channels",
+        "eeg-qeeg-capstone",
+        "eeg-state-dependence",
+        "eeg-versus-neurofeedback",
+        "eeg-what-it-measures",
+        "electricity",
+        "electrode-10-20-system",
+        "electrode-impedance",
+        "electrode-preparation",
+        "embryonic-neural-development",
+        "encephalopathy-patterns",
+        "epilepsy-neuroscience",
+        "epileptiform-discharges",
+        "ethics-evidence-clinical-limits",
+        "eyes-open-eyes-closed",
+        "feedback-modalities",
+        "filters-time-constant",
+        "focal-slowing",
+        "fourier-transform",
+        "frequency-bands",
+        "frontoparietal-control-network",
+        "functional-networks",
+        "generalised-slowing",
+        "healthy-versus-pathology-comparison",
+        "heg-neurofeedback",
+        "history-of-neurofeedback",
+        "hyperventilation",
+        "hypothalamus-atlas",
+        "ilf-neurofeedback",
+        "individual-alpha-frequency",
+        "inhibit-bands",
+        "insula-atlas",
+        "insula-operculum-atlas",
+        "integrated-systems-capstone",
+        "integrated-whole-brain-explorer-and-capstone",
+        "intellectual-developmental-disability",
+        "learning-disorders-neuroscience",
+        "learning-theory-neurofeedback",
+        "lesion-and-symptom-mapping",
+        "lobes",
+        "loreta-neurofeedback",
+        "major-white-matter-pathways-atlas",
+        "medication-considerations-neurofeedback",
+        "medication-substance-effects",
+        "membrane",
+        "meninges",
+        "meninges-atlas",
+        "microglia",
+        "migraine-neuroscience",
+        "moral-injury",
+        "motor-system",
+        "movement-sweat-electrode-artifact",
+        "multiple-comparisons",
+        "muscle-artifact",
+        "myelination",
+        "neural-tube-formation",
+        "neurodegenerative-disorders",
+        "neuroimmunology",
+        "neuronal-migration",
+        "neurons",
+        "neuroplasticity",
+        "neurotransmitter-pathways-atlas",
+        "neurotransmitters",
+        "normal-awake-background",
+        "normal-variants",
+        "normative-databases",
+        "ocular-artifact",
+        "oligodendrocytes",
+        "operant-conditioning-neurofeedback",
+        "pain-processing",
+        "peak-performance",
+        "personality-disorders-neuroscience",
+        "phase-lag",
+        "phase-training",
+        "photic-stimulation",
+        "pituitary-and-sella-atlas",
+        "polyvagal-theory",
+        "posterior-dominant-rhythm",
+        "preparation-consent-safety",
+        "protocol-selection",
+        "psychiatric-state-confounds",
+        "psychopharmacology-foundations",
+        "qeeg-adhd-evidence",
+        "qeeg-anxiety-depression-evidence",
+        "qeeg-ethics-scope",
+        "qeeg-neurofeedback-link",
+        "qeeg-reliability",
+        "qeeg-workflow",
+        "references-and-montages",
+        "reinforcement-schedules",
+        "resting-potential",
+        "reticular-activating-system-atlas",
+        "reward-bands",
+        "reward-system",
+        "salience-network",
+        "sampling-and-aliasing",
+        "scp-neurofeedback",
+        "seizure-patterns",
+        "sensor-placement",
+        "session-structure",
+        "signal-quality-impedance",
+        "sleep-deprived-eeg",
+        "sleep-disorders-neuroscience",
+        "sleep-neurofeedback",
+        "smr-training",
+        "somatosensory-system",
+        "source-localisation",
+        "spectral-power",
+        "subcortex",
+        "synapses",
+        "synaptogenesis",
+        "thalamus-atlas",
+        "theta-training",
+        "threshold-setting",
+        "tic-tourette-neuroscience",
+        "topographic-maps",
+        "treatment-planning-neurofeedback",
+        "troubleshooting-nonresponse",
+        "ventricular-system",
+        "ventricular-system-atlas",
+        "visual-system",
+        "volume-conduction",
+        "window-of-tolerance",
+        "z-scores-effect-sizes",
+        "zscore-neurofeedback"
       ]
+    },
+    {
+      "id": "BERKOWITZ-LOCALIZATION-2022",
+      "citation": "Berkowitz AL. Clinical Neurology & Neuroanatomy: A Localization-Based Approach. 2nd ed. McGraw Hill; 2022.",
+      "year": 2022,
+      "sourceType": "specialist clinical textbook",
+      "evidenceStrength": "authoritative secondary source for neurological localisation and clinical reasoning",
+      "status": "current foundation",
+      "limitations": "Treatment standards should be checked against current disease-specific guidelines.",
+      "conceptIds": [
+        "agnosia-recognition",
+        "attention-networks",
+        "attention-neuropsychology",
+        "communication-disorders-neuroscience",
+        "default-mode-network",
+        "ecological-validity-functional-cognition",
+        "episodic-memory-neuropsychology",
+        "executive-assessment",
+        "executive-function",
+        "functional-network-overlay-atlas",
+        "hemispatial-neglect",
+        "hippocampus",
+        "language-assessment",
+        "language-networks",
+        "memory-systems",
+        "neuropsychological-case-formulation",
+        "neuropsychological-report-feedback",
+        "older-adult-neuropsychology",
+        "paediatric-neuropsychology",
+        "performance-validity",
+        "praxis-apraxia",
+        "premorbid-ability-estimation",
+        "procedural-learning-neuropsychology",
+        "processing-speed-neuropsychology",
+        "semantic-memory-neuropsychology",
+        "sleep-circadian-rhythms",
+        "visuospatial-neuropsychology",
+        "working-memory-neuropsychology"
+      ]
+    },
+    {
+      "id": "SOBOTTA-NEUROANATOMY-2023",
+      "citation": "Paulsen F, Waschke J, eds. Sobotta Atlas of Anatomy: Head, Neck and Neuroanatomy. 17th ed. Elsevier; 2023.",
+      "year": 2023,
+      "sourceType": "anatomical atlas",
+      "evidenceStrength": "authoritative anatomical reference",
+      "status": "current foundation",
+      "limitations": "Anatomical reference rather than a treatment-efficacy source.",
+      "conceptIds": [
+        "action-potentials",
+        "adhd-neurofeedback",
+        "alpha-theta-training",
+        "alpha-training",
+        "amplitude-frequency-phase",
+        "anxiety-neurofeedback",
+        "anxiety-spectrum-comparison",
+        "arterial-territories-stroke-comparison",
+        "artifact-recognition-neurofeedback",
+        "artifact-rejection-principles",
+        "astrocytes",
+        "auditory-system",
+        "autonomic-nervous-system",
+        "basal-ganglia-circuit-explorer",
+        "baseline-recording",
+        "beta-training",
+        "blood-brain-barrier",
+        "brain-energy-metabolism",
+        "brain-health-ageing",
+        "brain-lateralisation",
+        "brain-lateralisation-comparison",
+        "brain-overview",
+        "brainstem-atlas",
+        "brainstem-cerebellum",
+        "cardiac-pulse-artifact",
+        "cell",
+        "cerebellum-atlas",
+        "cerebral-lobes-atlas",
+        "cerebral-vasculature-atlas",
+        "chemistry",
+        "cingulate-cortex-atlas",
+        "clinical-neuroanatomy-review",
+        "clinical-reporting-qeeg",
+        "clinical-test-interpretation",
+        "closed-loop-systems",
+        "coherence-connectivity",
+        "coherence-training",
+        "connectivity-training",
+        "consciousness-arousal",
+        "contraindications-adverse-effects",
+        "corpus-callosum",
+        "cortical-generators",
+        "cranial-nerves",
+        "cranial-nerves-atlas",
+        "deep-nuclei-atlas",
+        "depression-neurofeedback",
+        "developmental-eeg",
+        "drowsiness-and-sleep-stages",
+        "eating-disorders-neuroscience",
+        "ecg-eog-emg-channels",
+        "eeg-qeeg-capstone",
+        "eeg-state-dependence",
+        "eeg-versus-neurofeedback",
+        "eeg-what-it-measures",
+        "electricity",
+        "electrode-10-20-system",
+        "electrode-impedance",
+        "electrode-preparation",
+        "embryonic-neural-development",
+        "encephalopathy-patterns",
+        "epilepsy-neuroscience",
+        "epileptiform-discharges",
+        "ethics-evidence-clinical-limits",
+        "eyes-open-eyes-closed",
+        "feedback-modalities",
+        "filters-time-constant",
+        "focal-slowing",
+        "fourier-transform",
+        "frequency-bands",
+        "frontoparietal-control-network",
+        "functional-networks",
+        "generalised-slowing",
+        "healthy-versus-pathology-comparison",
+        "heg-neurofeedback",
+        "history-of-neurofeedback",
+        "hyperventilation",
+        "hypothalamus-atlas",
+        "ilf-neurofeedback",
+        "individual-alpha-frequency",
+        "inhibit-bands",
+        "insula-atlas",
+        "insula-operculum-atlas",
+        "integrated-systems-capstone",
+        "integrated-whole-brain-explorer-and-capstone",
+        "intellectual-developmental-disability",
+        "learning-disorders-neuroscience",
+        "learning-theory-neurofeedback",
+        "lesion-and-symptom-mapping",
+        "lobes",
+        "loreta-neurofeedback",
+        "major-white-matter-pathways-atlas",
+        "medication-considerations-neurofeedback",
+        "medication-substance-effects",
+        "membrane",
+        "meninges",
+        "meninges-atlas",
+        "microglia",
+        "migraine-neuroscience",
+        "moral-injury",
+        "motor-system",
+        "movement-sweat-electrode-artifact",
+        "multiple-comparisons",
+        "muscle-artifact",
+        "myelination",
+        "neural-tube-formation",
+        "neurodegenerative-disorders",
+        "neuroimmunology",
+        "neuronal-migration",
+        "neurons",
+        "neuroplasticity",
+        "neurotransmitter-pathways-atlas",
+        "neurotransmitters",
+        "normal-awake-background",
+        "normal-variants",
+        "normative-databases",
+        "ocular-artifact",
+        "oligodendrocytes",
+        "operant-conditioning-neurofeedback",
+        "pain-processing",
+        "peak-performance",
+        "personality-disorders-neuroscience",
+        "phase-lag",
+        "phase-training",
+        "photic-stimulation",
+        "pituitary-and-sella-atlas",
+        "polyvagal-theory",
+        "posterior-dominant-rhythm",
+        "preparation-consent-safety",
+        "protocol-selection",
+        "psychiatric-state-confounds",
+        "psychopharmacology-foundations",
+        "qeeg-adhd-evidence",
+        "qeeg-anxiety-depression-evidence",
+        "qeeg-ethics-scope",
+        "qeeg-neurofeedback-link",
+        "qeeg-reliability",
+        "qeeg-workflow",
+        "references-and-montages",
+        "reinforcement-schedules",
+        "resting-potential",
+        "reticular-activating-system-atlas",
+        "reward-bands",
+        "reward-system",
+        "salience-network",
+        "sampling-and-aliasing",
+        "scp-neurofeedback",
+        "seizure-patterns",
+        "sensor-placement",
+        "session-structure",
+        "signal-quality-impedance",
+        "sleep-deprived-eeg",
+        "sleep-disorders-neuroscience",
+        "sleep-neurofeedback",
+        "smr-training",
+        "somatosensory-system",
+        "source-localisation",
+        "spectral-power",
+        "subcortex",
+        "synapses",
+        "synaptogenesis",
+        "thalamus-atlas",
+        "theta-training",
+        "threshold-setting",
+        "tic-tourette-neuroscience",
+        "topographic-maps",
+        "treatment-planning-neurofeedback",
+        "troubleshooting-nonresponse",
+        "ventricular-system",
+        "ventricular-system-atlas",
+        "visual-system",
+        "volume-conduction",
+        "window-of-tolerance",
+        "z-scores-effect-sizes",
+        "zscore-neurofeedback"
+      ]
+    },
+    {
+      "id": "AACN-VALIDITY-2021",
+      "citation": "Sweet JJ, Heilbronner RL, Morgan JE, et al. AACN 2021 consensus statement on validity assessment. The Clinical Neuropsychologist. 2021;35(6):1053-1106. doi:10.1080/13854046.2021.1896036.",
+      "year": 2021,
+      "sourceType": "professional consensus statement",
+      "doi": "10.1080/13854046.2021.1896036",
+      "url": "https://theaacn.org/downloads/american-academy-of-clinical-neuropsychology-aacn-2021-consensus-statement-on-validity-assessment-update-of-the-2009-aacn-consensus-conference-statement-on-neuropsychological-assessment-of-effort/",
+      "evidenceStrength": "high for neuropsychological validity practice",
+      "status": "current",
+      "limitations": "Practice consensus; not evidence that any single validity indicator is infallible.",
+      "conceptIds": [
+        "performance-validity"
+      ]
+    },
+    {
+      "id": "AACN-SCORE-LABELS-2020",
+      "citation": "Guilmette TJ, Sweet JJ, Hebben N, et al. AACN consensus conference statement on uniform labeling of performance test scores. The Clinical Neuropsychologist. 2020. doi:10.1080/13854046.2020.1722244.",
+      "year": 2020,
+      "sourceType": "professional consensus statement",
+      "doi": "10.1080/13854046.2020.1722244",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32037942/",
+      "evidenceStrength": "high for score-labeling practice",
+      "status": "current",
+      "limitations": "Score descriptors do not by themselves establish diagnosis or functional impairment.",
+      "conceptIds": [
+        "clinical-test-interpretation",
+        "neuropsychological-report-feedback"
+      ]
+    },
+    {
+      "id": "VADOD-PTSD-2023",
+      "citation": "Department of Veterans Affairs and Department of Defense. VA/DoD Clinical Practice Guideline for Management of Posttraumatic Stress Disorder and Acute Stress Disorder. 2023.",
+      "year": 2023,
+      "sourceType": "clinical practice guideline",
+      "url": "https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/MH/ptsd/index.asp",
+      "evidenceStrength": "high for PTSD assessment and treatment recommendations",
+      "status": "current",
+      "limitations": "Clinical recommendations do not validate a specific neuroscience mechanism.",
+      "conceptIds": [
+        "bilateral-stimulation-emdr",
+        "clinical-indications-emdr",
+        "clinical-integration-limitations-emdr",
+        "complex-ptsd-neuroscience",
+        "contraindications-precautions-emdr",
+        "current-evidence-emdr",
+        "eight-phases-emdr",
+        "mechanisms-change-emdr",
+        "neurobiology-emdr",
+        "orienting-response-emdr",
+        "ptsd-neurofeedback",
+        "working-memory-theory-emdr"
+      ]
+    },
+    {
+      "id": "NF-SLEEP-META-2024",
+      "citation": "Recio-Rodriguez JI, et al. Neurofeedback to enhance sleep quality and insomnia: a systematic review and meta-analysis of randomized clinical trials. Front Neurosci. 2024;18:1450163. doi:10.3389/fnins.2024.1450163.",
+      "year": 2024,
+      "sourceType": "systematic review and meta-analysis of randomized clinical trials",
+      "pmid": "39568666",
+      "doi": "10.3389/fnins.2024.1450163",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39568666/",
+      "evidenceStrength": "moderate to high synthesis; interpret by protocol and comparator",
+      "status": "current",
+      "limitations": "Protocols and sleep populations vary; neurofeedback should not be presented as universally effective.",
+      "conceptIds": [
+        "sleep-neurofeedback"
+      ]
+    },
+    {
+      "id": "NF-PTSD-META-2025",
+      "citation": "Systematic review and meta-analysis of neurofeedback training efficacy and neural mechanisms in the treatment of posttraumatic stress disorder. 2025. PMID:41415692.",
+      "year": 2025,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "41415692",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41415692/",
+      "evidenceStrength": "current synthesis",
+      "status": "current",
+      "limitations": "Confidence was very low to low; active-control effects were weaker and neural between-group effects generally inconclusive.",
+      "conceptIds": [
+        "ptsd-neurofeedback"
+      ]
+    },
+    {
+      "citation": "Kandel ER, Koester JD, Mack SH, Siegelbaum SA, eds. Principles of Neural Science. 6th ed. McGraw Hill; 2021.",
+      "year": 2021,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cell",
+        "chemistry",
+        "electricity",
+        "integrated-whole-brain-explorer-and-capstone",
+        "membrane",
+        "neurons",
+        "subcortex"
+      ],
+      "id": "ATLAS-168439CFBD"
+    },
+    {
+      "citation": "Alberts B, et al. Molecular Biology of the Cell. 7th ed. Garland Science; 2022.",
+      "year": 2022,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cell"
+      ],
+      "id": "ATLAS-1B9C94D587"
+    },
+    {
+      "citation": "Hille B. Ion Channels of Excitable Membranes. 3rd ed. Sinauer Associates; 2001.",
+      "year": 2001,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "membrane"
+      ],
+      "id": "ATLAS-20A519C1B9"
+    },
+    {
+      "citation": "Buzsáki G, Anastassiou CA, Koch C. The origin of extracellular fields and currents—EEG, ECoG, LFP and spikes. Nat Rev Neurosci. 2012;13:407–420.",
+      "year": 2012,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1038/nrn3241",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "electricity"
+      ],
+      "id": "ATLAS-443D21B3A9"
+    },
+    {
+      "citation": "Purves D, et al. Neuroscience. 6th ed. Oxford University Press; 2018.",
+      "year": 2018,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "chemistry"
+      ],
+      "id": "ATLAS-BA46B6C932"
+    },
+    {
+      "citation": "Mesulam MM. From sensation to cognition. Brain. 1998;121:1013–1052.",
+      "year": 1998,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1093/brain/121.6.1013",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-overview",
+        "lobes"
+      ],
+      "id": "ATLAS-60C885A698"
+    },
+    {
+      "citation": "Gazzaniga MS, Ivry RB, Mangun GR. Cognitive Neuroscience: The Biology of the Mind. 6th ed. Norton; 2024.",
+      "year": 2024,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-lateralisation",
+        "brain-overview"
+      ],
+      "id": "ATLAS-02325329CB"
+    },
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Oxford University Press; 2021.",
+      "year": 2021,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brainstem-cerebellum",
+        "clinical-neuroanatomy-review",
+        "integrated-whole-brain-explorer-and-capstone",
+        "lesion-and-symptom-mapping",
+        "lobes",
+        "subcortex"
+      ],
+      "id": "ATLAS-E068780EB6"
+    },
+    {
+      "citation": "Schmahmann JD. The cerebellum and cognition. Neurosci Lett. 2019;688:62–75.",
+      "year": 2019,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/j.neulet.2018.07.005",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brainstem-cerebellum"
+      ],
+      "id": "ATLAS-A3FADCB84F"
+    },
+    {
+      "citation": "Purves D, Augustine GJ, Fitzpatrick D, et al. Neuroscience. 6th ed. Oxford University Press; 2018.",
+      "year": 2018,
+      "sourceType": "Foundational textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurons"
+      ],
+      "id": "ATLAS-A8A39AB422"
+    },
+    {
+      "citation": "Hodgkin AL, Huxley AF. A quantitative description of membrane current and its application to conduction and excitation in nerve. Journal of Physiology. 1952;117(4):500–544.",
+      "year": 1952,
+      "sourceType": "Primary research",
+      "url": "https://doi.org/10.1113/jphysiol.1952.sp004764",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurons"
+      ],
+      "id": "ATLAS-6FD9C08C0F"
+    },
+    {
+      "citation": "Lüscher C, Malenka RC. NMDA receptor-dependent long-term potentiation and long-term depression. Cold Spring Harbor Perspectives in Biology. 2012;4(6):a005710.",
+      "year": 2012,
+      "sourceType": "Peer-reviewed review",
+      "url": "https://doi.org/10.1101/cshperspect.a005710",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurons"
+      ],
+      "id": "ATLAS-E06F04B95E"
+    },
+    {
+      "citation": "Perea G, Navarrete M, Araque A. Tripartite synapses: astrocytes process and control synaptic information. Trends Neurosci. 2009;32(8):421–431.",
+      "year": 2009,
+      "sourceType": "Foundational review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19615761/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "astrocytes"
+      ],
+      "id": "ATLAS-2615A58713"
+    },
+    {
+      "citation": "Cheung G, Sibille J, Zapata J, Rouach N. Activity-dependent plasticity of astroglial potassium and glutamate clearance. Neural Plast. 2015;2015:109106.",
+      "year": 2015,
+      "sourceType": "Homeostasis review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4539499/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "astrocytes"
+      ],
+      "id": "ATLAS-DE0A8FAF07"
+    },
+    {
+      "citation": "Petzold GC, Murthy VN. Role of astrocytes in neurovascular coupling. Neuron. 2011;71(5):782–797.",
+      "year": 2011,
+      "sourceType": "Neurovascular review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21903073/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "astrocytes"
+      ],
+      "id": "ATLAS-D432F8793A"
+    },
+    {
+      "citation": "Purves D, et al. Neuroglial Cells. Neuroscience. 2nd ed. NCBI Bookshelf.",
+      "year": null,
+      "sourceType": "Open textbook",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10869/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "astrocytes"
+      ],
+      "id": "ATLAS-92784FA2E8"
+    },
+    {
+      "citation": "Prinz M, Jung S, Priller J. Microglia Biology: One Century of Evolving Concepts. Cell. 2019;179(2):292–311.",
+      "year": 2019,
+      "sourceType": "Major review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Microglia+Biology%3A+One+Century+of+Evolving+Concepts",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "microglia"
+      ],
+      "id": "ATLAS-1A244682FF"
+    },
+    {
+      "citation": "Schafer DP, et al. Microglia Sculpt Postnatal Neural Circuits in an Activity and Complement-Dependent Manner. Neuron. 2012;74(4):691–705.",
+      "year": 2012,
+      "sourceType": "Synaptic pruning study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22632727/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "microglia"
+      ],
+      "id": "ATLAS-DCCAAA5CA3"
+    },
+    {
+      "citation": "Paolicelli RC, et al. Synaptic Pruning by Microglia Is Necessary for Normal Brain Development. Science. 2011;333(6048):1456–1458.",
+      "year": 2011,
+      "sourceType": "Developmental pruning study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21778362/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "microglia"
+      ],
+      "id": "ATLAS-3115BE98AF"
+    },
+    {
+      "citation": "Paolicelli RC, et al. Microglia States and Nomenclature: A Field at Its Crossroads. Neuron. 2022;110(21):3458–3483.",
+      "year": 2022,
+      "sourceType": "Nomenclature consensus",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36327895/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "microglia"
+      ],
+      "id": "ATLAS-FE01A4D425"
+    },
+    {
+      "citation": "Nave KA. Myelination and Support of Axonal Integrity by Glia. Nature. 2010;468:244–252.",
+      "year": 2010,
+      "sourceType": "Major review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21068833/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "oligodendrocytes"
+      ],
+      "id": "ATLAS-44FF4CB5B3"
+    },
+    {
+      "citation": "Simons M, Nave KA. Oligodendrocytes: Myelination and Axonal Support. Cold Spring Harbor Perspectives in Biology. 2015;8(1):a020479.",
+      "year": 2015,
+      "sourceType": "Major review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26101081/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "oligodendrocytes"
+      ],
+      "id": "ATLAS-1D7DB6A4FC"
+    },
+    {
+      "citation": "Fields RD. A New Mechanism of Nervous System Plasticity: Activity-Dependent Myelination. Nature Reviews Neuroscience. 2015;16:756–767.",
+      "year": 2015,
+      "sourceType": "Adaptive myelination review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26585800/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "oligodendrocytes"
+      ],
+      "id": "ATLAS-1B273DE011"
+    },
+    {
+      "citation": "Saab AS, et al. Oligodendroglial NMDA Receptors Regulate Glucose Import and Axonal Energy Metabolism. Neuron. 2016;91(1):119–132.",
+      "year": 2016,
+      "sourceType": "Axonal metabolic support",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27292539/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "oligodendrocytes"
+      ],
+      "id": "ATLAS-4E246A4818"
+    },
+    {
+      "citation": "Purves D, et al. Neuroscience. Membrane Potential. NCBI Bookshelf.",
+      "year": null,
+      "sourceType": "Open textbook",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11117/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "resting-potential"
+      ],
+      "id": "ATLAS-6EEDBF8083"
+    },
+    {
+      "citation": "Bean BP. The action potential in mammalian central neurons. Nature Reviews Neuroscience. 2007.",
+      "year": 2007,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1038/nrn2148",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "action-potentials",
+        "resting-potential"
+      ],
+      "id": "ATLAS-4A024B0C3C"
+    },
+    {
+      "citation": "Purves D, et al. Neuroscience. Action Potentials. NCBI Bookshelf.",
+      "year": null,
+      "sourceType": "Open textbook",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10888/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "action-potentials"
+      ],
+      "id": "ATLAS-465983D5F2"
+    },
+    {
+      "citation": "Südhof TC. The presynaptic active zone. Neuron. 2012.",
+      "year": 2012,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/j.neuron.2012.10.012",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "synapses"
+      ],
+      "id": "ATLAS-302567EB1E"
+    },
+    {
+      "citation": "Purves D, et al. Synaptic Transmission. NCBI Bookshelf.",
+      "year": null,
+      "sourceType": "Open textbook",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11115/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "synapses"
+      ],
+      "id": "ATLAS-2A1CE364EB"
+    },
+    {
+      "citation": "Kandel ER, et al. Principles of Neural Science, 6th ed. McGraw Hill. 2021.",
+      "year": 2021,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurotransmitters"
+      ],
+      "id": "ATLAS-5F933A4175"
+    },
+    {
+      "citation": "Tritsch NX, Sabatini BL. Dopaminergic modulation of synaptic transmission. Neuron. 2012.",
+      "year": 2012,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/j.neuron.2012.09.023",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurotransmitters"
+      ],
+      "id": "ATLAS-375268C507"
+    },
+    {
+      "citation": "Citri A, Malenka RC. Synaptic plasticity: multiple forms, functions, and mechanisms. Neuropsychopharmacology. 2008.",
+      "year": 2008,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1038/sj.npp.1301559",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neuroplasticity"
+      ],
+      "id": "ATLAS-671DC37C3F"
+    },
+    {
+      "citation": "Turrigiano G. Homeostatic synaptic plasticity. Cold Spring Harbor Perspectives in Biology. 2012.",
+      "year": 2012,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1101/cshperspect.a005736",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neuroplasticity"
+      ],
+      "id": "ATLAS-D905279535"
+    },
+    {
+      "citation": "Yeo BTT et al. The organization of the human cerebral cortex estimated by intrinsic functional connectivity. Journal of Neurophysiology. 2011.",
+      "year": 2011,
+      "sourceType": "Primary study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21653723/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "functional-networks"
+      ],
+      "id": "ATLAS-49DFDC55F9"
+    },
+    {
+      "citation": "Bassett DS, Sporns O. Network neuroscience. Nature Neuroscience. 2017.",
+      "year": 2017,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1038/nn.4502",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "functional-networks"
+      ],
+      "id": "ATLAS-28298A5CD5"
+    },
+    {
+      "citation": "Raichle ME et al. A default mode of brain function. PNAS. 2001.",
+      "year": 2001,
+      "sourceType": "Foundational paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11209064/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "default-mode-network"
+      ],
+      "id": "ATLAS-8AD153539A"
+    },
+    {
+      "citation": "Raichle ME. The brain’s default mode network. Annual Review of Neuroscience. 2015.",
+      "year": 2015,
+      "sourceType": "Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25938726/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "default-mode-network"
+      ],
+      "id": "ATLAS-156743EC8D"
+    },
+    {
+      "citation": "Seeley WW et al. Dissociable intrinsic connectivity networks for salience processing and executive control. Journal of Neuroscience. 2007.",
+      "year": 2007,
+      "sourceType": "Primary study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17329432/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "frontoparietal-control-network",
+        "salience-network"
+      ],
+      "id": "ATLAS-9E4DB922DE"
+    },
+    {
+      "citation": "Menon V. Large-scale brain networks and psychopathology: a unifying triple network model. Trends in Cognitive Sciences. 2011.",
+      "year": 2011,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/j.tics.2011.08.003",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "salience-network"
+      ],
+      "id": "ATLAS-D4EF62ABA3"
+    },
+    {
+      "citation": "Marek S, Dosenbach NUF. The frontoparietal network: function, electrophysiology, and importance of individual precision mapping. Dialogues in Clinical Neuroscience. 2018.",
+      "year": 2018,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.31887/DCNS.2018.20.2/smarek",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "frontoparietal-control-network"
+      ],
+      "id": "ATLAS-887F50A1FE"
+    },
+    {
+      "citation": "Corbetta M, Shulman GL. Control of goal-directed and stimulus-driven attention in the brain. Nature Reviews Neuroscience. 2002.",
+      "year": 2002,
+      "sourceType": "Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11994752/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "attention-networks"
+      ],
+      "id": "ATLAS-18DB0884A3"
+    },
+    {
+      "citation": "Petersen SE, Posner MI. The attention system of the human brain: 20 years after. Annual Review of Neuroscience. 2012.",
+      "year": 2012,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1146/annurev-neuro-062111-150525",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "attention-networks"
+      ],
+      "id": "ATLAS-8659EB3D7F"
+    },
+    {
+      "citation": "Stiles J, Jernigan TL. The basics of brain development. Neuropsychology Review. 2010;20:327–348.",
+      "year": 2010,
+      "sourceType": "Textbook",
+      "url": "https://doi.org/10.1007/s11065-010-9148-4",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "embryonic-neural-development",
+        "myelination",
+        "neural-tube-formation",
+        "neuronal-migration",
+        "synaptogenesis"
+      ],
+      "id": "ATLAS-385B1658E8"
+    },
+    {
+      "citation": "Silbereis JC et al. The cellular and molecular landscapes of the developing human central nervous system. Neuron. 2016;89:248–268.",
+      "year": 2016,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/j.neuron.2015.12.008",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "embryonic-neural-development",
+        "myelination",
+        "neural-tube-formation",
+        "neuronal-migration",
+        "synaptogenesis"
+      ],
+      "id": "ATLAS-B52ABE8386"
+    },
+    {
+      "citation": "Haines, 2018. Neuroanatomy: An Atlas of Structures, Sections, and Systems. Wolters Kluwer.",
+      "year": 2018,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cranial-nerves",
+        "meninges"
+      ],
+      "id": "ATLAS-76BF474279"
+    },
+    {
+      "citation": "Standring, 2021. Gray’s Anatomy, 42nd ed.. Elsevier.",
+      "year": 2021,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "meninges"
+      ],
+      "id": "ATLAS-5E7681B1E5"
+    },
+    {
+      "citation": "Sakka et al., 2011. Anatomy and physiology of cerebrospinal fluid. European Annals of Otorhinolaryngology.",
+      "year": 2011,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "meninges"
+      ],
+      "id": "ATLAS-E866EBC139"
+    },
+    {
+      "citation": "Brazis et al., 2011. Localization in Clinical Neurology. Lippincott Williams & Wilkins.",
+      "year": 2011,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cranial-nerves"
+      ],
+      "id": "ATLAS-2AF140D09C"
+    },
+    {
+      "citation": "Mumenthaler et al., 2017. Fundamentals of Neurology. Thieme.",
+      "year": 2017,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cranial-nerves"
+      ],
+      "id": "ATLAS-E985828E7A"
+    },
+    {
+      "citation": "Kandel et al., 2021. Principles of Neural Science, 6th ed.. McGraw-Hill.",
+      "year": 2021,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "auditory-system",
+        "somatosensory-system",
+        "visual-system"
+      ],
+      "id": "ATLAS-B9FE449266"
+    },
+    {
+      "citation": "Goodale & Milner, 1992. Separate visual pathways for perception and action. Trends in Neurosciences.",
+      "year": 1992,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "visual-system"
+      ],
+      "id": "ATLAS-ABEEFB7359"
+    },
+    {
+      "citation": "Wandell et al., 2007. Visual field maps in human cortex. Neuron.",
+      "year": 2007,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "visual-system"
+      ],
+      "id": "ATLAS-B80558844A"
+    },
+    {
+      "citation": "Pickles, 2013. An Introduction to the Physiology of Hearing. Brill.",
+      "year": 2013,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "auditory-system"
+      ],
+      "id": "ATLAS-C235BA156A"
+    },
+    {
+      "citation": "Rauschecker & Scott, 2009. Maps and streams in the auditory cortex. Nature Neuroscience.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "auditory-system"
+      ],
+      "id": "ATLAS-B379E97F57"
+    },
+    {
+      "citation": "Craig, 2002. How do you feel? Interoception: the sense of the physiological condition of the body. Nature Reviews Neuroscience.",
+      "year": 2002,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "somatosensory-system"
+      ],
+      "id": "ATLAS-F0EDF658D8"
+    },
+    {
+      "citation": "Basbaum et al., 2009. Cellular and molecular mechanisms of pain. Cell.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "somatosensory-system"
+      ],
+      "id": "ATLAS-F0C8FE2D4D"
+    },
+    {
+      "citation": "Kandel ER et al. Principles of Neural Science. 6th ed. McGraw-Hill; 2021.",
+      "year": 2021,
+      "sourceType": "Textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "autonomic-nervous-system",
+        "brain-energy-metabolism",
+        "consciousness-arousal",
+        "executive-function",
+        "integrated-systems-capstone",
+        "language-networks",
+        "memory-systems",
+        "motor-system",
+        "neuroimmunology"
+      ],
+      "id": "ATLAS-B4401F8165"
+    },
+    {
+      "citation": "Lemon RN. Descending pathways in motor control. Annu Rev Neurosci. 2008;31:195–218.",
+      "year": 2008,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "motor-system"
+      ],
+      "id": "ATLAS-AFB7899028"
+    },
+    {
+      "citation": "Shadmehr R, Krakauer JW. A computational neuroanatomy for motor control. Exp Brain Res. 2008;185:359–381.",
+      "year": 2008,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "motor-system"
+      ],
+      "id": "ATLAS-8C6EC8CA84"
+    },
+    {
+      "citation": "Benarroch EE. The central autonomic network. Mayo Clin Proc. 1993;68:988–1001.",
+      "year": 1993,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "autonomic-nervous-system"
+      ],
+      "id": "ATLAS-6D227CA048"
+    },
+    {
+      "citation": "Critchley HD, Harrison NA. Visceral influences on brain and behavior. Neuron. 2013;77:624–638.",
+      "year": 2013,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "autonomic-nervous-system"
+      ],
+      "id": "ATLAS-4117128A8D"
+    },
+    {
+      "citation": "Squire LR, Dede AJO. Conscious and unconscious memory systems. Cold Spring Harb Perspect Biol. 2015;7:a021667.",
+      "year": 2015,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "memory-systems"
+      ],
+      "id": "ATLAS-744EE54E7A"
+    },
+    {
+      "citation": "Dudai Y, Karni A, Born J. The consolidation and transformation of memory. Neuron. 2015;88:20–32.",
+      "year": 2015,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "memory-systems"
+      ],
+      "id": "ATLAS-42A2937247"
+    },
+    {
+      "citation": "Hickok G, Poeppel D. The cortical organization of speech processing. Nat Rev Neurosci. 2007;8:393–402.",
+      "year": 2007,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "language-networks"
+      ],
+      "id": "ATLAS-E1395BAC91"
+    },
+    {
+      "citation": "Friederici AD. The brain basis of language processing. Physiol Rev. 2011;91:1357–1392.",
+      "year": 2011,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "language-networks"
+      ],
+      "id": "ATLAS-FF39CA7FBA"
+    },
+    {
+      "citation": "Miyake A et al. The unity and diversity of executive functions. Cogn Psychol. 2000;41:49–100.",
+      "year": 2000,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "executive-function"
+      ],
+      "id": "ATLAS-357433E537"
+    },
+    {
+      "citation": "Diamond A. Executive functions. Annu Rev Psychol. 2013;64:135–168.",
+      "year": 2013,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "executive-function"
+      ],
+      "id": "ATLAS-BE26A3D52E"
+    },
+    {
+      "citation": "Ochsner KN, Gross JJ. The cognitive control of emotion. Trends in Cognitive Sciences. 2005.",
+      "year": 2005,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "emotion-regulation-networks"
+      ],
+      "id": "ATLAS-EC23599E6F"
+    },
+    {
+      "citation": "Etkin A, Büchel C, Gross JJ. The neural bases of emotion regulation. Nature Reviews Neuroscience. 2015.",
+      "year": 2015,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "emotion-regulation-networks"
+      ],
+      "id": "ATLAS-66255B7E95"
+    },
+    {
+      "citation": "Gross JJ. Emotion regulation: current status and future prospects. Psychological Inquiry. 2015.",
+      "year": 2015,
+      "sourceType": "Framework",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "emotion-regulation-networks"
+      ],
+      "id": "ATLAS-7485EDC5BC"
+    },
+    {
+      "citation": "Schultz W. Dopamine reward prediction-error signalling: a two-component response. Nature Reviews Neuroscience. 2016.",
+      "year": 2016,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "reward-system"
+      ],
+      "id": "ATLAS-9CB93D80DD"
+    },
+    {
+      "citation": "Berridge KC, Robinson TE. Liking, wanting, and the incentive-sensitization theory of addiction. American Psychologist. 2016.",
+      "year": 2016,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "reward-system"
+      ],
+      "id": "ATLAS-C8190A8595"
+    },
+    {
+      "citation": "Haber SN, Knutson B. The reward circuit: linking primate anatomy and human imaging. Neuropsychopharmacology. 2010.",
+      "year": 2010,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "reward-system"
+      ],
+      "id": "ATLAS-D35CEEBA72"
+    },
+    {
+      "citation": "Borbély AA. A two process model of sleep regulation. Human Neurobiology. 1982.",
+      "year": 1982,
+      "sourceType": "Framework",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "sleep-circadian-rhythms"
+      ],
+      "id": "ATLAS-63AAA79BFD"
+    },
+    {
+      "citation": "Saper CB, Fuller PM. Wake-sleep circuitry: an overview. Current Opinion in Neurobiology. 2017.",
+      "year": 2017,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "sleep-circadian-rhythms"
+      ],
+      "id": "ATLAS-59166C6723"
+    },
+    {
+      "citation": "American Academy of Sleep Medicine. International Classification of Sleep Disorders, 3rd ed., text revision. 2023.",
+      "year": 2023,
+      "sourceType": "Consensus",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "sleep-circadian-rhythms"
+      ],
+      "id": "ATLAS-905E01FC5D"
+    },
+    {
+      "citation": "Raja SN et al. The revised IASP definition of pain. Pain. 2020.",
+      "year": 2020,
+      "sourceType": "Definition",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "pain-processing"
+      ],
+      "id": "ATLAS-9166F5BC70"
+    },
+    {
+      "citation": "Tracey I, Mantyh PW. The cerebral signature for pain perception and its modulation. Neuron. 2007.",
+      "year": 2007,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "pain-processing"
+      ],
+      "id": "ATLAS-2A9BC8BDAE"
+    },
+    {
+      "citation": "Kuner R, Flor H. Structural plasticity and reorganisation in chronic pain. Nature Reviews Neuroscience. 2017.",
+      "year": 2017,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "pain-processing"
+      ],
+      "id": "ATLAS-0F0362DA9A"
+    },
+    {
+      "citation": "Livingston G et al. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. The Lancet. 2024.",
+      "year": 2024,
+      "sourceType": "Commission",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-health-ageing"
+      ],
+      "id": "ATLAS-5863389C71"
+    },
+    {
+      "citation": "Stern Y et al. Whitepaper: defining and investigating cognitive reserve, brain reserve, and brain maintenance. Alzheimer’s & Dementia. 2020.",
+      "year": 2020,
+      "sourceType": "Review",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-health-ageing"
+      ],
+      "id": "ATLAS-44723CD6C8"
+    },
+    {
+      "citation": "World Health Organization. Risk reduction of cognitive decline and dementia: WHO guidelines. 2019.",
+      "year": 2019,
+      "sourceType": "Framework",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-health-ageing"
+      ],
+      "id": "ATLAS-71DADA6BE8"
+    },
+    {
+      "citation": "Edlow BL et al. Early detection of consciousness in patients with acute severe traumatic brain injury. Brain. 2017;140:2399–2414.",
+      "year": 2017,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "consciousness-arousal"
+      ],
+      "id": "ATLAS-F23541307A"
+    },
+    {
+      "citation": "Saper CB, Fuller PM. Wake–sleep circuitry: an overview. Curr Opin Neurobiol. 2017;44:186–192.",
+      "year": 2017,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "consciousness-arousal"
+      ],
+      "id": "ATLAS-D3CEF8FF4D"
+    },
+    {
+      "citation": "Corballis MC. Left Brain, Right Brain: Facts and Fantasies. PLoS Biol. 2014;12:e1001767.",
+      "year": 2014,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-lateralisation"
+      ],
+      "id": "ATLAS-2757AD8723"
+    },
+    {
+      "citation": "Toga AW, Thompson PM. Mapping brain asymmetry. Nat Rev Neurosci. 2003;4:37–48.",
+      "year": 2003,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-lateralisation"
+      ],
+      "id": "ATLAS-45B3DE7C49"
+    },
+    {
+      "citation": "Dantzer R et al. From inflammation to sickness and depression. Nat Rev Neurosci. 2008;9:46–56.",
+      "year": 2008,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neuroimmunology"
+      ],
+      "id": "ATLAS-AE025F75CB"
+    },
+    {
+      "citation": "Salter MW, Stevens B. Microglia emerge as central players in brain disease. Nat Med. 2017;23:1018–1027.",
+      "year": 2017,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neuroimmunology"
+      ],
+      "id": "ATLAS-3CFEE11673"
+    },
+    {
+      "citation": "Magistretti PJ, Allaman I. A cellular perspective on brain energy metabolism and functional imaging. Neuron. 2015;86:883–901.",
+      "year": 2015,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-energy-metabolism"
+      ],
+      "id": "ATLAS-7F8B677F7B"
+    },
+    {
+      "citation": "Attwell D, Laughlin SB. An energy budget for signaling in the grey matter of the brain. J Cereb Blood Flow Metab. 2001;21:1133–1145.",
+      "year": 2001,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-energy-metabolism"
+      ],
+      "id": "ATLAS-C79C2444FA"
+    },
+    {
+      "citation": "Pessoa L. The Cognitive-Emotional Brain. MIT Press; 2013.",
+      "year": 2013,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "integrated-systems-capstone"
+      ],
+      "id": "ATLAS-C1F06C472B"
+    },
+    {
+      "citation": "Cacioppo JT, Berntson GG. Social psychological contributions to the decade of the brain. Am Psychol. 1992;47:1019–1028.",
+      "year": 1992,
+      "sourceType": "Reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "integrated-systems-capstone"
+      ],
+      "id": "ATLAS-A900AB9D54"
+    },
+    {
+      "citation": "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders. 5th ed., text rev.; 2022.",
+      "year": 2022,
+      "sourceType": "Diagnostic framework",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "personality-disorders-neuroscience"
+      ],
+      "id": "ATLAS-3788F505B8"
+    },
+    {
+      "citation": "Sharp C, Wall K. Personality pathology grows up: adolescence as a sensitive period. Current Opinion in Psychology. 2018;21:111–116.",
+      "year": 2018,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/j.copsyc.2017.11.010",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "personality-disorders-neuroscience"
+      ],
+      "id": "ATLAS-C1766D7F09"
+    },
+    {
+      "citation": "Herpertz SC, Bertsch K. The social-cognitive basis of personality disorders. Current Opinion in Psychiatry. 2014;27(1):73–77.",
+      "year": 2014,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1097/YCO.0000000000000026",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "personality-disorders-neuroscience"
+      ],
+      "id": "ATLAS-AFECB1D647"
+    },
+    {
+      "citation": "International Classification of Sleep Disorders. 3rd ed., text revision. American Academy of Sleep Medicine; 2023.",
+      "year": 2023,
+      "sourceType": "Diagnostic framework",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "sleep-disorders-neuroscience"
+      ],
+      "id": "ATLAS-CFD7F2FAEB"
+    },
+    {
+      "citation": "Borbély AA, Daan S, Wirz-Justice A, Deboer T. The two-process model of sleep regulation. Journal of Sleep Research. 2016;25(2):131–143.",
+      "year": 2016,
+      "sourceType": "Foundational model",
+      "url": "https://doi.org/10.1111/jsr.12371",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "sleep-disorders-neuroscience"
+      ],
+      "id": "ATLAS-E3FAAF23BD"
+    },
+    {
+      "citation": "Riemann D, et al. The neurobiology, investigation, and treatment of chronic insomnia. Lancet Neurology. 2015;14(5):547–558.",
+      "year": 2015,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/S1474-4422(15)00021-6",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "sleep-disorders-neuroscience"
+      ],
+      "id": "ATLAS-4B7E04D448"
+    },
+    {
+      "citation": "Koob GF, Volkow ND. Neurobiology of addiction: a neurocircuitry analysis. Lancet Psychiatry. 2016;3(8):760–773.",
+      "year": 2016,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1016/S2215-0366(16)00104-8",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "substance-use-neuroscience"
+      ],
+      "id": "ATLAS-27A5C80EA2"
+    },
+    {
+      "citation": "Robinson TE, Berridge KC. The incentive sensitization theory of addiction. Philosophical Transactions B. 2008;363:3137–3146.",
+      "year": 2008,
+      "sourceType": "Theory/review",
+      "url": "https://doi.org/10.1098/rstb.2008.0093",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "substance-use-neuroscience"
+      ],
+      "id": "ATLAS-D015BF0B10"
+    },
+    {
+      "citation": "Volkow ND, Michaelides M, Baler R. The neuroscience of drug reward and addiction. Physiological Reviews. 2019;99(4):2115–2140.",
+      "year": 2019,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1152/physrev.00014.2018",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "substance-use-neuroscience"
+      ],
+      "id": "ATLAS-534C0BF29A"
+    },
+    {
+      "citation": "Jack CR Jr, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease. Alzheimer’s & Dementia. 2018;14(4):535–562.",
+      "year": 2018,
+      "sourceType": "Framework",
+      "url": "https://doi.org/10.1016/j.jalz.2018.02.018",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurodegenerative-disorders"
+      ],
+      "id": "ATLAS-498D667A14"
+    },
+    {
+      "citation": "McKeith IG, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report. Neurology. 2017;89(1):88–100.",
+      "year": 2017,
+      "sourceType": "Consensus",
+      "url": "https://doi.org/10.1212/WNL.0000000000004058",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurodegenerative-disorders"
+      ],
+      "id": "ATLAS-6856610373"
+    },
+    {
+      "citation": "Rascovsky K, et al. Sensitivity of revised diagnostic criteria for behavioural variant frontotemporal dementia. Brain. 2011;134(9):2456–2477.",
+      "year": 2011,
+      "sourceType": "Diagnostic validation",
+      "url": "https://doi.org/10.1093/brain/awr179",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neurodegenerative-disorders"
+      ],
+      "id": "ATLAS-538D07AE6E"
+    },
+    {
+      "citation": "Fisher RS, et al. ILAE official report: a practical clinical definition of epilepsy. Epilepsia. 2014;55(4):475–482.",
+      "year": 2014,
+      "sourceType": "Consensus definition",
+      "url": "https://doi.org/10.1111/epi.12550",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "epilepsy-neuroscience"
+      ],
+      "id": "ATLAS-7C30B4BA2F"
+    },
+    {
+      "citation": "Fisher RS, et al. Operational classification of seizure types by the ILAE. Epilepsia. 2017;58(4):522–530.",
+      "year": 2017,
+      "sourceType": "Classification",
+      "url": "https://doi.org/10.1111/epi.13670",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "epilepsy-neuroscience"
+      ],
+      "id": "ATLAS-37C0F1E623"
+    },
+    {
+      "citation": "Devinsky O, et al. Epilepsy. Nature Reviews Disease Primers. 2018;4:18024.",
+      "year": 2018,
+      "sourceType": "Review",
+      "url": "https://doi.org/10.1038/nrdp.2018.24",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "epilepsy-neuroscience"
+      ],
+      "id": "ATLAS-165829F379"
+    },
+    {
+      "citation": "Maas AIR, et al. Traumatic brain injury: integrated approaches to improve prevention, clinical care, and research. Lancet Neurol. 2017;16:987–1048.",
+      "year": 2017,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S1474-4422(17)30371-X",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "traumatic-brain-injury"
+      ],
+      "id": "ATLAS-8FDBAD4D85"
+    },
+    {
+      "citation": "McCrory P, et al. Consensus statement on concussion in sport. Br J Sports Med. 2017;51:838–847.",
+      "year": 2017,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1136/bjsports-2017-097699",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "traumatic-brain-injury"
+      ],
+      "id": "ATLAS-3796ADFDEA"
+    },
+    {
+      "citation": "Silverberg ND, Iverson GL. Etiology of the post-concussion syndrome. NeuroRehabilitation. 2011;29:317–329.",
+      "year": 2011,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.3233/NRE-2011-0703",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "traumatic-brain-injury"
+      ],
+      "id": "ATLAS-EEFB6B48AD"
+    },
+    {
+      "citation": "Goadsby PJ, et al. Pathophysiology of migraine: a disorder of sensory processing. Physiol Rev. 2017;97:553–622.",
+      "year": 2017,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1152/physrev.00034.2015",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "migraine-neuroscience"
+      ],
+      "id": "ATLAS-432C4E7632"
+    },
+    {
+      "citation": "Charles A. The pathophysiology of migraine: implications for clinical management. Lancet Neurol. 2018;17:174–182.",
+      "year": 2018,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S1474-4422(17)30435-0",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "migraine-neuroscience"
+      ],
+      "id": "ATLAS-7DC6BDE50A"
+    },
+    {
+      "citation": "Ashina M. Migraine. N Engl J Med. 2020;383:1866–1876.",
+      "year": 2020,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1056/NEJMra1915327",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "migraine-neuroscience"
+      ],
+      "id": "ATLAS-CA0FD231FA"
+    },
+    {
+      "citation": "Treasure J, Duarte TA, Schmidt U. Eating disorders. Lancet. 2020;395:899–911.",
+      "year": 2020,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S0140-6736(20)30059-3",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "eating-disorders-neuroscience"
+      ],
+      "id": "ATLAS-400FBBA0EB"
+    },
+    {
+      "citation": "Kaye WH, Wierenga CE, Bailer UF, Simmons AN, Bischoff-Grethe A. Nothing tastes as good as skinny feels. Trends Neurosci. 2013;36:110–120.",
+      "year": 2013,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/j.tins.2013.01.003",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "eating-disorders-neuroscience"
+      ],
+      "id": "ATLAS-C7E943FA63"
+    },
+    {
+      "citation": "Frank GKW. Advances from neuroimaging studies in eating disorders. CNS Spectr. 2015;20:391–400.",
+      "year": 2015,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1017/S1092852915000012",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "eating-disorders-neuroscience"
+      ],
+      "id": "ATLAS-8870BABB73"
+    },
+    {
+      "citation": "Pringsheim T, et al. Canadian guidelines for the evidence-based treatment of tic disorders. Can J Psychiatry. 2012;57:133–143.",
+      "year": 2012,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1177/070674371205700302",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "tic-tourette-neuroscience"
+      ],
+      "id": "ATLAS-F4833BDA3D"
+    },
+    {
+      "citation": "Martino D, Leckman JF. Tourette Syndrome. Oxford University Press; 2013.",
+      "year": 2013,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1093/med/9780199796267.001.0001",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "tic-tourette-neuroscience"
+      ],
+      "id": "ATLAS-5203673637"
+    },
+    {
+      "citation": "McGuire JF, et al. A meta-analysis of behavior therapy for Tourette syndrome. J Psychiatr Res. 2014;50:106–112.",
+      "year": 2014,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/j.jpsychires.2013.12.009",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "tic-tourette-neuroscience"
+      ],
+      "id": "ATLAS-DACCC5ABBD"
+    },
+    {
+      "citation": "American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, 5th ed, text rev. 2022.",
+      "year": 2022,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1176/appi.books.9780890425787",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "intellectual-developmental-disability"
+      ],
+      "id": "ATLAS-7273A4B136"
+    },
+    {
+      "citation": "Schalock RL, et al. Intellectual Disability: Definition, Diagnosis, Classification, and Systems of Supports. 12th ed. AAIDD; 2021.",
+      "year": 2021,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://www.aaidd.org/intellectual-disability/definition",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "intellectual-developmental-disability"
+      ],
+      "id": "ATLAS-5755415E14"
+    },
+    {
+      "citation": "Patel DR, Cabral MD, Ho A, Merrick J. A clinical primer on intellectual disability. Transl Pediatr. 2020;9:S23–S35.",
+      "year": 2020,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.21037/tp.2020.02.02",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "intellectual-developmental-disability"
+      ],
+      "id": "ATLAS-59B7632ADB"
+    },
+    {
+      "citation": "Peterson RL, Pennington BF. Developmental dyslexia. Lancet. 2012;379:1997–2007.",
+      "year": 2012,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/S0140-6736(12)60198-6",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "learning-disorders-neuroscience"
+      ],
+      "id": "ATLAS-701E047EFD"
+    },
+    {
+      "citation": "Butterworth B, Varma S, Laurillard D. Dyscalculia: from brain to education. Science. 2011;332:1049–1053.",
+      "year": 2011,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1126/science.1201536",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "learning-disorders-neuroscience"
+      ],
+      "id": "ATLAS-F4225BF1D4"
+    },
+    {
+      "citation": "Bishop DVM, et al. Phase 2 of CATALISE: terminology. J Child Psychol Psychiatry. 2017;58:1068–1080.",
+      "year": 2017,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1111/jcpp.12721",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "communication-disorders-neuroscience"
+      ],
+      "id": "ATLAS-71E6F64A60"
+    },
+    {
+      "citation": "Fedorenko E, Thompson-Schill SL. Reworking the language network. Trends Cogn Sci. 2014;18:120–126.",
+      "year": 2014,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/j.tics.2013.12.006",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "communication-disorders-neuroscience"
+      ],
+      "id": "ATLAS-D41077D876"
+    },
+    {
+      "citation": "Craske MG, et al. Maximizing exposure therapy. Behav Res Ther. 2014;58:10–23.",
+      "year": 2014,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/j.brat.2014.04.006",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "anxiety-spectrum-comparison"
+      ],
+      "id": "ATLAS-E021319FE0"
+    },
+    {
+      "citation": "Grupe DW, Nitschke JB. Uncertainty and anticipation in anxiety. Nat Rev Neurosci. 2013;14:488–501.",
+      "year": 2013,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1038/nrn3524",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "anxiety-spectrum-comparison"
+      ],
+      "id": "ATLAS-E833BB94D0"
+    },
+    {
+      "citation": "Stahl SM. Stahl’s Essential Psychopharmacology. 5th ed. Cambridge University Press; 2021.",
+      "year": 2021,
+      "sourceType": "Primary or authoritative source",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "psychopharmacology-foundations"
+      ],
+      "id": "ATLAS-2EED87ADA9"
+    },
+    {
+      "citation": "Moncrieff J, et al. The serotonin theory of depression: umbrella review. Mol Psychiatry. 2023;28:3243–3256.",
+      "year": 2023,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1038/s41380-022-01661-0",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "psychopharmacology-foundations"
+      ],
+      "id": "ATLAS-D517DE6BAB"
+    },
+    {
+      "citation": "Catani M, ffytche DH. The rises and falls of disconnection syndromes. Brain. 2005;128:2224–2239.",
+      "year": 2005,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1093/brain/awh622",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "clinical-neuroanatomy-review"
+      ],
+      "id": "ATLAS-8810CAE026"
+    },
+    {
+      "citation": "Posner MI, Petersen SE. The attention system of the human brain. Annu Rev Neurosci. 1990;13:25–42.",
+      "year": 1990,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1146/annurev.ne.13.030190.000325",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "attention-neuropsychology"
+      ],
+      "id": "ATLAS-543FDE06D4"
+    },
+    {
+      "citation": "Petersen SE, Posner MI. The attention system of the human brain: 20 years after. Annu Rev Neurosci. 2012;35:73–89.",
+      "year": 2012,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1146/annurev-neuro-062111-150525",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "attention-neuropsychology"
+      ],
+      "id": "ATLAS-4515050C6C"
+    },
+    {
+      "citation": "Salthouse TA. The processing-speed theory of adult age differences in cognition. Psychol Rev. 1996;103:403–428.",
+      "year": 1996,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1037/0033-295X.103.3.403",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "processing-speed-neuropsychology"
+      ],
+      "id": "ATLAS-7546672CE5"
+    },
+    {
+      "citation": "Fry AF, Hale S. Processing speed, working memory, and fluid intelligence. Psychol Sci. 1996;7:237–241.",
+      "year": 1996,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1111/j.1467-9280.1996.tb00366.x",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "processing-speed-neuropsychology"
+      ],
+      "id": "ATLAS-72AF02F4AF"
+    },
+    {
+      "citation": "Baddeley A. Working memory: looking back and looking forward. Nat Rev Neurosci. 2003;4:829–839.",
+      "year": 2003,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1038/nrn1201",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "working-memory-neuropsychology"
+      ],
+      "id": "ATLAS-64708AB754"
+    },
+    {
+      "citation": "D’Esposito M, Postle BR. The cognitive neuroscience of working memory. Annu Rev Psychol. 2015;66:115–142.",
+      "year": 2015,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1146/annurev-psych-010814-015031",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "working-memory-neuropsychology"
+      ],
+      "id": "ATLAS-1F09975D84"
+    },
+    {
+      "citation": "Squire LR, Wixted JT. The cognitive neuroscience of human memory since H.M. Annu Rev Neurosci. 2011;34:259–288.",
+      "year": 2011,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1146/annurev-neuro-061010-113720",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "episodic-memory-neuropsychology"
+      ],
+      "id": "ATLAS-F4BAEEE3C2"
+    },
+    {
+      "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
+      "year": 2012,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "agnosia-recognition",
+        "ecological-validity-functional-cognition",
+        "episodic-memory-neuropsychology",
+        "hemispatial-neglect",
+        "neuropsychological-report-feedback",
+        "older-adult-neuropsychology",
+        "paediatric-neuropsychology",
+        "performance-validity",
+        "praxis-apraxia",
+        "premorbid-ability-estimation",
+        "procedural-learning-neuropsychology",
+        "psychiatric-state-confounds",
+        "semantic-memory-neuropsychology"
+      ],
+      "id": "ATLAS-6E9CBCF73C"
+    },
+    {
+      "citation": "Goodale MA, Milner AD. Separate visual pathways for perception and action. Trends Neurosci. 1992;15:20–25.",
+      "year": 1992,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1016/0166-2236(92)90344-8",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "visuospatial-neuropsychology"
+      ],
+      "id": "ATLAS-646DD658D7"
+    },
+    {
+      "citation": "Corbetta M, Shulman GL. Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci. 2002;3:201–215.",
+      "year": 2002,
+      "sourceType": "Primary or authoritative source",
+      "url": "https://doi.org/10.1038/nrn755",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "visuospatial-neuropsychology"
+      ],
+      "id": "ATLAS-B59DF4D491"
+    },
+    {
+      "citation": "Adolphs R. The social brain: neural basis of social knowledge. Annual Review of Psychology. 2009.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1146/annurev.psych.60.110707.163514",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "social-cognition-neuropsychology"
+      ],
+      "id": "ATLAS-095D044829"
+    },
+    {
+      "citation": "Henry JD et al. Clinical assessment of social cognitive function in neurological disorders. Nature Reviews Neurology. 2016.",
+      "year": 2016,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1038/nrneurol.2016.89",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "social-cognition-neuropsychology"
+      ],
+      "id": "ATLAS-BE00406026"
+    },
+    {
+      "citation": "Miyake A et al. The unity and diversity of executive functions. Cognitive Psychology. 2000.",
+      "year": 2000,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1006/cogp.1999.0734",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "executive-assessment"
+      ],
+      "id": "ATLAS-3C0E39C82B"
+    },
+    {
+      "citation": "Suchy Y. Executive functioning: overview, assessment, and research issues. Journal of Clinical and Experimental Neuropsychology. 2009.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1080/13803390802049294",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "executive-assessment"
+      ],
+      "id": "ATLAS-C102750AAD"
+    },
+    {
+      "citation": "Hickok G, Poeppel D. The cortical organization of speech processing. Nature Reviews Neuroscience. 2007.",
+      "year": 2007,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1038/nrn2113",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "language-assessment"
+      ],
+      "id": "ATLAS-CDDFCE36FC"
+    },
+    {
+      "citation": "Spreen O, Risser AH. Assessment of Aphasia. Oxford University Press. 2003.",
+      "year": 2003,
+      "sourceType": "reference",
+      "url": "https://global.oup.com/academic/product/assessment-of-aphasia-9780195140750",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "language-assessment"
+      ],
+      "id": "ATLAS-E09776C066"
+    },
+    {
+      "citation": "Hebben N, Milberg W. Essentials of Neuropsychological Assessment. Wiley. 2009.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": "https://www.wiley.com/en-us/Essentials+of+Neuropsychological+Assessment%2C+2nd+Edition-p-9780470437476",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neuropsychological-case-formulation"
+      ],
+      "id": "ATLAS-1026CD6FBA"
+    },
+    {
+      "citation": "Lezak MD et al. Neuropsychological Assessment. Oxford University Press. 2012.",
+      "year": 2012,
+      "sourceType": "reference",
+      "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neuropsychological-case-formulation"
+      ],
+      "id": "ATLAS-2AFB47F39D"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007.",
+      "year": 2007,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1080/13825580601025932",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "clinical-test-interpretation"
+      ],
+      "id": "ATLAS-0CB13E0E3A"
+    },
+    {
+      "citation": "Brooks BL, Sherman EMS, Strauss E. Test review and base-rate considerations in neuropsychological assessment. Psychological Assessment. 2009.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1037/a0015377",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "clinical-test-interpretation"
+      ],
+      "id": "ATLAS-F1B40D1F01"
+    },
+    {
+      "citation": "Lambon Ralph MA et al. The neural and computational bases of semantic cognition. Nature Reviews Neuroscience. 2017;18:42–55.",
+      "year": 2017,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1038/nrn.2016.150",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "semantic-memory-neuropsychology"
+      ],
+      "id": "ATLAS-FF059FA323"
+    },
+    {
+      "citation": "American Academy of Clinical Neuropsychology. Practice guidelines for neuropsychological assessment and consultation. The Clinical Neuropsychologist. 2007;21(2):209–231.",
+      "year": 2007,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1080/13825580601025932",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "agnosia-recognition",
+        "ecological-validity-functional-cognition",
+        "hemispatial-neglect",
+        "neuropsychological-report-feedback",
+        "older-adult-neuropsychology",
+        "paediatric-neuropsychology",
+        "performance-validity",
+        "praxis-apraxia",
+        "premorbid-ability-estimation",
+        "procedural-learning-neuropsychology",
+        "psychiatric-state-confounds",
+        "semantic-memory-neuropsychology"
+      ],
+      "id": "ATLAS-0A83511B8F"
+    },
+    {
+      "citation": "Squire LR. Memory systems of the brain: a brief history and current perspective. Neurobiology of Learning and Memory. 2004;82:171–177.",
+      "year": 2004,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1016/j.nlm.2004.06.005",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "procedural-learning-neuropsychology"
+      ],
+      "id": "ATLAS-8FEB09FFC7"
+    },
+    {
+      "citation": "Goldenberg G. Apraxia and the parietal lobes. Neuropsychologia. 2009;47:1449–1459.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1016/j.neuropsychologia.2008.07.014",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "praxis-apraxia"
+      ],
+      "id": "ATLAS-C9FB449AF1"
+    },
+    {
+      "citation": "Farah MJ. Visual Agnosia. 2nd ed. MIT Press; 2004.",
+      "year": 2004,
+      "sourceType": "reference",
+      "url": "https://mitpress.mit.edu/9780262562034/visual-agnosia/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "agnosia-recognition"
+      ],
+      "id": "ATLAS-EAC619613C"
+    },
+    {
+      "citation": "Corbetta M, Shulman GL. Spatial neglect and attention networks. Annual Review of Neuroscience. 2011;34:569–599.",
+      "year": 2011,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1146/annurev-neuro-061010-113731",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "hemispatial-neglect"
+      ],
+      "id": "ATLAS-E5B43B8EAF"
+    },
+    {
+      "citation": "Sweet JJ et al. American Academy of Clinical Neuropsychology consensus conference statement on validity assessment. The Clinical Neuropsychologist. 2021;35:1053–1106.",
+      "year": 2021,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1080/13854046.2021.1896036",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "performance-validity"
+      ],
+      "id": "ATLAS-C103766952"
+    },
+    {
+      "citation": "Franzen MD, Burgess EJ, Smith-Seemiller L. Methods of estimating premorbid functioning. Archives of Clinical Neuropsychology. 1997;12:711–738.",
+      "year": 1997,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1093/arclin/12.8.711",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "premorbid-ability-estimation"
+      ],
+      "id": "ATLAS-16288DEC1D"
+    },
+    {
+      "citation": "Chaytor N, Schmitter-Edgecombe M. The ecological validity of neuropsychological tests. Neuropsychology Review. 2003;13:181–197.",
+      "year": 2003,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1023/B:NERV.0000009483.91468.fb",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "ecological-validity-functional-cognition"
+      ],
+      "id": "ATLAS-4EEC00434B"
+    },
+    {
+      "citation": "McDermott LM, Ebmeier KP. A meta-analysis of depression severity and cognitive function. Journal of Affective Disorders. 2009;119:1–8.",
+      "year": 2009,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1016/j.jad.2009.04.022",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "psychiatric-state-confounds"
+      ],
+      "id": "ATLAS-C62750B975"
+    },
+    {
+      "citation": "Anderson V et al. Developmental neuropsychology: a clinical approach. Psychology Press; 2001.",
+      "year": 2001,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.4324/9780203764534",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "paediatric-neuropsychology"
+      ],
+      "id": "ATLAS-A4CC754392"
+    },
+    {
+      "citation": "Harada CN, Natelson Love MC, Triebel KL. Normal cognitive aging. Clinics in Geriatric Medicine. 2013;29:737–752.",
+      "year": 2013,
+      "sourceType": "reference",
+      "url": "https://doi.org/10.1016/j.cger.2013.07.002",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "older-adult-neuropsychology"
+      ],
+      "id": "ATLAS-CBCCBBD7D3"
+    },
+    {
+      "citation": "Postal KS, Armstrong K. Feedback That Sticks: The Art of Effectively Communicating Neuropsychological Assessment Results. Oxford University Press; 2013.",
+      "year": 2013,
+      "sourceType": "reference",
+      "url": "https://global.oup.com/academic/product/feedback-that-sticks-9780199765690",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "neuropsychological-report-feedback"
+      ],
+      "id": "ATLAS-69D1F3F807"
+    },
+    {
+      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
+      "year": 2021,
+      "sourceType": "Guideline",
+      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "amplitude-frequency-phase",
+        "artifact-rejection-principles",
+        "cardiac-pulse-artifact",
+        "clinical-reporting-qeeg",
+        "coherence-connectivity",
+        "cortical-generators",
+        "developmental-eeg",
+        "drowsiness-and-sleep-stages",
+        "ecg-eog-emg-channels",
+        "eeg-qeeg-capstone",
+        "eeg-state-dependence",
+        "eeg-what-it-measures",
+        "electrode-10-20-system",
+        "electrode-impedance",
+        "encephalopathy-patterns",
+        "epileptiform-discharges",
+        "eyes-open-eyes-closed",
+        "filters-time-constant",
+        "focal-slowing",
+        "fourier-transform",
+        "frequency-bands",
+        "generalised-slowing",
+        "hyperventilation",
+        "individual-alpha-frequency",
+        "medication-substance-effects",
+        "movement-sweat-electrode-artifact",
+        "multiple-comparisons",
+        "muscle-artifact",
+        "normal-awake-background",
+        "normal-variants",
+        "normative-databases",
+        "ocular-artifact",
+        "phase-lag",
+        "photic-stimulation",
+        "posterior-dominant-rhythm",
+        "preparation-consent-safety",
+        "qeeg-anxiety-depression-evidence",
+        "qeeg-autism-evidence",
+        "qeeg-ethics-scope",
+        "qeeg-neurofeedback-link",
+        "qeeg-reliability",
+        "qeeg-workflow",
+        "references-and-montages",
+        "sampling-and-aliasing",
+        "seizure-patterns",
+        "sleep-deprived-eeg",
+        "source-localisation",
+        "spectral-power",
+        "topographic-maps",
+        "volume-conduction",
+        "z-scores-effect-sizes"
+      ],
+      "id": "ATLAS-2417EB6B93"
+    },
+    {
+      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
+      "year": null,
+      "sourceType": "Guideline collection",
+      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "amplitude-frequency-phase",
+        "artifact-rejection-principles",
+        "cardiac-pulse-artifact",
+        "clinical-reporting-qeeg",
+        "coherence-connectivity",
+        "cortical-generators",
+        "developmental-eeg",
+        "drowsiness-and-sleep-stages",
+        "ecg-eog-emg-channels",
+        "eeg-qeeg-capstone",
+        "eeg-state-dependence",
+        "eeg-what-it-measures",
+        "electrode-10-20-system",
+        "electrode-impedance",
+        "encephalopathy-patterns",
+        "epileptiform-discharges",
+        "eyes-open-eyes-closed",
+        "filters-time-constant",
+        "focal-slowing",
+        "fourier-transform",
+        "frequency-bands",
+        "generalised-slowing",
+        "hyperventilation",
+        "individual-alpha-frequency",
+        "medication-substance-effects",
+        "movement-sweat-electrode-artifact",
+        "multiple-comparisons",
+        "muscle-artifact",
+        "normal-awake-background",
+        "normal-variants",
+        "normative-databases",
+        "ocular-artifact",
+        "phase-lag",
+        "photic-stimulation",
+        "posterior-dominant-rhythm",
+        "preparation-consent-safety",
+        "qeeg-anxiety-depression-evidence",
+        "qeeg-autism-evidence",
+        "qeeg-ethics-scope",
+        "qeeg-neurofeedback-link",
+        "qeeg-reliability",
+        "qeeg-workflow",
+        "references-and-montages",
+        "sampling-and-aliasing",
+        "seizure-patterns",
+        "sleep-deprived-eeg",
+        "source-localisation",
+        "spectral-power",
+        "topographic-maps",
+        "volume-conduction",
+        "z-scores-effect-sizes"
+      ],
+      "id": "ATLAS-3F7CE6CE66"
+    },
+    {
+      "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "year": 1997,
+      "sourceType": "Practice assessment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "amplitude-frequency-phase",
+        "artifact-rejection-principles",
+        "cardiac-pulse-artifact",
+        "clinical-reporting-qeeg",
+        "coherence-connectivity",
+        "cortical-generators",
+        "developmental-eeg",
+        "drowsiness-and-sleep-stages",
+        "ecg-eog-emg-channels",
+        "eeg-qeeg-capstone",
+        "eeg-state-dependence",
+        "eeg-what-it-measures",
+        "electrode-10-20-system",
+        "electrode-impedance",
+        "encephalopathy-patterns",
+        "epileptiform-discharges",
+        "eyes-open-eyes-closed",
+        "filters-time-constant",
+        "focal-slowing",
+        "fourier-transform",
+        "frequency-bands",
+        "generalised-slowing",
+        "hyperventilation",
+        "individual-alpha-frequency",
+        "medication-substance-effects",
+        "movement-sweat-electrode-artifact",
+        "multiple-comparisons",
+        "muscle-artifact",
+        "normal-awake-background",
+        "normal-variants",
+        "normative-databases",
+        "ocular-artifact",
+        "phase-lag",
+        "photic-stimulation",
+        "posterior-dominant-rhythm",
+        "preparation-consent-safety",
+        "qeeg-adhd-evidence",
+        "qeeg-anxiety-depression-evidence",
+        "qeeg-autism-evidence",
+        "qeeg-ethics-scope",
+        "qeeg-neurofeedback-link",
+        "qeeg-reliability",
+        "qeeg-tbi-evidence",
+        "qeeg-workflow",
+        "references-and-montages",
+        "sampling-and-aliasing",
+        "seizure-patterns",
+        "sleep-deprived-eeg",
+        "source-localisation",
+        "spectral-power",
+        "topographic-maps",
+        "volume-conduction",
+        "z-scores-effect-sizes"
+      ],
+      "id": "ATLAS-6154481703"
+    },
+    {
+      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
+      "year": 2006,
+      "sourceType": "Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "amplitude-frequency-phase",
+        "artifact-rejection-principles",
+        "cardiac-pulse-artifact",
+        "clinical-reporting-qeeg",
+        "coherence-connectivity",
+        "cortical-generators",
+        "developmental-eeg",
+        "drowsiness-and-sleep-stages",
+        "ecg-eog-emg-channels",
+        "eeg-qeeg-capstone",
+        "eeg-state-dependence",
+        "eeg-what-it-measures",
+        "electrode-10-20-system",
+        "electrode-impedance",
+        "encephalopathy-patterns",
+        "epileptiform-discharges",
+        "eyes-open-eyes-closed",
+        "filters-time-constant",
+        "focal-slowing",
+        "fourier-transform",
+        "frequency-bands",
+        "generalised-slowing",
+        "hyperventilation",
+        "individual-alpha-frequency",
+        "medication-substance-effects",
+        "movement-sweat-electrode-artifact",
+        "multiple-comparisons",
+        "muscle-artifact",
+        "normal-awake-background",
+        "normal-variants",
+        "normative-databases",
+        "ocular-artifact",
+        "phase-lag",
+        "photic-stimulation",
+        "posterior-dominant-rhythm",
+        "preparation-consent-safety",
+        "qeeg-anxiety-depression-evidence",
+        "qeeg-autism-evidence",
+        "qeeg-ethics-scope",
+        "qeeg-neurofeedback-link",
+        "qeeg-reliability",
+        "qeeg-workflow",
+        "references-and-montages",
+        "sampling-and-aliasing",
+        "seizure-patterns",
+        "sleep-deprived-eeg",
+        "source-localisation",
+        "spectral-power",
+        "topographic-maps",
+        "volume-conduction",
+        "z-scores-effect-sizes"
+      ],
+      "id": "ATLAS-168CD78642"
+    },
+    {
+      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
+      "year": 2025,
+      "sourceType": "Systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "alpha-theta-training",
+        "alpha-training",
+        "anxiety-neurofeedback",
+        "artifact-recognition-neurofeedback",
+        "baseline-recording",
+        "beta-training",
+        "closed-loop-systems",
+        "coherence-training",
+        "connectivity-training",
+        "contraindications-adverse-effects",
+        "depression-neurofeedback",
+        "eeg-versus-neurofeedback",
+        "electrode-preparation",
+        "ethics-evidence-clinical-limits",
+        "feedback-modalities",
+        "heg-neurofeedback",
+        "history-of-neurofeedback",
+        "ilf-neurofeedback",
+        "inhibit-bands",
+        "learning-theory-neurofeedback",
+        "loreta-neurofeedback",
+        "medication-considerations-neurofeedback",
+        "operant-conditioning-neurofeedback",
+        "peak-performance",
+        "phase-training",
+        "protocol-selection",
+        "ptsd-neurofeedback",
+        "reinforcement-schedules",
+        "reward-bands",
+        "scp-neurofeedback",
+        "sensor-placement",
+        "session-structure",
+        "signal-quality-impedance",
+        "sleep-neurofeedback",
+        "smr-training",
+        "theta-training",
+        "threshold-setting",
+        "treatment-planning-neurofeedback",
+        "troubleshooting-nonresponse",
+        "zscore-neurofeedback"
+      ],
+      "id": "ATLAS-C8B941D2BC"
+    },
+    {
+      "citation": "Askovic M, et al. Neurofeedback for post-traumatic stress disorder: systematic review and meta-analysis. Eur J Psychotraumatol. 2023.",
+      "year": 2023,
+      "sourceType": "Systematic review and meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10515677/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "ptsd-neurofeedback"
+      ],
+      "id": "ATLAS-02059543FA"
+    },
+    {
+      "citation": "Rogel A, et al. Transient adverse side effects during neurofeedback training: a randomized, sham-controlled, double blind study. Appl Psychophysiol Biofeedback. 2015.",
+      "year": 2015,
+      "sourceType": "Controlled safety study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26008757/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "contraindications-adverse-effects",
+        "ethics-evidence-clinical-limits",
+        "medication-considerations-neurofeedback",
+        "troubleshooting-nonresponse"
+      ],
+      "id": "ATLAS-E099C5563A"
+    },
+    {
+      "citation": "Hammond DC. The need for individualization in neurofeedback: heterogeneity in QEEG patterns associated with diagnoses and symptoms. Appl Psychophysiol Biofeedback. 2010.",
+      "year": 2010,
+      "sourceType": "Clinical review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19760143/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "contraindications-adverse-effects",
+        "ethics-evidence-clinical-limits",
+        "medication-considerations-neurofeedback",
+        "troubleshooting-nonresponse"
+      ],
+      "id": "ATLAS-FE5FDEE038"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
+      "year": null,
+      "sourceType": "guideline",
+      "url": "https://www.who.int/publications/i/item/9789241505406",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "acute-stress-response",
+        "adaptive-information-processing",
+        "affect-regulation-trauma",
+        "amygdala-trauma",
+        "attachment-neuroscience-trauma",
+        "bilateral-stimulation-emdr",
+        "central-executive-network-trauma",
+        "chronic-stress-trauma",
+        "clinical-indications-emdr",
+        "clinical-integration-limitations-emdr",
+        "complex-ptsd-neuroscience",
+        "contraindications-precautions-emdr",
+        "default-mode-network-trauma",
+        "developmental-trauma",
+        "dissociation-mechanisms",
+        "eight-phases-emdr",
+        "emotional-processing-trauma",
+        "fear-conditioning-trauma",
+        "fear-extinction-trauma",
+        "foundations-trauma-neuroscience",
+        "hippocampus-trauma",
+        "hpa-axis-trauma",
+        "mechanisms-change-emdr",
+        "memory-consolidation-trauma",
+        "memory-encoding-trauma",
+        "moral-injury",
+        "neurobiology-emdr",
+        "orienting-response-emdr",
+        "parasympathetic-regulation-trauma",
+        "prediction-error-trauma",
+        "prefrontal-cortex-trauma",
+        "salience-network-trauma",
+        "structural-dissociation",
+        "sympathetic-activation-trauma",
+        "window-of-tolerance"
+      ],
+      "id": "ATLAS-4198DFE93E"
+    },
+    {
+      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
+      "year": null,
+      "sourceType": "guideline",
+      "url": "https://istss.org/clinical-resources/treating-trauma/",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "acute-stress-response",
+        "adaptive-information-processing",
+        "affect-regulation-trauma",
+        "amygdala-trauma",
+        "attachment-neuroscience-trauma",
+        "bilateral-stimulation-emdr",
+        "central-executive-network-trauma",
+        "chronic-stress-trauma",
+        "clinical-indications-emdr",
+        "clinical-integration-limitations-emdr",
+        "complex-ptsd-neuroscience",
+        "contraindications-precautions-emdr",
+        "default-mode-network-trauma",
+        "developmental-trauma",
+        "dissociation-mechanisms",
+        "eight-phases-emdr",
+        "emotional-processing-trauma",
+        "fear-conditioning-trauma",
+        "fear-extinction-trauma",
+        "foundations-trauma-neuroscience",
+        "hippocampus-trauma",
+        "hpa-axis-trauma",
+        "mechanisms-change-emdr",
+        "memory-consolidation-trauma",
+        "memory-encoding-trauma",
+        "moral-injury",
+        "neurobiology-emdr",
+        "orienting-response-emdr",
+        "parasympathetic-regulation-trauma",
+        "prediction-error-trauma",
+        "prefrontal-cortex-trauma",
+        "salience-network-trauma",
+        "structural-dissociation",
+        "sympathetic-activation-trauma",
+        "window-of-tolerance"
+      ],
+      "id": "ATLAS-8021EB737D"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
+      "year": null,
+      "sourceType": "guideline",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "acute-stress-response",
+        "adaptive-information-processing",
+        "affect-regulation-trauma",
+        "amygdala-trauma",
+        "attachment-neuroscience-trauma",
+        "bilateral-stimulation-emdr",
+        "central-executive-network-trauma",
+        "chronic-stress-trauma",
+        "clinical-indications-emdr",
+        "clinical-integration-limitations-emdr",
+        "complex-ptsd-neuroscience",
+        "contraindications-precautions-emdr",
+        "default-mode-network-trauma",
+        "developmental-trauma",
+        "dissociation-mechanisms",
+        "eight-phases-emdr",
+        "emotional-processing-trauma",
+        "fear-conditioning-trauma",
+        "fear-extinction-trauma",
+        "foundations-trauma-neuroscience",
+        "hippocampus-trauma",
+        "hpa-axis-trauma",
+        "mechanisms-change-emdr",
+        "memory-consolidation-trauma",
+        "memory-encoding-trauma",
+        "moral-injury",
+        "neurobiology-emdr",
+        "orienting-response-emdr",
+        "parasympathetic-regulation-trauma",
+        "prediction-error-trauma",
+        "prefrontal-cortex-trauma",
+        "salience-network-trauma",
+        "structural-dissociation",
+        "sympathetic-activation-trauma",
+        "window-of-tolerance"
+      ],
+      "id": "ATLAS-DD50C673DA"
+    },
+    {
+      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
+      "year": null,
+      "sourceType": "guideline",
+      "url": "https://www.apa.org/ptsd-guideline",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "acute-stress-response",
+        "adaptive-information-processing",
+        "affect-regulation-trauma",
+        "amygdala-trauma",
+        "attachment-neuroscience-trauma",
+        "bilateral-stimulation-emdr",
+        "central-executive-network-trauma",
+        "chronic-stress-trauma",
+        "clinical-indications-emdr",
+        "clinical-integration-limitations-emdr",
+        "complex-ptsd-neuroscience",
+        "contraindications-precautions-emdr",
+        "default-mode-network-trauma",
+        "developmental-trauma",
+        "dissociation-mechanisms",
+        "eight-phases-emdr",
+        "emotional-processing-trauma",
+        "fear-conditioning-trauma",
+        "fear-extinction-trauma",
+        "foundations-trauma-neuroscience",
+        "hippocampus-trauma",
+        "hpa-axis-trauma",
+        "mechanisms-change-emdr",
+        "memory-consolidation-trauma",
+        "memory-encoding-trauma",
+        "moral-injury",
+        "neurobiology-emdr",
+        "orienting-response-emdr",
+        "parasympathetic-regulation-trauma",
+        "prediction-error-trauma",
+        "prefrontal-cortex-trauma",
+        "salience-network-trauma",
+        "structural-dissociation",
+        "sympathetic-activation-trauma",
+        "window-of-tolerance"
+      ],
+      "id": "ATLAS-1BC2102147"
+    },
+    {
+      "citation": "Mesulam MM. From sensation to cognition. Brain. 1998.",
+      "year": 1998,
+      "sourceType": "Reference",
+      "url": "https://doi.org/10.1093/brain/121.6.1013",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cerebral-lobes-atlas"
+      ],
+      "id": "ATLAS-4F4A9F5419"
+    },
+    {
+      "citation": "Catani M, Thiebaut de Schotten M. Atlas of Human Brain Connections. Oxford University Press. 2012.",
+      "year": 2012,
+      "sourceType": "Reference",
+      "url": "https://global.oup.com/academic/product/atlas-of-human-brain-connections-9780199541164",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cerebral-lobes-atlas"
+      ],
+      "id": "ATLAS-5725B87642"
+    },
+    {
+      "citation": "Schmahmann JD. The cerebellum and cognition. Academic Press. 1997.",
+      "year": 1997,
+      "sourceType": "Reference",
+      "url": "https://doi.org/10.1016/B978-012625510-3/50001-2",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cerebellum-atlas"
+      ],
+      "id": "ATLAS-90058E6FF0"
+    },
+    {
+      "citation": "Buckner RL. The cerebellum and cognitive function. Neuron. 2013.",
+      "year": 2013,
+      "sourceType": "Reference",
+      "url": "https://doi.org/10.1016/j.neuron.2013.10.044",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cerebellum-atlas"
+      ],
+      "id": "ATLAS-048AF6D3F9"
+    },
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. Wolters Kluwer.",
+      "year": null,
+      "sourceType": "Reference",
+      "url": "https://shop.lww.com/Neuroanatomy/p/9781975157722",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brainstem-atlas"
+      ],
+      "id": "ATLAS-F968AA225B"
+    },
+    {
+      "citation": "Nolte J. The Human Brain: An Introduction to Its Functional Anatomy. Elsevier.",
+      "year": null,
+      "sourceType": "Reference",
+      "url": "https://www.elsevier.com/books/the-human-brain/nolte/978-0-323-04531-4",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brainstem-atlas"
+      ],
+      "id": "ATLAS-69FE950181"
+    },
+    {
+      "citation": "Standring S, ed. Gray’s Anatomy. 42nd ed. Elsevier; 2020.",
+      "year": 2020,
+      "sourceType": "Reference",
+      "url": "https://www.elsevier.com/books/grays-anatomy/standring/978-0-7020-7705-0",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "meninges-atlas"
+      ],
+      "id": "ATLAS-4D5C6C8466"
+    },
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. 10th ed. Wolters Kluwer; 2019.",
+      "year": 2019,
+      "sourceType": "Reference",
+      "url": "https://shop.lww.com/Neuroanatomy/p/9781975103294",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "meninges-atlas"
+      ],
+      "id": "ATLAS-6EF2AFBB68"
+    },
+    {
+      "citation": "Tatu L, Moulin T, Bogousslavsky J, Duvernoy H. Arterial territories of the human brain. Neurology. 1998.",
+      "year": 1998,
+      "sourceType": "Reference",
+      "url": "https://doi.org/10.1212/WNL.50.6.1699",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cerebral-vasculature-atlas"
+      ],
+      "id": "ATLAS-BD6D856935"
+    },
+    {
+      "citation": "Caplan LR. Caplan’s Stroke: A Clinical Approach. 5th ed. Cambridge University Press; 2016.",
+      "year": 2016,
+      "sourceType": "Reference",
+      "url": "https://www.cambridge.org/core/books/caplans-stroke/34E1CB91D71036786F9BFDFF0F59682D",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cerebral-vasculature-atlas"
+      ],
+      "id": "ATLAS-958E36E1B3"
+    },
+    {
+      "citation": "Pessoa L. A Network Model of the Emotional Brain. Trends Cogn Sci. 2017.",
+      "year": 2017,
+      "sourceType": "Reference",
+      "url": "https://doi.org/10.1016/j.tics.2017.03.002",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "limbic-system-atlas"
+      ],
+      "id": "ATLAS-1826B5E478"
+    },
+    {
+      "citation": "Catani M, Dell’Acqua F, Thiebaut de Schotten M. A revised limbic system model for memory, emotion and behaviour. Neurosci Biobehav Rev. 2013.",
+      "year": 2013,
+      "sourceType": "Reference",
+      "url": "https://doi.org/10.1016/j.neubiorev.2013.07.001",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "limbic-system-atlas"
+      ],
+      "id": "ATLAS-244069AF96"
+    },
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases. 3rd ed. Sinauer/Oxford University Press.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cranial-nerves-atlas",
+        "deep-nuclei-atlas",
+        "ventricular-system-atlas"
+      ],
+      "id": "ATLAS-889EA0DE47"
+    },
+    {
+      "citation": "Standring S, ed. Gray’s Anatomy. 42nd ed. Elsevier.",
+      "year": null,
+      "sourceType": "anatomy reference",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cranial-nerves-atlas",
+        "deep-nuclei-atlas",
+        "ventricular-system-atlas"
+      ],
+      "id": "ATLAS-6C98F9F192"
+    },
+    {
+      "citation": "Haines DE. Neuroanatomy: An Atlas of Structures, Sections, and Systems. 10th ed. Wolters Kluwer.",
+      "year": null,
+      "sourceType": "atlas",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "cranial-nerves-atlas",
+        "deep-nuclei-atlas",
+        "ventricular-system-atlas"
+      ],
+      "id": "ATLAS-7AECFFFE07"
+    },
+    {
+      "citation": "Nolte, J. The Human Brain: An Introduction to Its Functional Anatomy.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "hypothalamus-atlas",
+        "thalamus-atlas"
+      ],
+      "id": "ATLAS-C4141AF1EB"
+    },
+    {
+      "citation": "Blumenfeld, H. Neuroanatomy Through Clinical Cases.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "hypothalamus-atlas",
+        "pituitary-and-sella-atlas",
+        "thalamus-atlas"
+      ],
+      "id": "ATLAS-557CA4FAFB"
+    },
+    {
+      "citation": "Standring, S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "hypothalamus-atlas",
+        "pituitary-and-sella-atlas",
+        "thalamus-atlas"
+      ],
+      "id": "ATLAS-A1F2061746"
+    },
+    {
+      "citation": "Melmed, S. et al. Williams Textbook of Endocrinology.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "pituitary-and-sella-atlas"
+      ],
+      "id": "ATLAS-E28FCFBDBD"
+    },
+    {
+      "citation": "Blumenfeld H. Neuroanatomy Through Clinical Cases.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "arterial-territories-stroke-comparison",
+        "basal-ganglia-circuit-explorer",
+        "functional-network-overlay-atlas",
+        "major-white-matter-pathways-atlas",
+        "neurotransmitter-pathways-atlas"
+      ],
+      "id": "ATLAS-1DF67ED1EA"
+    },
+    {
+      "citation": "Standring S. Gray’s Anatomy: The Anatomical Basis of Clinical Practice.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "arterial-territories-stroke-comparison",
+        "basal-ganglia-circuit-explorer",
+        "functional-network-overlay-atlas",
+        "major-white-matter-pathways-atlas",
+        "neurotransmitter-pathways-atlas"
+      ],
+      "id": "ATLAS-0D335110C9"
+    },
+    {
+      "citation": "Kandel ER et al. Principles of Neural Science.",
+      "year": null,
+      "sourceType": "textbook",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "arterial-territories-stroke-comparison",
+        "basal-ganglia-circuit-explorer",
+        "functional-network-overlay-atlas",
+        "major-white-matter-pathways-atlas",
+        "neurotransmitter-pathways-atlas"
+      ],
+      "id": "ATLAS-509FB23001"
+    },
+    {
+      "citation": "Corballis MC. Left Brain, Right Brain: Facts and Fantasies. PLoS Biology. 2014;12(1):e1001767.",
+      "year": 2014,
+      "sourceType": "peer-reviewed review",
+      "url": "https://doi.org/10.1371/journal.pbio.1001767",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-lateralisation-comparison"
+      ],
+      "id": "ATLAS-7FDC644070"
+    },
+    {
+      "citation": "Knecht S, Dräger B, Deppe M, et al. Handedness and hemispheric language dominance in healthy humans. Brain. 2000;123(12):2512–2518.",
+      "year": 2000,
+      "sourceType": "peer-reviewed study",
+      "url": "https://doi.org/10.1093/brain/123.12.2512",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-lateralisation-comparison"
+      ],
+      "id": "ATLAS-35F06072A8"
+    },
+    {
+      "citation": "Josse G, Seghier ML, Kherif F, Price CJ. Explaining function with anatomy: language lateralization and corpus callosum size. Journal of Neuroscience. 2008;28(52):14132–14139.",
+      "year": 2008,
+      "sourceType": "peer-reviewed study",
+      "url": "https://doi.org/10.1523/JNEUROSCI.4383-08.2008",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "brain-lateralisation-comparison"
+      ],
+      "id": "ATLAS-BC5CD37942"
+    },
+    {
+      "citation": "Wardlaw JM, Smith C, Dichgans M. Small vessel disease: mechanisms and clinical implications. Lancet Neurology. 2019;18(7):684–696.",
+      "year": 2019,
+      "sourceType": "peer-reviewed review",
+      "url": "https://doi.org/10.1016/S1474-4422(19)30079-1",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "healthy-versus-pathology-comparison"
+      ],
+      "id": "ATLAS-5D9AFD2873"
+    },
+    {
+      "citation": "Insel TR, Cuthbert BN. Brain disorders? Precisely. Science. 2015;348(6234):499–500.",
+      "year": 2015,
+      "sourceType": "peer-reviewed perspective",
+      "url": "https://doi.org/10.1126/science.aab2358",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "healthy-versus-pathology-comparison"
+      ],
+      "id": "ATLAS-2EF1D487D8"
+    },
+    {
+      "citation": "Power JD, Schlaggar BL, Petersen SE. Studying brain organization via spontaneous fMRI signal. Neuron. 2014;84(4):681–696.",
+      "year": 2014,
+      "sourceType": "peer-reviewed review",
+      "url": "https://doi.org/10.1016/j.neuron.2014.09.007",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "healthy-versus-pathology-comparison"
+      ],
+      "id": "ATLAS-C7F1C3013A"
+    },
+    {
+      "citation": "Catani M, Ffytche DH. The rises and falls of disconnection syndromes. Brain. 2005;128(10):2224-2239.",
+      "year": 2005,
+      "sourceType": "peer-reviewed review",
+      "url": "https://doi.org/10.1093/brain/awh622",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "lesion-and-symptom-mapping"
+      ],
+      "id": "ATLAS-14B77DB02F"
+    },
+    {
+      "citation": "Carrera E, Tononi G. Diaschisis: past, present, future. Brain. 2014;137(9):2408-2422.",
+      "year": 2014,
+      "sourceType": "peer-reviewed review",
+      "url": "https://doi.org/10.1093/brain/awu101",
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "lesion-and-symptom-mapping"
+      ],
+      "id": "ATLAS-07AD2CF23E"
+    },
+    {
+      "citation": "Catani M, Thiebaut de Schotten M. Atlas of Human Brain Connections. Oxford University Press; 2012.",
+      "year": 2012,
+      "sourceType": "atlas",
+      "url": null,
+      "evidenceStrength": "source linked from reviewed concept record",
+      "status": "source-linked",
+      "limitations": "Source relevance is claim-dependent; the Evidence Library distinguishes source linkage from proof of every sentence.",
+      "conceptIds": [
+        "integrated-whole-brain-explorer-and-capstone"
+      ],
+      "id": "ATLAS-D887F1C0CB"
     }
   ]
 }
