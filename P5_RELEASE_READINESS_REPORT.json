@@ -1,0 +1,13 @@
+{
+  "phase": "P5",
+  "status": "PASS",
+  "conceptCount": 249,
+  "evidenceSourceCount": 234,
+  "evidenceMappedConceptCount": 249,
+  "privacyDocument": true,
+  "accessibilityDocument": true,
+  "releaseGovernanceDocument": true,
+  "telemetryNetworkProviderEnabled": false,
+  "accessibilityTarget": "WCAG 2.2 Level AA practices; no independent conformance claim",
+  "failures": []
+}

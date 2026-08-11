@@ -1,0 +1,155 @@
+/* P5 product polish and release-readiness layer. */
+:where(button, a, input, select, summary, [tabindex]):focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+:where(button, .nav-item, .icon-button, .search-result, select) {
+  min-block-size: 44px;
+}
+
+.search-scope {
+  display: grid;
+  gap: .35rem;
+  margin: .65rem 0 .9rem;
+  font-size: .85rem;
+}
+
+.search-scope span {
+  color: var(--muted, #9aa6a8);
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.search-scope select {
+  inline-size: 100%;
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 12px;
+  padding: .65rem .8rem;
+  background: var(--panel, #111718);
+  color: inherit;
+  font: inherit;
+}
+
+.release-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.25rem auto 5.75rem;
+  padding: .9rem 1rem;
+  width: min(1100px, calc(100% - 2rem));
+  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+  color: var(--muted, #9aa6a8);
+  font-size: .8rem;
+}
+
+.release-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: .25rem;
+}
+
+.release-footer button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  padding: .5rem .65rem;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+
+.release-dialog {
+  inline-size: min(560px, calc(100% - 2rem));
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 18px;
+  background: var(--panel, #111718);
+  color: inherit;
+  padding: 0;
+}
+
+.release-dialog::backdrop {
+  background: rgb(0 0 0 / 72%);
+  backdrop-filter: blur(3px);
+}
+
+.release-dialog-body {
+  display: grid;
+  gap: 1rem;
+  padding: 0 1.25rem 1.25rem;
+  line-height: 1.6;
+}
+
+.release-link {
+  justify-self: start;
+  text-decoration: none;
+}
+
+.legal-page {
+  margin: 0;
+  background: #080c0d;
+  color: #f2f5f4;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.legal-page main {
+  width: min(760px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(2rem, 7vw, 5rem) 0;
+  line-height: 1.7;
+}
+
+.legal-page h1 {
+  font-size: clamp(2rem, 6vw, 3.6rem);
+  line-height: 1.05;
+}
+
+.legal-page h2 {
+  margin-top: 2rem;
+  font-size: 1.15rem;
+}
+
+.legal-page a {
+  color: #d6fff6;
+}
+
+@media (max-width: 700px) {
+  .release-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .release-footer nav {
+    justify-content: flex-start;
+  }
+}
+
+@media (prefers-contrast: more) {
+  .release-dialog,
+  .search-scope select,
+  .release-footer {
+    border-color: currentColor;
+  }
+}
+
+@media print {
+  .topbar,
+  .bottom-nav,
+  .release-footer,
+  dialog,
+  #toast {
+    display: none !important;
+  }
+
+  body,
+  .legal-page {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  main {
+    max-width: none !important;
+  }
+}
