@@ -31,6 +31,13 @@ REPORT_PATH = ROOT / "RUNTIME_QA_REPORT.json"
 
 MODULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("spaced-repetition.js", ("SpacedRepetition",)),
+    ("mastery-tracker.js", ("MasteryTracker",)),
+    ("competency-tracker.js", ("CompetencyTracker", "COMPETENCIES")),
+    ("calibration-tracker.js", ("CalibrationTracker", "CONFIDENCE_LEVELS")),
+    ("clinical-thread.js", ("renderClinicalThread",)),
+    ("deep-dive.js", ("renderDeepDiveButton", "bindDeepDive")),
+    ("content-quality.js", ("renderContentQualitySummary", "searchableDetailText")),
+    ("accessibility-runtime.js", ("focusMainHeading", "installAccessibilityRuntime")),
     ("visual-scenes.js", ("hasVisualScene", "renderVisualScene")),
     ("neuron-explorer.js", ("renderNeuronExplorer", "bindNeuronExplorer")),
     ("astrocyte-explorer.js", ("renderAstrocyteExplorer", "bindAstrocyteExplorer")),
@@ -238,7 +245,11 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         report.metrics["concepts"] = len(concepts)
         report.metrics["levels"] = len(curriculum["levels"])
 
-        # Search flow.
+        # Search flow and keyboard accessibility.
+        page.keyboard.press("/")
+        shortcut_open = page.locator("#searchDialog").evaluate("dialog => dialog.open")
+        report.add("Slash shortcut opens search", bool(shortcut_open))
+        page.locator('#searchDialog button[aria-label="Close search"]').click()
         page.click("#searchButton")
         page.fill("#searchInput", "amygdala")
         page.wait_for_timeout(50)
@@ -247,7 +258,25 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         if search_count:
             page.locator("[data-search-open]").first.click()
             report.add(
-                "Search result opens a concept", page.locator(".concept-header h1").count() == 1
+                "Search result opens a concept",
+                page.locator(".concept-header h1").count() == 1,
+            )
+            page.wait_for_timeout(50)
+            focused_heading = page.evaluate(
+                "() => document.activeElement === document.querySelector('.concept-header h1')"
+            )
+            report.add("Route changes move focus to the concept heading", bool(focused_heading))
+            deep_dive = page.locator("[data-open-deep-dive]")
+            deep_dive_available = deep_dive.count() == 1
+            if deep_dive_available:
+                deep_dive.click()
+                dialog_open = page.locator("#deepDiveDialog").evaluate("dialog => dialog.open")
+                page.locator("[data-close-deep-dive]").click()
+            else:
+                dialog_open = False
+            report.add(
+                "Deep dive opens as an accessible secondary layer",
+                deep_dive_available and bool(dialog_open),
             )
 
         # Exhaustive concept render scan + visual scene checks. Run inside the page so the
@@ -511,7 +540,7 @@ def main() -> int:
 
     for check in report.checks:
         marker = "PASS" if check.ok else "FAIL"
-        suffix = f" â€” {check.detail}" if check.detail else ""
+        suffix = f" — {check.detail}" if check.detail else ""
         print(f"[{marker}] {check.name}{suffix}")
     print(f"\nRuntime QA: {report.passed}/{len(report.checks)} passed; {report.failed} failed")
     print(f"Report: {args.report}")

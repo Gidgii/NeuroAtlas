@@ -136,3 +136,10 @@
 .deep-dive-section h3{margin:0 0 .45rem;font-size:1rem}
 .deep-dive-section p{margin:0;color:var(--muted);line-height:1.65}
 @media(max-width:640px){.deep-dive-dialog{width:calc(100vw - 1rem);max-height:88vh}.deep-dive-launch{align-items:flex-start;flex-direction:column}}
+
+/* P2–P3 consolidation: evidence framing, accessibility and performance */
+.content-quality{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin:1rem 0 .65rem;color:var(--muted);font-size:.75rem;line-height:1.35}.content-quality-label{padding:.22rem .46rem;border:1px solid rgba(80,241,210,.3);border-radius:2rem;color:var(--mint);font-weight:850;letter-spacing:.02em}.deep-dive-section ul{margin:.2rem 0 0;padding-left:1.2rem;color:var(--muted);line-height:1.6}.deep-dive-section li+li{margin-top:.45rem}
+:where(button,a,input,summary,[tabindex]):focus-visible{outline:3px solid var(--gold);outline-offset:3px}.brand:focus-visible,.nav-item:focus-visible,.tab:focus-visible{border-radius:.6rem}.search-field:focus-within{border-color:var(--mint);box-shadow:0 0 0 2px rgba(80,241,210,.12)}
+button,.search-result,summary{touch-action:manipulation}.concept-card{content-visibility:auto;contain-intrinsic-size:320px}.concept-thumb{background:#090d0e}.deep-dive-dialog{overscroll-behavior:contain}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+@media(forced-colors:active){.interaction-pill,.status-pill,.content-quality-label,.spatial-hotspot,.answer-button,.lesion-option,.assessment-option,.integrated-option{forced-color-adjust:auto}.progress-fill{background:Highlight}.primary{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}}

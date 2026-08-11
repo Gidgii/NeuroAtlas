@@ -1,0 +1,288 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "purpose": "Claim-linked evidence register for NeuroAtlas peer review and the future in-app Evidence Library.",
+  "reviewPolicy": {
+    "primaryRule": "Use the highest-quality source appropriate to the claim; guidelines for clinical recommendations, systematic reviews/meta-analyses for synthesis, specialist texts for stable foundations, and primary studies when synthesis is unavailable.",
+    "uncertaintyRule": "Distinguish established findings, emerging evidence, theoretical models, contested claims and superseded claims.",
+    "copyrightRule": "Store citations, identifiers, summaries and links; do not reproduce copyrighted source text or figures."
+  },
+  "sources": [
+    {
+      "id": "NICE-PTSD-NG116",
+      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder (NG116). Published 2018; last reviewed 8 April 2025.",
+      "year": 2025,
+      "sourceType": "clinical guideline",
+      "url": "https://www.nice.org.uk/guidance/ng116",
+      "evidenceStrength": "high for treatment recommendations",
+      "status": "current",
+      "limitations": "Guideline recommendations support treatment decisions; they do not establish a unique neural mechanism for EMDR or other therapies.",
+      "conceptIds": [
+        "current-evidence-emdr"
+      ]
+    },
+    {
+      "id": "WHO-PTSD-FACT-2024",
+      "citation": "World Health Organization. Post-traumatic stress disorder fact sheet.",
+      "year": 2024,
+      "sourceType": "authoritative clinical summary",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder",
+      "evidenceStrength": "high-level authoritative summary",
+      "status": "current",
+      "limitations": "Summary-level source; use primary reviews/guidelines for detailed comparative-effectiveness claims.",
+      "conceptIds": [
+        "current-evidence-emdr"
+      ]
+    },
+    {
+      "id": "WRIGHT-EMDR-IPDMA-2024",
+      "citation": "Wright SL, Karyotaki E, Cuijpers P, et al. EMDR v. other psychological therapies for PTSD: a systematic review and individual participant data meta-analysis. Psychological Medicine. 2024;54(8):1580-1588. doi:10.1017/S0033291723003446.",
+      "year": 2024,
+      "sourceType": "systematic review and individual participant data meta-analysis",
+      "pmid": "38173121",
+      "doi": "10.1017/S0033291723003446",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38173121/",
+      "evidenceStrength": "high",
+      "status": "current",
+      "limitations": "Only 8 of 15 eligible RCTs contributed participant-level data (346 participants); comparator therapies varied.",
+      "conceptIds": [
+        "current-evidence-emdr",
+        "working-memory-theory-emdr"
+      ]
+    },
+    {
+      "id": "WESTWOOD-NF-ADHD-2025",
+      "citation": "Westwood SJ, Aggensteiner P-M, Kaiser A, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025;82(2):118-129. doi:10.1001/jamapsychiatry.2024.3702.",
+      "year": 2025,
+      "sourceType": "systematic review and meta-analysis of randomized clinical trials",
+      "pmid": "39661381",
+      "doi": "10.1001/jamapsychiatry.2024.3702",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/",
+      "evidenceStrength": "high",
+      "status": "current",
+      "limitations": "Group-level results do not rule out benefit for selected individuals; small effects appeared in analyses restricted to established standard protocols.",
+      "conceptIds": [
+        "adhd-neurofeedback"
+      ]
+    },
+    {
+      "id": "CRED-NF-2020",
+      "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
+      "year": 2020,
+      "sourceType": "consensus reporting standard",
+      "pmid": "32176800",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/",
+      "evidenceStrength": "methodological standard",
+      "status": "current",
+      "limitations": "A reporting/design standard, not evidence that a specific neurofeedback protocol is efficacious.",
+      "conceptIds": [
+        "adhd-neurofeedback",
+        "autism-neurofeedback"
+      ]
+    },
+    {
+      "id": "REZAEE-NF-ASD-2025",
+      "citation": "Rezaee M, Effatpanah M, Nasehi MM, Ghamkhar L, Barati N. Assessing the Impact of Neurofeedback on Cognitive Function in Individuals with Autism Spectrum Disorder: A Systematic Review. Iran J Child Neurol. 2025;19(2):27-37. doi:10.22037/ijcn.v19i2.46578.",
+      "year": 2025,
+      "sourceType": "systematic review",
+      "pmid": "40231286",
+      "doi": "10.22037/ijcn.v19i2.46578",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40231286/",
+      "evidenceStrength": "low-to-moderate",
+      "status": "current",
+      "limitations": "Only 12 studies were included; protocols and cognitive outcomes were heterogeneous, so efficacy for autism as a condition cannot be inferred.",
+      "conceptIds": [
+        "autism-neurofeedback"
+      ]
+    },
+    {
+      "id": "AAN-QEEG-ADHD-2016-2025",
+      "citation": "Gloss D, Varma JK, Pringsheim T, Nuwer MR. Practice advisory: The utility of EEG theta/beta power ratio in ADHD diagnosis. Neurology. 2016;87(22):2375-2379. Reaffirmed by the American Academy of Neurology 18 October 2025. doi:10.1212/WNL.0000000000003265.",
+      "year": 2025,
+      "sourceType": "practice advisory (2016; reaffirmed 2025)",
+      "pmid": "27760867",
+      "doi": "10.1212/WNL.0000000000003265",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27760867/",
+      "evidenceStrength": "high for diagnostic-use recommendation",
+      "status": "reaffirmed",
+      "limitations": "Addresses theta/beta ratio and frontal beta power as diagnostic aids, not every possible EEG/QEEG research application in ADHD.",
+      "conceptIds": [
+        "qeeg-adhd-evidence"
+      ]
+    },
+    {
+      "id": "ACNS-QEEG-MTBI-2021",
+      "citation": "Tenney JR, Gloss D, Arya R, et al. Practice Guideline: Use of Quantitative EEG for the Diagnosis of Mild Traumatic Brain Injury. J Clin Neurophysiol. 2021;38(4):287-292. doi:10.1097/WNP.0000000000000853.",
+      "year": 2021,
+      "sourceType": "practice guideline",
+      "pmid": "34038930",
+      "doi": "10.1097/WNP.0000000000000853",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34038930/",
+      "evidenceStrength": "high for diagnostic-use recommendation",
+      "status": "current guideline located",
+      "limitations": "Specifically addresses qEEG for diagnosing mTBI, including remote diagnosis and differentiation from other conditions.",
+      "conceptIds": [
+        "qeeg-tbi-evidence"
+      ]
+    },
+    {
+      "id": "GROSSMAN-PVT-2023",
+      "citation": "Grossman P. Fundamental challenges and likely refutations of the five basic premises of the polyvagal theory. Biol Psychol. 2023;180:108589. doi:10.1016/j.biopsycho.2023.108589.",
+      "year": 2023,
+      "sourceType": "critical theoretical review",
+      "pmid": "37230290",
+      "doi": "10.1016/j.biopsycho.2023.108589",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37230290/",
+      "evidenceStrength": "substantive critique",
+      "status": "current debate",
+      "limitations": "A critical appraisal rather than a neutral consensus statement; should be read alongside responses and proponent accounts.",
+      "conceptIds": [
+        "polyvagal-theory"
+      ]
+    },
+    {
+      "id": "GROSSMAN-ETAL-PVT-2026",
+      "citation": "Grossman P, Ackland GL, Allen AM, et al. Why The Polyvagal Theory Is Untenable: An international expert evaluation of the polyvagal theory. Clin Neuropsychiatry. 2026;23(1):100-112. doi:10.36131/cnfioritieditore20260110.",
+      "year": 2026,
+      "sourceType": "multi-expert critical evaluation",
+      "pmid": "41768017",
+      "doi": "10.36131/cnfioritieditore20260110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41768017/",
+      "evidenceStrength": "substantive multi-expert critique",
+      "status": "current debate",
+      "limitations": "Evaluates foundational neurophysiological/evolutionary premises; it does not test whether state-based metaphors have clinical utility.",
+      "conceptIds": [
+        "polyvagal-theory"
+      ]
+    },
+    {
+      "id": "PORGES-PVT-2025",
+      "citation": "Porges SW. Polyvagal Theory: Current Status, Clinical Applications, and Future Directions. Clin Neuropsychiatry. 2025;22(3):169-184. doi:10.36131/cnfioritieditore20250301.",
+      "year": 2025,
+      "sourceType": "theory-author review",
+      "pmid": "40735382",
+      "doi": "10.36131/cnfioritieditore20250301",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40735382/",
+      "evidenceStrength": "theoretical/proponent perspective",
+      "status": "current debate",
+      "limitations": "Written by the originator of the theory; not independent validation of its disputed premises.",
+      "conceptIds": [
+        "polyvagal-theory"
+      ]
+    },
+    {
+      "id": "PORGES-RESPONSE-2026",
+      "citation": "Porges SW. When A Critique Becomes Untenable: A Scholarly Response To Grossman Et Al.'s Evaluation Of Polyvagal Theory. Clin Neuropsychiatry. 2026;23(1). doi:10.36131/cnfioritieditore20260111.",
+      "year": 2026,
+      "sourceType": "scholarly response",
+      "pmid": "41768026",
+      "doi": "10.36131/cnfioritieditore20260111",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41768026/",
+      "evidenceStrength": "theoretical/proponent response",
+      "status": "current debate",
+      "limitations": "A response by the theory originator; documents the live scientific dispute rather than resolving it.",
+      "conceptIds": [
+        "polyvagal-theory"
+      ]
+    },
+    {
+      "id": "WRIGHT-RECONSOLIDATION-2021",
+      "citation": "Wright LA, Horstmann L, Holmes EA, Bisson JI. Consolidation/reconsolidation therapies for the prevention and treatment of PTSD and re-experiencing: a systematic review and meta-analysis. Transl Psychiatry. 2021;11:453. doi:10.1038/s41398-021-01570-w.",
+      "year": 2021,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "34480016",
+      "doi": "10.1038/s41398-021-01570-w",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34480016/",
+      "evidenceStrength": "moderate/emerging",
+      "status": "current evidence base located",
+      "limitations": "Most included studies had significant risk of bias and only selected reconsolidation/consolidation protocols were superior to controls.",
+      "conceptIds": [
+        "memory-reconsolidation-trauma"
+      ]
+    },
+    {
+      "id": "WADJI-WM-EMDR-2022",
+      "citation": "Wadji DL, Martin-Soelch C, Camos V. Can working memory account for EMDR efficacy in PTSD? BMC Psychol. 2022;10(1):245. doi:10.1186/s40359-022-00951-0.",
+      "year": 2022,
+      "sourceType": "systematic review",
+      "pmid": "36320044",
+      "doi": "10.1186/s40359-022-00951-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36320044/",
+      "evidenceStrength": "moderate for a component mechanism",
+      "status": "current evidence base located",
+      "limitations": "Supports dual-task effects on vividness/emotionality but does not establish working-memory taxation as the complete mechanism of clinical EMDR efficacy.",
+      "conceptIds": [
+        "working-memory-theory-emdr"
+      ]
+    },
+    {
+      "id": "ELKHALIL-INTERGEN-2025",
+      "citation": "El-Khalil C, Caculidis Tudor D, Nedelcea C. Impact of intergenerational trauma on second-generation descendants: a systematic review. BMC Psychol. 2025;13(1):668. doi:10.1186/s40359-025-03012-4.",
+      "year": 2025,
+      "sourceType": "systematic review",
+      "pmid": "40597246",
+      "doi": "10.1186/s40359-025-03012-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40597246/",
+      "evidenceStrength": "moderate for associations",
+      "status": "current",
+      "limitations": "Quantitative observational evidence cannot cleanly separate biological inheritance from family, social, historical and structural pathways.",
+      "conceptIds": [
+        "intergenerational-trauma"
+      ]
+    },
+    {
+      "id": "YOUSEF-INTERGEN-EPIGEN-2023",
+      "citation": "Biological Embedding of Early-Life Adversity and a Scoping Review of the Evidence for Intergenerational Epigenetic Transmission of Stress and Trauma in Humans. Genes (Basel). 2023;14(8):1639. doi:10.3390/genes14081639.",
+      "year": 2023,
+      "sourceType": "scoping review",
+      "pmid": "37628690",
+      "doi": "10.3390/genes14081639",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37628690/",
+      "evidenceStrength": "limited/emerging for human intergenerational epigenetic transmission",
+      "status": "current",
+      "limitations": "Human evidence for epigenetic transmission across generations remains debated and is vulnerable to shared-environment and other confounding.",
+      "conceptIds": [
+        "intergenerational-trauma"
+      ]
+    },
+    {
+      "id": "CAMBRIDGE-NEUROPSYCH-2024",
+      "citation": "Lynall M-E, Jones PB, Stahl SM, eds. Cambridge Textbook of Neuroscience for Psychiatrists. Cambridge University Press; 2024. doi:10.1017/9781911623137.",
+      "year": 2024,
+      "sourceType": "specialist textbook",
+      "doi": "10.1017/9781911623137",
+      "evidenceStrength": "high-quality secondary reference",
+      "status": "current",
+      "limitations": "Secondary source; individual claims should defer to current primary evidence and guidelines where available.",
+      "conceptIds": [
+        "current-evidence-emdr",
+        "memory-reconsolidation-trauma"
+      ]
+    },
+    {
+      "id": "OXFORD-EMOTION-DYSREG-2020",
+      "citation": "Beauchaine TP, Crowell SE, eds. The Oxford Handbook of Emotion Dysregulation. Oxford University Press; 2020.",
+      "year": 2020,
+      "sourceType": "specialist handbook",
+      "evidenceStrength": "high-quality secondary reference",
+      "status": "foundational/current secondary",
+      "limitations": "Useful synthesis, but rapidly changing biological claims require newer primary reviews.",
+      "conceptIds": [
+        "intergenerational-trauma"
+      ]
+    },
+    {
+      "id": "AUTISM-NEUROBIOLOGY-2023",
+      "citation": "El Idrissi A, McCloskey D, eds. Neurobiology of Autism Spectrum Disorders. Springer; 2023. doi:10.1007/978-3-031-42383-3.",
+      "year": 2023,
+      "sourceType": "specialist edited textbook",
+      "doi": "10.1007/978-3-031-42383-3",
+      "evidenceStrength": "specialist secondary reference",
+      "status": "current secondary",
+      "limitations": "Includes animal-model and mechanistic chapters; findings from model systems must not be presented as established individual-level human biomarkers.",
+      "conceptIds": [
+        "autism-neurofeedback"
+      ]
+    }
+  ]
+}

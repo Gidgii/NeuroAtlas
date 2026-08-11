@@ -39,13 +39,13 @@
   "sections": {
     "explainSimply": "Some autistic people use neurofeedback with goals such as attention, sleep or self-regulation.",
     "explainLikePsychologist": "Autism is not a unitary brain-wave abnormality. Goals should be person-centred and avoid framing neurodivergence itself as damage to be normalised.",
-    "advancedClinicalDetail": "Evidence is heterogeneous and often limited by small samples, non-blinded outcomes and variable protocols. Monitor sensory load and assent.",
+    "advancedClinicalDetail": "A 2025 systematic review found signals of cognitive benefit across a small, heterogeneous literature, but the evidence base remains too limited and methodologically variable to infer efficacy for autism as a condition. Define person-centred functional targets, monitor sensory load and assent, and avoid normalisation goals.",
     "thinkOfItLike": "Testing a treatment hypothesis: improvement must be meaningful, measured and compared with plausible alternatives.",
     "whyPsychologistsCare": "Psychologists need to understand autism applications to evaluate mechanism claims, informed consent, treatment fit and whether change transfers to real-world function.",
     "whenItGoesWrong": "Do not promise to “treat autism” or erase identity-linked traits.",
     "clinicalPearl": "Measure benefit and harm with the same seriousness.",
     "practicalExample": "A clinician using autism applications predefines the target, checks raw signal and artifacts, monitors symptoms and function, and reviews whether change generalises beyond the feedback display.",
-    "limitationsCautions": "Do not promise to “treat autism” or erase identity-linked traits. Evidence classification: insufficient and heterogeneous evidence."
+    "limitationsCautions": "Do not promise to “treat autism” or erase identity-linked traits. Evidence classification: preliminary and heterogeneous; selected cognitive outcomes are not evidence that autism itself is normalised or cured."
   },
   "mechanismMap": [
     {
@@ -146,13 +146,30 @@
   "references": [
     {
       "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
-      "type": "Consensus reporting standard",
+      "type": "consensus reporting standard",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
     },
     {
-      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
-      "type": "Systematic review and meta-analysis",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
+      "citation": "Rezaee M, Effatpanah M, Nasehi MM, Ghamkhar L, Barati N. Assessing the Impact of Neurofeedback on Cognitive Function in Individuals with Autism Spectrum Disorder: A Systematic Review. Iran J Child Neurol. 2025;19(2):27-37. doi:10.22037/ijcn.v19i2.46578.",
+      "type": "systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40231286/"
+    },
+    {
+      "citation": "El Idrissi A, McCloskey D, eds. Neurobiology of Autism Spectrum Disorders. Springer; 2023. doi:10.1007/978-3-031-42383-3.",
+      "type": "specialist edited textbook",
+      "url": "https://doi.org/10.1007/978-3-031-42383-3"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B1",
+    "reviewDate": "2026-08-11",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "CRED-NF-2020",
+      "REZAEE-NF-ASD-2025",
+      "AUTISM-NEUROBIOLOGY-2023"
+    ],
+    "note": "Removed an ADHD-specific efficacy source and replaced it with ASD-specific evidence; retained neurodiversity-safe framing."
+  }
 }

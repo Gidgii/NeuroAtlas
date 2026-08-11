@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "registeredConcepts": 249,
+  "detailRecordsPresent": 249,
+  "totalReferenceEntries": 767,
+  "authoredDeepDiveRecords": 115,
+  "deepDiveAvailableViaAuthoredOrDerivedContent": 249,
+  "explicitBoundaryRecords": 168,
+  "highRiskClinicalTopics": 72,
+  "highRiskTopicsWithCautionSignals": 72,
+  "contracts": {
+    "deep dive fallback": true,
+    "evidence scope summary": true,
+    "expanded clinical search": true,
+    "route focus management": true,
+    "search keyboard shortcut": true,
+    "lazy concept thumbnails": true,
+    "high-priority concept hero": true,
+    "skip link": true,
+    "main focus target": true,
+    "polite status": true,
+    "global focus-visible": true,
+    "reduced motion": true,
+    "forced colors": true,
+    "new modules offline": true,
+    "confidence-aware runtime QA": true
+  },
+  "errors": [],
+  "warnings": [],
+  "clinicalReviewCaveat": "This audit validates structure, internal consistency, references, caution signals and overclaim safeguards. It is not a substitute for independent source-by-source clinical peer review of every factual claim."
+}

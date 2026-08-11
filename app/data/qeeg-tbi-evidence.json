@@ -115,24 +115,24 @@
   ],
   "references": [
     {
-      "type": "Guideline",
-      "citation": "American Clinical Neurophysiology Society. Standardized Critical Care EEG Terminology: 2021 version.",
-      "url": "https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf"
+      "citation": "Tenney JR, Gloss D, Arya R, et al. Practice Guideline: Use of Quantitative EEG for the Diagnosis of Mild Traumatic Brain Injury. J Clin Neurophysiol. 2021;38(4):287-292. doi:10.1097/WNP.0000000000000853.",
+      "type": "practice guideline",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34038930/"
     },
     {
-      "type": "Guideline collection",
-      "citation": "International Federation of Clinical Neurophysiology (IFCN): endorsed guidelines and standards.",
-      "url": "https://www.ifcn.info/publications/ifcn-endorsed-guidelines"
-    },
-    {
-      "type": "Practice assessment",
       "citation": "Nuwer MR et al. Assessment of digital EEG, quantitative EEG, and EEG brain mapping. Neurology. 1997;49:277–292.",
+      "type": "practice assessment",
       "url": "https://pubmed.ncbi.nlm.nih.gov/9222209/"
-    },
-    {
-      "type": "Review",
-      "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B1",
+    "reviewDate": "2026-08-11",
+    "severity": "substantive",
+    "status": "reference-corrected",
+    "evidenceIds": [
+      "ACNS-QEEG-MTBI-2021"
+    ],
+    "note": "Replaced generic standards with the ACNS guideline specific to qEEG diagnosis of mild TBI."
+  }
 }

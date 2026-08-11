@@ -6,7 +6,7 @@
   "sequence": 7,
   "level": 28,
   "title": "Polyvagal Theory",
-  "subtitle": "A clinically influential model with contested neuroanatomical claims",
+  "subtitle": "A clinically influential framework whose core neuroanatomical and evolutionary premises are actively disputed",
   "hero": "polyvagal-theory.svg",
   "altText": "Chalkboard-style clinical neuroscience diagram illustrating polyvagal theory across threat, memory, regulation and treatment systems.",
   "prerequisites": [
@@ -41,15 +41,15 @@
     "Identify one limitation or safety implication relevant to polyvagal theory."
   ],
   "sections": {
-    "explainSimply": "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states.",
-    "explainLikePsychologist": "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact.",
-    "advancedClinicalDetail": "Use it as a heuristic alongside established autonomic science, learning theory and contextual formulation rather than as a standalone biological explanation.",
+    "explainSimply": "Polyvagal Theory offers a state-based language for social engagement, mobilisation and shutdown, but that language should not be mistaken for settled autonomic neuroanatomy.",
+    "explainLikePsychologist": "Some clinicians find its metaphors useful for discussing safety and state shifts. However, major claims about vagal hierarchy, vagal nuclei, vertebrate evolution and respiratory sinus arrhythmia are disputed in contemporary autonomic science, and the theory’s originator contests those critiques.",
+    "advancedClinicalDetail": "If used clinically, treat Polyvagal Theory as a formulation heuristic rather than established neuroanatomy. Do not equate respiratory sinus arrhythmia with a direct readout of global “vagal tone,” infer a person’s putative ventral/dorsal vagal state from behaviour, or present the proposed evolutionary hierarchy as settled fact.",
     "thinkOfItLike": "Think of polyvagal theory as one part of a dynamic safety-and-learning system rather than a single switch.",
     "whyPsychologistsCare": "Psychologists need polyvagal theory to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
-    "whenItGoesWrong": "Do not diagnose “vagal states” or treat the theory as proven anatomy.",
+    "whenItGoesWrong": "Do not diagnose “vagal states,” equate respiratory sinus arrhythmia with a direct measure of global vagal tone, or present the proposed vagal hierarchy as established anatomy.",
     "clinicalPearl": "Clinical pearl: use polyvagal theory to sharpen formulation, not to replace phenomenology or outcome measurement.",
     "practicalExample": "A clinician uses polyvagal theory to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
-    "limitationsCautions": "Do not diagnose “vagal states” or treat the theory as proven anatomy. Evidence classification: mixed and contested theoretical model."
+    "limitationsCautions": "Clinical metaphors may be useful without validating the theory’s disputed biological premises. Evidence classification: clinically influential, scientifically contested framework."
   },
   "mechanismMap": [
     {
@@ -58,24 +58,24 @@
     },
     {
       "label": "State response",
-      "detail": "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states."
+      "detail": "Polyvagal Theory offers a state-based language for social engagement, mobilisation and shutdown, but that language should not be mistaken for settled autonomic neuroanatomy."
     },
     {
       "label": "Learning / memory",
-      "detail": "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact."
+      "detail": "Some clinicians find its metaphors useful for discussing safety and state shifts. However, major claims about vagal hierarchy, vagal nuclei, vertebrate evolution and respiratory sinus arrhythmia are disputed in contemporary autonomic science, and the theory’s originator contests those critiques."
     },
     {
       "label": "Clinical integration",
-      "detail": "Do not diagnose “vagal states” or treat the theory as proven anatomy."
+      "detail": "Do not diagnose “vagal states,” equate respiratory sinus arrhythmia with a direct measure of global vagal tone, or present the proposed vagal hierarchy as established anatomy."
     }
   ],
   "interaction": {
     "instruction": "Step through trigger, state, memory and regulation, then identify where evidence is established versus theoretical.",
     "signalSteps": [
       "Establish context and current safety.",
-      "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states.",
-      "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact.",
-      "Do not diagnose “vagal states” or treat the theory as proven anatomy."
+      "Polyvagal Theory offers a state-based language for social engagement, mobilisation and shutdown, but that language should not be mistaken for settled autonomic neuroanatomy.",
+      "Some clinicians find its metaphors useful for discussing safety and state shifts. However, major claims about vagal hierarchy, vagal nuclei, vertebrate evolution and respiratory sinus arrhythmia are disputed in contemporary autonomic science, and the theory’s originator contests those critiques.",
+      "Do not diagnose “vagal states,” equate respiratory sinus arrhythmia with a direct measure of global vagal tone, or present the proposed vagal hierarchy as established anatomy."
     ]
   },
   "quizBank": [
@@ -83,37 +83,37 @@
       "id": "polyvagal-theory-q1",
       "question": "What is the most accurate core statement about Polyvagal Theory?",
       "options": [
-        "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states.",
+        "Polyvagal Theory offers a state-based language for social engagement, mobilisation and shutdown, but that language should not be mistaken for settled autonomic neuroanatomy.",
         "It is a diagnostic biomarker",
         "It has one universal mechanism",
         "It guarantees treatment response"
       ],
       "correctAnswer": 0,
-      "rationale": "Polyvagal theory offers a language for mobilisation, shutdown and social engagement states."
+      "rationale": "Polyvagal Theory offers a state-based language for social engagement, mobilisation and shutdown, but that language should not be mistaken for settled autonomic neuroanatomy."
     },
     {
       "id": "polyvagal-theory-q2",
       "question": "Which interpretation is most clinically responsible?",
       "options": [
-        "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact.",
+        "Some clinicians find its metaphors useful for discussing safety and state shifts. However, major claims about vagal hierarchy, vagal nuclei, vertebrate evolution and respiratory sinus arrhythmia are disputed in contemporary autonomic science, and the theory’s originator contests those critiques.",
         "Treat group findings as individual diagnosis",
         "Ignore context and comorbidity",
         "Assume causality from correlation"
       ],
       "correctAnswer": 0,
-      "rationale": "Many clinicians find its state-based metaphors useful, but key evolutionary and neuroanatomical claims remain debated and should not be presented as settled fact."
+      "rationale": "Some clinicians find its metaphors useful for discussing safety and state shifts. However, major claims about vagal hierarchy, vagal nuclei, vertebrate evolution and respiratory sinus arrhythmia are disputed in contemporary autonomic science, and the theory’s originator contests those critiques."
     },
     {
       "id": "polyvagal-theory-q3",
       "question": "Which caution should guide practice?",
       "options": [
-        "Do not diagnose “vagal states” or treat the theory as proven anatomy.",
+        "Do not diagnose “vagal states,” equate respiratory sinus arrhythmia with a direct measure of global vagal tone, or present the proposed vagal hierarchy as established anatomy.",
         "More intensity is always better",
         "Mechanism certainty is required before consent",
         "Neuroscience replaces clinical assessment"
       ],
       "correctAnswer": 0,
-      "rationale": "Do not diagnose “vagal states” or treat the theory as proven anatomy."
+      "rationale": "Do not diagnose “vagal states,” equate respiratory sinus arrhythmia with a direct measure of global vagal tone, or present the proposed vagal hierarchy as established anatomy."
     }
   ],
   "reviewPrompts": [
@@ -152,24 +152,37 @@
   },
   "references": [
     {
-      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
-      "url": "https://www.who.int/publications/i/item/9789241505406",
-      "evidenceType": "guideline"
+      "citation": "Grossman P. Fundamental challenges and likely refutations of the five basic premises of the polyvagal theory. Biol Psychol. 2023;180:108589. doi:10.1016/j.biopsycho.2023.108589.",
+      "type": "critical theoretical review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37230290/"
     },
     {
-      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
-      "url": "https://istss.org/clinical-resources/treating-trauma/",
-      "evidenceType": "guideline"
+      "citation": "Grossman P, Ackland GL, Allen AM, et al. Why The Polyvagal Theory Is Untenable: An international expert evaluation of the polyvagal theory. Clin Neuropsychiatry. 2026;23(1):100-112. doi:10.36131/cnfioritieditore20260110.",
+      "type": "multi-expert critical evaluation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41768017/"
     },
     {
-      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
-      "url": "https://www.nice.org.uk/guidance/ng116",
-      "evidenceType": "guideline"
+      "citation": "Porges SW. Polyvagal Theory: Current Status, Clinical Applications, and Future Directions. Clin Neuropsychiatry. 2025;22(3):169-184. doi:10.36131/cnfioritieditore20250301.",
+      "type": "theory-author review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40735382/"
     },
     {
-      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
-      "url": "https://www.apa.org/ptsd-guideline",
-      "evidenceType": "guideline"
+      "citation": "Porges SW. When A Critique Becomes Untenable: A Scholarly Response To Grossman Et Al.'s Evaluation Of Polyvagal Theory. Clin Neuropsychiatry. 2026;23(1). doi:10.36131/cnfioritieditore20260111.",
+      "type": "scholarly response",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41768026/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B1",
+    "reviewDate": "2026-08-11",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "GROSSMAN-PVT-2023",
+      "GROSSMAN-ETAL-PVT-2026",
+      "PORGES-PVT-2025",
+      "PORGES-RESPONSE-2026"
+    ],
+    "note": "Reframed as an active scientific dispute and removed implication that clinical usefulness validates disputed anatomy."
+  }
 }

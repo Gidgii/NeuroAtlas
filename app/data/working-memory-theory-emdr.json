@@ -43,13 +43,13 @@
   "sections": {
     "explainSimply": "Holding a distressing image in mind while doing another demanding task can tax limited working-memory resources.",
     "explainLikePsychologist": "Competition may make the recalled image temporarily less vivid and emotional, enabling new appraisal or updating.",
-    "advancedClinicalDetail": "Laboratory effects are reproducible for eye movements and other taxing tasks, but they do not alone explain all clinical outcomes of EMDR.",
+    "advancedClinicalDetail": "Dual-task studies support the prediction that taxing working memory during recall can reduce the vividness and emotionality of remembered material. This supports a plausible component mechanism, but does not establish working-memory taxation as the complete explanation for clinical EMDR outcomes.",
     "thinkOfItLike": "Think of working memory theory as one part of a dynamic safety-and-learning system rather than a single switch.",
     "whyPsychologistsCare": "Psychologists need working memory theory to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
     "whenItGoesWrong": "Reducing vividness is not the same as resolving meaning or risk.",
     "clinicalPearl": "Clinical pearl: use working memory theory to sharpen formulation, not to replace phenomenology or outcome measurement.",
     "practicalExample": "A clinician uses working memory theory to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
-    "limitationsCautions": "Reducing vividness is not the same as resolving meaning or risk. Evidence classification: promising mechanism with experimental support."
+    "limitationsCautions": "Reducing vividness or emotionality in a dual-task paradigm is not the same as resolving trauma meaning, functional impairment or risk. Evidence classification: experimentally supported component mechanism; incomplete account of clinical EMDR efficacy."
   },
   "mechanismMap": [
     {
@@ -152,24 +152,25 @@
   },
   "references": [
     {
-      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
-      "url": "https://www.who.int/publications/i/item/9789241505406",
-      "evidenceType": "guideline"
+      "citation": "Wadji DL, Martin-Soelch C, Camos V. Can working memory account for EMDR efficacy in PTSD? BMC Psychol. 2022;10(1):245. doi:10.1186/s40359-022-00951-0.",
+      "type": "systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36320044/"
     },
     {
-      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
-      "url": "https://istss.org/clinical-resources/treating-trauma/",
-      "evidenceType": "guideline"
-    },
-    {
-      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
-      "url": "https://www.nice.org.uk/guidance/ng116",
-      "evidenceType": "guideline"
-    },
-    {
-      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
-      "url": "https://www.apa.org/ptsd-guideline",
-      "evidenceType": "guideline"
+      "citation": "Wright SL, Karyotaki E, Cuijpers P, et al. EMDR v. other psychological therapies for PTSD: a systematic review and individual participant data meta-analysis. Psychological Medicine. 2024;54(8):1580-1588. doi:10.1017/S0033291723003446.",
+      "type": "systematic review and individual participant data meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38173121/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B1",
+    "reviewDate": "2026-08-11",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "WADJI-WM-EMDR-2022",
+      "WRIGHT-EMDR-IPDMA-2024"
+    ],
+    "note": "Replaced generic treatment guidelines with mechanism-specific systematic review plus comparative clinical evidence."
+  }
 }

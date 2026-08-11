@@ -147,13 +147,24 @@
   "references": [
     {
       "citation": "Ros T, Enriquez-Geppert S, Zotev V, et al. Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist). Brain. 2020;143(6):1674-1685.",
-      "type": "Consensus reporting standard",
+      "type": "consensus reporting standard",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32176800/"
     },
     {
-      "citation": "Westwood SJ, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025.",
-      "type": "Systematic review and meta-analysis",
+      "citation": "Westwood SJ, Aggensteiner P-M, Kaiser A, et al. Neurofeedback for Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025;82(2):118-129. doi:10.1001/jamapsychiatry.2024.3702.",
+      "type": "systematic review and meta-analysis of randomized clinical trials",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39661381/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B1",
+    "reviewDate": "2026-08-11",
+    "severity": "no issue",
+    "status": "verified",
+    "evidenceIds": [
+      "CRED-NF-2020",
+      "WESTWOOD-NF-ADHD-2025"
+    ],
+    "note": "Existing cautious wording is aligned with the 2025 randomized-trial meta-analysis."
+  }
 }

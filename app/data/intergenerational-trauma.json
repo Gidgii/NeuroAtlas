@@ -41,14 +41,14 @@
   ],
   "sections": {
     "explainSimply": "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways.",
-    "explainLikePsychologist": "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited.",
-    "advancedClinicalDetail": "Human intergenerational research faces major confounding from shared environments, structural disadvantage and measurement limitations.",
+    "explainLikePsychologist": "Intergenerational associations are supported across psychological, family and physiological outcomes, but human studies cannot cleanly separate caregiving, social and structural transmission from biological pathways. Epigenetic transmission remains plausible but unproven as a general causal explanation.",
+    "advancedClinicalDetail": "Human evidence is observational and vulnerable to shared-environment, historical, socioeconomic and measurement confounding. Epigenetic differences in descendants do not demonstrate inheritance of a trauma memory, nor do they establish an inevitable biological destiny.",
     "thinkOfItLike": "Think of intergenerational trauma as one part of a dynamic safety-and-learning system rather than a single switch.",
     "whyPsychologistsCare": "Psychologists need intergenerational trauma to connect symptoms with learning, context, risk and treatment choice without reducing the person to a brain scan.",
     "whenItGoesWrong": "Avoid deterministic claims that trauma is genetically “passed down.”",
     "clinicalPearl": "Clinical pearl: use intergenerational trauma to sharpen formulation, not to replace phenomenology or outcome measurement.",
     "practicalExample": "A clinician uses intergenerational trauma to formulate triggers, state shifts, avoidance and functional impact, then monitors whether intervention improves daily life rather than relying on presumed neural change.",
-    "limitationsCautions": "Avoid deterministic claims that trauma is genetically “passed down.” Evidence classification: promising but limited biological evidence."
+    "limitationsCautions": "Avoid deterministic claims that trauma is genetically or epigenetically “passed down.” Evidence classification: intergenerational associations are supported; specifically epigenetic transmission in humans remains limited and contested."
   },
   "mechanismMap": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "label": "Learning / memory",
-      "detail": "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited."
+      "detail": "Intergenerational associations are supported across psychological, family and physiological outcomes, but human studies cannot cleanly separate caregiving, social and structural transmission from biological pathways. Epigenetic transmission remains plausible but unproven as a general causal explanation."
     },
     {
       "label": "Clinical integration",
@@ -73,7 +73,7 @@
     "signalSteps": [
       "Establish context and current safety.",
       "Trauma can influence families through caregiving, beliefs, stress exposure, social conditions and possibly biological pathways.",
-      "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited.",
+      "Intergenerational associations are supported across psychological, family and physiological outcomes, but human studies cannot cleanly separate caregiving, social and structural transmission from biological pathways. Epigenetic transmission remains plausible but unproven as a general causal explanation.",
       "Avoid deterministic claims that trauma is genetically “passed down.”"
     ]
   },
@@ -94,13 +94,13 @@
       "id": "intergenerational-trauma-q2",
       "question": "Which interpretation is most clinically responsible?",
       "options": [
-        "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited.",
+        "Intergenerational associations are supported across psychological, family and physiological outcomes, but human studies cannot cleanly separate caregiving, social and structural transmission from biological pathways. Epigenetic transmission remains plausible but unproven as a general causal explanation.",
         "Treat group findings as individual diagnosis",
         "Ignore context and comorbidity",
         "Assume causality from correlation"
       ],
       "correctAnswer": 0,
-      "rationale": "Epigenetic findings are intriguing but do not show that a specific trauma memory is inherited."
+      "rationale": "Intergenerational associations are supported across psychological, family and physiological outcomes, but human studies cannot cleanly separate caregiving, social and structural transmission from biological pathways. Epigenetic transmission remains plausible but unproven as a general causal explanation."
     },
     {
       "id": "intergenerational-trauma-q3",
@@ -151,24 +151,31 @@
   },
   "references": [
     {
-      "citation": "World Health Organization. Guidelines for the management of conditions specifically related to stress.",
-      "url": "https://www.who.int/publications/i/item/9789241505406",
-      "evidenceType": "guideline"
+      "citation": "El-Khalil C, Caculidis Tudor D, Nedelcea C. Impact of intergenerational trauma on second-generation descendants: a systematic review. BMC Psychol. 2025;13(1):668. doi:10.1186/s40359-025-03012-4.",
+      "type": "systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40597246/"
     },
     {
-      "citation": "International Society for Traumatic Stress Studies. PTSD Prevention and Treatment Guidelines.",
-      "url": "https://istss.org/clinical-resources/treating-trauma/",
-      "evidenceType": "guideline"
+      "citation": "Biological Embedding of Early-Life Adversity and a Scoping Review of the Evidence for Intergenerational Epigenetic Transmission of Stress and Trauma in Humans. Genes (Basel). 2023;14(8):1639. doi:10.3390/genes14081639.",
+      "type": "scoping review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37628690/"
     },
     {
-      "citation": "National Institute for Health and Care Excellence. Post-traumatic stress disorder: NG116.",
-      "url": "https://www.nice.org.uk/guidance/ng116",
-      "evidenceType": "guideline"
-    },
-    {
-      "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
-      "url": "https://www.apa.org/ptsd-guideline",
-      "evidenceType": "guideline"
+      "citation": "Beauchaine TP, Crowell SE, eds. The Oxford Handbook of Emotion Dysregulation. Oxford University Press; 2020.",
+      "type": "specialist handbook",
+      "url": "https://global.oup.com/academic/product/the-oxford-handbook-of-emotion-dysregulation-9780190689285"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B1",
+    "reviewDate": "2026-08-11",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "ELKHALIL-INTERGEN-2025",
+      "YOUSEF-INTERGEN-EPIGEN-2023",
+      "OXFORD-EMOTION-DYSREG-2020"
+    ],
+    "note": "Separated supported intergenerational associations from stronger and less secure claims of biological/epigenetic transmission."
+  }
 }
