@@ -67,8 +67,7 @@ def test_p67_assessment_rationales_keep_diagnostic_guardrails():
     assert "no meaningful group-level benefit" in by_id["nf-01"]["rationale"]
     assert "as established standard care" in by_id["nf-02"]["rationale"]
     assert (
-        "Treatment efficacy and mechanism are distinct questions"
-        in by_id["trauma-01"]["rationale"]
+        "Treatment efficacy and mechanism are distinct questions" in by_id["trauma-01"]["rationale"]
     )
 
 
