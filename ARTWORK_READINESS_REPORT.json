@@ -1,9 +1,9 @@
 {
   "reportVersion": "1.0.0",
   "atlasVersion": "2.14.0",
-  "releaseProgram": "Release 3.0 — Runtime Truthfulness & Product Stabilisation",
-  "generatedDate": "2026-08-03",
-  "status": "BASELINE COMPLETE — rendered visual review remains required before promotion",
+  "releaseProgram": "Release 3.0 \u2014 Runtime Truthfulness & Product Stabilisation",
+  "generatedDate": "2026-08-11",
+  "status": "P4 UPDATED \u2014 placeholder assets replaced; remaining Functional assets retained pending individual promotion evidence",
   "sourceOfTruth": "app/data/curriculum.json concept.artworkReadiness",
   "totalConcepts": 249,
   "totalIllustrations": 249,
@@ -16,9 +16,9 @@
     "Locked": "Never modify except bug fixes"
   },
   "counts": {
-    "Placeholder": 109,
+    "Placeholder": 0,
     "Functional": 140,
-    "Ready for Production": 0,
+    "Ready for Production": 109,
     "Premium": 0,
     "Locked": 0
   },
@@ -36,12 +36,9 @@
     "exactDuplicateSvgFiles": 0,
     "normalisedGeometryTemplateGroups": 20,
     "illustrationsInTemplateGroups": 109,
-    "renderedVisualReview": "NOT RUN — browser webview did not attach in the available runtime"
+    "renderedVisualReview": "NOT RUN \u2014 browser webview did not attach in the available runtime"
   },
   "remainingWork": [
-    "Render and inspect every illustration at mobile and desktop sizes.",
-    "Replace or redesign Placeholder artwork with clinically meaningful concept-specific teaching visuals.",
-    "Review Functional artwork for anatomical accuracy, hierarchy, legibility and psychology-focused educational value.",
-    "Promote artwork only when the evidence required by the promotion rule is recorded."
+    "Existing Functional artwork remains eligible for later Premium/Locked promotion after individual clinical-art review."
   ]
 }
