@@ -1,6 +1,6 @@
 const RELEASE = Object.freeze({
-  phase: 'P5',
-  label: 'Polish & release-readiness',
+  phase: 'P7',
+  label: 'Assessment & educator productisation',
   evidencePolicy: 'Evidence-linked factual content with higher-tier sourcing for clinical claims',
 });
 
@@ -125,7 +125,7 @@ function installReleaseFooter() {
     'releaseDialog',
     'About this release',
     './legal/release.html',
-    'P5 adds product polish, release governance, privacy and accessibility documentation, search scoping and installability hardening.',
+    'P7 adds evidence-linked advanced assessment, confidence calibration, structured pathways and local educator exports on top of the P5 release safeguards.',
   );
 
   footer.querySelectorAll('[data-release-dialog]').forEach((button) => {

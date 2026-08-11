@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-11",
+  "purpose": "Evidence-linked advanced assessment bank for P6-P7",
+  "cases": [
+    {
+      "id": "loc-01",
+      "domain": "localisation",
+      "difficulty": 2,
+      "competency": "localise",
+      "title": "Crossed brainstem signs",
+      "prompt": "A patient has an ipsilateral cranial-nerve deficit with contralateral limb weakness. What is the most defensible localisation level?",
+      "choices": [
+        "Cerebral cortex",
+        "Brainstem",
+        "Cerebellar hemisphere",
+        "Peripheral nerve"
+      ],
+      "correctIndex": 1,
+      "rationale": "Crossed cranial-nerve and long-tract findings are a classic localisation pattern for the brainstem. The exact level still depends on the involved cranial nerve and accompanying tract signs.",
+      "conceptIds": [
+        "brainstem-atlas",
+        "lesion-and-symptom-mapping"
+      ],
+      "evidenceIds": [
+        "BERKOWITZ-LOCALIZATION-2022",
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022"
+      ]
+    },
+    {
+      "id": "loc-02",
+      "domain": "localisation",
+      "difficulty": 2,
+      "competency": "localise",
+      "title": "Neglect pattern",
+      "prompt": "After a right-hemisphere stroke, a patient repeatedly omits items on the left side of space despite adequate primary vision. Which syndrome best fits?",
+      "choices": [
+        "Aphasia",
+        "Hemispatial neglect",
+        "Apraxia of speech",
+        "Anterograde amnesia"
+      ],
+      "correctIndex": 1,
+      "rationale": "Persistent failure to attend to contralesional space with preserved primary sensory capacity is characteristic of hemispatial neglect, commonly after right-hemisphere network injury.",
+      "conceptIds": [
+        "hemispatial-neglect",
+        "brain-lateralisation"
+      ],
+      "evidenceIds": [
+        "BERKOWITZ-LOCALIZATION-2022",
+        "CAMBRIDGE-NEUROPSYCH-2024"
+      ]
+    },
+    {
+      "id": "loc-03",
+      "domain": "localisation",
+      "difficulty": 3,
+      "competency": "explain",
+      "title": "Basal ganglia reasoning",
+      "prompt": "A patient develops bradykinesia and rigidity without primary weakness. Which system is most directly implicated?",
+      "choices": [
+        "Basal ganglia motor circuits",
+        "Primary visual cortex",
+        "Dorsal-column system",
+        "Auditory pathway"
+      ],
+      "correctIndex": 0,
+      "rationale": "Bradykinesia and rigidity point toward basal-ganglia motor-circuit dysfunction rather than loss of corticospinal strength.",
+      "conceptIds": [
+        "basal-ganglia-circuit-explorer",
+        "motor-system"
+      ],
+      "evidenceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "CAMBRIDGE-NEUROPSYCH-2024"
+      ]
+    },
+    {
+      "id": "np-01",
+      "domain": "neuropsychology",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "Interpreting executive scores",
+      "prompt": "A teenager scores poorly on one executive-function test after sleeping four hours and reports severe anxiety. What is the best interpretation?",
+      "choices": [
+        "The score proves frontal-lobe damage",
+        "The score confirms ADHD",
+        "Interpret within a broader pattern and consider state confounds",
+        "Ignore the score entirely"
+      ],
+      "correctIndex": 2,
+      "rationale": "Single scores are not anatomically or diagnostically specific. Sleep, anxiety, effort, medication and other state factors can materially affect performance and should be integrated with the broader profile.",
+      "conceptIds": [
+        "executive-assessment",
+        "psychiatric-state-confounds",
+        "clinical-test-interpretation"
+      ],
+      "evidenceIds": [
+        "CAMBRIDGE-NEUROPSYCH-2024",
+        "AACN-VALIDITY-2021"
+      ]
+    },
+    {
+      "id": "np-02",
+      "domain": "neuropsychology",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "Performance validity",
+      "prompt": "A validity indicator is below its recommended threshold. What should happen next?",
+      "choices": [
+        "Diagnose malingering immediately",
+        "Treat the whole cognitive profile as invalid without context",
+        "Integrate multiple validity indicators and contextual information",
+        "Convert the score into an IQ estimate"
+      ],
+      "correctIndex": 2,
+      "rationale": "Performance-validity findings require converging evidence and contextual interpretation; a single indicator is not synonymous with intentional deception.",
+      "conceptIds": [
+        "performance-validity",
+        "clinical-test-interpretation"
+      ],
+      "evidenceIds": [
+        "AACN-VALIDITY-2021"
+      ]
+    },
+    {
+      "id": "np-03",
+      "domain": "neuropsychology",
+      "difficulty": 2,
+      "competency": "compare",
+      "title": "Memory mechanism",
+      "prompt": "A person recalls remote autobiographical information but struggles to form new episodic memories. Which distinction is most useful?",
+      "choices": [
+        "Encoding/new learning versus remote retrieval",
+        "Motor versus sensory cortex",
+        "Left versus right cerebellum",
+        "Sympathetic versus parasympathetic tone"
+      ],
+      "correctIndex": 0,
+      "rationale": "The pattern raises questions about encoding/consolidation of new episodic information relative to retrieval of older information; localisation still requires the wider clinical pattern.",
+      "conceptIds": [
+        "memory-systems",
+        "episodic-memory-neuropsychology"
+      ],
+      "evidenceIds": [
+        "CAMBRIDGE-NEUROPSYCH-2024"
+      ]
+    },
+    {
+      "id": "eeg-01",
+      "domain": "eeg-qeeg",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "Focal slowing",
+      "prompt": "An EEG shows persistent focal slowing over one region. What is the most defensible conclusion?",
+      "choices": [
+        "It proves a tumour",
+        "It indicates focal cerebral dysfunction but is not etiologically specific",
+        "It diagnoses epilepsy",
+        "It confirms ADHD"
+      ],
+      "correctIndex": 1,
+      "rationale": "Focal slowing can support focal cerebral dysfunction, but it does not by itself identify a specific cause and is not equivalent to an epileptiform discharge.",
+      "conceptIds": [
+        "focal-slowing",
+        "clinical-reporting-qeeg"
+      ],
+      "evidenceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022"
+      ]
+    },
+    {
+      "id": "eeg-02",
+      "domain": "eeg-qeeg",
+      "difficulty": 3,
+      "competency": "recognise",
+      "title": "Epileptiform versus slowing",
+      "prompt": "Which statement best distinguishes an interictal epileptiform discharge from focal slowing?",
+      "choices": [
+        "They are interchangeable labels",
+        "Epileptiform morphology can support increased seizure propensity; slowing is a nonspecific dysfunction marker",
+        "Slowing is more specific for epilepsy",
+        "Neither has clinical relevance"
+      ],
+      "correctIndex": 1,
+      "rationale": "Epileptiform discharges and slowing answer different questions. Morphology and clinical context matter; neither should be interpreted in isolation.",
+      "conceptIds": [
+        "epileptiform-discharges",
+        "focal-slowing"
+      ],
+      "evidenceIds": [
+        "FITZGERALD-CLINICAL-NEUROANATOMY-2022",
+        "BERKOWITZ-LOCALIZATION-2022"
+      ]
+    },
+    {
+      "id": "eeg-03",
+      "domain": "eeg-qeeg",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "qEEG and ADHD",
+      "prompt": "A child has an elevated theta/beta ratio on qEEG. What is the most evidence-consistent clinical use?",
+      "choices": [
+        "Confirm ADHD",
+        "Rule out ADHD",
+        "Use it as one research/adjunctive measure, not a replacement for standard diagnostic assessment",
+        "Choose stimulant dose from the ratio"
+      ],
+      "correctIndex": 2,
+      "rationale": "The American Academy of Neurology practice advisory does not support using the EEG theta/beta ratio as a stand-alone ADHD diagnostic test.",
+      "conceptIds": [
+        "qeeg-adhd-evidence"
+      ],
+      "evidenceIds": [
+        "AAN-QEEG-ADHD-2016-2025"
+      ]
+    },
+    {
+      "id": "nf-01",
+      "domain": "neurofeedback",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "ADHD neurofeedback claim",
+      "prompt": "Which statement best matches the current group-level ADHD neurofeedback evidence?",
+      "choices": [
+        "It is established as superior to standard care",
+        "Blinded outcomes show no meaningful overall benefit, although some standard-protocol analyses show small effects",
+        "It cures ADHD when cortical learning occurs",
+        "Evidence is too sparse to analyse at all"
+      ],
+      "correctIndex": 1,
+      "rationale": "A 2025 meta-analysis of 38 RCTs found no meaningful group-level benefit on probably blinded ADHD symptoms overall, with small effects in some standard-protocol subsets.",
+      "conceptIds": [
+        "adhd-neurofeedback"
+      ],
+      "evidenceIds": [
+        "WESTWOOD-NF-ADHD-2025",
+        "CRED-NF-2020"
+      ]
+    },
+    {
+      "id": "nf-02",
+      "domain": "neurofeedback",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "Autism neurofeedback claim",
+      "prompt": "A family asks whether neurofeedback is an established treatment for core autism features. What is the best response?",
+      "choices": [
+        "Yes, established first-line treatment",
+        "No study has ever reported benefit",
+        "Evidence is heterogeneous and promising in places, but it is not established standard care for core autism features",
+        "It is diagnostic rather than therapeutic"
+      ],
+      "correctIndex": 2,
+      "rationale": "Recent ASD-specific review literature reports positive findings in some studies but substantial heterogeneity and does not justify presenting neurofeedback as established standard care.",
+      "conceptIds": [
+        "autism-neurofeedback"
+      ],
+      "evidenceIds": [
+        "REZAEE-NF-ASD-2025",
+        "AUTISM-NEUROBIOLOGY-2023"
+      ]
+    },
+    {
+      "id": "trauma-01",
+      "domain": "trauma-emdr",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "EMDR efficacy versus mechanism",
+      "prompt": "Which statement best separates EMDR efficacy from mechanism?",
+      "choices": [
+        "If EMDR works, bilateral stimulation is proven to be the unique mechanism",
+        "EMDR can be evidence-based for PTSD while its precise mechanism remains unsettled",
+        "Mechanism evidence is stronger than outcome evidence",
+        "EMDR has no guideline support"
+      ],
+      "correctIndex": 1,
+      "rationale": "Treatment efficacy and mechanism are distinct questions. NICE continues to recommend EMDR for specified PTSD presentations, while no single neural mechanism is established as uniquely causal.",
+      "conceptIds": [
+        "current-evidence-emdr",
+        "mechanisms-change-emdr",
+        "bilateral-stimulation-emdr"
+      ],
+      "evidenceIds": [
+        "NICE-PTSD-NG116",
+        "WRIGHT-EMDR-IPDMA-2024"
+      ]
+    },
+    {
+      "id": "trauma-02",
+      "domain": "trauma-emdr",
+      "difficulty": 3,
+      "competency": "compare",
+      "title": "Polyvagal framing",
+      "prompt": "How should Polyvagal Theory be presented in a clinical neuroscience atlas?",
+      "choices": [
+        "As settled neuroanatomical fact",
+        "As useless because it is debated",
+        "As an influential clinical heuristic whose key evolutionary/neuroanatomical premises are contested",
+        "As a diagnostic test for autonomic states"
+      ],
+      "correctIndex": 2,
+      "rationale": "The theory is clinically influential, but important anatomical and evolutionary claims are actively disputed. Clinical usefulness should not be conflated with established biological fact.",
+      "conceptIds": [
+        "polyvagal-theory",
+        "parasympathetic-regulation-trauma"
+      ],
+      "evidenceIds": [
+        "GROSSMAN-PVT-2023",
+        "PORGES-PVT-2025"
+      ]
+    },
+    {
+      "id": "trauma-03",
+      "domain": "trauma-emdr",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "Intergenerational trauma",
+      "prompt": "Which statement is most defensible about intergenerational trauma?",
+      "choices": [
+        "Specific traumatic memories are epigenetically inherited",
+        "Intergenerational associations can reflect social, developmental and possibly biological pathways; human epigenetic transmission remains uncertain",
+        "There is no evidence of intergenerational association",
+        "Epigenetics eliminates environmental confounding"
+      ],
+      "correctIndex": 1,
+      "rationale": "Human intergenerational findings are compatible with multiple pathways. Epigenetic observations do not establish deterministic transmission of specific trauma memories.",
+      "conceptIds": [
+        "intergenerational-trauma",
+        "developmental-trauma"
+      ],
+      "evidenceIds": [
+        "YOUSEF-INTERGEN-EPIGEN-2023",
+        "ELKHALIL-INTERGEN-2025"
+      ]
+    },
+    {
+      "id": "nd-01",
+      "domain": "neurodevelopment",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "Autism neuroscience inference",
+      "prompt": "A group-level imaging study reports an average network difference in autistic participants. What can you conclude about an individual child?",
+      "choices": [
+        "The child must have that neural pattern",
+        "The finding confirms autism in that child",
+        "Group-level findings do not provide a deterministic individual biomarker without validated individual-level performance",
+        "The finding determines treatment choice"
+      ],
+      "correctIndex": 2,
+      "rationale": "Group differences describe distributions, not deterministic individual signatures. Diagnostic inference requires validated individual-level accuracy and clinical assessment.",
+      "conceptIds": [
+        "autism-neurofeedback",
+        "functional-networks"
+      ],
+      "evidenceIds": [
+        "AUTISM-NEUROBIOLOGY-2023",
+        "CAMBRIDGE-NEUROPSYCH-2024"
+      ]
+    },
+    {
+      "id": "nd-02",
+      "domain": "neurodevelopment",
+      "difficulty": 3,
+      "competency": "apply",
+      "title": "ADHD biomarker reasoning",
+      "prompt": "Which approach is most consistent with evidence-based ADHD assessment?",
+      "choices": [
+        "Diagnose from one EEG biomarker",
+        "Integrate developmental history, impairment, symptoms across contexts and differential considerations; biomarkers are not stand-alone diagnostic substitutes",
+        "Diagnose from processing-speed weakness",
+        "Diagnose from response to stimulant medication"
+      ],
+      "correctIndex": 1,
+      "rationale": "ADHD remains a clinical diagnosis based on symptoms, developmental course and impairment; currently available EEG biomarkers should not replace standard assessment.",
+      "conceptIds": [
+        "qeeg-adhd-evidence",
+        "attention-neuropsychology"
+      ],
+      "evidenceIds": [
+        "AAN-QEEG-ADHD-2016-2025",
+        "CAMBRIDGE-NEUROPSYCH-2024"
+      ]
+    },
+    {
+      "id": "integrated-01",
+      "domain": "integrated",
+      "difficulty": 4,
+      "competency": "apply",
+      "title": "Clinical localisation before diagnosis",
+      "prompt": "A patient presents with sudden left facial weakness, left arm weakness and language disturbance. What should come first in neurological reasoning?",
+      "choices": [
+        "Assign a psychiatric diagnosis",
+        "Localise the affected system/network and establish time course before deciding aetiology",
+        "Order qEEG to diagnose the lesion",
+        "Infer personality change from hemisphere side"
+      ],
+      "correctIndex": 1,
+      "rationale": "Neurological reasoning separates localisation (where) from aetiology (what), while time course sharply constrains the differential.",
+      "conceptIds": [
+        "lesion-and-symptom-mapping",
+        "cerebral-lobes-atlas",
+        "clinical-neuroanatomy-review"
+      ],
+      "evidenceIds": [
+        "BERKOWITZ-LOCALIZATION-2022"
+      ]
+    },
+    {
+      "id": "integrated-02",
+      "domain": "integrated",
+      "difficulty": 4,
+      "competency": "apply",
+      "title": "Evidence hierarchy in treatment claims",
+      "prompt": "A small uncontrolled study reports improvement after a novel brain-based intervention, while multiple blinded RCTs and a meta-analysis show little group-level benefit. How should the Atlas teach the intervention?",
+      "choices": [
+        "Lead with the uncontrolled positive study",
+        "Present efficacy as established",
+        "Prioritise the higher-level evidence, describe uncertainty, and preserve the positive study as lower-tier/contextual evidence",
+        "Remove all references to the intervention"
+      ],
+      "correctIndex": 2,
+      "rationale": "Evidence synthesis should weight design quality, bias control, replication and directness rather than selectively privileging positive findings.",
+      "conceptIds": [
+        "ethics-evidence-clinical-limits",
+        "clinical-test-interpretation"
+      ],
+      "evidenceIds": [
+        "CRED-NF-2020",
+        "WESTWOOD-NF-ADHD-2025"
+      ]
+    }
+  ]
+}

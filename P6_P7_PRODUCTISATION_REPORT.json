@@ -1,0 +1,29 @@
+{
+  "phase": "P6-P7",
+  "status": "PASS",
+  "assessmentCases": 18,
+  "domains": [
+    "eeg-qeeg",
+    "integrated",
+    "localisation",
+    "neurodevelopment",
+    "neurofeedback",
+    "neuropsychology",
+    "trauma-emdr"
+  ],
+  "competencies": [
+    "apply",
+    "compare",
+    "explain",
+    "localise",
+    "recognise"
+  ],
+  "evidenceLinks": 31,
+  "conceptRemediationLinks": 36,
+  "indexedEvidenceSources": 234,
+  "productionConcepts": 249,
+  "privacyBoundary": "Assessment and educator records remain local unless the user exports them.",
+  "clinicalBoundary": "Assessment items teach evidence-weighted reasoning and do not replace clinical diagnosis, supervision, credentialing, or patient-specific assessment.",
+  "lockedEntrance": "UNCHANGED",
+  "failures": []
+}
