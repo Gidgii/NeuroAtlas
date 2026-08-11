@@ -539,7 +539,7 @@ def main() -> int:
 
     for check in report.checks:
         marker = "PASS" if check.ok else "FAIL"
-        suffix = f" â€” {check.detail}" if check.detail else ""
+        suffix = f" — {check.detail}" if check.detail else ""
         print(f"[{marker}] {check.name}{suffix}")
     print(f"\nRuntime QA: {report.passed}/{len(report.checks)} passed; {report.failed} failed")
     print(f"Report: {args.report}")
