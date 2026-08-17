@@ -1,0 +1,12 @@
+.release-candidate-badge {
+  display: inline-flex; align-items: center; gap: .4rem; padding: .35rem .6rem;
+  border: 1px solid currentColor; border-radius: 999px; font-size: .78rem;
+  opacity: .82;
+}
+.beta-feedback-dialog { width: min(42rem, calc(100vw - 2rem)); }
+.beta-feedback-dialog textarea { width: 100%; min-height: 9rem; resize: vertical; }
+.beta-feedback-dialog .feedback-grid { display: grid; gap: .8rem; }
+.beta-feedback-dialog label { display: grid; gap: .3rem; }
+.release-footer .rc-meta { font-size: .75rem; opacity: .72; }
+@media (max-width: 680px) { .beta-feedback-dialog { width: calc(100vw - 1rem); } }
+@media (prefers-reduced-motion: reduce) { .release-candidate-badge { transition: none; } }

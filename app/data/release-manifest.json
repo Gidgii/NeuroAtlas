@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0.0",
+  "release": "1.0.0-rc1",
+  "phase": "P8",
+  "status": "release-candidate",
+  "featureFreeze": true,
+  "generatedDate": "2026-08-11",
+  "evidencePolicy": "Clinical and neuroscience factual content remains subject to the P3.2 evidence-governance gate.",
+  "privacyModel": "Local-first learning state; no patient information required; no analytics vendor enabled by this release.",
+  "accessibilityPosition": "Targets WCAG 2.2 Level AA practices; no claim of independent certification.",
+  "externalReview": {
+    "clinical": "required before public v1.0 claim",
+    "accessibility": "recommended before public v1.0 claim",
+    "legalLicensing": "required before public v1.0 claim"
+  },
+  "releaseGates": [
+    "repository-validation",
+    "pytest",
+    "p8-release-audit",
+    "http-runtime-qa",
+    "p8-browser-qa",
+    "github-ci"
+  ],
+  "tagPolicy": "Create v1.0-rc1 tag only after GitHub CI is green for the P8 commit."
+}

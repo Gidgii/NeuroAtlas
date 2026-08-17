@@ -1,0 +1,23 @@
+{
+  "reportVersion": "1.0.0",
+  "generatedDate": "2026-08-11",
+  "phase": "P8",
+  "candidate": "1.0.0-rc1",
+  "status": "READY_FOR_LOCAL_VALIDATION",
+  "featureFreeze": true,
+  "scope": [
+    "release metadata",
+    "beta feedback export",
+    "offline cache coverage",
+    "viewport browser QA",
+    "release governance",
+    "licensing review inventory"
+  ],
+  "notClaims": [
+    "independent clinical peer review completed",
+    "independent accessibility certification completed",
+    "legal/copyright clearance completed",
+    "production security certification completed"
+  ],
+  "tagPolicy": "Tag v1.0-rc1 only after P8 commit passes GitHub CI."
+}

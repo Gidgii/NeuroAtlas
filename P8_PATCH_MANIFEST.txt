@@ -1,0 +1,13 @@
+app/index.html
+app/product-readiness.js
+app/sw.js
+app/p8-release.css
+app/p8-release.js
+app/data/release-manifest.json
+app/legal/release.html
+app/legal/third-party-notices.html
+tests/test_p8_release_candidate.py
+tools/p8_release_audit.py
+tools/p8_browser_qa.py
+P8_RELEASE_CANDIDATE_REPORT.json
+P8_COMPLETION_REPORT.md

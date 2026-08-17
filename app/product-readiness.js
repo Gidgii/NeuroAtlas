@@ -1,6 +1,6 @@
 const RELEASE = Object.freeze({
-  phase: 'P7',
-  label: 'Assessment & educator productisation',
+  phase: 'P8',
+  label: 'Release candidate hardening',
   evidencePolicy: 'Evidence-linked factual content with higher-tier sourcing for clinical claims',
 });
 
@@ -125,7 +125,7 @@ function installReleaseFooter() {
     'releaseDialog',
     'About this release',
     './legal/release.html',
-    'P7 adds evidence-linked advanced assessment, confidence calibration, structured pathways and local educator exports on top of the P5 release safeguards.',
+    'P8 freezes major features and adds release-candidate governance, local beta feedback export, release metadata, deployment checks and final regression safeguards on top of P6/P7.',
   );
 
   footer.querySelectorAll('[data-release-dialog]').forEach((button) => {
