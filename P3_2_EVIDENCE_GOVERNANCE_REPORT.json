@@ -1,0 +1,11 @@
+{
+  "phase": "P3.2",
+  "generatedDate": "2026-08-11",
+  "status": "COMPLETE \u2014 evidence governance and complete source indexing implemented",
+  "productionConcepts": 249,
+  "evidenceMappedConcepts": 249,
+  "evidenceLibrarySources": 234,
+  "policy": "All existing production concepts resolve to an evidence record. New or materially changed factual content must update evidence linkage before release.",
+  "importantBoundary": "Evidence-linked does not mean every sentence has been independently human peer reviewed. Higher-risk claims remain explicitly bounded and are prioritised for current guideline/systematic-review evidence.",
+  "lockedEntrance": "UNCHANGED"
+}
