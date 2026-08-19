@@ -168,6 +168,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "systematic review",
+      "citation": "Eilert DW, Buchheim A. Attachment-Related Differences in Emotion Regulation in Adults: A Systematic Review on Attachment Representations. Brain Sci. 2023;13(6):884. doi:10.3390/brainsci13060884.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37371364/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "ATTACH-ER-SR-2023"
+    ],
+    "note": "Added attachment-specific systematic review. Existing non-deterministic language retained; attachment representations are not treated as fixed neural types."
+  }
 }

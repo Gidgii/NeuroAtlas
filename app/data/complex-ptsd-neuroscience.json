@@ -168,6 +168,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "narrative neurobiological review",
+      "citation": "Stopyra MA, Simon JJ, Rheude C, Nikendei C. Pathophysiological aspects of complex PTSD - a neurobiological account in comparison to classic posttraumatic stress disorder and borderline personality disorder. Rev Neurosci. 2023;34(1):103-128. doi:10.1515/revneuro-2022-0014.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35938987/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "CPTSD-NEUROBIOLOGY-2022"
+    ],
+    "note": "Added CPTSD-specific neurobiological review. Existing statement that no validated biomarker distinguishes CPTSD clinically was retained."
+  }
 }

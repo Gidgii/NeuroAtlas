@@ -153,5 +153,16 @@
       "citation": "Raichle ME. The brain’s default mode network. Annual Review of Neuroscience. 2015.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25938726/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "none",
+    "status": "reviewed-no-change",
+    "evidenceIds": [
+      "ATLAS-8AD153539A",
+      "ATLAS-156743EC8D"
+    ],
+    "note": "Reviewed general DMN content. Existing foundational and review sources remain appropriate; record does not treat DMN variation as a psychiatric diagnosis or private-thought readout."
+  }
 }

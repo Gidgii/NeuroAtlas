@@ -168,6 +168,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "theoretical and clinical model paper",
+      "citation": "Steele K, van der Hart O, Nijenhuis ERS. Phase-oriented treatment of structural dissociation in complex traumatization: Overcoming trauma-related phobias. J Trauma Dissociation. 2005;6(3):11-53. doi:10.1300/J229v06n03_02.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16172081/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "STRUCT-DISSOC-STEELE-2005"
+    ],
+    "note": "Added theory-specific foundational source. Record continues to identify structural dissociation as a theoretical clinical model rather than an anatomical partition or established neural mechanism."
+  }
 }

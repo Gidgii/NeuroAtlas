@@ -133,6 +133,21 @@
       "type": "Review",
       "citation": "Coburn KL et al. The value of quantitative electroencephalography in clinical psychiatry: a report by the Committee on Research of the American Neuropsychiatric Association. J Neuropsychiatry Clin Neurosci. 2006;18:460–500.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/17135374/"
+    },
+    {
+      "type": "Systematic review and meta-analysis",
+      "citation": "Neo WS, Foti D, Keehn B, Kelleher B. Resting-state EEG power differences in autism spectrum disorder: a systematic review and meta-analysis. Transl Psychiatry. 2023;13:389.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38097538/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "QEEG-ASD-EEG-META-2023"
+    ],
+    "note": "Added autism-specific systematic review and meta-analysis supporting heterogeneous group-level EEG findings and non-diagnostic individual use."
+  }
 }

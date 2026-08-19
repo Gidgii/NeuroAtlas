@@ -168,6 +168,28 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "state-of-the-science review",
+      "citation": "de Jongh A, de Roos C, El-Leithy S. State of the science: Eye movement desensitization and reprocessing (EMDR) therapy. J Trauma Stress. 2024;37(2):205-216. doi:10.1002/jts.23012.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38282286/"
+    },
+    {
+      "type": "narrative theoretical review",
+      "citation": "Rydberg JA. Bolstering the adaptive information processing model: a narrative review. Front Psychiatry. 2024;15:1374274. doi:10.3389/fpsyt.2024.1374274.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38812488/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "EMDR-STATE-SCIENCE-2024",
+      "AIP-RYDBERG-2024",
+      "WADJI-WM-EMDR-2022"
+    ],
+    "note": "Reviewed neurobiological mechanism language. Clinical efficacy does not establish a unique neural mechanism, and neuroimaging findings remain group-level and mechanistically non-specific."
+  }
 }

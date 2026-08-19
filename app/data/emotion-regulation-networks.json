@@ -197,5 +197,17 @@
   "accessibility": {
     "illustrationAlt": "Stylised medical-atlas illustration of emotion regulation networks showing key network components.",
     "interactionSummary": "A keyboard-accessible sequence explains the system from input through adaptation."
+  },
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "none",
+    "status": "reviewed-no-change",
+    "evidenceIds": [
+      "ATLAS-EC23599E6F",
+      "ATLAS-66255B7E95",
+      "ATLAS-7485EDC5BC"
+    ],
+    "note": "Reviewed emotion-regulation network content. Existing cognitive-control and emotion-regulation sources remain suitable for general mechanisms; no single neural circuit is presented as a diagnostic marker."
   }
 }

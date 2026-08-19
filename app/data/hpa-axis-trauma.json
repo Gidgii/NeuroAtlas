@@ -172,6 +172,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "systematic review and meta-analysis",
+      "citation": "Schumacher S, Niemeyer H, Engel S, Cwik JC, Laufer S, Klusmann H, Knaevelsrud C. HPA axis regulation in posttraumatic stress disorder: A meta-analysis focusing on potential moderators. Neurosci Biobehav Rev. 2019;100:35-57. doi:10.1016/j.neubiorev.2019.02.005.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30790632/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "PTSD-HPA-META-2019"
+    ],
+    "note": "Added PTSD-specific HPA-axis meta-analysis. Existing cautious wording retained because direction and magnitude of endocrine findings vary across methods and samples."
+  }
 }

@@ -168,6 +168,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "review",
+      "citation": "Cardoner N, Andero R, Cano M, et al. Impact of Stress on Brain Morphology: Insights into Structural Biomarkers of Stress-related Disorders. Curr Neuropharmacol. 2024;22(5):935-962. doi:10.2174/1570159X21666230703091435.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37403395/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "STRESS-MORPHOLOGY-2024"
+    ],
+    "note": "Added current stress-neurobiology review. Existing network and state-dependent framing retained rather than reducing trauma to prefrontal underactivity."
+  }
 }

@@ -169,6 +169,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "systematic review",
+      "citation": "McLaughlin KA, Weissman D, Bitran D. Childhood Adversity and Neural Development: A Systematic Review. Annu Rev Dev Psychol. 2019;1:277-312. doi:10.1146/annurev-devpsych-121318-084950.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32455344/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "CHILD-ADVERSITY-NEURAL-SR-2019"
+    ],
+    "note": "Added systematic review of childhood adversity and neural development. Existing non-deterministic developmental framing retained."
+  }
 }

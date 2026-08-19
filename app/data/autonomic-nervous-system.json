@@ -166,6 +166,24 @@
     {
       "type": "Review",
       "citation": "Critchley HD, Harrison NA. Visceral influences on brain and behavior. Neuron. 2013;77:624–638."
+    },
+    {
+      "type": "physiology review",
+      "citation": "Roche F, et al. Anatomy and physiology of the autonomic nervous system. Presse Med. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38176987/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "minor",
+    "status": "reviewed",
+    "evidenceIds": [
+      "ANS-ANATOMY-PHYSIOLOGY-2024",
+      "ATLAS-B4401F8165",
+      "ATLAS-6D227CA048",
+      "ATLAS-4117128A8D"
+    ],
+    "note": "Current autonomic anatomy and physiology reviewed. Existing content is appropriately contextual and non-diagnostic; only the evidence base was refreshed."
+  }
 }

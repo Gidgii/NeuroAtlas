@@ -170,6 +170,27 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "integrative review",
+      "citation": "Griffin BJ, Purcell N, Burkman K, et al. Moral Injury: An Integrative Review. J Trauma Stress. 2019;32(3):350-362. doi:10.1002/jts.22362.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30688367/"
+    },
+    {
+      "type": "current clinical review",
+      "citation": "Phelps AJ, et al. Addressing moral injury in the military. BMJ Mil Health. 2024;170(1):51-55. doi:10.1136/bmjmilitary-2022-002128.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35705259/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "MORAL-INJURY-GRIFFIN-2019",
+      "MORAL-INJURY-MILITARY-2024"
+    ],
+    "note": "Added moral-injury-specific reviews. Moral injury is distinguished from PTSD and framed as a multidimensional psychological, social, ethical and potentially spiritual construct rather than a discrete neural disorder."
+  }
 }

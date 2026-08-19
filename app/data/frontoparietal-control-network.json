@@ -153,5 +153,16 @@
       "citation": "Marek S, Dosenbach NUF. The frontoparietal network: function, electrophysiology, and importance of individual precision mapping. Dialogues in Clinical Neuroscience. 2018.",
       "url": "https://doi.org/10.31887/DCNS.2018.20.2/smarek"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "none",
+    "status": "reviewed-no-change",
+    "evidenceIds": [
+      "ATLAS-9E4DB922DE",
+      "ATLAS-887F50A1FE"
+    ],
+    "note": "Reviewed frontoparietal control-network content. Existing sources appropriately support general network function and individual variability without diagnostic overreach."
+  }
 }

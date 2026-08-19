@@ -168,6 +168,27 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "translational meta-analysis",
+      "citation": "Sep MSC, et al. Impaired learning, memory, and extinction in posttraumatic stress disorder: translational meta-analysis of clinical and preclinical studies. Transl Psychiatry. 2023;13. doi:10.1038/s41398-023-02660-7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38062029/"
+    },
+    {
+      "type": "literature review and multiverse analysis",
+      "citation": "Lewis MW, et al. Multiverse Analyses of Fear Acquisition and Extinction Retention in Posttraumatic Stress Disorder. Psychophysiology. 2023;60(7):e14265. doi:10.1111/psyp.14265.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36786400/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "PTSD-LEARNING-EXTINCTION-META-2023",
+      "PTSD-FEAR-MULTIVERSE-2023"
+    ],
+    "note": "Added current translational meta-analysis and robustness analysis. Fear-learning abnormalities are retained as group-level mechanisms, not universal individual deficits."
+  }
 }

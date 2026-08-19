@@ -171,6 +171,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "neuroimaging meta-analysis",
+      "citation": "Pankey BS, Riedel MC, Cowan I, et al. Extended functional connectivity of convergent structural alterations among individuals with PTSD: a neuroimaging meta-analysis. Behav Brain Funct. 2022;18(1):9. doi:10.1186/s12993-022-00196-2.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36100907/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "PTSD-NETWORK-META-2022"
+    ],
+    "note": "Added PTSD-specific neuroimaging meta-analysis supporting network-level involvement while preserving state, comorbidity and diagnostic-specificity caveats."
+  }
 }

@@ -168,6 +168,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "systematic review and meta-analysis",
+      "citation": "Siciliano RE, Anderson AS, Compas BE. Autonomic nervous system correlates of posttraumatic stress symptoms in youth: Meta-analysis and qualitative review. Clin Psychol Rev. 2022;92:102125. doi:10.1016/j.cpr.2022.102125.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35078039/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "PTSS-ANS-YOUTH-META-2022"
+    ],
+    "note": "Added trauma-specific autonomic meta-analysis. Existing caution that sympathetic activation is context-dependent and not equivalent to fear or diagnosis was retained."
+  }
 }

@@ -160,5 +160,16 @@
       "citation": "Bassett DS, Sporns O. Network neuroscience. Nature Neuroscience. 2017.",
       "url": "https://doi.org/10.1038/nn.4502"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "none",
+    "status": "reviewed-no-change",
+    "evidenceIds": [
+      "ATLAS-49DFDC55F9",
+      "ATLAS-28298A5CD5"
+    ],
+    "note": "Reviewed foundational network-neuroscience content. Existing Yeo and Bassett/Sporns sources remain appropriate for general functional-network principles; no disorder-specific inference is required."
+  }
 }

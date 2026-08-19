@@ -1,0 +1,527 @@
+{
+  "phase": "P3.1-B2",
+  "reviewDate": "2026-08-18",
+  "reviewType": "internal evidence review",
+  "status": "complete",
+  "scope": "Trauma neurobiology, attachment and autonomic claims, ASD/psychiatric qEEG language, large-scale network claims, EMDR mechanisms, dissociation, developmental trauma, personality neuroscience, moral injury and psychiatric-state confounds.",
+  "reviewedConceptCount": 45,
+  "expectedConceptCount": 45,
+  "statusCounts": {
+    "corrected": 30,
+    "reviewed": 6,
+    "reviewed-no-change": 9
+  },
+  "severityCounts": {
+    "minor": 6,
+    "none": 9,
+    "substantive": 30
+  },
+  "uniqueEvidenceIdsUsed": 48,
+  "evidenceIds": [
+    "AIP-RYDBERG-2024",
+    "ANS-ANATOMY-PHYSIOLOGY-2024",
+    "ATLAS-0A83511B8F",
+    "ATLAS-156743EC8D",
+    "ATLAS-28298A5CD5",
+    "ATLAS-3788F505B8",
+    "ATLAS-4117128A8D",
+    "ATLAS-49DFDC55F9",
+    "ATLAS-66255B7E95",
+    "ATLAS-6D227CA048",
+    "ATLAS-6E9CBCF73C",
+    "ATLAS-7485EDC5BC",
+    "ATLAS-887F50A1FE",
+    "ATLAS-8AD153539A",
+    "ATLAS-9E4DB922DE",
+    "ATLAS-AFECB1D647",
+    "ATLAS-B4401F8165",
+    "ATLAS-C1766D7F09",
+    "ATLAS-C62750B975",
+    "ATLAS-D4EF62ABA3",
+    "ATLAS-EC23599E6F",
+    "ATTACH-ER-SR-2023",
+    "CHILD-ADVERSITY-NEURAL-SR-2019",
+    "CPTSD-NEUROBIOLOGY-2022",
+    "DEPRESSION-COGNITION-SR-2023",
+    "DISSOC-AMNESIA-NEUROIMG-2023",
+    "EMDR-STATE-SCIENCE-2024",
+    "MORAL-INJURY-GRIFFIN-2019",
+    "MORAL-INJURY-MILITARY-2024",
+    "NICE-PTSD-NG116",
+    "PTSD-EMOTION-PSYCHOTHERAPY-META-2024",
+    "PTSD-FEAR-MULTIVERSE-2023",
+    "PTSD-HPA-META-2019",
+    "PTSD-LEARNING-EXTINCTION-META-2023",
+    "PTSD-NETWORK-META-2022",
+    "PTSD-NEUROBIOLOGY-SHALEV-2024",
+    "PTSD-RESTING-META-2016",
+    "PTSS-ANS-YOUTH-META-2022",
+    "QEEG-ASD-EEG-META-2023",
+    "QEEG-DEP-FAA-META-2025",
+    "RSA-VAGAL-CRITIQUE-2024",
+    "STRESS-MORPHOLOGY-2024",
+    "STRUCT-DISSOC-STEELE-2005",
+    "VADOD-PTSD-2023",
+    "WADJI-WM-EMDR-2022",
+    "WINDOW-TOLERANCE-CORRIGAN-2011",
+    "WRIGHT-EMDR-IPDMA-2024",
+    "WRIGHT-RECONSOLIDATION-2021"
+  ],
+  "governanceFindings": [
+    "Specific neuroscience claims were strengthened with claim-relevant reviews, meta-analyses, guidelines or theory-specific sources.",
+    "Group-level neuroimaging, EEG, autonomic and endocrine findings were not treated as individual diagnostic biomarkers.",
+    "Attachment classifications were not treated as fixed neural types.",
+    "Window of Tolerance and structural dissociation were retained as clinical or theoretical models rather than validated anatomical states.",
+    "EMDR clinical efficacy was kept distinct from unresolved or partially supported mechanism theories.",
+    "Fear extinction, prediction error and memory mechanisms were framed as probabilistic learning constructs rather than universal explanations of PTSD.",
+    "Moral injury was distinguished from PTSD and from a discrete neurobiological disorder.",
+    "No BPD-specific neuroscience evidence was generalised to personality disorders as a whole."
+  ],
+  "boundary": "This is an internal evidence-governance review. It does not constitute independent external clinician peer review and does not satisfy the release-manifest externalReview.clinical requirement for a public v1.0 claim.",
+  "nextPriority": "Prepare external clinical reviewer pack and sign-off checklist, then resolve remaining accessibility and legal/licensing pre-v1.0 governance gates.",
+  "concepts": [
+    {
+      "id": "acute-stress-response",
+      "status": "reviewed",
+      "severity": "minor",
+      "evidenceIds": [
+        "PTSD-NEUROBIOLOGY-SHALEV-2024"
+      ],
+      "note": "Added current trauma-neurobiology review. Existing acute stress content remains appropriately contextual and does not imply that normal acute threat responses inevitably progress to PTSD."
+    },
+    {
+      "id": "adaptive-information-processing",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "AIP-RYDBERG-2024",
+        "EMDR-STATE-SCIENCE-2024"
+      ],
+      "note": "Added current AIP-specific and state-of-science reviews. AIP is retained as an EMDR theoretical framework, not presented as a proven literal neural-storage mechanism."
+    },
+    {
+      "id": "affect-regulation-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-NEUROBIOLOGY-SHALEV-2024",
+        "PTSD-EMOTION-PSYCHOTHERAPY-META-2024"
+      ],
+      "note": "Added current PTSD neurobiology and emotional-processing meta-analysis. Affect-regulation mechanisms remain group-level and heterogeneous rather than diagnostic neural signatures."
+    },
+    {
+      "id": "amygdala-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "STRESS-MORPHOLOGY-2024"
+      ],
+      "note": "Added current stress-neurobiology review. Amygdala findings remain framed as heterogeneous group-level associations rather than a universal overactive-amygdala rule."
+    },
+    {
+      "id": "attachment-neuroscience-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "ATTACH-ER-SR-2023"
+      ],
+      "note": "Added attachment-specific systematic review. Existing non-deterministic language retained; attachment representations are not treated as fixed neural types."
+    },
+    {
+      "id": "autonomic-nervous-system",
+      "status": "reviewed",
+      "severity": "minor",
+      "evidenceIds": [
+        "ANS-ANATOMY-PHYSIOLOGY-2024",
+        "ATLAS-B4401F8165",
+        "ATLAS-6D227CA048",
+        "ATLAS-4117128A8D"
+      ],
+      "note": "Current autonomic anatomy and physiology reviewed. Existing content is appropriately contextual and non-diagnostic; only the evidence base was refreshed."
+    },
+    {
+      "id": "bilateral-stimulation-emdr",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "EMDR-STATE-SCIENCE-2024",
+        "WADJI-WM-EMDR-2022"
+      ],
+      "note": "Reviewed bilateral stimulation against current EMDR evidence. Working-memory effects have empirical support, but bilateral stimulation is not presented as having one settled or complete mechanism."
+    },
+    {
+      "id": "central-executive-network-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-NETWORK-META-2022"
+      ],
+      "note": "Added PTSD-specific neuroimaging meta-analysis supporting network-level involvement while preserving state, comorbidity and diagnostic-specificity caveats."
+    },
+    {
+      "id": "chronic-stress-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "STRESS-MORPHOLOGY-2024"
+      ],
+      "note": "Added current review of stress-related brain morphology. Chronic stress effects remain described as plastic and heterogeneous rather than inevitable damage."
+    },
+    {
+      "id": "clinical-indications-emdr",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "WRIGHT-EMDR-IPDMA-2024",
+        "NICE-PTSD-NG116",
+        "VADOD-PTSD-2023",
+        "EMDR-STATE-SCIENCE-2024"
+      ],
+      "note": "Reviewed clinical indication claims against current systematic-review and PTSD guideline evidence. PTSD indication remains supported; broader applications should not inherit the same evidence strength automatically."
+    },
+    {
+      "id": "clinical-integration-limitations-emdr",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "WRIGHT-EMDR-IPDMA-2024",
+        "NICE-PTSD-NG116",
+        "VADOD-PTSD-2023",
+        "EMDR-STATE-SCIENCE-2024"
+      ],
+      "note": "Reviewed clinical-integration and limitation content. Existing distinction between treatment evidence, clinical judgement and unresolved mechanisms remains appropriate."
+    },
+    {
+      "id": "complex-ptsd-neuroscience",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "CPTSD-NEUROBIOLOGY-2022"
+      ],
+      "note": "Added CPTSD-specific neurobiological review. Existing statement that no validated biomarker distinguishes CPTSD clinically was retained."
+    },
+    {
+      "id": "contraindications-precautions-emdr",
+      "status": "reviewed",
+      "severity": "minor",
+      "evidenceIds": [
+        "NICE-PTSD-NG116",
+        "VADOD-PTSD-2023",
+        "EMDR-STATE-SCIENCE-2024"
+      ],
+      "note": "Reviewed precautions against current PTSD guidance and EMDR state-of-science literature. Individual assessment, stabilisation needs, comorbidity and capacity to engage remain clinical considerations rather than universal absolute contraindications."
+    },
+    {
+      "id": "default-mode-network-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-RESTING-META-2016"
+      ],
+      "note": "Added PTSD resting-state systematic review/meta-analysis. Existing group-level, non-diagnostic network language retained."
+    },
+    {
+      "id": "default-mode-network",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "ATLAS-8AD153539A",
+        "ATLAS-156743EC8D"
+      ],
+      "note": "Reviewed general DMN content. Existing foundational and review sources remain appropriate; record does not treat DMN variation as a psychiatric diagnosis or private-thought readout."
+    },
+    {
+      "id": "developmental-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "CHILD-ADVERSITY-NEURAL-SR-2019"
+      ],
+      "note": "Added systematic review of childhood adversity and neural development. Existing non-deterministic developmental framing retained."
+    },
+    {
+      "id": "dissociation-mechanisms",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "DISSOC-AMNESIA-NEUROIMG-2023"
+      ],
+      "note": "Added dissociation-specific functional neuroimaging systematic review. Existing heterogeneous and non-diagnostic framing retained."
+    },
+    {
+      "id": "eight-phases-emdr",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "EMDR-STATE-SCIENCE-2024",
+        "NICE-PTSD-NG116",
+        "VADOD-PTSD-2023"
+      ],
+      "note": "Reviewed the structured EMDR treatment framework. Procedural description remains appropriate and is kept distinct from claims that every phase has an independently established neurobiological mechanism."
+    },
+    {
+      "id": "emotion-regulation-networks",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "ATLAS-EC23599E6F",
+        "ATLAS-66255B7E95",
+        "ATLAS-7485EDC5BC"
+      ],
+      "note": "Reviewed emotion-regulation network content. Existing cognitive-control and emotion-regulation sources remain suitable for general mechanisms; no single neural circuit is presented as a diagnostic marker."
+    },
+    {
+      "id": "emotional-processing-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-NEUROBIOLOGY-SHALEV-2024",
+        "PTSD-EMOTION-PSYCHOTHERAPY-META-2024"
+      ],
+      "note": "Added current PTSD neurobiology and psychotherapy neuroimaging synthesis. Existing mechanistic language remains bounded because treatment-related activation findings are tentative and heterogeneous."
+    },
+    {
+      "id": "fear-conditioning-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-LEARNING-EXTINCTION-META-2023",
+        "PTSD-FEAR-MULTIVERSE-2023"
+      ],
+      "note": "Added current translational meta-analysis and robustness analysis. Fear-learning abnormalities are retained as group-level mechanisms, not universal individual deficits."
+    },
+    {
+      "id": "fear-extinction-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-LEARNING-EXTINCTION-META-2023",
+        "PTSD-FEAR-MULTIVERSE-2023"
+      ],
+      "note": "Added current meta-analytic and multiverse evidence. Record should not imply that impaired extinction retention is universal in PTSD because findings vary by paradigm and analysis."
+    },
+    {
+      "id": "foundations-trauma-neuroscience",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-NEUROBIOLOGY-SHALEV-2024"
+      ],
+      "note": "Added current comprehensive PTSD neurobiology review. Foundational content remains explicitly heterogeneous and avoids single-region or single-mechanism explanations."
+    },
+    {
+      "id": "frontoparietal-control-network",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "ATLAS-9E4DB922DE",
+        "ATLAS-887F50A1FE"
+      ],
+      "note": "Reviewed frontoparietal control-network content. Existing sources appropriately support general network function and individual variability without diagnostic overreach."
+    },
+    {
+      "id": "functional-networks",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "ATLAS-49DFDC55F9",
+        "ATLAS-28298A5CD5"
+      ],
+      "note": "Reviewed foundational network-neuroscience content. Existing Yeo and Bassett/Sporns sources remain appropriate for general functional-network principles; no disorder-specific inference is required."
+    },
+    {
+      "id": "hippocampus-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "STRESS-MORPHOLOGY-2024"
+      ],
+      "note": "Added current stress-neurobiology review. Existing non-deterministic interpretation retained; hippocampal structural findings are not individual diagnostic markers."
+    },
+    {
+      "id": "hpa-axis-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-HPA-META-2019"
+      ],
+      "note": "Added PTSD-specific HPA-axis meta-analysis. Existing cautious wording retained because direction and magnitude of endocrine findings vary across methods and samples."
+    },
+    {
+      "id": "mechanisms-change-emdr",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "EMDR-STATE-SCIENCE-2024",
+        "AIP-RYDBERG-2024",
+        "WADJI-WM-EMDR-2022",
+        "WRIGHT-RECONSOLIDATION-2021"
+      ],
+      "note": "Reviewed competing EMDR mechanism accounts. Working-memory, memory-updating/reconsolidation and AIP explanations remain plausible or partially supported components rather than one established complete causal mechanism."
+    },
+    {
+      "id": "memory-consolidation-trauma",
+      "status": "reviewed",
+      "severity": "minor",
+      "evidenceIds": [
+        "PTSD-NEUROBIOLOGY-SHALEV-2024"
+      ],
+      "note": "Added current PTSD neurobiology synthesis. Consolidation is retained as a normal memory process relevant to trauma, without implying that traumatic memories are stored through a unique pathological consolidation mechanism."
+    },
+    {
+      "id": "memory-encoding-trauma",
+      "status": "reviewed",
+      "severity": "minor",
+      "evidenceIds": [
+        "PTSD-NEUROBIOLOGY-SHALEV-2024"
+      ],
+      "note": "Added current PTSD neurobiology synthesis. Trauma-related encoding effects remain contextual and probabilistic rather than evidence of a distinct or universally fragmented traumatic-memory system."
+    },
+    {
+      "id": "moral-injury",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "MORAL-INJURY-GRIFFIN-2019",
+        "MORAL-INJURY-MILITARY-2024"
+      ],
+      "note": "Added moral-injury-specific reviews. Moral injury is distinguished from PTSD and framed as a multidimensional psychological, social, ethical and potentially spiritual construct rather than a discrete neural disorder."
+    },
+    {
+      "id": "neurobiology-emdr",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "EMDR-STATE-SCIENCE-2024",
+        "AIP-RYDBERG-2024",
+        "WADJI-WM-EMDR-2022"
+      ],
+      "note": "Reviewed neurobiological mechanism language. Clinical efficacy does not establish a unique neural mechanism, and neuroimaging findings remain group-level and mechanistically non-specific."
+    },
+    {
+      "id": "orienting-response-emdr",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "EMDR-STATE-SCIENCE-2024",
+        "WADJI-WM-EMDR-2022"
+      ],
+      "note": "Reviewed the orienting-response account as one proposed EMDR mechanism. It is not presented as the established or exclusive explanation for treatment effects."
+    },
+    {
+      "id": "parasympathetic-regulation-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "RSA-VAGAL-CRITIQUE-2024"
+      ],
+      "note": "Added current physiological review clarifying RSA/HRV measurement limits. Existing caution that HRV is not a direct measure of psychological safety retained."
+    },
+    {
+      "id": "personality-disorders-neuroscience",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "ATLAS-3788F505B8",
+        "ATLAS-C1766D7F09",
+        "ATLAS-AFECB1D647"
+      ],
+      "note": "Reviewed against current personality-neuroscience literature. Dimensional, heterogeneous, non-localising and non-diagnostic framing remains appropriate. Disorder-specific BPD evidence was not generalised to personality disorders as a whole."
+    },
+    {
+      "id": "prediction-error-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-LEARNING-EXTINCTION-META-2023",
+        "PTSD-FEAR-MULTIVERSE-2023"
+      ],
+      "note": "Reviewed prediction-error claims against current fear-learning evidence. Prediction error remains a useful learning construct, not a single established causal mechanism explaining PTSD or trauma recovery."
+    },
+    {
+      "id": "prefrontal-cortex-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "STRESS-MORPHOLOGY-2024"
+      ],
+      "note": "Added current stress-neurobiology review. Existing network and state-dependent framing retained rather than reducing trauma to prefrontal underactivity."
+    },
+    {
+      "id": "psychiatric-state-confounds",
+      "status": "reviewed",
+      "severity": "minor",
+      "evidenceIds": [
+        "DEPRESSION-COGNITION-SR-2023",
+        "ATLAS-C62750B975",
+        "ATLAS-6E9CBCF73C",
+        "ATLAS-0A83511B8F"
+      ],
+      "note": "Added current systematic review of depression-related cognitive effects. Mood, motivation, sleep, medication and other state factors remain important interpretive variables and should not automatically be reified as fixed neurological impairment."
+    },
+    {
+      "id": "qeeg-anxiety-depression-evidence",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "QEEG-DEP-FAA-META-2025"
+      ],
+      "note": "Added current depression-specific meta-analysis supporting cautious interpretation of frontal alpha asymmetry and non-diagnostic use."
+    },
+    {
+      "id": "qeeg-autism-evidence",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "QEEG-ASD-EEG-META-2023"
+      ],
+      "note": "Added autism-specific systematic review and meta-analysis supporting heterogeneous group-level EEG findings and non-diagnostic individual use."
+    },
+    {
+      "id": "salience-network-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSD-NETWORK-META-2022"
+      ],
+      "note": "Added PTSD-specific neuroimaging meta-analysis. Existing non-diagnostic group-level framing retained."
+    },
+    {
+      "id": "salience-network",
+      "status": "reviewed-no-change",
+      "severity": "none",
+      "evidenceIds": [
+        "ATLAS-9E4DB922DE",
+        "ATLAS-D4EF62ABA3"
+      ],
+      "note": "Reviewed general salience-network content. Existing foundational and triple-network sources remain appropriate when interpreted as network models rather than disorder-specific biomarkers."
+    },
+    {
+      "id": "structural-dissociation",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "STRUCT-DISSOC-STEELE-2005"
+      ],
+      "note": "Added theory-specific foundational source. Record continues to identify structural dissociation as a theoretical clinical model rather than an anatomical partition or established neural mechanism."
+    },
+    {
+      "id": "sympathetic-activation-trauma",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "PTSS-ANS-YOUTH-META-2022"
+      ],
+      "note": "Added trauma-specific autonomic meta-analysis. Existing caution that sympathetic activation is context-dependent and not equivalent to fear or diagnosis was retained."
+    },
+    {
+      "id": "window-of-tolerance",
+      "status": "corrected",
+      "severity": "substantive",
+      "evidenceIds": [
+        "WINDOW-TOLERANCE-CORRIGAN-2011"
+      ],
+      "note": "Added theory-specific source and explicitly bounded the Window of Tolerance as a clinical heuristic/model rather than a validated measurable neurobiological threshold."
+    }
+  ]
+}

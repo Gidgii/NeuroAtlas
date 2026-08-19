@@ -153,5 +153,16 @@
       "citation": "Menon V. Large-scale brain networks and psychopathology: a unifying triple network model. Trends in Cognitive Sciences. 2011.",
       "url": "https://doi.org/10.1016/j.tics.2011.08.003"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "none",
+    "status": "reviewed-no-change",
+    "evidenceIds": [
+      "ATLAS-9E4DB922DE",
+      "ATLAS-D4EF62ABA3"
+    ],
+    "note": "Reviewed general salience-network content. Existing foundational and triple-network sources remain appropriate when interpreted as network models rather than disorder-specific biomarkers."
+  }
 }

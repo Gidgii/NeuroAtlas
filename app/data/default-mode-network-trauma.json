@@ -172,6 +172,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "systematic review and meta-analysis",
+      "citation": "Koch SBJ, van Zuiden M, Nawijn L, Frijling JL, Veltman DJ, Olff M. Aberrant resting-state brain activity in posttraumatic stress disorder: a meta-analysis and systematic review. Depress Anxiety. 2016;33(7):592-605. doi:10.1002/da.22478.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26918313/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "PTSD-RESTING-META-2016"
+    ],
+    "note": "Added PTSD resting-state systematic review/meta-analysis. Existing group-level, non-diagnostic network language retained."
+  }
 }

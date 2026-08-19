@@ -117,6 +117,24 @@
     {
       "citation": "Lezak MD, Howieson DB, Bigler ED, Tranel D. Neuropsychological Assessment. 5th ed. Oxford University Press; 2012.",
       "url": "https://global.oup.com/academic/product/neuropsychological-assessment-9780195395525"
+    },
+    {
+      "type": "systematic review",
+      "citation": "Kriesche D, Woll CFJ, Tschentscher N, Engel RR, Karch S. Neurocognitive deficits in depression: a systematic review of cognitive impairment in the acute and remitted state. Eur Arch Psychiatry Clin Neurosci. 2023;273(5):1105-1128. doi:10.1007/s00406-022-01479-5.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36048295/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "minor",
+    "status": "reviewed",
+    "evidenceIds": [
+      "DEPRESSION-COGNITION-SR-2023",
+      "ATLAS-C62750B975",
+      "ATLAS-6E9CBCF73C",
+      "ATLAS-0A83511B8F"
+    ],
+    "note": "Added current systematic review of depression-related cognitive effects. Mood, motivation, sleep, medication and other state factors remain important interpretive variables and should not automatically be reified as fixed neurological impairment."
+  }
 }

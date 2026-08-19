@@ -168,6 +168,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "theoretical clinical review",
+      "citation": "Corrigan FM, Fisher JJ, Nutt DJ. Autonomic dysregulation and the Window of Tolerance model of the effects of complex emotional trauma. J Psychopharmacol. 2011;25(1):17-25. doi:10.1177/0269881109354930.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20093318/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "WINDOW-TOLERANCE-CORRIGAN-2011"
+    ],
+    "note": "Added theory-specific source and explicitly bounded the Window of Tolerance as a clinical heuristic/model rather than a validated measurable neurobiological threshold."
+  }
 }

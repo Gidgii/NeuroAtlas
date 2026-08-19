@@ -3984,6 +3984,388 @@
         "integrated-whole-brain-explorer-and-capstone"
       ],
       "id": "ATLAS-D887F1C0CB"
+    },
+    {
+      "id": "QEEG-DEP-FAA-META-2025",
+      "citation": "Luo Y, Tang M, Fan X. Meta analysis of resting frontal alpha asymmetry as a biomarker of depression. npj Mental Health Research. 2025. doi:10.1038/s44184-025-00117-x.",
+      "year": 2025,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "39820155",
+      "doi": "10.1038/s44184-025-00117-x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39820155/",
+      "evidenceStrength": "moderate for group-level biomarker assessment",
+      "status": "current",
+      "limitations": "Frontal alpha asymmetry showed limited stand-alone diagnostic utility; results do not support using FAA as an individual diagnostic test for depression.",
+      "conceptIds": [
+        "qeeg-anxiety-depression-evidence"
+      ]
+    },
+    {
+      "id": "QEEG-ASD-EEG-META-2023",
+      "citation": "Neo WS, Foti D, Keehn B, Kelleher B. Resting-state EEG power differences in autism spectrum disorder: a systematic review and meta-analysis. Transl Psychiatry. 2023;13:389.",
+      "year": 2023,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "38097538",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38097538/",
+      "evidenceStrength": "moderate for group-level EEG differences",
+      "status": "current",
+      "limitations": "Results were heterogeneous across frequency bands, ages and methodologies and do not establish a validated individual diagnostic EEG biomarker for autism.",
+      "conceptIds": [
+        "qeeg-autism-evidence"
+      ]
+    },
+    {
+      "id": "PTSD-HPA-META-2019",
+      "citation": "Schumacher S, Niemeyer H, Engel S, Cwik JC, Laufer S, Klusmann H, Knaevelsrud C. HPA axis regulation in posttraumatic stress disorder: A meta-analysis focusing on potential moderators. Neurosci Biobehav Rev. 2019;100:35-57. doi:10.1016/j.neubiorev.2019.02.005.",
+      "year": 2019,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "30790632",
+      "doi": "10.1016/j.neubiorev.2019.02.005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30790632/",
+      "evidenceStrength": "high-level quantitative synthesis",
+      "status": "current evidence base located",
+      "limitations": "HPA findings vary by trauma exposure, comparison group, sampling method and other moderators; no single cortisol pattern is diagnostic of PTSD.",
+      "conceptIds": [
+        "hpa-axis-trauma"
+      ]
+    },
+    {
+      "id": "PTSD-RESTING-META-2016",
+      "citation": "Koch SBJ, van Zuiden M, Nawijn L, Frijling JL, Veltman DJ, Olff M. Aberrant resting-state brain activity in posttraumatic stress disorder: a meta-analysis and systematic review. Depress Anxiety. 2016;33(7):592-605. doi:10.1002/da.22478.",
+      "year": 2016,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "26918313",
+      "doi": "10.1002/da.22478",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26918313/",
+      "evidenceStrength": "moderate-to-high synthesis of group-level neuroimaging",
+      "status": "foundational evidence synthesis",
+      "limitations": "Resting-state abnormalities are heterogeneous and group-level; findings do not provide an individual diagnostic signature or direct readout of traumatic memories.",
+      "conceptIds": [
+        "default-mode-network-trauma"
+      ]
+    },
+    {
+      "id": "DISSOC-AMNESIA-NEUROIMG-2023",
+      "citation": "Taib S, Yrondi A, Lemesle B, Peran P, Pariente J. What are the neural correlates of dissociative amnesia? A systematic review of the functional neuroimaging literature. Front Psychiatry. 2023;14:1092826. doi:10.3389/fpsyt.2023.1092826.",
+      "year": 2023,
+      "sourceType": "systematic review",
+      "pmid": "36778638",
+      "doi": "10.3389/fpsyt.2023.1092826",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36778638/",
+      "evidenceStrength": "limited-to-moderate",
+      "status": "current evidence synthesis",
+      "limitations": "Controlled neuroimaging studies are sparse; findings cannot be generalized to all forms of dissociation or used as an individual diagnostic biomarker.",
+      "conceptIds": [
+        "dissociation-mechanisms"
+      ]
+    },
+    {
+      "id": "CHILD-ADVERSITY-NEURAL-SR-2019",
+      "citation": "McLaughlin KA, Weissman D, Bitran D. Childhood Adversity and Neural Development: A Systematic Review. Annu Rev Dev Psychol. 2019;1:277-312. doi:10.1146/annurev-devpsych-121318-084950.",
+      "year": 2019,
+      "sourceType": "systematic review",
+      "pmid": "32455344",
+      "doi": "10.1146/annurev-devpsych-121318-084950",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32455344/",
+      "evidenceStrength": "high-quality systematic synthesis",
+      "status": "foundational/current synthesis",
+      "limitations": "Associations vary by adversity dimension, developmental timing and neural system; group-level differences do not imply irreversible damage or deterministic individual outcomes.",
+      "conceptIds": [
+        "developmental-trauma"
+      ]
+    },
+    {
+      "id": "ATTACH-ER-SR-2023",
+      "citation": "Eilert DW, Buchheim A. Attachment-Related Differences in Emotion Regulation in Adults: A Systematic Review on Attachment Representations. Brain Sci. 2023;13(6):884. doi:10.3390/brainsci13060884.",
+      "year": 2023,
+      "sourceType": "systematic review",
+      "pmid": "37371364",
+      "doi": "10.3390/brainsci13060884",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37371364/",
+      "evidenceStrength": "moderate synthesis of attachment-related physiological and neural associations",
+      "status": "current",
+      "limitations": "Associations between attachment representations and regulation measures do not establish fixed neural attachment types or deterministic individual predictions.",
+      "conceptIds": [
+        "attachment-neuroscience-trauma"
+      ]
+    },
+    {
+      "id": "RSA-VAGAL-CRITIQUE-2024",
+      "citation": "Grossman P. Respiratory sinus arrhythmia (RSA), vagal tone and the vagus nerve: Anatomical and physiological considerations. Biol Psychol. 2024;186:108739. doi:10.1016/j.biopsycho.2023.108739.",
+      "year": 2024,
+      "sourceType": "physiological review",
+      "pmid": "38151156",
+      "doi": "10.1016/j.biopsycho.2023.108739",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38151156/",
+      "evidenceStrength": "high relevance for RSA/vagal measurement interpretation",
+      "status": "current",
+      "limitations": "RSA is not an invariably reliable index of cardiac vagal tone or central vagal outflow; respiratory influences and measurement context require explicit consideration.",
+      "conceptIds": [
+        "parasympathetic-regulation-trauma"
+      ]
+    },
+    {
+      "id": "PTSD-NETWORK-META-2022",
+      "citation": "Pankey BS, Riedel MC, Cowan I, et al. Extended functional connectivity of convergent structural alterations among individuals with PTSD: a neuroimaging meta-analysis. Behav Brain Funct. 2022;18(1):9. doi:10.1186/s12993-022-00196-2.",
+      "year": 2022,
+      "sourceType": "neuroimaging meta-analysis",
+      "pmid": "36100907",
+      "doi": "10.1186/s12993-022-00196-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36100907/",
+      "evidenceStrength": "moderate-to-high group-level neuroimaging synthesis",
+      "status": "current synthesis",
+      "limitations": "Network-level findings are group-level and transdiagnostically overlapping; they are not sufficiently specific for individual PTSD diagnosis.",
+      "conceptIds": [
+        "salience-network-trauma",
+        "central-executive-network-trauma"
+      ]
+    },
+    {
+      "id": "CPTSD-NEUROBIOLOGY-2022",
+      "citation": "Stopyra MA, Simon JJ, Rheude C, Nikendei C. Pathophysiological aspects of complex PTSD - a neurobiological account in comparison to classic posttraumatic stress disorder and borderline personality disorder. Rev Neurosci. 2023;34(1):103-128. doi:10.1515/revneuro-2022-0014.",
+      "year": 2023,
+      "sourceType": "narrative neurobiological review",
+      "pmid": "35938987",
+      "doi": "10.1515/revneuro-2022-0014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35938987/",
+      "evidenceStrength": "moderate emerging neurobiological synthesis",
+      "status": "current",
+      "limitations": "CPTSD neurobiological findings overlap with PTSD and BPD and do not establish a validated individual biomarker or diagnostic scan signature.",
+      "conceptIds": [
+        "complex-ptsd-neuroscience"
+      ]
+    },
+    {
+      "id": "PTSS-ANS-YOUTH-META-2022",
+      "citation": "Siciliano RE, Anderson AS, Compas BE. Autonomic nervous system correlates of posttraumatic stress symptoms in youth: Meta-analysis and qualitative review. Clin Psychol Rev. 2022;92:102125. doi:10.1016/j.cpr.2022.102125.",
+      "year": 2022,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "35078039",
+      "doi": "10.1016/j.cpr.2022.102125",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35078039/",
+      "evidenceStrength": "moderate group-level psychophysiological synthesis",
+      "status": "current synthesis",
+      "limitations": "The meta-analysis concerns youth and found small, context-dependent associations between autonomic measures and posttraumatic stress symptoms; findings should not be generalized into a single sympathetic PTSD profile or individual diagnostic marker.",
+      "conceptIds": [
+        "sympathetic-activation-trauma"
+      ]
+    },
+    {
+      "id": "STRUCT-DISSOC-STEELE-2005",
+      "citation": "Steele K, van der Hart O, Nijenhuis ERS. Phase-oriented treatment of structural dissociation in complex traumatization: Overcoming trauma-related phobias. J Trauma Dissociation. 2005;6(3):11-53. doi:10.1300/J229v06n03_02.",
+      "year": 2005,
+      "sourceType": "theoretical and clinical model paper",
+      "pmid": "16172081",
+      "doi": "10.1300/J229v06n03_02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16172081/",
+      "evidenceStrength": "foundational source for the structural dissociation model",
+      "status": "theory-specific source",
+      "limitations": "This is a theory-origin clinical paper, not independent validation of structural dissociation as a discrete neurobiological mechanism or anatomical division.",
+      "conceptIds": [
+        "structural-dissociation"
+      ]
+    },
+    {
+      "id": "ANS-ANATOMY-PHYSIOLOGY-2024",
+      "citation": "Roche F, et al. Anatomy and physiology of the autonomic nervous system. Presse Med. 2024.",
+      "year": 2024,
+      "sourceType": "physiology review",
+      "pmid": "38176987",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38176987/",
+      "evidenceStrength": "authoritative current review of stable autonomic anatomy and physiology",
+      "status": "current",
+      "limitations": "General autonomic physiology source; psychiatric or trauma-specific inferences require disorder-specific evidence.",
+      "conceptIds": [
+        "autonomic-nervous-system"
+      ]
+    },
+    {
+      "id": "STRESS-MORPHOLOGY-2024",
+      "citation": "Cardoner N, Andero R, Cano M, et al. Impact of Stress on Brain Morphology: Insights into Structural Biomarkers of Stress-related Disorders. Curr Neuropharmacol. 2024;22(5):935-962. doi:10.2174/1570159X21666230703091435.",
+      "year": 2024,
+      "sourceType": "review",
+      "pmid": "37403395",
+      "doi": "10.2174/1570159X21666230703091435",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37403395/",
+      "evidenceStrength": "current review of stress-related structural neurobiology",
+      "status": "current",
+      "limitations": "Stress-related structural findings are heterogeneous and group-level; proposed morphological biomarkers are not validated individual diagnostic markers.",
+      "conceptIds": [
+        "amygdala-trauma",
+        "hippocampus-trauma",
+        "prefrontal-cortex-trauma",
+        "chronic-stress-trauma"
+      ]
+    },
+    {
+      "id": "PTSD-LEARNING-EXTINCTION-META-2023",
+      "citation": "Sep MSC, et al. Impaired learning, memory, and extinction in posttraumatic stress disorder: translational meta-analysis of clinical and preclinical studies. Transl Psychiatry. 2023;13. doi:10.1038/s41398-023-02660-7.",
+      "year": 2023,
+      "sourceType": "translational meta-analysis",
+      "pmid": "38062029",
+      "doi": "10.1038/s41398-023-02660-7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38062029/",
+      "evidenceStrength": "high-level synthesis across clinical and preclinical literature",
+      "status": "current",
+      "limitations": "Group-level impairments do not establish a single causal learning mechanism in every person with PTSD; clinical and preclinical paradigms differ.",
+      "conceptIds": [
+        "fear-conditioning-trauma",
+        "fear-extinction-trauma",
+        "prediction-error-trauma"
+      ]
+    },
+    {
+      "id": "PTSD-FEAR-MULTIVERSE-2023",
+      "citation": "Lewis MW, et al. Multiverse Analyses of Fear Acquisition and Extinction Retention in Posttraumatic Stress Disorder. Psychophysiology. 2023;60(7):e14265. doi:10.1111/psyp.14265.",
+      "year": 2023,
+      "sourceType": "literature review and multiverse analysis",
+      "pmid": "36786400",
+      "doi": "10.1111/psyp.14265",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36786400/",
+      "evidenceStrength": "strong methodological evidence regarding robustness",
+      "status": "current",
+      "limitations": "Fear extinction retention findings were inconsistent across analytic specifications, cautioning against treating impaired extinction retention as universal in PTSD.",
+      "conceptIds": [
+        "fear-conditioning-trauma",
+        "fear-extinction-trauma",
+        "prediction-error-trauma"
+      ]
+    },
+    {
+      "id": "WINDOW-TOLERANCE-CORRIGAN-2011",
+      "citation": "Corrigan FM, Fisher JJ, Nutt DJ. Autonomic dysregulation and the Window of Tolerance model of the effects of complex emotional trauma. J Psychopharmacol. 2011;25(1):17-25. doi:10.1177/0269881109354930.",
+      "year": 2011,
+      "sourceType": "theoretical clinical review",
+      "pmid": "20093318",
+      "doi": "10.1177/0269881109354930",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20093318/",
+      "evidenceStrength": "theory-specific foundational source",
+      "status": "foundational model",
+      "limitations": "Supports the clinical Window of Tolerance model but does not validate a discrete measurable neurobiological threshold, diagnostic state, or universal autonomic boundary.",
+      "conceptIds": [
+        "window-of-tolerance"
+      ]
+    },
+    {
+      "id": "PTSD-NEUROBIOLOGY-SHALEV-2024",
+      "citation": "Shalev A, Cho D, Marmar CR. Neurobiology and Treatment of Posttraumatic Stress Disorder. Am J Psychiatry. 2024;181(8):705-719. doi:10.1176/appi.ajp.20240536.",
+      "year": 2024,
+      "sourceType": "current authoritative review",
+      "pmid": "39086292",
+      "doi": "10.1176/appi.ajp.20240536",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39086292/",
+      "evidenceStrength": "high-quality current synthesis",
+      "status": "current",
+      "limitations": "PTSD is biologically and clinically heterogeneous; neural and molecular findings are group-level mechanisms rather than validated individual diagnostic signatures.",
+      "conceptIds": [
+        "acute-stress-response",
+        "affect-regulation-trauma",
+        "emotional-processing-trauma",
+        "foundations-trauma-neuroscience",
+        "memory-consolidation-trauma",
+        "memory-encoding-trauma"
+      ]
+    },
+    {
+      "id": "PTSD-EMOTION-PSYCHOTHERAPY-META-2024",
+      "citation": "Aarts I, Thorsen AL, Vriend C, Planting C, van den Heuvel OA, Thomaes K. Effects of psychotherapy on brain activation during negative emotional processing in patients with posttraumatic stress disorder: a systematic review and meta-analysis. Brain Imaging Behav. 2024;18:444-455. doi:10.1007/s11682-023-00831-0.",
+      "year": 2024,
+      "sourceType": "systematic review and meta-analysis",
+      "pmid": "38049598",
+      "doi": "10.1007/s11682-023-00831-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38049598/",
+      "evidenceStrength": "moderate group-level neuroimaging synthesis",
+      "status": "current",
+      "limitations": "Only 12 studies and 191 patients were included; reported activation changes were tentative and did not survive correction for multiple comparisons.",
+      "conceptIds": [
+        "affect-regulation-trauma",
+        "emotional-processing-trauma"
+      ]
+    },
+    {
+      "id": "EMDR-STATE-SCIENCE-2024",
+      "citation": "de Jongh A, de Roos C, El-Leithy S. State of the science: Eye movement desensitization and reprocessing (EMDR) therapy. J Trauma Stress. 2024;37(2):205-216. doi:10.1002/jts.23012.",
+      "year": 2024,
+      "sourceType": "state-of-the-science review",
+      "pmid": "38282286",
+      "doi": "10.1002/jts.23012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38282286/",
+      "evidenceStrength": "current review of EMDR efficacy, scope and theory",
+      "status": "current",
+      "limitations": "Evidence supporting EMDR as a PTSD treatment does not establish any single proposed cognitive or neurobiological mechanism as the complete causal explanation of treatment effects.",
+      "conceptIds": [
+        "adaptive-information-processing",
+        "bilateral-stimulation-emdr",
+        "clinical-indications-emdr",
+        "clinical-integration-limitations-emdr",
+        "contraindications-precautions-emdr",
+        "eight-phases-emdr",
+        "mechanisms-change-emdr",
+        "neurobiology-emdr",
+        "orienting-response-emdr"
+      ]
+    },
+    {
+      "id": "AIP-RYDBERG-2024",
+      "citation": "Rydberg JA. Bolstering the adaptive information processing model: a narrative review. Front Psychiatry. 2024;15:1374274. doi:10.3389/fpsyt.2024.1374274.",
+      "year": 2024,
+      "sourceType": "narrative theoretical review",
+      "pmid": "38812488",
+      "doi": "10.3389/fpsyt.2024.1374274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38812488/",
+      "evidenceStrength": "current theory-focused synthesis",
+      "status": "current theoretical literature",
+      "limitations": "AIP is an explanatory theoretical model for EMDR and should not be presented as an independently validated neural storage mechanism or literal account of how traumatic memories are biologically stored.",
+      "conceptIds": [
+        "adaptive-information-processing",
+        "mechanisms-change-emdr",
+        "neurobiology-emdr"
+      ]
+    },
+    {
+      "id": "MORAL-INJURY-GRIFFIN-2019",
+      "citation": "Griffin BJ, Purcell N, Burkman K, et al. Moral Injury: An Integrative Review. J Trauma Stress. 2019;32(3):350-362. doi:10.1002/jts.22362.",
+      "year": 2019,
+      "sourceType": "integrative review",
+      "pmid": "30688367",
+      "doi": "10.1002/jts.22362",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30688367/",
+      "evidenceStrength": "foundational integrative synthesis",
+      "status": "foundational/current construct review",
+      "limitations": "Moral injury is a multidimensional construct associated with PTSD and other distress outcomes, but it is not itself equivalent to PTSD or a validated discrete neurobiological disorder.",
+      "conceptIds": [
+        "moral-injury"
+      ]
+    },
+    {
+      "id": "MORAL-INJURY-MILITARY-2024",
+      "citation": "Phelps AJ, et al. Addressing moral injury in the military. BMJ Mil Health. 2024;170(1):51-55. doi:10.1136/bmjmilitary-2022-002128.",
+      "year": 2024,
+      "sourceType": "current clinical review",
+      "pmid": "35705259",
+      "doi": "10.1136/bmjmilitary-2022-002128",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35705259/",
+      "evidenceStrength": "current clinical synthesis",
+      "status": "current",
+      "limitations": "Military literature should not be assumed to generalise unchanged to all populations; moral injury remains broader than a fear-based PTSD model.",
+      "conceptIds": [
+        "moral-injury"
+      ]
+    },
+    {
+      "id": "DEPRESSION-COGNITION-SR-2023",
+      "citation": "Kriesche D, Woll CFJ, Tschentscher N, Engel RR, Karch S. Neurocognitive deficits in depression: a systematic review of cognitive impairment in the acute and remitted state. Eur Arch Psychiatry Clin Neurosci. 2023;273(5):1105-1128. doi:10.1007/s00406-022-01479-5.",
+      "year": 2023,
+      "sourceType": "systematic review",
+      "pmid": "36048295",
+      "doi": "10.1007/s00406-022-01479-5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36048295/",
+      "evidenceStrength": "moderate-to-high systematic synthesis",
+      "status": "current",
+      "limitations": "Cognitive effects in depression are heterogeneous across domains, samples and illness states; group-level deficits do not prove fixed neurological impairment in an individual.",
+      "conceptIds": [
+        "psychiatric-state-confounds"
+      ]
     }
   ]
 }

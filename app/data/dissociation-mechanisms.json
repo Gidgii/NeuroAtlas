@@ -169,6 +169,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "systematic review",
+      "citation": "Taib S, Yrondi A, Lemesle B, Peran P, Pariente J. What are the neural correlates of dissociative amnesia? A systematic review of the functional neuroimaging literature. Front Psychiatry. 2023;14:1092826. doi:10.3389/fpsyt.2023.1092826.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36778638/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "DISSOC-AMNESIA-NEUROIMG-2023"
+    ],
+    "note": "Added dissociation-specific functional neuroimaging systematic review. Existing heterogeneous and non-diagnostic framing retained."
+  }
 }

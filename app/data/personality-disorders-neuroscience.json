@@ -107,5 +107,17 @@
       "type": "Review",
       "url": "https://doi.org/10.1097/YCO.0000000000000026"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "none",
+    "status": "reviewed-no-change",
+    "evidenceIds": [
+      "ATLAS-3788F505B8",
+      "ATLAS-C1766D7F09",
+      "ATLAS-AFECB1D647"
+    ],
+    "note": "Reviewed against current personality-neuroscience literature. Dimensional, heterogeneous, non-localising and non-diagnostic framing remains appropriate. Disorder-specific BPD evidence was not generalised to personality disorders as a whole."
+  }
 }

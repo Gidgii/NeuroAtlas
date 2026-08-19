@@ -169,6 +169,21 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "current authoritative review",
+      "citation": "Shalev A, Cho D, Marmar CR. Neurobiology and Treatment of Posttraumatic Stress Disorder. Am J Psychiatry. 2024;181(8):705-719. doi:10.1176/appi.ajp.20240536.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39086292/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "PTSD-NEUROBIOLOGY-SHALEV-2024"
+    ],
+    "note": "Added current comprehensive PTSD neurobiology review. Foundational content remains explicitly heterogeneous and avoids single-region or single-mechanism explanations."
+  }
 }

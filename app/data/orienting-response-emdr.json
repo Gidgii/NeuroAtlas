@@ -168,6 +168,22 @@
       "citation": "American Psychological Association. Clinical Practice Guideline for the Treatment of PTSD.",
       "url": "https://www.apa.org/ptsd-guideline",
       "evidenceType": "guideline"
+    },
+    {
+      "type": "state-of-the-science review",
+      "citation": "de Jongh A, de Roos C, El-Leithy S. State of the science: Eye movement desensitization and reprocessing (EMDR) therapy. J Trauma Stress. 2024;37(2):205-216. doi:10.1002/jts.23012.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38282286/"
     }
-  ]
+  ],
+  "peerReview": {
+    "batch": "P3.1-B2",
+    "reviewDate": "2026-08-18",
+    "severity": "substantive",
+    "status": "corrected",
+    "evidenceIds": [
+      "EMDR-STATE-SCIENCE-2024",
+      "WADJI-WM-EMDR-2022"
+    ],
+    "note": "Reviewed the orienting-response account as one proposed EMDR mechanism. It is not presented as the established or exclusive explanation for treatment effects."
+  }
 }
