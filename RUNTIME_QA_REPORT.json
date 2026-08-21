@@ -1,6 +1,6 @@
 {
   "transport": "http",
-  "duration_seconds": 4.26,
+  "duration_seconds": 4.14,
   "summary": {
     "passed": 29,
     "failed": 0,

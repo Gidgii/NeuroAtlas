@@ -1,6 +1,6 @@
 {
-  "version": "2.14.0",
-  "status": "Release 3.0 stabilisation in progress \u2014 P0 reproducible runtime QA harness established",
+  "version": "2.14.1",
+  "status": "Release 3.0 stabilisation in progress - public v1 governance machine-enforced; independent clinical and legal reviews pending",
   "currentPhase": "Release 3.0 \u2014 Runtime Truthfulness & Product Stabilisation",
   "completedProductionSlices": [
     "traumatic-brain-injury",
@@ -197,13 +197,13 @@
     "integrated-whole-brain-explorer-and-capstone"
   ],
   "latestBatch": {
-    "phase": "Release 3.0 \u2014 Runtime Truthfulness & Product Stabilisation",
-    "build": "39 \u2014 Reproducible Browser Runtime QA Harness",
-    "type": "quality engineering / regression harness",
+    "phase": "Release 3.0 - Runtime Truthfulness & Product Stabilisation",
+    "build": "40 - Public v1 Release Gate Enforcement",
+    "type": "release governance / QA baseline",
     "structuresCompleted": [],
     "structuresMigrated": 0,
     "verifiedRegisteredStructures": 25,
-    "qa": "INJECTED BROWSER PASS \u2014 23/23 checks; all 249 concepts and 38 live visual scenes rendered without uncaught or console errors. HTTP/Service Worker path committed for unrestricted CI execution."
+    "qa": "PASS - repository validation, full pytest, Ruff, P8 release audit, acknowledgement-aware browser QA, HTTP runtime QA and public-v1 governance guard passed. Public v1 remains intentionally BLOCKED pending independent clinical and legal review."
   },
   "neurofeedback": {
     "status": "complete",
@@ -345,10 +345,12 @@
   "release30": {
     "status": "in_progress",
     "program": "Runtime Truthfulness & Product Stabilisation",
-    "currentEpic": "Epic 1 \u2014 Runtime Truthfulness / reproducible browser QA",
+    "currentEpic": "Pre-v1 governance closure - independent review gates",
     "completedBuilds": [
       "p0-runtime-truthfulness-and-artwork-readiness-baseline",
-      "reproducible-browser-runtime-qa-harness"
+      "reproducible-browser-runtime-qa-harness",
+      "versioned-acknowledgement-and-disclaimer-gate",
+      "public-v1-release-gate-enforcement"
     ],
     "completedRepairs": [
       "Unsupported Bring it to life controls are hidden for 211 concepts without a visual scene.",
@@ -357,7 +359,11 @@
       "Seven additional draft-only scaffolds were removed from offline caching.",
       "Six malformed SVGs with unescaped ampersands were repaired and XML-validated.",
       "Concept hero images now use content-specific accessibility text when detail metadata provides it.",
-      "Every curriculum concept now has an Artwork Readiness status."
+      "Every curriculum concept now has an Artwork Readiness status.",
+      "A versioned four-part educational-use acknowledgement gate requires explicit acceptance and re-acceptance after notice-version changes.",
+      "Public v1 readiness is derived from governance evidence rather than release-manifest self-attestation.",
+      "CI rejects public or stable v1 claims while required independent clinical or legal review evidence remains incomplete.",
+      "The Python repository was normalised to the configured Ruff format and LF line-ending baseline so CI formatting checks are reproducible."
     ],
     "artworkReadiness": {
       "report": "ARTWORK_READINESS_REPORT.json",
@@ -375,7 +381,7 @@
       "Epic 4 \u2014 clinical quality",
       "Epic 5 \u2014 technical quality"
     ],
-    "nextBuild": "Run/retain the HTTP browser QA gate in unrestricted CI, then remediate any verified P0 defects before beginning rendered visual/artwork review.",
-    "qaStatus": "INJECTED BROWSER PASS \u2014 23/23 checks: 249 concepts, 38 live visual scenes, search, bookmarks, quiz/progress/review persistence, reduced-motion behaviour and mobile overflow. HTTP/Service Worker runtime gate is committed but not executable in the current sandbox because loopback navigation is blocked."
+    "nextBuild": "Obtain independent clinical review of the governed 25-concept sample and independent legal review of disclaimer, acknowledgement, licensing, copyright/provenance and the current privacy position. Public v1 must remain blocked until those reviews genuinely satisfy the gate.",
+    "qaStatus": "PASS - HTTP runtime 29/29 plus acknowledgement browser QA across mobile, tablet and desktop. Public-v1 governance guard active. External clinical and legal reviews remain genuine human release blockers."
   }
 }

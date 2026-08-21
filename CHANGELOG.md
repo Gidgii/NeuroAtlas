@@ -234,3 +234,18 @@ v1.1.0 next 5
 ### Validation
 - Independent JSON, SVG, loader, curriculum, quiz, service-worker, artwork-status, JavaScript-parse and Git-whitespace checks passed.
 - Browser runtime, Python launcher, Pytest and Ruff checks were not completed in the available task runtime and are not claimed.
+
+## [2.14.1] - 2026-08-21
+### Added
+- Versioned four-part educational-use acknowledgement and disclaimer gate.
+- Machine-enforced public-v1 governance audit.
+- Independent external legal-review sign-off template.
+- CI protection against premature public or stable v1 release claims.
+
+### Changed
+- Normalised Python tooling and tests to the configured Ruff/LF formatting baseline.
+- Updated the release manifest with explicit public-v1 governance state.
+- Updated project and Interactive Anatomy QA records to current reproducible runtime evidence.
+
+### Release boundary
+- Public v1 remains intentionally blocked pending genuine independent clinical and legal review.

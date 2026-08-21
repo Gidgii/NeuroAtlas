@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "release": "1.0.0-rc1",
+  "manifestStatus": "release-candidate",
+  "publicV1Status": "BLOCKED",
+  "publicReleaseClaimDetected": false,
+  "gates": {
+    "evidence-governance": {
+      "required": true,
+      "satisfied": true,
+      "evidence": "P3_2_EVIDENCE_GOVERNANCE_REPORT.json"
+    },
+    "acknowledgement-gate": {
+      "required": true,
+      "satisfied": true,
+      "evidence": "P8_ACKNOWLEDGEMENT_GATE_REPORT.json"
+    },
+    "runtime-regression": {
+      "required": true,
+      "satisfied": true,
+      "evidence": "RUNTIME_QA_REPORT.json"
+    },
+    "external-clinical-review": {
+      "required": true,
+      "satisfied": false,
+      "evidence": "P3_1_EXTERNAL_CLINICAL_SIGNOFF.json"
+    },
+    "external-legal-review": {
+      "required": true,
+      "satisfied": false,
+      "evidence": "P8_EXTERNAL_LEGAL_SIGNOFF.json"
+    },
+    "external-accessibility-review": {
+      "required": false,
+      "recommended": true,
+      "satisfied": false,
+      "evidence": null
+    }
+  },
+  "blockers": [
+    "external-clinical-review",
+    "external-legal-review"
+  ],
+  "contradictions": [],
+  "safeForCandidateDevelopment": true
+}

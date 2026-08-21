@@ -1,0 +1,29 @@
+{
+  "phase": "P8-External-Legal-Review",
+  "status": "pending-external-review",
+  "releaseTarget": "1.0.0",
+  "independentReviewer": {
+    "name": null,
+    "qualification": null,
+    "practisingCertificateOrCredential": null,
+    "organisation": null,
+    "jurisdiction": "Australia"
+  },
+  "reviewDate": null,
+  "scope": {
+    "disclaimerAndLimitationOfUse": false,
+    "acknowledgementDesign": false,
+    "copyrightAndAssetProvenance": false,
+    "thirdPartyLicensing": false,
+    "privacyPositionForCurrentLocalOnlyRelease": false
+  },
+  "findings": {
+    "materialLegalConcerns": null,
+    "requiredChanges": [],
+    "comments": null
+  },
+  "finalRecommendation": null,
+  "signatureOrElectronicAcknowledgement": null,
+  "gateSatisfied": false,
+  "boundary": "This record must not be marked gateSatisfied=true until an independent appropriately qualified legal reviewer has actually completed the review. Internal engineering or AI review does not satisfy this gate."
+}

@@ -216,3 +216,13 @@ Completed and integrated: Attention, Processing Speed, Working Memory, Episodic 
   launcher validation, Pytest, Ruff, formatting checks and the HTTP browser harness on push/PR/manual run.
 - Current execution sandbox blocks Chromium navigation to loopback/file URLs, so HTTP/service-worker
   runtime coverage remains to be confirmed by unrestricted CI. No Work/workspace credits were used.
+
+## Build 40 - Public v1 Release Gate Enforcement (v2.14.1) - 2026-08-21
+- Added a machine-enforced public-v1 governance gate deriving readiness from evidence records instead of allowing the release manifest to self-certify.
+- Added an independent legal-review sign-off template covering disclaimer wording, acknowledgement design, copyright/provenance, third-party licensing and the current local-only privacy position.
+- Integrated the public-v1 governance guard into GitHub Actions after production-path browser runtime QA.
+- Added regression tests proving that neither a manifest flag nor a public 1.0.0 claim can bypass pending independent clinical or legal reviews.
+- Normalised the existing Python source and test suite to the configured Ruff/LF formatting baseline so repository-wide CI format validation is reproducible.
+- Updated stale project-control and Interactive Anatomy QA records to current reproducible runtime evidence.
+- Validation passed: repository validation, Ruff, full Pytest, P8 release audit, acknowledgement-aware mobile/tablet/desktop browser QA, HTTP runtime QA and governance-policy checks.
+- Current public-v1 status: BLOCKED as intended because independent clinical and legal sign-offs remain incomplete.
