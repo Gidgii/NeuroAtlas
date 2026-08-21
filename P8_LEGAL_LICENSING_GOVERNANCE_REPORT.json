@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "reviewDate": "2026-08-21",
+  "releaseTarget": "1.0.0",
+  "status": "internal-review-complete-external-legal-review-pending",
+  "gateSatisfied": false,
+  "scope": {
+    "dependencyLicensing": true,
+    "bundledAssetInventory": true,
+    "assetProvenanceReview": true,
+    "runtimeExternalResourceReview": true,
+    "sourceTextReproductionScreen": true,
+    "independentLegalReview": false
+  },
+  "findings": {
+    "trackedVisualAssets": 251,
+    "svgIllustrations": 249,
+    "pngIcons": 2,
+    "externalRuntimeResourcesDetected": false,
+    "thirdPartyBrowserImportsDetected": false,
+    "bundledFontFilesDetected": false,
+    "obviousReproducedFiguresOrTablesDetected": false,
+    "dependencyLicencesResolved": true,
+    "projectRootCopyrightNoticeAdded": true,
+    "projectWideOpenSourceLicenceGranted": false
+  },
+  "dependencyLicences": {
+    "setuptools": "MIT",
+    "wheel": "MIT",
+    "pydantic": "MIT",
+    "rich": "MIT",
+    "typer": "MIT",
+    "python-dotenv": "BSD-3-Clause",
+    "orjson": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+    "jsonschema": "MIT",
+    "packaging": "Apache and BSD licence terms",
+    "pytest": "MIT",
+    "pytest-cov": "MIT",
+    "ruff": "MIT",
+    "playwright": "Apache-2.0"
+  },
+  "assetProvenance": {
+    "repositoryHistoryPresent": true,
+    "repositoryAdditionIdentity": "Gidgii",
+    "aiAssistedDevelopment": true,
+    "copyrightQualification": "Rights reserved only to the extent copyright or other applicable rights subsist. AI-assisted or AI-generated material is not represented as automatically copyright-protected."
+  },
+  "releaseBoundary": {
+    "internalInventoryCompleted": true,
+    "independentCopyrightAuditCompleted": false,
+    "independentLegalClearanceCompleted": false,
+    "publicV1LegalGateSatisfied": false
+  },
+  "nextRequiredReview": [
+    "Review public disclaimer and limitation-of-use wording",
+    "Review acknowledgement/acceptance recording design before account-backed collection is introduced",
+    "Review privacy notice if accounts, cloud sync, analytics or other personal-information collection is enabled",
+    "Obtain qualified legal review before marking the public v1.0 legal/licensing gate satisfied"
+  ]
+}
