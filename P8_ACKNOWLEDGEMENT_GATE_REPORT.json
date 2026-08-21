@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "roadmapStep": 76,
+  "completedDate": "2026-08-21",
+  "feature": "Versioned educational-use disclaimer and acknowledgement gate",
+  "status": "PASS",
+  "noticeVersion": "2026-08-21.1",
+  "acknowledgements": [
+    "educational-use",
+    "independent-verification",
+    "accuracy-limitations",
+    "no-client-data"
+  ],
+  "acceptanceRecord": {
+    "storageModel": "local-device-only",
+    "timestamped": true,
+    "versioned": true,
+    "staleNoticeRequiresReacceptance": true
+  },
+  "validation": {
+    "repositoryValidation": "PASS",
+    "pytest": "PASS",
+    "p8ReleaseAudit": "PASS",
+    "acknowledgementBrowserQA": "PASS",
+    "httpRuntimeQA": "PASS",
+    "viewports": [
+      "mobile",
+      "tablet",
+      "desktop"
+    ]
+  },
+  "releaseBoundary": {
+    "independentLegalReviewCompleted": false,
+    "publicV1LegalGateSatisfied": false,
+    "note": "Implementation and internal QA do not constitute independent legal clearance."
+  }
+}

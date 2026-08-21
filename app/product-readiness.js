@@ -105,6 +105,7 @@ function installReleaseFooter() {
       <button type="button" data-release-dialog="privacyDialog">Privacy</button>
       <button type="button" data-release-dialog="accessibilityDialog">Accessibility</button>
       <button type="button" data-release-dialog="releaseDialog">About this release</button>
+      <button type="button" data-release-dialog="disclaimerDialog">Use &amp; disclaimer</button>
       <button type="button" id="installAtlas" hidden>Install app</button>
     </nav>`;
   shell.append(footer);
@@ -126,6 +127,12 @@ function installReleaseFooter() {
     'About this release',
     './legal/release.html',
     'P8 freezes major features and adds release-candidate governance, local beta feedback export, release metadata, deployment checks and final regression safeguards on top of P6/P7.',
+  );
+  legalDialog(
+    'disclaimerDialog',
+    'Educational use & disclaimer',
+    './legal/disclaimer.html',
+    'Neuro Atlas is an educational resource, not medical, psychological, diagnostic or treatment advice. Users remain responsible for independent clinical verification.',
   );
 
   footer.querySelectorAll('[data-release-dialog]').forEach((button) => {

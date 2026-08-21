@@ -155,6 +155,25 @@ def _safe_text(locator: Any) -> str:
     return (locator.text_content() or "").strip()
 
 
+def _accept_acknowledgement_gate(page: Any) -> bool:
+    boxes = page.locator("[data-ack]")
+    if boxes.count() != 4:
+        return False
+
+    form = boxes.first.locator("xpath=ancestor::form[1]")
+    if form.count() != 1:
+        return False
+
+    for index in range(boxes.count()):
+        boxes.nth(index).check()
+
+    form.evaluate("form => form.requestSubmit()")
+    page.wait_for_timeout(80)
+
+    stored = page.evaluate("Boolean(localStorage.getItem('neuroatlas-acknowledgement'))")
+    return bool(stored) and not form.is_visible()
+
+
 def run_qa(transport: str, executable_path: str | None = None, headless: bool = True) -> Report:
     try:
         from playwright.sync_api import sync_playwright
@@ -191,6 +210,13 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         if transport == "http":
             server, url = _start_server()
             response = page.goto(url, wait_until="networkidle", timeout=15000)
+
+            gate_accepted = _accept_acknowledgement_gate(page)
+            report.add(
+                "Acknowledgement gate accepts the current notice",
+                gate_accepted,
+            )
+
             report.add(
                 "HTTP entry point returns success",
                 bool(response and response.ok),

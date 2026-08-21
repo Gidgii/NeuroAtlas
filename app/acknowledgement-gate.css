@@ -1,0 +1,95 @@
+.acknowledgement-gate {
+  width: min(720px, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  padding: 0;
+  border: 1px solid rgba(80, 241, 210, .34);
+  border-radius: 22px;
+  background: #0b1113;
+  color: #edf7f5;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, .6);
+}
+
+.acknowledgement-gate::backdrop {
+  background: rgba(2, 6, 7, .88);
+  backdrop-filter: blur(8px);
+}
+
+.acknowledgement-card {
+  padding: clamp(1.25rem, 4vw, 2rem);
+}
+
+.acknowledgement-card h1 {
+  margin-top: .25rem;
+}
+
+.acknowledgement-list {
+  display: grid;
+  gap: .75rem;
+  margin: 1.25rem 0;
+  padding: 0;
+  border: 0;
+}
+
+.acknowledgement-list label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .8rem;
+  align-items: start;
+  padding: .9rem;
+  border: 1px solid rgba(216, 248, 242, .14);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .025);
+  cursor: pointer;
+}
+
+.acknowledgement-list input {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: .12rem;
+  accent-color: #50f1d2;
+}
+
+.acknowledgement-list strong {
+  display: block;
+  margin-bottom: .2rem;
+}
+
+.acknowledgement-feedback,
+.acknowledgement-links {
+  color: #b8cbc7;
+  font-size: .92rem;
+}
+
+.acknowledgement-links a {
+  color: #50f1d2;
+}
+
+.acknowledgement-enter {
+  width: 100%;
+  min-height: 48px;
+  margin-top: .8rem;
+}
+
+.acknowledgement-enter:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .acknowledgement-gate {
+    width: calc(100vw - 1rem);
+    max-height: calc(100dvh - 1rem);
+  }
+
+  .acknowledgement-card {
+    padding: 1rem;
+  }
+
+  .acknowledgement-list {
+    gap: .55rem;
+  }
+
+  .acknowledgement-list label {
+    padding: .7rem;
+  }
+}
