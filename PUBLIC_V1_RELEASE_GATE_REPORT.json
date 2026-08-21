@@ -23,12 +23,36 @@
     "external-clinical-review": {
       "required": true,
       "satisfied": false,
-      "evidence": "P3_1_EXTERNAL_CLINICAL_SIGNOFF.json"
+      "evidence": "P3_1_EXTERNAL_CLINICAL_SIGNOFF.json",
+      "snapshotIntegrity": {
+        "valid": true,
+        "status": "valid",
+        "scope": "external-clinical-review",
+        "algorithm": "sha256-text-lf-v1",
+        "recordedDigest": "2212f990b9b6a5f8044413bfea21547ffbcbd4dcb4dc60779a116f673f131676",
+        "currentDigest": "2212f990b9b6a5f8044413bfea21547ffbcbd4dcb4dc60779a116f673f131676",
+        "aggregateDigestValid": true,
+        "changedFiles": [],
+        "missingFiles": [],
+        "unexpectedFiles": []
+      }
     },
     "external-legal-review": {
       "required": true,
       "satisfied": false,
-      "evidence": "P8_EXTERNAL_LEGAL_SIGNOFF.json"
+      "evidence": "P8_EXTERNAL_LEGAL_SIGNOFF.json",
+      "snapshotIntegrity": {
+        "valid": true,
+        "status": "valid",
+        "scope": "external-legal-review",
+        "algorithm": "sha256-text-lf-v1",
+        "recordedDigest": "451f40c0045b014c7f75326b8e9c172f226f7aeef339038da8afb70b25f7ffee",
+        "currentDigest": "451f40c0045b014c7f75326b8e9c172f226f7aeef339038da8afb70b25f7ffee",
+        "aggregateDigestValid": true,
+        "changedFiles": [],
+        "missingFiles": [],
+        "unexpectedFiles": []
+      }
     },
     "external-accessibility-review": {
       "required": false,

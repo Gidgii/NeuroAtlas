@@ -12,6 +12,14 @@ The current release manifest states:
 - Accessibility external review: **recommended before public v1.0 claim**
 - Legal/licensing external review: **required before public v1.0 claim**
 
+## Review snapshot integrity
+
+This review is bound to the `reviewSnapshot` stored in `P3_1_EXTERNAL_CLINICAL_SIGNOFF.json`.
+
+The snapshot uses SHA-256 hashes over canonical LF-normalised text. It covers this review pack, every canonical concept file listed below, and the shared evidence catalogue at `app/data/evidence-library.json`.
+
+The reviewer should only sign the review associated with the supplied snapshot digest. If any reviewed file changes after the snapshot is created, the public-v1 gate must treat that sign-off as stale until the changed material is independently reviewed again and a new snapshot is signed.
+
 ## Reviewer role
 
 The reviewer should independently assess whether the selected clinical and neuroscience content is:

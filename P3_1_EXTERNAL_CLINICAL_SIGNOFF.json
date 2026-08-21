@@ -52,5 +52,123 @@
   "finalRecommendation": null,
   "signatureOrElectronicAcknowledgement": null,
   "gateSatisfied": false,
-  "boundary": "This template must not be marked gateSatisfied=true until an independent appropriately qualified reviewer has actually completed the review."
+  "boundary": "This template must not be marked gateSatisfied=true until an independent appropriately qualified reviewer has actually completed the review.",
+  "reviewSnapshot": {
+    "schemaVersion": "1.0",
+    "scope": "external-clinical-review",
+    "algorithm": "sha256-text-lf-v1",
+    "capturedAt": "2026-08-21T22:12:46Z",
+    "digest": "2212f990b9b6a5f8044413bfea21547ffbcbd4dcb4dc60779a116f673f131676",
+    "files": [
+      {
+        "path": "P3_1_EXTERNAL_CLINICAL_REVIEW_PACK.md",
+        "sha256": "875e392c8def7c91ca53243974b013417ccbb0601d71e191e716e04cb5eef055"
+      },
+      {
+        "path": "app/data/adaptive-information-processing.json",
+        "sha256": "71d548be39f4a8647c4715306f1357703725d67c910cb3851d0e9d06f3058095"
+      },
+      {
+        "path": "app/data/attachment-neuroscience-trauma.json",
+        "sha256": "8037dbab4eba17a8157a5895400adc89d513b4722598ac3f244a97ead5b43ebb"
+      },
+      {
+        "path": "app/data/autism-neurofeedback.json",
+        "sha256": "8a7285c83871442462bb3c7fbed26d9ca0d7bb9fd30d296c4b1d730fadc2758f"
+      },
+      {
+        "path": "app/data/complex-ptsd-neuroscience.json",
+        "sha256": "d4ae318b4176ec1a34b0b4d6e866ee9bde5cc7ac12fc74702847d777c8dc091c"
+      },
+      {
+        "path": "app/data/current-evidence-emdr.json",
+        "sha256": "b6e64570e4edb6a8e143e723df9b8917e158ae8109df92fa9f02321e5d743d33"
+      },
+      {
+        "path": "app/data/default-mode-network-trauma.json",
+        "sha256": "a249a4bd9b59576aaca605ba431b541a4234bad4b0e35626f010ca43954db673"
+      },
+      {
+        "path": "app/data/developmental-trauma.json",
+        "sha256": "989c7a0d4f3d64c5e6e6e377da80d7686451ee6a5da1843b7541e225fe1dd452"
+      },
+      {
+        "path": "app/data/dissociation-mechanisms.json",
+        "sha256": "bf8663ff8ded98f2c69474150247bdde154e742c6abd9e51078092757b80e2e4"
+      },
+      {
+        "path": "app/data/evidence-library.json",
+        "sha256": "1c90090374161747c8534bdbae983032ac422b093105c16784b9c008d8132c8f"
+      },
+      {
+        "path": "app/data/fear-extinction-trauma.json",
+        "sha256": "aeb3e67a87b6619dba50164a94c2f40bbd89d436a21935f5a59d09f66f3d5476"
+      },
+      {
+        "path": "app/data/hpa-axis-trauma.json",
+        "sha256": "50b04633455afe6d40b40e0c119845cc3113ea8a5f76e00e0128a6e75b8aa4c1"
+      },
+      {
+        "path": "app/data/intergenerational-trauma.json",
+        "sha256": "b7022f9e201ef36f1113327db8960deeecc43aca77cb6c00bc74bce9caa1e09e"
+      },
+      {
+        "path": "app/data/mechanisms-change-emdr.json",
+        "sha256": "29c62543646d9c90cb885d0b9c5708f9f9c7fdd327d1ba4ca1966cebd10c90fa"
+      },
+      {
+        "path": "app/data/memory-reconsolidation-trauma.json",
+        "sha256": "01add4049ae7793957d3e440a8b95d63f592dc024c8c5eff053263235625fb80"
+      },
+      {
+        "path": "app/data/moral-injury.json",
+        "sha256": "d13eea43662220afe9218e4fa8ec3fbc25691e766496906ba47b916ddbb8f62c"
+      },
+      {
+        "path": "app/data/neurobiology-emdr.json",
+        "sha256": "515c961282b83b324336c88074b7db0fc62da48bb74575321f33ed077371e52c"
+      },
+      {
+        "path": "app/data/personality-disorders-neuroscience.json",
+        "sha256": "c9bac2f71bdc2866b48fdf720ab21491b342a76d00929cdb4bbcc6b62d2fd10e"
+      },
+      {
+        "path": "app/data/polyvagal-theory.json",
+        "sha256": "a3a616267d80cbcdfa89cb989fb02ed498b712257f279396e664fda8e1e32268"
+      },
+      {
+        "path": "app/data/prediction-error-trauma.json",
+        "sha256": "8ae851ada30171d794644a677cd22a8e23bc041057792052f053ee5601c39480"
+      },
+      {
+        "path": "app/data/qeeg-adhd-evidence.json",
+        "sha256": "6e0fbe73a1e517507621376649cc01632b4b6b4736bf076092ae9964a4178043"
+      },
+      {
+        "path": "app/data/qeeg-anxiety-depression-evidence.json",
+        "sha256": "7c9bf64bec3a86d0b45db36400b3b0f807b2b2a6e5081024514a7db0c6526ff7"
+      },
+      {
+        "path": "app/data/qeeg-autism-evidence.json",
+        "sha256": "c107c6ad9fd6e17187c13e6a6338bcb814b098f1eb5bcf72258422274be6a21c"
+      },
+      {
+        "path": "app/data/qeeg-tbi-evidence.json",
+        "sha256": "63c875645371cc0cd3183cf4003b878f6629be5a483aa4827039e2aee8a7adf6"
+      },
+      {
+        "path": "app/data/structural-dissociation.json",
+        "sha256": "24ce3209e57e6a1a88fd944bb3b4ae3acf63fa00d2e185ed98bfb59876caf297"
+      },
+      {
+        "path": "app/data/window-of-tolerance.json",
+        "sha256": "e01e8b489c16a4fd4797f1a8a3f3c49754d16bc2b8e4c78819a1b2ff44c53885"
+      },
+      {
+        "path": "app/data/working-memory-theory-emdr.json",
+        "sha256": "931a27f9d33537c09c5c6d2b012d4c9c056eaf3ae9f268a4a9413c9806e6db39"
+      }
+    ]
+  },
+  "snapshotBoundary": "Any gate-satisfying approval applies only to the exact clinical review snapshot recorded here. A change to reviewed material invalidates the snapshot and requires renewed independent review."
 }

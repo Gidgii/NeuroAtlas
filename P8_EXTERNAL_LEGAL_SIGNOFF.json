@@ -25,5 +25,75 @@
   "finalRecommendation": null,
   "signatureOrElectronicAcknowledgement": null,
   "gateSatisfied": false,
-  "boundary": "This record must not be marked gateSatisfied=true until an independent appropriately qualified legal reviewer has actually completed the review. Internal engineering or AI review does not satisfy this gate."
+  "boundary": "This record must not be marked gateSatisfied=true until an independent appropriately qualified legal reviewer has actually completed the review. Internal engineering or AI review does not satisfy this gate.",
+  "reviewSnapshot": {
+    "schemaVersion": "1.0",
+    "scope": "external-legal-review",
+    "algorithm": "sha256-text-lf-v1",
+    "capturedAt": "2026-08-21T22:12:47Z",
+    "digest": "451f40c0045b014c7f75326b8e9c172f226f7aeef339038da8afb70b25f7ffee",
+    "files": [
+      {
+        "path": "COPYRIGHT.md",
+        "sha256": "7755b13c26e56ed3c34799633db84acc4e5eb0db2ac1b759c6278cd17ade7b5f"
+      },
+      {
+        "path": "P8_ACKNOWLEDGEMENT_GATE_REPORT.json",
+        "sha256": "bdeefd3fcff9007aef293e9b02843b9b00446f98659a59f82a9fa491b818ac5a"
+      },
+      {
+        "path": "P8_EXTERNAL_LEGAL_REVIEW_PACK.md",
+        "sha256": "51bbe0793ab0dc675fb5aad220f71c88800daee04e6d1791b687a8cc4a1e5407"
+      },
+      {
+        "path": "P8_LEGAL_LICENSING_GOVERNANCE_REPORT.json",
+        "sha256": "8e3f433cd916eecea7762df10e705d6ccf167d524d1731b0b1a5a8598b4f719b"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "sha256": "4b93a8c1be0d5a6ed234832ed879ad4279f008c7bd15581f1e416a6a0bdabc98"
+      },
+      {
+        "path": "app/acknowledgement-gate.css",
+        "sha256": "2a2213a61b3a785b506c5a145db6535363688a2460b3e51649ce171672d63b43"
+      },
+      {
+        "path": "app/acknowledgement-gate.js",
+        "sha256": "ef64d69b92bbe393371346568bb74e47024697f447fb45354b5c6ce8f53d4644"
+      },
+      {
+        "path": "app/data/release-manifest.json",
+        "sha256": "a2da7eebed3c8fe2a799eb2ade7631efaa85914c8f7fd8d455d28737446a0902"
+      },
+      {
+        "path": "app/index.html",
+        "sha256": "416733ff73af603343631ab18fe4cb07d7dc14261c67e72cb8fa17d2bdbae455"
+      },
+      {
+        "path": "app/legal/disclaimer.html",
+        "sha256": "2774899d8bc59d66a9d01bddbbd6e424272f775ad07cf12e57db9d028c04af63"
+      },
+      {
+        "path": "app/legal/privacy.html",
+        "sha256": "ab664285c49e598c57cefdff340c13514fa22caa94d77b7527d9ef1b7aeb7bfe"
+      },
+      {
+        "path": "app/legal/release.html",
+        "sha256": "47913682f919664bce2412441ff271cf42145279e4260388b189616601f2d337"
+      },
+      {
+        "path": "app/legal/third-party-notices.html",
+        "sha256": "9da624b090b6624436566f6fb22f37f760dbc9a9b46a0564ef4952cdf3bb4758"
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "7497c5e7ea6e3239ca4ed3f14e1aa65b682dd1d63430e712a2b76e9907d9d003"
+      },
+      {
+        "path": "requirements.txt",
+        "sha256": "d6ffa3bb5ec60fdcb50b98d217faab9bc8d4435bdd02979f024dd1e4aa6c1f3c"
+      }
+    ]
+  },
+  "snapshotBoundary": "Any gate-satisfying approval applies only to the exact legal review snapshot recorded here. A change to reviewed material invalidates the snapshot and requires renewed independent review."
 }

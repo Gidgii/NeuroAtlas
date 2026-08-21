@@ -12,6 +12,11 @@ import json
 from pathlib import Path
 from typing import Any
 
+try:
+    from reviewer_snapshot import validate_snapshot
+except ModuleNotFoundError:
+    from tools.reviewer_snapshot import validate_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 
 APPROVED_RECOMMENDATIONS = {
@@ -61,6 +66,17 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
     legal_internal = load_json(root / "P8_LEGAL_LICENSING_GOVERNANCE_REPORT.json")
     legal_external = load_json(root / "P8_EXTERNAL_LEGAL_SIGNOFF.json")
     runtime = load_json(root / "RUNTIME_QA_REPORT.json")
+
+    clinical_snapshot = validate_snapshot(
+        root,
+        clinical.get("reviewSnapshot"),
+        "clinical",
+    )
+    legal_snapshot = validate_snapshot(
+        root,
+        legal_external.get("reviewSnapshot"),
+        "legal",
+    )
 
     acknowledgement_ok = (
         acknowledgement.get("status") == "PASS"
@@ -113,6 +129,7 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
 
     clinical_ok = (
         clinical.get("gateSatisfied") is True
+        and clinical_snapshot.get("valid") is True
         and present(reviewer.get("name"))
         and present(reviewer.get("qualification"))
         and present(clinical.get("reviewDate"))
@@ -149,6 +166,7 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
 
     legal_external_ok = (
         legal_external.get("gateSatisfied") is True
+        and legal_snapshot.get("valid") is True
         and present(legal_reviewer.get("name"))
         and present(legal_reviewer.get("qualification"))
         and present(legal_external.get("reviewDate"))
@@ -180,11 +198,13 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
             "required": True,
             "satisfied": clinical_ok,
             "evidence": "P3_1_EXTERNAL_CLINICAL_SIGNOFF.json",
+            "snapshotIntegrity": clinical_snapshot,
         },
         "external-legal-review": {
             "required": True,
             "satisfied": legal_ok,
             "evidence": "P8_EXTERNAL_LEGAL_SIGNOFF.json",
+            "snapshotIntegrity": legal_snapshot,
         },
         "external-accessibility-review": {
             "required": False,
