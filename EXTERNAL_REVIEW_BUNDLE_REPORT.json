@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "bundleFormat": "neuroatlas-external-review-bundle-v1",
+  "bundles": [
+    {
+      "valid": true,
+      "scope": "clinical",
+      "bundle": "C:\\Users\\azlpe\\Downloads\\NeuroAtlas\\external-review-bundles\\neuroatlas-clinical-review-2212f990b9b6.zip",
+      "snapshotDigest": "2212f990b9b6a5f8044413bfea21547ffbcbd4dcb4dc60779a116f673f131676",
+      "missingFiles": [],
+      "unexpectedFiles": [],
+      "hashFailures": [],
+      "manifestValid": true,
+      "deterministic": true,
+      "bundleSha256": "f83ee0c72f0fb09c58cf653a366537cf436cef7e9ce31779f23a8a80032eb709",
+      "sizeBytes": 107666
+    },
+    {
+      "valid": true,
+      "scope": "legal",
+      "bundle": "C:\\Users\\azlpe\\Downloads\\NeuroAtlas\\external-review-bundles\\neuroatlas-legal-review-451f40c0045b.zip",
+      "snapshotDigest": "451f40c0045b014c7f75326b8e9c172f226f7aeef339038da8afb70b25f7ffee",
+      "missingFiles": [],
+      "unexpectedFiles": [],
+      "hashFailures": [],
+      "manifestValid": true,
+      "deterministic": true,
+      "bundleSha256": "66289235d7e940f42051b714a5498d7cb00753a1977adcf20c77f3ce56056bd1",
+      "sizeBytes": 20441
+    }
+  ]
+}
