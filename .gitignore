@@ -19,3 +19,5 @@ Thumbs.db
 *.temp
 *~
 external-review-bundles/
+external-review-returns/
+external-review-import-backups/

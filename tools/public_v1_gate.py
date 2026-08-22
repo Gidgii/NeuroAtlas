@@ -104,13 +104,20 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
     reviewer = clinical.get("independentReviewer", {})
     required_sample = set(clinical.get("sampleConceptIds", []))
     decisions = clinical.get("conceptDecisions", [])
+    decision_records = [item for item in decisions if isinstance(item, dict)]
+
     reviewed_ids = {
-        concept_id
-        for item in decisions
-        if isinstance(item, dict)
-        for concept_id in [decision_id(item)]
-        if concept_id
+        concept_id for item in decision_records for concept_id in [decision_id(item)] if concept_id
     }
+
+    clinical_decisions_approved = (
+        len(decision_records) == len(required_sample)
+        and len(reviewed_ids) == len(decision_records)
+        and reviewed_ids == required_sample
+        and all(
+            normalise(item.get("decision")) in APPROVED_RECOMMENDATIONS for item in decision_records
+        )
+    )
 
     global_findings = clinical.get("globalFindings", {})
     required_global_findings = (
@@ -127,17 +134,34 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
         global_findings.get(key) is not None for key in required_global_findings
     )
 
+    positive_global_findings = (
+        "evidenceWeightingAppropriate",
+        "biomarkerLanguageAppropriate",
+        "traumaClaimsNonDeterministic",
+        "emdrEfficacyMechanismDistinctionAppropriate",
+        "contestedTheoryBoundariesAppropriate",
+        "diagnosticOverreachControlled",
+    )
+
+    clinical_global_approved = all(
+        global_findings.get(key) is True for key in positive_global_findings
+    )
+
     clinical_ok = (
-        clinical.get("gateSatisfied") is True
+        normalise(clinical.get("status")) == "approved-external-review"
+        and clinical.get("gateSatisfied") is True
         and clinical_snapshot.get("valid") is True
         and present(reviewer.get("name"))
         and present(reviewer.get("qualification"))
+        and present(reviewer.get("registrationOrCredential"))
         and present(clinical.get("reviewDate"))
         and int(clinical.get("reviewedConceptCount", 0))
-        >= int(clinical.get("requiredSampleConceptCount", 25))
+        == int(clinical.get("requiredSampleConceptCount", 25))
+        and len(required_sample) == int(clinical.get("requiredSampleConceptCount", 25))
         and required_sample
-        and required_sample.issubset(reviewed_ids)
+        and clinical_decisions_approved
         and clinical_global_complete
+        and clinical_global_approved
         and global_findings.get("materialClinicalSafetyConcerns") is False
         and normalise(clinical.get("finalRecommendation")) in APPROVED_RECOMMENDATIONS
         and present(clinical.get("signatureOrElectronicAcknowledgement"))
@@ -165,10 +189,13 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
     )
 
     legal_external_ok = (
-        legal_external.get("gateSatisfied") is True
+        normalise(legal_external.get("status")) == "approved-external-review"
+        and legal_external.get("gateSatisfied") is True
         and legal_snapshot.get("valid") is True
         and present(legal_reviewer.get("name"))
         and present(legal_reviewer.get("qualification"))
+        and present(legal_reviewer.get("practisingCertificateOrCredential"))
+        and normalise(legal_reviewer.get("jurisdiction")) == "australia"
         and present(legal_external.get("reviewDate"))
         and all(legal_scope.get(key) is True for key in required_legal_scope)
         and legal_external_findings.get("materialLegalConcerns") is False

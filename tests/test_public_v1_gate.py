@@ -63,6 +63,7 @@ def approve_clinical(root: Path) -> None:
     record["status"] = "approved-external-review"
     record["independentReviewer"]["name"] = "Independent Reviewer"
     record["independentReviewer"]["qualification"] = "Clinical Psychologist"
+    record["independentReviewer"]["registrationOrCredential"] = "TEST-PSY-001"
     record["reviewDate"] = "2026-08-21"
     record["reviewedConceptCount"] = len(record["sampleConceptIds"])
     record["conceptDecisions"] = [
@@ -97,6 +98,7 @@ def approve_legal(root: Path) -> None:
     record["status"] = "approved-external-review"
     record["independentReviewer"]["name"] = "Independent Lawyer"
     record["independentReviewer"]["qualification"] = "Australian Solicitor"
+    record["independentReviewer"]["practisingCertificateOrCredential"] = "TEST-LAW-001"
     record["reviewDate"] = "2026-08-21"
 
     for key in record["scope"]:
@@ -215,3 +217,35 @@ def test_missing_snapshot_cannot_satisfy_external_review(tmp_path):
 
     assert report["gates"]["external-clinical-review"]["satisfied"] is False
     assert report["gates"]["external-clinical-review"]["snapshotIntegrity"]["status"] == "missing"
+
+
+def test_clinical_credential_is_required_for_public_v1(tmp_path):
+    root = copy_fixture(tmp_path)
+
+    approve_clinical(root)
+    approve_legal(root)
+
+    path = root / "P3_1_EXTERNAL_CLINICAL_SIGNOFF.json"
+    record = json.loads(path.read_text(encoding="utf-8"))
+    record["independentReviewer"]["registrationOrCredential"] = None
+    write_json(path, record)
+
+    report = GATE.evaluate(root)
+
+    assert report["gates"]["external-clinical-review"]["satisfied"] is False
+
+
+def test_unapproved_clinical_decision_blocks_public_v1(tmp_path):
+    root = copy_fixture(tmp_path)
+
+    approve_clinical(root)
+    approve_legal(root)
+
+    path = root / "P3_1_EXTERNAL_CLINICAL_SIGNOFF.json"
+    record = json.loads(path.read_text(encoding="utf-8"))
+    record["conceptDecisions"][0]["decision"] = "NOT APPROVED"
+    write_json(path, record)
+
+    report = GATE.evaluate(root)
+
+    assert report["gates"]["external-clinical-review"]["satisfied"] is False

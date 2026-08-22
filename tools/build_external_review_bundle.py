@@ -71,6 +71,22 @@ START HERE
 4. Do not alter reviewSnapshot in the sign-off record.
 5. Return the completed sign-off record to the NeuroAtlas project owner.
 
+FOR A RELEASE-APPROVING RETURN
+- Set status to: approved-external-review
+- Record reviewer name, qualification and professional credential.
+- Record reviewDate as YYYY-MM-DD.
+- Record a real signature or electronic acknowledgement.
+- Set finalRecommendation to APPROVE or APPROVE WITH MINOR CHANGES.
+- Set gateSatisfied to true only after the review is actually complete.
+- Do not alter reviewSnapshot, sample IDs or other frozen review fields.
+
+Clinical reviewers must complete all 25 concept decisions and all global
+findings. Legal reviewers must complete every scope field and legal finding.
+
+Software can verify structure and snapshot integrity. It cannot prove that a
+reviewer is genuinely independent. The project owner must separately confirm
+reviewer independence and suitability before importing the returned record.
+
 IMPORTANT
 Approval applies only to snapshot digest:
 

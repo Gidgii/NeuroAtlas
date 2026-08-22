@@ -12,8 +12,8 @@
       "hashFailures": [],
       "manifestValid": true,
       "deterministic": true,
-      "bundleSha256": "f83ee0c72f0fb09c58cf653a366537cf436cef7e9ce31779f23a8a80032eb709",
-      "sizeBytes": 107666
+      "bundleSha256": "1186f6a9ee10c5dd6583c5503aed2b9f5c98dfb40190cb66725f824ad041529f",
+      "sizeBytes": 108064
     },
     {
       "valid": true,
@@ -25,8 +25,8 @@
       "hashFailures": [],
       "manifestValid": true,
       "deterministic": true,
-      "bundleSha256": "66289235d7e940f42051b714a5498d7cb00753a1977adcf20c77f3ce56056bd1",
-      "sizeBytes": 20441
+      "bundleSha256": "1dc7cfb248a5d7ef060f56a14a9120294f7ae7420b04b749ad483185c71eac6b",
+      "sizeBytes": 20842
     }
   ]
 }
