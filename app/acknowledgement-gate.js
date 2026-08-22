@@ -113,7 +113,7 @@ function createGate() {
       </p>
 
       <button type="submit" class="primary acknowledgement-enter" disabled>
-        Acknowledge &amp; enter
+        Acknowledge &amp; continue
       </button>
     </form>
   `;

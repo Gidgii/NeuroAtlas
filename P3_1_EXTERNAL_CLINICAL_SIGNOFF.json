@@ -57,12 +57,12 @@
     "schemaVersion": "1.0",
     "scope": "external-clinical-review",
     "algorithm": "sha256-text-lf-v1",
-    "capturedAt": "2026-08-21T22:12:46Z",
-    "digest": "2212f990b9b6a5f8044413bfea21547ffbcbd4dcb4dc60779a116f673f131676",
+    "capturedAt": "2026-08-22T04:51:24Z",
+    "digest": "4ae2f37711aea02d9b221546055e9b3cafcc65784a422467b8145f7be61f86a4",
     "files": [
       {
         "path": "P3_1_EXTERNAL_CLINICAL_REVIEW_PACK.md",
-        "sha256": "875e392c8def7c91ca53243974b013417ccbb0601d71e191e716e04cb5eef055"
+        "sha256": "8e1062664abacbfe3a6cef73fc62f0fd9e98509ef4ed0509c06cff683631ebf0"
       },
       {
         "path": "app/data/adaptive-information-processing.json",
@@ -75,6 +75,10 @@
       {
         "path": "app/data/autism-neurofeedback.json",
         "sha256": "8a7285c83871442462bb3c7fbed26d9ca0d7bb9fd30d296c4b1d730fadc2758f"
+      },
+      {
+        "path": "app/data/brain-bridge.json",
+        "sha256": "12ff13b5c94f137f17d3ce02f4a76ea50680fe3b43f4eb8073a361299a6325a6"
       },
       {
         "path": "app/data/complex-ptsd-neuroscience.json",

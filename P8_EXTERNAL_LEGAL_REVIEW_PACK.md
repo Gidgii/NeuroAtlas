@@ -11,7 +11,7 @@ Internal engineering, governance work, AI assistance, repository audits and auto
 Please review the current release for:
 
 1. Public disclaimer and limitation-of-use wording.
-2. The four-part acknowledgement design and the current local acceptance-record model.
+2. The four-part acknowledgement design, current local acceptance-record model, and transition from acknowledgement into the splash and Theory / Interactive Brain gateway.
 3. Copyright notices and the stated provenance boundary for repository assets.
 4. Third-party dependency and notice disclosures.
 5. The privacy position of the current local-only release.
@@ -37,6 +37,8 @@ The snapshot uses SHA-256 hashes over canonical LF-normalised text. Approval app
 - File: `app/legal/third-party-notices.html`
 - File: `app/acknowledgement-gate.js`
 - File: `app/acknowledgement-gate.css`
+- File: `app/experience-shell.js`
+- File: `app/experience-shell.css`
 - File: `app/index.html`
 - File: `app/data/release-manifest.json`
 - File: `requirements.txt`

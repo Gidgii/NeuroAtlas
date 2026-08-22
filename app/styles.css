@@ -182,3 +182,5 @@ main :where(button, a, input, select, textarea, summary, [tabindex]) {
     flex: 0 0 auto;
   }
 }
+
+@media(max-width:420px){.top-actions{gap:.2rem}}

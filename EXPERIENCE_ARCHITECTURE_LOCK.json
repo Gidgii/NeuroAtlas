@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0",
+  "status": "LOCKED-FOR-ARTWORK",
+  "product": "NeuroAtlas",
+  "entryFlow": [
+    "acknowledgement-if-required",
+    "splash",
+    "mode-gateway",
+    "selected-experience"
+  ],
+  "returningUserFlow": [
+    "splash",
+    "mode-gateway",
+    "selected-experience"
+  ],
+  "modes": {
+    "theory": {
+      "label": "Learn the Theory",
+      "primaryRoutes": [
+        "home",
+        "learn"
+      ]
+    },
+    "brain": {
+      "label": "Explore the Brain",
+      "primaryRoutes": [
+        "brain",
+        "interactive-concept"
+      ]
+    }
+  },
+  "sharedUtilities": [
+    "search",
+    "evidence",
+    "bookmarks",
+    "review",
+    "progress"
+  ],
+  "crossModeBridge": {
+    "bidirectional": true,
+    "theoryToBrain": true,
+    "brainToTheory": true,
+    "supportsNoDirectLocalisation": true,
+    "principle": "Interactive links are spatial learning anchors and must not imply that distributed, diagnostic, theoretical or contested concepts have a single validated brain location."
+  },
+  "artworkBoundary": {
+    "finalArtworkDeferred": true,
+    "splashArtworkStatus": "structural-placeholder",
+    "interactiveArtworkStatus": "existing-functional-art-retained",
+    "rule": "Do not begin final visual/artwork overhaul until this experience architecture has been manually accepted by the product owner."
+  },
+  "changeControl": "Changes to the locked entry flow, two-mode architecture or bidirectional bridge require an explicit product-owner decision."
+}

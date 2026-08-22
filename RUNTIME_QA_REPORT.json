@@ -1,10 +1,10 @@
 {
   "transport": "http",
-  "duration_seconds": 13.86,
+  "duration_seconds": 4.27,
   "summary": {
-    "passed": 29,
+    "passed": 36,
     "failed": 0,
-    "total": 29
+    "total": 36
   },
   "metrics": {
     "concepts": 249,
@@ -128,6 +128,11 @@
   "request_failures": [],
   "checks": [
     {
+      "name": "Disclaimer appears before splash or application",
+      "ok": true,
+      "detail": ""
+    },
+    {
       "name": "Acknowledgement gate accepts the current notice",
       "ok": true,
       "detail": ""
@@ -143,6 +148,21 @@
       "detail": ""
     },
     {
+      "name": "Accepted acknowledgement opens NeuroAtlas splash",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Splash opens two-mode Theory / Interactive Brain gateway",
+      "ok": true,
+      "detail": "mode_buttons=2"
+    },
+    {
+      "name": "Theory mode enters the main learning application",
+      "ok": true,
+      "detail": ""
+    },
+    {
       "name": "Home page has one primary heading",
       "ok": true,
       "detail": "See the brain differently."
@@ -151,6 +171,21 @@
       "name": "All curriculum levels render",
       "ok": true,
       "detail": "rendered=29 expected=29"
+    },
+    {
+      "name": "Interactive Brain gateway exposes all 25 planned structures",
+      "ok": true,
+      "detail": "structures=25"
+    },
+    {
+      "name": "Theory concepts link into relevant Interactive Brain views",
+      "ok": true,
+      "detail": "links=0"
+    },
+    {
+      "name": "Interactive Brain views link back to related theory",
+      "ok": true,
+      "detail": "reverse_links=11"
     },
     {
       "name": "Slash shortcut opens search",

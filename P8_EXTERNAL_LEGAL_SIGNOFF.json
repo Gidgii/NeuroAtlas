@@ -30,8 +30,8 @@
     "schemaVersion": "1.0",
     "scope": "external-legal-review",
     "algorithm": "sha256-text-lf-v1",
-    "capturedAt": "2026-08-21T22:12:47Z",
-    "digest": "451f40c0045b014c7f75326b8e9c172f226f7aeef339038da8afb70b25f7ffee",
+    "capturedAt": "2026-08-22T04:51:24Z",
+    "digest": "d6c706d45f606e94ee155dc6274c639d001c7cf7de9b7673455da5469062eed5",
     "files": [
       {
         "path": "COPYRIGHT.md",
@@ -43,7 +43,7 @@
       },
       {
         "path": "P8_EXTERNAL_LEGAL_REVIEW_PACK.md",
-        "sha256": "51bbe0793ab0dc675fb5aad220f71c88800daee04e6d1791b687a8cc4a1e5407"
+        "sha256": "12c2abe915a2e09882f93d050d04105648a77dfc585291a337cdf8550fed177b"
       },
       {
         "path": "P8_LEGAL_LICENSING_GOVERNANCE_REPORT.json",
@@ -59,15 +59,23 @@
       },
       {
         "path": "app/acknowledgement-gate.js",
-        "sha256": "ef64d69b92bbe393371346568bb74e47024697f447fb45354b5c6ce8f53d4644"
+        "sha256": "574169b52d011e1a02a09b7043a504c7845ad55ebdb9b7d6804e9d3f014534c4"
       },
       {
         "path": "app/data/release-manifest.json",
         "sha256": "a2da7eebed3c8fe2a799eb2ade7631efaa85914c8f7fd8d455d28737446a0902"
       },
       {
+        "path": "app/experience-shell.css",
+        "sha256": "6bca89c110075c5fdfc5c23a2473914fc554078bd1995a1068a4c015d4da9826"
+      },
+      {
+        "path": "app/experience-shell.js",
+        "sha256": "d2f62917c15f2567e9478f6a20b5862fdf31fe6d7f94dfdb7b9e02a2de267771"
+      },
+      {
         "path": "app/index.html",
-        "sha256": "416733ff73af603343631ab18fe4cb07d7dc14261c67e72cb8fa17d2bdbae455"
+        "sha256": "8528d8d7e50716046b03e0a56376e2e303695671a36b44cfdf25792ae30bce71"
       },
       {
         "path": "app/legal/disclaimer.html",

@@ -16,9 +16,29 @@ The current release manifest states:
 
 This review is bound to the `reviewSnapshot` stored in `P3_1_EXTERNAL_CLINICAL_SIGNOFF.json`.
 
-The snapshot uses SHA-256 hashes over canonical LF-normalised text. It covers this review pack, every canonical concept file listed below, and the shared evidence catalogue at `app/data/evidence-library.json`.
+The snapshot uses SHA-256 hashes over canonical LF-normalised text. It covers this review pack, every canonical concept file listed below, the cross-mode theory-to-anatomy map, and the shared evidence catalogue at `app/data/evidence-library.json`.
 
 The reviewer should only sign the review associated with the supplied snapshot digest. If any reviewed file changes after the snapshot is created, the public-v1 gate must treat that sign-off as stale until the changed material is independently reviewed again and a new snapshot is signed.
+
+## Cross-mode theory ↔ anatomy review
+
+NeuroAtlas now links selected theoretical concepts to interactive anatomical,
+network, pathway or circuit views and automatically generates reverse links
+from those interactive views back to theory.
+
+- File: `app/data/brain-bridge.json`
+
+Please review whether these links:
+
+1. provide a reasonable spatial learning anchor;
+2. avoid implying one-to-one localisation where the mechanism is distributed;
+3. avoid presenting diagnostic constructs as brain locations;
+4. preserve uncertainty for contested or theoretical mechanisms;
+5. appropriately use `noDirectLocalisation` where a direct brain jump would
+   be misleading.
+
+The mapping is educational navigation, not a claim that a concept can be
+diagnosed, caused or fully explained by the linked structure.
 
 ## Reviewer role
 

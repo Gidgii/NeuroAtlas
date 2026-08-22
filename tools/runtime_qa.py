@@ -115,14 +115,34 @@ def _build_injected_bundle() -> str:
     app_source = (APP / "app.js").read_text(encoding="utf-8")
     app_source = re.sub(r"^import\s+.*?;\s*$", "", app_source, flags=re.MULTILINE)
     chunks.append(app_source)
+
+    experience_source = (APP / "experience-shell.js").read_text(encoding="utf-8")
+    chunks.append(
+        "window.NeuroAtlasAcknowledgement = Object.freeze({accepted: true});\n" + experience_source
+    )
+
     return "\n\n".join(chunks)
 
 
 def _build_injected_html() -> tuple[str, dict[str, str]]:
     html = (APP / "index.html").read_text(encoding="utf-8")
     html = re.sub(r'<script\s+type="module"\s+src="app\.js"\s*></script>', "", html)
+    html = re.sub(
+        r'<script\s+type="module"\s+src="experience-shell\.js"\s*></script>',
+        "",
+        html,
+    )
     html = re.sub(r'<link\s+rel="stylesheet"\s+href="styles\.css"\s*/?>', "", html)
-    css = (APP / "styles.css").read_text(encoding="utf-8")
+    html = re.sub(
+        r'<link\s+rel="stylesheet"\s+href="experience-shell\.css"\s*/?>',
+        "",
+        html,
+    )
+    css = (
+        (APP / "styles.css").read_text(encoding="utf-8")
+        + "\n"
+        + (APP / "experience-shell.css").read_text(encoding="utf-8")
+    )
     html = html.replace("</head>", f"<style>{css}</style></head>")
     payloads = {f"./data/{p.name}": p.read_text(encoding="utf-8") for p in DATA.glob("*.json")}
     return html, payloads
@@ -174,6 +194,68 @@ def _accept_acknowledgement_gate(page: Any) -> bool:
     return bool(stored) and not form.is_visible()
 
 
+def _enter_theory_experience(
+    page: Any,
+    report: Report | None = None,
+) -> bool:
+    try:
+        splash = page.locator('.experience-screen[data-experience-stage="splash"]')
+        splash.wait_for(state="visible", timeout=5000)
+        splash_visible = splash.count() == 1 and splash.is_visible()
+
+        if report is not None:
+            report.add(
+                "Accepted acknowledgement opens NeuroAtlas splash",
+                splash_visible,
+            )
+
+        page.locator("[data-enter-atlas]").click()
+
+        gateway = page.locator('.experience-screen[data-experience-stage="gateway"]')
+        gateway.wait_for(state="visible", timeout=3000)
+
+        mode_buttons = page.locator("[data-experience-mode]")
+
+        gateway_ok = gateway.count() == 1 and gateway.is_visible() and mode_buttons.count() == 2
+
+        if report is not None:
+            report.add(
+                "Splash opens two-mode Theory / Interactive Brain gateway",
+                gateway_ok,
+                f"mode_buttons={mode_buttons.count()}",
+            )
+
+        page.locator('[data-experience-mode="theory"]').click()
+
+        page.wait_for_function(
+            "() => document.querySelector('#app')?.hidden === false",
+            timeout=3000,
+        )
+
+        app_visible = (
+            page.locator("#app").count() == 1
+            and page.locator("#app").is_visible()
+            and page.locator("#experienceRoot").is_hidden()
+        )
+
+        if report is not None:
+            report.add(
+                "Theory mode enters the main learning application",
+                app_visible,
+            )
+
+        return splash_visible and gateway_ok and app_visible
+
+    except Exception as exc:
+        if report is not None:
+            report.add(
+                "Experience gateway can be completed",
+                False,
+                str(exc),
+            )
+        return False
+
+
 def run_qa(transport: str, executable_path: str | None = None, headless: bool = True) -> Report:
     try:
         from playwright.sync_api import sync_playwright
@@ -210,6 +292,17 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         if transport == "http":
             server, url = _start_server()
             response = page.goto(url, wait_until="networkidle", timeout=15000)
+
+            disclaimer_first = (
+                page.locator("#acknowledgementGate").count() == 1
+                and page.locator("#acknowledgementGate").is_visible()
+                and page.locator("#experienceRoot").is_hidden()
+                and page.locator("#app").is_hidden()
+            )
+            report.add(
+                "Disclaimer appears before splash or application",
+                disclaimer_first,
+            )
 
             gate_accepted = _accept_acknowledgement_gate(page)
             report.add(
@@ -257,6 +350,13 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
             return report
 
         report.add("Application initialises", True)
+
+        if not _enter_theory_experience(page, report):
+            browser.close()
+            if server:
+                server.shutdown()
+            return report
+
         report.add(
             "Home page has one primary heading",
             page.locator("main h1").count() == 1,
@@ -269,6 +369,44 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         )
         report.metrics["concepts"] = len(concepts)
         report.metrics["levels"] = len(curriculum["levels"])
+
+        page.click('[data-route="brain"]')
+        brain_count = page.locator("[data-open-brain]").count()
+        report.add(
+            "Interactive Brain gateway exposes all 25 planned structures",
+            brain_count == 25,
+            f"structures={brain_count}",
+        )
+
+        page.evaluate(
+            "id => window.openAtlasConcept(id)",
+            "fear-extinction-trauma",
+        )
+
+        theory_brain_links = page.locator("[data-brain-link]")
+        forward_ok = theory_brain_links.count() >= 3
+
+        if forward_ok:
+            theory_brain_links.first.click()
+            bridge_context = page.locator(".brain-bridge-context").count() == 1
+            reverse_count = page.locator("[data-theory-link]").count()
+        else:
+            bridge_context = False
+            reverse_count = 0
+
+        report.add(
+            "Theory concepts link into relevant Interactive Brain views",
+            forward_ok and bridge_context,
+            f"links={theory_brain_links.count()}",
+        )
+
+        report.add(
+            "Interactive Brain views link back to related theory",
+            reverse_count > 0,
+            f"reverse_links={reverse_count}",
+        )
+
+        page.click('[data-route="home"]')
 
         # Search flow and keyboard accessibility.
         page.keyboard.press("/")
@@ -393,6 +531,7 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
         page.reload() if transport == "http" else None
         if transport == "http":
             _wait_for_app(page)
+            _enter_theory_experience(page)
         else:
             # State objects were created before storage was cleared. Recreate the page for a clean deterministic run.
             context.close()
@@ -429,6 +568,7 @@ def run_qa(transport: str, executable_path: str | None = None, headless: bool = 
             )
             page.add_script_tag(content=_build_injected_bundle())
             _wait_for_app(page)
+            _enter_theory_experience(page)
 
         page.evaluate("id => window.openAtlasConcept(id)", first["id"])
         page.click("[data-quiz]")

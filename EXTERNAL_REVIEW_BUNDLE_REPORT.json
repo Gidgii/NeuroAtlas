@@ -5,28 +5,28 @@
     {
       "valid": true,
       "scope": "clinical",
-      "bundle": "C:\\Users\\azlpe\\Downloads\\NeuroAtlas\\external-review-bundles\\neuroatlas-clinical-review-2212f990b9b6.zip",
-      "snapshotDigest": "2212f990b9b6a5f8044413bfea21547ffbcbd4dcb4dc60779a116f673f131676",
+      "bundle": "C:\\Users\\azlpe\\Downloads\\NeuroAtlas\\external-review-bundles\\neuroatlas-clinical-review-4ae2f37711ae.zip",
+      "snapshotDigest": "4ae2f37711aea02d9b221546055e9b3cafcc65784a422467b8145f7be61f86a4",
       "missingFiles": [],
       "unexpectedFiles": [],
       "hashFailures": [],
       "manifestValid": true,
       "deterministic": true,
-      "bundleSha256": "1186f6a9ee10c5dd6583c5503aed2b9f5c98dfb40190cb66725f824ad041529f",
-      "sizeBytes": 108064
+      "bundleSha256": "b4d2478c65290a8c19e3325acf5f3b7789591046c73a9ac9220e29bd0b526dae",
+      "sizeBytes": 113531
     },
     {
       "valid": true,
       "scope": "legal",
-      "bundle": "C:\\Users\\azlpe\\Downloads\\NeuroAtlas\\external-review-bundles\\neuroatlas-legal-review-451f40c0045b.zip",
-      "snapshotDigest": "451f40c0045b014c7f75326b8e9c172f226f7aeef339038da8afb70b25f7ffee",
+      "bundle": "C:\\Users\\azlpe\\Downloads\\NeuroAtlas\\external-review-bundles\\neuroatlas-legal-review-d6c706d45f60.zip",
+      "snapshotDigest": "d6c706d45f606e94ee155dc6274c639d001c7cf7de9b7673455da5469062eed5",
       "missingFiles": [],
       "unexpectedFiles": [],
       "hashFailures": [],
       "manifestValid": true,
       "deterministic": true,
-      "bundleSha256": "1dc7cfb248a5d7ef060f56a14a9120294f7ae7420b04b749ad483185c71eac6b",
-      "sizeBytes": 20842
+      "bundleSha256": "66c5d3a9c97962a4495ab369669f7a0eba3a85b9799ed30971cc12e611d05037",
+      "sizeBytes": 24399
     }
   ]
 }

@@ -109,6 +109,8 @@ def test_service_worker_has_unique_complete_production_coverage():
     expected_data_paths = {"./data/curriculum.json"}
     if (DATA / "details-bundle.json").is_file():
         expected_data_paths.add("./data/details-bundle.json")
+    if (DATA / "brain-bridge.json").is_file():
+        expected_data_paths.add("./data/brain-bridge.json")
     for path in DATA.glob("*.json"):
         if path.name == "curriculum.json":
             continue
